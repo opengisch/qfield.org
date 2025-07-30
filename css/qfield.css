@@ -986,14 +986,15 @@ div.explanation {
   .donation-btn {
     display: block;
     border: 2px solid var(--qfield-color);;
-    color: var(--qfield-color);;
+    color: var(--qfield-color);
     text-align: center;
     padding: 0.75rem;
     border-radius: 8px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     transition: background-color 0.2s, color 0.2s;
     margin-top: 10px;
+    background-color: white;
   }
 
   .donation-btn.selected,
@@ -1009,7 +1010,7 @@ div.explanation {
   background: none;
   font-weight: bold;
   padding: 0.5rem 1rem;
-  color: #000;
+  color: #212121;
   border-bottom: 3px solid transparent;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -1043,7 +1044,13 @@ div.explanation {
 
         .header-section {
             text-align: center;
-            margin: 50px 0 40px 0;
+            margin: 80px 0 50px 0;
+            max-width: 1100px;
+        }
+
+        .header-section h1 {
+            text-align: center;
+            margin-bottom: 30px;
         }
 
         .footer-section {
@@ -1085,7 +1092,7 @@ div.explanation {
         }
 
         .support-card {
-            background: rgba(220, 232, 245, 0.3);
+            background: rgba(228, 235, 226, 0.3);
             border-radius: 12px;
             padding: 35px;
             backdrop-filter: blur(10px);
@@ -1095,7 +1102,8 @@ div.explanation {
         .card-title {
             color: #2c3e50;
             margin-bottom: 20px;
-            text-align: center;
+            margin-left: 40px;
+            text-align: left;
         }
 
         .card-list {
