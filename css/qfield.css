@@ -850,10 +850,22 @@ div.explanation {
   border-radius: 12px;
   margin-top: 15px;
   color: var(--qfield-color);
+  gap: 10px;
+  margin: 0px 0px 0px 0px;
 }
 
+.link-btn {
+  margin-left: -10px !important;
+  padding: 0;
+  border: none;
+  border-radius: 12px;
+  margin-top: 15px;
+  color: var(--qfield-color);
+}
+
+
 .sm-btn:hover {
-  background-color: white;
+  background-color: none;
   color: var(--qfield-color);
   font-weight: normal;
   text-decoration: none;
