@@ -1,5 +1,6 @@
 :root {
   --qfield-color: #80cc28;
+  --qfieldcloud-color: #4a6fae;
 }
 
 body {
@@ -1185,12 +1186,12 @@ div.explanation {
 
 .green-link {
   color: var(--qfield-color);
-  font-weight: bolder;
+  font-weight: 400;
 }
 
 .green-link:hover {
-  color: #2c3e50;
-  text-decoration: none;
+  color: #212121;
+  font-weight: 500;
 }
 
 .card-list {
