@@ -1110,9 +1110,12 @@ div.explanation {
 .time-options {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
   cursor: pointer;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .donation-options {
@@ -1147,18 +1150,19 @@ div.explanation {
   color: white;
   padding: 10px 20px;
   border-radius: 30px;
+  border: 0.8px white;
   text-decoration: none !important;
   font-weight: bold;
   max-width: 200px;
   margin: 0 auto;
-  display: inline-block;
 }
 
 .donation-submit:hover {
   background-color: #fff;
   color: var(--qfield-color);
   text-decoration: none !important;
-  border: 1px solid var(--qfield-color);
+  border: 0.8px solid var(--qfield-color);
+  max-width: 200px;
 }
 
 .donate-btn {
