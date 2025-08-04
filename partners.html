@@ -51,12 +51,22 @@
 .panel.panel-default {
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .panel-body {
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 2;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .panel-body p {
@@ -224,7 +234,7 @@
     <section class="section-spacing">
       <div class="container">
         <ul class="nav nav-pills text-center" id="region-filters">
-          <li class="active"><a href="#" data-region="world">🌍 World</a></li>
+          <li class="active"><a class="filter-btn" href="#"data-region="world">🌍 World</a></li>
           <li><a href="#" data-region="europe">Europe</a></li>
           <li><a href="#" data-region="asia">Asia</a></li>
           <li><a href="#" data-region="north-america">North America</a></li>
@@ -254,13 +264,16 @@
                     They provide expertise in QGIS, PostGIS, and QField for data collection workflows
                     with comprehensive training and implementation services.
                   </p>
-                </div>
-                <div class="panel-footer clearfix">
-                  <a href="https://oslandia.com/en/" class="btn btn-success pull-left" target="_blank">Visit Website</a>
-                  <a href="#" class="pull-right" data-toggle="modal" data-target="#oslandiaModal">Learn More →</a>
+                  <p>
+                    <a href="#" data-toggle="modal" data-target="#oslandiaModal" style="color: var(--qfield-color); font-weight: bolder; text-decoration: none;">Read more...</a>
+                  </p>
+                  <div>
+                    <a href="https://oslandia.com/en/" class="btn btn-primary pull-left" target="_blank">Visit Website</a>
+                  </div>
                 </div>
               </div>
             </div>
+
             <!-- Partner: Astun -->
             <div class="col-sm-6 col-md-4">
               <div class="panel panel-default" data-region="europe">
@@ -281,13 +294,44 @@
                     creating, utilizing, and supporting open-source GIS
                     technologies in the UK.
                   </p>
+                  <p>
+                    <a href="#" data-toggle="modal" data-target="#astunModal" style="color: var(--qfield-color); font-weight: bolder; text-decoration: none;">Read more...</a>
+                  </p>
+                <div>
+                  <a href="https://www.astuntechnology.com/" class="btn btn-primary pull-left" target="_blank">Visit Website</a>
                 </div>
-                <div class="panel-footer clearfix">
-                  <a href="https://www.astuntechnology.com/" class="btn btn-success pull-left" target="_blank">Visit Website</a>
-                  <a href="#" class="pull-right" data-toggle="modal" data-target="#astunModal">Learn More →</a>
                 </div>
               </div>
             </div>
+
+          <!-- Partner: Kartoza -->
+            <div class="col-sm-6 col-md-4">
+              <div class="panel panel-default" data-region="europe africa">
+                <div class="panel-body">
+                  <div class="clearfix">
+                    <span class="label label-default pull-right">🇵🇹 Portugal | 🇿🇦 South Africa</span>
+                  </div>
+                  <h4 class="panel-title">
+                    <img
+                      src="images/partners/Kartoza-logo-vertical.svg"
+                      alt="Astun Technology"
+                      class="partner-logo"
+                    />
+                    Kartoza
+                  </h4>
+                  <p>
+                    Based in South Africa and Portugal, Kartoza helps organizations harness open source geospatial tech through expert support and services.
+                  </p>
+                  <p>
+                    <a href="#" data-toggle="modal" data-target="#kartozaModal" style="color: var(--qfield-color); font-weight: bolder; text-decoration: none;">Read more...</a>
+                  </p>
+                <div>
+                  <a href="https://kartoza.com/?srsltid=AfmBOopgp4nOuq-iMkikUPAwdL-qcPsu6AdOFMQsal152Zc4IjgohrSm" class="btn btn-primary pull-left" target="_blank">Visit Website</a>
+                </div>
+                </div>
+              </div>
+            </div>
+
         </div>
       </div>
     </section>
@@ -406,6 +450,7 @@
         </div>
       </div>
     </section>
+
     <!-- Partner Modal Dialogs -->
 <!-- Oslandia Modal -->
 <div class="modal fade" id="oslandiaModal" tabindex="-1" role="dialog" aria-labelledby="oslandiaModalLabel">
@@ -467,6 +512,38 @@
   </div>
 </div>
 
+<!-- Kartoza Modal -->
+<div class="modal fade" id="kartozaModal" tabindex="-1" role="dialog" aria-labelledby="kartozaModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="kartozaModalLabel">
+          <img src="images/partners/Kartoza-logo-vertical.svg" alt="Kartoza" class="partner-logo" style="width: 30px; height: 30px;">
+          Kartoza
+        </h4>
+      </div>
+      <div class="modal-body">
+        <p><strong>Location:</strong> 🇵🇹 Portugal | 🇿🇦 South Africa</p>
+        <p><strong>Services:</strong></p>
+        <ul>
+          <li>Geospatial consulting</li>
+          <li>Web development</li>
+          <li>Mobile GIS support</li>
+          <li>QGIS plugins</li>
+          <li>Open Source geospatial training</li>
+        </ul>
+        <p><strong>Expertise:</strong> Kartoza's vision is to enable a world where spatial decision making tools are universal, accessible and affordable for everyone for the benefit of the planet and the people that inhabit it. We would love to partner with you for training, development and maintenance of open source GIS systems.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a href="https://oslandia.com/en/" class="btn btn-success" target="_blank">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- Test Modal -->
 <div class="modal fade" id="testModal" tabindex="-1" role="dialog" aria-labelledby="testModalLabel">
   <div class="modal-dialog" role="document">
@@ -496,19 +573,21 @@
     </div>
   </div>
 </div>
-    <script lang="javascript">
-        $('#region-filters a').click(function(e) {
-        e.preventDefault();
-        $('#region-filters li').removeClass('active');
-        $(this).parent().addClass('active');
+<script lang="javascript">
+    $('#region-filters a').click(function(e) {
+    e.preventDefault();
+    $('#region-filters li').removeClass('active');
+    $(this).parent().addClass('active');
 
-        var region = $(this).data('region');
+    var region = $(this).data('region');
 
-        $('.panel').each(function() {
-          var matches = region === 'world' || $(this).data('region') === region;
-          $(this).closest('.col-sm-6').toggle(matches);
-        });
-      });
-    </script>
+    $('.panel').each(function() {
+      var cardRegions = $(this).data('region');
+      var matches = region === 'world' ||
+      (cardRegions && cardRegions.split(' ').includes(region));
+      $(this).closest('.col-sm-6').toggle(matches);
+    });
+  });
+</script>
   </body>
 </html>
