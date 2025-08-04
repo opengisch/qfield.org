@@ -1087,7 +1087,7 @@ div.explanation {
 /* donation page */
 .donation-btn {
   display: block;
-  border: 1px solid var(--qfield-color);
+  border: 0.7px solid var(--qfield-color);
   color: var(--qfield-color);
   text-align: center;
   padding: 0.75rem;
@@ -1104,6 +1104,15 @@ div.explanation {
   background-color: var(--qfield-color);
   color: white;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.time-options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
 }
 
 .donation-options {
@@ -1112,7 +1121,6 @@ div.explanation {
   max-width: 400px;
   margin: 0 auto;
 }
-
 
 .donation-tab {
   flex: 1;
