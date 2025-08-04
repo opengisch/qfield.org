@@ -1087,12 +1087,11 @@ div.explanation {
 /* donation page */
 .donation-btn {
   display: block;
-  border: 2px solid var(--qfield-color);
-  ;
+  border: 1px solid var(--qfield-color);
   color: var(--qfield-color);
   text-align: center;
   padding: 0.75rem;
-  border-radius: 8px;
+  border-radius: 30px;
   text-decoration: none;
   font-weight: bolder;
   transition: background-color 0.2s, color 0.2s;
@@ -1106,6 +1105,14 @@ div.explanation {
   color: white;
   text-decoration: none;
 }
+
+.donation-options {
+  display: grid;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 
 .donation-tab {
   flex: 1;
@@ -1130,17 +1137,27 @@ div.explanation {
   display: inline-block;
   background-color: var(--qfield-color);
   color: white;
-  padding: 0.75rem 2rem;
-  border-radius: 15px;
+  padding: 10px 20px;
+  border-radius: 30px;
   text-decoration: none !important;
   font-weight: bold;
+  max-width: 200px;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .donation-submit:hover {
   background-color: #fff;
   color: var(--qfield-color);
   text-decoration: none !important;
-  /* border: 2px solid var(--qfield-color); */
+  border: 1px solid var(--qfield-color);
+}
+
+.donate-btn {
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 /* reasons to support qfield*/
