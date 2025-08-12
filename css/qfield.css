@@ -1169,3 +1169,97 @@ div.explanation {
                 font-size: 1.2rem;
             }
         }
+
+/* partners page */
+/* Partner cards - fixed height */
+.partner-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-sm-6.col-md-4 {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.panel.panel-default {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.panel-body {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.panel-body p {
+  flex-grow: 1;
+}
+
+.panel-footer {
+  margin-top: auto;
+}
+
+/* Center filter bubbles */
+#region-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto 30px;
+  padding: 0;
+  float: none;
+  text-align: center;
+}
+
+.section-spacing .nav-pills {
+  float: none;
+  display: inline-flex;
+}
+
+.nav-pills > li {
+  float: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.partner-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  object-fit: contain;
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.panel-title {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  #region-filters {
+    max-width: 90%;
+  }
+
+  .nav-pills > li {
+    margin: 0 3px 10px;
+  }
+
+  .nav-pills li a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
