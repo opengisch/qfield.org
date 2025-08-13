@@ -1141,7 +1141,6 @@ div.explanation {
 .donation-tab.active {
   color: var(--qfield-color);
   border-bottom: 3px solid var(--qfield-color);
-  ;
 }
 
 .donation-submit {
