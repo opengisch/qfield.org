@@ -305,7 +305,6 @@ footer.footer {
   /* transition: all 0.5s ease; */
   background-color: #fff;
   margin: 2px;
-  ;
 }
 
 #customers .customer-card {
@@ -1141,7 +1140,6 @@ div.explanation {
 .donation-tab.active {
   color: var(--qfield-color);
   border-bottom: 3px solid var(--qfield-color);
-  ;
 }
 
 .donation-submit {
