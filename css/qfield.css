@@ -1326,14 +1326,10 @@ div.explanation {
   text-align: center;
   color: #212121;
   padding: 55px;
-  border-radius: 15px;
-  border-color: white;
-  margin-top: 20px;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
 }
 
 /* partners page */
-/* Partner cards - fixed height */
 .partner-row {
   display: flex;
   flex-wrap: wrap;
@@ -1432,4 +1428,9 @@ div.explanation {
   justify-content: center;
   }
 
+}
+
+.line {
+  border-top: 1px solid #ddd;
+  padding-top: 30px;
 }
