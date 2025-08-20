@@ -1430,8 +1430,10 @@ div.explanation {
 
 }
 
-
+/* low opacity separation line */
 .line {
   border-top: 1px solid #ddd;
   padding-top: 30px;
 }
+
+
