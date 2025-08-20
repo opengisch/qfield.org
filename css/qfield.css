@@ -1240,7 +1240,7 @@ div.explanation {
 .green-link {
   color: var(--qfield-color);
   font-weight: 400;
-}
+}+
 
 .green-link:hover {
   color: var(--qfield-color);
@@ -1429,6 +1429,7 @@ div.explanation {
   }
 
 }
+
 
 .line {
   border-top: 1px solid #ddd;
