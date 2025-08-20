@@ -1324,10 +1324,7 @@ div.explanation {
 .alert {
   max-width: 600px;
   text-align: center;
-  justify-content: center;
-  color: #212121;
-  padding: 55px;
-  margin: 20px auto;
+  margin: 20px auto 0;
 }
 
 /* partners page */
