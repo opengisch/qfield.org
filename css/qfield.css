@@ -1324,9 +1324,7 @@ div.explanation {
 .alert {
   max-width: 600px;
   text-align: center;
-  color: #212121;
-  padding: 55px;
-  margin: 20px auto;
+  margin: 20px auto 0;
 }
 
 /* partners page */
@@ -1430,6 +1428,7 @@ div.explanation {
 
 }
 
+/* low opacity separation line */
 .line {
   border-top: 1px solid #ddd;
   padding-top: 30px;
