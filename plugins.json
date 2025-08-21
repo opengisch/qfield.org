@@ -48,8 +48,8 @@
     "name": "Vocal QField",
     "description": "Use your device text recognition for quick digitizing of feature attributes.",
     "icon": "https://github.com/SeqLaz/vocalpoint-qfield-plugin/raw/refs/heads/main/vocalpoint-qfield-plugin/icon.svg",
-    "version": "0.1",
-    "download": "https://github.com/SeqLaz/vocalpoint-qfield-plugin/releases/download/v0.2.0/vocalpoint-qfield-plugin.zip",
+    "version": "0.4",
+    "download": "https://github.com/SeqLaz/vocalpoint-qfield-plugin/releases/download/v0.4.0/vocalpoint-qfield-plugin.zip",
     "minimum_version": "3.6.0",
     "homepage": "https://github.com/SeqLaz/vocalpoint-qfield-plugin",
     "author": "OPENGIS.ch"
