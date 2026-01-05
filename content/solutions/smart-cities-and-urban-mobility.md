@@ -19,7 +19,7 @@ hero:
   headline: "Map and maintain smart city infrastructure"
   sub: "Collect sensor locations, mobility assets, and conditions with offline support."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Rapidly evolving assets and updates"
   - "Complex data models and QA needs"

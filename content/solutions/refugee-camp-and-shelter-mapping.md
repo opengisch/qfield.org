@@ -19,7 +19,7 @@ hero:
   headline: "Plan and manage shelters with accurate field data"
   sub: "Map shelters, services, and infrastructure with offline support and standardized forms."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Difficult environments and offline needs"
   - "Rapid changes and updates"

@@ -19,7 +19,7 @@ hero:
   headline: "Accurate field data for public safety"
   sub: "Record incidents, patrols, and hazards with photos and forms—even without connectivity."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Sensitive data and permissions"
   - "Varied forms and inconsistent codes"

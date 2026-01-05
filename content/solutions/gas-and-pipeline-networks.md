@@ -19,7 +19,7 @@ hero:
   headline: "Confidently manage pipeline data in the field"
   sub: "Collect alignments, crossings, and inspection data with forms and photo evidence—even offline."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Remote corridors and safety constraints"
   - "Inconsistent inspection records"
