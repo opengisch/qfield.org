@@ -9,6 +9,24 @@ themeColor: "#80CC28"         # Primary green accent
 defaultTheme: "light"
 highlight: true
 enableScrollToTop: true
+module:
+  mounts:
+    - source: "archetypes"
+      target: "archetypes"
+    - source: "assets"
+      target: "assets"
+    - source: "content"
+      target: "content"
+    - source: "data"
+      target: "data"
+    - source: "i18n"
+      target: "i18n"
+    - source: "layouts"
+      target: "layouts"
+    - source: "static"
+      target: "static"
+    - source: "static/conferences-projects"
+      target: "static/download"
 pagination:
   pagerSize: 12
 
