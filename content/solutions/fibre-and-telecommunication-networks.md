@@ -19,7 +19,7 @@ hero:
   headline: "Speed up telecom planning, build, and as-built"
   sub: "Stake out routes, capture as-built geometries, and attach photos for QA."
   ctaText: "See a sample project"
-  ctaUrl: "/download/ftth-sample/"
+  ctaUrl: "https://docs.qfield.org/get-started/sample-projects/"
 pains:
   - "Paper-based redlines and scattered evidence"
   - "Inconsistent IDs and splice documentation"

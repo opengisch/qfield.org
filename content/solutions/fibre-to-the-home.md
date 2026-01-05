@@ -18,8 +18,8 @@ sitemap:
 hero:
   headline: "Accelerate FTTH rollout"
   sub: "Design routes, capture as-built data, and validate QA in the field."
-  ctaText: "See a FTTH sample project"
-  ctaUrl: "/download/ftth-sample/"
+  ctaText: "See a sample project"
+  ctaUrl: "https://docs.qfield.org/get-started/sample-projects/"
 
 pains:
   - "Paper redlines slow construction handover"
@@ -53,4 +53,4 @@ Network planners, construction crews, and QA teams delivering last-mile fibre. K
 3) **QA & Handover:** review in QFieldCloud, resolve conflicts, export to PostGIS/GeoPackage
 
 ## Next steps
-**→ See a FTTH sample project:** /download/ftth-sample/
+**→ See a FTTH sample project:** https://docs.qfield.org/get-started/sample-projects/

@@ -19,7 +19,7 @@ hero:
   headline: "Reliable ESG field data for reporting"
   sub: "Standardize collection, attach evidence, and sync across teams with QFieldCloud."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Inconsistent metrics and definitions"
   - "Fragmented photos and documents"

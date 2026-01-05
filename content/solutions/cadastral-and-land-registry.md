@@ -19,7 +19,7 @@ hero:
   headline: "Reliable cadastral field verification"
   sub: "Collect parcel evidence, boundaries, and photos with validation and offline maps."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Need for accurate positioning and QA"
   - "Inconsistent forms and codes across teams"

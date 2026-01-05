@@ -19,7 +19,7 @@ hero:
   headline: "Document cultural data with precision"
   sub: "Record sites, contexts, and observations with standardized forms and photo evidence."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Remote field sites and offline needs"
   - "Standardization and traceability of records"

@@ -19,7 +19,7 @@ hero:
   headline: "Collect EUDR data consistently and offline"
   sub: "Map plots, capture evidence, and maintain auditable records with QField and QFieldCloud."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Remote areas and offline workflows"
   - "Complex reporting and traceability requirements"

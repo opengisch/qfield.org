@@ -19,7 +19,7 @@ hero:
   headline: "Reliable field data for humanitarian response"
   sub: "Collect standardized assessments, locations, and beneficiary data with offline capability."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Challenging environments and logistics"
   - "Need for consistent forms and codes"

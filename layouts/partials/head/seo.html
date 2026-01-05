@@ -28,6 +28,12 @@
   <meta name="bingbot" content="{{ $robotsDirectives }}">
 {{- end }}
 
+{{- $redirectTarget := .Params.redirectTo -}}
+{{- if $redirectTarget }}
+  {{- $redirectDelay := .Params.redirectDelay | default 0 -}}
+  <meta http-equiv="refresh" content="{{ $redirectDelay }};url={{ $redirectTarget | safeURL }}">
+{{- end }}
+
 <!-- canonical tag -->
 <link rel="canonical" href="{{ .Permalink | safeURL }}">
 

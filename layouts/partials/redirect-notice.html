@@ -1,0 +1,19 @@
+{{- /* Shared redirect fallback section */ -}}
+{{- $ctx := .Page | default . -}}
+{{- $defaultTarget := .DefaultTarget | default "" -}}
+{{- $target := $ctx.Params.redirectTo | default $defaultTarget -}}
+{{- $defaultLabel := .DefaultLabel | default $target -}}
+{{- $label := $ctx.Params.redirectLinkLabel | default $defaultLabel -}}
+{{- $defaultMessage := .DefaultMessage | default "Redirecting, please wait." -}}
+{{- $message := $ctx.Params.redirectMessage | default $defaultMessage -}}
+{{- if $target }}
+<section class="redirect-notice py-5">
+  <div class="container text-center">
+    <p class="lead mb-3">{{ $message }}</p>
+    <p><a class="btn btn-primary" href="{{ $target | safeURL }}" rel="noopener">{{ $label }}</a></p>
+    <p class="text-muted small">If the automatic redirect does not start, use the link above.</p>
+  </div>
+</section>
+{{- else }}
+<!-- redirect target missing; nothing to render -->
+{{- end }}

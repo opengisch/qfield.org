@@ -18,8 +18,8 @@ sitemap:
 hero:
   headline: "Survey forests faster with QField"
   sub: "Collect, validate, and sync data even without connectivity."
-  ctaText: "Start with a template"
-  ctaUrl: "/download/forestry-template/"
+  ctaText: "See a sample project"
+  ctaUrl: "https://docs.qfield.org/get-started/sample-projects/"
 
 pains:
   - "No signal in forest plots"

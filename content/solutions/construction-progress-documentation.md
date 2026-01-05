@@ -19,7 +19,7 @@ hero:
   headline: "Keep progress records clear and auditable"
   sub: "Capture photos and updates linked to locations and features, even offline."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Scattered progress evidence"
   - "Version conflicts on site"

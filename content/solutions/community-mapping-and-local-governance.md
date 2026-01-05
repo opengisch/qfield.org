@@ -19,7 +19,7 @@ hero:
   headline: "Build better decisions with community data"
   sub: "Collect locations, issues, and services with guided forms and offline support."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Varying skills and device access"
   - "Data quality and validation"

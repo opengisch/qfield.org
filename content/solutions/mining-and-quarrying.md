@@ -19,7 +19,7 @@ hero:
   headline: "Collect accurate data across mine sites"
   sub: "Map features, record samples, and document inspections even without connectivity."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Harsh environments and offline workflows"
   - "Fragmented field notes and photos"

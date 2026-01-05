@@ -19,7 +19,7 @@ hero:
   headline: "Keep grid data accurate from tower to transformer"
   sub: "Collect assets, inspect conditions, and attach photo evidence—even offline."
   ctaText: "Talk to us"
-  ctaUrl: "/support/"
+  ctaUrl: "/assistance/"
 pains:
   - "Remote corridors without connectivity"
   - "Inconsistent inspection forms and codes"
