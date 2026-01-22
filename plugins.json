@@ -4,8 +4,8 @@
     "name": "OSRM Routing",
     "description": "Provides routing visualization within QField",
     "icon": "https://raw.githubusercontent.com/opengisch/qfield-osrm/refs/heads/main/icon.svg",
-    "version": "1.0",
-    "download": "https://github.com/opengisch/qfield-osrm/releases/download/v1.0/qfield-osrm-routing.zip",
+    "version": "1.1",
+    "download": "https://github.com/opengisch/qfield-osrm/releases/download/v1.1/qfield-osrm-routing-v1.1.zip",
     "minimum_version": "3.6.0",
     "homepage": "https://github.com/opengisch/qfield-osrm",
     "author": "OPENGIS.ch"
@@ -15,8 +15,8 @@
     "name": "OpenStreetMap Nominatim Search",
     "description": "Integrates OpenStreetMap Nominatim results into the search bar through the osm prefix",
     "icon": "https://raw.githubusercontent.com/opengisch/qfield-nominatim-locator/refs/heads/main/icon.svg",
-    "version": "1.4",
-    "download": "https://github.com/opengisch/qfield-nominatim-locator/releases/download/v1.4/qfield-nominatim-locator-v1.4.zip",
+    "version": "1.5",
+    "download": "https://github.com/opengisch/qfield-nominatim-locator/releases/download/v1.5/qfield-nominatim-locator-v1.5.zip",
     "minimum_version": "3.6.0",
     "homepage": "https://github.com/opengisch/qfield-nominatim-locator",
     "author": "OPENGIS.ch"
@@ -48,8 +48,8 @@
     "name": "Vocal QField",
     "description": "Use your device text recognition for quick digitizing of feature attributes.",
     "icon": "https://github.com/SeqLaz/vocalpoint-qfield-plugin/raw/refs/heads/main/vocalpoint-qfield-plugin/icon.svg",
-    "version": "0.4",
-    "download": "https://github.com/SeqLaz/vocalpoint-qfield-plugin/releases/download/v0.4.0/vocalpoint-qfield-plugin.zip",
+    "version": "0.5",
+    "download": "https://github.com/SeqLaz/vocalpoint-qfield-plugin/releases/download/v0.5.0/vocalpoint-qfield-plugin.zip",
     "minimum_version": "3.6.0",
     "homepage": "https://github.com/SeqLaz/vocalpoint-qfield-plugin",
     "author": "OPENGIS.ch"
@@ -70,8 +70,8 @@
     "name": "GeoMapFish Search",
     "description": "Adds GeoMapFish services into the search bar.",
     "icon": "https://github.com/opengisch/qfield-geomapfish-locator/raw/refs/heads/main/icon.svg",
-    "version": "1.4",
-    "download": "https://github.com/opengisch/qfield-geomapfish-locator/releases/download/v1.4/qfield-geomapfish-locator-v1.4.zip",
+    "version": "1.5",
+    "download": "https://github.com/opengisch/qfield-geomapfish-locator/releases/download/v1.5/qfield-geomapfish-locator-v1.5.zip",
     "minimum_version": "3.6.0",
     "homepage": "https://github.com/opengisch/qfield-geomapfish-locator",
     "author": "OPENGIS.ch"
