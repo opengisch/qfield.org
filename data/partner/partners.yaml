@@ -1,5 +1,5 @@
 - id: opengis
-  name:  OPENGIS.ch
+  name: OPENGIS.ch
   regions:
     - europe
     - asia
@@ -13,20 +13,19 @@
     src: "images/partners/logo_opengisch_open-source-geoninjas.webp"
     alt: "OPENGIS.ch"
   description: |
-        OPENGIS.ch is a Swiss open-source geospatial company and the team behind QField. We design and maintain QField and QFieldCloud to bring professional, reliable fieldwork to QGIS users worldwide, with a strong focus on open standards, quality, and long-term sustainability.
+    OPENGIS.ch is a Swiss open-source geospatial company and the team behind QField. We design and maintain QField and QFieldCloud to bring professional, reliable fieldwork to QGIS users worldwide, with a strong focus on open standards, quality, and long-term sustainability.
   website:
     url: "http://opengis.ch"
-
   modal:
     services:
-    - "QField implementation and training"
-    - "QField features development"
-    - "QField plugin development and customization"
-    - "QField RTK antennas integration"
-    - "QFieldCloud dedicated and On-Prem installations"
+      - "QField implementation and training"
+      - "QField features development"
+      - "QField plugin development and customization"
+      - "QField RTK antennas integration"
+      - "QFieldCloud dedicated and On-Prem installations"
     expertise: |
       We support organisations with QField implementation and training, develop new QField features and plugins, integrate RTK antennas, and deliver QFieldCloud solutions including dedicated and on-prem installations.
-      
+
 - id: oslandia
   name: Oslandia
   regions:
@@ -40,7 +39,6 @@
     Oslandia is a French company specialized in open source GIS solutions. They provide expertise in QGIS, PostGIS, and QField for data collection workflows with comprehensive training and implementation services.
   website:
     url: "https://oslandia.com/en"
-
   modal:
     services:
       - "QField implementation and workflow setup"
@@ -63,7 +61,6 @@
     Meet our partner – one of the most recognizable companies creating, utilizing, and supporting open-source GIS technologies in the UK.
   website:
     url: "https://www.astuntechnology.com"
-
   modal:
     services:
       - "QField implementation and training"
@@ -88,7 +85,6 @@
     Based in South Africa and Portugal, Kartoza helps organizations harness open source geospatial tech through expert support and services.
   website:
     url: "https://kartoza.com"
-
   modal:
     services:
       - "Geospatial consulting"
@@ -112,7 +108,6 @@
     Engineering, environmental, and surveying consultancy. Specialists in environmental licensing and GIS solutions for the Brazilian market.
   website:
     url: "https://projectree.com.br"
-
   modal:
     services:
       - "Engineering"
@@ -137,7 +132,6 @@
     Based in Australia, Mammoth Geospatial specialises in open source geospatial systems. We provide expert support, consulting, and training in QGIS, PostGIS, QField, and web mapping systems.
   website:
     url: "https://mammothgeospatial.com"
-
   modal:
     services:
       - "Open geospatial consulting"
@@ -165,7 +159,6 @@
     Based in Germany, FeelGood GeoSolutions makes mobile GIS easy with open-source tools and precise GNSS—so you can focus on your real work.
   website:
     url: "https://www.feelgoodgeosolutions.de"
-
   modal:
     services:
       - "Enterprise GIS consulting, design and implementation"
@@ -190,7 +183,6 @@
     Gispo is a full service GIS house, providing spatial data services for our customers. We specialise in Free and Open Source Software for Geospatial (FOSS4G) tools and technologies.
   website:
     url: "https://www.gispo.fi/en"
-
   modal:
     services:
       - "Consulting"
@@ -214,7 +206,6 @@
     A leading Polish provider of Open Source GIS (IT/GIS & workshops). Company offers customized IT solutions based on the FOSS4G ecosystem (desktop, web, mobile, DB) while providing technical support (SLA).
   website:
     url: "https://envirosolutions.pl"
-
   modal:
     services:
       - "Custom GIS solutions"
@@ -226,7 +217,7 @@
       EnviroSolutions is a Polish leader in Open-Source GIS with a team of 20+ experienced experts. Their team develop customized systems and tools for FOSS4G ecosystem and provide workshops with experts. Services are delivered to both private and public sector institutions. With a strong mission to promote open geospatial technologies, EnviroSolutions actively supports the international QGIS community and contributes to initiatives such as QGIS Poland Association, fostering the growth and accessibility of FOSS4G worldwide.
 
 - id: ig-group
-  name:  IG group SA
+  name: IG group SA
   regions:
     - europe
   locations:
@@ -238,14 +229,13 @@
     IG group SA is an engineering and surveying firm in Switzerland that provides surveying, geomonitoring, photogrammetry, civil engineering and geoinformatics services.
   website:
     url: "http://ig-group.ch/"
-
   modal:
     services:
-    - "Data model development"
-    - "QField survey interfaces"
-    - "Precision QField surveying with RTK antenna"
-    - "Geoportal development"
-    - "GIS Process development"
+      - "Data model development"
+      - "QField survey interfaces"
+      - "Precision QField surveying with RTK antenna"
+      - "Geoportal development"
+      - "GIS Process development"
     expertise: |
       We specialize in addressing the needs of Swiss public administrations by supporting their GIS processes and GIS data management, including requirements for mobile data acquisition. Our expertise extends, for example, to high-precision measurements using RTK antennas, as well as the deployment of TEKSI public infrastructure management modules.
 
@@ -262,16 +252,14 @@
     COFT specializes in the digital optimization of spatial data workflows, combining GIS, mobile data collection, automation, and visual communication.
   website:
     url: "http://coft.lu"
-
   modal:
     services:
-    - "Mobile data collection (QGIS/QField)"
-    - "Automated data processing & reports"
-    - "Interactive maps & visualizations"
-    - "Technical drawing & 3D modeling"
+      - "Mobile data collection (QGIS/QField)"
+      - "Automated data processing & reports"
+      - "Interactive maps & visualizations"
+      - "Technical drawing & 3D modeling"
     expertise: |
       COFT designs efficient digital workflows for spatial planning and analysis, combining GIS-based data collection, mobile field surveys, and automated data processing. In addition, COFT enhances the communicative side of planning through technical drawings, presentation design, and 3D modelling. This reduces manual effort and helps clients understand and use complex spatial data.
-
 
 - id: ebp
   name: EBP
@@ -286,13 +274,12 @@
     EBP is a consulting and engineering firm with about 500 experts dedicated to making a meaningful impact on sustainable development for more than 40 years.
   website:
     url: "http://ebp.global/ch-en"
-
   modal:
     services:
-    - "GIS and IT Consulting"
-    - "System Design and UX/UI Design"
-    - "Software Development"
-    - "Data Engineering and Data Science"
-    - "Project Management"
+      - "GIS and IT Consulting"
+      - "System Design and UX/UI Design"
+      - "Software Development"
+      - "Data Engineering and Data Science"
+      - "Project Management"
     expertise: |
       We support clients with customized IT and geospatial solutions that users understand and enjoy – from methodology, concept design and project management to implementation and operation. With data analysis, we extract insights for sound decision-making. And we assist clients with concepts and studies regarding to strategy, organization and infrastructure.
