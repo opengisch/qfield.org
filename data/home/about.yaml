@@ -13,7 +13,7 @@ sections:
       Developing QField under this license means that you can inspect and modify the source code and guarantees that you will always have access to a QGIS based field data collection app that is free of cost and can be freely modified.
   - title: "Privacy"
     body: |
-      View the QField [Privacy Policy](/privacy_policy.html) to learn what information is collected, how it is used, and how we protect it.
+      View the QField [Privacy Policy](/privacy_policy) to learn what information is collected, how it is used, and how we protect it.
   - title: "Credits"
     body: |
       QField, QFieldCloud and QFieldSync are developed by [OPENGIS.ch](https://www.opengis.ch/).
