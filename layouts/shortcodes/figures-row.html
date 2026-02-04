@@ -1,0 +1,4 @@
+{{- $class := .Get "class" | default "support-figure-grid" -}}
+<div class="{{ $class }}">
+  {{- .Inner | safeHTML -}}
+</div>

@@ -1,0 +1,123 @@
+{{ define "main" }}
+
+<!-- Section #1: title -->
+<section class="py-5 text-center bg-light mb-3">
+  <div class="container">
+    <h1 class="display-4 mb-4">QField Blog</h1>
+    <p class="lead mb-0">
+      Stay updated with the latest QField news, releases, tutorials, and insights from the field data collection community.
+    </p>
+  </div>
+</section>
+
+<!-- Blog posts grid -->
+<section class="py-1">
+  <div class="container">
+    <div class="d-flex justify-content-end align-items-center gap-2 mb-4 blog-view-controls" data-blog-view-controls>
+      <span class="text-muted small">View:</span>
+      <div class="btn-group" role="group" aria-label="Toggle blog layout">
+        <button type="button" class="btn btn-outline-secondary btn-sm blog-view-toggle" data-blog-view-toggle data-view="cards" aria-pressed="false">Cards</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm blog-view-toggle active" data-blog-view-toggle data-view="list" aria-pressed="true">List</button>
+      </div>
+    </div>
+
+    {{ $paginator := .Paginator }}
+    {{ $pages := $paginator.Pages }}
+
+    <!-- Blog posts grid -->
+    <div class="row g-4 blog-view blog-view--list" id="blogViewGrid" data-blog-view-grid>
+      {{ range $index, $page := $pages }}
+          {{ $image := "" }}
+          {{ $imageURL := "" }}
+          {{ $alt := $page.Title }}
+          {{ with $page.Params.cover }}
+            {{ with .image }}{{ $image = . }}{{ end }}
+            {{ with .alt }}{{ $alt = . }}{{ end }}
+          {{ end }}
+          {{ if eq $image "" }}
+            {{ with $page.Params.image }}{{ $image = . }}{{ end }}
+          {{ end }}
+          {{ if hasPrefix $image "/blog/wp-content/" }}
+            {{ $image = replace $image "/blog/wp-content/" "/wp-content/" }}
+          {{ end }}
+          {{ if ne $image "" }}
+            {{ $resource := $page.Resources.GetMatch $image }}
+            {{ if $resource }}
+              {{ $imageURL = $resource.RelPermalink }}
+            {{ else if or (hasPrefix $image "http://") (hasPrefix $image "https://") }}
+              {{ $imageURL = $image }}
+            {{ else if hasPrefix $image "/" }}
+              {{ $imageURL = $image | relURL }}
+            {{ else }}
+              {{ $imageURL = printf "%s%s" $page.RelPermalink $image }}
+            {{ end }}
+          {{ end }}
+          <div class="col-md-6 col-lg-4 col-blog-card">
+            <article class="card blog-card h-100 border-0 shadow-sm{{ if $imageURL }} blog-card--has-image{{ else }} blog-card--no-image{{ end }}">
+              <div class="position-relative overflow-hidden blog-card__media">
+                {{ if $imageURL }}
+                  <img src="{{ $imageURL }}" alt="{{ $alt }}" class="card-img-top" style="height: 200px; object-fit: cover;">
+                {{ else }}
+                  <img src="{{ "/images/qfield_blog_default.png" | relURL }}" alt="QField Blog" class="card-img-top" style="height: 200px; object-fit: cover;">
+                {{ end }}
+                <div class="position-absolute top-0 end-0 m-2">
+                  <span class="badge bg-dark bg-opacity-75">
+                    {{ $page.Date.Format "Jan 2, 2006" }}
+                  </span>
+                </div>
+              </div>
+
+              <div class="card-body d-flex flex-column blog-card__body">
+                <h3 class="card-title h5 fw-semibold">
+                  <a href="{{ $page.RelPermalink }}" class="text-decoration-none text-dark stretched-link">{{ $page.Title }}</a>
+                </h3>
+                {{ if $page.Summary }}
+                <p class="text-dark flex-grow-1">
+                  {{ $page.Summary | plainify | truncate 140 "…" }}
+                </p>
+                {{ end }}
+                <div class="d-flex justify-content-between align-items-center mt-auto pt-2">
+                  {{ with $page.Params.author }}
+                  <small class="text-dark">By {{ . }}</small>
+                  {{ end }}
+                  <small class="text-dark fw-semibold">Read More →</small>
+                </div>
+              </div>
+            </article>
+          </div>
+      {{ end }}
+        </div>
+
+    <!-- Pagination -->
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav aria-label="Blog pagination" class="mt-5">
+      <ul class="pagination justify-content-center">
+        {{ if $paginator.HasPrev }}
+        <li class="page-item">
+          <a class="page-link" href="{{ $paginator.Prev.URL }}">
+            <i class="fas fa-chevron-left me-1"></i> Previous
+          </a>
+        </li>
+        {{ end }}
+
+        {{ range $paginator.Pagers }}
+        <li class="page-item {{ if eq . $paginator }}active{{ end }}">
+          <a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a>
+        </li>
+        {{ end }}
+
+        {{ if $paginator.HasNext }}
+        <li class="page-item">
+          <a class="page-link" href="{{ $paginator.Next.URL }}">
+            Next <i class="fas fa-chevron-right ms-1"></i>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+    {{ end }}
+
+  </div>
+</section>
+
+{{ end }}

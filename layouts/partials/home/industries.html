@@ -1,0 +1,51 @@
+{{- $page := .page -}}
+{{- with $page.Params.industries }}
+  {{- $title := .title -}}
+  {{- $description := .description -}}
+  {{- $items := .items | default (slice) -}}
+  {{- if or $title $description }}
+<section class="section-spacing text-center">
+  <div class="container ">
+    {{- if $title }}<h2>{{ $title }}</h2>{{ end }}
+    {{- if $description }}<p>{{ $description }}</p>{{ end }}
+  </div>
+</section>
+  {{- end }}
+  {{- if gt (len $items) 0 }}
+<section class="industries-carousel-section">
+  <div class="industries-carousel-wrapper">
+    <div class="industries-rows">
+      {{- range $index, $item := $items }}
+        {{- if eq (mod $index 4) 0 }}
+          {{- if gt $index 0 }}</div>{{ end }}
+          <div class="industries-row-4">
+        {{- end }}
+        {{- $href := $item.url | default "#" -}}
+        {{- if hasPrefix $href "/" }}
+          {{- $href = relLangURL $href -}}
+        {{- end }}
+        {{- $imageSrc := $item.image -}}
+        {{- if and $imageSrc (not (hasPrefix $imageSrc "http")) }}
+          {{- $imageSrc = relURL $imageSrc -}}
+        {{- end }}
+        {{- $imageClasses := slice "industry-image" -}}
+        {{- range $item.image_modifiers }}{{ $imageClasses = $imageClasses | append . }}{{ end }}
+        <a href="{{ $href | safeURL }}">
+          <div class="industries-carousel-slide">
+            <div class="item">
+              {{- if $imageSrc }}
+              <img src="{{ $imageSrc }}" alt="{{ $item.title }}" class="{{ delimit $imageClasses " " }}">
+              {{- end }}
+              <div class="industry-overlay">
+                <div class="industry-title">{{ $item.title }}</div>
+              </div>
+            </div>
+          </div>
+        </a>
+      {{- end }}
+      </div>
+    </div>
+  </div>
+</section>
+  {{- end }}
+{{- end }}

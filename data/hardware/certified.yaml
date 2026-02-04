@@ -1,0 +1,49 @@
+- id: happy-mini-q
+  name: "Happy Mini Q"
+  image:
+    src: "images/partners/happy-mini-q.jpg"
+    alt: "Happy MiniQ"
+  description: |
+    The Happy MiniQ is a 170 gramms sub-centimetre precision GNSS with IMU built explicitly for QField
+  details: |
+    The HAPPY MINI Q is small and light but keeps all the features of the big boys: 1408 channels, full-constellation antenna, IMU and excellent performance specially in complex environments.
+  link:
+    url: "https://happy-q.com"
+    text: "Buy now"
+
+- id: happy-monch-2
+  name: "Happy Monch 2"
+  image:
+    src: "images/partners/happy-monch-2.png"
+    alt: "Happy Monch 2"
+  description: |
+    The HAPPY MÖNCH II is a fantastic sensor that offers exceptional working speed with uncompromising accuracy. The state-of-the-art technology it is equipped with ensures a lightning-fast fix with centimeter precision.
+  link:
+    url: "https://www.happysurvey.ch/de/gnss-rtk/moench-ii/"
+    text: "Buy now"
+
+- id: samsung-tab-active-5
+  name: "Samsung Tab Active 5"
+  image:
+    src: "https://images.samsung.com/is/image/samsung/p6pim/uk/feature/165074157/uk-feature-tablets-540309214?$FB_TYPE_K_JPG$"
+    alt: "Samsung Tab Active 5"
+  description: |
+    The Tab Active5 is a powerhouse inside and out. Fuelled by a Exynos 1380 processor and memory that is expandable to up 1TB with a MicroSD card1, this tablet is ready for any task you throw at it.
+  details: |
+    Empower frontline teams with the rugged Samsung Galaxy Tab Active5—our toughest tablet yet. Designed for the harshest environments, it's glove and dirt-friendly, thanks to its adaptable touch screen and compatible S Pen. Keep tapping, typing and sketching without missing a beat.
+  link:
+    url: "https://www.samsung.com/ch/business/tablets/galaxy-tab-active/galaxy-tab-active5-5g-sm-x306bzgaeee/"
+    text: "Buy now"
+
+- id: samsung-xcover-7
+  name: "Samsung XCover 7"
+  image:
+    src: "https://images.samsung.com/is/image/samsung/p6pim/uk/feature/165074142/uk-feature-smartphones-540309101?$FB_TYPE_K_JPG$"
+    alt: "Samsung XCover 7"
+  description: |
+    The Galaxy XCover7 is like the superhero of rugged phones. It's built to MIL-STD-810H standards
+  details: |
+    Galaxy XCover7 combines Octa-core processing power with 6GB of Memory for fast and efficient performance for the task at hand. Enjoy 128GB of internal storage and add up to 1TB more with microSD card.
+  link:
+    url: "https://www.samsung.com/ch/business/smartphones/xcover/galaxy-xcover7-sm-g556bzkdeee/"
+    text: "Buy now"

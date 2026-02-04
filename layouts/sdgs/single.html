@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<section class="section-spacing text-center">
+  <h1>{{ .Params.claim | default .Title }}</h1>
+</section>
+
+<section id="sdgs" class="section-spacing text-justify">
+  <div class="container mt-4" style="max-width:1140px">
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>{{ .Params.intro_heading }}</h2>
+        {{ with .Params.intro_html }}
+          <div class="lead">{{ . | safeHTML }}</div>
+        {{ end }}
+      </div>
+      <div class="col-lg-4 space-y-3">
+        {{ with .Params.sdg_wheel }}
+          <a href="https://sdgs.un.org" target="_blank" rel="noopener">
+            {{ partial "asset-image.html" (dict "src" . "alt" "SDG Wheel" "height" 140) }}
+          </a>
+        {{ end }}
+        {{ with .Params.dpg_badge }}
+          <a href="https://digitalpublicgoods.net" target="_blank" rel="noopener">
+            {{ partial "asset-image.html" (dict "src" . "alt" "Digital Public Good" "height" 140) }}
+          </a>
+        {{ end }}
+      </div>
+    </div>
+
+    {{ range site.Data.sdgs.items }}
+      {{ partial "sdg-card.html" . }}
+    {{ end }}
+  </div>
+</section>
+
+
+{{ end }}

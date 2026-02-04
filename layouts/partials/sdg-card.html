@@ -1,0 +1,19 @@
+<div class="sdg">
+  <h3>{{ .title }}</h3>
+
+  {{ partial "asset-image.html" (dict
+      "src" .img
+      "alt" .alt
+      "width" 100
+  ) }}
+
+  {{ range .paragraphs }}
+    <p>{{ . }}</p>
+  {{ end }}
+
+  {{ with .learn_more }}
+    <p class="learn-more">
+      <a href="{{ . }}" target="_blank" rel="noopener">Learn more</a>
+    </p>
+  {{ end }}
+</div>

@@ -1,0 +1,84 @@
+# Production environment configuration
+# Optimized for performance, SEO, and security
+
+# Production server headers
+server:
+  headers:
+    - for: "/**"
+      values:
+        X-Frame-Options: "DENY"
+        X-Content-Type-Options: "nosniff"
+        Referrer-Policy: "strict-origin-when-cross-origin"
+        Strict-Transport-Security: "max-age=31536000; includeSubDomains; preload"
+        Content-Security-Policy: "default-src 'self'; img-src 'self' data: https:; font-src 'self' https://use.typekit.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://use.typekit.net https://cdnjs.cloudflare.com; script-src 'self' 'unsafe-inline' https://use.typekit.net; connect-src 'self' https://docs.qfield.org https://community.qfield.org;"
+
+# Build settings for production
+build:
+  writeStats: true
+  useResourceCacheWhen: "fallback"
+
+# Production cache settings - longer TTL
+caches:
+  assets:
+    dir: ":cacheDir/:project"
+    maxAge: "8h"
+  getcsv:
+    dir: ":cacheDir/:project"
+    maxAge: "1h"
+  getjson:
+    dir: ":cacheDir/:project"
+    maxAge: "1h"
+  images:
+    dir: ":cacheDir/:project"
+    maxAge: "8h"
+  modules:
+    dir: ":cacheDir/:project"
+    maxAge: "8h"
+
+# Full minification for production
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
+  minifyOutput: true
+  tdewolff:
+    css:
+      keepCSS2: false  # Remove CSS2 compatibility for smaller size
+      precision: 2
+    html:
+      keepComments: false
+      keepConditionalComments: false
+      keepDefaultAttrVals: false
+      keepDocumentTags: true
+      keepEndTags: true
+      keepQuotes: false
+      keepWhitespace: false
+    js:
+      keepVarNames: false
+      precision: 2
+
+# Production image settings - highest quality
+imaging:
+  quality: 85
+  resampleFilter: "Lanczos"  # Best quality filter
+  exif:
+    includeFields: ""
+    excludeFields: "GPS|Exif"  # Remove metadata for privacy/size
+    disableDate: false
+    disableLatLong: true
+
+# Production-specific params
+params:
+  environment: "production"
+  debug: false
+  analytics: true
+  serviceWorker: true
+  
+  # Performance budget
+  performance:
+    maxPageSize: "2MB"
+    maxImageSize: "500KB"
+    maxScriptSize: "1MB"

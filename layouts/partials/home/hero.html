@@ -1,0 +1,91 @@
+{{- $page := .page -}}
+{{- with $page.Params.hero }}
+  {{- $id := .id | default "maincarousel" -}}
+  {{- $interval := .autoplay_interval | default 5000 -}}
+  {{- $slides := .slides | default (slice) -}}
+  {{- if gt (len $slides) 0 }}
+<div id="{{ $id }}" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="{{ $interval }}">
+  {{- if .with_indicators }}
+  <div class="carousel-indicators">
+    {{- range $index, $slide := $slides }}
+      {{- $label := cond (isset $slide "name") $slide.name (title ($slide.key | default (printf "slide-%d" (add $index 1)))) -}}
+      <button type="button"
+              data-bs-target="#{{ $id }}"
+              data-bs-slide-to="{{ $index }}"
+              class="{{ if eq $index 0 }}active{{ end }}"
+              {{ if eq $index 0 }}aria-current="true"{{ end }}
+              aria-label="{{ $label }}">
+      </button>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  <div class="carousel-inner">
+    {{- range $index, $slide := $slides }}
+      {{- $itemClasses := slice "carousel-item" -}}
+      {{- with $slide.background_class }}{{ $itemClasses = $itemClasses | append . }}{{ end }}
+      {{- if eq $index 0 }}
+        {{- $itemClasses = $itemClasses | append "active" -}}
+      {{- end }}
+      {{- $phoneImage := $slide.phone_image | default "" -}}
+      {{- $phoneAlt := $slide.phone_alt | default "" -}}
+      {{- $button := $slide.button -}}
+      <div class="{{ delimit $itemClasses " " }}">
+        <div class="carousel-content">
+          {{- if $phoneImage }}
+          <img src="{{ $phoneImage | relURL }}" alt="{{ $phoneAlt }}" class="phone-image">
+          {{- end }}
+          <div class="carousel-caption custom-caption">
+            {{- with $slide.title_lines }}
+            <h2 class="carousel-title">
+              {{- range $lineIndex, $line := . }}
+                {{- if gt $lineIndex 0 }}<br>{{ end -}}
+                {{- if $line.fragments }}
+                  {{- range $fragmentIndex, $fragment := $line.fragments }}
+                    {{- if $fragment.accent }}
+                      <span class="text-{{ $fragment.accent }}">{{ $fragment.text }}</span>
+                    {{- else }}
+                      {{ $fragment.text }}
+                    {{- end -}}
+                  {{- end }}
+                {{- else if $line.accent }}
+                  <span class="text-{{ $line.accent }}">{{ $line.text }}</span>
+                {{- else }}
+                  {{ $line.text }}
+                {{- end -}}
+              {{- end }}
+            </h2>
+            {{- end }}
+            {{- with $button }}
+              {{- $href := .url | default "#" -}}
+              {{- if hasPrefix $href "/" }}
+                {{- $href = relLangURL $href -}}
+              {{- end }}
+              <div class="qf-button {{ if .style }}{{ .style }}{{ end }}">
+                <a href="{{ $href | safeURL }}"
+                   title="{{ .label }}"
+                   {{ if .external }}target="_blank" rel="noopener noreferrer"{{ end }}>
+                  {{- if .icon }}<i class="{{ .icon }}"></i> {{ end -}}
+                  {{ upper .label }}
+                </a>
+              </div>
+            {{- end }}
+          </div>
+        </div>
+      </div>
+    {{- end }}
+  </div>
+
+  {{- if .with_controls }}
+  <button class="carousel-control-prev" type="button" data-bs-target="#{{ $id }}" data-bs-slide="prev">
+    <i class="fa-solid fa-chevron-left fa-2x text-white fw-bold"></i>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#{{ $id }}" data-bs-slide="next">
+    <i class="fa-solid fa-chevron-right fa-2x text-white fw-bold"></i>
+    <span class="visually-hidden">Next</span>
+  </button>
+  {{- end }}
+</div>
+  {{- end }}
+{{- end }}

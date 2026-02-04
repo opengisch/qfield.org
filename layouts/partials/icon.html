@@ -1,0 +1,2 @@
+{{ $class := .class | default "" }}
+<img src="{{ .src | relURL }}" alt="{{ .alt }}" class="{{ $class }}" loading="lazy">

@@ -1,0 +1,147 @@
+{{ define "main" }}
+
+<!-- Hero section -->
+{{ with .Params.hero }}
+<section style="background: linear-gradient(135deg, var(--qfield-color) 0%, #6ab01a 100%); color: white; padding: 3rem 0;">
+  <div class="container">
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+      <h1 style="font-size: 2.5rem; margin-bottom: 1rem; font-weight: 700;">{{ .headline }}</h1>
+      {{ with .sub }}
+      <p style="font-size: 1.1rem; margin-bottom: 1.5rem; opacity: 0.95;">{{ . }}</p>
+      {{ end }}
+      {{ if .ctaUrl }}
+      <a href="{{ .ctaUrl }}" class="btn btn-lg" style="background: white; color: var(--qfield-color); font-size: 1rem; padding: 0.75rem 2rem; border-radius: 50px; text-decoration: none; display: inline-block; font-weight: 600; transition: all 0.3s;">
+        {{ .ctaText | default "Get Started" }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- Back to solutions -->
+<section style="padding: 1rem 0; background: #f8f9fa;">
+  <div class="container">
+    <a href="{{ "/solutions/" | relURL }}" style="color: var(--qfield-color); text-decoration: none; font-size: 0.95rem; font-weight: 600;">
+      ← Back to All Solutions
+    </a>
+  </div>
+</section>
+
+<!-- Main content -->
+<section class="section-spacing" style="padding: 2rem 0;">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Main column -->
+      <div class="col-md-8">
+        <article style="background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          
+          <header style="margin-bottom: 2rem;">
+            <h1 style="font-size: 2rem; line-height: 1.3; margin-bottom: 1rem; color: #333;">{{ .Title }}</h1>
+            
+            {{ with .Description }}
+            <p style="font-size: 1.1rem; color: #666; line-height: 1.6;">{{ . }}</p>
+            {{ end }}
+            
+            {{ if .Params.tags }}
+            <div style="margin-top: 1rem;">
+              {{ range .Params.tags }}
+              <span style="display: inline-block; background: #f8f9fa; color: #666; padding: 4px 10px; margin: 3px; border-radius: 4px; font-size: 0.85rem;">
+                {{ . }}
+              </span>
+              {{ end }}
+            </div>
+            {{ end }}
+          </header>
+          
+          <div style="font-size: 1rem; line-height: 1.7; color: #333;">
+            {{ .Content }}
+          </div>
+          
+        </article>
+      </div>
+      
+      <!-- Sidebar -->
+      <div class="col-md-4">
+        
+        <!-- Pains -->
+        {{ with .Params.pains }}
+        <div style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem; color: #856404;">Common Challenges</h3>
+          <ul style="margin: 0; padding-left: 1.25rem;">
+            {{ range . }}
+            <li style="font-size: 0.9rem; margin-bottom: 0.4rem; color: #856404;">{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+        
+        <!-- Proof points -->
+        {{ with .Params.proof }}
+        <div style="background: #d4edda; border-left: 4px solid #28a745; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem; color: #155724;">Why Teams Choose QField</h3>
+          <ul style="margin: 0; padding-left: 1.25rem;">
+            {{ range . }}
+            <li style="font-size: 0.9rem; margin-bottom: 0.4rem; color: #155724;">{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+        
+        <!-- FAQ -->
+        {{ with .Params.faq }}
+        <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin-bottom: 1.5rem;">
+          <h3 style="font-size: 1.1rem; margin-bottom: 1rem; color: #333;">Frequently Asked</h3>
+          {{ range . }}
+          <div style="margin-bottom: 1rem;">
+            <h4 style="font-size: 0.95rem; margin-bottom: 0.4rem; color: var(--qfield-color);">{{ .q }}</h4>
+            <p style="font-size: 0.85rem; color: #666; line-height: 1.5; margin: 0;">{{ .a }}</p>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+        
+        <!-- CTA -->
+        <div style="background: linear-gradient(135deg, var(--qfield-color) 0%, #6ab01a 100%); color: white; padding: 1.5rem; border-radius: 8px; text-align: center;">
+          <h3 style="font-size: 1.2rem; margin-bottom: 0.75rem;">Ready to get started?</h3>
+          <a href="/get/" class="btn btn-lg" style="background: white; color: var(--qfield-color); font-size: 0.95rem; padding: 0.6rem 1.5rem; border-radius: 50px; text-decoration: none; display: inline-block; font-weight: 600;">
+            Download QField
+          </a>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Related solutions -->
+{{ $related := where (where .Site.RegularPages "Section" "solutions") "Params.categories" "intersect" .Params.categories }}
+{{ $related = $related | complement (slice .) | first 3 }}
+{{ if $related }}
+<section style="background: #f8f9fa; padding: 3rem 0;">
+  <div class="container">
+    <h2 style="font-size: 1.75rem; text-align: center; margin-bottom: 2rem; color: #333;">Related Solutions</h2>
+    <div class="row">
+      {{ range $related }}
+      <div class="col-md-4" style="margin-bottom: 1.5rem;">
+        <article style="background: white; border-radius: 8px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); height: 100%;">
+          <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem;">
+            <a href="{{ .RelPermalink }}" style="text-decoration: none; color: #333;">{{ .Title }}</a>
+          </h3>
+          {{ with .Params.description }}
+          <p style="font-size: 0.9rem; color: #666;">{{ . | truncate 100 }}</p>
+          {{ end }}
+          <a href="{{ .RelPermalink }}" style="color: var(--qfield-color); font-weight: 600; text-decoration: none; font-size: 0.9rem;">
+            Learn more →
+          </a>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

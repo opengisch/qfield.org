@@ -1,0 +1,88 @@
+{{- $current := . -}}
+<header class="main-header">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-lg bg-white border-bottom sticky-top">
+    <div class="container">
+
+      <a class="navbar-brand fw-bold" href="{{ .Site.Home.RelPermalink }}">
+        {{ with .Site.Params.mainMenuLogo }}
+          <img src="{{ . | relURL }}" alt="QField logo" width="205" height="70" class="navbar-brand__logo" loading="eager" decoding="async">
+        {{ end }}
+        {{ if eq .Site.Params.showTitle true }}
+        <span>{{ .Site.Title }}</span>
+        {{ end }}
+      </a>
+
+      <div class="d-flex align-items-center gap-2 order-lg-3">
+        {{ if eq .Site.Params.enableDarkMode true -}}
+          <button id="themeToggle" class="btn btn-outline-secondary d-none d-lg-inline-flex align-items-center justify-content-center" type="button" aria-label="Toggle theme">
+            <i id="themeIcon" class="bi"></i>
+          </button>
+        {{ end -}}
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="visually-hidden">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse order-lg-2" id="navMain">
+        <ul class="navbar-nav ms-auto">
+          {{ range .Site.Menus.main -}}
+            {{- $variant := .Params.variant | default "" -}}
+            {{- if .HasChildren }}
+              {{- $idSource := default .Name .Identifier -}}
+              {{- $dropdownId := printf "nav-dropdown-%s" (urlize $idSource) -}}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="{{ $dropdownId }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ .Name }}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="{{ $dropdownId }}">
+                  {{ range .Children -}}
+                    {{- $childTarget := "_self" -}}
+                    {{- if strings.HasPrefix .URL "http" -}}
+                      {{- $childTarget = "_blank" -}}
+                    {{- end -}}
+                    {{- $childRel := cond (eq $childTarget "_blank") "noopener noreferrer" "" -}}
+                    <li>
+                      <a class="dropdown-item" href="{{ if strings.HasPrefix .URL "http" }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}" target="{{ $childTarget }}"{{ if $childRel }} rel="{{ $childRel }}"{{ end }}>
+                        {{ .Name }}
+                      </a>
+                    </li>
+                  {{ end -}}
+                </ul>
+              </li>
+            {{ else }}
+              {{- $itemTarget := "_self" -}}
+              {{- if and .URL (strings.HasPrefix .URL "http") -}}
+                {{- $itemTarget = "_blank" -}}
+              {{- end -}}
+              {{- $itemRel := cond (eq $itemTarget "_blank") "noopener noreferrer" "" -}}
+              {{- $linkClass := "nav-link" -}}
+              {{- if $variant }}
+                {{- $linkClass = printf "%s nav-link--button nav-link--%s" $linkClass $variant -}}
+              {{- end -}}
+              {{- $isActive := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
+              {{- if and (not $isActive) (and .URL (not (strings.HasPrefix .URL "http"))) -}}
+                {{- $isActive = eq $current.RelPermalink (.URL | relLangURL) -}}
+              {{- end -}}
+              <li class="nav-item">
+                <a class="{{ $linkClass }}{{ if $isActive }} active{{ end }}" href="{{ if .URL }}{{ if strings.HasPrefix .URL "http" }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}{{ else }}#{{ end }}" target="{{ $itemTarget }}"{{ if $itemRel }} rel="{{ $itemRel }}"{{ end }}>
+                  {{ with .Params.icon }}<i class="{{ . }}" aria-hidden="true"></i>{{ end }}
+                  <span>{{ .Name }}</span>
+                </a>
+              </li>
+            {{ end -}}
+          {{ end -}}
+        </ul>
+
+        {{ if eq .Site.Params.enableDarkMode true -}}
+          <div class="d-lg-none mt-3">
+            <button id="themeToggleMobile" class="btn btn-outline-secondary w-100 d-flex align-items-center justify-content-center" type="button" aria-label="Toggle theme">
+              <i id="themeIconMobile" class="bi me-2"></i>
+              <span>Toggle theme</span>
+            </button>
+          </div>
+        {{ end -}}
+      </div>
+    </div>
+  </nav>
+</header>

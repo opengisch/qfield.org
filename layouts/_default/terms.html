@@ -1,0 +1,38 @@
+{{ define "main" }}
+  {{- $termsMap := .Data.Terms -}}
+  {{- $termCount := 0 -}}
+  {{- if $termsMap -}}
+    {{- $termCount = len $termsMap -}}
+  {{- end -}}
+  <section class="py-5 border-bottom">
+    <div class="container">
+      <p class="text-uppercase text-muted small mb-2">{{ i18n "taxonomy_overview_label" | default "Browse topics" }}</p>
+      <h1 class="display-5 fw-semibold mb-3">{{ .Title | title }}</h1>
+      <p class="lead text-muted mb-0">{{ printf "%d %s" $termCount (cond (eq $termCount 1) "term" "terms") }} available.</p>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        {{ if $termsMap }}
+          {{ range $term, $value := $termsMap.Alphabetical }}
+            <div class="col">
+              <article class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h2 class="h5 mb-2">
+                    <a class="stretched-link text-decoration-none" href="{{ $value.Page.RelPermalink }}">{{ humanize $term }}</a>
+                  </h2>
+                  <p class="mb-0 text-muted">{{ $value.Count }} {{ cond (eq $value.Count 1) "entry" "entries" }}</p>
+                </div>
+              </article>
+            </div>
+          {{ end }}
+        {{ else }}
+          <div class="col">
+            <div class="alert alert-info mb-0">No terms have been published yet.</div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

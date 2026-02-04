@@ -1,0 +1,3 @@
+{{- $text := .Get "text" | default (.Inner | default "") -}}
+{{- if not $text }}{{ return }}{{ end -}}
+<span class="text-qfield">{{ $text }}</span>

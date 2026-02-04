@@ -1,0 +1,52 @@
+{{ $partner := . }}
+{{ $modal := $partner.modal }}
+{{ if not $modal }}{{ return }}{{ end }}
+{{ $modalID := $modal.id | default (printf "%sModal" $partner.id) }}
+{{ $modalLabel := printf "%sLabel" $modalID }}
+<div class="modal fade" id="{{ $modalID }}" tabindex="-1" role="dialog" aria-labelledby="{{ $modalLabel }}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="{{ $modalLabel }}">
+          {{ $logoData := cond (isset $modal "logo") $modal.logo $partner.logo }}
+          {{ if $logoData }}
+            {{ $logo := merge (dict "loading" "lazy" "alt" ($logoData.alt | default $partner.name) "class" ($logoData.class | default "partner-logo")) (dict "src" $logoData.src) }}
+            {{ if $logoData.style }}
+              {{ $logo = merge $logo (dict "style" $logoData.style) }}
+            {{ else }}
+              {{ $logo = merge $logo (dict "style" "width: 30px; height: 30px;") }}
+            {{ end }}
+            {{ partial "partner/logo.html" $logo }}
+          {{ end }}
+          {{ $partner.name }}
+        </h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        {{ with $modal.location }}
+          <p><strong>Location:</strong> {{ . }}</p>
+        {{ end }}
+        {{ with $modal.services }}
+          <p><strong>Services:</strong></p>
+          <ul>
+            {{ range . }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        {{ end }}
+        {{ with $modal.expertise }}
+          <p><strong>Expertise:</strong> {{ . }}</p>
+        {{ end }}
+        {{ with $modal.additional }}
+          {{ . | markdownify }}
+        {{ end }}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        {{ with $partner.website }}
+          <a href="{{ .url }}" class="btn btn-success" target="_blank">{{ .text | default "Visit Website" }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>

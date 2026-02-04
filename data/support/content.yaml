@@ -1,0 +1,33 @@
+title: "Support QField's sustainable growth"
+intro: "Play a key role in the sustainable growth of QField, the open-source digital good. <br> Your support can take many forms. You can"
+contribute_link:
+  text: "contribute"
+  url: "https://docs.qfield.org/get-started/contribute/"
+
+options:
+  - id: qfieldcloud
+    icon: "images/icons/cloud.png"
+    title: "Subscribe <br> to QFieldCloud"
+    title_link: "https://qfield.cloud"
+    cta:
+      text: "Learn more..."
+      url: "https://qfield.cloud"
+      class: "qfieldcloud-link"
+  
+  - id: donate
+    icon: "images/icons/donate.png"
+    title: "Make<br> a donation"
+    cta:
+      text: "Donate here"
+      url: "/donate"
+      class: "green-link"
+  
+  - id: sponsor
+    icon: "images/icons/sponsor.png"
+    title: "Sponsor<br> developments"
+    cta:
+      text: "Get in touch with our sales team"
+      url: "https://www.opengis.ch/#contact"
+      class: "green-link"
+
+footer: "Every contribution counts."

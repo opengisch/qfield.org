@@ -1,0 +1,88 @@
+{{ define "main" }}
+
+<!-- Solutions header -->
+<section class="section-spacing solutions-header">
+  <div class="container">
+    <div class="solutions-header-content mx-auto text-center">
+      <h1 class="solutions-header__title">{{ .Title }}</h1>
+      {{ with .Description }}
+      <p class="solutions-header__description">{{ . }}</p>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Solutions grid -->
+<section class="section-spacing solutions-content">
+  <div class="container">
+    
+    {{ $pages := where .Site.RegularPages "Section" "solutions" }}
+    {{ $pages = where $pages "Params.draft" "!=" true }}
+    
+    {{ if gt (len $pages) 0 }}
+    
+    <!-- Get unique categories -->
+    {{ $categories := slice }}
+    {{ range $pages }}
+      {{ range .Params.categories }}
+        {{ if not (in $categories .) }}
+          {{ $categories = $categories | append . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    
+    {{ range $categories }}
+    {{ $category := . }}
+    {{ $categoryPages := where $pages "Params.categories" "intersect" (slice $category) }}
+    
+    <div class="solutions-category">
+      <h2 class="solutions-category__title">
+        {{ $category }}
+      </h2>
+      
+      <div class="row">
+        {{ range $categoryPages }}
+        <div class="col-md-4 solution-card-column">
+          <article class="solution-card">
+            <h3 class="solutions-card__title">
+              <a href="{{ .RelPermalink }}" class="solutions-card__title-link">
+                {{ .Title }}
+              </a>
+            </h3>
+            
+            {{ with .Params.description }}
+            <p class="solution-card__summary">
+              {{ . }}
+            </p>
+            {{ end }}
+            
+            {{ if .Params.tags }}
+            <div class="solutions-card__tags">
+              {{ range first 3 .Params.tags }}
+              <span class="solutions-card__tag">
+                {{ . }}
+              </span>
+              {{ end }}
+            </div>
+            {{ end }}
+            
+            <a href="{{ .RelPermalink }}" class="solution-card__link">
+              Learn more →
+            </a>
+          </article>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+    
+    {{ else }}
+    <div class="solutions-empty">
+      <p class="solutions-empty__message">No solutions available yet.</p>
+    </div>
+    {{ end }}
+    
+  </div>
+</section>
+
+{{ end }}

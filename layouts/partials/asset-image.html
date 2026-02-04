@@ -1,0 +1,45 @@
+{{/* layouts/partials/asset-image.html */}}
+{{- $src   := .src -}}
+{{- $alt   := .alt | default "" -}}
+{{- $w     := .width -}}
+{{- $h     := .height -}}
+{{- $page  := .page -}}
+{{- $class := .class -}}
+{{- $style := .style -}}
+
+{{- $isAbs := or (hasPrefix $src "http://") (hasPrefix $src "https://") -}}
+
+{{- if $isAbs -}}
+  <img src="{{ $src }}" alt="{{ $alt }}" {{ with $w }}width="{{ . }}"{{ end }} {{ with $h }}height="{{ . }}"{{ end }} {{ with $class }}class="{{ . }}"{{ end }} {{ with $style }}style="{{ . | safeCSS }}"{{ end }}>
+{{- else -}}
+
+  {{/* Try site-wide /assets first */}}
+  {{- $res := resources.Get $src -}}
+
+  {{/* If not found, try page bundle resources */}}
+  {{- if not $res -}}
+    {{- with $page -}}
+      {{- $res = .Resources.GetMatch $src -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if not $res -}}
+    {{- errorf "asset-image: could not find %q (looked in /assets and page bundle %q)" $src (cond $page $page.Path "nil") -}}
+  {{- end -}}
+
+  {{- if and $w $h -}}
+    {{- $res = $res.Fit (printf "%dx%d" $w $h) -}}
+  {{- else if $w -}}
+    {{- $res = $res.Resize (printf "%dx" $w) -}}
+  {{- else if $h -}}
+    {{- $res = $res.Resize (printf "x%d" $h) -}}
+  {{- end -}}
+
+  {{- $res = $res | fingerprint -}}
+  {{- if $style -}}
+    {{/* When style is provided, don't set width/height attributes to allow CSS control */}}
+    <img src="{{ $res.RelPermalink }}" alt="{{ $alt }}" {{ with $class }}class="{{ . }}"{{ end }} style="{{ $style | safeCSS }}">
+  {{- else -}}
+    <img src="{{ $res.RelPermalink }}" alt="{{ $alt }}" width="{{ $res.Width }}" height="{{ $res.Height }}" {{ with $class }}class="{{ . }}"{{ end }}>
+  {{- end -}}
+{{- end -}}

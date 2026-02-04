@@ -1,0 +1,22 @@
+{{- $src := .Get "src" -}}
+{{- if not $src -}}
+  {{- errorf "shortcode 'img': parameter 'src' is required" -}}
+{{- end -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $caption := .Get "caption" -}}
+{{- $title := .Get "title" -}}
+
+<figure class="figure text-center">
+  <img
+    src="{{ $src | relURL }}"
+    alt="{{ $alt }}"
+    class="img-fluid {{ $class }}"
+    loading="lazy"
+    decoding="async"
+    {{ with $title }}title="{{ . }}"{{ end }}
+  >
+  {{- with $caption }}
+  <figcaption class="figure-caption text-muted">{{ . }}</figcaption>
+  {{- end }}
+</figure>

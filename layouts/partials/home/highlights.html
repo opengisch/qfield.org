@@ -1,0 +1,42 @@
+{{- $page := .page -}}
+{{- with $page.Params.highlights }}
+  {{- $title := .title -}}
+  {{- $description := .description -}}
+  {{- $items := .items | default (slice) -}}
+  {{- if $title }}
+<section class="section-spacing--compact text-center">
+  <div class="container ">
+    <h2>{{ $title }}</h2>
+  </div>
+</section>
+  {{- end }}
+  {{- if gt (len $items) 0 }}
+<section id="highlights" class="text-center">
+  <div class="container section-container">
+    {{- with $description }}
+    <div class="section-lead pb-4">
+      {{- . | markdownify -}}
+    </div>
+    {{- end }}
+    <div class="row g-4">
+      {{- range $items }}
+        {{- $iconClasses := slice "feature__icon" -}}
+        {{- range .icon_modifiers }}
+          {{- $iconClasses = $iconClasses | append . -}}
+        {{- end }}
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+          <div class="feature h-100">
+            {{- $itemTitle := .title -}}
+            {{- with .icon }}
+            <img src="{{ . | relURL }}" alt="{{ printf "%s icon" $itemTitle }}" class="{{ delimit $iconClasses " " }}">
+            {{- end }}
+            <h3>{{ $itemTitle }}</h3>
+            <p class="feature__description">{{ .description | safeHTML }}</p>
+          </div>
+        </div>
+      {{- end }}
+    </div>
+  </div>
+</section>
+  {{- end }}
+{{- end }}

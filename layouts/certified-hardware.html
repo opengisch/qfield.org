@@ -1,0 +1,100 @@
+{{ define "main" }}
+  {{- $hardware := site.Data.hardware | default dict -}}
+  {{- $content := $hardware.content | default dict -}}
+  {{- $certifiedDevices := $hardware.certified | default (slice) -}}
+  <section class="py-5 border-bottom bg-body-tertiary">
+    <div class="container">
+      <p class="text-uppercase text-muted small mb-2">{{ i18n "hardware_label" | default "QField hardware" }}</p>
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <h1 class="display-5 fw-semibold mb-3">{{ $content.title | default .Title }}</h1>
+          {{ with $content.intro.description }}
+            <p class="lead mb-3">{{ . | markdownify }}</p>
+          {{ end }}
+          {{ with $content.intro.details }}
+            <div class="text-muted">{{ . | markdownify }}</div>
+          {{ end }}
+        </div>
+        {{ with $content.intro.cta }}
+          <div class="col-lg-4 text-lg-end">
+            <a class="btn btn-success btn-lg w-100 w-lg-auto" href="{{ .url }}" target="_blank" rel="noopener">{{ .text }}</a>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      {{ $tabs := $content.tabs | default (slice) }}
+      {{ if gt (len $tabs) 0 }}
+        <ul class="nav nav-pills flex-wrap" id="hardwareTabs" role="tablist">
+          {{ range $index, $tab := $tabs }}
+            {{- $id := $tab.id | default (printf "tab-%d" $index) -}}
+            <li class="nav-item" role="presentation">
+              <button class="nav-link {{ if eq $index 0 }}active{{ end }}" id="tab-{{ $id }}" data-bs-toggle="tab" data-bs-target="#pane-{{ $id }}" type="button" role="tab" aria-controls="pane-{{ $id }}" aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}">
+                {{ $tab.title | default (title $id) }}
+              </button>
+            </li>
+          {{ end }}
+        </ul>
+        <div class="tab-content mt-4" id="hardwareTabsContent">
+          {{ range $index, $tab := $tabs }}
+            {{- $id := $tab.id | default (printf "tab-%d" $index) -}}
+            <div class="tab-pane fade {{ if eq $index 0 }}show active{{ end }}" id="pane-{{ $id }}" role="tabpanel" aria-labelledby="tab-{{ $id }}">
+              {{ with $tab.note }}
+                <div class="alert alert-secondary mb-4">{{ . | markdownify }}</div>
+              {{ end }}
+              {{ if eq $tab.id "certified" }}
+                {{ if gt (len $certifiedDevices) 0 }}
+                  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+                    {{ range $certifiedDevices }}
+                      {{- $device := . -}}
+                      <div class="col">
+                        <article class="card h-100 shadow-sm">
+                          {{ with $device.image }}
+                            {{- $imgSrc := .src | default "" -}}
+                            {{ if $imgSrc }}
+                              <img class="card-img-top" src="{{ $imgSrc | relURL }}" alt="{{ .alt | default $device.name }}" loading="lazy">
+                            {{ end }}
+                          {{ end }}
+                          <div class="card-body d-flex flex-column">
+                            <h2 class="h5">{{ $device.name }}</h2>
+                            {{ with $device.description }}
+                              <p class="mb-3 text-muted">{{ . | markdownify }}</p>
+                            {{ end }}
+                            {{ with $device.details }}
+                              <p class="small text-body-secondary">{{ . | markdownify }}</p>
+                            {{ end }}
+                            {{ with $device.link }}
+                              <a class="btn btn-outline-primary mt-auto" href="{{ .url }}" target="_blank" rel="noopener">{{ .text | default "Buy now" }}</a>
+                            {{ end }}
+                          </div>
+                        </article>
+                      </div>
+                    {{ end }}
+                  </div>
+                {{ else }}
+                  <div class="alert alert-info mb-0">Certified devices will appear here as soon as they are published.</div>
+                {{ end }}
+              {{ else if $tab.markdown_file }}
+                {{- $staticPath := printf "static/%s" (strings.TrimPrefix "/" $tab.markdown_file) -}}
+                {{ if fileExists $staticPath }}
+                  <div class="markdown-body">{{ readFile $staticPath | markdownify }}</div>
+                {{ else }}
+                  <div class="alert alert-warning">The referenced file <code>{{ $tab.markdown_file }}</code> could not be found.</div>
+                {{ end }}
+                {{ with $tab.legend }}
+                  <p class="text-muted small mt-3">{{ . | safeHTML }}</p>
+                {{ end }}
+              {{ else }}
+                <div class="alert alert-info mb-0">No content configured for this tab yet.</div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      {{ else }}
+        <div class="alert alert-info mb-0">Hardware program details will be published soon.</div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

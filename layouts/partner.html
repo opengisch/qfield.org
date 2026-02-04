@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<!-- Section #1: claim -->
+<section class="py-5 text-center" aria-labelledby="hero-heading">
+    <div class="container">
+
+  <h1 id="hero-heading" class="display-4 mb-4">Collaborate with QField</h1>
+  </div>
+</section>
+
+<!-- Section #2: main points -->
+<section class="section-spacing text-center" id="highlights">
+  <div id="partner" class="container container--max-width">
+    <div class="row">
+      {{ range .Site.Data.partner.programs }}
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          {{ partial "partner/program-card.html" . }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,54 @@
+intro:
+  title: "Ambassador program"
+  description: |
+    Are you passionate about QField and mobile GIS? Do you enjoy sharing knowledge and helping others succeed?
+    Join our exclusive QField Ambassador Program and help shape the future of mobile GIS.
+
+about:
+  title: "What is a QField Ambassador?"
+  description: |
+    Ambassadors are industry professionals who share their expertise through teaching, content creation, and community engagement.
+    They advocate for QField and help others discover its capabilities.
+
+responsibilities:
+  title: "What You'll Do"
+  items:
+    - "Create and share educational content"
+    - "Speak at conferences and industry events"
+    - "Lead workshops and training sessions"
+    - "Engage with the QField community"
+    - "Provide feedback to guide development"
+
+perks:
+  title: "🚀 Perks of Being an Ambassador"
+  categories:
+    - title: "Expand Your Reach"
+      items:
+        - "Promotion on QField.org and social media"
+        - "Visibility in newsletters and community highlights"
+    - title: "Grow Your Business"
+      items:
+        - "Earn commissions on referrals"
+        - "Free Organization Account"
+    - title: "Advance Your Career"
+      items:
+        - "Early access to product updates"
+        - "Networking opportunities"
+        - "Possible sponsorship for conferences"
+        - "Recognition as a mobile GIS expert"
+
+why:
+  title: "Why We're Building This Program"
+  items:
+    - "Collect expert feedback for QField development"
+    - "Strengthen our community and educational content"
+    - "Reach new users through your networks"
+
+founding:
+  title: "🌟 Join the Founding Team"
+  description: |
+    We're looking for 5–10 founding Ambassadors to launch this program.
+    Founders will help shape the program and receive exclusive benefits.
+  cta:
+    text: "👉 Ready to Apply? Let's start the process"
+    url: "https://forms.clickup.com/2192114/f/22wqj-52615/5BHGENDYSYM1ER63OS"

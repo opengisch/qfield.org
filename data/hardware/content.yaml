@@ -1,0 +1,19 @@
+title: "QField Certified hardware program"
+intro:
+  description: |
+    QField partners with hardware manufacturers through two labels — QField Certified, tested by our team, and Works with QField, verified by producers.
+  details: |
+    The **QField certified** hardware program is designed to provide you with hardware that has been thoroughly tested and certified by our team to work reliably with the latest QField version across various platforms. The **Works with QField** badge, is designed to showcase hardware devices are compatible with QField. Testing is performed by the manufacturers according to our program checklist.
+  cta:
+    text: "Join the program"
+    url: "https://forms.clickup.com/2192114/f/22wqj-30275/PL7WYHF6T67DE484DE"
+
+tabs:
+  - id: "certified"
+    title: "QField Certified Devices"
+    note: "By using the *Buy now* referral links provided below, you are directly supporting the development of QField. Your contribution helps us to continue improving and expanding this project."
+  - id: "works-with"
+    title: "Works with QField Devices"
+    note: "By using the *Buy now* referral links provided below, you are directly supporting the development of QField. Your contribution helps us to continue improving and expanding this project."
+    markdown_file: "/works-with-hardware.md"
+    legend: "x: Supported&nbsp;&nbsp;-: Not supported&nbsp;&nbsp;?: Unknown"

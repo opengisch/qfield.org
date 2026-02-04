@@ -1,0 +1,92 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $width := .Get "width" | default "" -}}
+{{- $height := .Get "height" | default "" -}}
+{{- $href := .Get "href" -}}
+{{- $target := .Get "target" | default (cond (strings.HasPrefix $href "http") "_blank" "_self") -}}
+{{- $rel := .Get "rel" | default (cond (and $href (eq $target "_blank")) "noopener" "") -}}
+
+{{- $imgSrc := "" -}}
+{{- $imgWidth := "" -}}
+{{- $imgHeight := "" -}}
+{{- $srcset := "" -}}
+
+{{- /* Check if image is external URL */ -}}
+{{- if or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") -}}
+  {{- /* External image - use as-is */ -}}
+  {{- $imgSrc = $src -}}
+{{- else -}}
+  {{- /* Try to get image as page resource first (for blog posts with images in same folder) */ -}}
+  {{- $image := $.Page.Resources.GetMatch $src -}}
+  
+  {{- /* If not found as page resource, try global resources */ -}}
+  {{- if not $image -}}
+    {{- $image = resources.Get $src -}}
+  {{- end -}}
+  
+  {{- if $image -}}
+    {{- /* Image found - process it */ -}}
+    {{- $processed := $image -}}
+    
+    {{- /* Resize if width or height specified */ -}}
+    {{- if $width -}}
+      {{- $w := strings.TrimSuffix "px" $width -}}
+      {{- if (gt (int $w) 0) -}}
+        {{- $processed = $image.Resize (printf "%sx" $w) -}}
+      {{- end -}}
+    {{- else if $height -}}
+      {{- $h := strings.TrimSuffix "px" $height -}}
+      {{- if (gt (int $h) 0) -}}
+        {{- $processed = $image.Resize (printf "x%s" $h) -}}
+      {{- end -}}
+    {{- else -}}
+      {{- /* Default: resize to max 1200px width for blog images */ -}}
+      {{- if gt $image.Width 1200 -}}
+        {{- $processed = $image.Resize "1200x" -}}
+      {{- end -}}
+    {{- end -}}
+    
+    {{- /* Generate responsive srcset */ -}}
+    {{- $img1x := $processed -}}
+    {{- $img2x := $image -}}
+    {{- if le $image.Width 2400 -}}
+      {{- $img2x = $image.Resize (printf "%dx" (mul $processed.Width 2)) -}}
+    {{- else -}}
+      {{- $img2x = $image.Resize "2400x" -}}
+    {{- end -}}
+    
+    {{- $srcset = printf "%s 1x, %s 2x" $img1x.RelPermalink $img2x.RelPermalink -}}
+    {{- $imgSrc = $processed.RelPermalink -}}
+    {{- $imgWidth = $processed.Width -}}
+    {{- $imgHeight = $processed.Height -}}
+  {{- else -}}
+    {{- /* Image not found as resource - use src as-is (fallback for static files) */ -}}
+    {{- $imgSrc = $src -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $style := "" -}}
+{{- if $width -}}
+  {{- $style = printf "%swidth:%s;" $style $width -}}
+{{- end -}}
+{{- if $height -}}
+  {{- $style = printf "%sheight:%s;" $style $height -}}
+{{- end -}}
+
+<figure class="figure text-center{{ if $class }} {{ $class }}{{ end }} mb-4">
+  {{- if $href -}}<a href="{{ $href }}" target="{{ $target }}"{{ if $rel }} rel="{{ $rel }}"{{ end }}>{{- end -}}
+    <img src="{{ $imgSrc }}" 
+         {{- if $srcset }} srcset="{{ $srcset }}"{{ end }}
+         alt="{{ $alt }}" 
+         class="figure-img img-fluid gallery-img"
+         {{- if $imgWidth }} width="{{ $imgWidth }}"{{ end }}
+         {{- if $imgHeight }} height="{{ $imgHeight }}"{{ end }}
+         {{- if $style }} style="{{ $style }}"{{ end }}
+         loading="lazy">
+  {{- if $href -}}</a>{{- end -}}
+  {{- if $caption }}
+  <figcaption class="figure-caption text-center">{{ $caption | markdownify }}</figcaption>
+  {{- end -}}
+</figure>

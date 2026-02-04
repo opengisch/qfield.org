@@ -1,0 +1,121 @@
+{{ define "main" }}
+{{- $data := site.Data.assistance -}}
+
+<!-- Hero Section -->
+<section class="py-5 text-center" aria-labelledby="hero-heading">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h1 id="hero-heading" class="display-4 mb-4">
+          {{- if $data.hero.title -}}
+            {{ $data.hero.title }}
+          {{- else -}}
+            {{ .Title }}
+          {{- end -}}
+        </h1>
+        {{- if $data.hero.subtitle -}}
+          <p class="lead">{{ $data.hero.subtitle | markdownify }}</p>
+        {{- end -}}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="assistance" aria-labelledby="services-heading">
+  <div class="container">
+    <!-- Screen reader only heading for accessibility -->
+    <h2 id="services-heading" class="visually-hidden">Assistance Services</h2>
+    
+    <div class="row g-4">
+      {{- if $data.services -}}
+        {{- range $data.services -}}
+          <div class="col-lg-6 mb-2 d-flex">
+            <div class="card h-100  border-0 rounded-0 flex-fill">
+              <div class="card-body d-flex flex-column text-center pt-4 pb-1">
+                {{- if .icon -}}
+                  <img src="{{ .icon | relURL }}" alt="{{ .title }}" class="mb-3 mx-auto" style="width: 60px; height: auto;" loading="lazy">
+                {{- end -}}
+                
+                <h3 class="card-title h4 mb-3">{{ .title }}</h3>
+                
+                <div class="card-text flex-grow-1">
+                  {{- if .inline_link -}}
+                    {{- $description := .description -}}
+                    {{- $linkText := .inline_link.text -}}
+                    {{- $linkUrl := .inline_link.url -}}
+                    {{- $beforeLink := index (split $description $linkText) 0 -}}
+                    {{- $afterLink := index (split $description $linkText) 1 -}}
+                    
+                    {{ $beforeLink | markdownify }} <a href="{{ $linkUrl }}" target="_blank" rel="noopener">{{ $linkText }}</a> {{ $afterLink | markdownify }}
+                  {{- else -}}
+                    {{ .description | markdownify }}
+                  {{- end -}}
+                </div>
+              </div>
+              
+              {{- if .cta_text -}}
+                <div class="card-footer bg-white border-0 text-center pb-1">
+                  {{- $linkClass := "green-link text-decoration-none fw-normal" -}}
+                  {{- if eq .cta_text "QFieldCloud Support Portal" -}}
+                    {{- $linkClass = "text-primary text-decoration-none fw-normal" -}}
+                  {{- end -}}
+                  <a 
+                    class="{{ $linkClass }}"
+                    href="{{ .cta_url }}"
+                    {{- if .cta_external }} target="_blank" rel="noopener"{{ end -}}
+                  >
+                    {{ .cta_text }}
+                  </a>
+                </div>
+              {{- end -}}
+            </div>
+          </div>
+        {{- end -}}
+      {{- else -}}
+        <div class="col-12">
+          <div class="alert alert-warning">
+            <p>Services will be displayed here once the data file is properly loaded.</p>
+          </div>
+        </div>
+      {{- end -}}
+    </div>
+  </div>
+</section>
+
+<!-- Customize Section -->
+{{- if $data.customize -}}
+  <section aria-labelledby="customize-heading">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card border-0 rounded-0">
+            <div class="card-body text-center py-5 px-4">
+              {{- if $data.customize.icon -}}
+                <img src="{{ $data.customize.icon | relURL }}" alt="{{ $data.customize.title }}" class="mb-4" style="width: 60px; height: auto;" loading="lazy">
+              {{- end -}}
+              
+              <h2 id="customize-heading" class="card-title h3 mb-4">{{ $data.customize.title }}</h2>
+              
+              <div class="card-text mb-4">
+                {{ $data.customize.description | markdownify }}
+              </div>
+              
+              {{- if $data.customize.cta_text -}}
+                <a 
+                  class="green-link text-decoration-none fw-normal"
+                  href="{{ $data.customize.cta_url }}"
+                  {{- if $data.customize.cta_external }} target="_blank" rel="noopener"{{ end -}}
+                >
+                  {{ $data.customize.cta_text }}
+                </a>
+              {{- end -}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{- end -}}
+
+{{ end }}

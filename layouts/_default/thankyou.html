@@ -1,0 +1,63 @@
+{{ define "main" }}
+{{ $data := .Site.Data.thankyou.content }}
+
+<section class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-xl-7">
+        
+        <!-- Thank You Card -->
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-4 p-md-5 text-center">
+            
+            <!-- Main Message -->
+            <h1 class="display-6 fw-bold mb-3">
+              {{ $data.title }} <span class="fs-3">{{ $data.emoji }}</span>
+            </h1>
+            <p class="lead mb-5">{{ $data.message }}</p>
+
+            <!-- Social Share Section -->
+            <div class="border-top pt-4 mb-4">
+              <h2 class="h4 fw-bold mb-3">{{ $data.social_share.title }}</h2>
+              <p class="mb-4">{{ $data.social_share.description | safeHTML }}</p>
+              
+              <div class="d-flex flex-wrap justify-content-center gap-2">
+                {{ range $data.social_share.platforms }}
+                <a 
+                  href="{{ .url }}" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="btn btn-outline-secondary rounded-pill"
+                  aria-label="Share on {{ .name }}"
+                  title="Share on {{ .name }}">
+                  <i class="{{ .icon }}"></i>
+                </a>
+                {{ end }}
+                
+                <!-- Copy Link Button -->
+                <button 
+                  type="button"
+                  class="btn btn-outline-secondary rounded-pill" 
+                  onclick="copyDonateLink()"
+                  aria-label="Copy donation link"
+                  title="Copy link">
+                  <i class="fas fa-link"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Community Section -->
+            <div class="border-top pt-4">
+              <h2 class="h4 fw-bold mb-3">{{ $data.community.title }}</h2>
+              <p class="mb-0">{{ $data.community.description | safeHTML }}</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

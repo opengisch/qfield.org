@@ -1,0 +1,58 @@
+---
+hero:
+  title: "Do you need assistance?"
+  subtitle: ""
+
+services:
+  - title: "Jumpstart"
+    description: "Our QField experts will help you get started</br> with your project as fast as possible."
+    icon: "images/icons/rocket.png"
+    cta_text: "Book your call"
+    cta_url: "https://www.opengis.ch/qfield-training/"
+    cta_external: true
+    
+  - title: "Support and consulting"
+    description: "An OPENGIS.ch support contract guarantees you a team</br> of geospatial experts at your fingertips."
+    icon: "images/icons/support.png"
+    cta_text: "Choose your plan"
+    cta_url: "https://www.opengis.ch/qgis-support/"
+    cta_external: true
+    
+  - title: "Courses"
+    description: "Join one of our courses and learn how to set up a project</br> to explore all the possibilities that QField offers."
+    icon: "images/icons/consulting.png"
+    cta_text: "Upcoming courses"
+    cta_url: "https://www.opengis.ch/courses-calendar/"
+    cta_external: true
+    
+  - title: "Documentation"
+    description: "You'll find everything you need to know about</br> using QField and its related tools right here:"
+    icon: "images/icons/files.png"
+    cta_text: "QField Ecosystem Documentation"
+    cta_url: "https://docs.qfield.org/"
+    cta_external: true
+    
+  - title: "Community support"
+    description: "Do you need help and would like to join a helpful</br> and resourceful community?"
+    icon: "images/icons/communication.png"
+    cta_text: "Ask your questions"
+    cta_url: "https://community.qfield.org/"
+    cta_external: true
+    
+  - title: "QFieldCloud support"
+    description: "If you have a  subscription, please use the integrated</br> ticketing system button or ask your questions here:"
+    icon: "images/icons/cloud.png"
+    cta_text: "QFieldCloud Support Portal"
+    cta_url: "https://support.qfield.cloud"
+    cta_external: true
+    inline_link:
+      text: "subscription"
+      url: "https://app.qfield.cloud/"
+
+customize:
+  title: "Customize QField"
+  description: "Customize QField to fit your work. We offer feature development, plugins, and workflows</br> to help you work better and make QField match your project's needs."
+  icon: "images/icons/lightbulb.png"
+  cta_text: "Get in touch with our sales team"
+  cta_url: "mailto:sales@qfield.cloud"
+  cta_external: true

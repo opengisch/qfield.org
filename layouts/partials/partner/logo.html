@@ -1,0 +1,17 @@
+{{ with .src }}
+  {{ $src := . }}
+  {{ $alt := $.alt | default "" }}
+  {{ $class := $.class | default "partner-logo" }}
+  {{ $style := $.style }}
+  {{ $loading := $.loading | default "lazy" }}
+  {{ $attrs := dict "class" $class "alt" $alt "loading" $loading }}
+  {{ if $style }}
+    {{ $attrs = merge $attrs (dict "style" $style) }}
+  {{ end }}
+  {{ $isAbs := or (hasPrefix $src "http://") (hasPrefix $src "https://") }}
+  {{ if $isAbs }}
+    <img src="{{ $src }}"{{ range $k, $v := $attrs }} {{ $k }}="{{ $v }}"{{ end }}>
+  {{ else }}
+    <img src="{{ $src | relURL }}"{{ range $k, $v := $attrs }} {{ $k }}="{{ $v }}"{{ end }}>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div class="error-page text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="/images/Let_this_logo_202511201151.gif" alt="QField Logo" class="error-image">
+        <br>
+        <img src="https://app.qfield.cloud/pages/sad_nyuki.svg" alt="Sad Nyuki mascot" class="error-image">
+        <h1 class="error-title">404 - Page Not Found</h1>
+        <p class="error-description">
+          We're sorry, but the page you're looking for doesn't exist or has been moved.
+        </p>
+        
+        <div class="error-actions">
+          <a href="{{ "/" | relURL }}" class="btn btn-primary">
+            <i class="fas fa-home"></i> Go to Homepage
+          </a>
+          <a href="/success-stories/" class="btn btn-secondary">
+            <i class="fas fa-star"></i> Success Stories
+          </a>
+          <a href="https://docs.qfield.org" class="btn btn-secondary" target="_blank">
+            <i class="fas fa-book"></i> Documentation
+          </a>
+        </div>
+        
+        <div class="search-suggestion">
+          <h3>Popular Pages</h3>
+          <ul class="popular-links">
+            <li><a href="/#highlights">QField Features</a></li>
+            <li><a href="/success-stories/">Success Stories</a></li>
+            <li><a href="https://docs.qfield.org/get-started/" target="_blank">Getting Started Guide</a></li>
+            <li><a href="/support-us/">Support QField</a></li>
+            <li><a href="/partner/">Partner Programs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var p = location.pathname;
+
+  // Only handle /docs URLs for legacy redirect
+  if (!/^\/docs(?:\/|$)/i.test(p)) return;
+
+  // Extract last meaningful segment; drop .html; skip "index"
+  p = p.replace(/\/+$/, '');
+  var parts = p.split('/');
+  var last = parts.pop() || '';
+  if (/^index(?:\.html)?$/i.test(last)) last = parts.pop() || '';
+  var slug = (last || '').replace(/\.html$/i, '');
+
+  var dest = slug
+    ? 'https://docs.qfield.org/?q=' + encodeURIComponent(slug)
+    : 'https://docs.qfield.org/';
+
+  location.replace(dest);
+})();
+</script>
+{{ end }}

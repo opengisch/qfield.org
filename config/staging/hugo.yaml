@@ -1,0 +1,56 @@
+# Staging environment configuration
+# Balance between development and production for testing
+
+# Basic security headers for staging
+server:
+  headers:
+    - for: "/**"
+      values:
+        X-Frame-Options: "DENY"
+        X-Content-Type-Options: "nosniff"
+        Referrer-Policy: "strict-origin-when-cross-origin"
+
+# Build settings for staging
+build:
+  writeStats: true
+  useResourceCacheWhen: "fallback"
+
+# Moderate cache settings
+caches:
+  assets:
+    dir: ":cacheDir/:project"
+    maxAge: "2h"
+  getcsv:
+    dir: ":cacheDir/:project"
+    maxAge: "30m"
+  getjson:
+    dir: ":cacheDir/:project"
+    maxAge: "30m"
+  images:
+    dir: ":cacheDir/:project"
+    maxAge: "2h"
+  modules:
+    dir: ":cacheDir/:project"
+    maxAge: "2h"
+
+# Partial minification for staging
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: true  # Keep JSON readable for debugging
+  disableSVG: true   # Keep SVG readable for debugging
+  disableXML: true
+  minifyOutput: false
+
+# Staging image settings - good quality
+imaging:
+  quality: 80
+  resampleFilter: "Linear"  # Balance of quality and speed
+  
+# Staging-specific params
+params:
+  environment: "staging"
+  debug: true
+  analytics: false  # No analytics in staging
+  serviceWorker: false  # No SW in staging for easier testing

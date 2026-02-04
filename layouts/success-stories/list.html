@@ -1,0 +1,189 @@
+{{ define "main" }}
+<div class="success-stories">
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <h1 class="display-5 mb-4">Success Stories</h1>
+      <p class="lead mb-3">
+        QField is being used around the world in a wide variety of domains every day.<br>
+        Discover how teams are delivering impactful projects with QField.
+      </p>
+      <p class="mb-0">
+        Tell us about your project. Did QField make your life easier too?
+        <a href="https://opengis.ch/#contact" class="success-stories-link">Let us know</a> – we will be delighted to publish it.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="success-stories-filters d-flex flex-wrap gap-2 justify-content-center mb-4" data-success-stories-filters>
+  <button type="button" class="btn filter-btn active" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" class="btn filter-btn" data-filter="infrastructure-engineering" aria-pressed="false">Infrastructure &amp; Engineering</button>
+  <button type="button" class="btn filter-btn" data-filter="ecology-environment" aria-pressed="false">Ecology &amp; Environment</button>
+  <button type="button" class="btn filter-btn" data-filter="forestry" aria-pressed="false">Forestry</button>
+  <button type="button" class="btn filter-btn" data-filter="humanitarian-emergency-response" aria-pressed="false">Humanitarian &amp; Emergency Response</button>
+  <button type="button" class="btn filter-btn" data-filter="water-land-management" aria-pressed="false">Water &amp; Land Management</button>
+  <button type="button" class="btn filter-btn" data-filter="renewable-energy" aria-pressed="false">Renewable Energy</button>
+  <button type="button" class="btn filter-btn" data-filter="precision-agriculture" aria-pressed="false">Precision Agriculture</button>
+  <button type="button" class="btn filter-btn" data-filter="government-municipalities" aria-pressed="false">Government &amp; Municipalities</button>
+      </div>
+
+      <div class="ss-card-grid">
+
+        <div class="ss-card-wrapper success-story-card" data-categories="ecology-environment">
+          <a href="{{ "/success-stories/ecological-surveying/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/eco-survey.png" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Improving efficiencies<br>in Ecological Surveying</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="water-land-management">
+          <a href="{{ "/success-stories/geological-mapping/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/geologic_field.png" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Geological<br>Mapping</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="government-municipalities">
+          <a href="{{ "/success-stories/ground-truth-fiji/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/use_study_fiji4.jpg" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Ground Truth Data Collection<br>for LULC Mapping in Fiji</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="ecology-environment">
+          <a href="{{ "/success-stories/mapping-breeding-birds/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/wattenmeer7.jpg" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Use of QField for<br>mapping breeding birds<br>in the Wadden Sea</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="humanitarian-emergency-response">
+          <a href="{{ "/success-stories/malaria-data-collection/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/mosquito4.jpg" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Data Collection of Malaria<br>Transmitting Mosquitoes</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="water-land-management">
+          <a href="{{ "/success-stories/river-state-survey/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/river-state-survey1.png" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">River State Survey<br>using QField</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="water-land-management government-municipalities">
+          <a href="{{ "/success-stories/water-supply-rwanda/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/rwanda-rural-water-1.png" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Data Collection of Rural<br>Water Supply Systems</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="precision-agriculture">
+          <a href="{{ "/success-stories/vanilla-surveys/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/use_study_vanilla4.jpg" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Vanilla Surveys<br>using QField</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="humanitarian-emergency-response">
+          <a href="{{ "/success-stories/heritage-impact-assessment/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/heritage_impact_figure2.png" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Heritage Impact Assessment<br>using QField</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="ecology-environment">
+          <a href="{{ "/success-stories/fire-salamanders/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/salamander-1.JPG" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Monitoring Fire Salamanders</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="government-municipalities infrastructure-engineering">
+          <a href="{{ "/success-stories/radiation-detection/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/radiation.png" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Real-Time Radiation Detection</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="ecology-environment government-municipalities">
+          <a href="{{ "/success-stories/zero-invasive-predators/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/zero-invasive-3.jpg" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Zero Invasive Predators:<br>Eliminating Invasive Species</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="ecology-environment">
+          <a href="{{ "/success-stories/freelance-success/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "success-stories/freelance-success/freelance-success.jpg" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">From Open Source to<br>Freelance Success</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="forestry ecology-environment government-municipalities">
+          <a href="{{ "/success-stories/building-on-top/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/ginve-6.jpeg" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Building on top of QFieldCloud</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="government-municipalities humanitarian-emergency-response">
+          <a href="{{ "/success-stories/dai/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/dai-2.png" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Emergency Data Management<br>for Cultural Heritage Rescue</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="government-municipalities">
+          <a href="{{ "/success-stories/un/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/un_img.jpg" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">UN Open GIS Initiative</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="humanitarian-emergency-response government-municipalities">
+          <a href="{{ "/success-stories/tonga/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/tonga-2.jpg" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Responding to the Hunga Tonga-Hunga Ha'apai Eruption</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="government-municipalities water-land-management">
+          <a href="{{ "/success-stories/nls/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/customer/nls_schema.jpg" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">National Land Survey of Finland</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="ss-card-wrapper success-story-card" data-categories="forestry ecology-environment">
+          <a href="{{ "/success-stories/ghana-deforestation/" | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ "images/ss/ghana-2.jpeg" | relURL }}');">
+            <div class="ss-card-content">
+              <h2 class="ss-card-title">Young Farmers Reduce<br>Deforestation by 71% in Ghana</h2>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>
+{{ end }}

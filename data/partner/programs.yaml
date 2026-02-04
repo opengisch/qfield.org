@@ -1,0 +1,33 @@
+- title: "Partners"
+  icon:
+    src: "images/logo_qfield-partner.png"
+    alt: "QField Partner Program Logo"
+  description: |
+    Offer QField services? Join our Partner Program to connect with new clients and
+    provide trusted support, training, and consultancy around the world.
+  cta:
+    text: "See details and partners"
+    url: "/partners"
+
+- title: "Ambassadors"
+  icon:
+    src: "images/logo_qfield_ambassador.png"
+    alt: "QField Ambassador Program Logo"
+  description: |
+    Passionate about QField? Join our Ambassador Program to help grow the community
+    and enjoy great perks and exclusive incentives along the way.
+  cta:
+    text: "See details"
+    url: "/ambassadors"
+
+- title: "Hardware"
+  icon:
+    src: "images/logo_certified_qf.png"
+    alt: "QField Certified Hardware Logo"
+    class: "partner-logo"
+  description: |
+    Build for the field? Join our Hardware Program to showcase your devices with
+    QField and ensure reliable performance trusted by professionals worldwide.
+  cta:
+    text: "See details and partners"
+    url: "/hardware"

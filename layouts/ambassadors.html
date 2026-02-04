@@ -1,0 +1,79 @@
+{{ define "main" }}
+
+{{ $content := .Site.Data.ambassador.content }}
+
+<!-- Section #1: Header -->
+<section class="section-spacing text-center">
+  <div>
+    {{ partial "asset-image.html" (dict 
+      "src" "images/logo_qfield_ambassador.png"
+      "alt" "QField Ambassador Program Logo"
+      "class" "ambassador-logo"
+      "style" "width: 10%; height: auto;"
+    ) }}
+  </div>
+  <h1>{{ $content.intro.title }}</h1>
+</section>
+
+<!-- Section #2: Introduction -->
+<section class="section-spacing">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="lead">{{ $content.intro.description }}</p>
+
+        <h3 class="mt-5">{{ $content.about.title }}</h3>
+        <p>{{ $content.about.description }}</p>
+
+        <!-- Responsibilities -->
+        <h3 class="mt-5">{{ $content.responsibilities.title }}</h3>
+        <ul>
+          {{ range $content.responsibilities.items }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+
+        <!-- Perks -->
+        <div class="card border-primary mt-5">
+          <div class="card-body">
+            <h4 class="card-title">{{ $content.perks.title }}</h4>
+
+            {{ range $content.perks.categories }}
+              <h5 class="mt-4">{{ .title }}</h5>
+              <ul>
+                {{ range .items }}
+                  <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            {{ end }}
+          </div>
+        </div>
+
+        <!-- Why -->
+        <h4 class="mt-5">{{ $content.why.title }}</h4>
+        <ul>
+          {{ range $content.why.items }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+
+        <!-- Founding Team -->
+        <h4 class="mt-5">{{ $content.founding.title }}</h4>
+        <p>{{ $content.founding.description }}</p>
+
+        <div class="text-center mt-4 mb-5">
+          <a
+            href="{{ $content.founding.cta.url }}"
+            class="btn btn-primary btn-lg"
+            target="_blank"
+            rel="noopener"
+          >
+            {{ $content.founding.cta.text }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

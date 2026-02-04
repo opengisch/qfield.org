@@ -1,0 +1,37 @@
+{{- $href := .Get "href" | default "#" -}}
+{{- $text := .Get "text" | default "Learn more" -}}
+{{- $style := .Get "style" | default "standard" -}}
+{{- $align := .Get "align" | default "text-center" -}}
+
+{{- $variantDefault := "btn-primary" -}}
+{{- if eq $style "nav" -}}
+  {{- $variantDefault = "support" -}}
+{{- end -}}
+{{- $variant := .Get "variant" | default $variantDefault -}}
+
+{{- $size := .Get "size" | default "btn-lg" -}}
+
+{{- $targetDefault := "_blank" -}}
+{{- if eq $style "nav" -}}
+  {{- $targetDefault = "_self" -}}
+{{- end -}}
+{{- $target := .Get "target" | default $targetDefault -}}
+
+{{- $relDefault := "" -}}
+{{- if eq $target "_blank" -}}
+  {{- $relDefault = "noopener" -}}
+{{- end -}}
+{{- $rel := .Get "rel" | default $relDefault -}}
+
+{{- $classes := "" -}}
+{{- if eq $style "nav" -}}
+  {{- $classes = printf "nav-link nav-link--button nav-link--%s" $variant -}}
+{{- else -}}
+  {{- $classes = printf "btn %s %s" $variant $size -}}
+{{- end -}}
+
+<p class="{{ $align }} my-4">
+  <a class="{{ $classes }}" href="{{ $href }}" target="{{ $target }}"{{ if $rel }} rel="{{ $rel }}"{{ end }}>
+    {{ $text }}
+  </a>
+</p>

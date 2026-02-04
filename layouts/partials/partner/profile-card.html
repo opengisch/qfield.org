@@ -1,0 +1,32 @@
+{{ $partner := . }}
+{{ $regions := $partner.regions | default (slice) }}
+{{ $regionAttr := delimit $regions " " }}
+<div class="col-sm-6 col-md-4 mb-4 d-flex">
+  <div class="panel panel-default border rounded-4 p-2 d-flex flex-column w-100" data-region="{{ $regionAttr }}">
+    <div class="panel-body flex-grow-1 d-flex flex-column">
+      <div class="d-flex justify-content-between align-items-start mb-3">
+        <h4 class="panel-title mb-0 d-flex align-items-center gap-2">
+          {{ with $partner.logo }}
+            {{ partial "partner/logo.html" (merge . (dict "loading" "lazy")) }}
+          {{ end }}
+          {{ $partner.name }}
+        </h4>
+        {{ with $partner.locations }}
+          <span class="partner-location-chip small">{{ delimit . " | " }}</span>
+        {{ end }}
+      </div>
+      {{ with $partner.description }}
+        <p class="flex-grow-1">{{ . }}</p>
+      {{ end }}
+      <div class="mt-auto d-flex justify-content-between align-items-center">
+        {{ with $partner.modal }}
+          {{ $modalID := .id | default (printf "%sModal" $partner.id) }}
+          <a href="#" class="btn btn-simple" data-bs-toggle="modal" data-bs-target="#{{ $modalID }}">Read more...</a>
+        {{ end }}
+        {{ with $partner.website }}
+          <a href="{{ .url }}" class="btn btn-primary" target="_blank">{{ .text | default "Visit Website" }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>

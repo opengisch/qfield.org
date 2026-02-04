@@ -1,0 +1,33 @@
+{{- $page := .page -}}
+{{- with $page.Params.cta }}
+  {{- $title := .title -}}
+  {{- $description := .description -}}
+  {{- $button := .button -}}
+  {{- if or $title $description }}
+<section class="section-spacing text-center">
+  <div class="container">
+    {{- if $title }}
+    <h2>{{ $title }}</h2>
+    {{- end }}
+    {{- if or $description $button }}
+    <p>
+      {{- with $description }}{{ . }}{{- end }}
+      {{- with $button }}
+        {{- $href := .url | default "#" -}}
+        {{- if hasPrefix $href "/" }}
+          {{- $href = relLangURL $href -}}
+        {{- end }}
+        <br>
+        <a href="{{ $href | safeURL }}"
+           class="{{ .style | default "green-link" }}"
+           title="{{ .label }}"
+           {{ if .external }}target="_blank" rel="noopener noreferrer"{{ end }}>
+          {{ .label }}
+        </a>
+      {{- end }}
+    </p>
+    {{- end }}
+  </div>
+</section>
+  {{- end }}
+{{- end }}

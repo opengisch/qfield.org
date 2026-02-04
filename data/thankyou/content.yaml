@@ -1,0 +1,32 @@
+title: "Thank you for your support"
+emoji: "💚"
+
+message: "Your contribution to QField is truly appreciated. It helps us maintain, improve, and grow this essential tool for the geospatial community. Together, we're making field data collection more efficient, powerful, and accessible to everyone."
+
+social_share:
+  title: "Spread the word"
+  description: "Love QField? <strong>Let others know!</strong> Share our donation page with friends and colleagues who believe in open-source GIS. Every bit of support makes a difference."
+  donate_url: "https://qfield.org/donate"
+  platforms:
+    - name: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/intent/tweet?text=I%20just%20supported%20QField%20for%20QGIS!%20You%20can%20too%20at%20https://qfield.org/donate"
+    - name: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/sharing/share-offsite/?url=https://qfield.org/donate"
+    - name: "Facebook"
+      icon: "fab fa-facebook"
+      url: "https://www.facebook.com/sharer/sharer.php?u=https://qfield.org/donate"
+    - name: "Reddit"
+      icon: "fab fa-reddit"
+      url: "https://www.reddit.com/submit?url=https://qfield.org/donate&title=Support%20QField%20for%20QGIS"
+    - name: "Mastodon"
+      icon: "fab fa-mastodon"
+      url: "https://fosstodon.org/share?text=I%20just%20supported%20QField%20for%20QGIS!%20You%20can%20too%20at%20https://qfield.org/donate"
+    - name: "Bluesky"
+      icon: "fab fa-bluesky"
+      url: "https://bsky.app/intent/compose?text=I%20just%20supported%20QField%20for%20QGIS!%20You%20can%20too%20at%20https://qfield.org/donate"
+
+community:
+  title: "Join our community"
+  description: "Connect with other QField users and contributors on our <a href='https://community.qfield.org' target='_blank' rel='noopener noreferrer' class='fw-semibold' style='color: var(--qfield-color);'>community platform</a> to share your experiences, ask questions, and more."

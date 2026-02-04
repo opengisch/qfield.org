@@ -1,0 +1,29 @@
+{{ $device := . }}
+<div class="card mb-4">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-3 text-center mb-3 mb-md-0">
+        {{ with $device.image }}
+          {{ $isExternal := or (hasPrefix .src "http://") (hasPrefix .src "https://") }}
+          {{ if $isExternal }}
+            <img src="{{ .src }}" alt="{{ .alt }}" class="img-fluid" style="max-width: 200px;">
+          {{ else }}
+            {{ partial "asset-image.html" (dict "src" .src "alt" .alt "class" "img-fluid" "style" "max-width: 200px;") }}
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-md-9">
+        <h3 class="card-title h4">{{ $device.name }}</h3>
+        {{ with $device.description }}
+          <p>{{ . | markdownify }}</p>
+        {{ end }}
+        {{ with $device.details }}
+          <p>{{ . | markdownify }}</p>
+        {{ end }}
+        {{ with $device.link }}
+          <a href="{{ .url }}" class="btn btn-primary" target="_blank" rel="noopener">{{ .text }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>

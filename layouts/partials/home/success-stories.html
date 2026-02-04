@@ -1,0 +1,87 @@
+{{- $page := .page -}}
+{{- with $page.Params.success_stories }}
+  {{- $title := .title -}}
+  {{- $entries := .entries | default (slice) -}}
+  {{- $cta := .cta -}}
+  {{- if gt (len $entries) 0 }}
+<section id="customers" class="section-spacing">
+  {{- if $title }}
+  <h2 class="text-center">{{ $title }}</h2>
+  {{- end }}
+  <div class="customers-container container">
+    <div class="row g-4 align-items-start">
+      <div class="customer-info col-12 col-lg-6">
+        <div class="customer-logos d-flex flex-wrap justify-content-lg-start justify-content-center">
+          {{- range $index, $entry := $entries }}
+            {{- $logoClasses := slice "customer-logo" -}}
+            {{- if eq $index 0 }}{{ $logoClasses = $logoClasses | append "customer-active" }}{{ end }}
+            {{- range $entry.logo_modifiers }}{{ $logoClasses = $logoClasses | append . }}{{ end }}
+            {{- $logoSrc := $entry.logo -}}
+            {{- if and $logoSrc (not (hasPrefix $logoSrc "http")) }}
+              {{- $logoSrc = relURL $logoSrc -}}
+            {{- end }}
+            <img class="{{ delimit $logoClasses " " }}"
+                 title="{{ $entry.name }}"
+                 alt="Customer Logo: {{ $entry.name }}"
+                 src="{{ $logoSrc }}"
+                 loading="lazy"
+                 decoding="async">
+          {{- end }}
+        </div>
+        {{- range $index, $entry := $entries }}
+          {{- $cardClasses := slice "customer-card" -}}
+          {{- if eq $index 0 }}{{ $cardClasses = $cardClasses | append "customer-active" }}{{ end }}
+          <div title="{{ $entry.name }}" class="{{ delimit $cardClasses " " }}">
+            <h3>{{ $entry.name }}</h3>
+            {{- with $entry.description }}
+            <p class="customer-card__description">{{ . | safeHTML }}</p>
+            {{- end }}
+            {{- with $entry.attribution }}
+            <p class="small text-end">{{ . | safeHTML }}</p>
+            {{- end }}
+            {{- with $entry.link }}
+              {{- $href := .url | default "#" -}}
+              {{- if hasPrefix $href "/" }}
+                {{- $href = relLangURL $href -}}
+              {{- end }}
+              <a href="{{ $href | safeURL }}"
+                 class="ss-btn"
+                 title="{{ .label }}"
+                 {{ if .external }}target="_blank" rel="noopener noreferrer"{{ end }}>
+                {{ .label }}
+              </a>
+            {{- end }}
+          </div>
+        {{- end }}
+      </div>
+      <div class="col-12 col-lg-6">
+        {{- range $index, $entry := $entries }}
+          {{- $imageClasses := slice "customer-image" -}}
+          {{- if eq $index 0 }}{{ $imageClasses = $imageClasses | append "customer-active" }}{{ end }}
+          {{- $imageSrc := $entry.image -}}
+          {{- if and $imageSrc (not (hasPrefix $imageSrc "http")) }}
+            {{- $imageSrc = relURL $imageSrc -}}
+          {{- end }}
+          <div title="{{ $entry.name }}" class="{{ delimit $imageClasses " " }}">
+            {{- if $imageSrc }}
+            <img src="{{ $imageSrc }}" alt="Customer Image: {{ $entry.name }}">
+            {{- end }}
+          </div>
+        {{- end }}
+      </div>
+    </div>
+    {{- with $cta }}
+    <div class="success-stories-button text-center">
+      {{- $href := .url | default "#" -}}
+      {{- if hasPrefix $href "/" }}
+        {{- $href = relLangURL $href -}}
+      {{- end }}
+      <a href="{{ $href | safeURL }}" class="btn" title="{{ .label }}">
+        {{ .label }}
+      </a>
+    </div>
+    {{- end }}
+  </div>
+</section>
+  {{- end }}
+{{- end }}

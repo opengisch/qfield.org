@@ -1,0 +1,320 @@
+- id: opengis
+  name:  OPENGIS.ch
+  regions:
+    - europe
+    - asia
+    - north-america
+    - south-america
+    - africa
+    - oceania
+  locations:
+    - "🇨🇭 Switzerland"
+  logo:
+    src: "images/partners/logo_opengisch_open-source-geoninjas.webp"
+    alt: "OPENGIS.ch"
+    class: "partner-logo"
+  description: |
+        OPENGIS.ch is a Swiss open-source geospatial company and the team behind QField. We design and maintain QField and QFieldCloud to bring professional, reliable fieldwork to QGIS users worldwide, with a strong focus on open standards, quality, and long-term sustainability.
+  website:
+    url: "http://opengis.ch/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    text: "Visit Website"
+  modal:
+    location: "🇨🇭 Switzerland"
+    services:
+    - "QField implementation and training"
+    - "QField features development"
+    - "QField plugin development and customization"
+    - "QField RTK antennas integration"
+    - "QFieldCloud dedicated and On-Prem installations"
+    expertise: |
+      We support organisations with QField implementation and training, develop new QField features and plugins, integrate RTK antennas, and deliver QFieldCloud solutions including dedicated and on-prem installations.
+    logo:
+      src: "images/partners/logo_opengisch_open-source-geoninjas.webp"
+      alt: "IG group SA"
+      class: "partner-logo"
+      style: "width: 30px; height: 30px;"
+      
+- id: oslandia
+  name: Oslandia
+  regions:
+    - europe
+  locations:
+    - "🇫🇷 France"
+  logo:
+    src: "https://oslandia.com/wp-content/uploads/2019/11/oslandia_logo_v2_164x154.png"
+    alt: "Oslandia"
+    class: "partner-logo"
+  description: |
+    Oslandia is a French company specialized in open source GIS solutions. They provide expertise in QGIS, PostGIS, and QField for data collection workflows with comprehensive training and implementation services.
+  website:
+    url: "https://oslandia.com/en/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    text: "Visit Website"
+  modal:
+    location: "🇫🇷 France"
+    services:
+      - "QField implementation and workflow setup"
+      - "Custom development and integration"
+      - "Training and workshop services"
+      - "Technical support and maintenance"
+    expertise: |
+      Oslandia specializes in open-source GIS solutions, with particular focus on QGIS, PostGIS, and 3D/web mapping. They offer comprehensive QField implementation services including data structure design, form creation, and field workflow optimization.
+    logo:
+      src: "https://oslandia.com/wp-content/uploads/2019/11/oslandia_logo_v2_164x154.png"
+      alt: "Oslandia"
+      class: "partner-logo"
+      style: "width: 30px; height: 30px;"
+
+- id: astun
+  name: Astun Technology
+  regions:
+    - europe
+  locations:
+    - "🇬🇧 United Kingdom"
+  logo:
+    src: "https://www.astuntechnology.com/wp-content/uploads/2020/10/Astun-Red-Logo-1-1920x565.png"
+    alt: "Astun Technology"
+    class: "partner-logo"
+  description: |
+    Meet our partner – one of the most recognizable companies creating, utilizing, and supporting open-source GIS technologies in the UK.
+  website:
+    url: "https://www.astuntechnology.com/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    text: "Visit Website"
+  modal:
+    location: "🇬🇧 United Kingdom"
+    services:
+      - "QField implementation and training"
+      - "Enterprise GIS solutions"
+      - "Data collection workflow design"
+      - "Technical support and consulting"
+    expertise: |
+      Astun Technology is one of the UK's leading providers of open source geospatial solutions. Their team offers expertise in QGIS, cloud hosting, and mobile data collection workflows, making them an ideal partner for organizations looking to implement QField in enterprise settings.
+    logo:
+      src: "https://www.astuntechnology.com/wp-content/uploads/2020/10/Astun-Red-Logo-1-1920x565.png"
+      alt: "Astun Technology"
+      class: "partner-logo"
+      style: "width: 30px; height: 30px;"
+
+- id: kartoza
+  name: Kartoza
+  regions:
+    - europe
+    - africa
+  locations:
+    - "🇵🇹 Portugal"
+    - "🇿🇦 South Africa"
+  logo:
+    src: "images/partners/Kartoza-logo-vertical.svg"
+    alt: "Kartoza"
+    class: "partner-logo"
+  description: |
+    Based in South Africa and Portugal, Kartoza helps organizations harness open source geospatial tech through expert support and services.
+  website:
+    url: "https://kartoza.com/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    text: "Visit Website"
+  modal:
+    location: "🇵🇹 Portugal | 🇿🇦 South Africa"
+    services:
+      - "Geospatial consulting"
+      - "Web development"
+      - "Mobile GIS support"
+      - "QGIS plugins"
+      - "Open Source geospatial training"
+    expertise: |
+      Kartoza's vision is to enable a world where spatial decision making tools are universal, accessible and affordable for everyone for the benefit of the planet and the people that inhabit it. We would love to partner with you for training, development and maintenance of open source GIS systems.
+    logo:
+      src: "images/partners/Kartoza-logo-vertical.svg"
+      alt: "Kartoza"
+      class: "partner-logo"
+      style: "width: 30px; height: 30px;"
+
+- id: projectree
+  name: Projectree
+  regions:
+    - south-america
+  locations:
+    - "🇧🇷 Brazil"
+  logo:
+    src: "images/partners/projectree-logo.png"
+    alt: "Projectree"
+    class: "partner-logo"
+  description: |
+    Engineering, environmental, and surveying consultancy. Specialists in environmental licensing and GIS solutions for the Brazilian market.
+  website:
+    url: "https://projectree.com.br/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    text: "Visit Website"
+  modal:
+    location: "🇧🇷 Brazil"
+    services:
+      - "Engineering"
+      - "Surveying and mapping services"
+      - "GIS consulting"
+      - "Environmental licensing"
+      - "Project management"
+      - "Environmental and forestry studies"
+    expertise: |
+      We provide geospatial solutions, optimizing office-field workflows and delivering results for sectors such as infrastructure, the environment, mapping, and legal surveying. We specialize in collecting and processing accurate data in full compliance with Brazilian legislation.
+    logo:
+      src: "images/partners/projectree-logo.png"
+      alt: "Projectree"
+      class: "partner-logo"
+      style: "width: 30px; height: 30px;"
+
+- id: mammoth
+  name: Mammoth Geospatial
+  regions:
+    - oceania
+  locations:
+    - "🇦🇺 Australia"
+  logo:
+    src: "images/partners/mammoth-geospatial-logo.png"
+    alt: "Mammoth Geospatial"
+    class: "partner-logo"
+  description: |
+    Based in Australia, Mammoth Geospatial specialises in open source geospatial systems. We provide expert support, consulting, and training in QGIS, PostGIS, QField, and web mapping systems.
+  website:
+    url: "https://mammothgeospatial.com/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    text: "Visit Website"
+  modal:
+    location: "🇦🇺 Australia"
+    services:
+      - "Open geospatial consulting"
+      - "Professional support"
+      - "Public & in-house training"
+      - "Enterprise GIS design, implementation, and strategy"
+    expertise: |
+      For the last decade, we've been 100% focused on helping people and organisations make the most of open source GIS, especially QGIS and PostGIS, as well as many other professional-grade open source tools.
+    additional: |
+      We support our local open geospatial community through our efforts in organising community groups and events like <a href="https://geogeeks.org/" rel="nofollow" target="_blank" class="green-link">Geogeeks</a>, <a href="https://qgis-australia.org/" rel="nofollow" target="_blank" class="green-link">QGIS AU</a>, <a href="https://foss4g-perth.org/" rel="nofollow" target="_blank" class="green-link">FOSS4G Perth</a>, and <a href="https://2018.foss4g-oceania.org/" rel="nofollow" target="_blank" class="green-link">FOSS4G Oceania</a>. We're a <a href="https://www.qgis.org/funding/membership/members/" rel="nofollow" target="_blank" class="green-link">QGIS Sustaining Member</a> and an <a href="https://www.osgeo.org/sponsors/" rel="nofollow" target="_blank" class="green-link">OSGeo Silver Sponsor</a> through our financial support of QGIS, GDAL, OSGeo, and FOSS4G Perth.
+
+      Based in Fremantle, Western Australia, we provide services to organisations in Australia and internationally.
+    logo:
+      src: "images/partners/mammoth-geospatial-logo.png"
+      alt: "Mammoth Geospatial"
+      class: "partner-logo"
+      style: "width: 30px; height: 30px;"
+
+- id: feelgood
+  name: FeelGood GeoSolutions
+  regions:
+    - europe
+  locations:
+    - "🇩🇪 Germany"
+  logo:
+    src: "images/partners/feelgood-logo-color-pin.svg"
+    alt: "FeelGood GeoSolutions"
+    class: "partner-logo"
+    style: "width: 25px"
+  description: |
+    Based in Germany, FeelGood GeoSolutions makes mobile GIS easy with open-source tools and precise GNSS—so you can focus on your real work.
+  website:
+    url: "https://www.feelgoodgeosolutions.de/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    text: "Visit Website"
+  modal:
+    location: "🇩🇪 Germany"
+    services:
+      - "Enterprise GIS consulting, design and implementation"
+      - "Technical training and support"
+      - "QFieldCloud installation & maintenance"
+      - "QField plugin development"
+      - "Surveying and mapping services"
+    expertise: |
+      Working with geodata can be easy and even fun. QField, QFieldCloud, and precise GNSS open the way from simple data capture to powerful analysis, simulation, and visualization. Clear workflows and seamless sync let you focus on insights instead of struggling with technology.
+    logo:
+      src: "images/partners/feelgood-logo.svg"
+      alt: "FeelGood GeoSolutions"
+      class: "partner-logo"
+      style: "width: 30px; height: 30px;"
+
+- id: gispo
+  name: Gispo
+  regions:
+    - europe
+  locations:
+    - "🇫🇮 Finland"
+  logo:
+    src: "images/partners/gispo-logo.svg"
+    alt: "Gispo"
+    class: "partner-logo"
+    style: "width: 25px"
+  description: |
+    Gispo is a full service GIS house, providing spatial data services for our customers. We specialise in Free and Open Source Software for Geospatial (FOSS4G) tools and technologies.
+  website:
+    url: "https://www.gispo.fi/en/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    text: "Visit Website"
+  modal:
+    location: "🇫🇮 Finland"
+    services:
+      - "Consulting"
+      - "Development of FOSS4G tools and solutions"
+      - "Training"
+      - "Support Service"
+      - "Hosting and maintenance services"
+    expertise: |
+      We help our customers utilize open-source and open-data solutions related to geospatial information; from planning and setting up the very first GIS to developing new insights for location based business. Our expertise lies within open source geospatial technologies (e.g. QGIS, QField, GeoServer, PostgreSQL/PostGIS, GDAL) and open data. Our 25 geospatial professionals work in Finland and Sweden.
+    logo:
+      src: "images/partners/gispo-logo.svg"
+      alt: "Gispo"
+      class: "partner-logo"
+      style: "width: 30px; height: 30px;"
+
+- id: envirosolutions
+  name: EnviroSolutions
+  regions:
+    - europe
+  locations:
+    - "🇵🇱 Poland"
+  logo:
+    src: "images/partners/envirosolutions-logo.png"
+    alt: "EnviroSolutions"
+    class: "partner-logo"
+  description: |
+    A leading Polish provider of Open Source GIS (IT/GIS & workshops). Company offers customized IT solutions based on the FOSS4G ecosystem (desktop, web, mobile, DB) while providing technical support (SLA).
+  website:
+    url: "https://envirosolutions.pl/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    text: "Visit Website"
+  modal:
+    location: "🇵🇱 Poland"
+    services:
+      - "Custom GIS solutions"
+      - "QGIS plugins & automation"
+      - "Integration with FOSS4G environment"
+      - "SLA support"
+      - "Professional GIS training and consulting"
+    expertise: |
+      EnviroSolutions is a Polish leader in Open-Source GIS with a team of 20+ experienced experts. Their team develop customized systems and tools for FOSS4G ecosystem and provide workshops with experts. Services are delivered to both private and public sector institutions. With a strong mission to promote open geospatial technologies, EnviroSolutions actively supports the international QGIS community and contributes to initiatives such as QGIS Poland Association, fostering the growth and accessibility of FOSS4G worldwide.
+    logo:
+      src: "images/partners/envirosolutions-logo.png"
+      alt: "EnviroSolutions"
+      class: "partner-logo"
+      style: "width: 30px; height: 30px;"
+
+- id: ig-group
+  name:  IG group SA
+  regions:
+    - europe
+  locations:
+    - "🇨🇭 Switzerland"
+  logo:
+    src: "images/partners/ig-logo.png"
+    alt: "IG group SA"
+    class: "partner-logo"
+  description: |
+    IG group SA is an engineering and surveying firm in Switzerland that provides surveying, geomonitoring, photogrammetry, civil engineering and geoinformatics services.
+  website:
+    url: "http://ig-group.ch/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    text: "Visit Website"
+  modal:
+    location: "🇨🇭 Switzerland"
+    services:
+    - "Data model development"
+    - "QField survey interfaces"
+    - "Precision QField surveying with RTK antenna"
+    - "Geoportal development"
+    - "GIS Process development"
+    expertise: |
+      We specialize in addressing the needs of Swiss public administrations by supporting their GIS processes and GIS data management, including requirements for mobile data acquisition. Our expertise extends, for example, to high-precision measurements using RTK antennas, as well as the deployment of TEKSI public infrastructure management modules.
+    logo:
+      src: "images/partners/ig-logo.png"
+      alt: "IG group SA"
+      class: "partner-logo"
+      style: "width: 30px; height: 30px;"

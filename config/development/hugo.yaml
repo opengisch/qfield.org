@@ -1,0 +1,59 @@
+# Development environment configuration
+# Optimized for development speed and debugging
+
+# Pagination
+pagination:
+  pagerSize: 12
+
+# Development server settings
+server:
+  headers:
+    - for: "/**"
+      values:
+        X-Frame-Options: "DENY"
+        X-Content-Type-Options: "nosniff"
+        Referrer-Policy: "strict-origin-when-cross-origin"
+
+# Build settings for development
+build:
+  writeStats: true
+  useResourceCacheWhen: "fallback"
+
+# Faster builds in development
+caches:
+  assets:
+    dir: ":cacheDir/:project"
+    maxAge: "10m"  # Shorter cache for faster development iteration
+  getcsv:
+    dir: ":cacheDir/:project"
+    maxAge: "5m"
+  getjson:
+    dir: ":cacheDir/:project"
+    maxAge: "5m"
+  images:
+    dir: ":cacheDir/:project"
+    maxAge: "10m"  # Shorter cache for image changes
+  modules:
+    dir: ":cacheDir/:project"
+    maxAge: "10m"
+
+# Minification disabled for easier debugging
+minify:
+  disableCSS: true
+  disableHTML: true
+  disableJS: true
+  disableJSON: true
+  disableSVG: true
+  disableXML: true
+
+# Image processing - lower quality for faster builds
+imaging:
+  quality: 75  # Lower quality for development
+  resampleFilter: "Box"  # Faster filter
+  
+# Development-specific params
+params:
+  environment: "development"
+  debug: true
+  analytics: false
+  serviceWorker: false

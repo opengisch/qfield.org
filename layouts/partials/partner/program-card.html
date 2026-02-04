@@ -1,0 +1,17 @@
+{{ $icon := .icon }}
+<div class="feature">
+  <h2>{{ .title }}</h2>
+  {{ with $icon }}
+    {{ partial "icon.html" (dict
+      "src" .src
+      "alt" .alt
+      "class" (.class | default "")
+    ) }}
+  {{ end }}
+  {{ with .description }}
+    <p>{{ . | markdownify }}</p>
+  {{ end }}
+  {{ with .cta }}
+    <p><a href="{{ .url }}">{{ .text }}</a></p>
+  {{ end }}
+</div>

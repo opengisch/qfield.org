@@ -1,0 +1,79 @@
+{{ define "main" }}
+
+{{ $content := .Site.Data.support.content }}
+
+<!-- Section #1: Title -->
+<section class="py-5 text-center" aria-labelledby="hero-heading">
+  <div class="container">
+    <h1 id="hero-heading" class="display-4 mb-4">{{ $content.title | safeHTML }}</h1>
+  </div>
+</section>
+
+<!-- Section #2: Support Options -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-2 text-center mb-5">
+      </div>
+      <div class="col-8 text-center mb-5">
+        <p>
+          {{ $content.intro | safeHTML }}
+          <a href="{{ $content.contribute_link.url }}" target="_blank" rel="noopener">{{ $content.contribute_link.text }}</a>
+          or:
+        </p>
+      </div>
+    </div>
+    
+    <div class="row g-4">
+      {{ range $content.options }}
+        {{ $option := . }}
+        <div class="col-sm-6 col-lg-4 d-flex">
+          <div class="text-center w-100 d-flex flex-column p-3" style="min-height: 350px;">
+            <div class="d-flex justify-content-center align-items-center" style="height: 120px; margin-bottom: 1rem;">
+              {{ if $option.icon }}
+                {{ partial "asset-image.html" (dict 
+                  "src" $option.icon 
+                  "alt" $option.title
+                  "style" "max-width: 80px; max-height: 100px; width: auto; height: auto;"
+                  "loading" "lazy"
+                ) }}
+              {{ end }}
+            </div>
+            
+            <h3 class="mb-1">
+              {{ if $option.title_link }}
+                {{ $parts := split $option.title " to " }}
+                {{ if eq (len $parts) 2 }}
+                  {{ index $parts 0 | safeHTML }} to <a href="{{ $option.title_link }}" target="_blank" rel="noopener" class="qfieldcloud-link">{{ index $parts 1 | safeHTML }}</a>
+                {{ else }}
+                  {{ $option.title | safeHTML }}
+                {{ end }}
+              {{ else }}
+                {{ $option.title | safeHTML }}
+              {{ end }}
+            </h3>
+            
+            <div class="mt-1">
+              {{ with $option.cta }}
+                <p>
+                  <a href="{{ .url }}" {{ if hasPrefix .url "http" }}target="_blank" rel="noopener"{{ end }} class="{{ .class }}">
+                    {{ .text }}
+                  </a>
+                </p>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Section #3: Footer Message -->
+<section class="text-center my-5">
+  <div class="container">
+    <h2>{{ $content.footer }}</h2>
+  </div>
+</section>
+
+{{ end }}

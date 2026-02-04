@@ -1,0 +1,116 @@
+{{ define "main" }}
+{{ $d := site.Data.donate.content }}
+
+<section id="donation" class="py-5" style="--bs-primary: #80cc28; --bs-link-color: #80cc28; --bs-success: #80cc28; --bs-btn-active-bg: #80cc28; --bs-btn-active-border-color: #80cc28; --bs-primary-rgb: 128, 204, 40;">
+  <div class="container">
+    <!-- Header -->
+    <div class="text-center mb-4">
+      <h1 class="mb-3">{{ with $d.title }}{{ . }}{{ else }}Donate now to support QField{{ end }}</h1>
+      <p class="lead">
+        {{ with $d.provider }}
+          <span class="d-block mt-2">
+            {{ i18n "donate_provider_prefix" | default "We use" }}
+            <a href="{{ .url }}" target="_blank" rel="noopener" class="link-primary link-underline-opacity-0">{{ .name }} <i class="fas fa-external-link-alt"></i></a>
+            {{ i18n "donate_provider_suffix" | default "to receive credit card donations." }}
+          </span>
+        {{ end }}
+      </p>
+    </div>
+
+    <!-- Tabs (intervals) -->
+    <ul class="nav nav-pills justify-content-center gap-2 mb-4" role="tablist">
+      {{ range $i, $tab := $d.intervals }}
+        {{ $isActive := eq $i 0 }}
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link{{ if $isActive }} active{{ end }}"
+            id="tab-{{ $tab.id }}"
+            data-bs-toggle="tab"
+            data-bs-target="#pane-{{ $tab.id }}"
+            type="button"
+            role="tab"
+            aria-controls="pane-{{ $tab.id }}"
+            aria-selected="{{ if $isActive }}true{{ else }}false{{ end }}"
+          >{{ $tab.label }}</button>
+        </li>
+      {{ end }}
+    </ul>
+
+    <!-- Tab panes (amounts) -->
+    <div class="tab-content w-50 justify-content-center mx-auto">
+      {{ range $i, $tab := $d.intervals }}
+        {{ $isActive := eq $i 0 }}
+        <div
+          class="tab-pane fade{{ if $isActive }} show active{{ end }}"
+          id="pane-{{ $tab.id }}"
+          role="tabpanel"
+          aria-labelledby="tab-{{ $tab.id }}"
+          tabindex="0"
+        >
+          <div class="row row-cols-1 g-2 g-md-3 justify-content-center " data-interval="{{ $tab.param }}">
+            {{ range $amt := $tab.amounts }}
+              {{ $isDefault := and (isset $tab "default_amount") (eq $amt $tab.default_amount) }}
+              <div class="col d-grid">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary btn-lg rounded-5 donation-amount{{ if $isDefault }} active{{ end }}"
+                  data-url="{{ $d.base_url }}&donation[preselect_amount]={{ $amt }}&donation[preselect_interval]={{ $tab.param }}"
+                >{{ printf "EUR %.2f" (float $amt) }}</button>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+
+    <!-- Donate CTA -->
+    <div class="text-center mt-4">
+  {{ $ctaClass := or $d.cta.class "btn btn-primary btn-lg" }}
+      {{ $ctaText := or $d.cta.text "Donate" }}
+      <a id="donate-link" href="#" class="{{ $ctaClass }}">{{ $ctaText }}</a>
+      <noscript>
+        <!-- No-JS fallback: link first active amount -->
+        {{ with index $d.intervals 0 }}
+          <a class="btn btn-outline-primary ms-2" href="{{ $d.base_url }}&donation[preselect_amount]={{ .default_amount }}&donation[preselect_interval]={{ .param }}">{{ i18n "donate_noscript" | default "Donate (No JavaScript)" }}</a>
+        {{ end }}
+      </noscript>
+    </div>
+
+    <!-- Support/Info section -->
+    <div class="mt-5 pt-4 border-top">
+      <div class="text-center my-5">
+        <h2 class="h3">{{ with $d.footer.heading }}{{ . }}{{ else }}Your support is vital to keep QField improving{{ end }}</h2>
+        {{ with $d.footer.body }}<p class="text-muted mb-0">{{ . }}</p>{{ end }}
+      </div>
+
+      {{ with $d.footer.sections }}
+        {{ range . }}
+        <div class="support-content">
+          <div class="left-section">
+            <div class="h3">{{ .section | safeHTML }}</div>
+            <div class="accent-bar"></div>
+          </div>
+
+          <div class="right-section">
+            {{ range .columns }}
+            <div class="support-card rounded-4">
+              <h3 class="card-title">{{ .title }}</h3>
+              {{ with .items }}
+              <ul class="card-list">
+                {{ range . }}<li>{{ . }}</li>{{ end }}
+              </ul>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ $donateJS := resources.Get "js/donate.js" }}
+<script src="{{ $donateJS.RelPermalink }}"></script>
+
+{{ end }}

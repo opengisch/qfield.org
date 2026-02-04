@@ -1,0 +1,17 @@
+{{- $bootstrap := resources.Get "css/bootstrap.min.css" | resources.Fingerprint -}}
+<link rel="stylesheet" href="{{ $bootstrap.RelPermalink }}" integrity="{{ $bootstrap.Data.Integrity }}" crossorigin="anonymous">
+
+{{- $main := resources.Get "css/main.css" | resources.Fingerprint -}}
+<link rel="stylesheet" href="{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}" crossorigin="anonymous">
+
+{{- with resources.Get "sass/styles.scss" | toCSS (dict "targetPath" "css/styles.css") | resources.Fingerprint -}}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{- end }}
+
+<link rel="preconnect" href="https://use.typekit.net" crossorigin>
+<link rel="stylesheet" href="{{ "vendor/fontawesome/css/all.min.css" | relURL }}">
+<link rel="stylesheet" href="https://use.typekit.net/cbd7kad.css">
+
+{{- with resources.Get "bootstrap-icons/bootstrap-icons.css" | resources.Fingerprint -}}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{- end }}

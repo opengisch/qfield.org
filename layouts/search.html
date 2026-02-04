@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <section class="py-5 border-bottom">
+    <div class="container text-center text-md-start">
+      <p class="text-uppercase text-muted small mb-2">{{ i18n "search_label" | default "Search" }}</p>
+      <h1 class="display-5 fw-semibold mb-3">{{ .Title }}</h1>
+      {{ with .Params.summary }}
+        <p class="lead text-muted mb-0">{{ . }}</p>
+      {{ else }}
+        <p class="lead text-muted mb-0">Quickly search every public page, blog post, and success story.</p>
+      {{ end }}
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-8">
+          <form class="search-form" action="https://duckduckgo.com/" method="get" role="search">
+            <input type="hidden" name="sites" value="{{ .Site.BaseURL }}">
+            <div class="input-group input-group-lg shadow-sm">
+              <span class="input-group-text bg-white border-end-0"><i class="bi bi-search"></i></span>
+              <input type="search" class="form-control border-start-0" name="q" placeholder="{{ .Params.placeholder | default "Search QField.org" }}" aria-label="{{ .Title }}" required>
+              <button class="btn btn-primary" type="submit">Search</button>
+            </div>
+          </form>
+          <p class="text-muted small mt-3">Search provided by DuckDuckGo with results limited to {{ .Site.BaseURL }}.</p>
+          {{ with .Content }}
+            <div class="mt-4 markdown-body">{{ . }}</div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

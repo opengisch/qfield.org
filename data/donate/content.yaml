@@ -1,0 +1,48 @@
+title: "Donate now to support QField"
+intro: "We use payrexx.com to receive credit card donations."
+provider:
+  name: "payrexx.com"
+  url: "https://payrexx.com"
+base_url: "https://qfield.payrexx.com/en/pay?cid=3a455978"
+intervals:
+  - id: "one_time"
+    label: "One-Time"
+    param: "one_time"
+    default_amount: 10
+    amounts: [10,20,50,100,250]
+  - id: "monthly"
+    label: "Monthly"
+    param: "monthly"
+    default_amount: 5
+    amounts: [5,10,20,50,100,250]
+cta:
+  text: "Donate"
+  class: "btn btn-success btn-lg"
+footer:
+  heading: "Your support is vital to keep QField improving"
+  body: |
+    We would like to extend our activities and improve the quality of QField. Your financial contribution will support the maintenance, improvement, and promotion of QField. Becoming a sustaining member is a way of ensuring the longevity and overall health of the project.
+  sections:
+    - section: "Enhanced Infrastructure <br>& Development Support"
+      title: "What We Do"
+      columns:
+      - title: "Maintaining Core Infrastructure"
+        items:
+          - "The official qfield.org website, a central hub for all things QField."
+          - "Our issue tracking system for efficient bug and feature reporting."
+          - "The continuous integration system, ensuring code quality and stability through automated tests."
+      - title: "Software Development & QA"
+        items:
+          - "Continually improve and package QField for various operating systems, making it accessible to more users worldwide."
+          - "Address bugs and other issues promptly, enhancing the user experience."
+          - "Manage pull requests and conduct thorough code reviews, ensuring the highest standards of software development."
+    - section: "Community Growth<br>& Engagement"
+      title: "How Your Donations Are Used"
+      columns:
+      - title: "Empowering Our Volunteers"
+        items:
+          - "Mentoring new contributors, fostering a welcoming and productive community."
+          - "Translating QField into multiple languages, making the app truly global."
+      - title: "Fostering Collaboration & Knowledge Sharing"
+        items:
+          - "Organizing and supporting contributor meetings and QField conferences, essential for knowledge exchange, collaboration, and the collective advancement of the QField project."

@@ -1,0 +1,49 @@
+{{ define "main" }}
+  {{- $allPages := where site.RegularPages "Params.hide_from_archive" "ne" true -}}
+  {{- $groups := $allPages.GroupBy "Section" -}}
+  <section class="py-5 border-bottom">
+    <div class="container">
+      <p class="text-uppercase text-muted small mb-2">{{ i18n "archives_label" | default "Site archive" }}</p>
+      <h1 class="display-5 fw-semibold mb-3">{{ .Title }}</h1>
+      {{ with .Summary }}
+        <p class="lead text-muted mb-0">{{ . }}</p>
+      {{ else }}
+        <p class="lead text-muted mb-0">{{ .Params.summary | default "Browse every public page, grouped by section and sorted from the most recent entry to the oldest." }}</p>
+      {{ end }}
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      {{ if gt (len $allPages) 0 }}
+        {{ range sort $groups "Key" }}
+          {{- $sectionLabel := cond (or (eq .Key "") (eq .Key nil)) "General" (humanize .Key) -}}
+          <div class="mb-5">
+            <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-2 mb-3">
+              <h2 class="h4 mb-0">{{ $sectionLabel }}</h2>
+              <span class="badge text-bg-light">{{ len .Pages }} {{ cond (eq (len .Pages) 1) "entry" "entries" }}</span>
+            </div>
+            <div class="list-group list-group-flush shadow-sm rounded-3 overflow-hidden">
+              {{ range .Pages.ByDate.Reverse }}
+                <a class="list-group-item list-group-item-action py-3" href="{{ .RelPermalink }}">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between gap-2">
+                    <div>
+                      <div class="fw-semibold mb-1">{{ .Title }}</div>
+                      {{ with .Params.description }}
+                        <p class="mb-0 text-muted small">{{ . | plainify | truncate 180 }}</p>
+                      {{ else }}
+                        <p class="mb-0 text-muted small">{{ .Summary | plainify | truncate 180 }}</p>
+                      {{ end }}
+                    </div>
+                    <time class="text-muted small text-lg-end" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
+                  </div>
+                </a>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      {{ else }}
+        <div class="alert alert-info mb-0">No public content is available yet. Please check back soon.</div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

@@ -1,0 +1,100 @@
+items:
+  - id: 6
+    title: "SDG 6: Clean Water and Sanitation"
+    img: "images/sdgs/sdg-6.png"
+    alt: "SDG 6: Clean Water and Sanitation"
+    learn_more: "https://sdgs.un.org/goals/goal6"
+    paragraphs:
+      - >
+        QField facilitates efficient water quality monitoring and management,
+        ensuring communities have access to clean and safe water. Our tools help
+        track water resources and sanitation systems to promote health and
+        well-being.
+      - >
+        By enabling detailed data collection and real-time analysis, QField supports
+        initiatives aimed at improving water infrastructure and reducing contamination
+        risks, thereby enhancing the overall quality of life for millions of people
+        around the globe.
+
+  - id: 9
+    title: "SDG 9: Industry, Innovation, and Infrastructure"
+    img: "images/sdgs/sdg-9.png"
+    alt: "SDG 9: Industry, Innovation, and Infrastructure"
+    learn_more: "https://sdgs.un.org/goals/goal9"
+    paragraphs:
+      - >
+        By providing cutting-edge tools for infrastructure planning and development,
+        QField drives innovation across multiple industries. Our app supports the
+        creation of sustainable and resilient infrastructure, fostering economic growth
+        and technological advancement.
+      - >
+        QField’s advanced features enable engineers and planners to conduct precise
+        field surveys and analyses, facilitating the design of innovative solutions
+        that address modern challenges in transportation, energy, and communication
+        systems.
+
+  - id: 11
+    title: "SDG 11: Sustainable Cities and Communities"
+    img: "images/sdgs/sdg-11.png"
+    alt: "SDG 11: Sustainable Cities and Communities"
+    learn_more: "https://sdgs.un.org/goals/goal11"
+    paragraphs:
+      - >
+        QField supports urban planning and sustainable development, contributing to the
+        creation of resilient and inclusive cities. Our platform enables efficient data
+        collection and analysis to support smart city initiatives and
+        community-driven projects.
+      - >
+        Through QField, urban planners can integrate geospatial data into their projects
+        to enhance city services, optimize resource allocation, and improve living
+        conditions for residents—ensuring that cities are better equipped to handle
+        population growth and environmental changes.
+
+  - id: 13
+    title: "SDG 13: Climate Action"
+    img: "images/sdgs/sdg-13.png"
+    alt: "SDG 13: Climate Action"
+    learn_more: "https://sdgs.un.org/goals/goal13"
+    paragraphs:
+      - >
+        The app enables precise data collection for climate research and environmental
+        monitoring, aiding in climate action initiatives. QField helps track
+        environmental changes and supports efforts to mitigate climate impacts.
+      - >
+        By providing tools for accurate measurement of climate variables and ecological
+        conditions, QField empowers researchers and policymakers to develop and
+        implement strategies for reducing greenhouse gas emissions, enhancing climate
+        resilience, and promoting sustainable practices across sectors.
+
+  - id: 15
+    title: "SDG 15: Life on Land"
+    img: "images/sdgs/sdg-15.png"
+    alt: "SDG 15: Life on Land"
+    learn_more: "https://sdgs.un.org/goals/goal15"
+    paragraphs:
+      - >
+        QField aids in biodiversity assessments and conservation efforts, promoting the
+        sustainable use of terrestrial ecosystems. Our tools help monitor wildlife,
+        forests, and natural habitats to preserve biodiversity and protect life on land.
+      - >
+        With QField, conservationists can map critical habitats, track species
+        populations, and analyze the impact of human activities on ecosystems,
+        facilitating informed decision-making and effective conservation strategies that
+        ensure the longevity and health of our planet’s natural resources.
+
+  - id: 16
+    title: "SDG 16: Peace, Justice, and Strong Institutions"
+    img: "images/sdgs/sdg-16.png"
+    alt: "SDG 16: Peace, Justice, and Strong Institutions"
+    learn_more: "https://sdgs.un.org/goals/goal16"
+    paragraphs:
+      - >
+        Through its reliable and transparent data management capabilities, QField
+        supports the development of strong institutions and governance systems. Our app
+        helps promote peace, justice, and inclusive societies by providing accurate and
+        accessible data.
+      - >
+        By enabling comprehensive data collection and secure data sharing, QField aids
+        in the monitoring and evaluation of governance projects, supports the
+        enforcement of laws, and enhances public transparency—contributing to fair and
+        just societies where all individuals have equal opportunities and rights.

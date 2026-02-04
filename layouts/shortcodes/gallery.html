@@ -1,0 +1,63 @@
+{{ $id := printf "gallery-%d-%d" (now.Unix) (now.Nanosecond) }}
+{{ $autoplay := .Get "autoplay" | default "false" }}
+{{ $interval := .Get "interval" | default "5000" }}
+{{ $controls := .Get "controls" | default "true" }}
+{{ $indicators := .Get "indicators" | default "true" }}
+
+<div class="gallery-wrapper" 
+     data-gallery-id="{{ $id }}"
+     data-autoplay="{{ $autoplay }}"
+     data-interval="{{ $interval }}"
+     data-controls="{{ $controls }}"
+     data-indicators="{{ $indicators }}">
+  {{ .Inner }}
+</div>
+
+<style>
+/* Gallery-specific image styling for consistent heights */
+#{{ $id }} .carousel-item .gallery-img {
+  height: 400px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  display: block !important;
+}
+
+#{{ $id }} .carousel-item {
+  height: auto;
+}
+
+#{{ $id }} .carousel-item .figure {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+#{{ $id }} .carousel-item .figure .gallery-img {
+  width: 100% !important;
+}
+
+#{{ $id }} .carousel-item .figure .figure-caption {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #{{ $id }} .carousel-item .gallery-img {
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #{{ $id }} .carousel-item .gallery-img {
+    height: 250px !important;
+  }
+}
+</style>
+

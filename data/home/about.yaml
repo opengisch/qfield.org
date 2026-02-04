@@ -1,0 +1,34 @@
+intro:
+  title: "About QField"
+  body: |
+    QField is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management.
+    As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the [United Nations Sustainable Development Goals (SDGs)](/sdgs/), promoting a more sustainable and equitable future.
+sections:
+  - title: "Stay in the loop"
+    body: |
+      [Subscribe to our newsletter](https://www.opengis.ch/newsletter) and stay up to date on the latest and greatest!
+  - title: "Open-source"
+    body: |
+      QField is [released](https://github.com/opengisch/QField) under the GNU Public License (GPL) version 2 or later.
+      Developing QField under this license means that you can inspect and modify the source code and guarantees that you will always have access to a QGIS based field data collection app that is free of cost and can be freely modified.
+  - title: "Privacy"
+    body: |
+      View the QField [Privacy Policy](/privacy_policy.html) to learn what information is collected, how it is used, and how we protect it.
+  - title: "Credits"
+    body: |
+      QField, QFieldCloud and QFieldSync are developed by [OPENGIS.ch](https://www.opengis.ch/).
+      OPENGIS.ch offers [consulting](https://www.opengis.ch/training-consulting/), [development](https://www.opengis.ch/custom-development/), [training](https://www.opengis.ch/qfield-training/) and [support](https://www.opengis.ch/qgis-support/) for open-source software including QField, QGIS and PostGIS.
+social:
+  - name: "Mastodon"
+    url: "https://fosstodon.org/@qfield"
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/48/Mastodon_Logotype_%28Simple%29.svg"
+  - name: "Bluesky"
+    url: "https://bsky.app/profile/qfield.org"
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/company/qfield"
+    image: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+  - name: "GitHub"
+    url: "https://github.com/opengisch/QField/"
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
+ 

@@ -1,0 +1,26 @@
+{{- $logo := .Get "logo" -}}
+{{- if and $logo (not (strings.HasPrefix $logo "http")) -}}
+  {{- $logo = relURL $logo -}}
+{{- end -}}
+{{- $url := .Get "url" -}}
+<div class="col-sm-6 col-lg-4 mb-4 partner-card-wrapper" data-region="{{ .Get "region" }}">
+  <div class="card h-100 shadow-sm partner-card">
+    <div class="card-body">
+      {{ with .Get "country" }}
+      <span class="badge text-bg-light text-uppercase float-end partner-card__country">{{ . }}</span>
+      {{ end }}
+      <h4 class="partner-card__title d-flex align-items-center gap-2">
+        {{ if $logo }}
+        <img src="{{ $logo }}" alt="{{ .Get "name" }}" class="partner-logo">
+        {{ end }}
+        <span>{{ .Get "name" }}</span>
+      </h4>
+      <p class="partner-card__description">{{ .Get "description" | markdownify }}</p>
+    </div>
+    {{ if $url }}
+    <div class="card-footer bg-transparent border-0 pt-0">
+      <a href="{{ $url }}" class="btn btn-success w-100" target="_blank" rel="noopener noreferrer">Visit Website</a>
+    </div>
+    {{ end }}
+  </div>
+</div>
