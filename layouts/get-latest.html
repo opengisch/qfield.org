@@ -1,3 +1,21 @@
 {{ define "main" }}
-  {{ partial "redirect-notice.html" (dict "Page" . "DefaultTarget" "https://github.com/opengisch/QField/releases/latest" "DefaultMessage" "Redirecting to the latest QField release." "DefaultLabel" "latest QField release page") }}
+
+<p>
+  Downloading the latest QField package. If this does not work please go to the
+  <a href="https://github.com/opengisch/QField/releases/latest">latest release page</a>.
+</p>
+
+{{ $js := resources.Get "js/get-latest.js" }}
+{{ $js = $js | js.Build (dict "minify" true) }}
+{{ $js = $js | fingerprint }}
+
+<script
+  src="{{ $js.RelPermalink }}"
+  defer
+  integrity="{{ $js.Data.Integrity }}"
+  crossorigin="anonymous"
+  data-api-latest="https://api.github.com/repos/opengisch/QField/releases/latest"
+  data-browser-latest="https://github.com/opengisch/QField/releases/latest">
+</script>
+
 {{ end }}
