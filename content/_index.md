@@ -109,7 +109,7 @@ success_stories:
       attribution: "Jani Kylmäaho, Chief Digital Officer NLS"
       link:
         label: "Read more..."
-        url: "success-stories/nls.html"
+        url: "success-stories/nls"
         external: true
     - name: "German Archaeological Institute"
       logo: "/images/customer/kgr.png"
@@ -121,7 +121,7 @@ success_stories:
         Utilizing cutting-edge data acquisition and management techniques, Kulturgutretter is leading the way in preserving invaluable cultural treasures and to safeguard heritage for future generations.
       link:
         label: "Read more..."
-        url: "success-stories/dai.html"
+        url: "success-stories/dai"
         external: true
     - name: "Zero Invasive Species"
       logo: "/images/customer/ZIP-logo.png"
@@ -132,16 +132,16 @@ success_stories:
         In the rugged wilderness of New Zealand's South Westland, an ambitious conservation project is underway. Zero Invasive Predators (ZIP) is systematically eliminating possums, rats, and stoats from vast tracts of forest—with QField and QFieldCloud playing a crucial role in their operations.
       link:
         label: "Read more..."
-        url: "success-stories/zero-invasive-predators.html"
+        url: "success-stories/zero-invasive-predators"
         external: true
     - name: "UN Open GIS Initiative"
       logo: "/images/customer/un.svg"
       image: "/images/customer/un_img.jpg"
       description: >-
-        QField has been spotlighted by the UN OpenGIS initiative as a crucial part of their hybrid GIS system. This recognition underscores QField's superior capabilities in supporting multiple <a href="/sdgs.html">United Nations Sustainable Development Goals (SDGs)</a> and revolutionizing geospatial data collection.
+        QField has been spotlighted by the UN OpenGIS initiative as a crucial part of their hybrid GIS system. This recognition underscores QField's superior capabilities in supporting multiple <a href="/sdgs">United Nations Sustainable Development Goals (SDGs)</a> and revolutionizing geospatial data collection.
       link:
         label: "Read more..."
-        url: "success-stories/un.html"
+        url: "success-stories/un"
         external: true
     - name: "Ministry of Agriculture & Food, Forests and Fisheries of Tonga"
       logo: "/images/customer/maff.png"
@@ -150,49 +150,49 @@ success_stories:
         In January 2022 the Hunga Tonga-Hunga Ha'apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha'apai island groups. The internet cable to Tonga was severed during the eruption. In particular, QField was used to generate maps of where fields had been cleared and re-ploughed using government support.
       link:
         label: "Read more..."
-        url: "success-stories/tonga.html"
+        url: "success-stories/tonga"
         external: true
   cta:
     label: "READ ALL SUCCESS STORIES"
-    url: "/success-stories.html"
+    url: "/success-stories"
 industries:
   title: "QField makes a difference"
   description: "Dive into success stories from the field, sorted by industry:"
   items:
     - title: "Infrastructure & Engineering"
       image: "/images/bg/elec.jpg"
-      url: "/success-stories.html?filter=infrastructure-engineering"
+      url: "/success-stories?filter=infrastructure-engineering"
     - title: "Ecology & Environment"
       image: "https://talks.opengis.ch/qfield/images/use_study_vanilla4.jpg"
       image_modifiers:
         - "industry-image--offset-44"
-      url: "/success-stories.html?filter=ecology-environment"
+      url: "/success-stories?filter=ecology-environment"
     - title: "Forestry"
       image: "/images/bg/forest.jpg"
       image_modifiers:
         - "industry-image--offset-5"
-      url: "/success-stories.html?filter=forestry"
+      url: "/success-stories?filter=forestry"
     - title: "Humanitarian & Emergency Response"
       image: "/images/ss/tonga-2.jpg"
       image_modifiers:
         - "industry-image--offset-55"
-      url: "/success-stories.html?filter=humanitarian-emergency-response"
+      url: "/success-stories?filter=humanitarian-emergency-response"
     - title: "Water & Land Management"
       image: "/images/bg/waste.jpg"
       image_modifiers:
         - "industry-image--offset-60"
-      url: "/success-stories.html?filter=water-land-management"
+      url: "/success-stories?filter=water-land-management"
     - title: "Renewable Energy"
       image: "/images/bg/renewables.jpg"
-      url: "/success-stories.html?filter=renewable-energy"
+      url: "/success-stories?filter=renewable-energy"
     - title: "Precision Agriculture"
       image: "/images/bg/wine.jpg"
       image_modifiers:
         - "industry-image--offset-25"
-      url: "/success-stories.html?filter=precision-agriculture"
+      url: "/success-stories?filter=precision-agriculture"
     - title: "Government & Municipalities"
       image: "/images/bg/municipalities.jpg"
-      url: "/success-stories.html?filter=government-municipalities"
+      url: "/success-stories?filter=government-municipalities"
 trusted_by:
   title: "Trusted by"
   logos:
