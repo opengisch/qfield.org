@@ -326,7 +326,7 @@
   locations:
     - "🇱🇺 Luxembourg"
   logo:
-    src: "images/partners/ig-logo.png"
+    src: "images/partners/coft-logo.png"
     alt: "coft"
     class: "partner-logo"
   description: |
@@ -343,7 +343,7 @@
     - "Technical drawing & 3D modeling"
     expertise: |
     COFT designs efficient digital workflows for spatial planning and analysis, combining GIS-based data collection, mobile field surveys, and automated data processing. In addition, COFT enhances the communicative side of planning through technical drawings, presentation design, and 3D modelling. This reduces manual effort and helps clients understand and use complex spatial data.logo:
-      src: "images/partners/ig-logo.png"
+      src: "images/partners/coft-logo.png"
       alt: "IG group SA"
       class: "partner-logo"
       style: "width: 30px; height: 30px;"
@@ -356,13 +356,13 @@
   locations:
     - "🇨🇭 Switzerland"
   logo:
-    src: "images/partners/ig-logo.png"
+    src: "images/partners/ebp-logo.png"
     alt: "ebp"
     class: "partner-logo"
   description: |
     EBP is a consulting and engineering firm with about 500 experts dedicated to making a meaningful impact on sustainable development for more than 40 years.
   website:
-    url: "http://coft.lu/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "http://ebp.global/ch-en/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
     text: "Visit Website"
   modal:
     location: "🇨🇭 Switzerland"
@@ -374,7 +374,7 @@
     - "Project Management"
     expertise: |
       We support clients with customized IT and geospatial solutions that users understand and enjoy – from methodology, concept design and project management to implementation and operation. With data analysis, we extract insights for sound decision-making. And we assist clients with concepts and studies regarding to strategy, organization and infrastructure.
-      src: "images/partners/ig-logo.png"
+      src: "images/partners/ebp-logo.png"
       alt: "ebp"
       class: "partner-logo"
       style: "width: 30px; height: 30px;"
