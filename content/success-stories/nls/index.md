@@ -7,7 +7,7 @@ description: "In 2025, Finland’s National Land Survey (NLS) made a
           bold and visionary leap by launching MTTJ, an open-source topographic data production system built on
           QGIS, QField, and other open technologies. This landmark initiative makes Finland the first country in the world to adopt an
           open-source GIS environment for national-scale topographic data production."
-image: "/customer/nls_schema.jpg"
+image: "/images/customer/nls2.jpg"
 ogImage: "https://qfield.org/customer/nls_schema.jpg"
 sourceLabel: "Original announcement (NLS)"
 sourceUrl: "https://www.maanmittauslaitos.fi/en/topical_issues/national-land-survey-finland-has-introduced-new-topographic-data-production-system"
