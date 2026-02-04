@@ -94,6 +94,15 @@ test_redirect() {
         return 2
     fi
     
+    # First check if source page exists
+    if ! check_url "$source_url" "$TIMEOUT"; then
+        if [ "$VERBOSE" -eq 1 ]; then
+            echo -e "${RED}✗ FAILED${NC} (source page not found)"
+        fi
+        FAILED_REDIRECTS+=("$source_path -> $target_url (source missing)")
+        return 1
+    fi
+    
     if check_url "$target_url" "$TIMEOUT"; then
         if [ "$VERBOSE" -eq 1 ]; then
             echo -e "${GREEN}✓ SUCCESS${NC}"
@@ -120,8 +129,8 @@ test_page() {
         echo -e "${BLUE}→ Checking: $page_url${NC}"
     fi
     
-    # Use curl to check page status
-    local http_code=$(curl -s -w "%{http_code}" -o /dev/null --max-time "$TIMEOUT" --connect-timeout 5 "$page_url" 2>/dev/null)
+    # Use curl to check page status (follow redirects with -L)
+    local http_code=$(curl -s -L -w "%{http_code}" -o /dev/null --max-time "$TIMEOUT" --connect-timeout 5 "$page_url" 2>/dev/null)
     
     # Check if page exists (2xx status)
     if [[ $http_code =~ ^2[0-9]{2}$ ]]; then
@@ -160,7 +169,7 @@ test_redirect "/get/" "https://onelink.to/qfield" "get/"
 test_redirect "/sync/" "https://github.com/opengisch/QFieldSync" "sync/"
 test_redirect "/issues/" "https://github.com/opengisch/QField/issues" "issues/"
 test_redirect "/master/" "https://github.com/opengisch/QField/commit/master#comments" "master/"
-test_redirect "/works-with-hardware.html" "https://qfield.org/hardware" "works-with-hardware.html"
+test_redirect "/works-with-hardware" "https://qfield.org/hardware" "works-with-hardware.html"
 test_redirect "/status/" "https://status.qfield.org" "status/"
 test_redirect "/contribute/" "https://docs.qfield.org/get-started/contribute/" "contribute/"
 test_redirect "/nightly/" "https://play.google.com/store/apps/details?id=ch.opengis.qfield_dev" "nightly/"
@@ -175,51 +184,49 @@ echo ""
 echo -e "${BLUE}Testing Page Existence in Next Version...${NC}"
 echo ""
 
-# Root and main pages
+# Root and main pages (without .html extension)
 test_page "/" "homepage"
-test_page "/index.html" "index.html"
-test_page "/404.html" "404.html"
-test_page "/ambassadors.html" "ambassadors.html"
-test_page "/assistance.html" "assistance.html"
-test_page "/certified-hardware.html" "certified-hardware.html"
-test_page "/donate.html" "donate.html"
-test_page "/donation.html" "donation.html"
-test_page "/hardware.html" "hardware.html"
-test_page "/partner.html" "partner.html"
-test_page "/partners.html" "partners.html"
-test_page "/privacy_policy.html" "privacy_policy.html"
-test_page "/sdgs.html" "sdgs.html"
-test_page "/success-stories.html" "success-stories.html"
-test_page "/support-us.html" "support-us.html"
-test_page "/thankyou.html" "thankyou.html"
-test_page "/works-with-hardware.html" "works-with-hardware.html"
+test_page "/index" "index"
+test_page "/404" "404"
+test_page "/ambassadors" "ambassadors/"
+test_page "/assistance" "assistance"
+test_page "/certified-hardware" "certified-hardware"
+test_page "/donate" "donate"
+test_page "/donation" "donation"
+test_page "/hardware" "hardware"
+test_page "/partner" "partner"
+test_page "/partners" "partners"
+test_page "/privacy_policy" "privacy_policy"
+test_page "/sdgs" "sdgs"
+test_page "/success-stories" "success-stories"
+test_page "/support-us" "support-us"
+test_page "/thankyou" "thankyou"
 
 # Directory pages
 test_page "/get/" "get/"
-test_page "/get_latest/" "get_latest/"
 test_page "/repo/" "repo/"
 test_page "/support/" "support/"
 
-# Success stories pages
-test_page "/success-stories/building-on-top.html" "success-stories/building-on-top"
-test_page "/success-stories/dai.html" "success-stories/dai"
-test_page "/success-stories/ecological-surveying.html" "success-stories/ecological-surveying"
-test_page "/success-stories/fire-salamanders.html" "success-stories/fire-salamanders"
-test_page "/success-stories/freelance-success.html" "success-stories/freelance-success"
-test_page "/success-stories/geological-mapping.html" "success-stories/geological-mapping"
-test_page "/success-stories/ghana-deforestation.html" "success-stories/ghana-deforestation"
-test_page "/success-stories/ground-truth-fiji.html" "success-stories/ground-truth-fiji"
-test_page "/success-stories/heritage-impact-assessment.html" "success-stories/heritage-impact-assessment"
-test_page "/success-stories/malaria-data-collection.html" "success-stories/malaria-data-collection"
-test_page "/success-stories/mapping-breeding-birds.html" "success-stories/mapping-breeding-birds"
-test_page "/success-stories/nls.html" "success-stories/nls"
-test_page "/success-stories/radiation-detection.html" "success-stories/radiation-detection"
-test_page "/success-stories/river-state-survey.html" "success-stories/river-state-survey"
-test_page "/success-stories/tonga.html" "success-stories/tonga"
-test_page "/success-stories/un.html" "success-stories/un"
-test_page "/success-stories/vanilla-surveys.html" "success-stories/vanilla-surveys"
-test_page "/success-stories/water-supply-rwanda.html" "success-stories/water-supply-rwanda"
-test_page "/success-stories/zero-invasive-predators.html" "success-stories/zero-invasive-predators"
+# Success stories pages (without .html extension)
+test_page "/success-stories/building-on-top" "success-stories/building-on-top"
+test_page "/success-stories/dai" "success-stories/dai"
+test_page "/success-stories/ecological-surveying" "success-stories/ecological-surveying"
+test_page "/success-stories/fire-salamanders" "success-stories/fire-salamanders"
+test_page "/success-stories/freelance-success" "success-stories/freelance-success"
+test_page "/success-stories/geological-mapping" "success-stories/geological-mapping"
+test_page "/success-stories/ghana-deforestation" "success-stories/ghana-deforestation"
+test_page "/success-stories/ground-truth-fiji" "success-stories/ground-truth-fiji"
+test_page "/success-stories/heritage-impact-assessment" "success-stories/heritage-impact-assessment"
+test_page "/success-stories/malaria-data-collection" "success-stories/malaria-data-collection"
+test_page "/success-stories/mapping-breeding-birds" "success-stories/mapping-breeding-birds"
+test_page "/success-stories/nls" "success-stories/nls"
+test_page "/success-stories/radiation-detection" "success-stories/radiation-detection"
+test_page "/success-stories/river-state-survey" "success-stories/river-state-survey"
+test_page "/success-stories/tonga" "success-stories/tonga"
+test_page "/success-stories/un" "success-stories/un"
+test_page "/success-stories/vanilla-surveys" "success-stories/vanilla-surveys"
+test_page "/success-stories/water-supply-rwanda" "success-stories/water-supply-rwanda"
+test_page "/success-stories/zero-invasive-predators" "success-stories/zero-invasive-predators"
 
 # Summary
 echo ""
