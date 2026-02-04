@@ -23,8 +23,8 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        {{ with $modal.location }}
-          <p><strong>Location:</strong> {{ . }}</p>
+        {{ with $partner.locations }}
+          <p><strong>Location:</strong> {{ delimit . " " }}</p>
         {{ end }}
         {{ with $modal.services }}
           <p><strong>Services:</strong></p>
