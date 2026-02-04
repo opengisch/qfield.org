@@ -36,7 +36,8 @@ Among its standout features:
 
 All core components were built with **open-source principles** in mind — and many will be shared with the global QGIS and OSGeo community. 
 
-{{< figure src="/images/customer/nls_schema.jpg" alt="Field mapping with QField" caption="" >}}
+{{< figure src="/images/customer/nls3.jpg" alt="Field mapping with QField" caption="" >}}
+{{< figure src="/images/customer/nls4.jpg" alt="Field mapping with QField" caption="" >}}
 
 ### Seamless Field-to-Database Workflow
 
