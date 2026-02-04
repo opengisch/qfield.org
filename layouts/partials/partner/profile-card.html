@@ -24,7 +24,7 @@
           <a href="#" class="btn btn-simple" data-bs-toggle="modal" data-bs-target="#{{ $modalID }}">Read more...</a>
         {{ end }}
         {{ with $partner.website }}
-          <a href="{{ .url }}" class="btn btn-primary" target="_blank">{{ .text | default "Visit Website" }}</a>
+          <a href="{{ .url }}?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love" class="btn btn-primary" target="_blank">{{ .text | default "Visit Website" }}</a>
         {{ end }}
       </div>
     </div>

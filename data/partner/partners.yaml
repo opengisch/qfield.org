@@ -16,7 +16,7 @@
   description: |
         OPENGIS.ch is a Swiss open-source geospatial company and the team behind QField. We design and maintain QField and QFieldCloud to bring professional, reliable fieldwork to QGIS users worldwide, with a strong focus on open standards, quality, and long-term sustainability.
   website:
-    url: "http://opengis.ch/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "http://opengis.ch"
     text: "Visit Website"
   modal:
     location: "🇨🇭 Switzerland"
@@ -47,7 +47,7 @@
   description: |
     Oslandia is a French company specialized in open source GIS solutions. They provide expertise in QGIS, PostGIS, and QField for data collection workflows with comprehensive training and implementation services.
   website:
-    url: "https://oslandia.com/en/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "https://oslandia.com/en"
     text: "Visit Website"
   modal:
     location: "🇫🇷 France"
@@ -77,7 +77,7 @@
   description: |
     Meet our partner – one of the most recognizable companies creating, utilizing, and supporting open-source GIS technologies in the UK.
   website:
-    url: "https://www.astuntechnology.com/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "https://www.astuntechnology.com"
     text: "Visit Website"
   modal:
     location: "🇬🇧 United Kingdom"
@@ -109,7 +109,7 @@
   description: |
     Based in South Africa and Portugal, Kartoza helps organizations harness open source geospatial tech through expert support and services.
   website:
-    url: "https://kartoza.com/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "https://kartoza.com"
     text: "Visit Website"
   modal:
     location: "🇵🇹 Portugal | 🇿🇦 South Africa"
@@ -140,7 +140,7 @@
   description: |
     Engineering, environmental, and surveying consultancy. Specialists in environmental licensing and GIS solutions for the Brazilian market.
   website:
-    url: "https://projectree.com.br/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "https://projectree.com.br"
     text: "Visit Website"
   modal:
     location: "🇧🇷 Brazil"
@@ -172,7 +172,7 @@
   description: |
     Based in Australia, Mammoth Geospatial specialises in open source geospatial systems. We provide expert support, consulting, and training in QGIS, PostGIS, QField, and web mapping systems.
   website:
-    url: "https://mammothgeospatial.com/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "https://mammothgeospatial.com"
     text: "Visit Website"
   modal:
     location: "🇦🇺 Australia"
@@ -207,7 +207,7 @@
   description: |
     Based in Germany, FeelGood GeoSolutions makes mobile GIS easy with open-source tools and precise GNSS—so you can focus on your real work.
   website:
-    url: "https://www.feelgoodgeosolutions.de/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "https://www.feelgoodgeosolutions.de"
     text: "Visit Website"
   modal:
     location: "🇩🇪 Germany"
@@ -239,7 +239,7 @@
   description: |
     Gispo is a full service GIS house, providing spatial data services for our customers. We specialise in Free and Open Source Software for Geospatial (FOSS4G) tools and technologies.
   website:
-    url: "https://www.gispo.fi/en/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "https://www.gispo.fi/en"
     text: "Visit Website"
   modal:
     location: "🇫🇮 Finland"
@@ -270,7 +270,7 @@
   description: |
     A leading Polish provider of Open Source GIS (IT/GIS & workshops). Company offers customized IT solutions based on the FOSS4G ecosystem (desktop, web, mobile, DB) while providing technical support (SLA).
   website:
-    url: "https://envirosolutions.pl/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "https://envirosolutions.pl"
     text: "Visit Website"
   modal:
     location: "🇵🇱 Poland"
@@ -301,7 +301,7 @@
   description: |
     IG group SA is an engineering and surveying firm in Switzerland that provides surveying, geomonitoring, photogrammetry, civil engineering and geoinformatics services.
   website:
-    url: "http://ig-group.ch/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "http://ig-group.ch/"
     text: "Visit Website"
   modal:
     location: "🇨🇭 Switzerland"
@@ -332,7 +332,7 @@
   description: |
     COFT specializes in the digital optimization of spatial data workflows, combining GIS, mobile data collection, automation, and visual communication.
   website:
-    url: "http://coft.lu/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "http://coft.lu"
     text: "Visit Website"
   modal:
     location: "🇱🇺 Luxembourg"
@@ -362,7 +362,7 @@
   description: |
     EBP is a consulting and engineering firm with about 500 experts dedicated to making a meaningful impact on sustainable development for more than 40 years.
   website:
-    url: "http://ebp.global/ch-en/?utm_source=qfield&utm_medium=partners&utm_campaign=from_qfield_with_love"
+    url: "http://ebp.global/ch-en"
     text: "Visit Website"
   modal:
     location: "🇨🇭 Switzerland"
