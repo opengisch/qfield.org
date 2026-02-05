@@ -3,25 +3,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ block "head/content-security-policy" . }}{{ partial "head/content-security-policy.html" . }}{{ end }}
-    {{ if eq .Site.Params.enableDarkMode true }}
-    <script>
-      (function() {
-        var defaultTheme = '{{ .Site.Params.defaultTheme | default "auto" }}';
-        var stored = null;
-        try { stored = localStorage.getItem('theme'); } catch (e) {}
-        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        var resolved = (stored === 'light' || stored === 'dark')
-          ? stored
-          : (defaultTheme === 'dark'
-              ? 'dark'
-              : (defaultTheme === 'auto'
-                  ? (prefersDark ? 'dark' : 'light')
-                  : 'light'));
-        document.documentElement.setAttribute('data-theme-default', defaultTheme);
-        document.documentElement.setAttribute('data-bs-theme', resolved === 'dark' ? 'dark' : 'light');
-      })();
-    </script>
-    {{ end }}
+    {{- if eq .Site.Params.enableDarkMode true -}}
+      {{- $themeScript := partial "head/theme-init-script.html" . -}}
+      <script>{{ $themeScript | safeJS }}</script>
+    {{- end }}
     {{ block "head/stylesheet" . }}{{ partial "head/stylesheet.html" . }}{{ end }}
     {{ block "head/seo" . }}{{ partial "head/seo.html" . }}{{ end }}
     {{ block "head/favicons" . }}{{ partial "head/favicons.html" . }}{{ end }}
