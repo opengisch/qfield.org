@@ -260,7 +260,7 @@ menu:
       weight: 40
     - name: "Get started"
       identifier: "get-started"
-      url: "https://docs.qfield.org/get-started/"
+      url: "/get/"
       weight: 50
       params:
         variant: "primary"
