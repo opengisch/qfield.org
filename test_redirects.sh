@@ -8,7 +8,7 @@ set -o pipefail
 
 VERBOSE=0
 TIMEOUT=10
-BASE_URL="${BASE_URL:-https://qfield.org}"
+BASE_URL="${BASE_URL:-http://qfield.org}"
 FAILED_REDIRECTS=()
 SUCCESSFUL_REDIRECTS=()
 SKIPPED_REDIRECTS=()
@@ -169,7 +169,7 @@ test_redirect "/get/" "https://onelink.to/qfield" "get/"
 test_redirect "/sync/" "https://github.com/opengisch/QFieldSync" "sync/"
 test_redirect "/issues/" "https://github.com/opengisch/QField/issues" "issues/"
 test_redirect "/master/" "https://github.com/opengisch/QField/commit/master#comments" "master/"
-test_redirect "/works-with-hardware" "https://qfield.org/hardware" "works-with-hardware.html"
+test_redirect "/works-with-hardware/" "http://qfield.org/hardware/" "hardware/"
 test_redirect "/status/" "https://status.qfield.org" "status/"
 test_redirect "/contribute/" "https://docs.qfield.org/get-started/contribute/" "contribute/"
 test_redirect "/nightly/" "https://play.google.com/store/apps/details?id=ch.opengis.qfield_dev" "nightly/"
