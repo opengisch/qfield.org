@@ -53,7 +53,7 @@ hero:
               accent: "qfield"
       button:
         label: "Get assistance"
-        url: "/assistance.html"
+        url: "/assistance"
         icon: "fa-solid fa-handshake"
         external: true
 highlights:
