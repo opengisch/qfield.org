@@ -21,6 +21,17 @@
 
     if (!platform) throw new Error('No "platform" parameter provided');
 
+    const storeTargets = {
+      android: "https://play.google.com/store/apps/details?id=ch.opengis.qfield",
+      ios: "https://apps.apple.com/app/qfield-for-qgis/id1531726814"
+    };
+
+    const storeTarget = storeTargets[platform];
+    if (storeTarget) {
+      redirect(storeTarget);
+      return;
+    }
+
     fetch(API_LATEST_RELEASE_URL)
       .then((response) => {
         if (!response.ok) throw new Error("GitHub API error");
