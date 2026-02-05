@@ -7,6 +7,8 @@ noindex: true
 redirectTo: "https://docs.qfield.org/get-started/help/"
 redirectLinkLabel: "Visit the help center"
 redirectMessage: "Redirecting to the QField help and support page."
+aliases:
+  - /support/
 ---
 
 <!-- Redirect handled in layout -->
