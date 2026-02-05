@@ -7,6 +7,8 @@ noindex: true
 redirectTo: "https://github.com/opengisch/QField/releases/latest"
 redirectLinkLabel: "latest QField release page"
 redirectMessage: "Redirecting to the latest QField release."
+aliases:
+  - /get-latest/
 ---
 
 <!-- Content will be in the layout -->

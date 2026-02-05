@@ -7,6 +7,8 @@ noindex: true
 redirectTo: "https://github.com/opengisch/QField/"
 redirectLinkLabel: "Visit the QField repository"
 redirectMessage: "Redirecting to the main QField repository."
+aliases:
+  - /repo/
 ---
 
 <!-- Redirect handled in layout -->

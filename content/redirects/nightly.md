@@ -7,6 +7,8 @@ noindex: true
 redirectTo: "https://play.google.com/store/apps/details?id=ch.opengis.qfield_dev"
 redirectLinkLabel: "Get the QField nightly build"
 redirectMessage: "Redirecting to the QField nightly build on Google Play."
+aliases:
+  - /nightly/
 ---
 
 <!-- Redirect handled in layout -->

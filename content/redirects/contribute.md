@@ -7,6 +7,8 @@ noindex: true
 redirectTo: "https://docs.qfield.org/get-started/contribute/"
 redirectLinkLabel: "Read the contribution guide"
 redirectMessage: "Redirecting to our contribution guide."
+aliases:
+  - /contribute/
 ---
 
 <!-- Redirect handled in layout -->

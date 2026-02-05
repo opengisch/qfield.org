@@ -7,6 +7,8 @@ noindex: true
 redirectTo: "https://github.com/opengisch/QFieldSync"
 redirectLinkLabel: "Go to QFieldSync on GitHub"
 redirectMessage: "Redirecting to the QFieldSync repository."
+aliases:
+  - /sync/
 ---
 
 <!-- Redirect handled in layout -->

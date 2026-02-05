@@ -7,6 +7,8 @@ noindex: true
 redirectTo: "https://onelink.to/qfield"
 redirectLinkLabel: "QField download page"
 redirectMessage: "Redirecting to the download page."
+aliases:
+  - /get/
 ---
 
 <!-- Content will be in the layout -->
