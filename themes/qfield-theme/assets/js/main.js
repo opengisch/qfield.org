@@ -3,6 +3,9 @@ console.log('Main.js script loaded at:', new Date().toISOString())
 
 let isInitialized = false
 let initAttempts = 0
+let galleryInitAttempts = 0
+const MAX_GALLERY_INIT_ATTEMPTS = 10
+const GALLERY_RETRY_DELAY_MS = 100
 
 function initializeApp() {
   initAttempts++
@@ -308,6 +311,7 @@ function tryInitialization() {
 
 // Gallery initialization function
 function initializeGalleries() {
+  galleryInitAttempts++
   const galleryWrappers = document.querySelectorAll('.gallery-wrapper[data-gallery-id]')
   console.log('Initializing galleries:', galleryWrappers.length)
   
@@ -317,8 +321,13 @@ function initializeGalleries() {
   })
   
   if (galleryWrappers.length === 0) {
-    console.log('No gallery wrappers found, will retry in 100ms')
-    setTimeout(initializeGalleries, 100)
+    const canRetry = document.readyState !== 'complete' && galleryInitAttempts < MAX_GALLERY_INIT_ATTEMPTS
+    if (canRetry) {
+      console.log(`No gallery wrappers found, will retry in ${GALLERY_RETRY_DELAY_MS}ms`)
+      setTimeout(initializeGalleries, GALLERY_RETRY_DELAY_MS)
+      return
+    }
+    console.log('No gallery wrappers found, skipping gallery initialization')
     return
   }
   
@@ -609,4 +618,3 @@ if (typeof window !== 'undefined') {
 // Start initialization
 tryInitialization()
 initializeDonationPage()
-

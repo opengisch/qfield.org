@@ -7,6 +7,8 @@ noindex: true
 redirectTo: "https://status.qfield.cloud/"
 redirectLinkLabel: "Check QField Cloud status"
 redirectMessage: "Redirecting to the QField Cloud status page."
+aliases:
+  - /status/
 ---
 
 <!-- Redirect handled in layout -->

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting…</title>
+    <meta name="robots" content="noindex">
+    <link rel="canonical" href="{{ .RelPermalink | safeURL }}">
+    <meta http-equiv="refresh" content="0; url={{ .RelPermalink | safeURL }}">
+  </head>
+  <body>
+    <p>Redirecting to <a href="{{ .RelPermalink | safeURL }}">{{ .RelPermalink }}</a></p>
+  </body>
+</html>
