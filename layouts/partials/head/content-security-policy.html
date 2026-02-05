@@ -1,12 +1,3 @@
-{{- /* Custom CSP allowing inline theme init script via hash */ -}}
-{{- $scriptHashes := slice -}}
-{{- if eq .Site.Params.enableDarkMode true -}}
-  {{- $themeScript := partial "head/theme-init-script.html" . -}}
-  {{- $themeIntegrity := (resources.FromString "csp/theme-init.js" $themeScript | fingerprint "sha256").Data.Integrity -}}
-  {{- $scriptHashes = $scriptHashes | append $themeIntegrity -}}
-{{- end -}}
+{{- /* Custom CSP; no inline scripts expected. */ -}}
 {{- $scriptSrc := "script-src 'self' https://cdn.jsdelivr.net" -}}
-{{- range $scriptHashes -}}
-  {{- $scriptSrc = printf "%s '%s'" $scriptSrc . -}}
-{{- end -}}
 <meta http-equiv='Content-Security-Policy' content="{{ $scriptSrc }}; style-src 'self' 'unsafe-inline' https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net; font-src 'self' data: https://use.typekit.net https://p.typekit.net; object-src 'none'; base-uri 'none'">
