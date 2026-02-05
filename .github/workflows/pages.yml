@@ -40,10 +40,12 @@ jobs:
         run: |
           if [[ "${{ github.event_name }}" == "push" && "${{ github.ref }}" == "refs/heads/main" ]]; then
             # Production build
-            hugo --environment production --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}"
+            # hugo --environment production --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}"
+            hugo --environment production --gc --minify --baseURL "https://qfield.org"
           else
             # Staging/preview build
-            hugo --environment staging -D --baseURL "${{ steps.pages.outputs.base_url }}"
+            # hugo --environment staging -D --baseURL "${{ steps.pages.outputs.base_url }}"
+            hugo --environment staging -D --baseURL "https://qfield.org"
           fi
 
       - name: Upload artifact
