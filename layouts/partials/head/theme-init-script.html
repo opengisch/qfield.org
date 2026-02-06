@@ -1,16 +1,13 @@
 {{- /* Inline theme init script (shared for CSP hashing). */ -}}
 (function() {
-  var defaultTheme = '{{ .Site.Params.defaultTheme | default "auto" }}';
+  var defaultTheme = '{{ .Site.Params.defaultTheme | default "light" }}';
   var stored = null;
   try { stored = localStorage.getItem('theme'); } catch (e) {}
-  var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   var resolved = (stored === 'light' || stored === 'dark')
     ? stored
     : (defaultTheme === 'dark'
         ? 'dark'
-        : (defaultTheme === 'auto'
-            ? (prefersDark ? 'dark' : 'light')
-            : 'light'));
+        : 'light');
   document.documentElement.setAttribute('data-theme-default', defaultTheme);
   document.documentElement.setAttribute('data-bs-theme', resolved === 'dark' ? 'dark' : 'light');
 })();

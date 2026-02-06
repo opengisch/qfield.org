@@ -64,7 +64,7 @@
               {{- if and (not $isActive) (and .URL (not (strings.HasPrefix .URL "http"))) -}}
                 {{- $isActive = eq $current.RelPermalink (.URL | relLangURL) -}}
               {{- end -}}
-              <li class="nav-item">
+              <li class="nav-item{{ if $variant }} nav-item--button{{ end }}">
                 <a class="{{ $linkClass }}{{ if $isActive }} active{{ end }}" href="{{ if .URL }}{{ if strings.HasPrefix .URL "http" }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{ end }}{{ else }}#{{ end }}" target="{{ $itemTarget }}"{{ if $itemRel }} rel="{{ $itemRel }}"{{ end }}>
                   {{ with .Params.icon }}<i class="{{ . }}" aria-hidden="true"></i>{{ end }}
                   <span>{{ .Name }}</span>

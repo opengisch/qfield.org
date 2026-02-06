@@ -237,7 +237,7 @@ function initializeApp() {
   if (blogViewGrid && blogViewToggleButtons.length > 0) {
     const storageKey = 'qfieldBlogView'
     const allowedViews = ['cards', 'list']
-    const defaultView = 'list'
+    const defaultView = 'cards'
 
     const setActiveButton = (view) => {
       blogViewToggleButtons.forEach((btn) => {
