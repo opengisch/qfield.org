@@ -28,3 +28,4 @@ pnpm-debug.log*
 # Temporary files
 *.tmp
 *.temp
+*.xcf

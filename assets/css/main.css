@@ -385,6 +385,14 @@ p {
   background: linear-gradient(270deg, rgba(210, 210, 210, 0.92) 0%, rgba(210, 210, 210, 0) 100%);
 }
 
+[data-bs-theme='dark'] .hero-carousel::before {
+  background: linear-gradient(90deg, rgba(10, 10, 10, 0.9) 0%, rgba(10, 10, 10, 0) 100%);
+}
+
+[data-bs-theme='dark'] .hero-carousel::after {
+  background: linear-gradient(270deg, rgba(10, 10, 10, 0.9) 0%, rgba(10, 10, 10, 0) 100%);
+}
+
 .hero-carousel .carousel-inner {
   position: relative;
   z-index: 1;
@@ -467,6 +475,18 @@ p {
 .carousel-slide--plugin {
   background-image: url("../images/qf_carousel/qf-bg-plugin.jpg");
   z-index: 1;
+}
+
+[data-bs-theme='dark'] .carousel-slide--collect {
+  background-image: url("../images/qf_carousel/qf-bg-collect_drk.png");
+}
+
+[data-bs-theme='dark'] .carousel-slide--sync {
+  background-image: url("../images/qf_carousel/qf-bg-sync_drk.png");
+}
+
+[data-bs-theme='dark'] .carousel-slide--plugin {
+  background-image: url("../images/qf_carousel/qf-bg-plugin_drk.png");
 }
 
 .text-qfield {
