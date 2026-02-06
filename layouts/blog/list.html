@@ -16,8 +16,8 @@
     <div class="d-flex justify-content-end align-items-center gap-2 mb-4 blog-view-controls" data-blog-view-controls>
       <span class="text-muted small">View:</span>
       <div class="btn-group" role="group" aria-label="Toggle blog layout">
-        <button type="button" class="btn btn-outline-secondary btn-sm blog-view-toggle" data-blog-view-toggle data-view="cards" aria-pressed="false">Cards</button>
-        <button type="button" class="btn btn-outline-secondary btn-sm blog-view-toggle active" data-blog-view-toggle data-view="list" aria-pressed="true">List</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm blog-view-toggle active" data-blog-view-toggle data-view="cards" aria-pressed="true">Cards</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm blog-view-toggle" data-blog-view-toggle data-view="list" aria-pressed="false">List</button>
       </div>
     </div>
 
@@ -25,7 +25,7 @@
     {{ $pages := $paginator.Pages }}
 
     <!-- Blog posts grid -->
-    <div class="row g-4 blog-view blog-view--list" id="blogViewGrid" data-blog-view-grid>
+    <div class="row g-4 blog-view blog-view--cards" id="blogViewGrid" data-blog-view-grid>
       {{ range $index, $page := $pages }}
           {{ $image := "" }}
           {{ $imageURL := "" }}

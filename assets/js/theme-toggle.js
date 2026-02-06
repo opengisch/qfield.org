@@ -4,8 +4,7 @@
 
   const buttons = [document.getElementById('themeToggle'), document.getElementById('themeToggleMobile')].filter(Boolean);
   const icons = [document.getElementById('themeIcon'), document.getElementById('themeIconMobile')].filter(Boolean);
-  const defaultTheme = doc.getAttribute('data-theme-default') || 'auto';
-  const prefersDark = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+  const defaultTheme = doc.getAttribute('data-theme-default') || 'light';
 
   function resolveTheme() {
     try {
@@ -16,9 +15,6 @@
     }
 
     if (defaultTheme === 'dark') return 'dark';
-    if (defaultTheme === 'auto') {
-      return prefersDark && prefersDark.matches ? 'dark' : 'light';
-    }
     return 'light';
   }
 
@@ -48,13 +44,4 @@
     });
   });
 
-  if (prefersDark && typeof prefersDark.addEventListener === 'function' && defaultTheme === 'auto') {
-    prefersDark.addEventListener('change', (event) => {
-      try {
-        const stored = localStorage.getItem('theme');
-        if (stored === 'light' || stored === 'dark') return;
-      } catch (e) { /* ignore */ }
-      setTheme(event.matches ? 'dark' : 'light', false);
-    });
-  }
 })();
