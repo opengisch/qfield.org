@@ -279,10 +279,14 @@ p {
 }
 
 .nav-link--button.nav-link--primary {
-  border: 3px solid var(--qfield-color);
+  border: 1px solid var(--qfield-color);
   color: var(--qfield-color);
   background-color: transparent;
 }
+
+/* .nav-link nav-link--button nav-link--support {
+  border: 1px solid var(--qfield-color);
+} */
 
 .nav-link--button.nav-link--primary:hover,
 .nav-link--button.nav-link--primary:focus {
@@ -312,7 +316,7 @@ p {
 
 .nav-link--support{
   background-color: var(--qfield-color);
-  border: 2px solid var(--qfield-color);
+  border: 1px solid var(--qfield-color);
   color: #fff !important;
   /* box-shadow: 0 10px 22px rgba(128, 204, 40, 0.25); */
 }
@@ -1466,7 +1470,7 @@ p:has(> img) {
   font-weight: 400;
   font-size: 12pt;
   padding: 5px 15px;
-  background-color: #ffffff;
+  background-color: #3b3b3b;
   text-align: center;
   border-radius: 32px;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -1476,14 +1480,14 @@ p:has(> img) {
 }
 
 .qf-button a {
-  border: 2px solid var(--qfield-color);
+  border: 1px solid var(--qfield-color);
   color: var(--qfield-color);
 }
 
 .qf-button a:hover {
   background-color: var(--qfield-color);
   border-color: var(--qfield-color);
-  color: #fff;
+  color: #ffff;
 }
 
 
@@ -1503,14 +1507,14 @@ p:has(> img) {
 }
 
 .qfc-button a {
-  border: 3px solid var(--qfieldcloud-color);
-  color: var(--qfieldcloud-color);
+  border: 1px solid var(--qfieldcloud-color);
+  color: var(--qfieldcloud-color) !important;
 }
 
 .qfc-button a:hover {
   background-color: var(--qfieldcloud-color);
   border-color: var(--qfieldcloud-color);
-  color: #fff;
+  color: #ffff !important;
 }
 
 /*main poinst*/
