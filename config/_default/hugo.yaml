@@ -44,6 +44,7 @@ params:
   author: "OPENGIS.ch"
   copyright: "© 2024 OPENGIS.ch"
   mainMenuLogo: "/images/qfield_for_qgis.png"
+  mainMenuLogoDark: "/images/qfield_for_qgis_white.svg"
   showTitle: false
   favicon: "/images/qfield-logo.svg"
   logo: "/images/qfield_for_qgis.png"
@@ -55,18 +56,18 @@ params:
     bootStrapJs: true
     breadCrumb: true
 
-  
+
   # Social and contact information
   twitter: "@qfieldforqgis"
   github: "https://github.com/opengisch/QField"
   linkedin: "https://www.linkedin.com/company/opengis-ch/"
-  
+
   # Open Graph / Twitter Cards
   social:
     facebook_app_id: ""
     twitter_card: "summary_large_image"
     default_image: "/images/qf_carousel/qf-phones-collect1.png"
-    
+
   webSite:
     name: "QField"
     description: "Efficient field work built for QGIS"
@@ -123,7 +124,7 @@ minify:
 # Build configuration
 build:
   writeStats: true
-  
+
 caches:
   assets:
     dir: ":cacheDir/:project"
@@ -140,7 +141,7 @@ caches:
   modules:
     dir: ":cacheDir/:project"
     maxAge: "1h"
-  
+
 markup:
   goldmark:
     renderer:
@@ -153,7 +154,7 @@ imaging:
   anchor: "Smart"
   bgColor: "#ffffff"
   hint: "photo"
-  
+
   # Set reasonable limits for image processing
   exif:
     includeFields: ""
@@ -186,7 +187,7 @@ languages:
     languageName: "English"
     weight: 1
     title: "QField - Efficient field work built for QGIS"
-    
+
 # Privacy configuration (updated to fix deprecation warning)
 privacy:
   googleAnalytics:
