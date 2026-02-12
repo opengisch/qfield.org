@@ -6,16 +6,16 @@
   <nav class="navbar navbar-expand-lg bg-body border-bottom sticky-top mb-4">
     <div class="container">
 
-      <!-- Brand -->
-      <a class="navbar-brand fw-bold d-flex align-items-center" href="{{ .Site.Home.RelPermalink }}">
-        {{ if isset .Site.Params "mainmenulogo" }}
-        <img src="{{ .Site.Params.mainMenuLogo | relURL }}" alt="logo" height="50"
-          class="d-inline-block align-text-top">
-        {{ end }}
-        {{ if eq .Site.Params.showTitle true }}
-        {{ .Site.Title }}
-        {{ end}}
-      </a>
+<!-- Brand -->
+<a class="navbar-brand fw-bold d-flex align-items-center" href="{{ .Site.Home.RelPermalink }}">
+  <img src="{{ .Site.Params.mainMenuLogo | relURL }}" alt="logo" height="50"
+    class="d-inline-block align-text-top navbar-brand__logo--light">
+  <img src="{{ .Site.Params.mainMenuLogoDark | relURL }}" alt="logo" height="50"
+    class="d-inline-block align-text-top navbar-brand__logo--dark">
+  {{ if eq .Site.Params.showTitle true }}
+  {{ .Site.Title }}
+  {{ end}}
+</a>
 
       <!-- Menu Toggler -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
