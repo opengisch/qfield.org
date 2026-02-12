@@ -44,7 +44,7 @@ params:
   author: "OPENGIS.ch"
   copyright: "© 2024 OPENGIS.ch"
   mainMenuLogo: "/images/qfield_for_qgis.png"
-  mainMenuLogoDark: "static/images/qfield_for_qgis_white.svg"
+  mainMenuLogoDark: "/images/qfield_for_qgis_white.svg"
   showTitle: false
   favicon: "/images/qfield-logo.svg"
   logo: "/images/qfield_for_qgis.png"
