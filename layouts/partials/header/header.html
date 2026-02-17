@@ -3,14 +3,31 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-lg bg-white border-bottom sticky-top">
     <div class="container">
 
-      <a class="navbar-brand fw-bold" href="{{ .Site.Home.RelPermalink }}">
-        {{ with .Site.Params.mainMenuLogo }}
-          <img src="{{ . | relURL }}" alt="QField logo" width="205" height="70" class="navbar-brand__logo" loading="eager" decoding="async">
-        {{ end }}
-        {{ if eq .Site.Params.showTitle true }}
-        <span>{{ .Site.Title }}</span>
-        {{ end }}
-      </a>
+<a class="navbar-brand fw-bold" href="{{ .Site.Home.RelPermalink }}">
+  {{ with .Site.Params.mainMenuLogo }}
+    <img src="{{ . | relURL }}"
+         alt="QField logo"
+         width="205"
+         height="70"
+         class="navbar-brand__logo navbar-brand__logo--light"
+         loading="eager"
+         decoding="async">
+  {{ end }}
+
+  {{ with .Site.Params.mainMenuLogoDark }}
+    <img src="{{ . | relURL }}"
+         alt="QField logo"
+         width="205"
+         height="70"
+         class="navbar-brand__logo navbar-brand__logo--dark"
+         loading="eager"
+         decoding="async">
+  {{ end }}
+
+  {{ if .Site.Params.showTitle }}
+    <span>{{ .Site.Title }}</span>
+  {{ end }}
+</a>
 
       <div class="d-flex align-items-center gap-2 order-lg-3">
         {{ if eq .Site.Params.enableDarkMode true -}}
