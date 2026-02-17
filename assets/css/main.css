@@ -1484,13 +1484,18 @@ p:has(> img) {
   font-weight: 400;
   font-size: 12pt;
   padding: 5px 15px;
-  background-color: #3b3b3b;
+  background-color: #ffffff;
   text-align: center;
   border-radius: 32px;
   transition: background-color 0.3s ease, color 0.3s ease;
   display: inline-block;
   text-decoration: none;
   text-shadow: none !important;
+}
+
+[data-bs-theme='dark'] .qf-button a,
+[data-bs-theme='dark'] .qfc-button a {
+  background-color: #3b3b3b;
 }
 
 .qf-button a {
