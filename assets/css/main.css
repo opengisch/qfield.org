@@ -3692,11 +3692,11 @@ div.explanation {
 }
 
 [data-bs-theme='dark'] .client-logo {
-  background-color: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 16px;
-  padding: 12px;
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35);
+  /* background-color: rgba(255, 255, 255, 0.08); */
+  /* border: 1px solid rgba(255, 255, 255, 0.16); */
+  /* border-radius: 16px; */
+  padding: 4px;
+  /* box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35); */
 }
 
 [data-bs-theme='dark'] .logo-link:hover .client-logo {
