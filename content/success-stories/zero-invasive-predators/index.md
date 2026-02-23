@@ -2,8 +2,8 @@
 title: "Zero Invasive Predators: Eliminating Invasive Species with QField"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
+# author: "Author Name"
+# authorTitle: "Author Title"
 company: "Zero Invasive Predators (ZIP)"
 description: "In the rugged wilderness of New Zealand's South Westland, an ambitious conservation project is underway. Zero
       Invasive Predators (ZIP) is systematically eliminating possums, rats, and stoats from vast tracts of forest—with
@@ -32,10 +32,10 @@ As a frame of reference - _"The scale of the project area is extraordinary: 10 t
 
 The scale of data management required for this operation is immense. ZIP manages approximately 20,000 field devices through QField in their South Westland project alone—including trail cameras, AI cameras, bait stations, and cage traps. Each device requires ongoing servicing, maintenance, and data collection.
 
-For each device location, the team needs to record three types of information:   
-**Actions:** Deployment of equipment and setup details   
-**Events:** Servicing information and maintenance records   
-**Properties:** Operational data such as bait take, lure status, and battery levels 
+For each device location, the team needs to record three types of information:
+**Actions:** Deployment of equipment and setup details
+**Events:** Servicing information and maintenance records
+**Properties:** Operational data such as bait take, lure status, and battery levels
 
 Before QField, this information was captured using Garmin GPS devices and paper notebooks—a cumbersome process that created significant delays in data processing and limited the effectiveness of rapid response operations.
 
@@ -49,7 +49,7 @@ _"The GPX capture was starting to show its limitations, and using notepads to re
 
 After researching digital field data collection options, ZIP chose QField for its seamless integration with their existing open-source GIS stack (QGIS, PostgreSQL, and GeoServer), its robust offline capabilities, and the rich functionality it offered.
 
-_"The ability to control symbology and just the amount of data that could go out in a packaged map on the phone was fantastic,".  
+_"The ability to control symbology and just the amount of data that could go out in a packaged map on the phone was fantastic,".
 "It worked so much better than Garmins and paper notes."_
 
 ### QFieldCloud: Transforming Response Times
@@ -72,11 +72,11 @@ When responding to a predator detection, teams work intensively in a targeted ar
 
 _"The ability to go out, sync their data, and then go out the next day and go, 'okay, this is the section that's left to do'—that's been game-changing,"._
 
-Field staff also use QField to access critical information in the field, including:   
-\- Trap and bait station locations   
-\- Device deployment details   
-\- Health and safety information (tracks, wasp nests, mine shafts)   
-\- Predator sighting locations 
+Field staff also use QField to access critical information in the field, including:
+\- Trap and bait station locations
+\- Device deployment details
+\- Health and safety information (tracks, wasp nests, mine shafts)
+\- Predator sighting locations
 
 {{< figure src="zero-invasive-3.jpg" alt="field team coordination" caption="" >}}
 
