@@ -1,7 +1,7 @@
 ---
-title: "A Public Digital Good Supporting Sustainable Development Goals"
+title: "A Digital Public Good Supporting Sustainable Development Goals"
 layout: "sdgs/single"          # or rely on default single.html
-claim: "A Public Digital Good Supporting Sustainable Development Goals"
+claim: "A Digital Public Good Supporting Sustainable Development Goals"
 intro_heading: "Our Commitment to Sustainability"
 intro_html: >
   QField is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management. 
