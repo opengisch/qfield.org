@@ -95,6 +95,7 @@ h6 {
   font-family: var(--font-family-heading);
   font-weight: 500;
   letter-spacing: 0.01em;
+  margin-top: 30px;
 }
 
 p {
@@ -918,13 +919,14 @@ p {
 .support-figure-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   gap: 1.5rem;
   margin: 2rem 0;
 }
 
 .support-figure-grid .figure {
   flex: 1 1 140px;
+  max-height: 200px;
   max-width: 200px;
   margin-bottom: 0;
 }
@@ -3684,11 +3686,11 @@ div.explanation {
 }
 
 [data-bs-theme='dark'] .client-logo {
-  background-color: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 16px;
-  padding: 12px;
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35);
+  /* background-color: rgba(255, 255, 255, 0.08); */
+  /* border: 1px solid rgba(255, 255, 255, 0.16); */
+  /* border-radius: 16px; */
+  padding: 4px;
+  /* box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35); */
 }
 
 [data-bs-theme='dark'] .logo-link:hover .client-logo {
