@@ -44,25 +44,71 @@
       </div>
 
       <div class="ss-card-grid">
-      {{ $placeholderImagePath := "images/ss/ss-placeholder.webp" }}
+      {{ $placeholderImagePath := "images/ss-placeholder.webp" }}
       {{ range $displayCards }}
         {{ $imagePath := default "" .image }}
         {{ $isExternal := or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") }}
-        {{ if not $isExternal }}
-          {{ if eq $imagePath "" }}
-            {{ $imagePath = $placeholderImagePath }}
-          {{ else }}
-            {{ $hasLeadingSlash := hasPrefix $imagePath "/" }}
-            {{ if and (not $hasLeadingSlash) (not (hasPrefix $imagePath "images/")) }}
-              {{ $imagePath = printf "images/ss/%s" $imagePath }}
+        {{ $resolvedImage := "" }}
+        {{ if $isExternal }}
+          {{ $resolvedImage = $imagePath }}
+        {{ else }}
+          {{ $storyPage := $.Site.GetPage .url }}
+
+          {{ if and (eq $resolvedImage "") $storyPage (ne $imagePath "") }}
+            {{ $bundleImage := $storyPage.Resources.GetMatch $imagePath }}
+            {{ if not $bundleImage }}
+              {{ $bundleImage = $storyPage.Resources.GetMatch (printf "**/%s" (path.Base $imagePath)) }}
             {{ end }}
-            {{ $staticImagePath := printf "static/%s" (replaceRE "^/" "" $imagePath) }}
-            {{ if not (fileExists $staticImagePath) }}
-              {{ $imagePath = $placeholderImagePath }}
+            {{ with $bundleImage }}
+              {{ $resolvedImage = .RelPermalink }}
             {{ end }}
           {{ end }}
+
+          {{ if and (eq $resolvedImage "") (ne $imagePath "") }}
+            {{ $staticCandidate := $imagePath }}
+            {{ $hasLeadingSlash := hasPrefix $staticCandidate "/" }}
+            {{ if and (not $hasLeadingSlash) (not (hasPrefix $staticCandidate "images/")) }}
+              {{ $staticCandidate = printf "images/ss/%s" $staticCandidate }}
+            {{ end }}
+            {{ $staticImagePath := printf "static/%s" (replaceRE "^/" "" $staticCandidate) }}
+            {{ if fileExists $staticImagePath }}
+              {{ $resolvedImage = $staticCandidate | relURL }}
+            {{ end }}
+          {{ end }}
+
+          {{ if and (eq $resolvedImage "") $storyPage }}
+            {{ $pageImage := default "" $storyPage.Params.image }}
+            {{ if ne $pageImage "" }}
+              {{ $pageBundleImage := $storyPage.Resources.GetMatch $pageImage }}
+              {{ if not $pageBundleImage }}
+                {{ $pageBundleImage = $storyPage.Resources.GetMatch (printf "**/%s" (path.Base $pageImage)) }}
+              {{ end }}
+              {{ with $pageBundleImage }}
+                {{ $resolvedImage = .RelPermalink }}
+              {{ end }}
+
+              {{ if eq $resolvedImage "" }}
+                {{ $staticPagePath := $pageImage }}
+                {{ $staticPageFile := printf "static/%s" (replaceRE "^/" "" $staticPagePath) }}
+                {{ if fileExists $staticPageFile }}
+                  {{ $resolvedImage = $staticPagePath | relURL }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
+          {{ if and (eq $resolvedImage "") $storyPage }}
+            {{ $pageImages := $storyPage.Resources.ByType "image" }}
+            {{ if gt (len $pageImages) 0 }}
+              {{ $firstImage := index $pageImages 0 }}
+              {{ $resolvedImage = $firstImage.RelPermalink }}
+            {{ end }}
+          {{ end }}
+
+          {{ if eq $resolvedImage "" }}
+            {{ $resolvedImage = $placeholderImagePath | relURL }}
+          {{ end }}
         {{ end }}
-        {{ $resolvedImage := cond $isExternal $imagePath ($imagePath | relURL) }}
         <div class="ss-card-wrapper success-story-card" data-categories="{{ delimit .categories " " }}">
           <a href="{{ .url | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ $resolvedImage }}');">
             <div class="ss-card-content">

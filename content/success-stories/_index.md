@@ -75,7 +75,7 @@ cards:
     tags: ["featured"]
     categories: ["ecology-environment", "government-municipalities"]
   - url: "/success-stories/freelance-success/"
-    image: "success-stories/freelance-success/freelance-success.jpg"
+    image: "freelance-success.jpg"
     title: "From Open Source to<br>Freelance Success"
     categories: ["ecology-environment"]
   - url: "/success-stories/building-on-top/"
