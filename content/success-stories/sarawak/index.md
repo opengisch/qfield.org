@@ -6,8 +6,8 @@ draft: false
 # authorTitle: "Author Title"
 company: "The Bruno Manser Fonds"
 # description: "In parts of Sarawak (Malaysia), indigenous communities are actively resisting deforestation and fighting for land rights. For one The Bruno Manser Fonds working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge."
-image: "-.jpg"
-ogImage: "-.jpg"
+# image: "-.jpg"
+# ogImage: "-.jpg"
 tags: []
 categories: []
 ---
@@ -26,17 +26,13 @@ Satellite imagery and topographic maps are helpful starting points. They show ri
 
 A satellite image can’t tell you where ancestors are buried, where a place is considered sacred, which part of the forest is used for hunting, or which areas people avoid for cultural reasons. Those details live in stories, memory, and daily practice.
 
-{{< figure src="--.jpg" alt="picture" caption="" >}}
-
+{{< figure src="sarawak-7.jpg" alt="sarawak">}}
 
 ### The reality in the field: connectivity comes and goes
 
 A second challenge is technical but very real: **internet access**. Many of these villages have unreliable connectivity, and “offline” can mean days or weeks, not just a few hours between the office and the field.
 
 That matters because community mapping usually involves **large basemaps and plenty of edits from multiple devices**. If you can’t reliably push data back and forth online, you need a workflow that works without it.
-
-{{< figure src="--.jpeg" alt="pic" caption="" >}} {{< figure src="--.jpeg" alt="pic" caption="" >}}
-
 
 ### How QField is used in the workflow
 

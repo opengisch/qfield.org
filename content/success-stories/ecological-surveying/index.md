@@ -7,19 +7,19 @@ authorTitle: "GIS Consultant"
 company: "Delta-Simons Environmental Consultancy"
 description: "To conduct ecological surveying more efficiently than has been previously achieved through traditional non-digital
       techniques, using QField as a medium for standardised and flexible field data collection."
-image: "eco-survey.png"
-ogImage: "eco-survey.png"
+# image: "eco-survey.png"
+# ogImage: "eco-survey.png"
 tags: []
 categories: []
 ---
 
 ### Goal
 
-To conduct ecological surveying more efficiently than has been previously achieved through traditional non-digital techniques, using QField as a medium for standardised and flexible field data collection. 
+To conduct ecological surveying more efficiently than has been previously achieved through traditional non-digital techniques, using QField as a medium for standardised and flexible field data collection.
 
 ### Project Requirements
 
-To facilitate effective field work, regular consultation with the Ecology team is required to ensure that QField projects are prepared appropriately. Firstly, basemaps comprising aerial imagery and proposed development plans are prepared by georeferencing and constructing pyramids in QGIS. Point, line and polygon vector layers are then created to support digitisation and associated data collection. Using a range of widgets, attribute fields are customised to meet the requirements of the Ecology team. These include: 
+To facilitate effective field work, regular consultation with the Ecology team is required to ensure that QField projects are prepared appropriately. Firstly, basemaps comprising aerial imagery and proposed development plans are prepared by georeferencing and constructing pyramids in QGIS. Point, line and polygon vector layers are then created to support digitisation and associated data collection. Using a range of widgets, attribute fields are customised to meet the requirements of the Ecology team. These include:
 
 #### Style
 
@@ -27,7 +27,7 @@ drop-down list of selectable styles tailored for conducting ecological surveys
 
 #### Scale
 
-drop-down list of selectable scales for point and line feature 
+drop-down list of selectable scales for point and line feature
 
 #### Info
 
@@ -43,7 +43,7 @@ contains self-populated geometry values, e.g. area, perimeter, length
 
 #### Timestamp
 
-records the time and date that a feature was created/last modified 
+records the time and date that a feature was created/last modified
 
 {{< figure src="eco-survey.png" alt="figure 1" caption="" >}}
 
@@ -51,10 +51,10 @@ records the time and date that a feature was created/last modified
 
 ### Result
 
-Delta-Simons are saving approximately 40% of the time previously consumed by traditional ecological field data collection. 
+Delta-Simons are saving approximately 40% of the time previously consumed by traditional ecological field data collection.
 
-**QField has significantly improved the ecological surveying workflow by:**   
-– Removing the need to recreate GIS outputs from physical drawings   
-– Reducing the overall amendments required for GIS outputs   
-– Improving communication channels (see Figure 1.)   
+**QField has significantly improved the ecological surveying workflow by:**
+– Removing the need to recreate GIS outputs from physical drawings
+– Reducing the overall amendments required for GIS outputs
+– Improving communication channels (see Figure 1.)
 – Improving the accuracy and quality of data

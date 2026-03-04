@@ -9,8 +9,8 @@ company: "BUND Saxony"
 description: "In the steep, forested valleys of Saxony, Germany, a dedicated environmental monitoring team is using QField to
       track one of Europe's most striking amphibians—the fire salamander. This distinctive black-and-yellow creature
       serves as an important indicator species for stream health and ecosystem integrity."
-image: "salamander-1.JPG"
-ogImage: "salamander-1.JPG"
+# image: "salamander-1.JPG"
+# ogImage: "salamander-1.JPG"
 tags: []
 categories: []
 ---
@@ -31,11 +31,11 @@ _"Fire salamanders are indicators of environments that have remained largely unt
 
 The BUND team has divided approximately 150 streams—totaling around 90 kilometers of waterways—into 100-meter monitoring segments. Field workers visit each segment twice during the first half of the year, which corresponds to the 2-5 month period when fire salamander larvae are present in the water.
 
-**Using QField, the team documents:**  
-– Fire salamander larvae counts in each 100-meter stream segment   
-\- Current water conditions (flowing, drying out, or dry)   
-\- Presence of food sources like gammarids and other aquatic invertebrates   
-\- Visual habitat assessments 
+**Using QField, the team documents:**
+– Fire salamander larvae counts in each 100-meter stream segment
+\- Current water conditions (flowing, drying out, or dry)
+\- Presence of food sources like gammarids and other aquatic invertebrates
+\- Visual habitat assessments
 
 Additionally, the team conducts annual water quality measurements for each stream, testing for nitrate, nitrite, ammonium, phosphate, and pH levels.
 
@@ -49,18 +49,18 @@ Before implementing QField, data collection was a cumbersome process involving G
 
 _"I always worked with shortcuts and tried to type information as concisely as possible,"_ recalls the coordinator. "Therefore, other people looking at my notes couldn't understand anything."
 
-This older method presented significant challenges:   
-\- Difficulty onboarding new team members   
-\- Limited data standardization   
-\- Time-consuming post-field work to translate cryptic notes   
-\- Challenges with photo documentation and location accuracy   
+This older method presented significant challenges:
+\- Difficulty onboarding new team members
+\- Limited data standardization
+\- Time-consuming post-field work to translate cryptic notes
+\- Challenges with photo documentation and location accuracy
 
-QField, the team now has:   
-\- Standardized data collection forms   
-\- Real-time visualization of segment boundaries   
-\- Precise GPS positioning   
-\- The ability to include photos directly with observations   
-\- Seamless synchronization across the team   
+QField, the team now has:
+\- Standardized data collection forms
+\- Real-time visualization of segment boundaries
+\- Precise GPS positioning
+\- The ability to include photos directly with observations
+\- Seamless synchronization across the team
 
 {{< figure src="salamander-2.JPG" alt="enter alt" caption="" >}}
 
@@ -78,6 +78,6 @@ The data collected through QField helps BUND understand the health of fire salam
 
 _"If we want to make changes in the environment to help the fire salamander, we pretty much just need to hold the water in the area. Our problem is that the streams are drying out,"_ explains the coordinator.
 
-The information gathered identifies streams with only small populations (2-3 larvae) that are most vulnerable to extinction if conditions worsen. This allows BUND to prioritize conservation efforts where they're most needed. 
+The information gathered identifies streams with only small populations (2-3 larvae) that are most vulnerable to extinction if conditions worsen. This allows BUND to prioritize conservation efforts where they're most needed.
 
 By making the data collection process more efficient and standardized through QField, the team can cover more ground, collect more consistent data, and ultimately make better-informed conservation decisions—helping ensure that this iconic amphibian continues to thrive in Saxony's forest streams.
