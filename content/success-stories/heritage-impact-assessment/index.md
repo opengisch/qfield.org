@@ -19,8 +19,6 @@ description: |
 # ogImage: "heritage_impact_figure3.png"
 sourceUrl: "https://qfield.org/success-stories/heritage-impact-assessment.html"
 sourceLabel: "View original success story"
-tags: []
-categories: []
 ---
 
 ### Introduction

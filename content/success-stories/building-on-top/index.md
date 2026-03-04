@@ -9,9 +9,6 @@ description: "The main objective was to allow operators to access in the field t
       shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the
       return of these data in GINVE.CLOUD via a synchronisation procedure."
 # image: "ginve-6.jpeg"
-ogImage: "ginve-6.jpeg"
-tags: []
-categories: []
 ---
 
 ### Aims and Objectives

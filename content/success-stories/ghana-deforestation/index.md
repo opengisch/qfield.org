@@ -5,8 +5,6 @@ draft: false
 description: "How a community-based monitoring program in Ghana's Tano Offin Forest Reserve used QField to achieve remarkable conservation results through Payment for Ecosystem Services"
 # image: "ghana-3.jpeg"
 # ogImage: "ghana-3.jpeg"
-tags: []
-categories: []
 ---
 
 ### The Challenge

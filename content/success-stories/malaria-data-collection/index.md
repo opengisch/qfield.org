@@ -13,8 +13,6 @@ description: "For a research work aiming at improving the knowledge on the envir
       motorbike or by feet."
 # image: "mosquito4.jpg"
 # ogImage: "mosquito4.jpg"
-tags: []
-categories: []
 ---
 
 ### Goal and field constraints

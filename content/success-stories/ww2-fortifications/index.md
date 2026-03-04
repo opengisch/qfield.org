@@ -6,10 +6,6 @@ draft: false
 # authorTitle: "Author Title"
 company: "The West Wall (Siegfried Line) fortification mapping project"
 # description: "Along Germany's western border, volunteers are using QField and QFieldCloud to map and monitor thousands of World War II fortifications—protecting public safety, preserving history, and making democracy tangible for a new generation."
-image: "-.jpg"
-ogImage: "-.jpg"
-tags: []
-categories: []
 ---
 
 Along Germany's western border, volunteers are using QField and QFieldCloud to **map and monitor thousands of World War II fortifications** – protecting public safety, preserving history, and making democracy tangible for a new generation.

@@ -13,8 +13,6 @@ summary: "The KulturGutRetter project demonstrates how QField enables efficient 
 sourceLabel: "Original article (KulturGutRetter)"
 sourceUrl: "https://www.kulturgutretter.org/en/data-acquisition-and-data-management-for-the-emergency-rescue-of-cultural-heritage/"
 keywords: ["cultural heritage", "emergency response", "disaster management", "mobile GIS", "QField", "QGIS", "archaeological documentation", "field data collection"]
-tags: ["cultural heritage", "emergency response", "disaster management", "archaeology", "field documentation"]
-categories: ["success stories", "emergency response"]
 ---
 
 ### Context & Challenge

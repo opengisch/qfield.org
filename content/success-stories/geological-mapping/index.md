@@ -11,8 +11,6 @@ description: >-
       directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.
 # image: "geologic_field.png"
 # ogImage: "geologic_field.png"
-tags: []
-categories: []
 ---
 
 ### Goal

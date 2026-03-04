@@ -6,10 +6,6 @@ author: "ORIF"
 # authorTitle: "Author Title"
 # company: "--"
 description: "In the French-speaking region of Switzerland, ORIF is using QField to transform how students with physical or psychological challenges learn geomatics—providing them with professional-grade tools and a pathway back into the workforce."
-image: "-.jpg"
-ogImage: "-.jpg"
-tags: []
-categories: []
 ---
 
 In the French-speaking region of Switzerland, [ORIF](https://www.orif.ch/fr/) is using QField to **transform how students with physical or psychological challenges learn geomatics**, providing them with professional-grade tools and a pathway back into the workforce.

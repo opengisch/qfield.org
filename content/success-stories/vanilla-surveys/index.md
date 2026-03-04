@@ -15,10 +15,6 @@ authors:
 company: "Ministry of Agriculture, Forestry, Food, and Fisheries (MAFF)"
 description: "A field survey of vanilla plantations on Vava'u, an outer island in the Kingdom of Tonga, using QField was
       conducted in May and June 2020 by the Ministry of Agriculture, Forestry, Food, and Fisheries (MAFF)."
-image: "use_study_vanilla4.jpg"
-ogImage: "use_study_vanilla4.jpg"
-tags: []
-categories: []
 ---
 
 <h4>By Ahi Saipaia

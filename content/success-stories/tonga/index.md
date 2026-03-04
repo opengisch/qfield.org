@@ -10,8 +10,6 @@ description: "In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano
 # ogImage: "tonga-1.jpg"
 sourceLabel: "Original post (Livelihoods & Landscapes)"
 sourceUrl: "https://livelihoods-and-landscapes.com/examples/hunga-haapai/hunga-haapai.html"
-tags: []
-categories: []
 ---
 
 ### Context
