@@ -254,12 +254,13 @@
     url: "http://coft.lu"
   modal:
     services:
+      - "GIS workflows for urban and rural planning"
       - "Mobile data collection (QGIS/QField)"
-      - "Automated data processing & reports"
-      - "Interactive maps & visualizations"
-      - "Technical drawing & 3D modeling"
+      - "Automated workflows & reports"
+      - "Interactive maps & visual communication"
+      - "Feasibility studies & architectural design"
     expertise: |
-      COFT designs efficient digital workflows for spatial planning and analysis, combining GIS-based data collection, mobile field surveys, and automated data processing. In addition, COFT enhances the communicative side of planning through technical drawings, presentation design, and 3D modelling. This reduces manual effort and helps clients understand and use complex spatial data.
+      COFT designs efficient digital workflows for spatial planning and related disciplines, combining GIS-based data collection, mobile field surveys, and automated data processing. In addition, COFT enhances the communicative side of planning through technical drawings, feasibility studies and architectural design. This reduces manual effort and helps clients understand and use complex spatial data.
 
 - id: ebp
   name: EBP
