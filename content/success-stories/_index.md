@@ -85,6 +85,7 @@ cards:
   - url: "/success-stories/dai/"
     image: "dai-2.png"
     title: "Emergency Data Management<br>for Cultural Heritage Rescue"
+    tags: ["featured"]
     categories: ["government-municipalities", "humanitarian-emergency-response"]
   - url: "/success-stories/un/"
     image: "un_img.jpg"
@@ -93,10 +94,12 @@ cards:
   - url: "/success-stories/tonga/"
     image: "tonga-2.jpg"
     title: "Responding to the Hunga Tonga-Hunga Ha'apai Eruption"
+    tags: ["featured"]
     categories: ["humanitarian-emergency-response", "government-municipalities"]
   - url: "/success-stories/nls/"
     image: "images/customer/nls_schema.jpg"
     title: "National Land Survey of Finland"
+    tags: ["featured"]
     categories: ["government-municipalities", "water-land-management"]
   - url: "/success-stories/ghana-deforestation/"
     image: "ghana-2.jpeg"

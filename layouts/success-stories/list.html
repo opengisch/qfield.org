@@ -44,12 +44,23 @@
       </div>
 
       <div class="ss-card-grid">
+      {{ $placeholderImagePath := "images/ss/ss-placeholder.webp" }}
       {{ range $displayCards }}
-        {{ $imagePath := .image }}
+        {{ $imagePath := default "" .image }}
         {{ $isExternal := or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") }}
-        {{ $hasLeadingSlash := hasPrefix $imagePath "/" }}
-        {{ if and (not $isExternal) (not $hasLeadingSlash) (not (hasPrefix $imagePath "images/")) }}
-          {{ $imagePath = printf "images/ss/%s" $imagePath }}
+        {{ if not $isExternal }}
+          {{ if eq $imagePath "" }}
+            {{ $imagePath = $placeholderImagePath }}
+          {{ else }}
+            {{ $hasLeadingSlash := hasPrefix $imagePath "/" }}
+            {{ if and (not $hasLeadingSlash) (not (hasPrefix $imagePath "images/")) }}
+              {{ $imagePath = printf "images/ss/%s" $imagePath }}
+            {{ end }}
+            {{ $staticImagePath := printf "static/%s" (replaceRE "^/" "" $imagePath) }}
+            {{ if not (fileExists $staticImagePath) }}
+              {{ $imagePath = $placeholderImagePath }}
+            {{ end }}
+          {{ end }}
         {{ end }}
         {{ $resolvedImage := cond $isExternal $imagePath ($imagePath | relURL) }}
         <div class="ss-card-wrapper success-story-card" data-categories="{{ delimit .categories " " }}">
