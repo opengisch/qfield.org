@@ -30,7 +30,7 @@
       </div>
 
       <div class="ss-card-grid">
-      {{ range $cards }}
+      {{ range (collections.Reverse $cards) }}
         {{ $imagePath := .image }}
         {{ $isExternal := or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") }}
         {{ $hasLeadingSlash := hasPrefix $imagePath "/" }}
