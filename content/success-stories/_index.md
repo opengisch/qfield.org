@@ -101,4 +101,16 @@ cards:
     image: "ghana-2.jpeg"
     title: "Young Farmers Reduce<br>Deforestation by 71% in Ghana"
     categories: ["forestry", "ecology-environment"]
+  - url: "/success-stories/ww2-fortifications/"
+    image: "--.jpeg"
+    title: "QField Helps Monitor 20,000 WWII Fortifications Across Germany"
+    categories: ["government-municipalities", "ecology-environment"]
+  - url: "/success-stories/vocational-training/"
+    image: "switzerland-vocational-training.jpg"
+    title: "How QField Supports Vocational Training in Switzerland"
+    categories: ["--"]
+  - url: "/success-stories/sarawak/"
+    image: "sarawak-7.jpg"
+    title: "Community-led mapping for land rights and forest protection in Sarawak"
+    categories: ["forestry", "ecology-environment", "water-land-management"]
 ---
