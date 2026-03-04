@@ -46,6 +46,7 @@
       <div class="ss-card-grid">
       {{ $placeholderImagePath := "images/ss-placeholder.webp" }}
       {{ range $displayCards }}
+        {{ $cardTags := default (slice) .tags }}
         {{ $imagePath := default "" .image }}
         {{ $isExternal := or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") }}
         {{ $resolvedImage := "" }}
@@ -112,6 +113,9 @@
         <div class="ss-card-wrapper success-story-card" data-categories="{{ delimit .categories " " }}">
           <a href="{{ .url | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ $resolvedImage }}');">
             <div class="ss-card-content">
+              {{ if in $cardTags "featured" }}
+              <span class="badge rounded-pill border border-light border-opacity-50 bg-dark bg-opacity-25 text-white fw-normal small px-2 py-1 position-absolute top-0 start-0 m-2">Featured</span>
+              {{ end }}
               <h2 class="ss-card-title">{{ .title | safeHTML }}</h2>
             </div>
           </a>
