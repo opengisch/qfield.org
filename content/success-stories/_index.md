@@ -72,6 +72,7 @@ cards:
   - url: "/success-stories/zero-invasive-predators/"
     image: "zero-invasive-3.jpg"
     title: "Zero Invasive Predators:<br>Eliminating Invasive Species"
+    tags: ["featured"]
     categories: ["ecology-environment", "government-municipalities"]
   - url: "/success-stories/freelance-success/"
     image: "success-stories/freelance-success/freelance-success.jpg"

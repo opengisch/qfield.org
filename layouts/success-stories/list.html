@@ -4,6 +4,20 @@
 {{ $heroCta := .Params.heroCta }}
 {{ $filters := .Params.filters }}
 {{ $cards := .Params.cards }}
+{{ $featuredCards := slice }}
+{{ $otherCards := slice }}
+{{ range (collections.Reverse $cards) }}
+  {{ $cardTags := default (slice) .tags }}
+  {{ if in $cardTags "featured" }}
+    {{ $featuredCards = $featuredCards | append . }}
+  {{ else }}
+    {{ $otherCards = $otherCards | append . }}
+  {{ end }}
+{{ end }}
+{{ $displayCards := $featuredCards }}
+{{ range $otherCards }}
+  {{ $displayCards = $displayCards | append . }}
+{{ end }}
 <div class="success-stories">
   <section class="py-5 bg-light text-center">
     <div class="container">
@@ -30,7 +44,7 @@
       </div>
 
       <div class="ss-card-grid">
-      {{ range (collections.Reverse $cards) }}
+      {{ range $displayCards }}
         {{ $imagePath := .image }}
         {{ $isExternal := or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") }}
         {{ $hasLeadingSlash := hasPrefix $imagePath "/" }}
