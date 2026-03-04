@@ -940,6 +940,7 @@ html {
   width: 100% !important; // Fill the whole carousel width
   object-fit: cover !important; // Crop to fit, maintaining aspect ratio
   object-position: center center !important; // Keep crop centered
+  
 
   @media (max-width: 768px) {
     height: 300px !important;
@@ -997,6 +998,10 @@ html {
         }
       }
     }
+  }
+
+  .figure {
+  justify-content: left;
   }
 
   /* Custom carousel controls */

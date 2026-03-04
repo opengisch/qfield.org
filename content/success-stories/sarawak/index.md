@@ -26,7 +26,7 @@ Satellite imagery and topographic maps are helpful starting points. They show ri
 
 A satellite image can’t tell you where ancestors are buried, where a place is considered sacred, which part of the forest is used for hunting, or which areas people avoid for cultural reasons. Those details live in stories, memory, and daily practice.
 
-{{< figure src="sarawak-7.jpg" alt="sarawak">}}
+{{< figure src="sarawak-7.jpg" alt="" caption="" width="600">}}
 
 ### The reality in the field: connectivity comes and goes
 
@@ -37,6 +37,8 @@ That matters because community mapping usually involves **large basemaps and ple
 ### How QField is used in the workflow
 
 The team prepares a QGIS project and packages it for mobile fieldwork using QFieldSync. Then QField is used for **collecting features and attributes** directly on Android devices in the field. A key part of this project is that distribution and syncing often happens by cable, not through the cloud.
+
+{{< figure src="sarawak-2.jpg" alt="" caption="" width="300">}}
 
 **1. Co-designing the project with each community**
 
@@ -73,7 +75,8 @@ The project is also very deliberate about data protection. **Not everything that
 
 For that reason, the team does not plan to publish all data to the web or to OpenStreetMap. There is interest in selectively sharing non-sensitive layers, such as river names, but only with consent and clear boundaries.
 
-{{< figure src="--.jpg" alt="pic" caption="" >}}
+{{< figure src="sarawak-8.jpg" alt="" caption="" width="600">}}
+
 
 ### The final deliverable that matters most: a printed map
 
@@ -82,3 +85,11 @@ For that reason, the team does not plan to publish all data to the web or to Ope
 A printed map does something phones do not. People can spread it out, gather around it, point to places, and talk. It feels permanent. It can be stored, shared, and used as proof in a way that carries weight locally.
 
 For the BMF and the Communities, the printed map is not an afterthought. It is one of the main goals, alongside the longer-term aim of keeping community data organized in a comparable way across multiple mapping projects.
+
+{{< gallery cols="1" >}}
+{{< figure src="sarawak-1.jpg" alt="" caption="" >}}
+
+{{< figure src="sarawak-3.jpg" alt="" caption="" >}}
+
+{{< figure src="sarawak-5.jpg" alt="" caption="" >}}
+{{< /gallery >}}

@@ -866,14 +866,6 @@ p {
   width: auto !important;
 }
 
-/* .success-story__image {
-  width: 250px !important;
-  height: auto;
-  border-radius: 5px;
-  object-fit: cover;
-  box-shadow: var(--shadow-md, 0 1.5rem 3rem rgba(0, 0, 0, 0.15));
-} */
-
 /* Donation page styles - replacing inline styles */
 .donation-container {
   max-width: 1140px;
@@ -927,13 +919,14 @@ p {
 .support-figure-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   gap: 1.5rem;
   margin: 2rem 0;
 }
 
 .support-figure-grid .figure {
   flex: 1 1 140px;
+  max-height: 200px;
   max-width: 200px;
   margin-bottom: 0;
 }
