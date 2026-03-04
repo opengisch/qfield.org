@@ -69,10 +69,6 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.description }}
-      <p class="success-story__description mx-auto">{{ . | markdownify }}</p>
-      {{ end }}
-
       {{ with .Params.sourceUrl }}
       {{ $label := default "Original article" $.Params.sourceLabel }}
       <div class="success-story__header-actions d-flex justify-content-center mt-4">
@@ -83,18 +79,6 @@
       </div>
       {{ end }}
     </header>
-
-    {{ with .Params.image }}
-    {{ $imagePath := . }}
-    {{ $isExternal := or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") }}
-    {{ if and (not $isExternal) (not (hasPrefix $imagePath "/")) }}
-      {{ $imagePath = printf "images/ss/%s" $imagePath }}
-    {{ end }}
-    {{ $resolved := cond $isExternal $imagePath ($imagePath | relURL) }}
-    <div class="success-story__image-container">
-      <img src="{{ $resolved }}" alt="{{ $.Title }}" class="success-story__image" loading="lazy" decoding="async">
-    </div>
-    {{ end }}
 
     <div class="row justify-content-center">
       <div class="col">
