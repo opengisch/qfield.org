@@ -97,7 +97,7 @@ cards:
     tags: ["featured"]
     categories: ["humanitarian-emergency-response", "government-municipalities"]
   - url: "/success-stories/nls/"
-    image: "images/customer/nls_schema.jpg"
+    image: "images/customer/nls2.jpg"
     title: "National Land Survey of Finland"
     tags: ["featured"]
     categories: ["government-municipalities", "water-land-management"]
