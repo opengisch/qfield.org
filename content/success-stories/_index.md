@@ -3,7 +3,7 @@ title: "QField - Success Stories"
 aliases:
   - "success-stories.html"
 heroTitle: "Success Stories"
-heroLead: "QField is being used around the world in a wide variety of domains every day.<br>Discover how teams are delivering impactful projects with QField."
+heroLead: "QField is being used around the world in a wide variety of domains every day. <br/>Discover how teams are delivering impactful projects with QField."
 heroCta: "Tell us about your project. Did QField make your life easier too? <a href=\"https://opengis.ch/#contact\" class=\"success-stories-link\">Let us know</a> – we will be delighted to publish it."
 filters:
   - key: "all"
@@ -27,39 +27,39 @@ filters:
 cards:
   - url: "/success-stories/ecological-surveying/"
     image: "eco-survey.png"
-    title: "Improving efficiencies<br>in Ecological Surveying"
+    title: "Improving efficiencies in Ecological Surveying"
     categories: ["ecology-environment"]
   - url: "/success-stories/geological-mapping/"
     image: "geologic_field.png"
-    title: "Geological<br>Mapping"
+    title: "Geological Mapping"
     categories: ["water-land-management"]
   - url: "/success-stories/ground-truth-fiji/"
     image: "use_study_fiji4.jpg"
-    title: "Ground Truth Data Collection<br>for LULC Mapping in Fiji"
+    title: "Ground Truth Data Collection for LULC Mapping in Fiji"
     categories: ["government-municipalities"]
   - url: "/success-stories/mapping-breeding-birds/"
     image: "wattenmeer7.jpg"
-    title: "Use of QField for<br>mapping breeding birds<br>in the Wadden Sea"
+    title: "Use of QField for mapping breeding birds in the Wadden Sea"
     categories: ["ecology-environment"]
   - url: "/success-stories/malaria-data-collection/"
     image: "mosquito4.jpg"
-    title: "Data Collection of Malaria<br>Transmitting Mosquitoes"
+    title: "Data Collection of Malaria Transmitting Mosquitoes"
     categories: ["humanitarian-emergency-response"]
   - url: "/success-stories/river-state-survey/"
     image: "river-state-survey1.png"
-    title: "River State Survey<br>using QField"
+    title: "River State Survey using QField"
     categories: ["water-land-management"]
   - url: "/success-stories/water-supply-rwanda/"
     image: "rwanda-rural-water-1.png"
-    title: "Data Collection of Rural<br>Water Supply Systems"
+    title: "Data Collection of Rural Water Supply Systems"
     categories: ["water-land-management", "government-municipalities"]
   - url: "/success-stories/vanilla-surveys/"
     image: "use_study_vanilla4.jpg"
-    title: "Vanilla Surveys<br>using QField"
+    title: "Vanilla Surveys using QField"
     categories: ["precision-agriculture"]
   - url: "/success-stories/heritage-impact-assessment/"
     image: "heritage_impact_figure2.png"
-    title: "Heritage Impact Assessment<br>using QField"
+    title: "Heritage Impact Assessment using QField"
     categories: ["humanitarian-emergency-response"]
   - url: "/success-stories/fire-salamanders/"
     image: "salamander-1.JPG"
@@ -71,12 +71,12 @@ cards:
     categories: ["government-municipalities", "infrastructure-engineering"]
   - url: "/success-stories/zero-invasive-predators/"
     image: "zero-invasive-3.jpg"
-    title: "Zero Invasive Predators:<br>Eliminating Invasive Species"
+    title: "Zero Invasive Predators: Eliminating Invasive Species"
     tags: ["featured"]
     categories: ["ecology-environment", "government-municipalities"]
   - url: "/success-stories/freelance-success/"
     image: "freelance-success.jpg"
-    title: "From Open Source to<br>Freelance Success"
+    title: "From Open Source to Freelance Success"
     categories: ["ecology-environment"]
   - url: "/success-stories/building-on-top/"
     image: "ginve-6.jpeg"
@@ -84,7 +84,7 @@ cards:
     categories: ["forestry", "ecology-environment", "government-municipalities"]
   - url: "/success-stories/dai/"
     image: "dai-2.png"
-    title: "Emergency Data Management<br>for Cultural Heritage Rescue"
+    title: "Emergency Data Management for Cultural Heritage Rescue"
     tags: ["featured"]
     categories: ["government-municipalities", "humanitarian-emergency-response"]
   - url: "/success-stories/un/"
@@ -103,7 +103,7 @@ cards:
     categories: ["government-municipalities", "water-land-management"]
   - url: "/success-stories/ghana-deforestation/"
     image: "ghana-2.jpeg"
-    title: "Young Farmers Reduce<br>Deforestation by 71% in Ghana"
+    title: "Young Farmers Reduce Deforestation by 71% in Ghana"
     categories: ["forestry", "ecology-environment"]
   - url: "/success-stories/ww2-fortifications/"
     image: "--.jpeg"
