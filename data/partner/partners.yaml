@@ -284,3 +284,26 @@
       - "Project Management"
     expertise: |
       We support clients with customized IT and geospatial solutions that users understand and enjoy – from methodology, concept design and project management to implementation and operation. With data analysis, we extract insights for sound decision-making. And we assist clients with concepts and studies regarding to strategy, organization and infrastructure.
+
+- id: fichtner
+  name: Fichtner IT Consulting
+  regions:
+    - europe
+  locations:
+    - "🇩🇪 Germany"
+  logo:
+    src: "images/partners/fit-logo.png"
+    alt: "fichtner"
+  description: |
+    Fichtner IT Consulting GmbH (FIT) combines deep industry expertise with modern technology know-how to support clients in the energy and infrastructure sectors.
+  website:
+    url: "https://www.fit.fichtner.de/en/"
+  modal:
+    services:
+    - Digital business consulting and IT strategy alignment
+    - Development and implementation of tailored digital solutions and information logistics
+    - Optimization of workflows, processes and geodata management
+    - Innovative spatial and enterprise IT applications
+    - Support for digital transformation and integration projects
+    expertise: |
+      As the dedicated IT competence center of the globally active Fichtner Group, Fichtner IT Consulting combines deep industry expertise with modern technology know-how to support clients in the energy and infrastructure sectors. With more than 30 years of experience designing and implementing powerful IT solutions for technical networks, energy systems, plants, and critical infrastructure, FIT helps organizations streamline complex processes, manage geospatial data efficiently, and successfully drive their digital transformation.
