@@ -2920,6 +2920,10 @@ div.explanation {
   flex-wrap: wrap;
 }
 
+.partner-row .panel-body p {
+  margin-bottom: 100px;
+}
+
 .partner-card-wrapper {
   display: flex;
 }
