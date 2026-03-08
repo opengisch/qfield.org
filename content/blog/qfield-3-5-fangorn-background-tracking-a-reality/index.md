@@ -52,7 +52,7 @@ _wpcom_is_markdown: "1"
 _wpml_location_migration_done: "1"
 _wpml_post_translation_editor_native: "yes"
 _wpml_word_count: "727"
-author: mathieuopengisch
+author: Mathieu
 categories:
   - gis
   - qfield

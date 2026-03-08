@@ -28,7 +28,7 @@ _wpml_location_migration_done: "1"
 _wpml_media_duplicate: "0"
 _wpml_media_featured: "0"
 _wpml_word_count: '{"total":284,"to_translate":{"fr":284,"de":284,"it":284}}'
-author: mathieuopengisch
+author: Mathieu
 categories:
   - qfield
   - highlights

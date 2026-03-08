@@ -22,7 +22,7 @@ _wpcom_is_markdown: "1"
 _wpml_media_duplicate: "0"
 _wpml_media_featured: "0"
 _wpml_word_count: "390"
-author: mathieuopengisch
+author: Mathieu
 categories:
   - gis
   - qfield

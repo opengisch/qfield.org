@@ -7,7 +7,7 @@ images: ["on-demand-attachment.png"]
 categories: ["GIS", "QField Highlights"]
 tags: ["qfield"]
 keywords: ["qfieldcloud", "storage", "attachments", "shared datasets"]
-authors: ["Mathieu"]
+author: Mathieu
 cover:
   alt: on-demand-attachment
   image: on-demand-attachment.png

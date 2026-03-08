@@ -15,7 +15,7 @@ _thumbnail_id: "14432"
 _wpas_done_all: "1"
 _wpcom_is_markdown: "1"
 _wpml_word_count: "806"
-author: mathieuopengisch
+author: Mathieu
 categories:
   - gis
   - qfield

@@ -30,7 +30,7 @@ _wpas_done_all: "1"
 _wpas_feature_enabled: "1"
 _wpcom_is_markdown: "1"
 _wpml_word_count: "676"
-author: mathieuopengisch
+author: Mathieu
 categories:
   - gis
   - qfield

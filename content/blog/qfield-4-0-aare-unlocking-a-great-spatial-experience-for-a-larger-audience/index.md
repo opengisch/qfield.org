@@ -7,7 +7,7 @@ images: ["image.png"]
 categories: ["QField", "Highlights"]
 tags: ["qgis.org"]
 keywords: ["qfield 4.0", "aare", "qfieldcloud", "qgis"]
-authors: ["Mathieu"]
+author: Mathieu
 cover:
   alt: splash
   image: image.png

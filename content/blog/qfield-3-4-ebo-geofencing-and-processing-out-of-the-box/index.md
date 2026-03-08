@@ -47,7 +47,7 @@ _themeisle_gutenberg_block_has_review: ""
 _thumbnail_id: "15064"
 _wpcom_is_markdown: "1"
 _wpml_word_count: "530"
-author: mathieuopengisch
+author: Mathieu
 categories:
   - gis
   - qfield

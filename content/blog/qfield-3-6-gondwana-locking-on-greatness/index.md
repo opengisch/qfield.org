@@ -48,7 +48,7 @@ _thumbnail_id: "15583"
 _wp_old_date: "2025-05-25"
 _wpcom_is_markdown: "1"
 _wpml_word_count: "782"
-author: mathieuopengisch
+author: Mathieu
 categories:
   - qfield
   - highlights

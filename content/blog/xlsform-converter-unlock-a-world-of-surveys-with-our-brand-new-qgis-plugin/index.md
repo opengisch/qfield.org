@@ -49,7 +49,7 @@ _thumbnail_id: "15629"
 _wpcom_is_markdown: "1"
 _wpml_location_migration_done: "1"
 _wpml_word_count: "696"
-author: mathieuopengisch
+author: Mathieu
 categories:
   - processing
   - qfield
