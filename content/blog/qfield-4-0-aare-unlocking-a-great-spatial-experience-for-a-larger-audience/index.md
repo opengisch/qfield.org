@@ -5,7 +5,7 @@ date: 2025-12-17
 draft: false
 images: ["image.png"]
 categories: ["QField", "Highlights"]
-tags: ["qgis-org"]
+tags: ["qgis.org"]
 keywords: ["qfield 4.0", "aare", "qfieldcloud", "qgis"]
 authors: ["Mathieu"]
 cover:
