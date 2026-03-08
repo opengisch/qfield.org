@@ -26,7 +26,6 @@ categories:
   - qfield
   - highlights
   - qgis
-  - uncategorised
 cover:
   alt: QField_AppAward_12-2022
   image: QField_AppAward_12-2022.png

@@ -28,7 +28,6 @@ author: mbernasocchi
 categories:
   - crowdfunding
   - qfield
-  - uncategorised
 cover:
   alt: Woman traveler explorer with backpack hiking to the top of the mountain. Adventure weekend.
   image: gps-tracking.jpeg

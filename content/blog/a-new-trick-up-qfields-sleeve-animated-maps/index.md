@@ -33,7 +33,6 @@ categories:
   - qfield
   - highlights
   - qgis
-  - uncategorised
   - video
 cover:
   alt: Peek-2022-07-16-12-43
