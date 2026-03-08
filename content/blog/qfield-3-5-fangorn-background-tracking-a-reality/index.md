@@ -56,7 +56,7 @@ author: mathieuopengisch
 categories:
   - gis
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: splash
   image: splash.png

@@ -31,7 +31,7 @@ _wpml_word_count: '{"total":284,"to_translate":{"fr":284,"de":284,"it":284}}'
 author: mathieuopengisch
 categories:
   - qfield
-  - qfield-highlights
+  - highlights
   - qgis
   - uncategorised
   - video

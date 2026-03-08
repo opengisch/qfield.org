@@ -29,7 +29,7 @@ _wpml_word_count: "597"
 author: mbernasocchi
 categories:
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: QField 2.4 - Ecstatic Elk
   image: qfield24.png

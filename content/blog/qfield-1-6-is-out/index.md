@@ -26,7 +26,7 @@ categories:
   - featured
   - gis
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: selection_00-1
   image: selection_00-1.png

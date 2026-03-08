@@ -48,7 +48,7 @@ _wpml_word_count: '{"total":2089,"to_translate":{"fr":2089,"de":2089,"it":2089}}
 author: mbernasocchi
 categories:
   - qfield
-  - qfield-highlights
+  - highlights
   - social-responsibility
 cover:
   alt: qfield-git-history

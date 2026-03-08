@@ -24,7 +24,7 @@ _wpml_word_count: "582"
 author: mkuhn
 categories:
   - qfield
-  - qfield-highlights
+  - highlights
   - qgis
   - uncategorised
 cover:

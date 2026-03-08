@@ -51,7 +51,7 @@ author: mathieuopengisch
 categories:
   - gis
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: "34"
   image: 34.png

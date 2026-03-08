@@ -26,7 +26,7 @@ author: mathieuopengisch
 categories:
   - gis
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: 238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce
   image: 238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce.png

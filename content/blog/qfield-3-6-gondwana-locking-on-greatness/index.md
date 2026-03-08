@@ -51,7 +51,7 @@ _wpml_word_count: "782"
 author: mathieuopengisch
 categories:
   - qfield
-  - qfield-highlights
+  - highlights
   - qgis
 cover:
   alt: splash

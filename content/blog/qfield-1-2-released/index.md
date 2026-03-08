@@ -30,7 +30,7 @@ author: mkuhn
 categories:
   - gis
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: qfield_love_04.resized
   image: qfield_love_04.resized.jpg

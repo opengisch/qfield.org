@@ -33,7 +33,7 @@ categories:
   - android-qgis
   - gis
   - qfield
-  - qfield-highlights
+  - highlights
   - qgis
 cover:
   alt: QField_1.0

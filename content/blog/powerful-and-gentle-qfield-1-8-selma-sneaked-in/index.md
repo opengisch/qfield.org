@@ -36,7 +36,7 @@ categories:
   - featured
   - gis
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: freehand
   image: freehand.png

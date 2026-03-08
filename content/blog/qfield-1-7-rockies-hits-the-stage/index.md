@@ -29,7 +29,7 @@ categories:
   - featured
   - gis
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: qml_land_trans
   image: qml_land_trans.png

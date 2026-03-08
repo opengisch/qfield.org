@@ -19,7 +19,7 @@ author: mathieuopengisch
 categories:
   - gis
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: 33splash
   image: 33splash.png

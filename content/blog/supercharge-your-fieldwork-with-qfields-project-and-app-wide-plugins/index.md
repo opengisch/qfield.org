@@ -57,7 +57,7 @@ _wpml_word_count: "2047"
 author: mathieuopengisch
 categories:
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: qfield-bird-plugin
   image: qfield-bird-plugin.gif

@@ -46,7 +46,7 @@ author: mbernasocchi
 categories:
   - featured
   - qfield
-  - qfield-highlights
+  - highlights
   - qgis
 cover:
   alt: qfield_love_09

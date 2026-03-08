@@ -3,10 +3,11 @@ title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: '{{ .Date }}'
 author: ''
 categories:
-  - qfield
+  - release
+  - highlight
 tags:
   - qfield
-  - qgis
+  - qgis.org
 cover:
   image: cover.png
   alt: ''

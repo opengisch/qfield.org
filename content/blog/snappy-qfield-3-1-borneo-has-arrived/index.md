@@ -19,7 +19,7 @@ author: mathieuopengisch
 categories:
   - gis
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: 287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f
   image: 287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png

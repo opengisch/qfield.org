@@ -33,7 +33,7 @@ _wpml_word_count: "507"
 author: mathieuopengisch
 categories:
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: QField 2.6 showcase
   image: 26_cover-1.png

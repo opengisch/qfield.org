@@ -28,7 +28,7 @@ _wpml_word_count: '{"total":923,"to_translate":{"fr":923,"de":923,"it":923}}'
 author: mbernasocchi
 categories:
   - qfield
-  - qfield-highlights
+  - highlights
   - social-responsibility
 cover:
   alt: qfield-field-training

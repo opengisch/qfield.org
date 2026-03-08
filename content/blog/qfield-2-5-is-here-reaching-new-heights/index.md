@@ -31,7 +31,7 @@ _wpml_word_count: "331"
 author: mathieuopengisch
 categories:
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: "25"
   image: 25.png

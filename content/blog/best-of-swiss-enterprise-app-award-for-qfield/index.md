@@ -31,7 +31,7 @@ _wpml_word_count: "418"
 author: mbernasocchi
 categories:
   - qfield
-  - qfield-highlights
+  - highlights
 cover:
   alt: QField Werbevideo bei der Awardvergabe_c_opengis.ch
   image: QField-Werbevideo-bei-der-Awardvergabe_c_opengis.ch_.jpg

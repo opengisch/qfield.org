@@ -34,7 +34,7 @@ author: mathieuopengisch
 categories:
   - gis
   - qfield
-  - qfield-highlights
+  - highlights
   - qgis
 cover:
   alt: qfield32
