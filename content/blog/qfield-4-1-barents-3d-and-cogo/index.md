@@ -11,7 +11,7 @@ tags:
 cover:
   image: ice.jpg
   alt: ''
-draft: false
+draft: true
 ---
 
 QField 4.1 'Barents Sea' brings two powerful new tools to the field: an interactive 3D terrain view and a COGO framework for survey-grade point placement.
