@@ -11,7 +11,7 @@ tags:
 cover:
   image: ice.jpg
   alt: ''
-draft: true
+draft: false
 ---
 
 QField 4.1 'Barents Sea' brings two powerful new tools to the field: an interactive 3D terrain view and a COGO framework for survey-grade point placement.
@@ -26,7 +26,7 @@ The second is a new COGO (Coordinate Geometry) framework, bringing survey-grade 
 
 
 ## QField 4.1 'Barents Sea'
-The Barents Sea, a marginal sea of the Arctic Ocean bordered by Norway and Russia, is one of the most ecologically and geopolitically significant water bodies on the planet. Home to some of the world's largest cod and haddock fisheries, it sustains both marine ecosystems and the livelihoods of coastal communities across the high north. Its waters are a barometer for our changing climate: the Barents Sea is the fastest-warming part of the Arctic, making it a critical area of scientific observation and environmental monitoring, as highlighted by the [Nansen Legacy project](https://arvenetternansen.com/) [factsheet](https://arvenetternansen.com/wp-content/uploads/2024/04/The-future-Barents-Sea-fact-sheet-AeN-2024.pdf). 
+The Barents Sea, a marginal sea of the Arctic Ocean bordered by Norway and Russia, is one of the most ecologically and geopolitically significant water bodies on the planet. Home to some of the world's largest cod and haddock fisheries, it sustains both marine ecosystems and the livelihoods of coastal communities across the high north. Its waters are a barometer for our changing climate: the Barents Sea is the fastest-warming part of the Arctic, making it a critical area of scientific observation and environmental monitoring, as highlighted by the [Nansen Legacy project](https://arvenetternansen.com/) ([factsheet](https://arvenetternansen.com/wp-content/uploads/2024/04/The-future-Barents-Sea-fact-sheet-AeN-2024.pdf)). 
 
 
 {{< figure src="ice.jpg" alt="Sea ice in the Barents Sea" caption="Sea ice in the Barents Sea,  Peter Prokosch https://www.grida.no/resources/3636" >}}
