@@ -307,3 +307,25 @@
     - Support for digital transformation and integration projects
     expertise: |
       As the dedicated IT competence center of the globally active Fichtner Group, Fichtner IT Consulting combines deep industry expertise with modern technology know-how to support clients in the energy and infrastructure sectors. With more than 30 years of experience designing and implementing powerful IT solutions for technical networks, energy systems, plants, and critical infrastructure, FIT helps organizations streamline complex processes, manage geospatial data efficiently, and successfully drive their digital transformation.
+
+- id: maptransfer
+  name: Maptransfer
+  regions:
+    - europe
+  locations:
+    - "🇩🇪 Germany"
+  logo:
+    src: "images/partners/mt_logo.jpg"
+    alt: "maptransfer"
+  description: |
+    Maptransfer specializes in expert Open Source GIS training for QGIS, PostGIS and QField, complemented by technical consulting and hosting.
+  website:
+    url: "https://www.maptransfer.de/"
+  modal:
+    services:
+    - Trainings – professional, hands-on courses for QGIS, PostGIS, QField
+    - Consulting – optimizing open-source GIS workflows and strategies
+    - Hosting – secure and reliable EU-based infrastructure for your geospatial data
+
+    expertise: |
+      With a track record of empowering thousands of professionals via small-group, expert-led training in QGIS, PostGIS and QField, Maptransfer is a premier Open Source GIS specialist in the DACH region. Beyond this, the company offers technical consulting and implementation to optimize the geospatial infrastructure of its clients.
