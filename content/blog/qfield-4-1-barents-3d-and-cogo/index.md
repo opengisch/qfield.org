@@ -32,6 +32,8 @@ By default, QField will rely on Mapzen Global Terrain tiles to determine the ter
 
 Moving onto the next big functionality introduced into this new version: a **COGO (Coordinate Geometry) framework to support field work** through a set of parameter-driven operations to generate vertices. This had to be the most requested feature by professional land surveyors; we therefore couldn’t be more excited to deliver this feature and hear back from our community.
 
+![](cogotools.webp)
+
 QField 4.1 ships with three COGO tools:
 
 - The **XYZ parameters** operation generates vertices based on a manually entered pair of X and Y coordinates as well as an optional Z value;
