@@ -26,6 +26,8 @@ This new version of QField comes with a **shiny 3D map view** giving users the a
 
 Users can rotate the terrain geometry around to get a better understanding of elevation profiles as well as having the ability to adjust the plane’s extent by panning and zooming using drag and pinch gestures. When the GNSS positioning service is enabled, the **user’s current position - as well as ongoing tracking sessions – will be overlaid on top of the 3D terrain geometry**.
 
+<video style="max-width:100%;" controls><source src="3d.webm" type="video/webm"></video>
+
 By default, QField will rely on Mapzen Global Terrain tiles to determine the terrain elevation. As its name indicates, this is an 30-meter digital elevation model covering the globe hosted online which allows QField to render 3D views without the need for any user configuration. But it does not stop there. QField **supports additional elevation sources such as disk-based GeoTIFF to to work in offline areas**. This can be done when setting up a project by changing the terrain type in QGIS.
 
 ### COGO operations
