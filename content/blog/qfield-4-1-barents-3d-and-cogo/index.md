@@ -1,6 +1,6 @@
 ---
 title: 'QField 4.1 "Barents Sea": Dive into the third dimension and coordinate geometry operations!'
-date: '2026-03-11T23:54:16+01:00'
+date: '2026-03-23T05:54:16+01:00'
 author: 'Mathieu'
 categories:
   - releases
@@ -12,6 +12,7 @@ cover:
   image: splash41.webp
   alt: ''
 draft: false
+
 ---
 
 QField’s first release of the year comes packed with new features as well as a bundle of improvements and polishing. Let’s jump right into it.
