@@ -39,7 +39,7 @@ Moving on to the next major functionality introduced in this new version: a **CO
 QField 4.1 ships with three COGO tools:
 
 - The **XYZ parameters** operation generates vertices based on a manually entered pair of X and Y coordinates as well as an optional Z value;
-- The **distance/angle from point** operation generates vertices based on a distance and angle values from a given point; and
+- The **distance/angle from point** operation generates vertices based on distance and angle values from a given point; and
 - The **circles’ intersection** operation generates vertices at the intersection of two circles, each defined by a point and a radius.
 
 Leveraging QField's capabilities, a COGO operation’s point parameter can be defined in multiple ways: users can enter values manually or automatically fill in the parameter using either the current GNSS position, the geometry of a pre-existing feature within a point layer, or the coordinate cursor's location. The latter is super useful when coupled with project snapping.
@@ -54,12 +54,11 @@ The feature form continued to receive improvements during this development cycle
 
 Position tracking has received a lot of attention during this development cycle focused on optimizations. **Tracking is now friendlier to your device battery** while user interface responsiveness has been improved when tracking sessions are ongoing. We've also spent some time making Bluetooth connections to external GNSS devices even more reliable. If this was an issue for you in the past, give this version a try again.
 
-Finally, something to please our advanced users: QField now offers the **ability to tunnel network traffic through a proxy** which can be enabled and configured in the settings panel.
+Finally, something to please our advanced users: QField now offers the **ability to tunnel network traffic through a proxy** that can be enabled and configured in the settings panel.
 
 ## 'Barents Sea' release name
 
-The Barents Sea, a marginal sea of the Arctic Ocean bordered by Norway and Russia, is one of the most ecologically and geopolitically significant water bodies on the planet. Home to some of the world's largest cod and haddock fisheries, it sustains both marine ecosystems and the livelihoods of coastal communities across the high north. Its waters are a barometer for our changing climate: the Barents Sea is the fastest-warming part of the Arctic, making it a critical area of scientific observation and environmental monitoring, as highlighted by the [Nansen Legacy project](https://arvenetternansen.com/) ([factsheet](https://arvenetternansen.com/wp-content/uploads/2024/04/The-future-Barents-Sea-fact-sheet-AeN-2024.pdf)). 
-
+The Barents Sea, a marginal sea of the Arctic Ocean bordered by Norway and Russia, is one of the most ecologically and geopolitically significant water bodies on the planet. Home to some of the world's largest cod and haddock fisheries, it sustains both marine ecosystems and the livelihoods of coastal communities across the high north. Its waters are a barometer for our changing climate: the Barents Sea is the fastest-warming part of the Arctic, making it a critical area of scientific observation and environmental monitoring. The [Nansen Legacy project](https://arvenetternansen.com/) has been tracking these changes closely ([factsheet](https://arvenetternansen.com/wp-content/uploads/2024/04/The-future-Barents-Sea-fact-sheet-AeN-2024.pdf)).
 {{< figure src="ice.jpg" alt="Sea ice in the Barents Sea" caption="Sea ice in the Barents Sea, Peter Prokosch https://www.grida.no/resources/3636" >}}
 
 At OPENGIS.ch, we see the Barents Sea as a powerful symbol of why field data collection matters. Understanding and protecting remote, extreme environments like the Arctic requires tools that are reliable, offline-capable, and built for real-world conditions. That is precisely what QField is designed to deliver.
