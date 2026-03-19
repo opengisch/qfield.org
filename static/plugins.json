@@ -37,9 +37,9 @@
     "name": "QField Plugin Reloader",
     "description": "Reload a chosen QField (app) plugin in one click.",
     "icon": "https://github.com/gacarrillor/qfield-plugin-reloader/raw/refs/heads/main/qfield-plugin-reloader/icon.svg",
-    "version": "0.3",
-    "download": "https://github.com/gacarrillor/qfield-plugin-reloader/releases/download/0.3/qfield-plugin-reloader.zip",
-    "minimum_version": "3.6.0",
+    "version": "0.4",
+    "download": "https://github.com/gacarrillor/qfield-plugin-reloader/releases/download/0.4/qfield-plugin-reloader.zip",
+    "minimum_version": "4.0.0",
     "homepage": "https://github.com/gacarrillor/qfield-plugin-reloader",
     "author": "OPENGIS.ch"
   },
