@@ -11,9 +11,9 @@ sections:
     body: |
       QField is [released](https://github.com/opengisch/QField) under the GNU Public License (GPL) version 2 or later.
       Developing QField under this license means that you can inspect and modify the source code and guarantees that you will always have access to a QGIS based field data collection app that is free of cost and can be freely modified.
-  - title: "Privacy"
+  - title: "Legal"
     body: |
-      View the QField [Privacy Policy](/privacy_policy) to learn what information is collected, how it is used, and how we protect it.
+      View the QField [Privacy Policy](/privacy_policy) to learn what information we collect and how we protect it, and the [Trademark and Brand Guidelines](/guidelines) for permitted uses of the QField name and logo.
   - title: "Credits"
     body: |
       QField, QFieldCloud and QFieldSync are developed by [OPENGIS.ch](https://www.opengis.ch/).
