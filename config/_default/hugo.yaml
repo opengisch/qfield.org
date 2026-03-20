@@ -231,6 +231,10 @@ menu:
       parent: "resources"
       url: "https://docs.qfield.org"
       weight: 30
+    - name: "Brand guidelines"
+      parent: "resources"
+      url: "/guidelines/"
+      weight: 35
     - name: "Contribute"
       parent: "resources"
       url: "https://docs.qfield.org/get-started/contribute/"
