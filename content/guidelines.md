@@ -46,7 +46,7 @@ In cases of fair use, you may use or refer to QField trademark without explicit 
 
 ## Examples of use requiring permission
 
-Some uses of our trademark require permission. If you need permission, please contact us at sales@qfield.org.
+Some uses of our trademark require permission. If you need permission, please contact us at trademark@qfield.org.
 
 > Obtaining permission is not a formal endorsement of your QField-related project and does not constitute a statement on the quality of your service.
 
@@ -102,11 +102,11 @@ OPENGIS.ch does not permit using any of our Marks in the following manner:
 
 ## If in doubt, find out!
 
-If you cannot find an answer to your question below, please contact us at sales@qfield.org.
+If you cannot find an answer to your question below, please contact us at trademark@qfield.org.
 
 ## Report abuse
 
-If you know of people, organizations, or companies using the QField name or logo as part of a trademark without permission, or if you see references to QField without proper attribution, please notify us at sales@qfield.org.
+If you know of people, organizations, or companies using the QField name or logo as part of a trademark without permission, or if you see references to QField without proper attribution, please notify us at trademark@qfield.org.
 
 ## Frequently Asked Questions
 
