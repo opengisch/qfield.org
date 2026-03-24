@@ -1,5 +1,6 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+title: '{{ replace .File.ContentBaseName "-" " " | title }}'§ 
+# when scheduling for future, use 00:05:00 as time, autometed build happen at 3am UTC
 date: '{{ .Date }}'
 author: ''
 categories:

@@ -4,6 +4,7 @@
 ```bash
 hugo new --kind blog content/blog/my-new-post/index.md
 ```
+when scheduling blogpsts for future, use 00:05:00 as time, autometed build happen at 3am UTC
 
 Now you can:
 
