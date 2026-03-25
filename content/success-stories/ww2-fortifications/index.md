@@ -116,7 +116,3 @@ _"Now I can just give someone a project of all objects in 20 kilometers around t
 
 #### About the Project:
 **The West Wall (Siegfried Line) fortification mapping project** is coordinated by volunteer monument preservation groups working alongside German federal monument services, documenting and monitoring approximately **10,000 remaining WWII-era fortifications across a 600-kilometer zone** along Germany's western border.
-
-
-
-📷 Photos taken by [Chad Cottle](https://zip.org.nz/teamfeed/2018/1/chad-cottle)
