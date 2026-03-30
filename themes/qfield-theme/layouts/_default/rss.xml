@@ -62,7 +62,7 @@
       {{ with .Description }}<description>{{ . | html }}</description>{{ else }}<description>{{ .Summary | html }}</description>{{ end }}
       <content:encoded>{{ printf "<![CDATA[%s]]>" .Content | safeHTML }}</content:encoded>
       {{- range $taxonomy, $_ := .Site.Taxonomies }}
-        {{- with index $.Page.Params $taxonomy }}
+        {{- with index $page.Params $taxonomy }}
           {{- range . }}
       <category domain="{{ $taxonomy }}">{{ . }}</category>
           {{- end }}
