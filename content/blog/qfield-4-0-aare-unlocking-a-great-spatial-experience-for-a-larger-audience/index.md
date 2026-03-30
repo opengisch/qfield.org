@@ -4,9 +4,16 @@ description: "QField 4.0 \"Aare\" marks a major usability milestone, making mobi
 date: 2025-12-17
 draft: false
 images: ["image.png"]
-categories: ["QField", "Highlights"]
-tags: ["qgis.org"]
-keywords: ["qfield 4.0", "aare", "qfieldcloud", "qgis"]
+categories:
+  - releases
+  - highlights
+tags:
+  - qgis.org
+keywords:
+  - qfield 4.0
+  - aare
+  - qfieldcloud
+  - qgis
 author: Mathieu
 cover:
   alt: splash

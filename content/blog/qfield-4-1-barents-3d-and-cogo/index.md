@@ -2,6 +2,7 @@
 title: 'QField 4.1 "Barents Sea": Dive into the third dimension and coordinate geometry operations!'
 date: '2026-03-23T00:05:00'
 author: 'Mathieu'
+description: "QField's first release of the year comes packed with new features and improvements. 3D terrain view, COGO tools for land surveyors, and background tracking on iOS are the highlights."
 categories:
   - releases
   - highlights

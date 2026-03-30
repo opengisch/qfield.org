@@ -1,7 +1,9 @@
 ---
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'§ 
+description: "" #short text used in social media and on the blog homeage (keep it below 255 char)
 # when scheduling for future, use 00:05:00 as time, autometed build happen at 3am UTC
 date: '{{ .Date }}'
+draft: true
 author: ''
 categories:
   - releases
@@ -9,10 +11,12 @@ categories:
 tags:
   - qfield
   - qgis.org
+keywords:
+  - qfield
+  - qgis
 cover:
   image: cover.png
   alt: ''
-draft: true
 ---
 
 Write your blog post introduction here. This should be a compelling summary that draws readers in.
