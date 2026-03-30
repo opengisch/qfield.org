@@ -340,7 +340,7 @@
     src: "images/partners/maptastic-primary-logo.png"
     alt: "maptastic"
   description: |
-    Maptastic is a consultancy based in the United Kingdom that delivers sector focussed QGIS training, workflow development and digital mapping for the Ecology & Environment Sectors. 
+    Maptastic is a consultancy based in the United Kingdom that delivers sector focussed QGIS training, workflow development and digital mapping for the Ecology & Environment Sectors.
   website:
     url: "https://www.maptastic.co.uk/"
   modal:

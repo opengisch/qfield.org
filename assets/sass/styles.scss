@@ -379,6 +379,14 @@ html {
 /* =========================================================================
    Partner Directory Cards
    ========================================================================= */
+.txt-link {
+  color: var(--qfield-color);
+  }
+
+  .txt-link:hover {
+  color: var(--qfield-color);
+  font-weight: bolder;
+  }
 
 .partner-row {
   --partner-panel-bg: #fff;
@@ -425,11 +433,12 @@ html {
     gap: 0.4rem;
     background-color: var(--partner-chip-bg);
     color: var(--partner-chip-color);
-    border: 1px solid var(--partner-chip-border);
+    // border: 1px solid var(--partner-chip-border);
     border-radius: 999px;
     padding: 0.2rem 0.65rem;
     font-weight: 600;
     white-space: nowrap;
+    margin-right: 10px;
   }
 
   .btn-simple {
