@@ -49,6 +49,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
     {{ range $pages }}
+    {{- $page := . }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -56,7 +57,7 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
       {{ with .Params.cover.image -}}
-      <media:content url="{{ path.Join $.Permalink . | absURL }}" medium="image" />
+      <media:content url="{{ print $page.Permalink . | absURL }}" medium="image" />
       {{- end }}
       {{ with .Description }}<description>{{ . | html }}</description>{{ else }}<description>{{ .Summary | html }}</description>{{ end }}
       <content:encoded>{{ printf "<![CDATA[%s]]>" .Content | safeHTML }}</content:encoded>
