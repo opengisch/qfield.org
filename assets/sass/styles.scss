@@ -390,7 +390,6 @@ html {
   --partner-panel-color: var(--bs-body-color);
   --partner-panel-heading: var(--bs-body-color);
   --partner-panel-border: rgba(0, 0, 0, 0.08);
-  --partner-panel-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.08);
   --partner-panel-shadow-hover: 0 1.5rem 3rem rgba(0, 0, 0, 0.12);
   --partner-chip-bg: rgba(0, 0, 0, 0.05);
   --partner-chip-color: rgba(0, 0, 0, 0.7);
@@ -398,12 +397,10 @@ html {
   --partner-btn-simple-color: var(--qfield-color);
   --partner-btn-simple-hover: #4c9f1a;
   --partner-btn-primary-bg: var(--qfield-color);
-  --partner-btn-primary-color: #0c210a;
+  --partner-btn-primary-color: white;
   --partner-btn-primary-border: var(--qfield-color);
   --partner-btn-primary-hover-bg: #6ab71d;
-  --partner-btn-primary-hover-color: #0c210a;
-  --partner-btn-primary-shadow: 0 0.65rem 1.4rem rgba(128, 204, 40, 0.28);
-  --partner-btn-primary-hover-shadow: 0 0.85rem 1.7rem rgba(128, 204, 40, 0.36);
+  --partner-btn-primary-hover-color: white;
 
   .panel {
     background-color: var(--partner-panel-bg);
@@ -940,7 +937,7 @@ html {
   width: 100% !important; // Fill the whole carousel width
   object-fit: cover !important; // Crop to fit, maintaining aspect ratio
   object-position: center center !important; // Keep crop centered
-  
+
 
   @media (max-width: 768px) {
     height: 300px !important;
