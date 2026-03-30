@@ -309,7 +309,7 @@ html {
 }
 
 /* =========================================================================
-   Partner Filters & Nav Pills
+  Partner Filters & Nav Pills
    ========================================================================= */
 
 .nav.nav-pills,
@@ -317,15 +317,11 @@ html {
   --nav-pill-bg: rgba(255, 255, 255, 0.9);
   --nav-pill-color: var(--bs-body-color);
   --nav-pill-border: rgba(0, 0, 0, 0.12);
-  --nav-pill-hover-bg: rgba(128, 204, 40, 0.2);
   --nav-pill-hover-color: var(--bs-body-color);
   --nav-pill-hover-border: rgba(128, 204, 40, 0.55);
   --nav-pill-active-bg: var(--qfield-color);
   --nav-pill-active-color: #0c210a;
   --nav-pill-active-border: var(--qfield-color);
-  --nav-pill-shadow: 0 0.4rem 1.25rem rgba(0, 0, 0, 0.07);
-  --nav-pill-hover-shadow: 0 0.6rem 1.3rem rgba(128, 204, 40, 0.2);
-  --nav-pill-active-shadow: 0 0.65rem 1.4rem rgba(128, 204, 40, 0.32);
   gap: 0.45rem;
   flex-wrap: wrap;
 }
@@ -337,8 +333,7 @@ html {
   color: var(--nav-pill-color);
   font-weight: 600;
   padding: 0.4rem 1.2rem;
-  transition: background-color 0.2s ease, color 0.2s ease,
-    border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
   box-shadow: var(--nav-pill-shadow);
 }
 
@@ -390,8 +385,8 @@ html {
   --partner-panel-color: var(--bs-body-color);
   --partner-panel-heading: var(--bs-body-color);
   --partner-panel-border: rgba(0, 0, 0, 0.08);
-  --partner-panel-shadow-hover: 0 1.5rem 3rem rgba(0, 0, 0, 0.12);
-  --partner-chip-bg: rgba(0, 0, 0, 0.05);
+  --partner-panel-shadow-hover: 0 1rem 2rem rgba(0, 0, 0, 0.09);
+  --partner-chip-bg: rgba(7, 4, 4, 0.03);
   --partner-chip-color: rgba(0, 0, 0, 0.7);
   --partner-chip-border: rgba(0, 0, 0, 0.08);
   --partner-btn-simple-color: var(--qfield-color);

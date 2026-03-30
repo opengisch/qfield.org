@@ -2920,8 +2920,12 @@ div.explanation {
   flex-wrap: wrap;
 }
 
+/* .partner-row .panel {
+  padding-right: 20px;
+} */
+
 .partner-row .panel-body p {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .partner-card-wrapper {
@@ -2987,9 +2991,10 @@ div.explanation {
 }
 
 .partner-logo {
-  width: 40px;
+  width: 45px;
   height: 40px;
   margin-right: 10px;
+  margin-bottom: 0px;
   object-fit: contain;
   vertical-align: middle;
   display: inline-block;
