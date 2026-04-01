@@ -1,7 +1,7 @@
 baseURL: "https://qfield.org/"
 languageCode: "en-US"
 title: "QField - Efficient field work built for QGIS"
-theme: "qfield-theme"
+theme: "opengis-hugo-theme"
 enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: true
