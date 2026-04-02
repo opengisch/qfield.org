@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-{{ $content := .Site.Data.hardware.content }}
-{{ $certified := .Site.Data.hardware.certified }}
+{{ $content := hugo.Data.hardware.content }}
+{{ $certified := hugo.Data.hardware.certified }}
 
 <script
   type="module"

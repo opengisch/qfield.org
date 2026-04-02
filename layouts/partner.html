@@ -12,7 +12,7 @@
 <section class="section-spacing text-center" id="highlights">
   <div id="partner" class="container container--max-width">
     <div class="row">
-      {{ range .Site.Data.partner.programs }}
+      {{ range hugo.Data.partner.programs }}
         <div class="col-lg-4 mb-4 mb-lg-0">
           {{ partial "partner/program-card.html" . }}
         </div>

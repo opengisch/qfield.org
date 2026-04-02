@@ -1,7 +1,7 @@
 ---
 title: "QField - Success Stories"
 aliases:
-  - "success-stories.html"
+  - "/success-stories.html"
 heroTitle: "Success Stories"
 heroLead: "QField is being used around the world in a wide variety of domains every day. <br/>Discover how teams are delivering impactful projects with QField."
 heroCta: "Tell us about your project. Did QField make your life easier too? <a href=\"https://opengis.ch/#contact\" class=\"success-stories-link\">Let us know</a> – we will be delighted to publish it."

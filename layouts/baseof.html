@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{ .Language.Locale | default site.Language.Lang }}" data-bs-theme="light" data-theme-default="{{ site.Params.defaultTheme | default "light" }}"> <!-- default, will be updated by JS -->
+{{ partial "head/head.html" . }}
+{{- $class := "home" -}}
+{{- if eq .Kind "404" -}}{{ $class = "error404" -}}
+{{- else if eq .Kind "page" -}}{{ $class = printf "%s single" .Type -}}
+{{- else if ne .Kind "home" -}}{{ $class = printf "%s list" .Type -}}
+{{- end -}}
+<body class="{{ $class }} d-flex flex-column min-vh-100">
+    {{- partial "header/header.html" . -}}
+    <div id="content">
+        {{- block "main" . }}{{- end }}
+    </div>
+    {{ partial "footer/footer.html" . }}
+    {{ partial "footer/script-footer.html" . }}
+</body>
+</html>
