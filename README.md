@@ -1,5 +1,33 @@
 
 
+## Setup
+
+### Clone with submodule
+
+The theme (`themes/opengis-hugo-theme`) is a git submodule. Clone with:
+
+```bash
+git clone --recurse-submodules git@github.com:beeekey/qfield-hugo-v2.git
+```
+
+If you already cloned without `--recurse-submodules`:
+
+```bash
+git submodule update --init --recursive
+```
+
+### Update the theme submodule
+
+To pull the latest theme changes:
+
+```bash
+git submodule update --remote themes/opengis-hugo-theme
+git add themes/opengis-hugo-theme
+git commit -m "chore: bump opengis-hugo-theme submodule"
+```
+
+---
+
 ## Creating a new blog post
 ```bash
 hugo new --kind blog content/blog/my-new-post/index.md

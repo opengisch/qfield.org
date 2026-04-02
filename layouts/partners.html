@@ -33,7 +33,7 @@
 
 <section >
   <div class="container">
-    {{ $regions := .Site.Data.partner.regions }}
+    {{ $regions := hugo.Data.partner.regions }}
     {{ if $regions }}
       <ul class="nav nav-pills justify-content-center mb-4" id="region-filters">
         {{ range $index, $region := $regions }}
@@ -44,7 +44,7 @@
       </ul>
     {{ end }}
 
-    {{ $partners := .Site.Data.partner.partners }}
+    {{ $partners := hugo.Data.partner.partners }}
     {{ if $partners }}
       <div class="row partner-row">
         {{ range $partners }}
