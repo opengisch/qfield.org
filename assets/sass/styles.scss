@@ -264,11 +264,9 @@ html {
       min-height: 2.5rem;
       padding: 0.35rem 1.2rem;
       border-radius: 999px;
-      background-color: var(--partner-cta-bg);
       color: var(--partner-cta-color);
       font-weight: 600;
       border: 1px solid var(--partner-cta-border);
-      box-shadow: var(--partner-cta-shadow);
       text-decoration: none;
       transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease,
         box-shadow 0.2s ease, transform 0.2s ease;
@@ -277,8 +275,6 @@ html {
       &:focus {
         background-color: var(--partner-cta-hover-bg);
         color: var(--partner-cta-hover-color);
-        border-color: var(--partner-cta-hover-border);
-        box-shadow: var(--partner-cta-hover-shadow);
         transform: translateY(-1px);
       }
 
@@ -462,10 +458,8 @@ html {
     min-height: 2.5rem;
     padding: 0.4rem 1.4rem;
     border-radius: 999px;
-    background-color: var(--partner-btn-primary-bg);
+    background-color: transparent;
     color: var(--partner-btn-primary-color);
-    border: 1px solid var(--partner-btn-primary-border);
-    box-shadow: var(--partner-btn-primary-shadow);
     transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease,
       transform 0.2s ease;
 
