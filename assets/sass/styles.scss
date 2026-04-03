@@ -231,15 +231,12 @@ html {
   --partner-card-bg: #fff;
   --partner-card-color: var(--bs-body-color);
   --partner-card-border: rgba(0, 0, 0, 0.08);
-  --partner-card-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.08);
-  --partner-cta-bg: rgba(128, 204, 40, 0.1);
   --partner-cta-color: var(--qfield-color);
   --partner-cta-border: rgba(128, 204, 40, 0.45);
   --partner-cta-hover-bg: var(--qfield-color);
-  --partner-cta-hover-color: #0c210a;
+  --partner-cta-hover-color: white;
   --partner-cta-hover-border: var(--qfield-color);
-  --partner-cta-shadow: 0 0.75rem 2rem rgba(128, 204, 40, 0.18);
-  --partner-cta-hover-shadow: 0 0.9rem 2.1rem rgba(128, 204, 40, 0.32);
+  --partner-cta-hover-shadow: 0 0.9rem 2.1rem rgba(128, 204, 40, 0.2);
 
   .feature {
     background-color: var(--partner-card-bg);
