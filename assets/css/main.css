@@ -551,14 +551,14 @@ p {
 }
 
 .feature__icon {
-  width: 25%;
+  width: 17%;
   max-width: 140px;
   margin: 0 auto 1rem auto;
   display: block;
 }
 
 .feature__icon--narrow {
-  width: 22%;
+  width: 15%;
 }
 
 .feature__icon--spaced {
@@ -2573,9 +2573,9 @@ div.explanation {
 
 /* hardware page button */
 .btn-primary {
-  background-color: #80cc28;
-  color: #fff;
-  border: 1px solid #80cc28;
+  background-color: var(--qfield-color);
+  color: #fffff;
+  border: 1px solid var(q--qfield-color);
   border-radius: 999px;
   margin-top: 15px;
 }

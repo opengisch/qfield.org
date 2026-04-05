@@ -382,7 +382,7 @@ html {
   }
 
 .partner-row {
-  --partner-panel-bg: #fff;
+  --partner-panel-bg: #ffffff;
   --partner-panel-color: var(--bs-body-color);
   --partner-panel-heading: var(--bs-body-color);
   --partner-panel-border: rgba(0, 0, 0, 0.08);
@@ -393,7 +393,7 @@ html {
   --partner-btn-simple-color: var(--qfield-color);
   --partner-btn-simple-hover: #4c9f1a;
   --partner-btn-primary-bg: var(--qfield-color);
-  --partner-btn-primary-color: white;
+  --partner-btn-primary-color: var(--qfield-color);
   --partner-btn-primary-border: var(--qfield-color);
   --partner-btn-primary-hover-bg: #6ab71d;
   --partner-btn-primary-hover-color: white;
