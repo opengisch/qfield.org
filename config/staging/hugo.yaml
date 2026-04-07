@@ -20,12 +20,6 @@ caches:
   assets:
     dir: ":cacheDir/:project"
     maxAge: "2h"
-  getcsv:
-    dir: ":cacheDir/:project"
-    maxAge: "30m"
-  getjson:
-    dir: ":cacheDir/:project"
-    maxAge: "30m"
   images:
     dir: ":cacheDir/:project"
     maxAge: "2h"

@@ -24,12 +24,6 @@ caches:
   assets:
     dir: ":cacheDir/:project"
     maxAge: "10m"  # Shorter cache for faster development iteration
-  getcsv:
-    dir: ":cacheDir/:project"
-    maxAge: "5m"
-  getjson:
-    dir: ":cacheDir/:project"
-    maxAge: "5m"
   images:
     dir: ":cacheDir/:project"
     maxAge: "10m"  # Shorter cache for image changes
