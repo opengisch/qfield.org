@@ -7,7 +7,7 @@
 The theme (`themes/opengis-hugo-theme`) is a git submodule. Clone with:
 
 ```bash
-git clone --recurse-submodules git@github.com:beeekey/qfield-hugo-v2.git
+git clone --recurse-submodules git@github.com:opengisch/qfield.org.git 
 ```
 
 If you already cloned without `--recurse-submodules`:

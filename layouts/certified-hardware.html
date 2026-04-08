@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $hardware := site.Data.hardware | default dict -}}
+  {{- $hardware := hugo.Data.hardware | default dict -}}
   {{- $content := $hardware.content | default dict -}}
   {{- $certifiedDevices := $hardware.certified | default (slice) -}}
   <section class="py-5 border-bottom bg-body-tertiary">
