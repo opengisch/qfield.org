@@ -10,11 +10,18 @@ The theme (`themes/opengis-hugo-theme`) is a git submodule. Clone with:
 git clone --recurse-submodules git@github.com:opengisch/qfield.org.git 
 ```
 
+This uses the SSH submodule remote `git@github.com:opengisch/opengis-hugo-theme.git`,
+so local clones need GitHub SSH access to that repository.
+
 If you already cloned without `--recurse-submodules`:
 
 ```bash
 git submodule update --init --recursive
 ```
+
+For GitHub Actions, configure the `OPENGIS_HUGO_THEME_SSH_KEY` repository secret with a
+read-only deploy key or machine-user SSH key that can access
+`opengisch/opengis-hugo-theme`.
 
 ### Update the theme submodule
 
