@@ -330,24 +330,24 @@
     expertise: |
       With a track record of empowering thousands of professionals via small-group, expert-led training in QGIS, PostGIS and QField, Maptransfer is a premier Open Source GIS specialist in the DACH region. Beyond this, the company offers technical consulting and implementation to optimize the geospatial infrastructure of its clients.
 
-- id: maptastic
-  name: Maptastic
-  regions:
-    - europe
-  locations:
-    - "🇬🇧 United Kingdom"
-  logo:
-    src: "images/partners/maptastic-primary-logo.png"
-    alt: "maptastic"
-  description: |
-    Maptastic is a consultancy based in the United Kingdom that delivers sector focussed QGIS training, workflow development and digital mapping for the Ecology & Environment Sectors.
-  website:
-    url: "https://www.maptastic.co.uk/"
-  modal:
-    services:
-    - QField implementation and training - focus on ecology & environment sectors
-    - Data collection workflow design and development
-    - QGIS training & consultancy
+# - id: maptastic
+#   name: Maptastic
+#   regions:
+#     - europe
+#   locations:
+#     - "🇬🇧 United Kingdom"
+#   logo:
+#     src: "images/partners/maptastic-primary-logo.png"
+#     alt: "maptastic"
+#   description: |
+#     Maptastic is a consultancy based in the United Kingdom that delivers sector focussed QGIS training, workflow development and digital mapping for the Ecology & Environment Sectors.
+#   website:
+#     url: "https://www.maptastic.co.uk/"
+#   modal:
+#     services:
+#     - QField implementation and training - focus on ecology & environment sectors
+#     - Data collection workflow design and development
+#     - QGIS training & consultancy
 
-    expertise: |
-      Claire Birnie, the owner of Maptastic has over a decade of experience in the private and public sector before starting her business. She’s worked within the environment and ecology sector and developed an understanding for their needs as a sector and bridges the gap between what people need to know in their work but making it efficient and streamlined as a geospatial expert. Claire has a particular focus on small to medium sized businesses and freelancers in the environment sector as the availability of dedicated in house GIS support is often scarce. It’s her passion to bring quality geospatial training to often overlooked people where skills gaps can widen quickly as technology becomes more prevalent.
+#     expertise: |
+#       Claire Birnie, the owner of Maptastic has over a decade of experience in the private and public sector before starting her business. She’s worked within the environment and ecology sector and developed an understanding for their needs as a sector and bridges the gap between what people need to know in their work but making it efficient and streamlined as a geospatial expert. Claire has a particular focus on small to medium sized businesses and freelancers in the environment sector as the availability of dedicated in house GIS support is often scarce. It’s her passion to bring quality geospatial training to often overlooked people where skills gaps can widen quickly as technology becomes more prevalent.
