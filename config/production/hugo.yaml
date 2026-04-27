@@ -10,7 +10,6 @@ server:
         X-Content-Type-Options: "nosniff"
         Referrer-Policy: "strict-origin-when-cross-origin"
         Strict-Transport-Security: "max-age=31536000; includeSubDomains; preload"
-        Content-Security-Policy: "default-src 'self'; img-src 'self' data: https:; font-src 'self' https://use.typekit.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://use.typekit.net https://cdnjs.cloudflare.com; script-src 'self' 'unsafe-inline' https://use.typekit.net; connect-src 'self' https://docs.qfield.org https://community.qfield.org https://b678e710.sibforms.com; frame-src https://b678e710.sibforms.com https://challenges.cloudflare.com;"
 
 # Build settings for production
 build:
