@@ -117,4 +117,8 @@ cards:
     image: "sarawak-7.jpg"
     title: "Community-led mapping for land rights and forest protection in Sarawak"
     categories: ["forestry", "ecology-environment", "water-land-management"]
+  - url: "/success-stories/kan-inec-costa-rica/"
+    image: "kan-architecture.png"
+    title: "National Surveys at Scale: KAN and INEC Costa Rica"
+    categories: ["government-municipalities"]
 ---
