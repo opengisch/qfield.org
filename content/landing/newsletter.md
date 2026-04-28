@@ -7,6 +7,7 @@ layout: solutions
 hero:
   headline: "Stay in the loop with QField"
   sub: "Get the latest releases, field tips, and community stories delivered to your inbox — no noise, just what matters."
+draft: true
 ---
 
 ### Why subscribe?
