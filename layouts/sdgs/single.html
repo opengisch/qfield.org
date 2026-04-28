@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    {{ range site.Data.sdgs.items }}
+    {{ range hugo.Data.sdgs.items }}
       {{ partial "sdg-card.html" . }}
     {{ end }}
   </div>

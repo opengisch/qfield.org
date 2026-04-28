@@ -39,11 +39,11 @@ minify:
   minifyOutput: true
   tdewolff:
     css:
-      keepCSS2: false  # Remove CSS2 compatibility for smaller size
+      version: 4  # Remove CSS2 compatibility for smaller size
       precision: 2
     html:
       keepComments: false
-      keepConditionalComments: false
+      keepSpecialComments: false
       keepDefaultAttrVals: false
       keepDocumentTags: true
       keepEndTags: true

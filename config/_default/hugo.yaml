@@ -1,7 +1,7 @@
 baseURL: "https://qfield.org/"
-languageCode: "en-US"
+locale: "en-US"
 title: "QField - Efficient field work built for QGIS"
-theme: "qfield-theme"
+theme: "opengis-hugo-theme"
 enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: true
@@ -107,11 +107,11 @@ minify:
   minifyOutput: true
   tdewolff:
     css:
-      keepCSS2: true
+      version: 4
       precision: 1
     html:
       keepComments: false
-      keepConditionalComments: true
+      keepSpecialComments: false
       keepDefaultAttrVals: true
       keepDocumentTags: true
       keepEndTags: true
@@ -178,7 +178,7 @@ sitemap:
 # Language and internationalization
 languages:
   en:
-    languageName: "English"
+    label: "English"
     weight: 1
     title: "QField - Efficient field work built for QGIS"
 

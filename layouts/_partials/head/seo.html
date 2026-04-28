@@ -1,0 +1,128 @@
+{{- /* Improved SEO meta, crawler directives, and structured data */ -}}
+{{- $siteTitle := .Site.Title | default "" -}}
+{{- $pageTitle := cond .IsHome $siteTitle (printf "%s | %s" .Title $siteTitle) -}}
+<title>{{ $pageTitle }}</title>
+
+{{- /* Clean description fallback chain */ -}}
+{{- $rawDesc := "" -}}
+{{- if .Description -}}
+  {{- $rawDesc = .Description -}}
+{{- else if .Summary -}}
+  {{- $rawDesc = .Summary -}}
+{{- else if .Site.Params.description -}}
+  {{- $rawDesc = .Site.Params.description -}}
+{{- end -}}
+{{- $cleanDesc := ($rawDesc | plainify | htmlUnescape | replaceRE "\\s+" " " | trim " ") -}}
+{{- if $cleanDesc }}
+  <meta name="description" content="{{ $cleanDesc }}">
+{{- end }}
+
+{{- /* Robots directives: allow rich snippets and AI overview crawlers unless explicitly blocked */ -}}
+{{- $isNoIndex := or (.Params.noindex) (eq .Kind "404") -}}
+{{- if $isNoIndex }}
+  <meta name="robots" content="noindex,follow">
+{{- else }}
+  {{- $robotsDirectives := "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" -}}
+  <meta name="robots" content="{{ $robotsDirectives }}">
+  <meta name="googlebot" content="{{ $robotsDirectives }}">
+  <meta name="bingbot" content="{{ $robotsDirectives }}">
+{{- end }}
+
+{{- $redirectTarget := .Params.redirectTo -}}
+{{- if $redirectTarget }}
+  {{- $redirectDelay := .Params.redirectDelay | default 0 -}}
+  <meta http-equiv="refresh" content="{{ $redirectDelay }};url={{ $redirectTarget | safeURL }}">
+{{- end }}
+
+<!-- canonical tag -->
+<link rel="canonical" href="{{ .Permalink | safeURL }}">
+
+<!-- Self-referential hreflang attributes -->
+<link rel="alternate" hreflang="{{ .Language.Locale | default .Site.Language.Lang }}" href="{{ .Permalink | safeURL }}">
+
+<!-- Translated pages hreflang tags -->
+{{ if .IsTranslated -}}
+{{ range .Translations -}}
+<link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink | safeURL }}">
+{{ end -}}
+{{ end -}}
+
+<!-- X-default hreflang tag -->
+{{ if .IsTranslated -}}
+{{ range .AllTranslations -}}
+{{ if eq .Language.Locale (hugo.Sites.Default).Language.Locale -}}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink | safeURL }}">
+{{ end -}}
+{{ end -}}
+{{ else -}}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink | safeURL }}">
+{{ end }}
+
+<!-- AlternativeOutputFormats -->
+{{ range .AlternativeOutputFormats -}}
+  <link rel="{{ .Rel }}" {{ printf "type=%q" .MediaType.Type | safeHTMLAttr }} href="{{ .Permalink | safeURL }}">
+{{ end -}}
+
+<!-- Social and structured data -->
+{{ partial "head/opengraph.html" . }}
+{{ partial "head/facebook-admin.html" . }}
+{{ partial "head/twitter.html" . }}
+
+{{ if .IsPage }}
+  <!-- Article structured data -->
+  {{- partial "head/schema-article.html" .  -}}
+{{ end }}
+
+{{ if .IsHome }}
+  <!-- WebSite structured data -->
+  {{ if .Site.Params.webSite }}
+    {{- partial "head/schema-website.html" .  -}}
+  {{ end }}
+  <!-- Organization structured data -->
+  {{ if .Site.Params.organization }}
+    {{- partial "head/schema-organization.html" .  -}}
+  {{ end }}
+  <!-- Local Business structured data -->
+  {{ if .Site.Params.localBusiness }}
+    {{- partial "head/schema-local-business.html" .  -}}
+  {{ end }}
+  <!-- Event structured data -->
+  {{ if .Site.Params.event -}}
+    {{- partial "head/schema-event.html" .  -}}
+  {{ end }}
+{{ end }}
+
+<!-- Product structured data -->
+{{ if .Params.product -}}
+  {{- partial "head/schema-product.html" .  -}}
+{{ end }}
+
+<!-- Software Application structured data -->
+{{ if .Params.softwareApplication -}}
+  {{- partial "head/schema-software-application.html" .  -}}
+{{ end }}
+
+<!-- FAQPage structured data -->
+{{ if .Params.faq -}}
+  {{- partial "head/schema-faq.html" .  -}}
+{{ end }}
+
+<!-- WebPage structured data to help AI crawlers contextualize the page -->
+{{- $lang := .Language.Locale | default .Site.Language.Lang -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ $pageTitle | jsonify }},
+  {{- if $cleanDesc }}
+  "description": {{ $cleanDesc | jsonify }},
+  {{- end }}
+  "url": "{{ .Permalink }}",
+  "inLanguage": "{{ $lang }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ $siteTitle | jsonify }},
+    "url": "{{ .Site.BaseURL }}"
+  }
+}
+</script>
