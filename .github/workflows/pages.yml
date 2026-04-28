@@ -26,12 +26,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0   # needed for enableGitInfo
+          # Required so the SSH submodule URL is used as-is in CI.
+          ssh-key: ${{ secrets.OPENGIS_HUGO_THEME_SSH_KEY }}
           submodules: true # ensure theme is present
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.151.0'
+          hugo-version: '0.159.1'
           extended: true
 
       - name: Configure Pages

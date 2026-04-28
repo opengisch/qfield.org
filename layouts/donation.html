@@ -1,0 +1,141 @@
+{{ define "main" }}
+{{ $data := hugo.Data.donate.content }}
+
+<!-- Donation Section -->
+<section id="donation" class="py-5">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-6 col-md-8">
+        
+        <!-- Donation Card -->
+        <div class="card shadow border-0 rounded-4">
+          <div class="card-body p-4">
+            
+            <!-- Header -->
+            <h2 class="h4 fw-bold text-center mb-3">{{ $data.title }}</h2>
+            <p class="text-center mb-4">
+              {{ $data.intro }} 
+              <a href="{{ $data.provider.url }}" target="_blank" rel="noopener noreferrer" class="fw-bold" style="color: var(--qfield-color);">
+                {{ $data.provider.name }}
+                <i class="fas fa-external-link-alt" style="font-size: 0.85em;"></i>
+              </a> 
+              No signup needed.
+            </p>
+
+            <!-- Tabs Navigation -->
+            <ul class="nav nav-tabs justify-content-center border-bottom mb-4" role="tablist">
+              {{ range $index, $interval := $data.intervals }}
+              <li class="nav-item" role="presentation">
+                <button 
+                  class="donation-tab nav-link{{ if eq $index 0 }} active{{ end }}" 
+                  id="{{ $interval.id }}-tab" 
+                  data-bs-toggle="tab" 
+                  data-bs-target="#{{ $interval.id }}" 
+                  type="button" 
+                  role="tab" 
+                  aria-controls="{{ $interval.id }}" 
+                  aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+                  data-interval="{{ $interval.param }}">
+                  {{ $interval.label }}
+                </button>
+              </li>
+              {{ end }}
+            </ul>
+
+            <!-- Tabs Content -->
+            <div class="tab-content" id="donationTabContent">
+              {{ range $index, $interval := $data.intervals }}
+              <div 
+                class="tab-pane fade{{ if eq $index 0 }} show active{{ end }}" 
+                id="{{ $interval.id }}" 
+                role="tabpanel" 
+                aria-labelledby="{{ $interval.id }}-tab">
+                
+                <div class="donation-options">
+                  {{ range $amountIndex, $amount := $interval.amounts }}
+                  <a 
+                    href="{{ $data.base_url }}&tid={{ $interval.param }}" 
+                    class="donation-btn{{ if and (eq $index 0) (eq $amount $interval.default_amount) }} selected{{ end }}" 
+                    data-amount="{{ $amount }}"
+                    data-interval="{{ $interval.param }}">
+                    CHF {{ $amount }}.00
+                  </a>
+                  {{ end }}
+                </div>
+              </div>
+              {{ end }}
+            </div>
+
+            <!-- Donate Button -->
+            <div class="text-center mt-4">
+              <a href="#" id="donate-link" class="donation-submit">
+                {{ $data.cta.text }}
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Support Information -->
+    <div class="support-container">
+      
+      <!-- Header -->
+      <div class="header-section text-center my-5">
+        <h1 class="h2 fw-bold mb-4">{{ $data.footer.heading }}</h1>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <p class="lead">{{ $data.footer.body | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Support Sections -->
+      {{ range $data.footer.sections }}
+      <div class="support-content row align-items-start mb-5">
+        
+        <!-- Left: Section Title -->
+        <div class="col-lg-5 left-section mb-4 mb-lg-0">
+          <h2 class="section-title">{{ .section | safeHTML }}</h2>
+          <div class="accent-bar"></div>
+        </div>
+
+        <!-- Right: Cards -->
+        <div class="col-lg-7 right-section">
+          <div class="row g-4">
+            {{ range .columns }}
+            <div class="col-12">
+              <div class="support-card">
+                <h3 class="card-title h5 fw-bold">{{ .title }}</h3>
+                <ul class="card-list mb-0">
+                  {{ range .items }}
+                  <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+
+      </div>
+      {{ end }}
+
+      <!-- Footer -->
+      <div class="footer-section text-center mt-5 pt-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <p class="text-muted">
+              qfield.org wants to be transparent with the funds we receive and how we spend them. 
+              Please have a look at the financial reports and budgets in our Finance section.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{{ end }}
