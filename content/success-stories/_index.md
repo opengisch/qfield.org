@@ -117,4 +117,8 @@ cards:
     image: "sarawak-7.jpg"
     title: "Community-led mapping for land rights and forest protection in Sarawak"
     categories: ["forestry", "ecology-environment", "water-land-management"]
+  - url: "/success-stories/cpaws-southern-alberta/"
+    image: "--.jpg"
+    title: "Mapping Critical Trout Habitat on Alberta's East Slopes"
+    categories: ["ecology-environment", "forestry", "water-land-management"]
 ---
