@@ -2094,7 +2094,7 @@ p:has(> img) {
 }
 
 .success-stories-button a:hover {
-  background-color: transparent;
+  background-color: white;
   color: var(--qfield-color) !important;
 }
 
