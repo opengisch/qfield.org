@@ -2130,6 +2130,10 @@ p:has(> img) {
   color: #212121;
 }
 
+#about h3 {
+  margin-top: 0px !important;
+}
+
 #about a,
 #about a:visited,
 #about a:focus,
@@ -2184,7 +2188,8 @@ span.green,
 }
 
 [data-bs-theme='dark'] .footer-subscribe-banner {
-  background-color: #3b6611;
+  background-color: #1f1f1f;
+  margin-bottom: 40px;
 }
 
 /* ____ */
