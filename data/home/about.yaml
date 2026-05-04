@@ -1,12 +1,13 @@
 intro:
-  title: "About QField"
+
+  title: "Stay in the loop"
   body: |
-    QField is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management.
-    As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the [United Nations Sustainable Development Goals (SDGs)](/sdgs/), promoting a more sustainable and equitable future.
+    [Subscribe to our newsletter](https://www.opengis.ch/newsletter) and stay up to date on the latest and greatest!
 sections:
-  - title: "Stay in the loop"
+  - title: "About QField"
     body: |
-      [Subscribe to our newsletter](https://www.opengis.ch/newsletter) and stay up to date on the latest and greatest!
+      QField is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management.
+      As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the [United Nations Sustainable Development Goals (SDGs)](/sdgs/), promoting a more sustainable and equitable future.
   - title: "Open-source"
     body: |
       QField is [released](https://github.com/opengisch/QField) under the GNU Public License (GPL) version 2 or later.
@@ -31,4 +32,3 @@ social:
   - name: "GitHub"
     url: "https://github.com/opengisch/QField/"
     image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
- 
