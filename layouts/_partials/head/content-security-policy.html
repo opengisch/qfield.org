@@ -1,14 +1,19 @@
 {{- /* Custom CSP; no inline scripts expected on most pages. */ -}}
 {{- $scriptSrc := "script-src 'self' https://cdn.jsdelivr.net" -}}
-{{- if eq .Slug "newsletter" -}}
-  {{- $scriptSrc = "script-src 'self' https://cdn.jsdelivr.net 'unsafe-inline' https://sibforms.com https://challenges.cloudflare.com https://www.googletagmanager.com https://www.google-analytics.com" -}}
-{{- end -}}
 {{- $styleSrc := "style-src 'self' 'unsafe-inline' https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net" -}}
-{{- if eq .Slug "newsletter" -}}
-  {{- $styleSrc = "style-src 'self' 'unsafe-inline' https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net https://sibforms.com" -}}
-{{- end -}}
 {{- $fontSrc := "font-src 'self' data: https://use.typekit.net https://p.typekit.net" -}}
+{{- $imgSrc := "img-src 'self' data: https:" -}}
+{{- $connectSrc := "connect-src 'self'" -}}
+{{- $frameSrc := "frame-src 'self'" -}}
+{{- $workerSrc := "worker-src 'self'" -}}
+{{- $formAction := "form-action 'self'" -}}
 {{- if eq .Slug "newsletter" -}}
+  {{- $scriptSrc = "script-src 'self' https://cdn.jsdelivr.net 'unsafe-inline' 'unsafe-eval' https://sibforms.com https://*.sibforms.com https://assets.brevo.com https://static.brevo.com https://challenges.cloudflare.com https://www.googletagmanager.com https://www.google-analytics.com" -}}
+  {{- $styleSrc = "style-src 'self' 'unsafe-inline' https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net https://sibforms.com https://*.sibforms.com https://assets.brevo.com" -}}
   {{- $fontSrc = "font-src 'self' data: https://use.typekit.net https://p.typekit.net https://assets.brevo.com" -}}
+  {{- $connectSrc = "connect-src 'self' https://sibforms.com https://*.sibforms.com https://*.brevo.com https://*.cloudflare.com https://challenges.cloudflare.com https://www.google-analytics.com" -}}
+  {{- $frameSrc = "frame-src 'self' https://sibforms.com https://*.sibforms.com https://challenges.cloudflare.com" -}}
+  {{- $workerSrc = "worker-src 'self' blob:" -}}
+  {{- $formAction = "form-action 'self' https://sibforms.com https://*.sibforms.com" -}}
 {{- end -}}
-<meta http-equiv='Content-Security-Policy' content="{{ $scriptSrc }}; {{ $styleSrc }}; {{ $fontSrc }}; object-src 'none'; base-uri 'none'">
+<meta http-equiv='Content-Security-Policy' content="{{ $scriptSrc }}; {{ $styleSrc }}; {{ $fontSrc }}; {{ $imgSrc }}; {{ $connectSrc }}; {{ $frameSrc }}; {{ $workerSrc }}; {{ $formAction }}; object-src 'none'; base-uri 'none'">
