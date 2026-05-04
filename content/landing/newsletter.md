@@ -22,7 +22,7 @@ Sign up below and join thousands of surveyors, ecologists, engineers, and GIS pr
 
 ---
 
-<iframe width="540" height="305" src="https://b678e710.sibforms.com/serve/MUIFAHQl1n1AB8LkwmautCLnQaxzwRb-yP-fIrVWhiH7H1b1NoTycz52yOvfCN31Oyk1KpQDqKAz6v1vo_FvCAeH5jFygdGfVf-n2LOowx1r7elvPNx7sGUylFHJaRwKs1LLuZHXYUK1PbW5QBt3SA57prt9IzPcZ5nPzFsHlVcH_NeuKJFf0TlpQipuHFPgtZz-o0ygLW5BHtij" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+{{< newsletter-form >}}
 
 ---
 
