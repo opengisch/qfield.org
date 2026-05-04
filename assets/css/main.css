@@ -2124,7 +2124,6 @@ p:has(> img) {
   background-size: 100%;
   background-repeat: no-repeat;
   height: auto;
-  margin: 50px auto 0px auto;
   width: 100%;
   position: relative;
   padding: 50px 0;
@@ -2144,12 +2143,57 @@ span.green,
   text-decoration: underline;
 }
 
+/* newsletter subscription footer: */
+
+.footer-subscribe-banner {
+  background-color: rgba(33, 33, 33, 0.95);
+  background-image: url(../images/qf_carousel/qf-bg-collect.webp);
+  background-size: cover;
+  padding: 2.7rem 0;
+  margin-top: 40px;
+}
+
+.footer-subscribe-banner__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-subscribe-banner__text h2 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 200;
+}
+
+.footer-subscribe-banner__text p {
+  color: white;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.footer-subscribe-banner__text a {
+  color: #80cc28;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-subscribe-banner__text a:hover {
+  text-decoration: underline;
+}
+
+[data-bs-theme='dark'] .footer-subscribe-banner {
+  background-color: #3b6611;
+}
+
+/* ____ */
+
 .media-object {
   width: 64px;
   height: 64px;
   padding-bottom: 30px
 }
-
 
 div.feature {
   /* padding: 1.5rem 1.5rem; */
@@ -3496,6 +3540,7 @@ div.explanation {
     flex: 1;
   }
 }
+
 
 /* Dark mode palette */
 :root[data-bs-theme='dark'] {
