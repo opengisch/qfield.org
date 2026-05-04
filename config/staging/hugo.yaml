@@ -11,6 +11,8 @@ server:
         Referrer-Policy: "strict-origin-when-cross-origin"
 
 # Build settings for staging
+buildDrafts: true
+buildFuture: true
 build:
   writeStats: true
   useResourceCacheWhen: "fallback"
