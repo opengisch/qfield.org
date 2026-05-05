@@ -2,7 +2,7 @@
 {{ $regions := $partner.regions | default (slice) }}
 {{ $regionAttr := delimit $regions " " }}
 <div class="col-sm-6 col-md-4 mb-4 d-flex">
-  <div class="panel panel-default border rounded-4 p-2 d-flex flex-column w-100" data-region="{{ $regionAttr }}">
+  <div class="panel panel-default border rounded-4 p-3 d-flex flex-column w-100" data-region="{{ $regionAttr }}">
     <div class="panel-body flex-grow-1 d-flex flex-column">
       <div class="d-flex justify-content-between align-items-start mb-3">
         <h4 class="panel-title mb-0 d-flex align-items-center gap-2">

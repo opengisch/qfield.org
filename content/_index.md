@@ -127,7 +127,7 @@ success_stories:
       logo: "/images/customer/ZIP-logo.png"
       logo_modifiers:
         - "customer-logo--wide"
-      image: "/images/ss/zero-invasive-3.jpg"
+      image: "/images/customer/zero-invasive-3.jpg"
       description: >-
         In the rugged wilderness of New Zealand's South Westland, an ambitious conservation project is underway. Zero Invasive Predators (ZIP) is systematically eliminating possums, rats, and stoats from vast tracts of forest—with QField and QFieldCloud playing a crucial role in their operations.
       link:
