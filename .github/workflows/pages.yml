@@ -5,25 +5,30 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+    types: [ opened, reopened, synchronize, closed ]
   schedule:
     - cron: '0 3 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
+
+env:
+  HUGO_VERSION: '0.159.1'
+  PRODUCTION_URL: 'https://qfield.org/'
+  PREVIEW_ROOT: 'https://qfield.org/pr-preview'
+  DEPLOY_BRANCH: 'gh-pages'
 
 jobs:
-  build:
+  deploy-production:
+    if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0   # needed for enableGitInfo
           # Required so the SSH submodule URL is used as-is in CI.
@@ -31,40 +36,204 @@ jobs:
           submodules: true # ensure theme is present
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.159.1'
-          extended: true
-
-      - name: Configure Pages
-        id: pages
-        uses: actions/configure-pages@v4
-
-      - name: Build Hugo site
         run: |
-          if [[ ( "${{ github.event_name }}" == "push" && "${{ github.ref }}" == "refs/heads/main" ) || "${{ github.event_name }}" == "schedule" || ( "${{ github.event_name }}" == "workflow_dispatch" && "${{ github.ref }}" == "refs/heads/main" ) ]]; then
-            # Production build
-            hugo --environment production --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}"
+          curl -fsSLO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          hugo version
+
+      - name: Build production site
+        run: hugo --environment production --gc --minify --baseURL "${PRODUCTION_URL}"
+
+      - name: Publish production site
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          deploy_dir="$(mktemp -d)"
+          remote_url="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          if git ls-remote --exit-code --heads "${remote_url}" "${DEPLOY_BRANCH}" >/dev/null 2>&1; then
+            git clone --depth 1 --branch "${DEPLOY_BRANCH}" "${remote_url}" "${deploy_dir}"
           else
-            # Staging/preview build
-            hugo --environment staging -D --baseURL "${{ steps.pages.outputs.base_url }}"
+            git init "${deploy_dir}"
+            git -C "${deploy_dir}" checkout -b "${DEPLOY_BRANCH}"
+            git -C "${deploy_dir}" remote add origin "${remote_url}"
           fi
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
+          rsync -a --delete --exclude '.git' --exclude 'pr-preview/' public/ "${deploy_dir}/"
+          touch "${deploy_dir}/.nojekyll"
 
-  deploy:
-    if: ${{ github.event_name == 'pull_request' || (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') }}
+          git -C "${deploy_dir}" config user.name "github-actions[bot]"
+          git -C "${deploy_dir}" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "${deploy_dir}" add -A
+
+          if git -C "${deploy_dir}" diff --cached --quiet; then
+            echo "Production site is already up to date."
+          else
+            git -C "${deploy_dir}" commit -m "Deploy production site from ${GITHUB_SHA}"
+            git -C "${deploy_dir}" push origin "${DEPLOY_BRANCH}"
+          fi
+
+  deploy-preview:
+    if: ${{ github.event_name == 'pull_request' && github.event.action != 'closed' }}
     runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      PREVIEW_PATH: pr-preview/pr-${{ github.event.pull_request.number }}
+      PREVIEW_URL: ${{ format('{0}/pr-{1}/', 'https://qfield.org/pr-preview', github.event.pull_request.number) }}
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Checkout
+        uses: actions/checkout@v6
         with:
-          preview: ${{ github.event_name == 'pull_request' }}
+          fetch-depth: 0   # needed for enableGitInfo
+          # Required so the SSH submodule URL is used as-is in CI.
+          ssh-key: ${{ secrets.OPENGIS_HUGO_THEME_SSH_KEY }}
+          submodules: true # ensure theme is present
+
+      - name: Setup Hugo
+        run: |
+          curl -fsSLO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          hugo version
+
+      - name: Build PR preview
+        run: hugo --environment staging -D --baseURL "${PREVIEW_URL}"
+
+      - name: Publish PR preview
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          deploy_dir="$(mktemp -d)"
+          remote_url="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          if git ls-remote --exit-code --heads "${remote_url}" "${DEPLOY_BRANCH}" >/dev/null 2>&1; then
+            git clone --depth 1 --branch "${DEPLOY_BRANCH}" "${remote_url}" "${deploy_dir}"
+          else
+            git init "${deploy_dir}"
+            git -C "${deploy_dir}" checkout -b "${DEPLOY_BRANCH}"
+            git -C "${deploy_dir}" remote add origin "${remote_url}"
+          fi
+
+          mkdir -p "${deploy_dir}/${PREVIEW_PATH}"
+          rsync -a --delete --exclude 'CNAME' public/ "${deploy_dir}/${PREVIEW_PATH}/"
+          rm -f "${deploy_dir}/${PREVIEW_PATH}/CNAME"
+          touch "${deploy_dir}/.nojekyll"
+          if [[ -f CNAME ]]; then
+            cp CNAME "${deploy_dir}/CNAME"
+          fi
+
+          git -C "${deploy_dir}" config user.name "github-actions[bot]"
+          git -C "${deploy_dir}" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "${deploy_dir}" add -A
+
+          if git -C "${deploy_dir}" diff --cached --quiet; then
+            echo "PR preview is already up to date."
+          else
+            git -C "${deploy_dir}" commit -m "Deploy preview for PR #${{ github.event.pull_request.number }}"
+            git -C "${deploy_dir}" push origin "${DEPLOY_BRANCH}"
+          fi
+
+      - name: Comment PR preview URL
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          COMMENTS_URL: ${{ github.event.pull_request.comments_url }}
+        run: |
+          set -euo pipefail
+
+          marker="<!-- qfield-pr-preview -->"
+          body="$(printf '%s\nPR preview: %s' "${marker}" "${PREVIEW_URL}")"
+
+          comments="$(curl -fsSL \
+            -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "${COMMENTS_URL}?per_page=100")"
+          comment_id="$(jq -r --arg marker "${marker}" '.[] | select(.user.type == "Bot" and (.body | contains($marker))) | .id' <<< "${comments}" | tail -n 1)"
+          payload="$(jq -n --arg body "${body}" '{body: $body}')"
+
+          if [[ -n "${comment_id}" ]]; then
+            curl -fsSL -X PATCH \
+              -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues/comments/${comment_id}" \
+              -d "${payload}"
+          else
+            curl -fsSL -X POST \
+              -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "${COMMENTS_URL}" \
+              -d "${payload}"
+          fi
+
+  cleanup-preview:
+    if: ${{ github.event_name == 'pull_request' && github.event.action == 'closed' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      PREVIEW_PATH: pr-preview/pr-${{ github.event.pull_request.number }}
+    steps:
+      - name: Remove PR preview
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          deploy_dir="$(mktemp -d)"
+          remote_url="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          if ! git ls-remote --exit-code --heads "${remote_url}" "${DEPLOY_BRANCH}" >/dev/null 2>&1; then
+            echo "No ${DEPLOY_BRANCH} branch exists; nothing to clean up."
+            exit 0
+          fi
+
+          git clone --depth 1 --branch "${DEPLOY_BRANCH}" "${remote_url}" "${deploy_dir}"
+          rm -rf "${deploy_dir}/${PREVIEW_PATH}"
+
+          git -C "${deploy_dir}" config user.name "github-actions[bot]"
+          git -C "${deploy_dir}" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "${deploy_dir}" add -A
+
+          if git -C "${deploy_dir}" diff --cached --quiet; then
+            echo "No preview files to remove."
+          else
+            git -C "${deploy_dir}" commit -m "Remove preview for PR #${{ github.event.pull_request.number }}"
+            git -C "${deploy_dir}" push origin "${DEPLOY_BRANCH}"
+          fi
+
+      - name: Comment PR preview removal
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          COMMENTS_URL: ${{ github.event.pull_request.comments_url }}
+        run: |
+          set -euo pipefail
+
+          marker="<!-- qfield-pr-preview -->"
+          body="$(printf '%s\nPR preview removed after this pull request was closed.' "${marker}")"
+
+          comments="$(curl -fsSL \
+            -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "${COMMENTS_URL}?per_page=100")"
+          comment_id="$(jq -r --arg marker "${marker}" '.[] | select(.user.type == "Bot" and (.body | contains($marker))) | .id' <<< "${comments}" | tail -n 1)"
+
+          if [[ -z "${comment_id}" ]]; then
+            exit 0
+          fi
+
+          payload="$(jq -n --arg body "${body}" '{body: $body}')"
+          curl -fsSL -X PATCH \
+            -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/issues/comments/${comment_id}" \
+            -d "${payload}"
