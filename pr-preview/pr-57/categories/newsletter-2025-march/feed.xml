@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Newsletter-2025-March on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-57/categories/newsletter-2025-march/</link>
+    <description>Recent content in Newsletter-2025-March on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <lastBuildDate>Tue, 25 Mar 2025 09:00:53 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-57/categories/newsletter-2025-march/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unpacking key insights from our QField Workshop</title>
+      <link>https://qfield.org/pr-preview/pr-57/blog/2025/03/25/unpacking-key-insights-from-our-qfield-workshop/</link>
+      <pubDate>Tue, 25 Mar 2025 09:00:53 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-57/blog/2025/03/25/unpacking-key-insights-from-our-qfield-workshop/</guid>
+      
+      <description>&lt;p&gt;This year, &lt;strong&gt;OPENGIS.ch&lt;/strong&gt; celebrated its 10th anniversary in Bern, with an afternoon full of workshops attended by clients, long-term friends, and colleagues. Here, we will give a glimpse of QField: &lt;strong&gt;its vision, where it&amp;rsquo;s headed&lt;/strong&gt;, and the &lt;strong&gt;exciting features future users can look forward to&lt;/strong&gt;.&lt;/p&gt;
+&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://lh7-qw.googleusercontent.com/docsz/AD%5F4nXd1iGnLpJx5WxPML7HyLNR0DG1qVt2kLqVLYaoJtdE1Qf%5FhHmwDX9sQA9s5tpPz6qR6vDRu3GZAL6qiMA5KxviKArkc4DfxeWAO-lEd8byTMSAT9QS4%5FHe3FP9qzCSBUB2%5FwfaQ?key=JhsJzPrgTzxdKrRxZboFWtcn&#34;
+         alt=&#34;&#34; 
+         class=&#34;figure-img img-fluid gallery-img&#34;
+         loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;QField was created on June 8th, 2011, with its first commit titled “ &lt;em&gt;added first script&lt;/em&gt;”. Since then, it has grown into a powerful tool with a clear vision for the future: &lt;strong&gt;to empower people to map and understand the world, tackle daily challenges, and address global issues.&lt;/strong&gt; Over the next ten years, QField aims to make this vision a reality for everyone, everywhere.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>This year, <strong>OPENGIS.ch</strong> celebrated its 10th anniversary in Bern, with an afternoon full of workshops attended by clients, long-term friends, and colleagues. Here, we will give a glimpse of QField: <strong>its vision, where it&rsquo;s headed</strong>, and the <strong>exciting features future users can look forward to</strong>.</p>
+<figure class="figure text-center mb-4"><img src="https://lh7-qw.googleusercontent.com/docsz/AD%5F4nXd1iGnLpJx5WxPML7HyLNR0DG1qVt2kLqVLYaoJtdE1Qf%5FhHmwDX9sQA9s5tpPz6qR6vDRu3GZAL6qiMA5KxviKArkc4DfxeWAO-lEd8byTMSAT9QS4%5FHe3FP9qzCSBUB2%5FwfaQ?key=JhsJzPrgTzxdKrRxZboFWtcn"
+         alt="" 
+         class="figure-img img-fluid gallery-img"
+         loading="lazy"></figure>
+<p>QField was created on June 8th, 2011, with its first commit titled “ <em>added first script</em>”. Since then, it has grown into a powerful tool with a clear vision for the future: <strong>to empower people to map and understand the world, tackle daily challenges, and address global issues.</strong> Over the next ten years, QField aims to make this vision a reality for everyone, everywhere.</p>
+<figure class="figure text-center mb-4"><img src="https://lh7-qw.googleusercontent.com/docsz/AD%5F4nXeI8nzlcXyBMSSx0nRLi3wZF-3ecV-VfNBeL036oq5KuTUlxOvkvNuA1FY2OgwG0FfzINh0uEdwZTuDxP1PaPFjLdllKy6nkHBH6lGslpd%5FQdTvtNSyJPdrtCYV83Gypf7CKyAD?key=JhsJzPrgTzxdKrRxZboFWtcn"
+         alt="" 
+         class="figure-img img-fluid gallery-img"
+         loading="lazy"></figure>
+<p>Layers of cake, designed by QField ecosystem’s leading team members, were explained with 2034 in mind: intuitive and accessible to anyone wanting to map our world, while pioneering an innovative and collaborative app for the geospatial community. And last but not least: building strong and engaged communities to drive further adoption of the QField ecosystem.</p>
+<p>This vision is taking shape through the forging of strategic partnerships with geospatial stakeholders: hardware manufacturers, ambassadors, trainers and technological partners. For the team, it is clear that good collaboration is <strong>key to building a healthy and sustainable ecosystem</strong>. Community as well as financial sustainability can become a strong reality with user groups, sponsors and crowdfundings.</p>
+<p>And then it became reality: In the summer of 2024, heavy rains caused severe flooding in Switzerland and, suddenly, QField became a vital tool for supporting emergency response through data surveys and photo documentation.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-57/blog/2025/03/25/unpacking-key-insights-from-our-qfield-workshop/qfield-rapidmapper.webp" srcset="/pr-preview/pr-57/blog/2025/03/25/unpacking-key-insights-from-our-qfield-workshop/qfield-rapidmapper.webp 1x, /pr-preview/pr-57/blog/2025/03/25/unpacking-key-insights-from-our-qfield-workshop/qfield-rapidmapper_hu_5c7f41ba45b9da3a.webp 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1080" height="720"
+         loading="lazy"></figure>
+<p>With this emotional story, the technical lead, Mathieu took over and shared other QField <strong>success stories</strong> and <strong>several mapping use cases</strong> with partners in Finland and Tonga. But seamless fieldwork wouldn’t be possible without QFieldCloud, so Ivan provided an <strong>insight into the last years’ QFieldCloud enhancements</strong>, before diving into the busy server-side roadmap for 2025, which includes <strong>many new features</strong> related to the authentication, security, internationalization and performance. Finally, Zsanett shared QField product <strong>news and updates</strong>, including new storage capacities like WebDAV and new packaging capabilities. Last but not least, the new Fangorn version introduces <strong>new features developed by the evolving QField Community</strong>.</p>
+<p>Building communities by sharing thoughts and ideas for the ecosystem is now possible through the <em><strong>ideas.qfield.cloud</strong></em> platform, open to everybody to suggest new ideas for QField.</p>
+<p>The final topping of the (layer) cake: <strong>the new QField plugin framework</strong> was presented to the workshop attendees by Mathieu, who explained how the field workflow can be enhanced and optimized through the development of plugins – <strong>unique extensions that further personalize QField</strong>. For example, with the Routing Plugin, users can compute optimal ways between locations directly in QField using an external API. To make team efforts in the field even <strong>more efficient</strong>, the <em>Live Location Plugin</em> allows each team member to see the location of other members on the QField map, preventing debilification in the field.</p>
+<p>Last but not least, the workshop ended with a Q&amp;A session, where several topics were addressed such as virtual reality, AI, machine learning, etc. This was followed by a happy and cheerful welcome drink with <strong>OPENGIS.ch</strong>partners. 🍻</p>
+]]></content:encoded>
+      <category domain="categories">newsletter-2025-march</category>
+      <category domain="categories">qfield</category>
+      <category domain="tags">qgis.org</category>
+    </item>
+    
+  </channel>
+</rss>
