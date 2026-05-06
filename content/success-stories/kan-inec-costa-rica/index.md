@@ -1,7 +1,7 @@
 ---
 title: "Unlocking Scalable National Field Operations with QField Cloud"
 date: 2026-04-28T00:05:00+02:00
-draft: true
+draft: false
 company: "KAN Territory & IT (with INEC Costa Rica)"
 description: "How KAN Territory & IT supported nationwide survey workflows for the National Institute of Statistics and Census of Costa Rica (INEC), using QField Cloud as the central collaboration and synchronization layer between office-based planning and field execution."
 sourceLabel: "KAN Territory & IT"
