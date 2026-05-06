@@ -42,7 +42,7 @@
             {{- with $entry.link }}
               {{- $href := .url | default "#" -}}
               {{- if hasPrefix $href "/" }}
-                {{- $href = relLangURL $href -}}
+                {{- $href = strings.TrimPrefix "/" $href | relURL -}}
               {{- end }}
               <a href="{{ $href | safeURL }}"
                  class="ss-btn"
@@ -74,7 +74,7 @@
     <div class="success-stories-button text-center">
       {{- $href := .url | default "#" -}}
       {{- if hasPrefix $href "/" }}
-        {{- $href = relLangURL $href -}}
+        {{- $href = strings.TrimPrefix "/" $href | relURL -}}
       {{- end }}
       <a href="{{ $href | safeURL }}" class="btn" title="{{ .label }}">
         {{ .label }}
