@@ -538,7 +538,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778070237-995258191"
+     data-gallery-id="gallery-1778071410-21486491"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -558,7 +558,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 <style>
  
-#gallery-1778070237-995258191 .carousel-item .gallery-img {
+#gallery-1778071410-21486491 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -566,11 +566,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   display: block !important;
 }
 
-#gallery-1778070237-995258191 .carousel-item {
+#gallery-1778071410-21486491 .carousel-item {
   height: auto;
 }
 
-#gallery-1778070237-995258191 .carousel-item .figure {
+#gallery-1778071410-21486491 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -579,11 +579,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   text-align: center;
 }
 
-#gallery-1778070237-995258191 .carousel-item .figure .gallery-img {
+#gallery-1778071410-21486491 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778070237-995258191 .carousel-item .figure .figure-caption {
+#gallery-1778071410-21486491 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -592,13 +592,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 }
 
 @media (max-width: 768px) {
-  #gallery-1778070237-995258191 .carousel-item .gallery-img {
+  #gallery-1778071410-21486491 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778070237-995258191 .carousel-item .gallery-img {
+  #gallery-1778071410-21486491 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -845,7 +845,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778070020-509139947"
+     data-gallery-id="gallery-1778071193-108468315"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -871,7 +871,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1778070020-509139947 .carousel-item .gallery-img {
+#gallery-1778071193-108468315 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -879,11 +879,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1778070020-509139947 .carousel-item {
+#gallery-1778071193-108468315 .carousel-item {
   height: auto;
 }
 
-#gallery-1778070020-509139947 .carousel-item .figure {
+#gallery-1778071193-108468315 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -892,11 +892,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1778070020-509139947 .carousel-item .figure .gallery-img {
+#gallery-1778071193-108468315 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778070020-509139947 .carousel-item .figure .figure-caption {
+#gallery-1778071193-108468315 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -905,13 +905,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1778070020-509139947 .carousel-item .gallery-img {
+  #gallery-1778071193-108468315 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778070020-509139947 .carousel-item .gallery-img {
+  #gallery-1778071193-108468315 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -928,7 +928,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778070020-509680684"
+     data-gallery-id="gallery-1778071193-109063117"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1003,7 +1003,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1778070020-509680684 .carousel-item .gallery-img {
+#gallery-1778071193-109063117 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1011,11 +1011,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1778070020-509680684 .carousel-item {
+#gallery-1778071193-109063117 .carousel-item {
   height: auto;
 }
 
-#gallery-1778070020-509680684 .carousel-item .figure {
+#gallery-1778071193-109063117 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1024,11 +1024,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1778070020-509680684 .carousel-item .figure .gallery-img {
+#gallery-1778071193-109063117 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778070020-509680684 .carousel-item .figure .figure-caption {
+#gallery-1778071193-109063117 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1037,13 +1037,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1778070020-509680684 .carousel-item .gallery-img {
+  #gallery-1778071193-109063117 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778070020-509680684 .carousel-item .gallery-img {
+  #gallery-1778071193-109063117 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
