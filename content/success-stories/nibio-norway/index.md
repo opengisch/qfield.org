@@ -8,6 +8,7 @@ sourceLabel: "NIBIO"
 sourceUrl: "https://www.nibio.no/nyheter/ny-app-gjer-kvardagen-enklare-for-feltarbeidarar"
 image: "nibio-field.jpg"
 ogImage: "nibio-field.jpg"
+categories: ["government-municipalities", "ecology-environment", "water-land-management"]
 ---
 
 ### The Challenge
