@@ -20,17 +20,14 @@
           {{- if gt $index 0 }}</div>{{ end }}
           <div class="industries-row-4">
         {{- end }}
-        {{- $href := $item.url | default "#" -}}
-        {{- if hasPrefix $href "/" }}
-          {{- $href = relLangURL $href -}}
-        {{- end }}
+        {{- $href := partial "url.html" (dict "url" ($item.url | default "#")) -}}
         {{- $imageSrc := $item.image -}}
         {{- if and $imageSrc (not (hasPrefix $imageSrc "http")) }}
-          {{- $imageSrc = relURL $imageSrc -}}
+          {{- $imageSrc = strings.TrimPrefix "/" $imageSrc | relURL -}}
         {{- end }}
         {{- $imageClasses := slice "industry-image" -}}
         {{- range $item.image_modifiers }}{{ $imageClasses = $imageClasses | append . }}{{ end }}
-        <a href="{{ $href | safeURL }}">
+        <a href="{{ $href }}">
           <div class="industries-carousel-slide">
             <div class="item">
               {{- if $imageSrc }}

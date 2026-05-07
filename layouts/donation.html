@@ -15,7 +15,7 @@
             <h2 class="h4 fw-bold text-center mb-3">{{ $data.title }}</h2>
             <p class="text-center mb-4">
               {{ $data.intro }} 
-              <a href="{{ $data.provider.url }}" target="_blank" rel="noopener noreferrer" class="fw-bold" style="color: var(--qfield-color);">
+              <a href="{{ partial "url.html" (dict "url" $data.provider.url) }}" target="_blank" rel="noopener noreferrer" class="fw-bold" style="color: var(--qfield-color);">
                 {{ $data.provider.name }}
                 <i class="fas fa-external-link-alt" style="font-size: 0.85em;"></i>
               </a> 

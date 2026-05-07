@@ -10,7 +10,7 @@
         {{ with $d.provider }}
           <span class="d-block mt-2">
             {{ i18n "donate_provider_prefix" | default "We use" }}
-            <a href="{{ .url }}" target="_blank" rel="noopener" class="link-primary link-underline-opacity-0">{{ .name }} <i class="fas fa-external-link-alt"></i></a>
+            <a href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener" class="link-primary link-underline-opacity-0">{{ .name }} <i class="fas fa-external-link-alt"></i></a>
             {{ i18n "donate_provider_suffix" | default "to receive credit card donations." }}
           </span>
         {{ end }}

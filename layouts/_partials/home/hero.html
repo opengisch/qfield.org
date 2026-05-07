@@ -33,7 +33,7 @@
       <div class="{{ delimit $itemClasses " " }}">
         <div class="carousel-content">
           {{- if $phoneImage }}
-          <img src="{{ $phoneImage | relURL }}" alt="{{ $phoneAlt }}" class="phone-image">
+          <img src="{{ $phoneImage | strings.TrimPrefix "/" | relURL }}" alt="{{ $phoneAlt }}" class="phone-image">
           {{- end }}
           <div class="carousel-caption custom-caption">
             {{- with $slide.title_lines }}
@@ -57,12 +57,9 @@
             </h2>
             {{- end }}
             {{- with $button }}
-              {{- $href := .url | default "#" -}}
-              {{- if hasPrefix $href "/" }}
-                {{- $href = relLangURL $href -}}
-              {{- end }}
+              {{- $href := partial "url.html" (dict "url" (.url | default "#")) -}}
               <div class="qf-button {{ if .style }}{{ .style }}{{ end }}">
-                <a href="{{ $href | safeURL }}"
+                <a href="{{ $href }}"
                    title="{{ .label }}"
                    {{ if .external }}target="_blank" rel="noopener noreferrer"{{ end }}>
                   {{- if .icon }}<i class="{{ .icon }}"></i> {{ end -}}

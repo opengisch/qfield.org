@@ -1,2 +1,2 @@
 {{ $class := .class | default "" }}
-<img src="{{ .src | relURL }}" alt="{{ .alt }}" class="{{ $class }}" loading="lazy">
+<img src="{{ .src | strings.TrimPrefix "/" | relURL }}" alt="{{ .alt }}" class="{{ $class }}" loading="lazy">

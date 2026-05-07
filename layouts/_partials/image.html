@@ -20,7 +20,7 @@
   {{- $original := resources.Get $src -}}
   {{- if not $original }}
     <img
-      src="{{ $src | relURL }}"
+      src="{{ $src | strings.TrimPrefix "/" | relURL }}"
       alt="{{ $alt }}"
       class="img-fluid {{ $class }}"
       loading="{{ $loading }}"

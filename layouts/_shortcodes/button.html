@@ -1,4 +1,4 @@
-{{- $href := .Get "href" | default "#" -}}
+{{- $href := partial "url.html" (dict "url" (.Get "href" | default "#")) -}}
 {{- $text := .Get "text" | default "Learn more" -}}
 {{- $style := .Get "style" | default "standard" -}}
 {{- $align := .Get "align" | default "text-center" -}}

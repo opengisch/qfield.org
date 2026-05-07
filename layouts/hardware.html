@@ -42,7 +42,7 @@
     <div class="row">
       <div class="col-12 text-center mb-4">
         <a
-          href="{{ $content.intro.cta.url }}"
+          href="{{ partial "url.html" (dict "url" $content.intro.cta.url) }}"
           class="btn btn-primary btn-lg"
           target="_blank"
           rel="noopener"
@@ -105,7 +105,7 @@
               contribution helps us to continue improving and expanding this
               project.
             </p>
-            <zero-md src="/works-with-hardware.md" no-shadow>
+            <zero-md src="{{ partial "url.html" (dict "url" "/works-with-hardware.md") }}" no-shadow>
               <template>
                 <style>
                   :host {

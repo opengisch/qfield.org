@@ -63,7 +63,7 @@
 
         <div class="text-center mt-4 mb-5">
           <a
-            href="{{ $content.founding.cta.url }}"
+            href="{{ partial "url.html" (dict "url" $content.founding.cta.url) }}"
             class="btn btn-primary btn-lg"
             target="_blank"
             rel="noopener"

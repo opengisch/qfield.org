@@ -1,0 +1,2 @@
+{{- $href := partial "url.html" (dict "url" .Destination) -}}
+<a href="{{ $href | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix $href "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>

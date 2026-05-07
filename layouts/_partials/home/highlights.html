@@ -28,7 +28,7 @@
           <div class="feature h-100">
             {{- $itemTitle := .title -}}
             {{- with .icon }}
-            <img src="{{ . | relURL }}" alt="{{ printf "%s icon" $itemTitle }}" class="{{ delimit $iconClasses " " }}">
+            <img src="{{ . | strings.TrimPrefix "/" | relURL }}" alt="{{ printf "%s icon" $itemTitle }}" class="{{ delimit $iconClasses " " }}">
             {{- end }}
             <h3>{{ $itemTitle }}</h3>
             <p class="feature__description">{{ .description | safeHTML }}</p>

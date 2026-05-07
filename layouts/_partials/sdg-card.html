@@ -13,7 +13,7 @@
 
   {{ with .learn_more }}
     <p class="learn-more">
-      <a href="{{ . }}" target="_blank" rel="noopener">Learn more</a>
+      <a href="{{ partial "url.html" (dict "url" .) }}" target="_blank" rel="noopener">Learn more</a>
     </p>
   {{ end }}
 </div>

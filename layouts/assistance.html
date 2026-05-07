@@ -47,7 +47,7 @@
                     {{- $beforeLink := index (split $description $linkText) 0 -}}
                     {{- $afterLink := index (split $description $linkText) 1 -}}
                     
-                    {{ $beforeLink | markdownify }} <a href="{{ $linkUrl }}" target="_blank" rel="noopener">{{ $linkText }}</a> {{ $afterLink | markdownify }}
+                    {{ $beforeLink | markdownify }} <a href="{{ partial "url.html" (dict "url" $linkUrl) }}" target="_blank" rel="noopener">{{ $linkText }}</a> {{ $afterLink | markdownify }}
                   {{- else -}}
                     {{ .description | markdownify }}
                   {{- end -}}
@@ -62,7 +62,7 @@
                   {{- end -}}
                   <a 
                     class="{{ $linkClass }}"
-                    href="{{ .cta_url }}"
+                    href="{{ partial "url.html" (dict "url" .cta_url) }}"
                     {{- if .cta_external }} target="_blank" rel="noopener"{{ end -}}
                   >
                     {{ .cta_text }}
@@ -104,7 +104,7 @@
               {{- if $data.customize.cta_text -}}
                 <a 
                   class="green-link text-decoration-none fw-normal"
-                  href="{{ $data.customize.cta_url }}"
+                  href="{{ partial "url.html" (dict "url" $data.customize.cta_url) }}"
                   {{- if $data.customize.cta_external }} target="_blank" rel="noopener"{{ end -}}
                 >
                   {{ $data.customize.cta_text }}

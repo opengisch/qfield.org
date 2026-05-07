@@ -18,7 +18,7 @@
       <div class="col-8 text-center mb-5">
         <p>
           {{ $content.intro | safeHTML }}
-          <a href="{{ $content.contribute_link.url }}" target="_blank" rel="noopener">{{ $content.contribute_link.text }}</a>
+          <a href="{{ partial "url.html" (dict "url" $content.contribute_link.url) }}" target="_blank" rel="noopener">{{ $content.contribute_link.text }}</a>
           or:
         </p>
       </div>
@@ -44,7 +44,7 @@
               {{ if $option.title_link }}
                 {{ $parts := split $option.title " to " }}
                 {{ if eq (len $parts) 2 }}
-                  {{ index $parts 0 | safeHTML }} to <a href="{{ $option.title_link }}" target="_blank" rel="noopener" class="qfieldcloud-link">{{ index $parts 1 | safeHTML }}</a>
+                  {{ index $parts 0 | safeHTML }} to <a href="{{ partial "url.html" (dict "url" $option.title_link) }}" target="_blank" rel="noopener" class="qfieldcloud-link">{{ index $parts 1 | safeHTML }}</a>
                 {{ else }}
                   {{ $option.title | safeHTML }}
                 {{ end }}
@@ -56,7 +56,7 @@
             <div class="mt-1">
               {{ with $option.cta }}
                 <p>
-                  <a href="{{ .url }}" {{ if hasPrefix .url "http" }}target="_blank" rel="noopener"{{ end }} class="{{ .class }}">
+                  <a href="{{ partial "url.html" (dict "url" .url) }}" {{ if hasPrefix .url "http" }}target="_blank" rel="noopener"{{ end }} class="{{ .class }}">
                     {{ .text }}
                   </a>
                 </p>

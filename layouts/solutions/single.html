@@ -10,7 +10,7 @@
       <p style="font-size: 1.1rem; margin-bottom: 1.5rem; opacity: 0.95;">{{ . }}</p>
       {{ end }}
       {{ if .ctaUrl }}
-      <a href="{{ .ctaUrl }}" class="btn btn-lg" style="background: white; color: var(--qfield-color); font-size: 1rem; padding: 0.75rem 2rem; border-radius: 50px; text-decoration: none; display: inline-block; font-weight: 600; transition: all 0.3s;">
+      <a href="{{ partial "url.html" (dict "url" .ctaUrl) }}" class="btn btn-lg" style="background: white; color: var(--qfield-color); font-size: 1rem; padding: 0.75rem 2rem; border-radius: 50px; text-decoration: none; display: inline-block; font-weight: 600; transition: all 0.3s;">
         {{ .ctaText | default "Get Started" }}
       </a>
       {{ end }}
@@ -22,7 +22,7 @@
 <!-- Back to solutions -->
 <section style="padding: 1rem 0; background: #f8f9fa;">
   <div class="container">
-    <a href="{{ "/solutions/" | relURL }}" style="color: var(--qfield-color); text-decoration: none; font-size: 0.95rem; font-weight: 600;">
+    <a href="{{ partial "url.html" (dict "url" "/solutions/") }}" style="color: var(--qfield-color); text-decoration: none; font-size: 0.95rem; font-weight: 600;">
       ← Back to All Solutions
     </a>
   </div>
@@ -105,7 +105,7 @@
         <!-- CTA -->
         <div style="background: linear-gradient(135deg, var(--qfield-color) 0%, #6ab01a 100%); color: white; padding: 1.5rem; border-radius: 8px; text-align: center;">
           <h3 style="font-size: 1.2rem; margin-bottom: 0.75rem;">Ready to get started?</h3>
-          <a href="/get/" class="btn btn-lg" style="background: white; color: var(--qfield-color); font-size: 0.95rem; padding: 0.6rem 1.5rem; border-radius: 50px; text-decoration: none; display: inline-block; font-weight: 600;">
+          <a href="{{ partial "url.html" (dict "url" "/get/") }}" class="btn btn-lg" style="background: white; color: var(--qfield-color); font-size: 0.95rem; padding: 0.6rem 1.5rem; border-radius: 50px; text-decoration: none; display: inline-block; font-weight: 600;">
             Download QField
           </a>
         </div>
