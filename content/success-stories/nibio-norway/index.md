@@ -3,7 +3,7 @@ title: "From Stereoscopes to Smartphones: NIBIO Digitises Norway's National Land
 date: 2026-04-22T00:05:00+02:00
 draft: false
 company: "NIBIO (Norwegian Institute of Bioeconomy Research)"
-description: "Norway's national land research institute manages data on every forest, field, and wetland in the country. Learn how Anna, Chief Engineer in NIBIO's Geomatics department, spent years systematically replacing paper-based field workflows with QField, from early pollinator surveys to full polygon vegetation mapping, while keeping sensitive national data on Norwegian servers."
+description: "NIBIO replaced paper-based land-survey fieldwork with QField, enabling digital vegetation mapping while keeping sensitive data on Norwegian servers."
 sourceLabel: "NIBIO"
 sourceUrl: "https://www.nibio.no/nyheter/ny-app-gjer-kvardagen-enklare-for-feltarbeidarar"
 image: "nibio-field.jpg"
