@@ -8,9 +8,9 @@ company: "Delta-Simons Environmental Consultancy"
 description: "To conduct ecological surveying more efficiently than has been previously achieved through traditional non-digital
       techniques, using QField as a medium for standardised and flexible field data collection."
 # image: "eco-survey.png"
-# ogImage: "eco-survey.png"
 categories: ["ecology-environment"]
 image: "eco-survey.png"
+ogImage: "https://qfield.org/success-stories/ecological-surveying/eco-survey.png"
 ---
 
 ### Goal

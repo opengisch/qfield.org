@@ -9,6 +9,7 @@ description: "The United Nations Open GIS Initiative, a global
             operations."
 categories: ["government-municipalities"]
 image: "un_img.jpg"
+ogImage: "https://qfield.org/success-stories/un/un_img.jpg"
 ---
 
 ## 

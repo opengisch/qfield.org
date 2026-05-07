@@ -6,9 +6,9 @@ description: "In sites across the United States, from public parks in New York t
       Jersey, a dedicated team of environmental specialists is using QField to detect and remediate radioactive
       contamination left over from America's atomic weapons program."
 # image: "radiation.png"
-# ogImage: "radiation.png"
 categories: ["government-municipalities", "infrastructure-engineering"]
 image: "radiation.png"
+ogImage: "https://qfield.org/success-stories/radiation-detection/radiation.png"
 ---
 
 In sites across the United States, from public parks in New York to former uranium processing facilities in New Jersey, a dedicated team of environmental specialists is using QField to detect and remediate radioactive contamination left over from America's atomic weapons program.
