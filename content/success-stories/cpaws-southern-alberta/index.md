@@ -1,11 +1,12 @@
 ---
 title: "Independent Eyes on the East Slopes: How CPAWS Southern Alberta Maps Critical Trout Habitat with QField"
 date: 2026-04-28T00:05:00+02:00
-draft: true
+draft: false
 company: "Canadian Parks and Wilderness Society (CPAWS), Southern Alberta Chapter"
 description: "A small chapter of Canada's oldest conservation organisation uses QField to verify critical habitat for three threatened native trout species and hold logging operations accountable on the east slopes of the Rocky Mountains."
 sourceLabel: "CPAWS"
 sourceUrl: "https://cpaws.org"
+categories: ["ecology-environment", "forestry", "water-land-management"]
 ---
 
 ### The Challenge
