@@ -4,9 +4,9 @@
   xmlns:media="http://search.yahoo.com/mrss/"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Gis on QField - Efficient field work built for QGIS</title>
+    <title>GIS on QField - Efficient field work built for QGIS</title>
     <link>https://qfield.org/pr-preview/pr-59/categories/gis/</link>
-    <description>Recent content in Gis on QField - Efficient field work built for QGIS</description>
+    <description>Recent content in GIS on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     
@@ -626,7 +626,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778189400-307606360"
+     data-gallery-id="gallery-1778195392-579198257"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -648,7 +648,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 <style>
  
-#gallery-1778189400-307606360 .carousel-item .gallery-img {
+#gallery-1778195392-579198257 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -656,11 +656,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   display: block !important;
 }
 
-#gallery-1778189400-307606360 .carousel-item {
+#gallery-1778195392-579198257 .carousel-item {
   height: auto;
 }
 
-#gallery-1778189400-307606360 .carousel-item .figure {
+#gallery-1778195392-579198257 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -669,11 +669,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   text-align: center;
 }
 
-#gallery-1778189400-307606360 .carousel-item .figure .gallery-img {
+#gallery-1778195392-579198257 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778189400-307606360 .carousel-item .figure .figure-caption {
+#gallery-1778195392-579198257 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -682,13 +682,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 }
 
 @media (max-width: 768px) {
-  #gallery-1778189400-307606360 .carousel-item .gallery-img {
+  #gallery-1778195392-579198257 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778189400-307606360 .carousel-item .gallery-img {
+  #gallery-1778195392-579198257 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -995,7 +995,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778189182-723491675"
+     data-gallery-id="gallery-1778195175-179303323"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1024,7 +1024,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1778189182-723491675 .carousel-item .gallery-img {
+#gallery-1778195175-179303323 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1032,11 +1032,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1778189182-723491675 .carousel-item {
+#gallery-1778195175-179303323 .carousel-item {
   height: auto;
 }
 
-#gallery-1778189182-723491675 .carousel-item .figure {
+#gallery-1778195175-179303323 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1045,11 +1045,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1778189182-723491675 .carousel-item .figure .gallery-img {
+#gallery-1778195175-179303323 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778189182-723491675 .carousel-item .figure .figure-caption {
+#gallery-1778195175-179303323 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1058,13 +1058,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1778189182-723491675 .carousel-item .gallery-img {
+  #gallery-1778195175-179303323 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778189182-723491675 .carousel-item .gallery-img {
+  #gallery-1778195175-179303323 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1083,7 +1083,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778189182-724320349"
+     data-gallery-id="gallery-1778195175-179903719"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1174,7 +1174,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1778189182-724320349 .carousel-item .gallery-img {
+#gallery-1778195175-179903719 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1182,11 +1182,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1778189182-724320349 .carousel-item {
+#gallery-1778195175-179903719 .carousel-item {
   height: auto;
 }
 
-#gallery-1778189182-724320349 .carousel-item .figure {
+#gallery-1778195175-179903719 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1195,11 +1195,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1778189182-724320349 .carousel-item .figure .gallery-img {
+#gallery-1778195175-179903719 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778189182-724320349 .carousel-item .figure .figure-caption {
+#gallery-1778195175-179903719 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1208,13 +1208,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1778189182-724320349 .carousel-item .gallery-img {
+  #gallery-1778195175-179903719 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778189182-724320349 .carousel-item .gallery-img {
+  #gallery-1778195175-179903719 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
