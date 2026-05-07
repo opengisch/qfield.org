@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Line Inspection on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-61/tags/line-inspection/</link>
+    <description>Recent content in Line Inspection on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-61/tags/line-inspection/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Power Transmission and Distribution</title>
+      <link>https://qfield.org/pr-preview/pr-61/solutions/power-transmission-and-distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-61/solutions/power-transmission-and-distribution/</guid>
+      
+      <description>Grid asset mapping, inspections, and as-built data capture with mobile GIS and QGIS.</description>
+      <content:encoded><![CDATA[<h2 id="grid-asset-fieldwork">Grid asset fieldwork</h2>
+<p>Inventory lines, poles, transformers, and substations. Capture conditions and defects with photos and attributes.</p>
+<h3 id="typical-workflows">Typical workflows</h3>
+<ul>
+<li>Patrols and line inspections</li>
+<li>Vegetation encroachment surveys</li>
+<li>As-built capture and redlines</li>
+</ul>
+<h2 id="one-workflow-from-field-to-gis">One workflow from field to GIS</h2>
+<p>Prepare in QGIS, collect in QField, and sync through QFieldCloud for a clean audit trail.</p>
+]]></content:encoded>
+      <category domain="categories">Infrastructure, Construction &amp; Utilities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">power grid</category>
+      <category domain="tags">distribution network</category>
+      <category domain="tags">line inspection</category>
+    </item>
+    
+  </channel>
+</rss>
