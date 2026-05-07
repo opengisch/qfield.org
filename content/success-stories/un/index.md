@@ -7,6 +7,8 @@ description: "The United Nations Open GIS Initiative, a global
             recognized QField as a recommended open-source
             solution for mobile geospatial data collection in UN field
             operations."
+categories: ["government-municipalities"]
+image: "un_img.jpg"
 ---
 
 ## 

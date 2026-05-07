@@ -8,6 +8,8 @@ description: "Communities in Fiji rely on landscape resources for agricultural a
           landscape management, policies, and climate-smart sustainable development."
 # image: "use_study_fiji4.jpg"
 # ogImage: "use_study_fiji4.jpg"
+categories: ["government-municipalities"]
+image: "use_study_fiji4.jpg"
 ---
 
 ### Purpose

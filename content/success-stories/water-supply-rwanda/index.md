@@ -7,6 +7,8 @@ draft: false
 company: "Rural Water and Sanitation Services Department(RWSS), Water and Sanitation Corporation  (WASAC), Rwanda"
 description: "To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in
       order to improve operation & maintenance of waterworks."
+categories: ["water-land-management", "government-municipalities"]
+image: "rwanda-rural-water-1.png"
 ---
 
 ### Goal

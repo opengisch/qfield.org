@@ -6,6 +6,8 @@ company: "<a href=\"https://www.milvignes.ch/\" r target=\"_blank\" rel=\"nofoll
 description: "To facilitate the technician's field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap."
 # image: "river-state-survey3.jpg"
 # ogImage: "river-state-survey3.jpg"
+categories: ["water-land-management"]
+image: "river-state-survey1.png"
 ---
 
 ### Goal

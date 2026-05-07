@@ -10,6 +10,8 @@ description: "The Wadden Sea in Denmark, Germany and The Netherlands is of outst
       population."
 # image: "wattenmeer4.jpg"
 # ogImage: "wattenmeer4.jpg"
+categories: ["ecology-environment"]
+image: "wattenmeer7.jpg"
 ---
 
 ### Goal and field constraints

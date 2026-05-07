@@ -9,6 +9,8 @@ description: "To conduct ecological surveying more efficiently than has been pre
       techniques, using QField as a medium for standardised and flexible field data collection."
 # image: "eco-survey.png"
 # ogImage: "eco-survey.png"
+categories: ["ecology-environment"]
+image: "eco-survey.png"
 ---
 
 ### Goal
