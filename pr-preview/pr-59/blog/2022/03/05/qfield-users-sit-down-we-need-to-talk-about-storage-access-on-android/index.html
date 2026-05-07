@@ -110,7 +110,7 @@
     
     "name": "QField - Efficient field work built for QGIS"
   },
-  "wordCount" :  1013 ,
+  "wordCount" :  1015 ,
   "description": " TLDR: Since November 2021, Google has enforced new storage access limitations for apps published on its Play store which prohibits direct storage access on Android 11 and above forcing QField to …",
   "keywords": []
 }
@@ -143,7 +143,7 @@
 }
 </script>
 
-    <link rel="icon" type="image/svg+xml" href="/images/qfield-logo.svg">
+    <link rel="icon" type="image/svg+xml" href="/pr-preview/pr-59/images/qfield-logo.svg">
 
 
 </head>
@@ -153,12 +153,12 @@
 
       <a class="navbar-brand fw-bold" href="/pr-preview/pr-59/">
         
-        <img src="/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
+        <img src="/pr-preview/pr-59/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--light" loading="eager" decoding="async">
         
 
         
-        <img src="/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
+        <img src="/pr-preview/pr-59/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--dark" loading="eager" decoding="async">
         
 
@@ -286,7 +286,8 @@
         </div>
     </div>
   </nav>
-</header><div id="content">
+</header>
+<div id="content">
 
 
 <section class="py-2">
@@ -294,7 +295,7 @@
     
     
     <div class="my-4">
-      <a href="/blog/" class="btn btn-outline-secondary btn-sm">
+      <a href="/pr-preview/pr-59/blog/" class="btn btn-outline-secondary btn-sm">
         <i class="fas fa-arrow-left me-2"></i>Back to Blog
       </a>
     </div>
@@ -344,6 +345,7 @@
          alt="" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
+
 <h3 id="import-project-from-folder"><em>Import project from folder</em></h3>
 <p>When importing a project from a folder, users will be asked to grant permission for QField to read the content of a given folder on the device’s storage via a system folder picker. When the folder is selected, QField copies the folder content (including its sub-folders) into the app’s ‘Imported projects’ location. Users can then open the project from there.</p>
 <p>Re-importing a given folder through the drop-down menu action will overwrite preexisting projects given an identical folder name. That allows users to be able to update projects.</p>
@@ -361,6 +363,7 @@
          alt="" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
+
 <h3 id="is-direct-copying-via-usb-cable-gone-altogether"><strong>Is direct copying via USB cable gone altogether?</strong></h3>
 <p>Users can still avoid going through the import process by copying files via a USB cable connection directly into the QField app’s files directory. As mentioned above, the location on most devices will be <drive>:/Android/data/ch.opengis.qfield/files/.</p>
 <h2 id="what-are-the-benefits-from-these-changes"><strong>What are the benefits from these changes?</strong></h2>
@@ -368,8 +371,10 @@
 <p>On top of what was already covered above - importing of compressed project ZIP files and sharing functionalities – QField is now fully integrated with Android’s cross-application document sharing APIs. This means that users can now directly open projects and files sent to them via their favourite browser/email/cloud/messenger app without the need to first download those files onto the device.</p>
 <p>Altogether, the newly-coded importing mechanisms and integration with Android document APIs don’t only improve the ease of use for the average person, it also makes viewing and editing spatial datasets on QField far more secure. The imported projects and datasets reside in a location with access limited to QField only, meaning that its content is inherently far more protected from malicious access from third-party apps.</p>
 <h2 id="why-were-these-drastic-changes-needed"><strong>Why were these drastic changes needed?</strong></h2>
-<p>As mentioned in the introduction, the changes were needed to comply with a set of new Google Play policies that came into force in November 2021. Users can read more on Google’s rationale on this page <a href="https://developer.android.com/google/play/requirements/target-sdk" target="_blank" rel="noopener">https://developer.android.com/google/play/requirements/target-sdk</a>.</p>
-<p>As part of the enforcement of these new policies, Google came up with an arbitrary mechanism to whitelist some apps which allows those to retain full storage access given the user explicitly allowed for it. We here at OPENGIS.ch believes QField had ample justifications to be whitelisted, however, Google’s appeal process judged otherwise after a series of email exchanges detailing our reasoning. While we have so far lost this argument with Google, we will continue fighting for our users and for their freedom to choose. If by any chance you have a good contact at Google that might be willing to listen to our reasoning, we would be grateful if you&rsquo;d <a href="https://opengis.ch/#contact" target="_blank" rel="noopener">get in touch with us</a>.</p>
+<p>As mentioned in the introduction, the changes were needed to comply with a set of new Google Play policies that came into force in November 2021. Users can read more on Google’s rationale on this page <a href="https://developer.android.com/google/play/requirements/target-sdk" target="_blank" rel="noopener">https://developer.android.com/google/play/requirements/target-sdk</a>
+.</p>
+<p>As part of the enforcement of these new policies, Google came up with an arbitrary mechanism to whitelist some apps which allows those to retain full storage access given the user explicitly allowed for it. We here at OPENGIS.ch believes QField had ample justifications to be whitelisted, however, Google’s appeal process judged otherwise after a series of email exchanges detailing our reasoning. While we have so far lost this argument with Google, we will continue fighting for our users and for their freedom to choose. If by any chance you have a good contact at Google that might be willing to listen to our reasoning, we would be grateful if you&rsquo;d <a href="https://opengis.ch/#contact" target="_blank" rel="noopener">get in touch with us</a>
+.</p>
 <p>We hope this clarifies the recent changes and helps QField users adapt to those.</p>
 
         </div>
@@ -507,7 +512,7 @@
 
         
         <div class="text-center">
-          <a href="/blog/" class="btn btn-outline-primary">
+          <a href="/pr-preview/pr-59/blog/" class="btn btn-outline-primary">
             <i class="fas fa-arrow-left me-2"></i>Back to All Posts
           </a>
         </div>
@@ -594,38 +599,44 @@
     <div class="container footer-subscribe-banner__inner">
       <div class="footer-subscribe-banner__text">
         <h2>Stay in the loop</h2>
-        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a> and stay up to date on the latest and greatest!</p>
+        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a>
+ and stay up to date on the latest and greatest!</p>
       </div>
     </div>
   </div>
   
 
-  
+
   <section id="about" class="py-5">
     <div class="container">
       <div class="row gy-4">
         
-        <div class="col-12">
-          <h3>About QField</h3>
+        <div class="col-12"><h3>About QField</h3>
           <p>QField is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management.
-As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>, promoting a more sustainable and equitable future.</p>
+As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/pr-preview/pr-59/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>
+, promoting a more sustainable and equitable future.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Open-source</h3>
-          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a> under the GNU Public License (GPL) version 2 or later.
+        <div class="col-12"><h3>Open-source</h3>
+          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a>
+ under the GNU Public License (GPL) version 2 or later.
 Developing QField under this license means that you can inspect and modify the source code and guarantees that you will always have access to a QGIS based field data collection app that is free of cost and can be freely modified.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Legal</h3>
-          <p>View the QField <a href="/privacy_policy">Privacy Policy</a> to learn what information we collect and how we protect it, and the <a href="/guidelines">Trademark and Brand Guidelines</a> for permitted uses of the QField name and logo.</p>
+        <div class="col-12"><h3>Legal</h3>
+          <p>View the QField <a href="/pr-preview/pr-59/privacy_policy">Privacy Policy</a>
+ to learn what information we collect and how we protect it, and the <a href="/pr-preview/pr-59/guidelines">Trademark and Brand Guidelines</a>
+ for permitted uses of the QField name and logo.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Credits</h3>
-          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>.
-OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a> and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a> for open-source software including QField, QGIS and PostGIS.</p>
+        <div class="col-12"><h3>Credits</h3>
+          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>
+.
+OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>
+, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>
+, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a>
+ and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a>
+ for open-source software including QField, QGIS and PostGIS.</p>
         </div>
         
 

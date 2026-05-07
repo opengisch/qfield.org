@@ -119,9 +119,12 @@
 <p>By choosing QField and other FOSS4G tools as part of its official technology stack, the UN Open GIS Initiative sends a strong message to governments and humanitarian actors worldwide: <strong>open, mobile-first geospatial tools are ready for mission-critical deployments</strong>.</p>
 <h3 id="learn-more">Learn More</h3>
 <ul>
-<li><a href="https://www.unopengis.org/" target="_blank" rel="noopener">UN Open GIS Official Website</a></li>
-<li><a href="https://doi.org/10.5194/isprs-archives-XLIII-B4-2021-183-2021" target="_blank" rel="noopener">ISPRS 2021: UN Open GIS Paper</a></li>
-<li><a href="https://qfield.org/" target="_blank" rel="noopener">QField Project Website</a></li>
+<li><a href="https://www.unopengis.org/" target="_blank" rel="noopener">UN Open GIS Official Website</a>
+</li>
+<li><a href="https://doi.org/10.5194/isprs-archives-XLIII-B4-2021-183-2021" target="_blank" rel="noopener">ISPRS 2021: UN Open GIS Paper</a>
+</li>
+<li><a href="https://qfield.org/" target="_blank" rel="noopener">QField Project Website</a>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -143,6 +146,7 @@
          alt="ginve" 
          class="figure-img img-fluid gallery-img" width="1002" height="640"
          loading="lazy"></figure>
+
 <p>The Geopackage produced was structured to allow the management and mapping of data, supporting the insertion of point elements, lines, polygons and photos. In addition, form fields with customised attributes and value maps, value relations and check boxes were prepared in order to simplify data input by users.</p>
 <p>In particular, the trees layer has been prepared to allow the management of forms for the collection of the following data:
 - Identification data
@@ -155,6 +159,7 @@
          alt="ginve" 
          class="figure-img img-fluid gallery-img" width="1186" height="788"
          loading="lazy"></figure>
+
 <p>Themes and labels were customised for each layer to make them similar to those in GINVE.CLOUD.</p>
 <p>In addition to customising the data fields, special procedures for displaying the base map were created. Google Maps and OpenStreetMap were used as the base map, but the structure was prepared to allow the use of other raster maps so that they can be displayed and managed in QField.</p>
 <h3 id="data-entry">Data Entry</h3>
@@ -164,20 +169,24 @@
          alt="ginve" 
          class="figure-img img-fluid gallery-img" width="1200" height="750"
          loading="lazy"></figure>
+
 <p>The collected data was then imported and synchronised with GINVE.CLOUD through a specific procedure that allows the verification of data (even from multiple operators) and alerts the user of any problems encountered, providing details of the error in order to facilitate its correction by the operator. This procedure also allows the import of photos that have been taken byQField and their automatic storage in the Cloud.</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/building-on-top/ginve-5.jpeg" srcset="/pr-preview/pr-59/success-stories/building-on-top/ginve-5.jpeg 1x, /pr-preview/pr-59/success-stories/building-on-top/ginve-5_hu_4cc70ebf68172b84.jpeg 2x"
          alt="ginve" 
          class="figure-img img-fluid gallery-img" width="928" height="498"
          loading="lazy"></figure>
+
 <h3 id="results">Results</h3>
 <p>Graphic and alphanumeric data were exported directly from GINVE.CLOUD into QField for immediate mobile use and management by operators. QField&rsquo;s feature of being completely offline usable coupled with the possibility of predefined filling in of certain fields allowed data entry activities to be speeded up, reducing the possibility of human errors occurring and allowing users to be more efficient during census activities. Any conflicts with data in GINVE.CLOUD were handled during synchronisation by allowing the operator to choose and validate which data should be stored. Data imported from QFields are immediately available to all GINVE.CLOUD operators.</p>
 <p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/building-on-top/ginve-6.jpeg" srcset="/pr-preview/pr-59/success-stories/building-on-top/ginve-6.jpeg 1x, /pr-preview/pr-59/success-stories/building-on-top/ginve-6_hu_c3ecc5de8eca1c41.jpeg 2x"
          alt="larvae" 
          class="figure-img img-fluid gallery-img" width="544" height="544"
-         loading="lazy"></figure> <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/building-on-top/ginve-6b.jpeg" srcset="/pr-preview/pr-59/success-stories/building-on-top/ginve-6b.jpeg 1x, /pr-preview/pr-59/success-stories/building-on-top/ginve-6b_hu_803ce6d857e5f8e4.jpeg 2x"
+         loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/building-on-top/ginve-6b.jpeg" srcset="/pr-preview/pr-59/success-stories/building-on-top/ginve-6b.jpeg 1x, /pr-preview/pr-59/success-stories/building-on-top/ginve-6b_hu_803ce6d857e5f8e4.jpeg 2x"
           alt="larvae" 
           class="figure-img img-fluid gallery-img" width="940" height="541"
-          loading="lazy"></figure></p>
+          loading="lazy"></figure>
+</p>
 <p>Thanks to QField, it has been possible to achieve new goals, enabling users of GINVE.CLOUD to use a high-performance and intuitive solution that provides continuity to the activities carried out in the field while guaranteeing maximum operational efficiency.</p>
 <p><strong>In addition, the integration enabled us to achieve the following objectives:</strong>
 - Use of maps and offline data on Smartphones and Tablets
@@ -188,6 +197,7 @@
          alt="larvae" 
          class="figure-img img-fluid gallery-img" width="1104" height="499"
          loading="lazy"></figure>
+
 ]]></content:encoded>
     </item>
     
@@ -212,17 +222,22 @@
          alt="data collection procedure" 
          class="figure-img img-fluid gallery-img" width="920" height="411"
          loading="lazy"></figure>
+
 <h5 id="data-collection-procedure"><em>Data collection procedure</em></h5>
 <h3 id="data-distribution-and-updating">Data distribution and updating</h3>
-<p>The most significant thing after data collection is <code>updating</code>. We have seen many organization in Africa, which failed to keep data up to date. Several years later, their data will normally become too old, and most of them need to put efforts on data collection again. WASAC decided to continuously update all of the data and keeps doing this until now. QField has proven to be very well suited for this purpose. In order to distribute and updating the data, we developed a python script <a href="https://github.com/WASAC/postgis2qfield" target="_blank" rel="noopener">postgis2qfield.</a> This <code>postgis2qfield</code> tool can extract the data from PostGIS and create Geopackages for each district in Rwanda. We upload these 27 geopackage together with QGIS project template to Google Drive storage. After that, those engineers in districts download their geopakage to Android device to continue adding and updating the data. Once they completed updating, they sent the geopackage to central office again, MIS specialist update PostGIS database and regenerate geopackages for QField.</p>
+<p>The most significant thing after data collection is <code>updating</code>. We have seen many organization in Africa, which failed to keep data up to date. Several years later, their data will normally become too old, and most of them need to put efforts on data collection again. WASAC decided to continuously update all of the data and keeps doing this until now. QField has proven to be very well suited for this purpose. In order to distribute and updating the data, we developed a python script <a href="https://github.com/WASAC/postgis2qfield" target="_blank" rel="noopener">postgis2qfield.</a>
+ This <code>postgis2qfield</code> tool can extract the data from PostGIS and create Geopackages for each district in Rwanda. We upload these 27 geopackage together with QGIS project template to Google Drive storage. After that, those engineers in districts download their geopakage to Android device to continue adding and updating the data. Once they completed updating, they sent the geopackage to central office again, MIS specialist update PostGIS database and regenerate geopackages for QField.</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/water-supply-rwanda/rwanda-rural-water-2.png" srcset="/pr-preview/pr-59/success-stories/water-supply-rwanda/rwanda-rural-water-2.png 1x, /pr-preview/pr-59/success-stories/water-supply-rwanda/rwanda-rural-water-2_hu_3c709359d52a21c2.png 2x"
          alt="data distribution and updating procedure" 
          class="figure-img img-fluid gallery-img" width="937" height="417"
          loading="lazy"></figure>
+
 <h5 id="data-distribution-and-updating-procedure"><em>Data distribution and updating procedure</em></h5>
 <h3 id="data-sharing-via-vectoriles">Data sharing via vectoriles</h3>
-<p>First of all, you can see our collected data from <a href="https://rural.water-gis.com/?style=OSM#9/-2.0032/30.0291" target="_blank" rel="noopener">here</a>.</p>
-<p>Since July 2020, we started to distribute our water supply system&rsquo;s data via vectortiles as open data. Although Rwanda's internet situation is being improved, some rural area still have problems of internet. In such as poor internet situation, WMS or WFS data distribution will not work well. Vectortiles can provide light and fast distribution of map data. We will not talk about our vectortiles here. If you are fascinated by how to share the result of data collection, please also see this <a href="https://github.com/watergis/awesome-vector-tiles" target="_blank" rel="noopener">instruction</a>.</p>
+<p>First of all, you can see our collected data from <a href="https://rural.water-gis.com/?style=OSM#9/-2.0032/30.0291" target="_blank" rel="noopener">here</a>
+.</p>
+<p>Since July 2020, we started to distribute our water supply system&rsquo;s data via vectortiles as open data. Although Rwanda's internet situation is being improved, some rural area still have problems of internet. In such as poor internet situation, WMS or WFS data distribution will not work well. Vectortiles can provide light and fast distribution of map data. We will not talk about our vectortiles here. If you are fascinated by how to share the result of data collection, please also see this <a href="https://github.com/watergis/awesome-vector-tiles" target="_blank" rel="noopener">instruction</a>
+.</p>
 <h3 id="acknowledgement">Acknowledgement</h3>
 <p>We thank all of district water and sanitation support engineers to conduct their data collection work. Additionally, we want to thank the developers of QField and QGIS for offering fantastic open source software. It is great that, due to free software, such projects can be implemented by an organization of water sector in developing countries.</p>
 <h3 id="about-wasac">About WASAC</h3>
@@ -231,8 +246,10 @@
          alt="organogram of WASAC" 
          class="figure-img img-fluid gallery-img" width="929" height="400"
          loading="lazy"></figure>
+
 <h5 id="organogram-of-wasac"><em>Organogram of WASAC</em></h5>
-<p>Also, one of our colleagues presented WASAC's activity in FOSS4G 2019 Bucharest. Although some of system were little bit changed now, you can also see this <a href="https://media.ccc.de/v/bucharest-30-case-study-of-data-collection-data-sharing-for-rural-water-supply-management-in-rwanda" target="_blank" rel="noopener">video</a> if you are interested.</p>
+<p>Also, one of our colleagues presented WASAC's activity in FOSS4G 2019 Bucharest. Although some of system were little bit changed now, you can also see this <a href="https://media.ccc.de/v/bucharest-30-case-study-of-data-collection-data-sharing-for-rural-water-supply-management-in-rwanda" target="_blank" rel="noopener">video</a>
+ if you are interested.</p>
 ]]></content:encoded>
     </item>
     
@@ -252,6 +269,7 @@
          alt="" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
+
 <h3 id="field-tested--ready-for-deployment">Field-Tested &amp; Ready for Deployment</h3>
 <p>QField-powered field kits equipped with tablets connect via a local server and router—even offline. Synchronization to a central PostgreSQL database allows live tracking and coordination of data across devices. This mobile GIS system proved its resilience during a full-scale disaster drill at Demerthin Castle (September 2024), fulfilling ISO-standard data capture and secure workflow needs</p>
 <h3 id="key-features">Key Features</h3>
@@ -274,13 +292,17 @@
          alt="" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
+
 <h3 id="built-on-open-source-ready-for-the-future">Built on Open Source, Ready for the Future</h3>
 <p>By combining QField, QGIS, PostgreSQL, and open‑source tooling under the KulturGutRetter project—supported by the German Bundestag and Foreign Office—this case demonstrates how agile, mobile-first open-source GIS can revolutionize emergency documentation for cultural heritage</p>
 <h3 id="learn-more">Learn More</h3>
 <ul>
-<li><a href="https://www.kulturgutretter.org/en/data-acquisition-and-data-management-for-the-emergency-rescue-of-cultural-heritage/" target="_blank" rel="noopener">KulturGutRetter: Data Acquisition &amp; Management</a></li>
-<li><a href="https://civil-protection-knowledge-network.europa.eu/news/first-full-scale-exercise-german-cultural-heritage-response-unit" target="_blank" rel="noopener">Full-scale field exercise (Sept 2024)</a></li>
-<li><a href="https://www.archernet.org/en/2022/01/14/interview-kulturgutretter-digital-documentation-of-cultural-heritage-in-crisis-situations/" target="_blank" rel="noopener">Interview with DAI on QField deployment</a></li>
+<li><a href="https://www.kulturgutretter.org/en/data-acquisition-and-data-management-for-the-emergency-rescue-of-cultural-heritage/" target="_blank" rel="noopener">KulturGutRetter: Data Acquisition &amp; Management</a>
+</li>
+<li><a href="https://civil-protection-knowledge-network.europa.eu/news/first-full-scale-exercise-german-cultural-heritage-response-unit" target="_blank" rel="noopener">Full-scale field exercise (Sept 2024)</a>
+</li>
+<li><a href="https://www.archernet.org/en/2022/01/14/interview-kulturgutretter-digital-documentation-of-cultural-heritage-in-crisis-situations/" target="_blank" rel="noopener">Interview with DAI on QField deployment</a>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -293,7 +315,8 @@
       <guid>https://qfield.org/pr-preview/pr-59/success-stories/nls/</guid>
       
       <description>In 2025, Finland’s National Land Survey (NLS) made a bold and visionary leap by launching MTTJ, an open-source topographic data production system built on QGIS, QField, and other open technologies. This landmark initiative makes Finland the first country in the world to adopt an open-source GIS environment for national-scale topographic data production.</description>
-      <content:encoded><![CDATA[<p>In 2025, <a href="https://www.maanmittauslaitos.fi/en/topical_issues/national-land-survey-finland-has-introduced-new-topographic-data-production-system" target="_blank" rel="noopener">National Land Survey (NLS)</a> made a bold and visionary leap by launching MTTJ, a fully open-source topographic data production system built on QGIS, QField, and other open technologies. This landmark initiative makes Finland the <strong>first country in the world to adopt a fully open-source GIS</strong> environment for national-scale topographic data production.</p>
+      <content:encoded><![CDATA[<p>In 2025, <a href="https://www.maanmittauslaitos.fi/en/topical_issues/national-land-survey-finland-has-introduced-new-topographic-data-production-system" target="_blank" rel="noopener">National Land Survey (NLS)</a>
+ made a bold and visionary leap by launching MTTJ, a fully open-source topographic data production system built on QGIS, QField, and other open technologies. This landmark initiative makes Finland the <strong>first country in the world to adopt a fully open-source GIS</strong> environment for national-scale topographic data production.</p>
 <p>Developed over several years and officially rolled out in spring 2025, MTTJ gradually replaces legacy proprietary systems with a modern, efficient, and extensible solution tailored to NLS’s evolving needs — all while promoting transparency, interoperability, and long-term sustainability. As part of this open architecture, <strong>QField will play a key role</strong> , empowering field teams to collect and validate data efficiently, even in remote locations. Use of QField is being piloted over summer 2025 and will be gradually taken up for full production use towards the autumn.</p>
 <blockquote>
 <p>“QField lets our field staff work smarter and faster, even in the most remote corners of Finland. It’s a vital part of our open-source geospatial infrastructure.”
@@ -309,16 +332,19 @@
 <li>Tight integration with QField for field data collection</li>
 </ul>
 <p>All core components were built with <strong>open-source principles</strong> in mind — and many will be shared with the global QGIS and OSGeo community.</p>
-<p><figure class="figure text-center mb-4"><img src="/images/customer/nls3.jpg"
+<p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/images/customer/nls3.jpg"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
-<figure class="figure text-center mb-4"><img src="/images/customer/nls4.jpg"
+
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/images/customer/nls4.jpg"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure></p>
+         loading="lazy"></figure>
+</p>
 <h3 id="seamless-field-to-database-workflow">Seamless Field-to-Database Workflow</h3>
-<p>Finland’s mapping authority integrated QField and <a href="https://qfield.cloud/" target="_blank" rel="noopener"> QFieldCloud</a> to allow field staff and aerial image interpreters to:</p>
+<p>Finland’s mapping authority integrated QField and <a href="https://qfield.cloud/" target="_blank" rel="noopener"> QFieldCloud</a>
+ to allow field staff and aerial image interpreters to:</p>
 <ul>
 <li>Collect and verify topographic features onsite,</li>
 <li>Access up-to-date maps and imagery offline,</li>
@@ -337,10 +363,14 @@
 <p>By integrating QField into a national strategy, Finland has showcased how <strong>modern, mobile-first open-source tools</strong> can outperform legacy systems — all while reducing costs and increasing flexibility.</p>
 <h3 id="learn-more">Learn More</h3>
 <ul>
-<li><a href="https://www.maanmittauslaitos.fi/en/topical_issues/national-land-survey-finland-has-introduced-new-topographic-data-production-system" target="_blank" rel="noopener">Official NLS announcement</a></li>
-<li><a href="https://positio-magazine.eu/2025/06/finland-launches-modern-topographic-data-system-built-on-open-source-qgis" target="_blank" rel="noopener">Article in Positio Magazine</a></li>
-<li><a href="https://talks.osgeo.org/foss4g-europe-2024/talk/DFPXV9/" target="_blank" rel="noopener">FOSS4G Europe 2024 talk by NLS</a></li>
-<li><a href="https://talks.osgeo.org/foss4g-europe-2025/talk/TZRN9K/" target="_blank" rel="noopener">FOSS4G Europe 202 talk by NLS</a></li>
+<li><a href="https://www.maanmittauslaitos.fi/en/topical_issues/national-land-survey-finland-has-introduced-new-topographic-data-production-system" target="_blank" rel="noopener">Official NLS announcement</a>
+</li>
+<li><a href="https://positio-magazine.eu/2025/06/finland-launches-modern-topographic-data-system-built-on-open-source-qgis" target="_blank" rel="noopener">Article in Positio Magazine</a>
+</li>
+<li><a href="https://talks.osgeo.org/foss4g-europe-2024/talk/DFPXV9/" target="_blank" rel="noopener">FOSS4G Europe 2024 talk by NLS</a>
+</li>
+<li><a href="https://talks.osgeo.org/foss4g-europe-2025/talk/TZRN9K/" target="_blank" rel="noopener">FOSS4G Europe 202 talk by NLS</a>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -409,6 +439,7 @@
          alt="Structure list" 
          class="figure-img img-fluid gallery-img" width="1200" height="659"
          loading="lazy"></figure>
+
 <p><em>Figure 1: Structure list</em></p>
 <p>Symbology and labels are customized for each layer, including embedded SVG symbols for structural features that are rotated with the azimuth field. In addition to field data, base maps and historic data are compiled into geopackages for reference. Base maps include vector topographic data and raster orthophotos. Raster geophysical data and vector geochemical data are included if available, as well as historic geologic mapping. Map themes are designed to quickly toggle between geologic mapping, geophysics, and geochemistry views.</p>
 <h2 id="data-collection">Data collection</h2>
@@ -419,19 +450,23 @@
          alt="Geologic field" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
+
 <p><em>Figure 2: Field work</em></p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/geological-mapping/geologic_station_qf_hu_15c99c22080620f.jpg" srcset="/pr-preview/pr-59/success-stories/geological-mapping/geologic_station_qf_hu_15c99c22080620f.jpg 1x, /pr-preview/pr-59/success-stories/geological-mapping/geologic_station_qf_hu_23e111a495725f91.jpg 2x"
          alt="Geologic field" 
          class="figure-img img-fluid gallery-img" width="1200" height="750"
          loading="lazy"></figure>
+
 <p><em>Figure 3: QField form</em></p>
-<p>Structural data collection may be upgraded with future development of a geologic compass feature. <a href="https://github.com/opengisch/QField/issues/1882" target="_blank" rel="noopener"> https://github.com/opengisch/QField/issues/1882</a></p>
+<p>Structural data collection may be upgraded with future development of a geologic compass feature. <a href="https://github.com/opengisch/QField/issues/1882" target="_blank" rel="noopener"> https://github.com/opengisch/QField/issues/1882</a>
+</p>
 <h2 id="results">Results</h2>
 <p>Final geologic maps and analysis are prepared directly from field data sets with no need to digitize field data. Depending on proficiency and type of mapping, the QField geologic mapping workflow takes approximately the same amount of field time as manual (paper) mapping and drastically reduces office data digitization time. Additionally, historic data are easily referred to in the field, allowing for real time interpretation and targeted field work. Maps and attribute tables can be exported directly from QField or the QGIS project for daily field updates or communication between working groups. QField allows for data integrity with customizable attribute fields and database compatibility. Field data quality assurance can be built in during project design, ensuring attributes are consistent between users and reducing human error with constraints and default values.</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/geological-mapping/geologic_map_hu_7707ce09226d3de0.jpg" srcset="/pr-preview/pr-59/success-stories/geological-mapping/geologic_map_hu_7707ce09226d3de0.jpg 1x, /pr-preview/pr-59/success-stories/geological-mapping/geologic_map_hu_5e440ef9853fba8c.jpg 2x"
          alt="Geologic field" 
          class="figure-img img-fluid gallery-img" width="1200" height="750"
          loading="lazy"></figure>
+
 <p><em>Figure 4: Map result</em></p>
 ]]></content:encoded>
     </item>
@@ -458,11 +493,13 @@
          alt="Predefined Ground Truth Plots" 
          class="figure-img img-fluid gallery-img" width="800" height="1280"
          loading="lazy"></figure>
+
 <p><em>Figure 1: Predefined Ground Truth Plots</em></p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/ground-truth-fiji/use_study_fiji2.png" srcset="/pr-preview/pr-59/success-stories/ground-truth-fiji/use_study_fiji2.png 1x, /pr-preview/pr-59/success-stories/ground-truth-fiji/use_study_fiji2_hu_c4d035e59e45e4ae.png 2x"
          alt="Capturing land cover class" 
          class="figure-img img-fluid gallery-img" width="800" height="1280"
          loading="lazy"></figure>
+
 <p><em>Figure 2: Capturing land cover class</em></p>
 <h3 id="preliminary-results-and-future-work">Preliminary Results and Future Work</h3>
 <p>An example of a preliminary land cover map is shown in Figure 3. An important objective from our work is to transfer skills and build capacity with local stakeholders to continue to update the LULC map on an annual basis as well as to expand the map to include other communities, catchments and forestry areas across Fiji. This capacity building will include iterative stakeholder consultation, online training materials, field and classroom training workshops, and collaborative fieldwork.</p>
@@ -470,6 +507,7 @@
          alt="Preliminary land cover map for the Ba region, Viti Levu, Fiji" 
          class="figure-img img-fluid gallery-img" width="600" height="424"
          loading="lazy"></figure>
+
 <p><em>Figure 3: Preliminary land cover map for the Ba region, Viti Levu, Fiji</em></p>
 <h3 id="acknowledgment">Acknowledgment</h3>
 <p>We would like to thank the field team from the Fiji Ministry of Forestry especially Viliame Tupua and Renata Varea (USP). The project was funded by the Australian Centre for International Agricultural Research (ACIAR; ASEM/2016/101).</p>
@@ -477,6 +515,7 @@
          alt="The Fiji Forestry/USP field team" 
          class="figure-img img-fluid gallery-img" width="1200" height="800"
          loading="lazy"></figure>
+
 <p><em>The Fiji Forestry/USP field team is about to collect ground truth data with QField.</em></p>
 ]]></content:encoded>
     </item>
@@ -513,6 +552,7 @@ This application, although it presents itself with a very simple interface, is <
          alt="figure 1" 
          class="figure-img img-fluid gallery-img" width="923" height="774"
          loading="lazy"></figure>
+
 <h5 id="figure-1---an-example-of-the-same-survey-gis-platform-project-in-qgis-below-and-in-qfield-above-image-by-giuseppe-guarino-2019"><em>Figure 1 - An example of the same Survey GIS platform project in QGIS (below) and in QField (above). Image by Giuseppe Guarino 2019.</em></h5>
 <p>Furthermore, similar to QGIS, we can query each layer within QField by obtaining the respective information contained in its attribute table (however, there are also other GIS applications for mobile such as ArcGis, LiPAD, Bentley Map Mobile, GVSig Mobile, Geopaparazzi and others).</p>
 <p>In order to work with a QGIS project within QField, the first step is to configure the properties of that project created in QGIS as “save relative paths”.</p>
@@ -545,6 +585,7 @@ G.G.</p>
          alt="figure 2" 
          class="figure-img img-fluid gallery-img" width="1200" height="347"
          loading="lazy"></figure>
+
 <h5 id="figure-2---an-example-of-when-the-weather-and-visibility-conditions-in-the-field-are-poor-image-by-roberto-montagnetti-2019"><em>Figure 2 - An example of when the weather and visibility conditions in the field are poor. Image by Roberto Montagnetti 2019.</em></h5>
 <p>Now, let us see why the use of QField facilitates the reduction of working times and, at the same time, guarantees the saving of resources to be invested in the archaeological investigation, providing a practical example of using the GIS App for Android.</p>
 <p>In this kind of work, the first step is to strip the area to be investigated with the use of machinery, aiming to remove the topsoil and then eventually the subsoil.</p>
@@ -579,6 +620,7 @@ e. All the elements that we may need to detect during the archaeological investi
          alt="figure 3" 
          class="figure-img img-fluid gallery-img" width="1200" height="860"
          loading="lazy"></figure>
+
 <h5 id="figure-3---an-example-of-the-same-open-area-excavation-gis-platform-project-in-qgis-above-and-in-qfield-below-image-by-roberto-montagnetti-2019"><em>Figure 3 - An example of the same open area excavation GIS platform project in QGIS (above) and in QField (below). Image by Roberto Montagnetti 2019.</em></h5>
 <p>In fact, primarily, by using this system, archaeologists who are working in the field will be able to directly register the context numbers identified during the excavation within QField, in the appropriate “context register” table in the QField database.</p>
 <p>This aspect already speeds up on-site operations by saving the time generally taken to go back and forth from the site to the compound or from the site to the car/van and vice versa, for the compilation of paper registers; especially, if we take into consideration the fact that, on a regular basis, cars and compounds are located at a considerable distance away from the excavation area.</p>
@@ -680,6 +722,7 @@ Even in this case, the QGIS “print composer” allows us to develop customised
          alt="figure 1" 
          class="figure-img img-fluid gallery-img" width="1200" height="479"
          loading="lazy"></figure>
+
 <h5 id="figure-1---overview-of-the-traditional-workflow-in-ecological-surveying-at-delta-simons-compared-with-the-workflow-created-using-qfield-single-headed-arrows-indicate-the-direction-of-one-way-communication-whereas-double-headed-arrows-indicate-two-way-conversation"><em>Figure 1 - Overview of the traditional workflow in ecological surveying at Delta-Simons compared with the workflow created using QField. Single-headed arrows indicate the direction of one-way communication, whereas double-headed arrows indicate two-way conversation.</em></h5>
 <h3 id="result">Result</h3>
 <p>Delta-Simons are saving approximately 40% of the time previously consumed by traditional ecological field data collection.</p>
@@ -708,6 +751,7 @@ Even in this case, the QGIS “print composer” allows us to develop customised
          alt="enter alt" 
          class="figure-img img-fluid gallery-img" width="1200" height="1200"
          loading="lazy"></figure>
+
 <h3 id="qfield-in-action-how-the-team-collects-data">QField in Action: How the Team Collects Data</h3>
 <p>The BUND team has divided approximately 150 streams—totaling around 90 kilometers of waterways—into 100-meter monitoring segments. Field workers visit each segment twice during the first half of the year, which corresponds to the 2-5 month period when fire salamander larvae are present in the water.</p>
 <p><strong>Using QField, the team documents:</strong>
@@ -720,10 +764,12 @@ Even in this case, the QGIS “print composer” allows us to develop customised
 <p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/fire-salamanders/salamander-3_hu_5bc86e52f962093f.JPG" srcset="/pr-preview/pr-59/success-stories/fire-salamanders/salamander-3_hu_5bc86e52f962093f.JPG 1x, /pr-preview/pr-59/success-stories/fire-salamanders/salamander-3_hu_bfd99f730832b394.JPG 2x"
          alt="larvae" 
          class="figure-img img-fluid gallery-img" width="1200" height="749"
-         loading="lazy"></figure> <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/fire-salamanders/salamander-5_hu_d058eb9e19b14d29.JPG" srcset="/pr-preview/pr-59/success-stories/fire-salamanders/salamander-5_hu_d058eb9e19b14d29.JPG 1x, /pr-preview/pr-59/success-stories/fire-salamanders/salamander-5_hu_d014783253ef5351.JPG 2x"
+         loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/fire-salamanders/salamander-5_hu_d058eb9e19b14d29.JPG" srcset="/pr-preview/pr-59/success-stories/fire-salamanders/salamander-5_hu_d058eb9e19b14d29.JPG 1x, /pr-preview/pr-59/success-stories/fire-salamanders/salamander-5_hu_d014783253ef5351.JPG 2x"
           alt="larvae" 
           class="figure-img img-fluid gallery-img" width="1200" height="1200"
-          loading="lazy"></figure></p>
+          loading="lazy"></figure>
+</p>
 <h3 id="from-paper-to-digital-the-qfield-advantage">From Paper to Digital: The QField Advantage</h3>
 <p>Before implementing QField, data collection was a cumbersome process involving Garmin GPS units and handwritten notes with personal shorthand.</p>
 <p><em>&ldquo;I always worked with shortcuts and tried to type information as concisely as possible,&rdquo;</em> recalls the coordinator. &ldquo;Therefore, other people looking at my notes couldn&rsquo;t understand anything.&rdquo;</p>
@@ -742,6 +788,7 @@ Even in this case, the QGIS “print composer” allows us to develop customised
          alt="enter alt" 
          class="figure-img img-fluid gallery-img" width="1200" height="1600"
          loading="lazy"></figure>
+
 <h3 id="from-paper-to-digital-the-qfield-advantage-1">From Paper to Digital: The QField Advantage</h3>
 <p>Beyond the core team, the BUND project has created a simplified QField project specifically for volunteers. This parallel system allows community members to contribute meaningful data while maintaining the scientific integrity of the professional monitoring program.</p>
 <p><em>&ldquo;It was kind of a pain when volunteers just sent me pictures from fire salamanders and said where they found it. It&rsquo;s a lot of work and time that I don&rsquo;t have,&rdquo;</em> explains the coordinator. <em>&ldquo;Now with QField, we&rsquo;re making a short video about how to use it and collect data, which I&rsquo;ll send to everyone who&rsquo;s sent me pictures over the last five years.&rdquo;</em></p>
@@ -822,16 +869,19 @@ The system integrates multiple data types:
          alt="river state survey" 
          class="figure-img img-fluid gallery-img" width="949" height="533"
          loading="lazy"></figure>
+
 <h5 id="river-state-survey-1"><em>River State Survey 1</em></h5>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/river-state-survey/river-state-survey2.png" srcset="/pr-preview/pr-59/success-stories/river-state-survey/river-state-survey2.png 1x, /pr-preview/pr-59/success-stories/river-state-survey/river-state-survey2_hu_8ff7d2c11070df2e.png 2x"
          alt="river state survey" 
          class="figure-img img-fluid gallery-img" width="574" height="409"
          loading="lazy"></figure>
+
 <h5 id="river-state-survey-2"><em>River State Survey 2</em></h5>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/river-state-survey/river-state-survey3.jpg" srcset="/pr-preview/pr-59/success-stories/river-state-survey/river-state-survey3.jpg 1x, /pr-preview/pr-59/success-stories/river-state-survey/river-state-survey3_hu_da5a58583a48d6af.jpg 2x"
          alt="river state survey" 
          class="figure-img img-fluid gallery-img" width="506" height="711"
          loading="lazy"></figure>
+
 <h5 id="river-state-survey-3"><em>River State Survey 3</em></h5>
 <h3 id="result">Result</h3>
 <p>In less than 3 days, the technician surveyed successfully all the 10'894 meters of water courses.
@@ -841,10 +891,12 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 <p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/river-state-survey/river-state-survey-logo-geoconseils.png" srcset="/pr-preview/pr-59/success-stories/river-state-survey/river-state-survey-logo-geoconseils.png 1x, /pr-preview/pr-59/success-stories/river-state-survey/river-state-survey-logo-geoconseils_hu_fb03618e90adf7bc.png 2x"
          alt="geoconseils" 
          class="figure-img img-fluid gallery-img" width="350" height="160"
-         loading="lazy"></figure> <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/river-state-survey/river-state-survey-logo-milvignes.png" srcset="/pr-preview/pr-59/success-stories/river-state-survey/river-state-survey-logo-milvignes.png 1x, /pr-preview/pr-59/success-stories/river-state-survey/river-state-survey-logo-milvignes_hu_d66535adc5eb4c45.png 2x"
+         loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/river-state-survey/river-state-survey-logo-milvignes.png" srcset="/pr-preview/pr-59/success-stories/river-state-survey/river-state-survey-logo-milvignes.png 1x, /pr-preview/pr-59/success-stories/river-state-survey/river-state-survey-logo-milvignes_hu_d66535adc5eb4c45.png 2x"
           alt="milvignes" 
           class="figure-img img-fluid gallery-img" width="148" height="160"
-          loading="lazy"></figure></p>
+          loading="lazy"></figure>
+</p>
 ]]></content:encoded>
     </item>
     
@@ -862,18 +914,24 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="mapping-farms" 
          class="figure-img img-fluid gallery-img" width="400" height="200" style="ZgotmplZ"
          loading="lazy"></figure>
+
 <p>Croplands damaged after Hunga Tonga-Hunga Ha’apai eruption.</p>
 <h3 id="activities">Activities</h3>
 <h4 id="analysis-of-tonga-crop-survey-data">Analysis of Tonga Crop Survey Data</h4>
-<p>Ministry of Agriculture, Food, and Forests staff used the <a href="https://livelihoods-and-landscapes.com/examples/tonga-crop-survey/tonga-crop-survey.html" target="_blank" rel="noopener">Tonga Crop Survey</a> data, which was collected using the <a href="https://livelihoods-and-landscapes.com/research.html" target="_blank" rel="noopener">maplandscape</a> workflow in the months before the eruption, to perform an initial estimate of damage to the food supply.</p>
+<p>Ministry of Agriculture, Food, and Forests staff used the <a href="https://livelihoods-and-landscapes.com/examples/tonga-crop-survey/tonga-crop-survey.html" target="_blank" rel="noopener">Tonga Crop Survey</a>
+ data, which was collected using the <a href="https://livelihoods-and-landscapes.com/research.html" target="_blank" rel="noopener">maplandscape</a>
+ workflow in the months before the eruption, to perform an initial estimate of damage to the food supply.</p>
 <h4 id="monitoring-of-the-agricultural-recovery">Monitoring of the agricultural recovery</h4>
-<p>The <a href="https://livelihoods-and-landscapes.com/research.html" target="_blank" rel="noopener">maplandscape</a> workflow uses QField for mobile data collection. QField has full online and offline modes; this enabled Ministry staff to conduct damage mapping activities and conduct surveys to monitor how government resources for recovering croplands were being used while the countries internet was cut off. The internet cable to Tonga was severed during the eruption. In particular, QField was used to generate maps of where fields had been cleared and re-ploughed using government support. The eruption severed the undersea cable which connected Tonga to the internet.</p>
+<p>The <a href="https://livelihoods-and-landscapes.com/research.html" target="_blank" rel="noopener">maplandscape</a>
+ workflow uses QField for mobile data collection. QField has full online and offline modes; this enabled Ministry staff to conduct damage mapping activities and conduct surveys to monitor how government resources for recovering croplands were being used while the countries internet was cut off. The internet cable to Tonga was severed during the eruption. In particular, QField was used to generate maps of where fields had been cleared and re-ploughed using government support. The eruption severed the undersea cable which connected Tonga to the internet.</p>
 <h4 id="damage-assessment-with-community-leaders">Damage assessment with community leaders</h4>
-<p>In the months following the eruption, Ministry staff used <a href="https://livelihoods-and-landscapes.com/research.html" target="_blank" rel="noopener">maplandscape</a> to interview community leaders in areas affected by the eruption to ascertain loss and damage to croplands, harvested crops, and agricultural infrastructure. This information was used to compute amounts for relief payments.</p>
+<p>In the months following the eruption, Ministry staff used <a href="https://livelihoods-and-landscapes.com/research.html" target="_blank" rel="noopener">maplandscape</a>
+ to interview community leaders in areas affected by the eruption to ascertain loss and damage to croplands, harvested crops, and agricultural infrastructure. This information was used to compute amounts for relief payments.</p>
 <figure class="figure text-center mb-4"><img src="https://livelihoods-and-landscapes.com/examples/hunga-haapai/hunga-haapai-trees-rectangle.jpg"
          alt="mapping-farms" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
+
 <p>Trees damaged after Hunga Tonga-Hunga Ha’apai eruption.</p>
 <h3 id="outputs">Outputs</h3>
 <ul>
@@ -898,6 +956,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="Schutzstation Wattenmeer project sketch" 
          class="figure-img img-fluid gallery-img" width="1200" height="750"
          loading="lazy"></figure>
+
 <h5 id="sketch-of-the-project-and-monitoring-areas-of-schutzstation-wattenmeer-yellow"><em>Sketch of the project and monitoring areas of Schutzstation Wattenmeer (yellow).</em></h5>
 <p>Most fieldwork is carried out by annually changing volunteers which usually do not have much experience. Good supervision during the monitoring period in spring is thus very important. At the same time the amount of collected data is a significant bureaucratic challenge.</p>
 <p>Until 2018 printed paper maps were used to collect the data in the field. Major disadvantages of the analogue system were:</p>
@@ -909,6 +968,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="data transmission system" 
          class="figure-img img-fluid gallery-img" width="1200" height="750"
          loading="lazy"></figure>
+
 <h5 id="sketch-of-the-data-transmission-system-field-observations-are-logged-in-qfield-on-a-tablet-and-uploaded-into-a-cloud-storage-data-from-all-areas-are-accessed-and-automatically-treated-by-an-r-script"><em>Sketch of the data transmission system. Field observations are logged in QField on a tablet and uploaded into a cloud storage. Data from all areas are accessed and automatically treated by an R script.</em></h5>
 <p>In spring 2019 we tested our system with seven tablet devices spread over seven of in total 12 different monitoring stations.</p>
 <h3 id="project-preparation">Project preparation</h3>
@@ -917,22 +977,26 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="sketch of the QField interface" 
          class="figure-img img-fluid gallery-img" width="1200" height="750"
          loading="lazy"></figure>
+
 <h5 id="sketch-of-the-qfield-interface-for-data-entry-we-used-a-geopackage-file-with-custom-dropdown-list-and-entry-restrictions"><em>Sketch of the QField Interface. For data entry we used a geopackage file with custom dropdown list and entry restrictions.</em></h5>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer4_hu_71708926f75e307e.jpg" srcset="/pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer4_hu_71708926f75e307e.jpg 1x, /pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer4_hu_e4e1418dcfcb0cb0.jpg 2x"
          alt="logged observations in QField" 
          class="figure-img img-fluid gallery-img" width="1200" height="750"
          loading="lazy"></figure>
+
 <h5 id="logged-observations-are-clearly-laid-out-in-qfield"><em>Logged observations are clearly laid out in QField.</em></h5>
 <p>We used an additional synchronisation App that automatically uploaded the field data from the tablet to a Google Drive cloud after fieldwork. For data download, automatized backup, data review and export we wrote a R script.</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer5_hu_7d318449ce2fb4a5.jpg" srcset="/pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer5_hu_7d318449ce2fb4a5.jpg 1x, /pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer5_hu_5af9d5022f1e007b.jpg 2x"
          alt="custom R script" 
          class="figure-img img-fluid gallery-img" width="1200" height="724"
          loading="lazy"></figure>
+
 <h5 id="after-data-was-automatically-synchronized-with-the-cloud-the-results-from-all-the-different-areas-can-be-reviewed-via-a-custom-r-script"><em>After data was automatically synchronized with the cloud the results from all the different areas can be reviewed via a custom R script.</em></h5>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer6_hu_620f93bf089fa445.jpg" srcset="/pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer6_hu_620f93bf089fa445.jpg 1x, /pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer6_hu_db2647a117e40288.jpg 2x"
          alt="visual review of the collected data" 
          class="figure-img img-fluid gallery-img" width="1200" height="695"
          loading="lazy"></figure>
+
 <h5 id="also-visual-review-of-the-collected-data-is-possible-via-r"><em>Also visual review of the collected data is possible via R..</em></h5>
 <p>The general concept of QField as a simplified field application of QGIS turned out to be very useful for our work with volunteers. While we can set up a project with a high level of customization including all our needs in QGIS, field workers only need to understand the basics. A big advantage: unwanted changes are almost impossible in QField.</p>
 <h3 id="field-work">Field work</h3>
@@ -941,11 +1005,13 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="the field kit" 
          class="figure-img img-fluid gallery-img" width="1200" height="750"
          loading="lazy"></figure>
+
 <h5 id="the-field-kit"><em>The field kit</em></h5>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer8_hu_adf2a82f64c7474.jpg" srcset="/pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer8_hu_adf2a82f64c7474.jpg 1x, /pr-preview/pr-59/success-stories/mapping-breeding-birds/wattenmeer8_hu_803a6b16473b854c.jpg 2x"
          alt="the field kit" 
          class="figure-img img-fluid gallery-img" width="1200" height="612"
          loading="lazy"></figure>
+
 <h5 id="the-field-kit-1"><em>The field kit</em></h5>
 <h3 id="evaluation-and-future">Evaluation and future</h3>
 <p>We had no software problems during a testing period in spring 2019 and everything worked as planned. In an evaluation survey all participants stated that they preferred using the tablet rather than the analogue paper maps for field work. The use of the custom QField project was evaluated as straightforward and easy.</p>
@@ -974,21 +1040,25 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="land cover parcels digitalized on the ground" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
+
 <h5 id="three-land-cover-parcels-that-were-digitalized-on-the-ground"><em>Three land cover parcels that were digitalized on the ground</em></h5>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/malaria-data-collection/mosquito2_hu_9f61a2780d94e772.jpg" srcset="/pr-preview/pr-59/success-stories/malaria-data-collection/mosquito2_hu_9f61a2780d94e772.jpg 1x, /pr-preview/pr-59/success-stories/malaria-data-collection/mosquito2_hu_577155411cf9b19c.jpg 2x"
          alt="information collected" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
+
 <h5 id="getting-back-to-one-parcel-which-information-was-collected"><em>Getting back to one parcel: which information was collected</em></h5>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/malaria-data-collection/mosquito3_hu_aa363077345bb886.jpg" srcset="/pr-preview/pr-59/success-stories/malaria-data-collection/mosquito3_hu_aa363077345bb886.jpg 1x, /pr-preview/pr-59/success-stories/malaria-data-collection/mosquito3_hu_c8887f0b7cb65bf6.jpg 2x"
          alt="digitalizing new parcel" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
+
 <h5 id="digitalizing-a-new-parcel-and-filling-the-attribute-table"><em>Digitalizing a new parcel and filling the attribute table</em></h5>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/malaria-data-collection/mosquito4_hu_c41360fd34e569f9.jpg" srcset="/pr-preview/pr-59/success-stories/malaria-data-collection/mosquito4_hu_c41360fd34e569f9.jpg 1x, /pr-preview/pr-59/success-stories/malaria-data-collection/mosquito4_hu_ab046cbbe3fee92c.jpg 2x"
          alt="field work with QField" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
+
 <h5 id="on-the-field-work-using-qfield"><em>On the field work using QField</em></h5>
 ]]></content:encoded>
     </item>
@@ -1026,23 +1096,28 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 <p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla1_hu_d6616af85bd195c3.jpg" srcset="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla1_hu_d6616af85bd195c3.jpg 1x, /pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla1_hu_51f3b2869d0af4d6.jpg 2x"
          alt="vanilla surveys" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
-         loading="lazy"></figure> <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla2_hu_d48d9fe64809097d.png" srcset="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla2_hu_d48d9fe64809097d.png 1x, /pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla2_hu_e0378c1f83b5817.png 2x"
+         loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla2_hu_d48d9fe64809097d.png" srcset="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla2_hu_d48d9fe64809097d.png 1x, /pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla2_hu_e0378c1f83b5817.png 2x"
           alt="vanilla surveys" 
           class="figure-img img-fluid gallery-img" width="1200" height="849"
-          loading="lazy"></figure> <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla3_hu_792cd7e124a0e1ec.jpg" srcset="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla3_hu_792cd7e124a0e1ec.jpg 1x, /pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla3_hu_6f0a36e9e03cf846.jpg 2x"
+          loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla3_hu_792cd7e124a0e1ec.jpg" srcset="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla3_hu_792cd7e124a0e1ec.jpg 1x, /pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla3_hu_6f0a36e9e03cf846.jpg 2x"
           alt="extension officers" 
           class="figure-img img-fluid gallery-img" width="1200" height="900"
-          loading="lazy"></figure></p>
+          loading="lazy"></figure>
+</p>
 <h5 id="extension-officers-tangaki-aloua-and-selimoti-fetokai-looking-for-the-exact-location-of-the-vanilla-plantation-before-the-plot-survey"><em>Extension Officers, Tangaki Aloua and Selimoti Fetokai, looking for the exact location of the vanilla plantation before the plot survey.</em></h5>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla4_hu_b2f9b8e10a80ef2.jpg" srcset="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla4_hu_b2f9b8e10a80ef2.jpg 1x, /pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla4_hu_f78c305d8503bf7d.jpg 2x"
          alt="entering attribute data into QField" 
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
+
 <h5 id="entering-attribute-data-into-qfield-such-as-number-of-vanilla-plants-and-block-sheet-and-lot-number-which-identify-land-parcels"><em>Entering attribute data into QField such as number of vanilla plants and block sheet and lot number which identify land parcels.</em></h5>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla5_hu_dd55f28a7d350ae7.jpg" srcset="/pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla5_hu_dd55f28a7d350ae7.jpg 1x, /pr-preview/pr-59/success-stories/vanilla-surveys/use_study_vanilla5_hu_a81fc65a950d57b1.jpg 2x"
          alt="extension officers" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
+
 <hr>
 <ol>
     <li id="fn:1">
@@ -1069,7 +1144,8 @@ Back at the office, it took only 2 hours to treat the data and get the final res
       
       <description>How a community-based monitoring program in Ghana&#39;s Tano Offin Forest Reserve used QField to achieve remarkable conservation results through Payment for Ecosystem Services</description>
       <content:encoded><![CDATA[<h3 id="the-challenge">The Challenge</h3>
-<p>Ghana&rsquo;s Tano Offin Forest Reserve, one of the country&rsquo;s most biodiverse areas supporting 569 species including seven globally threatened ones, faced a critical threat. Satellite imagery revealed that without intervention, the forest was projected to lose <strong>56 hectares annually to illegal farming and logging activities.</strong> Traditional monitoring methods using &ldquo;pen and paper&rdquo; were insufficient to respond quickly to emerging deforestation threats detected by remote sensing. The Alliance of Bioversity International and <a href="https://www.cgiar.org/" target="_blank" rel="noopener">CIAT</a>, working with local partners including the Ghana Forestry Commission, needed a way to rapidly ground-truth satellite alerts and engage local communities in real-time forest monitoring. The challenge was particularly complex given the rural setting where many community members had limited literacy and technology experience.</p>
+<p>Ghana&rsquo;s Tano Offin Forest Reserve, one of the country&rsquo;s most biodiverse areas supporting 569 species including seven globally threatened ones, faced a critical threat. Satellite imagery revealed that without intervention, the forest was projected to lose <strong>56 hectares annually to illegal farming and logging activities.</strong> Traditional monitoring methods using &ldquo;pen and paper&rdquo; were insufficient to respond quickly to emerging deforestation threats detected by remote sensing. The Alliance of Bioversity International and <a href="https://www.cgiar.org/" target="_blank" rel="noopener">CIAT</a>
+, working with local partners including the Ghana Forestry Commission, needed a way to rapidly ground-truth satellite alerts and engage local communities in real-time forest monitoring. The challenge was particularly complex given the rural setting where many community members had limited literacy and technology experience.</p>
 <h3 id="the-solution">The Solution</h3>
 <p>The project team implemented an innovative community-based monitoring system using QField on Android tablets. Twelve young farmers were trained as volunteers to verify deforestation alerts generated by the Terra-i satellite monitoring system, which uses freely available Sentinel 1 and 2 Copernicus satellite data to detect forest changes fortnightly.</p>
 <h4 id="the-qfield-workflow-was-designed-for-simplicity">The QField workflow was designed for simplicity:</h4>
@@ -1084,6 +1160,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="enter alt" 
          class="figure-img img-fluid gallery-img" width="1200" height="540"
          loading="lazy"></figure>
+
 <h5 id="accountability-team-members"><em>Accountability Team members</em></h5>
 <h3 id="the-result">The Result</h3>
 <p>After just one year of implementation (July 2023 to July 2024), the project achieved <strong>extraordinary conservation outcomes</strong> across 1,044 hectares.</p>
@@ -1102,6 +1179,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="enter alt" 
          class="figure-img img-fluid gallery-img" width="1200" height="540"
          loading="lazy"></figure>
+
 <h5 id="accountability-team-member-checks-alerts"><em>Accountability Team member checks alerts</em></h5>
 <h3 id="scaling-conservation-impact">Scaling Conservation Impact</h3>
 <p>The success has demonstrated the potential for expanding this model across West Africa and beyond. The Payment for Ecosystem Services approach, combined with QField&rsquo;s accessible technology platform, provides a replicable framework for community-led forest conservation.</p>
@@ -1109,7 +1187,8 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 <p>The project showcases how mobile GIS technology can bridge the gap between satellite monitoring and community action, turning local residents from potential forest threats into <strong>empowered conservation guardians.</strong> <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/ghana-deforestation/ghana-3.jpeg" srcset="/pr-preview/pr-59/success-stories/ghana-deforestation/ghana-3.jpeg 1x, /pr-preview/pr-59/success-stories/ghana-deforestation/ghana-3_hu_bc62d38e318d717c.jpeg 2x"
          alt="enter alt" 
          class="figure-img img-fluid gallery-img" width="576" height="1071"
-         loading="lazy"></figure></p>
+         loading="lazy"></figure>
+</p>
 <h5 id="coordinator-helps-check-alerts"><em>Coordinator helps check alerts</em></h5>
 ]]></content:encoded>
     </item>
@@ -1131,6 +1210,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="mt price" 
          class="figure-img img-fluid gallery-img" width="1200" height="444"
          loading="lazy"></figure>
+
 <h5 id="waitangitahuna-river-on-the-left-and-whataroa-from-mt-price"><em>Waitangitahuna River on the left and Whataroa from Mt Price</em></h5>
 <h3 id="tracking-20000-devices-in-the-field">Tracking 20,000 Devices in the Field</h3>
 <p>The scale of data management required for this operation is immense. ZIP manages approximately 20,000 field devices through QField in their South Westland project alone—including trail cameras, AI cameras, bait stations, and cage traps. Each device requires ongoing servicing, maintenance, and data collection.</p>
@@ -1142,10 +1222,12 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 <p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/zero-invasive-predators/zero-invasive-2_hu_f44987a574b2ea73.jpeg" srcset="/pr-preview/pr-59/success-stories/zero-invasive-predators/zero-invasive-2_hu_f44987a574b2ea73.jpeg 1x, /pr-preview/pr-59/success-stories/zero-invasive-predators/zero-invasive-2_hu_1e3317f6a7443736.jpeg 2x"
          alt="devices" 
          class="figure-img img-fluid gallery-img" width="1200" height="1600"
-         loading="lazy"></figure> <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/zero-invasive-predators/zero-invasive-5.jpeg" srcset="/pr-preview/pr-59/success-stories/zero-invasive-predators/zero-invasive-5.jpeg 1x, /pr-preview/pr-59/success-stories/zero-invasive-predators/zero-invasive-5_hu_1ec78dfb90934c7.jpeg 2x"
+         loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/zero-invasive-predators/zero-invasive-5.jpeg" srcset="/pr-preview/pr-59/success-stories/zero-invasive-predators/zero-invasive-5.jpeg 1x, /pr-preview/pr-59/success-stories/zero-invasive-predators/zero-invasive-5_hu_1ec78dfb90934c7.jpeg 2x"
           alt="PFSW TMAP Rakiura" 
           class="figure-img img-fluid gallery-img" width="1000" height="1414"
-          loading="lazy"></figure></p>
+          loading="lazy"></figure>
+</p>
 <h3 id="the-evolution-to-digital-data-collection">The Evolution to Digital Data Collection</h3>
 <p>ZIP&rsquo;s journey to QField began with a creative but limited solution—using Garmin GPS units to manually record data in JSON format within text fields. While innovative, this system showed its limitations as operations expanded from a 400-hectare pilot site to 12,000 hectares of challenging terrain.</p>
 <p><em>&ldquo;The GPX capture was starting to show its limitations, and using notepads to record data was pretty much showing its limitations,&rdquo;</em></p>
@@ -1171,10 +1253,12 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="field team coordination" 
          class="figure-img img-fluid gallery-img" width="1000" height="667"
          loading="lazy"></figure>
+
 <h3 id="looking-to-the-future">Looking to the Future</h3>
 <p>As ZIP continues to expand their operations—including beginning work on Stewart Island (Rakiura), a 170,000-hectare project—the scalability of QField becomes increasingly valuable.</p>
 <p>The organization remains committed to the open-source technology stack that supports their conservation work. <em>&ldquo;We&rsquo;re very appreciative of the open-source stack that supports all of our work,&rdquo;. &ldquo;The amount of data that we&rsquo;re housing—our detection records are in the tens of millions—and that&rsquo;s all on PostgreSQL and GeoServer.&rdquo;</em></p>
-<p>📷 Photos taken by <a href="https://zip.org.nz/teamfeed/2018/1/chad-cottle" target="_blank" rel="noopener">Chad Cottle</a></p>
+<p>📷 Photos taken by <a href="https://zip.org.nz/teamfeed/2018/1/chad-cottle" target="_blank" rel="noopener">Chad Cottle</a>
+</p>
 ]]></content:encoded>
     </item>
     
@@ -1185,9 +1269,11 @@ Back at the office, it took only 2 hours to treat the data and get the final res
       
       <guid>https://qfield.org/pr-preview/pr-59/success-stories/sarawak/</guid>
       
-      <description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href=&#34;https://bmf.ch/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Bruno Manser Fonds&lt;/a&gt; working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.&lt;/p&gt;
+      <description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href=&#34;https://bmf.ch/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Bruno Manser Fonds&lt;/a&gt;
+ working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.&lt;/p&gt;
 &lt;p&gt;The goal is simple to describe, but powerful in practice: &lt;strong&gt;create maps that show where people live and what matters to them&lt;/strong&gt;. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>In parts of Sarawak (Malaysia), indigenous communities are <strong>actively resisting deforestation and fighting for land rights</strong>. For one <a href="https://bmf.ch/en" target="_blank" rel="noopener">The Bruno Manser Fonds</a> working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.</p>
+      <content:encoded><![CDATA[<p>In parts of Sarawak (Malaysia), indigenous communities are <strong>actively resisting deforestation and fighting for land rights</strong>. For one <a href="https://bmf.ch/en" target="_blank" rel="noopener">The Bruno Manser Fonds</a>
+ working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.</p>
 <p>The goal is simple to describe, but powerful in practice: <strong>create maps that show where people live and what matters to them</strong>. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.</p>
 <p>This is not only useful for planning and storytelling. In at least one case, a community map was used in court as <strong>evidence</strong> of long-standing connection and use. The community could show place names and key sites in a way that helped to <strong>prove</strong> that they have been living in those areas for a long time.</p>
 <h3 id="why-mapping-needs-more-than-satellite-imagery">Why mapping needs more than satellite imagery</h3>
@@ -1197,6 +1283,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="" 
          class="figure-img img-fluid gallery-img" width="600" height="400" style="ZgotmplZ"
          loading="lazy"></figure>
+
 <h3 id="the-reality-in-the-field-connectivity-comes-and-goes">The reality in the field: connectivity comes and goes</h3>
 <p>A second challenge is technical but very real: <strong>internet access</strong>. Many of these villages have unreliable connectivity, and “offline” can mean days or weeks, not just a few hours between the office and the field.</p>
 <p>That matters because community mapping usually involves <strong>large basemaps and plenty of edits from multiple devices</strong>. If you can’t reliably push data back and forth online, you need a workflow that works without it.</p>
@@ -1206,6 +1293,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="" 
          class="figure-img img-fluid gallery-img" width="300" height="400" style="ZgotmplZ"
          loading="lazy"></figure>
+
 <p><strong>1. Co-designing the project with each community</strong></p>
 <p>Before fieldwork begins, the team sits with the community and adapts the project to what they want to map.</p>
 <p><strong>Different communities care about different things.</strong> A village close to a river may want specific river sections and names recorded in detail. Another community might focus more on forest resources or cultural sites. Together, they decide:</p>
@@ -1231,6 +1319,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
          alt="" 
          class="figure-img img-fluid gallery-img" width="600" height="338" style="ZgotmplZ"
          loading="lazy"></figure>
+
 <h3 id="the-final-deliverable-that-matters-most-a-printed-map">The final deliverable that matters most: a printed map</h3>
 <p><strong>Digital maps are essential for fieldwork</strong>, but the “finished” outcome for many communities is a <strong>high-quality printed map</strong>, with a thoughtful layout and space for metadata and stories.</p>
 <p>A printed map does something phones do not. People can spread it out, gather around it, point to places, and talk. It feels permanent. It can be stored, shared, and used as proof in a way that carries weight locally.</p>
@@ -1242,7 +1331,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778084763-584977778"
+     data-gallery-id="gallery-1778189403-737830722"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1253,21 +1342,24 @@ At first, the idea might sound like giving people a basemap. But it was more tha
          class="figure-img img-fluid gallery-img" width="800" height="600"
          loading="lazy"></figure>
 
+
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/sarawak/sarawak-3.jpg" srcset="/pr-preview/pr-59/success-stories/sarawak/sarawak-3.jpg 1x, /pr-preview/pr-59/success-stories/sarawak/sarawak-3_hu_d6c89a8b60ee89d0.jpg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="800" height="450"
          loading="lazy"></figure>
+
 
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/success-stories/sarawak/sarawak-5.jpg" srcset="/pr-preview/pr-59/success-stories/sarawak/sarawak-5.jpg 1x, /pr-preview/pr-59/success-stories/sarawak/sarawak-5_hu_b281c337d83e7e5c.jpg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="800" height="450"
          loading="lazy"></figure>
 
+
 </div>
 
 <style>
  
-#gallery-1778084763-584977778 .carousel-item .gallery-img {
+#gallery-1778189403-737830722 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1275,11 +1367,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1778084763-584977778 .carousel-item {
+#gallery-1778189403-737830722 .carousel-item {
   height: auto;
 }
 
-#gallery-1778084763-584977778 .carousel-item .figure {
+#gallery-1778189403-737830722 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1288,11 +1380,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1778084763-584977778 .carousel-item .figure .gallery-img {
+#gallery-1778189403-737830722 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778084763-584977778 .carousel-item .figure .figure-caption {
+#gallery-1778189403-737830722 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1301,13 +1393,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1778084763-584977778 .carousel-item .gallery-img {
+  #gallery-1778189403-737830722 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778084763-584977778 .carousel-item .gallery-img {
+  #gallery-1778189403-737830722 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1325,7 +1417,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       <guid>https://qfield.org/pr-preview/pr-59/success-stories/vocational-training/</guid>
       
       <description>In the French-speaking region of Switzerland, ORIF is using QField to transform how students with physical or psychological challenges learn geomatics—providing them with professional-grade tools and a pathway back into the workforce.</description>
-      <content:encoded><![CDATA[<p>In the French-speaking region of Switzerland, <a href="https://www.orif.ch/fr/" target="_blank" rel="noopener">ORIF</a> is using QField to <strong>transform how students with physical or psychological challenges learn geomatics</strong>, providing them with professional-grade tools and a pathway back into the workforce.</p>
+      <content:encoded><![CDATA[<p>In the French-speaking region of Switzerland, <a href="https://www.orif.ch/fr/" target="_blank" rel="noopener">ORIF</a>
+ is using QField to <strong>transform how students with physical or psychological challenges learn geomatics</strong>, providing them with professional-grade tools and a pathway back into the workforce.</p>
 <p>ORIF is not a typical geomatics company. This vocational training organization provides apprenticeships across 30 different trades for people who have experienced <strong>life-changing injuries or psychological challenges</strong> and need to <strong>reorient their careers</strong>.
 Five years ago, Patrick Darbellay opened ORIF&rsquo;s geomatics section, creating opportunities for students to learn <strong>surveying, GNSS technology, and GIS software</strong> through a four-year apprenticeship program.</p>
 <h3 id="choosing-the-right-tools">Choosing the Right Tools</h3>
@@ -1335,21 +1428,24 @@ Five years ago, Patrick Darbellay opened ORIF&rsquo;s geomatics section, creatin
 <h3 id="from-paper-to-digital">From Paper to Digital</h3>
 <p>Before QField, students used paper notebooks to record attributes and a Trimble GNSS receiver for coordinates. Patrick worked with his students to develop a QField-based system that <strong>captures field data directly on mobile devices while maintaining rigorous GNSS survey protocols.</strong></p>
 <p>This hybrid approach gives students professional-grade GNSS data collection with detailed protocol logs for learning, combined with efficient digital attribute capture through QField.</p>
-<figure class="figure text-center mb-4"><img src="--.jpg"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/--.jpg"
          alt="picture" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
+
 <h3 id="real-world-projects">Real-World Projects</h3>
 <p>ORIF&rsquo;s students conduct actual professional work supporting Switzerland&rsquo;s cadastral system. Their current project involves renewing base points (control points) used for official surveying across their region – approximately 2,000 points in total.</p>
 <p><em>&ldquo;We go to the field, we search for these points. If we find them, we survey them. Then in QField, we put the state—if it&rsquo;s good or not, if it&rsquo;s level. We take a photo, we link the photo in QField, we enter all the attributes and the date of surveying&rdquo;</em></p>
 <p>The project is carefully chosen to provide valuable experience without competing with local geomatics companies — many of which eventually employ ORIF graduates. The work gives students complete surveying experience: <strong>GNSS measurements, photography, attribute data entry, and physical marking with spray paint</strong>.</p>
-<p><figure class="figure text-center mb-4"><img src="--.jpeg"
+<p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/--.jpeg"
          alt="pic" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure> <figure class="figure text-center mb-4"><img src="--.jpeg"
+         loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/--.jpeg"
           alt="pic" 
           class="figure-img img-fluid gallery-img"
-          loading="lazy"></figure></p>
+          loading="lazy"></figure>
+</p>
 <h3 id="building-confidence">Building Confidence</h3>
 <p>For students at ORIF, the ability to produce professional work using modern tools has impacts <strong>beyond technical skills</strong>.</p>
 <p><em>&ldquo;It&rsquo;s really special—it&rsquo;s not only geomatics, it&rsquo;s a bit social and psychological. For them, it&rsquo;s really valuable because they can make something themselves and produce something themselves. If you have trouble and a part of your life is difficult, you&rsquo;re a bit down. If you can go up again with such tools, I think that&rsquo;s really valuable.&rdquo;</em></p>
@@ -1382,22 +1478,25 @@ Five years ago, Patrick Darbellay opened ORIF&rsquo;s geomatics section, creatin
 <p>The fortifications present unique challenges. Many were filled with sand in the decades following the war. Now, that sand is settling and draining away, creating new gaps and hazards.</p>
 <p><em>&ldquo;The sands with which these bunkers had been filled up is now filling in and it opens new gaps, new holes in the surface. That is especially the thing we are tackling because we not only map these objects, we also get back to them every few years.&rdquo;</em></p>
 <p><strong>The scale is immense:</strong> tracking safety risks, determining protective measures, and monitoring changes across a zone 600 kilometers long and up to 30 kilometers wide. Some structures near populated areas require fencing. Others in remote woodland need only warning signs. The key is knowing which is which, and tracking how conditions evolve.</p>
-<figure class="figure text-center mb-4"><img src="--.jpg"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/--.jpg"
          alt="picture" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
+
 <h3 id="from-paper-maps-to-digital-collaboration">From Paper Maps to Digital Collaboration</h3>
 <p>For 15 years, volunteers mapped using paper maps, each person working on their own island. Patrice would receive photocopied maps and Excel spreadsheets, spending hours trying to reconcile different symbologies.</p>
 <p><em>&ldquo;What does that mean when they made a cross on the map? How does that fit with their Excel sheet that they maybe sent me in 2005?&rdquo;</em></p>
 <p>Patrice began using specialized GIS software in 2010, but found it difficult to share projects. In 2017, he started experimenting with QGIS. <strong>Then in 2019, he discovered QField.</strong></p>
 <p><em>&ldquo;I started using QField in 2019 and I felt that this was the state of the art after the tools I used before.&rdquo;</em></p>
-<p><figure class="figure text-center mb-4"><img src="--.jpeg"
+<p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/--.jpeg"
          alt="pic" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure> <figure class="figure text-center mb-4"><img src="--.jpeg"
+         loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/--.jpeg"
           alt="pic" 
           class="figure-img img-fluid gallery-img"
-          loading="lazy"></figure></p>
+          loading="lazy"></figure>
+</p>
 <h3 id="scaling-up-with-qfieldcloud">Scaling Up with QFieldCloud</h3>
 <p>Within six months, Patrice began distributing QField projects to other volunteers. But as the network grew—especially during COVID-19—manually distributing projects became unsustainable. Then QFieldCloud arrived, solving the scalability problem completely.</p>
 <p><em>&ldquo;I just create these projects. I put them onto the cloud. People can gather them. They go into the field. The only thing I need to explain to them is how to map, what data are to be collected. They learn that within a few minutes. They upload these data and synchronize again with the QField cloud. And I can see these data in the next minutes again already here on my desktop.&rdquo;</em></p>
@@ -1415,10 +1514,11 @@ Five years ago, Patrick Darbellay opened ORIF&rsquo;s geomatics section, creatin
 <p>New volunteers become productive quickly. Patrice typically provides initial training through a single online or face-to-face session, and volunteers are mapping independently within weeks.</p>
 <p><em>&ldquo;I have seen people going into this without even having a GIS system before and they work with this after a few weeks as if they have never done anything else before. It does not need some software in which you need to spend a lot of time to learn it. That&rsquo;s my job. And all the people outside in the field, they don&rsquo;t need to understand that in that depth.&rdquo;</em></p>
 <p>This <strong>ease of adoption</strong> means Patrice can focus volunteers on what matters: understanding the history and significance of what they&rsquo;re documenting.</p>
-<figure class="figure text-center mb-4"><img src="--.jpg"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/--.jpg"
          alt="pic" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
+
 <h3 id="data-that-serves-multiple-purposes">Data That Serves Multiple Purposes</h3>
 <p>The database serves <strong>various stakeholders with different needs</strong>. Some structures can be made public for educational purposes. Others must remain confidential due to safety concerns, property rights, or ecological considerations.</p>
 <p>Federal monument agencies receive data they need. Property owners get information about structures on their land. Ecologists access data about habitat. And the public gains access to appropriate historical information.</p>

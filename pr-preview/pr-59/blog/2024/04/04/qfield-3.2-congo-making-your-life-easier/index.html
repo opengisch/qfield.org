@@ -112,7 +112,7 @@ Main highlights This new release introduces project-defined tracking sessions, w
     
     "name": "QField - Efficient field work built for QGIS"
   },
-  "wordCount" :  558 ,
+  "wordCount" :  559 ,
   "description": "Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2\nMain highlights This new release introduces project-defined tracking sessions, which are …",
   "keywords": []
 }
@@ -145,7 +145,7 @@ Main highlights This new release introduces project-defined tracking sessions, w
 }
 </script>
 
-    <link rel="icon" type="image/svg+xml" href="/images/qfield-logo.svg">
+    <link rel="icon" type="image/svg+xml" href="/pr-preview/pr-59/images/qfield-logo.svg">
 
 
 </head>
@@ -155,12 +155,12 @@ Main highlights This new release introduces project-defined tracking sessions, w
 
       <a class="navbar-brand fw-bold" href="/pr-preview/pr-59/">
         
-        <img src="/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
+        <img src="/pr-preview/pr-59/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--light" loading="eager" decoding="async">
         
 
         
-        <img src="/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
+        <img src="/pr-preview/pr-59/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--dark" loading="eager" decoding="async">
         
 
@@ -288,7 +288,8 @@ Main highlights This new release introduces project-defined tracking sessions, w
         </div>
     </div>
   </nav>
-</header><div id="content">
+</header>
+<div id="content">
 
 
 <section class="py-2">
@@ -296,7 +297,7 @@ Main highlights This new release introduces project-defined tracking sessions, w
     
     
     <div class="my-4">
-      <a href="/blog/" class="btn btn-outline-secondary btn-sm">
+      <a href="/pr-preview/pr-59/blog/" class="btn btn-outline-secondary btn-sm">
         <i class="fas fa-arrow-left me-2"></i>Back to Blog
       </a>
     </div>
@@ -340,15 +341,19 @@ Main highlights This new release introduces project-defined tracking sessions, w
          alt="" 
          class="figure-img img-fluid gallery-img" width="956" height="597"
          loading="lazy"></figure>
-<p>This new release introduces <strong>project-defined tracking sessions, which are automatically activated when the project is loaded</strong>. Defined while setting up and tweaking a project on QGIS, these sessions permit the automated tracking of device positions without taking any action in QField beyond opening the project itself. This liberates field users from remembering to launch a session on app launch and lowers the knowledge required to collect such data. For more details, please read the <a href="https://docs.qfield.org/how-to/tracking/#configure-a-project-tracking-session" target="_blank" rel="noopener">relevant QField documentation section</a>.</p>
+
+<p>This new release introduces <strong>project-defined tracking sessions, which are automatically activated when the project is loaded</strong>. Defined while setting up and tweaking a project on QGIS, these sessions permit the automated tracking of device positions without taking any action in QField beyond opening the project itself. This liberates field users from remembering to launch a session on app launch and lowers the knowledge required to collect such data. For more details, please read the <a href="https://docs.qfield.org/how-to/tracking/#configure-a-project-tracking-session" target="_blank" rel="noopener">relevant QField documentation section</a>
+.</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/session.png" srcset="/pr-preview/pr-59/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/session.png 1x, /pr-preview/pr-59/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/session_hu_81462bd0eb1e499b.png 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="942" height="583"
          loading="lazy"></figure>
+
 <p>As good as the above-described functionality sounds, it really shines through in cloud projects when paired with two other new featurs.</p>
 <p>First, cloud projects can now automatically push accumulated changes at regular intervals. The functionality can be manually toggled for any cloud project by going to the synchronization panel in QField and activating the relevant toggle (see middle screenshot above). It can also be turned on project load by enabling automatic push when setting up the project in QGIS via the project properties dialog. When activated through this project setting, the functionality will always be activated, and the need for field users to take any action will be removed.</p>
 <p>Pushing changes regularly is great, but it could easily have gotten in the way of blocking popups. This is why QField 3.2 can now push changes and synchronize cloud projects in the background. We still kept a ‘successfully pushed changes’ toast message to let you know the magic has happened 🚀</p>
-<p>With all of the above, cloud projects on QField can now deliver near real-time tracking of devices in the field, all configured on one desktop machine and deployed through QFieldCloud. Thanks to <a href="https://groupementsforestiers.quebec/" target="_blank" rel="noopener">Groupements forestiers Québec</a> for sponsoring these enhancements.</p>
+<p>With all of the above, cloud projects on QField can now deliver near real-time tracking of devices in the field, all configured on one desktop machine and deployed through QFieldCloud. Thanks to <a href="https://groupementsforestiers.quebec/" target="_blank" rel="noopener">Groupements forestiers Québec</a>
+ for sponsoring these enhancements.</p>
 <p>Other noteworthy feature additions in this release include:</p>
 <ul>
 <li>A <strong>brand new undo/redo mechanism allows users to rollback feature addition, editing, and/or deletion</strong> at will. The redesigned QField main menu is accessible by long pressing on the top-left dashboard button.</li>
@@ -359,8 +364,10 @@ Main highlights This new release introduces project-defined tracking sessions, w
          alt="" 
          class="figure-img img-fluid gallery-img" width="866" height="491"
          loading="lazy"></figure>
+
 <p>The <strong>QFieldCloud user experience continues to be improved</strong>. In this release, we have reworked the visual feedback provided when downloading and synchronizing projects through the addition of a progress bar as well as additional details, such as the overall size of the files being fetched. In addition, a visual indicator has been added to the dashboard and the cloud projects list to alert users to the presence of a newer project file on the cloud for projects locally available on the device.</p>
-<p>With that said, if you haven&rsquo;t signed onto <a href="https://app.qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a> yet, try it! Psst, the community account is free 🤫</p>
+<p>With that said, if you haven&rsquo;t signed onto <a href="https://app.qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
+ yet, try it! Psst, the community account is free 🤫</p>
 <p>The <strong>creation of relationship children during feature digitizing is now smoother</strong> as we lifted the requirement to save a parent feature <em>before</em> creating children. Users can now proceed in the order that feels most natural to them.</p>
 <p>Finally, Android users will be happy to hear that a <strong>significant rework of native camera, gallery, and file picker</strong> activities has led to increased stability and much better integration with Android itself. Activities such as the gallery are now properly overlayed on top of the QField map canvas instead of showing a black screen.</p>
 
@@ -395,7 +402,7 @@ Main highlights This new release introduces project-defined tracking sessions, w
               <a target="_blank" rel="noopener noreferrer" 
                  aria-label="Share QField 3.2 “Congo”: Making your life easier on LinkedIn" 
                  title="Share on LinkedIn"
-                 href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-59%2Fblog%2F2024%2F04%2F04%2Fqfield-3.2-congo-making-your-life-easier%2F&title=QField&#43;3.2&#43;%E2%80%9CCongo%E2%80%9D%3A&#43;Making&#43;your&#43;life&#43;easier&summary=%3Cp%3EFocused&#43;on&#43;stability&#43;and&#43;usability&#43;improvements%2C&#43;most&#43;users&#43;will&#43;find&#43;something&#43;to&#43;celebrate&#43;in&#43;QField&#43;3.2%3C%2Fp%3E%0A%3Ch2&#43;id%3D%22main-highlights%22%3E%3Cstrong%3EMain&#43;highlights%3C%2Fstrong%3E%3C%2Fh2%3E%0A%3Cfigure&#43;class%3D%22figure&#43;text-center&#43;mb-4%22%3E%3Cimg&#43;src%3D%22%2Fpr-preview%2Fpr-59%2Fblog%2F2024%2F04%2F04%2Fqfield-3.2-congo-making-your-life-easier%2Fqfield32.png%22&#43;srcset%3D%22%2Fpr-preview%2Fpr-59%2Fblog%2F2024%2F04%2F04%2Fqfield-3.2-congo-making-your-life-easier%2Fqfield32.png&#43;1x%2C&#43;%2Fpr-preview%2Fpr-59%2Fblog%2F2024%2F04%2F04%2Fqfield-3.2-congo-making-your-life-easier%2Fqfield32_hu_689859826e404548.png&#43;2x%22%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;alt%3D%22%22&#43;%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;class%3D%22figure-img&#43;img-fluid&#43;gallery-img%22&#43;width%3D%22956%22&#43;height%3D%22597%22%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;loading%3D%22lazy%22%3E%3C%2Ffigure%3E%0A%3Cp%3EThis&#43;new&#43;release&#43;introduces&#43;%3Cstrong%3Eproject-defined&#43;tracking&#43;sessions%2C&#43;which&#43;are&#43;automatically&#43;activated&#43;when&#43;the&#43;project&#43;is&#43;loaded%3C%2Fstrong%3E.&#43;Defined&#43;while&#43;setting&#43;up&#43;and&#43;tweaking&#43;a&#43;project&#43;on&#43;QGIS%2C&#43;these&#43;sessions&#43;permit&#43;the&#43;automated&#43;tracking&#43;of&#43;device&#43;positions&#43;without&#43;taking&#43;any&#43;action&#43;in&#43;QField&#43;beyond&#43;opening&#43;the&#43;project&#43;itself.&#43;This&#43;liberates&#43;field&#43;users&#43;from&#43;remembering&#43;to&#43;launch&#43;a&#43;session&#43;on&#43;app&#43;launch&#43;and&#43;lowers&#43;the&#43;knowledge&#43;required&#43;to&#43;collect&#43;such&#43;data.&#43;For&#43;more&#43;details%2C&#43;please&#43;read&#43;the&#43;%3Ca&#43;href%3D%22https%3A%2F%2Fdocs.qfield.org%2Fhow-to%2Ftracking%2F%23configure-a-project-tracking-session%22&#43;target%3D%22_blank%22&#43;rel%3D%22noopener%22%3Erelevant&#43;QField&#43;documentation&#43;section%3C%2Fa%3E.%3C%2Fp%3E&source=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-59%2Fblog%2F2024%2F04%2F04%2Fqfield-3.2-congo-making-your-life-easier%2F">
+                 href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-59%2Fblog%2F2024%2F04%2F04%2Fqfield-3.2-congo-making-your-life-easier%2F&title=QField&#43;3.2&#43;%E2%80%9CCongo%E2%80%9D%3A&#43;Making&#43;your&#43;life&#43;easier&summary=%3Cp%3EFocused&#43;on&#43;stability&#43;and&#43;usability&#43;improvements%2C&#43;most&#43;users&#43;will&#43;find&#43;something&#43;to&#43;celebrate&#43;in&#43;QField&#43;3.2%3C%2Fp%3E%0A%3Ch2&#43;id%3D%22main-highlights%22%3E%3Cstrong%3EMain&#43;highlights%3C%2Fstrong%3E%3C%2Fh2%3E%0A%3Cfigure&#43;class%3D%22figure&#43;text-center&#43;mb-4%22%3E%3Cimg&#43;src%3D%22%2Fpr-preview%2Fpr-59%2Fblog%2F2024%2F04%2F04%2Fqfield-3.2-congo-making-your-life-easier%2Fqfield32.png%22&#43;srcset%3D%22%2Fpr-preview%2Fpr-59%2Fblog%2F2024%2F04%2F04%2Fqfield-3.2-congo-making-your-life-easier%2Fqfield32.png&#43;1x%2C&#43;%2Fpr-preview%2Fpr-59%2Fblog%2F2024%2F04%2F04%2Fqfield-3.2-congo-making-your-life-easier%2Fqfield32_hu_689859826e404548.png&#43;2x%22%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;alt%3D%22%22&#43;%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;class%3D%22figure-img&#43;img-fluid&#43;gallery-img%22&#43;width%3D%22956%22&#43;height%3D%22597%22%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;loading%3D%22lazy%22%3E%3C%2Ffigure%3E%0A%0A%3Cp%3EThis&#43;new&#43;release&#43;introduces&#43;%3Cstrong%3Eproject-defined&#43;tracking&#43;sessions%2C&#43;which&#43;are&#43;automatically&#43;activated&#43;when&#43;the&#43;project&#43;is&#43;loaded%3C%2Fstrong%3E.&#43;Defined&#43;while&#43;setting&#43;up&#43;and&#43;tweaking&#43;a&#43;project&#43;on&#43;QGIS%2C&#43;these&#43;sessions&#43;permit&#43;the&#43;automated&#43;tracking&#43;of&#43;device&#43;positions&#43;without&#43;taking&#43;any&#43;action&#43;in&#43;QField&#43;beyond&#43;opening&#43;the&#43;project&#43;itself.&#43;This&#43;liberates&#43;field&#43;users&#43;from&#43;remembering&#43;to&#43;launch&#43;a&#43;session&#43;on&#43;app&#43;launch&#43;and&#43;lowers&#43;the&#43;knowledge&#43;required&#43;to&#43;collect&#43;such&#43;data.&#43;For&#43;more&#43;details%2C&#43;please&#43;read&#43;the&#43;%3Ca&#43;href%3D%22https%3A%2F%2Fdocs.qfield.org%2Fhow-to%2Ftracking%2F%23configure-a-project-tracking-session%22&#43;target%3D%22_blank%22&#43;rel%3D%22noopener%22%3Erelevant&#43;QField&#43;documentation&#43;section%3C%2Fa%3E%0A.%3C%2Fp%3E&source=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-59%2Fblog%2F2024%2F04%2F04%2Fqfield-3.2-congo-making-your-life-easier%2F">
                 <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
                   <path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z"/>
                 </svg>
@@ -503,7 +510,7 @@ Main highlights This new release introduces project-defined tracking sessions, w
 
         
         <div class="text-center">
-          <a href="/blog/" class="btn btn-outline-primary">
+          <a href="/pr-preview/pr-59/blog/" class="btn btn-outline-primary">
             <i class="fas fa-arrow-left me-2"></i>Back to All Posts
           </a>
         </div>
@@ -590,38 +597,44 @@ Main highlights This new release introduces project-defined tracking sessions, w
     <div class="container footer-subscribe-banner__inner">
       <div class="footer-subscribe-banner__text">
         <h2>Stay in the loop</h2>
-        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a> and stay up to date on the latest and greatest!</p>
+        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a>
+ and stay up to date on the latest and greatest!</p>
       </div>
     </div>
   </div>
   
 
-  
+
   <section id="about" class="py-5">
     <div class="container">
       <div class="row gy-4">
         
-        <div class="col-12">
-          <h3>About QField</h3>
+        <div class="col-12"><h3>About QField</h3>
           <p>QField is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management.
-As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>, promoting a more sustainable and equitable future.</p>
+As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/pr-preview/pr-59/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>
+, promoting a more sustainable and equitable future.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Open-source</h3>
-          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a> under the GNU Public License (GPL) version 2 or later.
+        <div class="col-12"><h3>Open-source</h3>
+          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a>
+ under the GNU Public License (GPL) version 2 or later.
 Developing QField under this license means that you can inspect and modify the source code and guarantees that you will always have access to a QGIS based field data collection app that is free of cost and can be freely modified.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Legal</h3>
-          <p>View the QField <a href="/privacy_policy">Privacy Policy</a> to learn what information we collect and how we protect it, and the <a href="/guidelines">Trademark and Brand Guidelines</a> for permitted uses of the QField name and logo.</p>
+        <div class="col-12"><h3>Legal</h3>
+          <p>View the QField <a href="/pr-preview/pr-59/privacy_policy">Privacy Policy</a>
+ to learn what information we collect and how we protect it, and the <a href="/pr-preview/pr-59/guidelines">Trademark and Brand Guidelines</a>
+ for permitted uses of the QField name and logo.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Credits</h3>
-          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>.
-OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a> and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a> for open-source software including QField, QGIS and PostGIS.</p>
+        <div class="col-12"><h3>Credits</h3>
+          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>
+.
+OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>
+, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>
+, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a>
+ and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a>
+ for open-source software including QField, QGIS and PostGIS.</p>
         </div>
         
 

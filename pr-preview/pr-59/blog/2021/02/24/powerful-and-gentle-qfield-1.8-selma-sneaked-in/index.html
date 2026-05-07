@@ -110,7 +110,7 @@
     
     "name": "QField - Efficient field work built for QGIS"
   },
-  "wordCount" :  1023 ,
+  "wordCount" :  1025 ,
   "description": "Get fieldwork smoothly and nimbly done despite the ice and snow outside. Collect accurate data with freehand digitizing and improved form widgets, use the data from your external GNSS receivers …",
   "keywords": []
 }
@@ -143,7 +143,7 @@
 }
 </script>
 
-    <link rel="icon" type="image/svg+xml" href="/images/qfield-logo.svg">
+    <link rel="icon" type="image/svg+xml" href="/pr-preview/pr-59/images/qfield-logo.svg">
 
 
 </head>
@@ -153,12 +153,12 @@
 
       <a class="navbar-brand fw-bold" href="/pr-preview/pr-59/">
         
-        <img src="/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
+        <img src="/pr-preview/pr-59/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--light" loading="eager" decoding="async">
         
 
         
-        <img src="/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
+        <img src="/pr-preview/pr-59/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--dark" loading="eager" decoding="async">
         
 
@@ -286,7 +286,8 @@
         </div>
     </div>
   </nav>
-</header><div id="content">
+</header>
+<div id="content">
 
 
 <section class="py-2">
@@ -294,7 +295,7 @@
     
     
     <div class="my-4">
-      <a href="/blog/" class="btn btn-outline-secondary btn-sm">
+      <a href="/pr-preview/pr-59/blog/" class="btn btn-outline-secondary btn-sm">
         <i class="fas fa-arrow-left me-2"></i>Back to Blog
       </a>
     </div>
@@ -341,6 +342,7 @@
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="804"
          loading="lazy"></figure>
+
 <p>Together with the powerful options in the topological editing where you can snap to existing features and avoid overlaps, it&rsquo;s very convenient to digitize complex shapes.</p>
 <h2 id="zoom-in-and-out">Zoom in and out</h2>
 <p>Speaking of fun. One day, a guy from the QGIS community asked us if we could implement the functionality to zoom in and zoom out like he is able to do with an app called Maps from a company named Google. I didn&rsquo;t know what he meant, but he explained: Single finger double tap-and-hold zoom gesture (which allows you to zoom smoothly from anywhere on the screen). Wow! Didn&rsquo;t know it before, but it&rsquo;s super neat! So we made it available in QField as well.</p>
@@ -348,6 +350,7 @@
          alt="" 
          class="figure-img img-fluid gallery-img" width="1195" height="618"
          loading="lazy"></figure>
+
 <p>If you are used to it, it&rsquo;s quite easy. But for beginners it can be a bit difficult. So for people who are not that deft - and to keep the UX self-explanatory and simple - we also added two buttons + / - to zoom in and zoom out with just one finger. So now even a clumsy pirate with a hook instead of a hand can collect data with QField :-)</p>
 <h2 id="powerful-relation-reference-widget">Powerful Relation Reference Widget</h2>
 <p>Let&rsquo;s be a little bit more serious and talk about how powerful the relation reference widget has become.</p>
@@ -360,6 +363,7 @@
          class="figure-img img-fluid gallery-img"
          loading="lazy">
   <figcaption class="figure-caption text-center">autocomplete</figcaption></figure>
+
 <p>With space-separated input, you can search for the beginning of multiple words in the display name of the parent features. So in this example searching for &ldquo;Ma&rdquo; will find the name &ldquo;Mae&rdquo; and &ldquo;Marie&rdquo; and using the second word &ldquo;buck&rdquo; it finds the Buckfast bees - so the entries containing both values will be listed on top.</p>
 <h2 id="integration-of-external-gnss-receivers">Integration of external GNSS receivers</h2>
 <p>In case you wondered, why we did not release 1.8 Selma earlier? Because we wanted to have it feature loaded and rocket proof. And one of this cool feature is the integration of external GNSS receivers.</p>
@@ -369,6 +373,7 @@
          class="figure-img img-fluid gallery-img"
          loading="lazy">
   <figcaption class="figure-caption text-center">nmea</figcaption></figure>
+
 <p>Search for paired Bluetooth devices in the device settings, connect to the external device and receive the GNSS information.</p>
 <h2 id="select-vertical-grid-shift-files">Select vertical grid shift files</h2>
 <p>In the QField settings, you can select a grid file on your mobile device by placing it in a directory named <code>QField/proj</code> in the main folder of the internal storage to increase the vertical location accuracy.</p>
@@ -382,6 +387,7 @@
          class="figure-img img-fluid gallery-img"
          loading="lazy">
   <figcaption class="figure-caption text-center">nmea</figcaption></figure>
+
 <h2 id="register-extra-fonts">Register extra fonts</h2>
 <p>Also, you can add <code>TTF</code> and <code>OTF</code> font files into a directory named <code>QField/fonts</code> at the main folder of the internal storage to use the nice fonts you like.</p>
 <figure class="figure text-center mb-4"><img src="https://user-images.githubusercontent.com/28384354/102783368-18343a80-439b-11eb-842d-a2d9bb144d5b.png"
@@ -389,12 +395,17 @@
          class="figure-img img-fluid gallery-img"
          loading="lazy">
   <figcaption class="figure-caption text-center">fonts</figcaption></figure>
+
 <p>How beautiful is that!</p>
 <h2 id="support-of-new-raster-file-formats">Support of new raster file formats</h2>
-<p>By the way: Many new raster file formats are supported - most notably <a href="https://www.cogeo.org/" target="_blank" rel="noopener">COG</a>. While not yet supported as remote format streamed directly from the web, it is also a high performance format if used locally</p>
+<p>By the way: Many new raster file formats are supported - most notably <a href="https://www.cogeo.org/" target="_blank" rel="noopener">COG</a>
+. While not yet supported as remote format streamed directly from the web, it is also a high performance format if used locally</p>
 <h2 id="what-about-the-cloud">What about the cloud?</h2>
-<p>You might be one of these people eagerly waiting and always receiving the same message: Keep calm, it&rsquo;s coming soon. Sorry for that. But when we do something, we do it right. And we prefer to have a stable solution than to publish half baked stuff. We are still highly busy coding, testing and promoting <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>. It&rsquo;s announced for this spring / early summer.</p>
-<p>Also, keep an eye on the <a href="https://twitter.com/qfieldforqgis" target="_blank" rel="noopener">@QFieldForQgis</a> and <a href="https://twitter.com/qfieldcloud" target="_blank" rel="noopener">@QFieldCloud</a> twitter accounts to stay updated.</p>
+<p>You might be one of these people eagerly waiting and always receiving the same message: Keep calm, it&rsquo;s coming soon. Sorry for that. But when we do something, we do it right. And we prefer to have a stable solution than to publish half baked stuff. We are still highly busy coding, testing and promoting <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
+. It&rsquo;s announced for this spring / early summer.</p>
+<p>Also, keep an eye on the <a href="https://twitter.com/qfieldforqgis" target="_blank" rel="noopener">@QFieldForQgis</a>
+ and <a href="https://twitter.com/qfieldcloud" target="_blank" rel="noopener">@QFieldCloud</a>
+ twitter accounts to stay updated.</p>
 <h2 id="we--our-beta-testers">We ♥ our Beta Testers</h2>
 <p>The Beta Testers are our secret heroes. They report bugs and inconveniences before the normal users are bothered with them. Thanks to the Beta Testers QField is so stable. And at this point we would like to say: Thank you, test heroes!</p>
 <p>And what do the beta testers get in return? Well, they can be the very first to try out the great new features. This is exciting and fun. So don&rsquo;t hesitate. Join the beta.</p>
@@ -402,13 +413,16 @@
          alt="" 
          class="figure-img img-fluid gallery-img" width="1080" height="511"
          loading="lazy"></figure>
-<p>In the Play Store you should find this section under the &ldquo;QField for QGIS&rdquo; app listing. Enjoy the feature frenzy and report the problems at <a href="https://qfield.org/issues" target="_blank" rel="noopener">qfield.org/issues</a></p>
+
+<p>In the Play Store you should find this section under the &ldquo;QField for QGIS&rdquo; app listing. Enjoy the feature frenzy and report the problems at <a href="https://qfield.org/issues" target="_blank" rel="noopener">qfield.org/issues</a>
+</p>
 <h2 id="and-if-you-wondered">And if you wondered&hellip;</h2>
 <p>&hellip; why this release is called &ldquo;Selma&rdquo;. It&rsquo;s of course because of the Mount Selma in Australia&hellip; And because it&rsquo;s the name of my beloved cat. That&rsquo;s her - Selma Eulenkopf - staring at me while I&rsquo;m coding QField.</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2021/02/24/powerful-and-gentle-qfield-1.8-selma-sneaked-in/selm_office_hu_e86d212037008458.jpeg" srcset="/pr-preview/pr-59/blog/2021/02/24/powerful-and-gentle-qfield-1.8-selma-sneaked-in/selm_office_hu_e86d212037008458.jpeg 1x, /pr-preview/pr-59/blog/2021/02/24/powerful-and-gentle-qfield-1.8-selma-sneaked-in/selm_office_hu_d194b6cf19264bcd.jpeg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="685"
          loading="lazy"></figure>
+
 
         </div>
     </div>
@@ -545,7 +559,7 @@
 
         
         <div class="text-center">
-          <a href="/blog/" class="btn btn-outline-primary">
+          <a href="/pr-preview/pr-59/blog/" class="btn btn-outline-primary">
             <i class="fas fa-arrow-left me-2"></i>Back to All Posts
           </a>
         </div>
@@ -633,38 +647,44 @@
     <div class="container footer-subscribe-banner__inner">
       <div class="footer-subscribe-banner__text">
         <h2>Stay in the loop</h2>
-        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a> and stay up to date on the latest and greatest!</p>
+        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a>
+ and stay up to date on the latest and greatest!</p>
       </div>
     </div>
   </div>
   
 
-  
+
   <section id="about" class="py-5">
     <div class="container">
       <div class="row gy-4">
         
-        <div class="col-12">
-          <h3>About QField</h3>
+        <div class="col-12"><h3>About QField</h3>
           <p>QField is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management.
-As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>, promoting a more sustainable and equitable future.</p>
+As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/pr-preview/pr-59/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>
+, promoting a more sustainable and equitable future.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Open-source</h3>
-          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a> under the GNU Public License (GPL) version 2 or later.
+        <div class="col-12"><h3>Open-source</h3>
+          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a>
+ under the GNU Public License (GPL) version 2 or later.
 Developing QField under this license means that you can inspect and modify the source code and guarantees that you will always have access to a QGIS based field data collection app that is free of cost and can be freely modified.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Legal</h3>
-          <p>View the QField <a href="/privacy_policy">Privacy Policy</a> to learn what information we collect and how we protect it, and the <a href="/guidelines">Trademark and Brand Guidelines</a> for permitted uses of the QField name and logo.</p>
+        <div class="col-12"><h3>Legal</h3>
+          <p>View the QField <a href="/pr-preview/pr-59/privacy_policy">Privacy Policy</a>
+ to learn what information we collect and how we protect it, and the <a href="/pr-preview/pr-59/guidelines">Trademark and Brand Guidelines</a>
+ for permitted uses of the QField name and logo.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Credits</h3>
-          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>.
-OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a> and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a> for open-source software including QField, QGIS and PostGIS.</p>
+        <div class="col-12"><h3>Credits</h3>
+          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>
+.
+OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>
+, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>
+, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a>
+ and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a>
+ for open-source software including QField, QGIS and PostGIS.</p>
         </div>
         
 

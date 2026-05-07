@@ -32,7 +32,7 @@
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778084531-877550969"
+     data-gallery-id="gallery-1778189171-402215357"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -43,21 +43,24 @@
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
 
+
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_154007_hu_c741a6598ed86b95.jpg" srcset="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_154007_hu_c741a6598ed86b95.jpg 1x, /pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_154007_hu_d606f6ce9bb33844.jpg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
 
+
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250602_163017_hu_de28dc0c800fe12c.jpg" srcset="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250602_163017_hu_de28dc0c800fe12c.jpg 1x, /pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250602_163017_hu_e0cd421e318166db.jpg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="675"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 
 </div>
 
 <style>
  
-#gallery-1778084531-877550969 .carousel-item .gallery-img {
+#gallery-1778189171-402215357 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -65,11 +68,11 @@
   display: block !important;
 }
 
-#gallery-1778084531-877550969 .carousel-item {
+#gallery-1778189171-402215357 .carousel-item {
   height: auto;
 }
 
-#gallery-1778084531-877550969 .carousel-item .figure {
+#gallery-1778189171-402215357 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -78,11 +81,11 @@
   text-align: center;
 }
 
-#gallery-1778084531-877550969 .carousel-item .figure .gallery-img {
+#gallery-1778189171-402215357 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778084531-877550969 .carousel-item .figure .figure-caption {
+#gallery-1778189171-402215357 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -91,13 +94,13 @@
 }
 
 @media (max-width: 768px) {
-  #gallery-1778084531-877550969 .carousel-item .gallery-img {
+  #gallery-1778189171-402215357 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778084531-877550969 .carousel-item .gallery-img {
+  #gallery-1778189171-402215357 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -108,7 +111,8 @@
 <h3 id="-qgisorg-updates">🎊 QGIS.org updates</h3>
 <p>As Chair of the QGIS.org association, I had the opportunity to share recent updates from the QGIS community. I spoke about ongoing development efforts, community growth, funding initiatives, and collaborations that help keep the project moving forward.<br>
 The focus was on the people who make QGIS possible — contributors, sponsors, local user groups, and everyday users — and how their involvement continues to shape the project’s direction and ensure its long-term sustainability.</p>
-<p><strong>👉 Slides <a href="https://slides.opengis.ch/talk-qgis.org/uc2025" target="_blank" rel="noopener">here</a></strong> (unfortunately keynotes and workshops were not recorded)</p>
+<p><strong>👉 Slides <a href="https://slides.opengis.ch/talk-qgis.org/uc2025" target="_blank" rel="noopener">here</a>
+</strong> (unfortunately keynotes and workshops were not recorded)</p>
 <hr>
 <h3 id="-extending-qfieldcloud--ideas-and-practical-examples"><strong>💡 Extending QFieldCloud – Ideas and Practical Examples</strong></h3>
 <p>In this talk, Michael, <em>one of our Full stack GeoNinja and Web Cartography teacher</em>, explained how QFieldCloud can be <strong>extended</strong> by integrating <strong>additional Django apps</strong>. This allowed, for example, the generation of QField projects, reacting to events from fieldwork, adding new websites and APIs, and executing entire QGIS models as QFieldCloud jobs.</p>
@@ -147,7 +151,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778084533-761615103"
+     data-gallery-id="gallery-1778189172-928496555"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -158,21 +162,24 @@ I spoke about where we’re headed next, what new features are coming, and how w
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
 
+
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_101949_hu_254fa3fdb153e407.jpg" srcset="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_101949_hu_254fa3fdb153e407.jpg 1x, /pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_101949_hu_85b76ffeda214b92.jpg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
 
+
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_163129_hu_4318071aac91cb84.jpg" srcset="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_163129_hu_4318071aac91cb84.jpg 1x, /pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_163129_hu_d90dce273cc0c7db.jpg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="675"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 
 </div>
 
 <style>
  
-#gallery-1778084533-761615103 .carousel-item .gallery-img {
+#gallery-1778189172-928496555 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -180,11 +187,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1778084533-761615103 .carousel-item {
+#gallery-1778189172-928496555 .carousel-item {
   height: auto;
 }
 
-#gallery-1778084533-761615103 .carousel-item .figure {
+#gallery-1778189172-928496555 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -193,11 +200,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1778084533-761615103 .carousel-item .figure .gallery-img {
+#gallery-1778189172-928496555 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778084533-761615103 .carousel-item .figure .figure-caption {
+#gallery-1778189172-928496555 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -206,13 +213,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1778084533-761615103 .carousel-item .gallery-img {
+  #gallery-1778189172-928496555 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778084533-761615103 .carousel-item .gallery-img {
+  #gallery-1778189172-928496555 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -231,7 +238,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778084536-171128793"
+     data-gallery-id="gallery-1778189175-194824460"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -242,21 +249,24 @@ Definitely not our last one. 💚</p>
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
 
+
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_095441_hu_9ae2c60211ebd1b3.jpg" srcset="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_095441_hu_9ae2c60211ebd1b3.jpg 1x, /pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_095441_hu_dd7e84d3f456cd16.jpg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
 
+
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_114641_hu_9bfd0bd23774b7d4.jpg" srcset="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_114641_hu_9bfd0bd23774b7d4.jpg 1x, /pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_114641_hu_72ec60c6e958057c.jpg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 
 </div>
 
 <style>
  
-#gallery-1778084536-171128793 .carousel-item .gallery-img {
+#gallery-1778189175-194824460 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -264,11 +274,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1778084536-171128793 .carousel-item {
+#gallery-1778189175-194824460 .carousel-item {
   height: auto;
 }
 
-#gallery-1778084536-171128793 .carousel-item .figure {
+#gallery-1778189175-194824460 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -277,11 +287,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1778084536-171128793 .carousel-item .figure .gallery-img {
+#gallery-1778189175-194824460 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778084536-171128793 .carousel-item .figure .figure-caption {
+#gallery-1778189175-194824460 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -290,13 +300,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778084536-171128793 .carousel-item .gallery-img {
+  #gallery-1778189175-194824460 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778084536-171128793 .carousel-item .gallery-img {
+  #gallery-1778189175-194824460 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -317,7 +327,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778084538-387929647"
+     data-gallery-id="gallery-1778189177-603928556"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -328,21 +338,24 @@ Definitely not our last one. 💚</p>
          class="figure-img img-fluid gallery-img" width="1200" height="2142"
          loading="lazy"></figure>
 
+
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_192535_hu_242db69ad5540d58.jpg" srcset="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_192535_hu_242db69ad5540d58.jpg 1x, /pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250604_192535_hu_ca20a6bb04f24451.jpg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
 
+
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250606_101808_hu_344832b463ca7280.jpg" srcset="/pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250606_101808_hu_344832b463ca7280.jpg 1x, /pr-preview/pr-59/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250606_101808_hu_acac8d68f26e19c6.jpg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="675"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 
 </div>
 
 <style>
  
-#gallery-1778084538-387929647 .carousel-item .gallery-img {
+#gallery-1778189177-603928556 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -350,11 +363,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1778084538-387929647 .carousel-item {
+#gallery-1778189177-603928556 .carousel-item {
   height: auto;
 }
 
-#gallery-1778084538-387929647 .carousel-item .figure {
+#gallery-1778189177-603928556 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -363,11 +376,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1778084538-387929647 .carousel-item .figure .gallery-img {
+#gallery-1778189177-603928556 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778084538-387929647 .carousel-item .figure .figure-caption {
+#gallery-1778189177-603928556 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -376,13 +389,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778084538-387929647 .carousel-item .gallery-img {
+  #gallery-1778189177-603928556 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778084538-387929647 .carousel-item .gallery-img {
+  #gallery-1778189177-603928556 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -409,6 +422,7 @@ Definitely not our last one. 💚</p>
          alt=&#34;&#34; 
          class=&#34;figure-img img-fluid gallery-img&#34; width=&#34;1200&#34; height=&#34;736&#34;
          loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+
 &lt;p&gt;One of the most noticeable improvement in this version is the addition of “map preview rendering”. &lt;strong&gt;QField now renders partial map content immediately beyond the edge of the screen&lt;/strong&gt;, offering a much nicer experience when panning around as well as zooming in and out. Long-time QGIS users will recognise the behaviour, and we’re delighted to bring this experience to the field&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.</p>
 <h2 id="main-highlights">Main highlights</h2>
@@ -416,9 +430,11 @@ Definitely not our last one. 💚</p>
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="736"
          loading="lazy"></figure>
+
 <p>One of the most noticeable improvement in this version is the addition of “map preview rendering”. <strong>QField now renders partial map content immediately beyond the edge of the screen</strong>, offering a much nicer experience when panning around as well as zooming in and out. Long-time QGIS users will recognise the behaviour, and we’re delighted to bring this experience to the field</p>
 <p>This upgrade was the foundation upon which we built the following enhancement: as of QField 3.6, <strong>using the “lock to position” mode now keeps your position at the very center of the screen while the canvas slips through smoothly</strong>. This greatly improves the usability of the function as your eyes never need to spend time locating the position within the screen: it’s dead center and it stays there!</p>
-<p><a href="https://videopress.com/v/kJg69l49?resizeToParent=true&amp;cover=true&amp;preloadContent=metadata&amp;useAverageColor=true" target="_blank" rel="noopener">https://videopress.com/v/kJg69l49?resizeToParent=true&cover=true&preloadContent=metadata&useAverageColor=true</a></p>
+<p><a href="https://videopress.com/v/kJg69l49?resizeToParent=true&amp;amp;cover=true&amp;amp;preloadContent=metadata&amp;amp;useAverageColor=true" target="_blank" rel="noopener">https://videopress.com/v/kJg69l49?resizeToParent=true&cover=true&preloadContent=metadata&useAverageColor=true</a>
+</p>
 <p><em>Reminder, the “lock to position” mode is activated by clicking on the bottom-right positioning button, with the button’s background turning blue when the mode is activated.</em></p>
 <p>The improvements did not stop there. Panning and zooming around used to drop users out of the lock mode immediately. While this had its upsides, it also meant that simple scale adjustments to try and view more of the map as it follows the position was not possible. With QField 3.6, <strong>the lock has been hardened. Moving the map around will temporarily disable the lock, with a visual countdown embedded within a toast message informs users of when the lock will return</strong>. An action button to terminate the lock is located within the toaster to permanently leave the mode.</p>
 <p>Moving on to QFieldCloud, this cycle saw tons of improvements. To begin with, <strong>it is now possible to rely on shared datasets across multiple cloud projects</strong>. Known as localised data paths in QGIS, this functionality enables users to reduce storage usage by storing large datasets in QFieldCloud only once, serving multiple cloud projects, and also easing the maintenance of read-only datasets that require regular updates.</p>
@@ -426,11 +442,14 @@ Definitely not our last one. 💚</p>
          alt="" 
          class="figure-img img-fluid gallery-img" width="690" height="632"
          loading="lazy"></figure>
+
 <p><em>QFieldSync users will see a new checkbox when synchronising their projects, letting them upload shared datasets onto QFieldCloud.</em></p>
 <p>Furthermore, <strong>QField has</strong> <strong>introduced a new cloud project details view to provide additional details</strong> on QFieldCloud-hosted projects before downloading them to devices. The new view includes a cloud project thumbnail, more space for richer description text, including interactive hyperlinks, and author details, as well as creation and data update timestamps. Finally, the view offers a QR code, which allows users to scan it quickly and access cloud projects, provided they have the necessary access permission. Distributing a public project has never been easier!</p>
 <p>Beyond that, tons more has made its way into QField, including <strong>map layer notes viewable through a legend badge</strong> in the side dashboard, <strong>support for feature identification on online raster layers</strong> on compatible WMS and ArcGIS REST servers, <strong>atlas printing of a relationship’s child feature</strong> directly within the parent feature form, and much more. There’s something for everybody out there.</p>
 <h2 id="focus-on-feature-form-polishing">Focus on feature form polishing</h2>
-<p>This new version of QField coincides with the release of <strong><a href="/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/">XLSForm Converter</a></strong>, a new QGIS plugin created by OPENGIS.ch’s very own ninjas. As its title implies, the plugin converts an <a href="https://xlsform.org/en/" target="_blank" rel="noopener">XLSForm spreadsheet file (.xls, .xlsx, .ods)</a> into a full-fledged QGIS project ready to be used in QField with a pre-configured survey layer matching the content of the provided XLSForm.</p>
+<p>This new version of QField coincides with the release of <strong><a href="/pr-preview/pr-59/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/">XLSForm Converter</a>
+</strong>, a new QGIS plugin created by OPENGIS.ch’s very own ninjas. As its title implies, the plugin converts an <a href="https://xlsform.org/en/" target="_blank" rel="noopener">XLSForm spreadsheet file (.xls, .xlsx, .ods)</a>
+ into a full-fledged QGIS project ready to be used in QField with a pre-configured survey layer matching the content of the provided XLSForm.</p>
 <p>This was a golden opportunity to focus on polishing QField’s feature form. As a result, advanced functionalities such as <strong>data-driven editable flag and label attribute properties are now supported</strong>. In addition, tons of paper-cut bugs, visual inconsistencies, and UX shortcomings have been addressed. Our favourite one might just be the ability to drag the feature addition drawer’s header up and down to toggle its full-screen state :)</p>
 ]]></content:encoded>
       <category domain="categories">qfield</category>
@@ -453,39 +472,51 @@ Definitely not our last one. 💚</p>
 &lt;p&gt;&lt;strong&gt;🌍 QField: New Strategy and Application Potential&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Berit&lt;/em&gt; and &lt;em&gt;Marco&lt;/em&gt; presented how QField, with over 1 million downloads and 350,000 active users, is now recognized as Digital Public Good aligned with the UN Sustainable Development Goals. Marco also shared the vision and mission behind QField’s development — highlighting our commitment to &lt;strong&gt;empowering field teams&lt;/strong&gt; across the globe with &lt;strong&gt;open, user-friendly tools for data collection&lt;/strong&gt;.&lt;br&gt;
 Real-world stories illustrated how QField helps bridge data gaps to support informed, sustainable decision-making.&lt;br&gt;
-👉 &lt;a href=&#34;https://pretalx.com/fossgis2025/talk/3KP98N/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View talk&lt;/a&gt;&lt;/p&gt;</description>
+👉 &lt;a href=&#34;https://pretalx.com/fossgis2025/talk/3KP98N/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View talk&lt;/a&gt;
+&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>As long time sponsors of FOSSGIS, we stepped up the game this year and became <strong>Platinum Sponsors for FOSSGIS 2025</strong>. We are proud to be part of a thriving open-source GIS community and to contribute to such a great conference. Here&rsquo;s a recap of everything we were involved in:</p>
 <hr>
 <h3 id="-talks--presentations">🚀 Talks &amp; Presentations</h3>
 <p><strong>🌍 QField: New Strategy and Application Potential</strong><br>
 <em>Berit</em> and <em>Marco</em> presented how QField, with over 1 million downloads and 350,000 active users, is now recognized as Digital Public Good aligned with the UN Sustainable Development Goals. Marco also shared the vision and mission behind QField’s development — highlighting our commitment to <strong>empowering field teams</strong> across the globe with <strong>open, user-friendly tools for data collection</strong>.<br>
 Real-world stories illustrated how QField helps bridge data gaps to support informed, sustainable decision-making.<br>
-👉 <a href="https://pretalx.com/fossgis2025/talk/3KP98N/" target="_blank" rel="noopener">View talk</a></p>
+👉 <a href="https://pretalx.com/fossgis2025/talk/3KP98N/" target="_blank" rel="noopener">View talk</a>
+</p>
 <p><strong>⚙️ QField in Practice: Fieldwork Made Easy</strong><br>
 Berit and Michael led an interactive workshop demonstrating how to develop a QField project from scratch. The goal was for each participant to create and sync their own field study project using QFieldCloud, focused on collecting data on flowering plants in the picturesque &ldquo;Schlussgarten.&rdquo;<br>
-👉 <a href="https://pretalx.com/fossgis2025/talk/ZMG8T3/" target="_blank" rel="noopener">View session</a></p>
+👉 <a href="https://pretalx.com/fossgis2025/talk/ZMG8T3/" target="_blank" rel="noopener">View session</a>
+</p>
 <p><strong>🌐 When Web Meets Desktop</strong><br>
 <em>Matthias</em> demonstrated how Django can be used to build consumable geodata layers via OGC API - Features endpoints. His talk covered how to use Python and Django ORM to elegantly define data models and business logic, offering an alternative to complex database logic.<br>
-👉 <a href="https://pretalx.com/fossgis2025/talk/ULMKYJ/" target="_blank" rel="noopener">View talk</a></p>
+👉 <a href="https://pretalx.com/fossgis2025/talk/ULMKYJ/" target="_blank" rel="noopener">View talk</a>
+</p>
 <p><strong>☁️ Extending QFieldCloud – Ideas and Practical Examples</strong><br>
 <em>Michael</em> showed how QFieldCloud can be extended with Django apps, sharing practical implementations such as automated project generation and integration of remote sensing workflows.<br>
-👉 <a href="https://pretalx.com/fossgis2025/talk/NRJPUZ/" target="_blank" rel="noopener">View talk</a></p>
-<p><a href="/blog/wp-content/uploads/2025/04/fossgis25-poster-extending-qfc.pdf">fossgis25-poster-extending-qfc</a> <a href="/blog/wp-content/uploads/2025/04/fossgis25-poster-extending-qfc.pdf">Download</a></p>
+👉 <a href="https://pretalx.com/fossgis2025/talk/NRJPUZ/" target="_blank" rel="noopener">View talk</a>
+</p>
+<p><a href="/pr-preview/pr-59/blog/wp-content/uploads/2025/04/fossgis25-poster-extending-qfc.pdf">fossgis25-poster-extending-qfc</a>
+ <a href="/pr-preview/pr-59/blog/wp-content/uploads/2025/04/fossgis25-poster-extending-qfc.pdf">Download</a>
+</p>
 <p><strong>🔌 QField Plugins – Examples and Possibilities</strong><br>
 In a lightning talk, <em>Michael</em> introduced useful QField plugins, explained how to install and use them, and explored how they can enhance your mobile GIS workflows.<br>
-👉 <a href="https://pretalx.com/fossgis2025/talk/NPUXUQ/" target="_blank" rel="noopener">View talk</a></p>
+👉 <a href="https://pretalx.com/fossgis2025/talk/NPUXUQ/" target="_blank" rel="noopener">View talk</a>
+</p>
 <p><strong>🧪 Hands-on qgis-js: Building Interactive QGIS-Based Web Maps</strong><br>
 In this practical workshop, <em>Michael</em> guided participants through using <strong>qgis-js</strong>, an exciting new project that brings QGIS functionality directly into the browser.<br>
-👉 <a href="https://pretalx.com/fossgis2025/talk/7R8JHL/" target="_blank" rel="noopener">View session</a></p>
+👉 <a href="https://pretalx.com/fossgis2025/talk/7R8JHL/" target="_blank" rel="noopener">View session</a>
+</p>
 <p><strong>💬 QGIS AMA Expert Session</strong><br>
 <em>Matthias</em> and <em>Marco</em> hosted a live Q&amp;A session where attendees could ask everything about QGIS development, best practices, organisation and real-world applications.</p>
 <hr>
 <h3 id="-at-the-booth">🤝 At the Booth</h3>
-<p>Our QField booth was buzzing with activity all week – from <a href="https://github.com/topics/qfield-plugin" target="_blank" rel="noopener">plugin</a> demos and project showcases to deep dives into <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a> and field mapping workflows. We had great conversations, received valuable feedback, and met many enthusiastic users.</p>
+<p>Our QField booth was buzzing with activity all week – from <a href="https://github.com/topics/qfield-plugin" target="_blank" rel="noopener">plugin</a>
+ demos and project showcases to deep dives into <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+ and field mapping workflows. We had great conversations, received valuable feedback, and met many enthusiastic users.</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2025/04/02/fossgis-2025-what-a-week/20250326_133746_hu_b2b2b8fe43097b6d.jpg" srcset="/pr-preview/pr-59/blog/2025/04/02/fossgis-2025-what-a-week/20250326_133746_hu_b2b2b8fe43097b6d.jpg 1x, /pr-preview/pr-59/blog/2025/04/02/fossgis-2025-what-a-week/20250326_133746_hu_98646a74ac0db40b.jpg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
+
 <hr>
 <h3 id="-supporting-open-source">💚 Supporting Open Source</h3>
 <p>We were proud to be <strong>Platinum Sponsors</strong> of FOSSGIS 2025. Supporting open-source events like this is essential for fostering innovation, collaboration, and community-driven growth in the GIS world.</p>
@@ -493,6 +524,7 @@ In this practical workshop, <em>Michael</em> guided participants through using <
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
+
 <hr>
 <h3 id="-looking-ahead">👋 Looking Ahead</h3>
 <p><strong>Thank you</strong> to the organisers, speakers, and everyone who joined us in Münster. We left the event full of ideas, motivation, and appreciation for this community – and we’re already looking forward to the next FOSSGIS!</p>
@@ -500,6 +532,7 @@ In this practical workshop, <em>Michael</em> guided participants through using <
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="2142"
          loading="lazy"></figure>
+
 <p>#QField #QFieldCloud #FOSSGIS2025 #OpenSourceGIS #QGIS #SupportOpenSource</p>
 ]]></content:encoded>
       <category domain="categories">events</category>
@@ -521,22 +554,28 @@ In this practical workshop, <em>Michael</em> guided participants through using <
          alt=&#34;&#34; 
          class=&#34;figure-img img-fluid gallery-img&#34; width=&#34;956&#34; height=&#34;597&#34;
          loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;p&gt;This new release introduces &lt;strong&gt;project-defined tracking sessions, which are automatically activated when the project is loaded&lt;/strong&gt;. Defined while setting up and tweaking a project on QGIS, these sessions permit the automated tracking of device positions without taking any action in QField beyond opening the project itself. This liberates field users from remembering to launch a session on app launch and lowers the knowledge required to collect such data. For more details, please read the &lt;a href=&#34;https://docs.qfield.org/how-to/tracking/#configure-a-project-tracking-session&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;relevant QField documentation section&lt;/a&gt;.&lt;/p&gt;</description>
+
+&lt;p&gt;This new release introduces &lt;strong&gt;project-defined tracking sessions, which are automatically activated when the project is loaded&lt;/strong&gt;. Defined while setting up and tweaking a project on QGIS, these sessions permit the automated tracking of device positions without taking any action in QField beyond opening the project itself. This liberates field users from remembering to launch a session on app launch and lowers the knowledge required to collect such data. For more details, please read the &lt;a href=&#34;https://docs.qfield.org/how-to/tracking/#configure-a-project-tracking-session&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;relevant QField documentation section&lt;/a&gt;
+.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2</p>
 <h2 id="main-highlights"><strong>Main highlights</strong></h2>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png" srcset="/pr-preview/pr-59/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png 1x, /pr-preview/pr-59/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32_hu_689859826e404548.png 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="956" height="597"
          loading="lazy"></figure>
-<p>This new release introduces <strong>project-defined tracking sessions, which are automatically activated when the project is loaded</strong>. Defined while setting up and tweaking a project on QGIS, these sessions permit the automated tracking of device positions without taking any action in QField beyond opening the project itself. This liberates field users from remembering to launch a session on app launch and lowers the knowledge required to collect such data. For more details, please read the <a href="https://docs.qfield.org/how-to/tracking/#configure-a-project-tracking-session" target="_blank" rel="noopener">relevant QField documentation section</a>.</p>
+
+<p>This new release introduces <strong>project-defined tracking sessions, which are automatically activated when the project is loaded</strong>. Defined while setting up and tweaking a project on QGIS, these sessions permit the automated tracking of device positions without taking any action in QField beyond opening the project itself. This liberates field users from remembering to launch a session on app launch and lowers the knowledge required to collect such data. For more details, please read the <a href="https://docs.qfield.org/how-to/tracking/#configure-a-project-tracking-session" target="_blank" rel="noopener">relevant QField documentation section</a>
+.</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/session.png" srcset="/pr-preview/pr-59/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/session.png 1x, /pr-preview/pr-59/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/session_hu_81462bd0eb1e499b.png 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="942" height="583"
          loading="lazy"></figure>
+
 <p>As good as the above-described functionality sounds, it really shines through in cloud projects when paired with two other new featurs.</p>
 <p>First, cloud projects can now automatically push accumulated changes at regular intervals. The functionality can be manually toggled for any cloud project by going to the synchronization panel in QField and activating the relevant toggle (see middle screenshot above). It can also be turned on project load by enabling automatic push when setting up the project in QGIS via the project properties dialog. When activated through this project setting, the functionality will always be activated, and the need for field users to take any action will be removed.</p>
 <p>Pushing changes regularly is great, but it could easily have gotten in the way of blocking popups. This is why QField 3.2 can now push changes and synchronize cloud projects in the background. We still kept a ‘successfully pushed changes’ toast message to let you know the magic has happened 🚀</p>
-<p>With all of the above, cloud projects on QField can now deliver near real-time tracking of devices in the field, all configured on one desktop machine and deployed through QFieldCloud. Thanks to <a href="https://groupementsforestiers.quebec/" target="_blank" rel="noopener">Groupements forestiers Québec</a> for sponsoring these enhancements.</p>
+<p>With all of the above, cloud projects on QField can now deliver near real-time tracking of devices in the field, all configured on one desktop machine and deployed through QFieldCloud. Thanks to <a href="https://groupementsforestiers.quebec/" target="_blank" rel="noopener">Groupements forestiers Québec</a>
+ for sponsoring these enhancements.</p>
 <p>Other noteworthy feature additions in this release include:</p>
 <ul>
 <li>A <strong>brand new undo/redo mechanism allows users to rollback feature addition, editing, and/or deletion</strong> at will. The redesigned QField main menu is accessible by long pressing on the top-left dashboard button.</li>
@@ -547,8 +586,10 @@ In this practical workshop, <em>Michael</em> guided participants through using <
          alt="" 
          class="figure-img img-fluid gallery-img" width="866" height="491"
          loading="lazy"></figure>
+
 <p>The <strong>QFieldCloud user experience continues to be improved</strong>. In this release, we have reworked the visual feedback provided when downloading and synchronizing projects through the addition of a progress bar as well as additional details, such as the overall size of the files being fetched. In addition, a visual indicator has been added to the dashboard and the cloud projects list to alert users to the presence of a newer project file on the cloud for projects locally available on the device.</p>
-<p>With that said, if you haven&rsquo;t signed onto <a href="https://app.qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a> yet, try it! Psst, the community account is free 🤫</p>
+<p>With that said, if you haven&rsquo;t signed onto <a href="https://app.qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
+ yet, try it! Psst, the community account is free 🤫</p>
 <p>The <strong>creation of relationship children during feature digitizing is now smoother</strong> as we lifted the requirement to save a parent feature <em>before</em> creating children. Users can now proceed in the order that feels most natural to them.</p>
 <p>Finally, Android users will be happy to hear that a <strong>significant rework of native camera, gallery, and file picker</strong> activities has led to increased stability and much better integration with Android itself. Activities such as the gallery are now properly overlayed on top of the QField map canvas instead of showing a black screen.</p>
 ]]></content:encoded>
@@ -573,31 +614,47 @@ In this practical workshop, <em>Michael</em> guided participants through using <
          alt=&#34;&#34; 
          class=&#34;figure-img img-fluid gallery-img&#34; width=&#34;1200&#34; height=&#34;675&#34;
          loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+
 &lt;p&gt;For those who don’t know much about the concept of open source projects, a bit of background. Investing in open-source projects is a technical and ethical decision for OPENGIS.ch. Open source is a technological advantage, as we receive input from many developers worldwide who are motivated to work out the best possible software. It prevents our customers from vendor lock-in and allows complete ownership and control of the developed software. And finally, not only financially independent businesses and people should benefit from professional software but also those who might not have the financial means to pay for features, and licences.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>QField is a community-driven open-source project. It is free to share, use and modify and it will stay like that. The very essence of a community is to help and support each other. And that&rsquo;s where YOU come into play. To make it work we need your support!</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2022/12/06/how-to-contribute-to-qfield/QField_AppAward_12-2022_hu_d1faaa4a63b3967d.png" srcset="/pr-preview/pr-59/blog/2022/12/06/how-to-contribute-to-qfield/QField_AppAward_12-2022_hu_d1faaa4a63b3967d.png 1x, /pr-preview/pr-59/blog/2022/12/06/how-to-contribute-to-qfield/QField_AppAward_12-2022_hu_fc262e83c9526836.png 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
+
 <p>For those who don’t know much about the concept of open source projects, a bit of background. Investing in open-source projects is a technical and ethical decision for OPENGIS.ch. Open source is a technological advantage, as we receive input from many developers worldwide who are motivated to work out the best possible software. It prevents our customers from vendor lock-in and allows complete ownership and control of the developed software. And finally, not only financially independent businesses and people should benefit from professional software but also those who might not have the financial means to pay for features, and licences.</p>
 <p>You are not a developer, but you still like to use QField and support it? Good news. You don’t have to be a developer to use, contribute or recommend the app. There are plenty of things that need to be done to help QField to remain the powerful software it is right now and become even better. Here are a few suggestions on how you can give something back.</p>
 <ol>
-<li><strong>Review the app</strong> ★★★★★ in <a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield&amp;hl=en#details-reviews" target="_blank" rel="noopener">google&rsquo;s play store</a> or <a href="https://apps.apple.com/app/qfield-for-qgis/id1531726814" target="_blank" rel="noopener">apple&rsquo;s app store</a>.</li>
+<li><strong>Review the app</strong> ★★★★★ in <a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield&amp;amp;hl=en#details-reviews" target="_blank" rel="noopener">google&rsquo;s play store</a>
+ or <a href="https://apps.apple.com/app/qfield-for-qgis/id1531726814" target="_blank" rel="noopener">apple&rsquo;s app store</a>
+.</li>
 <li><strong>Let the world know about it!</strong> It doesn’t matter if you’re on Twitter, LinkedIn, Instagram or any other social media platform. Show and tell about where QField helped you. We appreciate every post and we promise to like, share and comment.</li>
 <li><strong>Write about your experience</strong> and please let us know. Be it in your blog or as a new success story. Insights into field projects are extremely valuable. It helps us to make the app even more efficient for your work, and it helps others to understand the range of applications for QField.</li>
-<li>Register for a <strong><a href="https://qfield.cloud/beta-pricing.html" target="_blank" rel="noopener">paid QFieldCloud account</a></strong>. <strong>QFieldCloud</strong> allows to synchronize and merge the data collected in QField. QFieldCloud is hosted by the makers of QField and by getting an account you help QField too.</li>
+<li>Register for a <strong><a href="https://qfield.cloud/beta-pricing.html" target="_blank" rel="noopener">paid QFieldCloud account</a>
+</strong>. <strong>QFieldCloud</strong> allows to synchronize and merge the data collected in QField. QFieldCloud is hosted by the makers of QField and by getting an account you help QField too.</li>
 </ol>
 <p>Do you want to do something that is more hands-on and directly linked to the app? No problem.</p>
 <ol>
-<li><strong>Help with the <a href="https://docs.qfield.org/" target="_blank" rel="noopener">documentation</a></strong>. You can document features, or improve the documentation in English. Read the <a href="https://github.com/opengisch/QField-docs#documentation-process" target="_blank" rel="noopener">how-to guide</a> to get started.</li>
-<li>And if you are multilingual you might consider <a href="https://github.com/opengisch/QField-docs#translation-process" target="_blank" rel="noopener"><strong>translating</strong> the documentation or the app in your language</a>.</li>
+<li><strong>Help with the <a href="https://docs.qfield.org/" target="_blank" rel="noopener">documentation</a>
+</strong>. You can document features, or improve the documentation in English. Read the <a href="https://github.com/opengisch/QField-docs#documentation-process" target="_blank" rel="noopener">how-to guide</a>
+ to get started.</li>
+<li>And if you are multilingual you might consider <a href="https://github.com/opengisch/QField-docs#translation-process" target="_blank" rel="noopener"><strong>translating</strong> the documentation or the app in your language</a>
+.</li>
 <li><strong>Become a beta tester</strong> and be the first to report a bug! When something doesn’t work properly it might be a bug. The quicker we know about it, the faster it can be resolved.</li>
-<li>You can <strong>ask and answer questions</strong> on <a href="https://gis.stackexchange.com/questions/tagged/qfield?sort=newest" target="_blank" rel="noopener">gis.stackexchange</a> and help others on the <a href="https://github.com/opengisch/QField/discussions" target="_blank" rel="noopener">user discussions platform</a>.</li>
-<li>If you are a developer and you want to <strong>get involved in QField development</strong>, please refer to the individual documentation for <a href="https://github.com/opengisch/QField/blob/master/doc/dev.md" target="_blank" rel="noopener">QField</a>, <a href="https://github.com/opengisch/qfieldcloud" target="_blank" rel="noopener">QFieldCloud</a> and <a href="https://github.com/opengisch/QFieldSync" target="_blank" rel="noopener">QFieldSync</a>.</li>
+<li>You can <strong>ask and answer questions</strong> on <a href="https://gis.stackexchange.com/questions/tagged/qfield?sort=newest" target="_blank" rel="noopener">gis.stackexchange</a>
+ and help others on the <a href="https://github.com/opengisch/QField/discussions" target="_blank" rel="noopener">user discussions platform</a>
+.</li>
+<li>If you are a developer and you want to <strong>get involved in QField development</strong>, please refer to the individual documentation for <a href="https://github.com/opengisch/QField/blob/master/doc/dev.md" target="_blank" rel="noopener">QField</a>
+, <a href="https://github.com/opengisch/qfieldcloud" target="_blank" rel="noopener">QFieldCloud</a>
+ and <a href="https://github.com/opengisch/QFieldSync" target="_blank" rel="noopener">QFieldSync</a>
+.</li>
 </ol>
-<p>And now finally for those of you who have the financial means, you can either <strong><a href="https://docs.qfield.org/get-started/sponsor/#feature-sponsoring" target="_blank" rel="noopener">sponsor</a> a feature</strong> or subscribe to one of the <a href="https://docs.qfield.org/get-started/sponsor/#recurring-sponsoring" target="_blank" rel="noopener"><strong>monthly sponsorships</strong></a>. By doing so you help get freshly baked QField versions straight to everyone&rsquo;s devices.</p>
+<p>And now finally for those of you who have the financial means, you can either <strong><a href="https://docs.qfield.org/get-started/sponsor/#feature-sponsoring" target="_blank" rel="noopener">sponsor</a>
+ a feature</strong> or subscribe to one of the <a href="https://docs.qfield.org/get-started/sponsor/#recurring-sponsoring" target="_blank" rel="noopener"><strong>monthly sponsorships</strong></a>
+. By doing so you help get freshly baked QField versions straight to everyone&rsquo;s devices.</p>
 <p>Nothing in it for you? In that case, just drop by to say thank you or have a hot or cold beverage with us next time you meet OPENGIS.ch at a conference and you might <strong>make our day</strong>!<br>
-Want to know more about the idea of community-driven open-source projects and the QGIS project in particular? Check out Nyall Dawson’s <a href="https://nyalldawson.net/2016/08/how-to-effectively-get-things-changed-in-qgis/" target="_blank" rel="noopener">blog post about how to effectively get things done in open source</a>!</p>
+Want to know more about the idea of community-driven open-source projects and the QGIS project in particular? Check out Nyall Dawson’s <a href="https://nyalldawson.net/2016/08/how-to-effectively-get-things-changed-in-qgis/" target="_blank" rel="noopener">blog post about how to effectively get things done in open source</a>
+!</p>
 ]]></content:encoded>
       <category domain="categories">qfield</category>
       <category domain="categories">highlights</category>
@@ -612,24 +669,37 @@ Want to know more about the idea of community-driven open-source projects and th
       
       <guid>https://qfield.org/pr-preview/pr-59/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/</guid>
       <media:content url="https://qfield.org/pr-preview/pr-59/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/WhatsApp-Image-2022-08-22-at-13.40.29.jpeg" medium="image" />
-      <description>&lt;p&gt;The international community of QGIS contributors got together in person from 18 to 22 August in parallel to &lt;a href=&#34;https://2022.stateofthemap.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenStreetMap State of The Map&lt;/a&gt; event and right before the &lt;a href=&#34;https://2022.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSS4G&lt;/a&gt;. So there was a lot of &lt;strong&gt;open source geo power&lt;/strong&gt; concentrated in the &lt;strong&gt;beautiful city of Florence&lt;/strong&gt; in those days. It was my first participation and all I knew was that it&amp;rsquo;s supposed to be an unconference. This means, there is no strict schedule but space and opportunity for everyone to present their work or team up to discuss and hack on specific tasks to bring the QGIS project to the next level.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>The international community of QGIS contributors got together in person from 18 to 22 August in parallel to <a href="https://2022.stateofthemap.org/" target="_blank" rel="noopener">OpenStreetMap State of The Map</a> event and right before the <a href="https://2022.foss4g.org/" target="_blank" rel="noopener">FOSS4G</a>. So there was a lot of <strong>open source geo power</strong> concentrated in the <strong>beautiful city of Florence</strong> in those days. It was my first participation and all I knew was that it&rsquo;s supposed to be an unconference. This means, there is no strict schedule but space and opportunity for everyone to present their work or team up to discuss and hack on specific tasks to bring the QGIS project to the next level.</p>
+      <description>&lt;p&gt;The international community of QGIS contributors got together in person from 18 to 22 August in parallel to &lt;a href=&#34;https://2022.stateofthemap.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenStreetMap State of The Map&lt;/a&gt;
+ event and right before the &lt;a href=&#34;https://2022.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSS4G&lt;/a&gt;
+. So there was a lot of &lt;strong&gt;open source geo power&lt;/strong&gt; concentrated in the &lt;strong&gt;beautiful city of Florence&lt;/strong&gt; in those days. It was my first participation and all I knew was that it&amp;rsquo;s supposed to be an unconference. This means, there is no strict schedule but space and opportunity for everyone to present their work or team up to discuss and hack on specific tasks to bring the QGIS project to the next level.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>The international community of QGIS contributors got together in person from 18 to 22 August in parallel to <a href="https://2022.stateofthemap.org/" target="_blank" rel="noopener">OpenStreetMap State of The Map</a>
+ event and right before the <a href="https://2022.foss4g.org/" target="_blank" rel="noopener">FOSS4G</a>
+. So there was a lot of <strong>open source geo power</strong> concentrated in the <strong>beautiful city of Florence</strong> in those days. It was my first participation and all I knew was that it&rsquo;s supposed to be an unconference. This means, there is no strict schedule but space and opportunity for everyone to present their work or team up to discuss and hack on specific tasks to bring the QGIS project to the next level.</p>
 <h2 id="introduction-and-first-discussions">Introduction and first discussions</h2>
-<p>We were a group of <strong>six OPENGIS.ch members</strong> arriving mostly on Thursday, spending the day shopping and moving into our city apartment. In the evening we went to a Bisteccheria to eat the famous Fiorentina steak. It was big and delicious as was the food in general. Though, I am eating vegetarian since to compensate. On Friday we went to the Campus to meet the other contributors. After a warm welcome by the organizer, Rossella and our CEO and QGIS chair Marco Bernasocchi we did an introduction round where everyone mentioned their first QGIS version ever used. At this point, I became aware of the <strong>knowledge and experience</strong> I was sharing the room with. Besides this, I noticed that there was another company attending with several members, namely Tim Sutton&rsquo;s Kartoza, which is also contributing a lot to QGIS. The first discussion was about <strong>QGIS funding model, vision, communication and on the new website</strong> in planning. This discussion then moved into some smaller groups including most of the long term contributors. I was looking around, physically and virtually, and tried to process all the new inputs and to better understand the whole QGIS world. Besides, I noticed my colleague Ivan having problems with compiling QGIS after upgrading to Ubuntu 22.04 which then motivated my other colleague Clemens to implement a docker container to do the compilation. Nevertheless, I postponed my Ubuntu upgrade. That evening we went out all together to have a beer or two and play some pool sessions and table football. Finally, the OPENGIS.ch crew navigated back home pairing <strong>a <a href="https://www.happysurvey.ch/survey/monch/" target="_blank" rel="noopener">high-precision GNSS sensor</a> with a mobile device running OpenStreetMap in <a href="https://qfield.org/" target="_blank" rel="noopener">QField</a></strong>. We arrived back home safely and super precise.</p>
+<p>We were a group of <strong>six OPENGIS.ch members</strong> arriving mostly on Thursday, spending the day shopping and moving into our city apartment. In the evening we went to a Bisteccheria to eat the famous Fiorentina steak. It was big and delicious as was the food in general. Though, I am eating vegetarian since to compensate. On Friday we went to the Campus to meet the other contributors. After a warm welcome by the organizer, Rossella and our CEO and QGIS chair Marco Bernasocchi we did an introduction round where everyone mentioned their first QGIS version ever used. At this point, I became aware of the <strong>knowledge and experience</strong> I was sharing the room with. Besides this, I noticed that there was another company attending with several members, namely Tim Sutton&rsquo;s Kartoza, which is also contributing a lot to QGIS. The first discussion was about <strong>QGIS funding model, vision, communication and on the new website</strong> in planning. This discussion then moved into some smaller groups including most of the long term contributors. I was looking around, physically and virtually, and tried to process all the new inputs and to better understand the whole QGIS world. Besides, I noticed my colleague Ivan having problems with compiling QGIS after upgrading to Ubuntu 22.04 which then motivated my other colleague Clemens to implement a docker container to do the compilation. Nevertheless, I postponed my Ubuntu upgrade. That evening we went out all together to have a beer or two and play some pool sessions and table football. Finally, the OPENGIS.ch crew navigated back home pairing <strong>a <a href="https://www.happysurvey.ch/survey/monch/" target="_blank" rel="noopener">high-precision GNSS sensor</a>
+ with a mobile device running OpenStreetMap in <a href="https://qfield.org/" target="_blank" rel="noopener">QField</a>
+</strong>. We arrived back home safely and super precise.</p>
 <h2 id="first-tasks-and-coffee-breaks">First tasks and coffee breaks</h2>
 <p>There was catering in the main hall covering breakfast, lunch and coffee breaks. It never took long after grabbing a cup of coffee to find yourself in a conversation with either fellow contributors or OpenStreetMap folks. I chatted with a mapper from Japan about mobile apps, an engineer from Colombia about travelling and a freelancer from the Netherlands about GDAL, to name 3 coffees out of many.</p>
 <h3 id="qgis-plugins-website">QGIS plugins website</h3>
-<p>After some coffee, Matthias Kuhn, our CTO and high-ranking QGIS contributor, asked me whether I could <strong>improve some</strong> ugly <strong>parts of <a href="https://plugins.qgis.org" target="_blank" rel="noopener">QGIS plugins website</a></strong>. So I had my first task which I started working on immediately. The task was to make the site more useful on mobile devices which would be achieved by collapsing some unimportant information and even removing other parts. I noticed some quirks in the development workflow, so I also added some pre-commit hooks to the dev setup. Dimas Ciputra from Kartoza helped me finalize the improvements and merge them into master branch on <a href="https://github.com/qgis/QGIS-Django" target="_blank" rel="noopener">github</a>.</p>
+<p>After some coffee, Matthias Kuhn, our CTO and high-ranking QGIS contributor, asked me whether I could <strong>improve some</strong> ugly <strong>parts of <a href="https://plugins.qgis.org" target="_blank" rel="noopener">QGIS plugins website</a>
+</strong>. So I had my first task which I started working on immediately. The task was to make the site more useful on mobile devices which would be achieved by collapsing some unimportant information and even removing other parts. I noticed some quirks in the development workflow, so I also added some pre-commit hooks to the dev setup. Dimas Ciputra from Kartoza helped me finalize the improvements and merge them into master branch on <a href="https://github.com/qgis/QGIS-Django" target="_blank" rel="noopener">github</a>
+.</p>
 <h3 id="qgis-website-downloads-section">QGIS website downloads section</h3>
-<p>Regis Haubourg asked to help <strong>simplify the <a href="https://qgis.org/en/site/forusers/download.html" target="_blank" rel="noopener">QGIS Downloads</a> for Windows</strong> section on the main QGIS website. We played around in the browser dev tools until we thought the section looked about right. I then checked out the github repo and started implementing the changes. I need to say the tech stack is not quite easy to develop with currently, but there is a complete rework in planning. Anyway, following the pull request on <a href="https://github.com/qgis/QGIS-Website" target="_blank" rel="noopener">github</a> a <a href="https://github.com/qgis/QGIS-Website/pull/1046" target="_blank" rel="noopener">lively discussion started</a> which is ongoing by the time of writing. And this is a good thing and shows how much thought goes into this project.</p>
+<p>Regis Haubourg asked to help <strong>simplify the <a href="https://qgis.org/en/site/forusers/download.html" target="_blank" rel="noopener">QGIS Downloads</a>
+ for Windows</strong> section on the main QGIS website. We played around in the browser dev tools until we thought the section looked about right. I then checked out the github repo and started implementing the changes. I need to say the tech stack is not quite easy to develop with currently, but there is a complete rework in planning. Anyway, following the pull request on <a href="https://github.com/qgis/QGIS-Website" target="_blank" rel="noopener">github</a>
+ a <a href="https://github.com/qgis/QGIS-Website/pull/1046" target="_blank" rel="noopener">lively discussion started</a>
+ which is ongoing by the time of writing. And this is a good thing and shows how much thought goes into this project.</p>
 <h2 id="presentations">Presentations</h2>
-<p>There were many interesting and sometimes spontaneous presentations which always involved lively discussions. Amy Burness from Kartoza presented new styling capabilities for QGIS, Tobias Schmetzer from the Bavarian Center for Applied Energy Research presented the geo data processing and pointed out issues he encountered using QGIS on this and Etienne Trimaille from 3liz talked about <a href="https://github.com/opengisch/qgis-plugin-ci" target="_blank" rel="noopener">qgis-plugins-ci</a>, just to name a few.</p>
+<p>There were many interesting and sometimes spontaneous presentations which always involved lively discussions. Amy Burness from Kartoza presented new styling capabilities for QGIS, Tobias Schmetzer from the Bavarian Center for Applied Energy Research presented the geo data processing and pointed out issues he encountered using QGIS on this and Etienne Trimaille from 3liz talked about <a href="https://github.com/opengisch/qgis-plugin-ci" target="_blank" rel="noopener">qgis-plugins-ci</a>
+, just to name a few.</p>
 <h2 id="amazing-community">Amazing community</h2>
 <p>On Saturday evening a bus showed up at the campus and took us on a trip up to the hills. After quite a long ride we arrived at a restaurant high up with mind-blowing view of the city. I forgot how many rounds of Tuscan food were served, but it was delicious throughout. An amazing evening with fruitful conversations and many laughs.</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/WhatsApp-Image-2022-08-22-at-13.40.29_hu_33eb2d27b2298f4b.jpeg" srcset="/pr-preview/pr-59/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/WhatsApp-Image-2022-08-22-at-13.40.29_hu_33eb2d27b2298f4b.jpeg 1x, /pr-preview/pr-59/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/WhatsApp-Image-2022-08-22-at-13.40.29_hu_ef4da8cd39e951d0.jpeg 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
+
 <p>The weather was nice and hot, the beers cold, the Tuscan food delicious and the contributors were not only popular Github avatars but really nice people. <strong>Thank you QGIS.</strong></p>
 ]]></content:encoded>
       <category domain="categories">events</category>
@@ -653,13 +723,19 @@ Want to know more about the idea of community-driven open-source projects and th
          alt="" 
          class="figure-img img-fluid gallery-img" width="799" height="464"
          loading="lazy"></figure>
-<p><a href="https://www.qgis.org/en/site/forusers/visualchangelog326/index.html#feature-new-animated-marker-symbol-type" target="_blank" rel="noopener"><em>Animated raster markers</em> is a new symbol layer type in QGIS 3.26</a> that was developed by <a href="https://north-road.com/" target="_blank" rel="noopener">Nyall Dawson</a>. Supported image formats include GIF, WEBP, and APNG.</p>
+
+<p><a href="https://www.qgis.org/en/site/forusers/visualchangelog326/index.html#feature-new-animated-marker-symbol-type" target="_blank" rel="noopener"><em>Animated raster markers</em> is a new symbol layer type in QGIS 3.26</a>
+ that was developed by <a href="https://north-road.com/" target="_blank" rel="noopener">Nyall Dawson</a>
+. Supported image formats include GIF, WEBP, and APNG.</p>
 <p>The second example below showcases more advanced animated symbology which relies on expressions to animate several symbol properties such as marker size, border width, and color opacity. While more complex than simply adding a GIF marker, the results achieved with data-defined properties animation can be very appealing and integrate perfectly with any type of project.</p>
-<p><a href="https://player.vimeo.com/video/732691644" target="_blank" rel="noopener">https://player.vimeo.com/video/732691644</a></p>
+<p><a href="https://player.vimeo.com/video/732691644" target="_blank" rel="noopener">https://player.vimeo.com/video/732691644</a>
+</p>
 <p>You’ll quickly notice how smooth the animation runs. That is thanks to OPENGIS.ch’s own ninjas having spent time improving the map canvas element’s handling of layers constantly refreshing. This includes automatic skipping of frames on older devices so the app remains responsive.</p>
-<p>Oh, we couldn’t help ourselves but take the opportunity to demonstrate how nice the QField feature form layout is these days in the video above ? To know more about <a href="https://github.com/opengisch/QField/releases/tag/v2.2.0" target="_blank" rel="noopener">other new features in QField 2.2, go and read the release page</a>.</p>
+<p>Oh, we couldn’t help ourselves but take the opportunity to demonstrate how nice the QField feature form layout is these days in the video above ? To know more about <a href="https://github.com/opengisch/QField/releases/tag/v2.2.0" target="_blank" rel="noopener">other new features in QField 2.2, go and read the release page</a>
+.</p>
 <p>Happy field mapping to all!</p>
-<p><em>The lovely animal markers used in the zoo example above were made by Serbian artist <a href="https://www.behance.net/gallery/38312723/Animals" target="_blank" rel="noopener">Arsenije Vujovic</a>.</em></p>
+<p><em>The lovely animal markers used in the zoo example above were made by Serbian artist <a href="https://www.behance.net/gallery/38312723/Animals" target="_blank" rel="noopener">Arsenije Vujovic</a>
+.</em></p>
 ]]></content:encoded>
       <category domain="categories">qfield</category>
       <category domain="categories">highlights</category>
@@ -685,7 +761,8 @@ Want to know more about the idea of community-driven open-source projects and th
 <h3 id="the-simple-way">The simple way</h3>
 <p>If there is no limitation on the WMS or you need only a small region, here is the easiest process.</p>
 <ol>
-<li>Request the WMS and store a <a href="https://gdal.org/drivers/raster/wms.html#xml-description-file" target="_blank" rel="noopener">description file in XML</a>:</li>
+<li>Request the WMS and store a <a href="https://gdal.org/drivers/raster/wms.html#xml-description-file" target="_blank" rel="noopener">description file in XML</a>
+:</li>
 </ol>
 <pre tabindex="0"><code>gdal_translate &#34;WMS:url&#34; file.xml -of WMS
 </code></pre><ol>
@@ -712,6 +789,7 @@ The command might even completely fail if it contains a request for bigger data 
          alt="" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
+
 <p>Formatgdal_translategdaladdogpkg JPEGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_JPEG.gpkg&rdquo; -co TILE_FORMAT=JPEG
 gpkg PNGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG.gpkg&rdquo; -co TILE_FORMAT=PNGgpkg PNG_JPEGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG_JPEG.gpkg&rdquo; -co TILE_FORMAT=PNG_JPEGgpkg PNG8gdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG8.gpkg&rdquo; -co TILE_FORMAT=PNG8gpkg WEBPgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_WEBP.gpkg&rdquo; -co TILE_FORMAT=WEBPgpkg pyramid_JPEGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_JPEG.gpkg&rdquo; -co TILE_FORMAT=JPEGgdaladdo GPKG:C:\test\test_JPEG.gpkg:test_gpkg_JPEG gpkg pyramid_PNGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG.gpkg&rdquo; -co TILE_FORMAT=PNGgdaladdo GPKG:C:\test\test_PNG.gpkg:test_gpkg_PNGgpkg pyramid_PNG_JPEGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG_JPEG.gpkg&rdquo; -co TILE_FORMAT=PNG_JPEGgdaladdo GPKG:C:\test\test_PNG_JPEG.gpkg:test_gpkg_PNG_JPEGgpkg pyramid_PNG8gdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG8.gpkg&rdquo; -co TILE_FORMAT=PNG8gdaladdo GPKG:C:\test\test_PNG8.gpkg:test_gpkg_PNG8gpkg pyramid_WEBPgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_WEBP.gpkg&rdquo; -co TILE_FORMAT=WEBPgdaladdo GPKG:C:\test\test_WEBP.gpkg:test_gpkg_WEBPJPEG2000gdal_translate -of JP2OpenJPEG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_jpeg_2000.jpg&quot;COG DEFLATEgdal_translate &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_cog.tif&rdquo; -co TILED=YES -co COPY_SRC_OVERVIEWS=YES -co COMPRESS=DEFLATECOG_JPEGgdal_translate &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_cog_JPEG.tif&rdquo; -co TILED=YES -co COPY_SRC_OVERVIEWS=YES -co COMPRESS=JPEGtifIn QGIS right click on the layer &gt; export &gt; save as &gt; (see the details in the picture under the table)MBTgdal_translate -of MBTILES &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_mbt.mbtiles&quot;Creation commands for all the tested formats</p>
 <h3 id="rendering-test-results">Rendering test results</h3>
@@ -744,14 +822,19 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
       
       <guid>https://qfield.org/pr-preview/pr-59/blog/2020/03/03/qfield-1.4-released-happy-new-year/</guid>
       <media:content url="https://qfield.org/pr-preview/pr-59/blog/2020/03/03/qfield-1.4-released-happy-new-year/qfield_love_09.png" medium="image" />
-      <description>&lt;p&gt;What a year&amp;rsquo;s start! After a very packed December publishing all the &lt;a href=&#34;https://qfield.org/pr-preview/pr-59/qgis-on-the-road/&#34;&gt;QGIS on the road videos&lt;/a&gt; and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we could have gone and relaxed over the holidays. But since we love QField so much we immediately started working on the next iteration. Now, after an intensive testing period, we are proud to announce the release of &lt;strong&gt;QField 1.4 - Olavtoppen&lt;/strong&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;What a year&amp;rsquo;s start! After a very packed December publishing all the &lt;a href=&#34;https://qfield.org/pr-preview/pr-59/qgis-on-the-road/&#34;&gt;QGIS on the road videos&lt;/a&gt;
+ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we could have gone and relaxed over the holidays. But since we love QField so much we immediately started working on the next iteration. Now, after an intensive testing period, we are proud to announce the release of &lt;strong&gt;QField 1.4 - Olavtoppen&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Olavtoppen!? yes, the highest point of Bouvet Island, the remotest island on Earth. And sure enough, QField would follow you there!&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>What a year&rsquo;s start! After a very packed December publishing all the <a href="/qgis-on-the-road/">QGIS on the road videos</a> and quietly releasing <strong>QField 1.3 - Ben Nevis</strong> we could have gone and relaxed over the holidays. But since we love QField so much we immediately started working on the next iteration. Now, after an intensive testing period, we are proud to announce the release of <strong>QField 1.4 - Olavtoppen</strong>.</p>
+      <content:encoded><![CDATA[<p>What a year&rsquo;s start! After a very packed December publishing all the <a href="/pr-preview/pr-59/qgis-on-the-road/">QGIS on the road videos</a>
+ and quietly releasing <strong>QField 1.3 - Ben Nevis</strong> we could have gone and relaxed over the holidays. But since we love QField so much we immediately started working on the next iteration. Now, after an intensive testing period, we are proud to announce the release of <strong>QField 1.4 - Olavtoppen</strong>.</p>
 <p>Olavtoppen!? yes, the highest point of Bouvet Island, the remotest island on Earth. And sure enough, QField would follow you there!</p>
-<p>As usual, <a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield" target="_blank" rel="noopener">get it on play store</a> or <a href="https://github.com/opengisch/QField/releases/tag/v1.4.4" target="_blank" rel="noopener">download it from GitHub.</a></p>
+<p>As usual, <a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield" target="_blank" rel="noopener">get it on play store</a>
+ or <a href="https://github.com/opengisch/QField/releases/tag/v1.4.4" target="_blank" rel="noopener">download it from GitHub.</a>
+</p>
 <h2 id="qfield-crowdfunding-campaign">QField Crowdfunding Campaign</h2>
 <p>Before digging into all the new goodness that you will find in QField 1.4, let&rsquo;s get a big &ldquo;Thanks&rdquo; out to everybody who supported our <strong>crowdfunding campaign for improved camera support</strong> and all our <strong>customers</strong> that agreed to open source the work we did for them.</p>
-<p>If you like QField, want a new feature or would like to support the project, don&rsquo;t hesitate <a href="/contact/">to get in touch with us.</a></p>
+<p>If you like QField, want a new feature or would like to support the project, don&rsquo;t hesitate <a href="/pr-preview/pr-59/contact/">to get in touch with us.</a>
+</p>
 <h2 id="usability-enhancements">Usability enhancements</h2>
 <p>In QField 1.2 we started to improve on the usability of the user interface. We are constantly working on this with a usability expert to get the user interface to be even more appealing and user-friendly.</p>
 <p>Besides lots of clean-up and polishing, QField received two major improvements, a portrait mode and a new welcome screen with recent projects.</p>
@@ -761,6 +844,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="584"
          loading="lazy"></figure>
+
 <h3 id="portrait-mode">Portrait mode</h3>
 <p>QField now flawlessly works in portrait mode. We heard you say you needed a comfortable way to work in portrait mode, especially on smartphones. QField forms and button placements are now optimized to be easy to use with your thumbs.</p>
 
@@ -770,7 +854,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778084547-534287186"
+     data-gallery-id="gallery-1778189187-165442742"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -780,23 +864,26 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
          alt="Optimised forms" 
          class="figure-img img-fluid gallery-img" width="1200" height="2467"
          loading="lazy">
-  <figcaption class="figure-caption text-center">Optimised forms</figcaption></figure>  
+  <figcaption class="figure-caption text-center">Optimised forms</figcaption></figure>
+  
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2020/03/03/qfield-1.4-released-happy-new-year/Screenshot_20200227-125335_QField_hu_8d854c77546906fb.jpg" srcset="/pr-preview/pr-59/blog/2020/03/03/qfield-1.4-released-happy-new-year/Screenshot_20200227-125335_QField_hu_8d854c77546906fb.jpg 1x, /pr-preview/pr-59/blog/2020/03/03/qfield-1.4-released-happy-new-year/Screenshot_20200227-125335_QField_hu_9a7842a2ab2fec81.jpg 2x"
          alt="Buttons align at the bottom" 
          class="figure-img img-fluid gallery-img" width="1200" height="2467"
          loading="lazy">
-  <figcaption class="figure-caption text-center">Buttons align at the bottom</figcaption></figure>  
+  <figcaption class="figure-caption text-center">Buttons align at the bottom</figcaption></figure>
+  
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-59/blog/2020/03/03/qfield-1.4-released-happy-new-year/Screenshot_20200227-131446_QField_hu_4a889e5a4c7e1ead.jpg" srcset="/pr-preview/pr-59/blog/2020/03/03/qfield-1.4-released-happy-new-year/Screenshot_20200227-131446_QField_hu_4a889e5a4c7e1ead.jpg 1x, /pr-preview/pr-59/blog/2020/03/03/qfield-1.4-released-happy-new-year/Screenshot_20200227-131446_QField_hu_a353e36ad7e5c55d.jpg 2x"
          alt="Roomy legend" 
          class="figure-img img-fluid gallery-img" width="1200" height="2467"
          loading="lazy">
-  <figcaption class="figure-caption text-center">Roomy legend</figcaption></figure>  
+  <figcaption class="figure-caption text-center">Roomy legend</figcaption></figure>
+  
 
 </div>
 
 <style>
  
-#gallery-1778084547-534287186 .carousel-item .gallery-img {
+#gallery-1778189187-165442742 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -804,11 +891,11 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
   display: block !important;
 }
 
-#gallery-1778084547-534287186 .carousel-item {
+#gallery-1778189187-165442742 .carousel-item {
   height: auto;
 }
 
-#gallery-1778084547-534287186 .carousel-item .figure {
+#gallery-1778189187-165442742 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -817,11 +904,11 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
   text-align: center;
 }
 
-#gallery-1778084547-534287186 .carousel-item .figure .gallery-img {
+#gallery-1778189187-165442742 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778084547-534287186 .carousel-item .figure .figure-caption {
+#gallery-1778189187-165442742 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -830,13 +917,13 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778084547-534287186 .carousel-item .gallery-img {
+  #gallery-1778189187-165442742 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778084547-534287186 .carousel-item .gallery-img {
+  #gallery-1778189187-165442742 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -851,6 +938,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
          class="figure-img img-fluid gallery-img"
          loading="lazy">
   <figcaption class="figure-caption text-center">ezgif com-optimize</figcaption></figure>
+
 <p>A new editing tool is available that allows for splitting existing features. This adds an even more powerful operation to an already impressive geometry editing tools set.</p>
 <h3 id="compass-integration">Compass integration</h3>
 <p>A long-awaited feature! QField now shows you on-screen in which direction you are looking, walking, driving, flying or warping direction. This makes it much easier and more pleasant to navigate in the field.</p>
@@ -859,9 +947,11 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
          class="figure-img img-fluid gallery-img"
          loading="lazy">
   <figcaption class="figure-caption text-center">Screenshot_20200115-154223_QField Nightly</figcaption></figure>
+
 <h3 id="native-camera-and-gallery">Native Camera and Gallery</h3>
 <p>It is now possible to use your favourite camera app so that you have more control over how pictures are taken. It is also possible to select pictures which are already on your device by using the new gallery selector.</p>
-<p><strong>Pro Tip</strong>: You can use any camera app. For example, you can use the <a href="https://play.google.com/store/apps/details?id=net.sourceforge.opencamera" target="_blank" rel="noopener">open camera app</a> to create geotagged photos if your preinstalled system camera doesn&rsquo;t save positioning information in EXIF data.</p>
+<p><strong>Pro Tip</strong>: You can use any camera app. For example, you can use the <a href="https://play.google.com/store/apps/details?id=net.sourceforge.opencamera" target="_blank" rel="noopener">open camera app</a>
+ to create geotagged photos if your preinstalled system camera doesn&rsquo;t save positioning information in EXIF data.</p>
 <p><strong>Pro Tip 2</strong>: You can use an image annotation app to add notes, sketches, drawings and so on to your images and then choose them from QField via the <em>add from gallery</em> button.</p>
 <h3 id="antenna-height-correction">Antenna Height Correction</h3>
 <p>For high precision measurements, it&rsquo;s possible to compensate your altitude by a fixed antenna height. This will then automatically adjust all the digitised altitude values.</p>
@@ -874,13 +964,17 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 <p>You say: wow that&rsquo;s a lot! We say: there is more :)<br>
 We have upgraded our whole building infrastructure so that you can comfortably get even more QField goodness without having to uninstall your production ready QField.</p>
 <h3 id="automated-master-builds">Automated master builds</h3>
-<p>After each pull request is merged into our master code, a new package is created and automatically published on the playstore in a dedicated app called <a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield_dev" target="_blank" rel="noopener">QField for QGIS - Unstable (Early Access)</a>. Installing this app will allow you to always have the latest build of QField for testing and giving feedback. On your device, this app is completely separated from the production-ready QField and has a distinctive black icon so that you do not confuse it.</p>
+<p>After each pull request is merged into our master code, a new package is created and automatically published on the playstore in a dedicated app called <a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield_dev" target="_blank" rel="noopener">QField for QGIS - Unstable (Early Access)</a>
+. Installing this app will allow you to always have the latest build of QField for testing and giving feedback. On your device, this app is completely separated from the production-ready QField and has a distinctive black icon so that you do not confuse it.</p>
 <h3 id="pull-request-builds">Pull request builds</h3>
-<p>QField is an extremely active project, and as you see we develop multiple functionalities and fixes at the same time. If you&rsquo;re particularly interested in one of this, our continuous integration fairy builds and publishes new packages automatically at each commit directly to the pull request you are interested in. To see what we are currently working on, have a look at the <a href="https://github.com/opengisch/qfield/pulls/" target="_blank" rel="noopener">pull request overview page</a>.</p>
+<p>QField is an extremely active project, and as you see we develop multiple functionalities and fixes at the same time. If you&rsquo;re particularly interested in one of this, our continuous integration fairy builds and publishes new packages automatically at each commit directly to the pull request you are interested in. To see what we are currently working on, have a look at the <a href="https://github.com/opengisch/qfield/pulls/" target="_blank" rel="noopener">pull request overview page</a>
+.</p>
 <h3 id="experimental-windows-builds">Experimental Windows builds</h3>
-<p>Last but definitely not least, we&rsquo;ve set up an Azure CI infrastructure to build QField for windows. For now, we still consider this experimental but we already had some very successful testing. If you are interested in testing out QField for windows you can get it <a href="https://download.opengis.ch/qfield/ci-builds/win/" target="_blank" rel="noopener">here</a>, remember it is experimental so don&rsquo;t use it in production yet and give us as much feedback as possible :)</p>
+<p>Last but definitely not least, we&rsquo;ve set up an Azure CI infrastructure to build QField for windows. For now, we still consider this experimental but we already had some very successful testing. If you are interested in testing out QField for windows you can get it <a href="https://download.opengis.ch/qfield/ci-builds/win/" target="_blank" rel="noopener">here</a>
+, remember it is experimental so don&rsquo;t use it in production yet and give us as much feedback as possible :)</p>
 <h2 id="whats-next">What&rsquo;s next?</h2>
-<p>As you can imagine we&rsquo;ve had a very busy start of 2020, but even more is to come soon with the next releases of QField. We&rsquo;d like to thank again all companies and individuals that actively use QField and that invest in making QField even better. If you feel QField misses something you need or would like to support the project, don&rsquo;t hesitate <a href="/contact/">to get in touch with us.</a></p>
+<p>As you can imagine we&rsquo;ve had a very busy start of 2020, but even more is to come soon with the next releases of QField. We&rsquo;d like to thank again all companies and individuals that actively use QField and that invest in making QField even better. If you feel QField misses something you need or would like to support the project, don&rsquo;t hesitate <a href="/pr-preview/pr-59/contact/">to get in touch with us.</a>
+</p>
 ]]></content:encoded>
       <category domain="categories">featured</category>
       <category domain="categories">qfield</category>
@@ -900,14 +994,18 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 &lt;blockquote&gt;
 &lt;p&gt;It&amp;rsquo;s official, QField for QGIS 1.0 is out!&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Get it while it’s hot on the Playstore ( &lt;a href=&#34;https://qfield.org/get&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qfield.org/get&lt;/a&gt;) or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Get it while it’s hot on the Playstore ( &lt;a href=&#34;https://qfield.org/get&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qfield.org/get&lt;/a&gt;
+) or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;
+&lt;/p&gt;
 &lt;p&gt;We are incredibly pleased and proud of just having released such a jewel and are convinced that, thanks to all its features and conscious design choices, QField will make your field digitizing work much more efficient and pleasant.&lt;/p&gt;
 &lt;p&gt;Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is the powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="lets-get-straight-to-the-point">Let&rsquo;s get straight to the point</h2>
 <blockquote>
 <p>It&rsquo;s official, QField for QGIS 1.0 is out!</p>
 </blockquote>
-<p>Get it while it’s hot on the Playstore ( <a href="https://qfield.org/get" target="_blank" rel="noopener">qfield.org/get</a>) or on <a href="https://github.com/opengisch/QField/releases" target="_blank" rel="noopener">GitHub</a></p>
+<p>Get it while it’s hot on the Playstore ( <a href="https://qfield.org/get" target="_blank" rel="noopener">qfield.org/get</a>
+) or on <a href="https://github.com/opengisch/QField/releases" target="_blank" rel="noopener">GitHub</a>
+</p>
 <p>We are incredibly pleased and proud of just having released such a jewel and are convinced that, thanks to all its features and conscious design choices, QField will make your field digitizing work much more efficient and pleasant.</p>
 <p>Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is the powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.</p>
 <p>Let&rsquo;s see what makes QField probably[su_tooltip style=&ldquo;bootstrap&rdquo; rounded=&ldquo;yes&rdquo; position=&ldquo;top&rdquo; content=&ldquo;We might be biased, but we do believe it&rdquo;]*[/su_tooltip] the best mobile GIS in the world.</p>
@@ -934,25 +1032,40 @@ We have upgraded our whole building infrastructure so that you can comfortably g
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
+
 <h3 id="generate-pdf">Generate PDF</h3>
 <p>Thanks to QField’s native support for generating PDFs based on QGIS’s print layouts, your on the fly daily report map is just one click away.</p>
 <h3 id="intuitive-project-chooser">Intuitive project chooser</h3>
 <p>When dealing with multiple projects, quickly being able to switch between them is key. QField comes with a beautiful file selector with favorite directories (long press on a folder to add it to the favorites and long press on the favorites list to remove it) and an automatic list of the last three opened projects that will save you heaps of time while looking for your projects.</p>
 <h2 id="your-data---your-decisions">Your data - Your decisions</h2>
-<p>QField does not impose any constraint on the data model, it is your data and you decide what they should look like and what values are acceptable. QField can enforce constraints for you and you can choose among various type of widgets to represent your data. QGIS will preconfigure some field types automatically, all you’ll have then to do is tweak the settings if you want and your project is ready for mobile prime time. Our <a href="https://www.qfield.org/docs/project-management/" target="_blank" rel="noopener">documentation</a> has all the information you need.</p>
+<p>QField does not impose any constraint on the data model, it is your data and you decide what they should look like and what values are acceptable. QField can enforce constraints for you and you can choose among various type of widgets to represent your data. QGIS will preconfigure some field types automatically, all you’ll have then to do is tweak the settings if you want and your project is ready for mobile prime time. Our <a href="https://www.qfield.org/docs/project-management/" target="_blank" rel="noopener">documentation</a>
+ has all the information you need.</p>
 <h2 id="extends-your-geo-data-infrastructure-seamlessly">Extends your Geo Data Infrastructure seamlessly</h2>
 <p>QField uses QGIS to set up maps and forms so it automatically supports a wide variety of data formats. Thanks to this, you can comfortably prepare your project once and then deploy it everywhere. And since QGIS also has a server component, your project can be served on a WebGIS with the very same beautiful looks.</p>
-<p>In fact you can see this exact infrastructure up and running under <a href="https://demo.qfield.org" target="_blank" rel="noopener">demo.qfield.org</a> and with the &ldquo;online_survey.qgs&rdquo; project included in the QField demo projects.</p>
+<p>In fact you can see this exact infrastructure up and running under <a href="https://demo.qfield.org" target="_blank" rel="noopener">demo.qfield.org</a>
+ and with the &ldquo;online_survey.qgs&rdquo; project included in the QField demo projects.</p>
 <h3 id="synchronize-with-wifi-cable-or-network">Synchronize with WiFi, Cable or Network</h3>
-<p>You can synchronize your project and data (in case you are not using a centralized online database) using various methods thanks to our <a href="https://www.qfield.org/docs/qfieldsync/" target="_blank" rel="noopener">QFieldSync</a> plugin.</p>
+<p>You can synchronize your project and data (in case you are not using a centralized online database) using various methods thanks to our <a href="https://www.qfield.org/docs/qfieldsync/" target="_blank" rel="noopener">QFieldSync</a>
+ plugin.</p>
 <h3 id="future-cloud-integration">Future cloud integration</h3>
 <p>In the near future we will add a cloud synchronization functionality, so that you will be able to seamlessly manage your project online and have them automatically deployed to your devices.</p>
 <h2 id="installing-and-contributing">Installing and contributing</h2>
-<p>You can easily install QField using the Playstore ( <a href="https://qfield.org/get" target="_blank" rel="noopener">qfield.org/get</a>), find out more on the documentation site ( <a href="https://qfield.org/" target="_blank" rel="noopener">qfield.org</a>), watch some demo videos on our channel ( <a href="https://qfield.org/demo" target="_blank" rel="noopener">qfield.org/demo</a>) and report problems to our issues tracking system ( <a href="https://qfield.org/issues" target="_blank" rel="noopener">qfield.org/issues</a>). Please note that the Playstore update can take some hours to roll out and if you had installed a version directly from <a href="https://github.com/opengisch/QField/releases" target="_blank" rel="noopener">GitHub</a>, you might have to uninstall it to get the latest Playstore update.</p>
-<p>QField, like QGIS, is an open source project. Everyone is welcome to contribute to making the product even better – whether it is with financial support, <a href="https://www.transifex.com/opengisch/qfield-for-qgis/" target="_blank" rel="noopener">translation</a>, <a href="https://www.qfield.org/docs/index.html" target="_blank" rel="noopener">documentation work</a>, <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">enthusiastic programming</a> or <a href="https://github.com/opengisch/QField/issues" target="_blank" rel="noopener">visionary ideas</a>.</p>
+<p>You can easily install QField using the Playstore ( <a href="https://qfield.org/get" target="_blank" rel="noopener">qfield.org/get</a>
+), find out more on the documentation site ( <a href="https://qfield.org/" target="_blank" rel="noopener">qfield.org</a>
+), watch some demo videos on our channel ( <a href="https://qfield.org/demo" target="_blank" rel="noopener">qfield.org/demo</a>
+) and report problems to our issues tracking system ( <a href="https://qfield.org/issues" target="_blank" rel="noopener">qfield.org/issues</a>
+). Please note that the Playstore update can take some hours to roll out and if you had installed a version directly from <a href="https://github.com/opengisch/QField/releases" target="_blank" rel="noopener">GitHub</a>
+, you might have to uninstall it to get the latest Playstore update.</p>
+<p>QField, like QGIS, is an open source project. Everyone is welcome to contribute to making the product even better – whether it is with financial support, <a href="https://www.transifex.com/opengisch/qfield-for-qgis/" target="_blank" rel="noopener">translation</a>
+, <a href="https://www.qfield.org/docs/index.html" target="_blank" rel="noopener">documentation work</a>
+, <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">enthusiastic programming</a>
+ or <a href="https://github.com/opengisch/QField/issues" target="_blank" rel="noopener">visionary ideas</a>
+.</p>
 <p>We would like to thank our fantastic community for all the great translations, documentations, bug reports and general feedback they gave us. Thanks to all this, we were able to fix plenty of bugs, address performance issues and even add some super cool new features.</p>
 <h2 id="development-and-deployment-services">Development and deployment services</h2>
-<p>As masterminds behind QField and core contributor to <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>, we are the perfect partner for your project. If you want to help us build a better QField or QGIS, or if you need any services related to the whole QGIS stack, don’t hesitate to <a href="https://opengis.ch/contact" target="_blank" rel="noopener">contact us</a>.</p>
+<p>As masterminds behind QField and core contributor to <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+, we are the perfect partner for your project. If you want to help us build a better QField or QGIS, or if you need any services related to the whole QGIS stack, don’t hesitate to <a href="https://opengis.ch/contact" target="_blank" rel="noopener">contact us</a>
+.</p>
 <h3 id="opengisch">OPENGIS.ch</h3>
 <p>OPENGIS.ch helps you setting up your spatial data infrastructure based on seamlessly integrated desktop, web, and mobile components.<br>
 We support your team in planning, developing, deploying and running your infrastructure. Thanks to several senior geodata infrastructure experts, QGIS core developers and the makers of the mobile data acquisition solution QField, OPENGIS.ch has all it takes to make your project a success. OPENGIS.ch is known for its commitment to high-quality products and its continuous efforts to improve the open source ecosystem.</p>
@@ -974,22 +1087,40 @@ We support your team in planning, developing, deploying and running your infrast
       
       <guid>https://qfield.org/pr-preview/pr-59/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</guid>
       <media:content url="https://qfield.org/pr-preview/pr-59/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/MG_3711.jpg" medium="image" />
-      <description>&lt;p&gt;Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// &lt;a href=&#34;https://bern.impacthub.net/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bern.impacthub.net/)&lt;/a&gt;.&lt;br&gt;
-[GeoBeer](https:// &lt;a href=&#34;https://www.geobeer.ch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.geobeer.ch&lt;/a&gt;) is a quarterly meeting of people interested in geography, GIS, cartography and the latest technologies. It&amp;rsquo;s hosted every time by someone else. This time by us, OPENGIS.ch.&lt;/p&gt;
+      <description>&lt;p&gt;Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// &lt;a href=&#34;https://bern.impacthub.net/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bern.impacthub.net/)&lt;/a&gt;
+.&lt;br&gt;
+[GeoBeer](https:// &lt;a href=&#34;https://www.geobeer.ch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.geobeer.ch&lt;/a&gt;
+) is a quarterly meeting of people interested in geography, GIS, cartography and the latest technologies. It&amp;rsquo;s hosted every time by someone else. This time by us, OPENGIS.ch.&lt;/p&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://i0.wp.com/new.opengis.chMG%5F3642.jpg&#34;
          alt=&#34;&#34; 
          class=&#34;figure-img img-fluid gallery-img&#34;
          loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+
 &lt;p&gt;Right after the arriving, the organizers of GeoBeer Switzerland showed us some funny statistics about the GeoBeer participants since the very first GeoBeer event six years ago.&lt;br&gt;
-Marco Bernasocchi then welcomed everyone and introduced our company. We had three speakers this time. &lt;a href=&#34;https://www.bfh.ch/ti/de/ueber-das-ti/personen/5b7eblnby2di/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marcus Hudritsch&lt;/a&gt; of the &lt;a href=&#34;https://twitter.com/bfh_hesb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Berner Fachhochschule&lt;/a&gt; started by presenting the implementation of the visualization of historical buildings, that do not exist anymore in reality. But still, do in virtual reality… No sorry, it&amp;rsquo;s augmented reality. Marcus Hundritsch explained to us clearly the difference between AR and VR and presented some projects they made. [Pascal Bourquin](https:// &lt;a href=&#34;https://twitter.com/BourquinPascal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://twitter.com/BourquinPascal&lt;/a&gt;) changed perspective completely by telling us about his project (La Vie en Jaune) to cover all the hiking trails of Switzerland - he logs every trail done on a [map with photographs](https:// &lt;a href=&#34;https://map.lavieenjaune.ch/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://map.lavieenjaune.ch/&lt;/a&gt; ). The final speaker was &lt;a href=&#34;https://twitter.com/dani_viga&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniele Viganò&lt;/a&gt; from the &lt;a href=&#34;https://twitter.com/gem_devs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Global Earthquake Model Foundation&lt;/a&gt; talking about their challenges of calculating a global model of earthquake hazard, risk and exposure.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// <a href="https://bern.impacthub.net/%29" target="_blank" rel="noopener">https://bern.impacthub.net/)</a>.<br>
-[GeoBeer](https:// <a href="https://www.geobeer.ch" target="_blank" rel="noopener">https://www.geobeer.ch</a>) is a quarterly meeting of people interested in geography, GIS, cartography and the latest technologies. It&rsquo;s hosted every time by someone else. This time by us, OPENGIS.ch.</p>
+Marco Bernasocchi then welcomed everyone and introduced our company. We had three speakers this time. &lt;a href=&#34;https://www.bfh.ch/ti/de/ueber-das-ti/personen/5b7eblnby2di/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marcus Hudritsch&lt;/a&gt;
+ of the &lt;a href=&#34;https://twitter.com/bfh_hesb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Berner Fachhochschule&lt;/a&gt;
+ started by presenting the implementation of the visualization of historical buildings, that do not exist anymore in reality. But still, do in virtual reality… No sorry, it&amp;rsquo;s augmented reality. Marcus Hundritsch explained to us clearly the difference between AR and VR and presented some projects they made. [Pascal Bourquin](https:// &lt;a href=&#34;https://twitter.com/BourquinPascal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://twitter.com/BourquinPascal&lt;/a&gt;
+) changed perspective completely by telling us about his project (La Vie en Jaune) to cover all the hiking trails of Switzerland - he logs every trail done on a [map with photographs](https:// &lt;a href=&#34;https://map.lavieenjaune.ch/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://map.lavieenjaune.ch/&lt;/a&gt;
+ ). The final speaker was &lt;a href=&#34;https://twitter.com/dani_viga&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniele Viganò&lt;/a&gt;
+ from the &lt;a href=&#34;https://twitter.com/gem_devs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Global Earthquake Model Foundation&lt;/a&gt;
+ talking about their challenges of calculating a global model of earthquake hazard, risk and exposure.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// <a href="https://bern.impacthub.net/%29" target="_blank" rel="noopener">https://bern.impacthub.net/)</a>
+.<br>
+[GeoBeer](https:// <a href="https://www.geobeer.ch" target="_blank" rel="noopener">https://www.geobeer.ch</a>
+) is a quarterly meeting of people interested in geography, GIS, cartography and the latest technologies. It&rsquo;s hosted every time by someone else. This time by us, OPENGIS.ch.</p>
 <figure class="figure text-center mb-4"><img src="https://i0.wp.com/new.opengis.chMG%5F3642.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
+
 <p>Right after the arriving, the organizers of GeoBeer Switzerland showed us some funny statistics about the GeoBeer participants since the very first GeoBeer event six years ago.<br>
-Marco Bernasocchi then welcomed everyone and introduced our company. We had three speakers this time. <a href="https://www.bfh.ch/ti/de/ueber-das-ti/personen/5b7eblnby2di/" target="_blank" rel="noopener">Marcus Hudritsch</a> of the <a href="https://twitter.com/bfh_hesb" target="_blank" rel="noopener">Berner Fachhochschule</a> started by presenting the implementation of the visualization of historical buildings, that do not exist anymore in reality. But still, do in virtual reality… No sorry, it&rsquo;s augmented reality. Marcus Hundritsch explained to us clearly the difference between AR and VR and presented some projects they made. [Pascal Bourquin](https:// <a href="https://twitter.com/BourquinPascal" target="_blank" rel="noopener">https://twitter.com/BourquinPascal</a>) changed perspective completely by telling us about his project (La Vie en Jaune) to cover all the hiking trails of Switzerland - he logs every trail done on a [map with photographs](https:// <a href="https://map.lavieenjaune.ch/" target="_blank" rel="noopener">https://map.lavieenjaune.ch/</a> ). The final speaker was <a href="https://twitter.com/dani_viga" target="_blank" rel="noopener">Daniele Viganò</a> from the <a href="https://twitter.com/gem_devs" target="_blank" rel="noopener">Global Earthquake Model Foundation</a> talking about their challenges of calculating a global model of earthquake hazard, risk and exposure.</p>
+Marco Bernasocchi then welcomed everyone and introduced our company. We had three speakers this time. <a href="https://www.bfh.ch/ti/de/ueber-das-ti/personen/5b7eblnby2di/" target="_blank" rel="noopener">Marcus Hudritsch</a>
+ of the <a href="https://twitter.com/bfh_hesb" target="_blank" rel="noopener">Berner Fachhochschule</a>
+ started by presenting the implementation of the visualization of historical buildings, that do not exist anymore in reality. But still, do in virtual reality… No sorry, it&rsquo;s augmented reality. Marcus Hundritsch explained to us clearly the difference between AR and VR and presented some projects they made. [Pascal Bourquin](https:// <a href="https://twitter.com/BourquinPascal" target="_blank" rel="noopener">https://twitter.com/BourquinPascal</a>
+) changed perspective completely by telling us about his project (La Vie en Jaune) to cover all the hiking trails of Switzerland - he logs every trail done on a [map with photographs](https:// <a href="https://map.lavieenjaune.ch/" target="_blank" rel="noopener">https://map.lavieenjaune.ch/</a>
+ ). The final speaker was <a href="https://twitter.com/dani_viga" target="_blank" rel="noopener">Daniele Viganò</a>
+ from the <a href="https://twitter.com/gem_devs" target="_blank" rel="noopener">Global Earthquake Model Foundation</a>
+ talking about their challenges of calculating a global model of earthquake hazard, risk and exposure.</p>
 
 
 
@@ -997,7 +1128,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778084542-368713445"
+     data-gallery-id="gallery-1778189182-723491675"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1007,23 +1138,26 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
          alt="Marcus Hundritsch" 
          class="figure-img img-fluid gallery-img"
          loading="lazy">
-  <figcaption class="figure-caption text-center">Marcus Hundritsch</figcaption></figure>  
+  <figcaption class="figure-caption text-center">Marcus Hundritsch</figcaption></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i1.wp.com/new.opengis.chdaniele-4.png"
          alt="Daniele Viganò" 
          class="figure-img img-fluid gallery-img"
          loading="lazy">
-  <figcaption class="figure-caption text-center">Daniele Viganò</figcaption></figure>  
+  <figcaption class="figure-caption text-center">Daniele Viganò</figcaption></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i1.wp.com/new.opengis.chpascale-4.png"
          alt="Pascale Bourquin" 
          class="figure-img img-fluid gallery-img"
          loading="lazy">
-  <figcaption class="figure-caption text-center">Pascale Bourquin</figcaption></figure>  
+  <figcaption class="figure-caption text-center">Pascale Bourquin</figcaption></figure>
+  
 
 </div>
 
 <style>
  
-#gallery-1778084542-368713445 .carousel-item .gallery-img {
+#gallery-1778189182-723491675 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1031,11 +1165,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1778084542-368713445 .carousel-item {
+#gallery-1778189182-723491675 .carousel-item {
   height: auto;
 }
 
-#gallery-1778084542-368713445 .carousel-item .figure {
+#gallery-1778189182-723491675 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1044,11 +1178,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1778084542-368713445 .carousel-item .figure .gallery-img {
+#gallery-1778189182-723491675 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778084542-368713445 .carousel-item .figure .figure-caption {
+#gallery-1778189182-723491675 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1057,21 +1191,23 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1778084542-368713445 .carousel-item .gallery-img {
+  #gallery-1778189182-723491675 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778084542-368713445 .carousel-item .gallery-img {
+  #gallery-1778189182-723491675 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
 </style>
 
 
-<p>After such interesting talks, everybody&rsquo;s tummy started roaring and the yummy <a href="https://energy-kitchen.ch/" target="_blank" rel="noopener">apéro riche</a> started and of course: The drinking, talking, socializing, networking.</p>
-<p>Bottles of the SpatiAle brewed by the OPENGIS.ch-team itself were offered as well as three more kinds of craft-beer brewed by their brewing-coach <a href="https://www.thurtalbraeu.ch" target="_blank" rel="noopener">Thurtalbräu</a>. There were a lot of interesting and funny chats, nice meet-agains and get-to-know-each-others.</p>
+<p>After such interesting talks, everybody&rsquo;s tummy started roaring and the yummy <a href="https://energy-kitchen.ch/" target="_blank" rel="noopener">apéro riche</a>
+ started and of course: The drinking, talking, socializing, networking.</p>
+<p>Bottles of the SpatiAle brewed by the OPENGIS.ch-team itself were offered as well as three more kinds of craft-beer brewed by their brewing-coach <a href="https://www.thurtalbraeu.ch" target="_blank" rel="noopener">Thurtalbräu</a>
+. There were a lot of interesting and funny chats, nice meet-agains and get-to-know-each-others.</p>
 <p>Thanks for coming, everyone, and see you on the next GeoBeer!</p>
 
 
@@ -1080,7 +1216,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778084542-369615671"
+     data-gallery-id="gallery-1778189182-724320349"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1089,73 +1225,89 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 <figure class="figure text-center mb-4"><img src="https://i0.wp.com/new.opengis.chMG%5F3634.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i0.wp.com/new.opengis.chIMG%5F3688.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i2.wp.com/new.opengis.chIMG%5F3686.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i2.wp.com/new.opengis.chMG%5F3706.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i2.wp.com/new.opengis.chMG%5F3700.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i1.wp.com/new.opengis.chMG%5F3696.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i0.wp.com/new.opengis.chMG%5F3692.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i0.wp.com/new.opengis.chMG%5F3637.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i0.wp.com/new.opengis.chMG%5F3651.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i0.wp.com/new.opengis.chMG%5F3639.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i1.wp.com/new.opengis.chIMG%5F3689.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i0.wp.com/new.opengis.chIMG%5F3687.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i0.wp.com/new.opengis.chMG%5F3708.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i0.wp.com/new.opengis.chMG%5F3694.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i1.wp.com/new.opengis.chMG%5F3701-1.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 <figure class="figure text-center mb-4"><img src="https://i0.wp.com/new.opengis.chMG%5F3699-2.jpg"
          alt="" 
          class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>  
+         loading="lazy"></figure>
+  
 
 </div>
 
 <style>
  
-#gallery-1778084542-369615671 .carousel-item .gallery-img {
+#gallery-1778189182-724320349 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1163,11 +1315,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1778084542-369615671 .carousel-item {
+#gallery-1778189182-724320349 .carousel-item {
   height: auto;
 }
 
-#gallery-1778084542-369615671 .carousel-item .figure {
+#gallery-1778189182-724320349 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1176,11 +1328,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1778084542-369615671 .carousel-item .figure .gallery-img {
+#gallery-1778189182-724320349 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778084542-369615671 .carousel-item .figure .figure-caption {
+#gallery-1778189182-724320349 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1189,13 +1341,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1778084542-369615671 .carousel-item .gallery-img {
+  #gallery-1778189182-724320349 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778084542-369615671 .carousel-item .gallery-img {
+  #gallery-1778189182-724320349 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1223,20 +1375,36 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 <p>Thanks to the great feedback we received since releasing RC1 we were able to fix plenty of issues and add some more goodies.</p>
 <p>We would like to invite everybody to install this Release Candidate and help us test it as much as possible so that we can iron out as many bugs as possible before the final release of QField 1.0.</p>
 <p>List of fixes since RC1:<br>
-• fixed bad synchronization / geopackage files not written) (PR <a href="https://github.com/opengisch/QField/pull/455" target="_blank" rel="noopener">#455</a>)<br>
-• fix glitches in portrait mode (PR <a href="https://github.com/opengisch/QField/pull/423" target="_blank" rel="noopener">#423</a> and <a href="https://github.com/opengisch/QField/pull/439" target="_blank" rel="noopener">#439</a>)<br>
-• fix highlighting of points (search and feature selection) (PR <a href="https://github.com/opengisch/QField/pull/443" target="_blank" rel="noopener">#443</a>)<br>
-• fix GPS info window overlapping search icon (PR <a href="https://github.com/opengisch/QField/pull/438" target="_blank" rel="noopener">#438</a>)<br>
-• redesign of scale bar (PR <a href="https://github.com/opengisch/QField/pull/438" target="_blank" rel="noopener">#438</a>)<br>
-• fix crash in feature form (with invalid relations) (PR <a href="https://github.com/opengisch/QField/pull/440" target="_blank" rel="noopener">#440</a>)<br>
-• fix date/time field editing (PR <a href="https://github.com/opengisch/QField/pull/421" target="_blank" rel="noopener">#421</a> and <a href="https://github.com/opengisch/QField/pull/458" target="_blank" rel="noopener">#458</a>)<br>
-• fix project not loading the correct map theme (fix <a href="https://github.com/opengisch/QField/pull/459" target="_blank" rel="noopener">#459</a>)<br>
-• fix QGS or QGZ does not exist (PR <a href="https://github.com/opengisch/QField/pull/453" target="_blank" rel="noopener">#453</a>)</p>
+• fixed bad synchronization / geopackage files not written) (PR <a href="https://github.com/opengisch/QField/pull/455" target="_blank" rel="noopener">#455</a>
+)<br>
+• fix glitches in portrait mode (PR <a href="https://github.com/opengisch/QField/pull/423" target="_blank" rel="noopener">#423</a>
+ and <a href="https://github.com/opengisch/QField/pull/439" target="_blank" rel="noopener">#439</a>
+)<br>
+• fix highlighting of points (search and feature selection) (PR <a href="https://github.com/opengisch/QField/pull/443" target="_blank" rel="noopener">#443</a>
+)<br>
+• fix GPS info window overlapping search icon (PR <a href="https://github.com/opengisch/QField/pull/438" target="_blank" rel="noopener">#438</a>
+)<br>
+• redesign of scale bar (PR <a href="https://github.com/opengisch/QField/pull/438" target="_blank" rel="noopener">#438</a>
+)<br>
+• fix crash in feature form (with invalid relations) (PR <a href="https://github.com/opengisch/QField/pull/440" target="_blank" rel="noopener">#440</a>
+)<br>
+• fix date/time field editing (PR <a href="https://github.com/opengisch/QField/pull/421" target="_blank" rel="noopener">#421</a>
+ and <a href="https://github.com/opengisch/QField/pull/458" target="_blank" rel="noopener">#458</a>
+)<br>
+• fix project not loading the correct map theme (fix <a href="https://github.com/opengisch/QField/pull/459" target="_blank" rel="noopener">#459</a>
+)<br>
+• fix QGS or QGZ does not exist (PR <a href="https://github.com/opengisch/QField/pull/453" target="_blank" rel="noopener">#453</a>
+)</p>
 <p>Unfortunately, due to necessary updates in the SDK we target, we had to drop support for Android 4.4. <strong>The minimum Android requirement as of this RC is Android 5.0</strong> (SDK version 21).</p>
-<p>In case playstore does not suggest an update to QField Lucendro 0.11.90, the last working version for Android 4.4, we suggest all Android 4.4 users to uninstall QField 1.0 RC 1 (which was broken on android 4.4) and reinstall QField from the store. This way you should get If you don&rsquo;t use play store, you can find all QField releases under <a href="https://qfield.org/releases" target="_blank" rel="noopener">https://qfield.org/releases</a></p>
-<p>You can easily install QField using the playstore ( <a href="https://qfield.org/get" target="_blank" rel="noopener">https://qfield.org/get</a>), find out more on the documentation site ( <a href="https://qfield.org/" target="_blank" rel="noopener">https://qfield.org</a>) and report problems to our issues tracking system ( <a href="https://qfield.org/issues" target="_blank" rel="noopener">https://qfield.org/issues</a>)</p>
+<p>In case playstore does not suggest an update to QField Lucendro 0.11.90, the last working version for Android 4.4, we suggest all Android 4.4 users to uninstall QField 1.0 RC 1 (which was broken on android 4.4) and reinstall QField from the store. This way you should get If you don&rsquo;t use play store, you can find all QField releases under <a href="https://qfield.org/releases" target="_blank" rel="noopener">https://qfield.org/releases</a>
+</p>
+<p>You can easily install QField using the playstore ( <a href="https://qfield.org/get" target="_blank" rel="noopener">https://qfield.org/get</a>
+), find out more on the documentation site ( <a href="https://qfield.org/" target="_blank" rel="noopener">https://qfield.org</a>
+) and report problems to our issues tracking system ( <a href="https://qfield.org/issues" target="_blank" rel="noopener">https://qfield.org/issues</a>
+)</p>
 <p>QField, like QGIS, is an open source project. Everyone is welcome to contribute to make the product even better – whether it is with financial support, enthusiastic programming, translation and documentation work or visionary ideas.</p>
-<p>If you want to help us build a better QField or QGIS, or need any services related to the whole QGIS stack don’t hesitate to <a href="/contact">contact us</a>.</p>
+<p>If you want to help us build a better QField or QGIS, or need any services related to the whole QGIS stack don’t hesitate to <a href="/pr-preview/pr-59/contact">contact us</a>
+.</p>
 ]]></content:encoded>
       <category domain="categories">qfield</category>
       <category domain="categories">qgis</category>
@@ -1250,15 +1418,20 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
       
       <guid>https://qfield.org/pr-preview/pr-59/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</guid>
       <media:content url="https://qfield.org/pr-preview/pr-59/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/modeller.png" medium="image" />
-      <description>&lt;p&gt;This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section &lt;a href=&#34;#feature-filter-algorithm&#34;&gt;the feature filter algorithm&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section &lt;a href=&#34;#feature-filter-algorithm&#34;&gt;the feature filter algorithm&lt;/a&gt;
+.&lt;/p&gt;
 &lt;h2 id=&#34;building-workflows-for-repetitive-tasks&#34;&gt;Building workflows for repetitive tasks&lt;/h2&gt;
 &lt;p&gt;When building workflows for simple or complex geodata infrastructures, one of the most common tasks one encounters is to extract some of the features and copy them to another destination. Sometimes they need to be modified and a few attributes calculated or deleted, maybe even the geometry needs to be adjusted or in some fancy situations one even wants to generate a couple of objects from one input object. This process is often called &lt;em&gt;ETL&lt;/em&gt; (Extract, Transform, Load) and it is something that is worth mastering as a GIS expert.
-Let&amp;rsquo;s imagine a situation where we sent a field worker out to collect information about public infrastructure, equipped with a brand-new tablet and the latest and greatest version of &lt;a href=&#34;https://www.qfield.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QField&lt;/a&gt;. To make his task super easy, we prepare one single layer for him with an attribute type which can be set to Bus Station, Car Parking or Train Station. Now back in the office we want to integrate this back into our spatially enabled database which has been designed with 3 target tables.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section <a href="#feature-filter-algorithm">the feature filter algorithm</a>.</p>
+Let&amp;rsquo;s imagine a situation where we sent a field worker out to collect information about public infrastructure, equipped with a brand-new tablet and the latest and greatest version of &lt;a href=&#34;https://www.qfield.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QField&lt;/a&gt;
+. To make his task super easy, we prepare one single layer for him with an attribute type which can be set to Bus Station, Car Parking or Train Station. Now back in the office we want to integrate this back into our spatially enabled database which has been designed with 3 target tables.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section <a href="#feature-filter-algorithm">the feature filter algorithm</a>
+.</p>
 <h2 id="building-workflows-for-repetitive-tasks">Building workflows for repetitive tasks</h2>
 <p>When building workflows for simple or complex geodata infrastructures, one of the most common tasks one encounters is to extract some of the features and copy them to another destination. Sometimes they need to be modified and a few attributes calculated or deleted, maybe even the geometry needs to be adjusted or in some fancy situations one even wants to generate a couple of objects from one input object. This process is often called <em>ETL</em> (Extract, Transform, Load) and it is something that is worth mastering as a GIS expert.
-Let&rsquo;s imagine a situation where we sent a field worker out to collect information about public infrastructure, equipped with a brand-new tablet and the latest and greatest version of <a href="https://www.qfield.org/" target="_blank" rel="noopener">QField</a>. To make his task super easy, we prepare one single layer for him with an attribute type which can be set to Bus Station, Car Parking or Train Station. Now back in the office we want to integrate this back into our spatially enabled database which has been designed with 3 target tables.</p>
-<p><a href="Untitled-Diagram.png"><img src="/pr-preview/pr-59/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Untitled-Diagram.png" alt=""></a>
+Let&rsquo;s imagine a situation where we sent a field worker out to collect information about public infrastructure, equipped with a brand-new tablet and the latest and greatest version of <a href="https://www.qfield.org/" target="_blank" rel="noopener">QField</a>
+. To make his task super easy, we prepare one single layer for him with an attribute type which can be set to Bus Station, Car Parking or Train Station. Now back in the office we want to integrate this back into our spatially enabled database which has been designed with 3 target tables.</p>
+<p><a href="/pr-preview/pr-59/Untitled-Diagram.png"><img src="/pr-preview/pr-59/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Untitled-Diagram.png" alt=""></a>
+
 Easy enough to go to QGIS and select those features by type one after the other and use a bit of copy-paste. And maybe fiddling a bit with the attributes. But hey, after all we are a bit lazy and on the one hand like to have an ice cream later on that afternoon and on the other hand like to avoid errors. Those who are lucky enough to know SQL and have full access to the database are well enough equipped to do the job.</p>
 <h2 id="short-introduction-to-the-graphical-modeler">Short introduction to the graphical modeler</h2>
 <p>For those who just want to quickly do this job visually within QGIS, there is a tool called modeler in the processing plugin. With the help of this tool it is straightforward for everyone to automate processes. To get started with the modeler, simply enable the processing plugin and click on <em>Processing</em> &gt; <em>Graphical Modeler.</em>
@@ -1268,10 +1441,12 @@ With this in place, the job of doing the buffer can now be run on 200 input laye
 <h2 id="the-feature-filter-algorithm">The feature filter algorithm</h2>
 <p>Now back to the job of splitting the infrastructure layer into 3 different layers. To do this job visually and easily within QGIS, there is now a new algorithm available in QGIS 3.2. It is called <strong>Feature Filter</strong> and available in the processing modeler.
 To make use of it, we open the processing modeler and first add a new <strong>Vector Features</strong> input and name it <strong>Infrastructure</strong>. Since we know in this project we will always deal with points, we can make already specify that in this first dialog.</p>
-<p><a href="Screenshot-from-2018-05-24-15-25-15.png"><img src="/pr-preview/pr-59/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Screenshot-from-2018-05-24-15-25-15.png" alt=""></a>
+<p><a href="/pr-preview/pr-59/Screenshot-from-2018-05-24-15-25-15.png"><img src="/pr-preview/pr-59/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Screenshot-from-2018-05-24-15-25-15.png" alt=""></a>
+
 Let&rsquo;s now add a <strong>Feature Filter</strong> algorithm and use the following configuration:
 The <strong>Infrastructure</strong> layer is set as input, and we define three outputs for <strong>Train Stations</strong>, <strong>Bus Stations</strong> and <strong>Car Parking</strong>. All layers will be final outputs on which no further transformations will be applied within this model and they will be directly written to a new layer.</p>
-<p><a href="Screenshot-from-2018-05-24-15-30-18.png"><img src="/pr-preview/pr-59/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Screenshot-from-2018-05-24-15-30-18.png" alt=""></a>
+<p><a href="/pr-preview/pr-59/Screenshot-from-2018-05-24-15-30-18.png"><img src="/pr-preview/pr-59/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Screenshot-from-2018-05-24-15-30-18.png" alt=""></a>
+
 Now it&rsquo;s time to run our new model and check that it does what it promised.
 We can also uncheck the final output checkbox and send filtered features to further processing algorithms. For example sending them through a buffer based on an attribute size (although as a QGIS professional you know you should rather be using styles than modifying the geometry in most situations in such cases).</p>
 <h2 id="conclusion">Conclusion</h2>
@@ -1279,13 +1454,16 @@ We can also uncheck the final output checkbox and send filtered features to furt
 Of course you can get more creative in the filter criteria.
 Apart from the obvious ones to do geometry modifications, there are two particularly interesting ones if you liked this one</p>
 <ul>
-<li>The <a href="https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectortable.html#refactor-fields" target="_blank" rel="noopener"><strong>Refactor Fields</strong></a> algorithm allows calculating new fields or rename fields based on expressions</li>
-<li>The <a href="https://plugins.qgis.org/plugins/AppendFeaturesToLayer/" target="_blank" rel="noopener"><strong>Append</strong></a> plugin allows adding those features to an existing vector layer such as a database table</li>
+<li>The <a href="https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectortable.html#refactor-fields" target="_blank" rel="noopener"><strong>Refactor Fields</strong></a>
+ algorithm allows calculating new fields or rename fields based on expressions</li>
+<li>The <a href="https://plugins.qgis.org/plugins/AppendFeaturesToLayer/" target="_blank" rel="noopener"><strong>Append</strong></a>
+ plugin allows adding those features to an existing vector layer such as a database table</li>
 </ul>
 <p>The data from this walkthrough is available for download as [download id=&ldquo;3917&rdquo;].
 If you would like to test this new feature but do not yet have a concrete use-case in mind, here is a task for you: get an openstreetmap extract, import it using ogr2ogr and split the lines into different layers roads, rivers and railways, the polygons into lakes, forests and cities, the points according to your own liking.
 If there is big enough interest for this, we might write another blog post on this topic.</p>
-<p>We would like to thank the <a href="https://www.qgis.ch" target="_blank" rel="noopener">QGIS user group Switzerland</a> for making this project possible through funding.</p>
+<p>We would like to thank the <a href="https://www.qgis.ch" target="_blank" rel="noopener">QGIS user group Switzerland</a>
+ for making this project possible through funding.</p>
 ]]></content:encoded>
       <category domain="categories">expressions</category>
       <category domain="categories">processing</category>
@@ -1308,10 +1486,13 @@ It&rsquo;s always the question, where to put the logical part of the solution. Q
 <h1 id="situation">Situation</h1>
 <h2 id="its-all-about-trees">It&rsquo;s all about trees</h2>
 <p>At least for that customer we got lately. The customer owns pieces of land all over Switzerland. On this pieces are forests and in the forests are - as expected - trees. Well, mostly - if you are not a bark beetle or a squirrel - you don&rsquo;t care about a single tree. Except if there is something special with it. For example, a branch that could fell down on your brand new Citroën DS or if the tree has a disease that could kill the whole forest, that is actually needed to convert the carbon dioxide (from your DS) into oxygen.
-<a href="wald.png"><img src="/pr-preview/pr-59/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/wald.png" alt=""></a> The issuetrees (yellow) lie on the forest (green) - and the forest lies on the land piece (brown).
-<a href="erm2.png"><img src="/pr-preview/pr-59/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/erm2.png" alt=""></a> And the (Entity Relationship Model) ERM looks like this. A land can have zero, one or more forests - and a forest can have zero, one or more trees with issues.</p>
+<a href="/pr-preview/pr-59/wald.png"><img src="/pr-preview/pr-59/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/wald.png" alt=""></a>
+ The issuetrees (yellow) lie on the forest (green) - and the forest lies on the land piece (brown).
+<a href="/pr-preview/pr-59/erm2.png"><img src="/pr-preview/pr-59/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/erm2.png" alt=""></a>
+ And the (Entity Relationship Model) ERM looks like this. A land can have zero, one or more forests - and a forest can have zero, one or more trees with issues.</p>
 <h2 id="its-not-really-about-trees">It&rsquo;s not really about trees</h2>
-<p>The situation is, that a lot of field workers (so called tree-inspectors) work with our mobile solution <a href="https://www.qfield.org/" target="_blank" rel="noopener">QField</a>, where they can collect the data while standing in the middle of a wild forest with one foot in a rabbit hole and the other one in the stinging nettle. It&rsquo;s quite possible and usual that there can be some problems entering all the data correctly. Typing issues on the tablet while running away from wolves or just lack of concentration because of the beauty of the swiss forests.</p>
+<p>The situation is, that a lot of field workers (so called tree-inspectors) work with our mobile solution <a href="https://www.qfield.org/" target="_blank" rel="noopener">QField</a>
+, where they can collect the data while standing in the middle of a wild forest with one foot in a rabbit hole and the other one in the stinging nettle. It&rsquo;s quite possible and usual that there can be some problems entering all the data correctly. Typing issues on the tablet while running away from wolves or just lack of concentration because of the beauty of the swiss forests.</p>
 <h2 id="and-its-about-lots-of-front-ends">And it&rsquo;s about lots of front ends</h2>
 <p>But there are not only the tree-inspectors. There are the office-clerks working with QGIS and planning, when the problems on the tree has to be solved. And finally there are the woodsmen solving the issues and setting the status to done on QField again. So there have to be a lot of projects using the same data but with different configurations. If you make all the quality assurance on the front end you won&rsquo;t have time to care about the trees anymore and beside of that it&rsquo;s fault-prone.</p>
 <h1 id="quality-assurance-in-the-back-end">Quality assurance in the back end</h1>
@@ -1361,7 +1542,8 @@ END;
 <p>All data entered to the database (valid or not) need to be stored. The entries accepted from the so called live tables with all constraints, are stored normally. The entries failed because of the constraint, are stored in another table. In the so called quarantine table. So you have for every live table another quarantine table. This means, we need another table structure existing parallel to the live tables. We do it in two schemas: The live schema and the quarantine schema.
 So the tree-inspector synchronizes his QField without any problem to the database. The correct entries are written into the live tables. The incorrect into the quarantine. Actually all the data are coming into the quarantine and there is a Trigger passing them through to the live table. If they success, they will be stored in live and removed from quarantine. Otherwise they keeps staying in the quarantine. Same situation when the quarantine-clerk later corrects the data entries in the quarantine. On an update they are pushed into the live-table. If success, all good. Otherwise the entry keeps staying in the quarantine.</p>
 <h3 id="structure">Structure</h3>
-<h3><a href="structure1.png"><img src="/pr-preview/pr-59/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure1.png" alt=""></a></h3>
+<h3><a href="/pr-preview/pr-59/structure1.png"><img src="/pr-preview/pr-59/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure1.png" alt=""></a>
+</h3>
 <h3 id="and-how-we-do-that">And how we do that?</h3>
 <p>It&rsquo;s all solved by using triggers. SQL triggers are procedural code that are automatically executed on an action on a table or view. For this solution we actually need two trigger per quarantine table. <strong><em>After insert into</em></strong> or <em><strong>update</strong></em> quarantine table, a trigger should be fired for every entry, doing this:
 <em>Insert the same entry into the live table. If success, then delete the entry in the quarantine table. Else write the info to the current entry in the quarantine table.</em>
@@ -1450,7 +1632,8 @@ EXECUTE PROCEDURE quarantine.pushtolive();
 </code></pre><h3 id="and-it-looks-like-this">And it looks like this</h3>
 <p>The yellow points are the issue trees in the live. If we create another one and have a mistake in it (GPS Id wrong), then it&rsquo;s stored in the quarantine (pink). When we correct the data it&rsquo;s written over the quarantine trigger into live. If succeeded, the point changes the color to yellow.
 Actually the yellow point appears (live) and the pink point(quarantine) disappears, because the entry is inserted into live and deleted in quarantine.
-<a href="DemoQuaranLive.gif"><img src="/pr-preview/pr-59/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/DemoQuaranLive.gif" alt=""></a></p>
+<a href="/pr-preview/pr-59/DemoQuaranLive.gif"><img src="/pr-preview/pr-59/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/DemoQuaranLive.gif" alt=""></a>
+</p>
 <h1 id="archiving-all-data">Archiving all data</h1>
 <p>There are different reasons why you need to archive data. Maybe somewhen you want to show your grandchildren, how much forest we still had today before the sky got dark. But this was not the reason for the mentioned customer, but legal reasons:
 When the woodsman cuts the last bamboo tree of the forest and this was the only food for the very last living panda bear of Switzerland, we need to know who created or changed this entry in the database and what tree should have been chopped down instead.</p>
@@ -1464,7 +1647,8 @@ So there will be the updated entry in the live-table (2), no entry in the quaran
 <p>The tree-inspector enters an entry of an issue tree that already existed in the live table to the quarantine (1). The after insert trigger is fired and it tries to write to the live table. And it fails. The entry in the quarantine will be updated with the error-message (2). The old status is copied to archive (1). The office clerk makes no the changes to this entries. The trigger is fired and this time it could write into the live-table with success (3). So the old entry is copied to the archive (4) and after deleting the entry in the quarantine, there will be the second old status of quarantine (5) in archive too.
 So there will be the updated entry in the live-table (3), no entry in the quarantine-table (1 and 2) and three entries (1, 4 and 5) in the archive table.</p>
 <h3 id="structure-1">Structure</h3>
-<p><a href="structure2.png"><img src="/pr-preview/pr-59/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure2.png" alt=""></a></p>
+<p><a href="/pr-preview/pr-59/structure2.png"><img src="/pr-preview/pr-59/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure2.png" alt=""></a>
+</p>
 <h2 id="and-how-we-do-that-1">And how we do that?</h2>
 <p>It&rsquo;s solved by using triggers too. We actually need only one trigger per table, but not only in quarantine, but also in live. It has to be fired before every update of every entry, doing this:
 <em>Insert a copy of the current entry into the archive table with the status it had until the update we are doing right now.</em></p>
@@ -1510,31 +1694,45 @@ See yah! :-)</p>
          class=&#34;figure-img img-fluid gallery-img&#34; style=&#34;ZgotmplZ&#34;
          loading=&#34;lazy&#34;&gt;
   &lt;figcaption class=&#34;figure-caption text-center&#34;&gt;QField app on Google Play&lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;&lt;img src=&#34;https://www.paypal.com/en_US/i/scr/pixel.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png&#34;
          alt=&#34;QField Karma edition app on Google Play&#34; 
          class=&#34;figure-img img-fluid gallery-img&#34; style=&#34;ZgotmplZ&#34;
          loading=&#34;lazy&#34;&gt;
   &lt;figcaption class=&#34;figure-caption text-center&#34;&gt;QField Karma edition app on Google Play&lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;QField Experimental is out, after a couple of months of requirements gathering, private early alpha testing and foremost tons of  emails requesting access to the testes group we decided today to put the current BETA version in the playstore. This means that from now on you can install QField just like any other android app by using the playstore.
 It is important to remember that QField is still beta and thus it doesn&amp;rsquo;t have all the features we want yet. Notably, &lt;em&gt;there is no digitizing, due to a bug in android, Android 5 (Lollipop) is currently not supported (android 4.3 and 4.4 are suggested) and for now you need to manually copy the projects and data from the desktop to your device.&lt;/em&gt;
-QField is an Open Source project led by OPENGIS.ch LLC, more &lt;a href=&#34;https://qfield.org/pr-preview/pr-59/android-gis/qfield/&#34;&gt;information&lt;/a&gt;, the &lt;a href=&#34;https://qfield.opengis.ch/repo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;source code&lt;/a&gt; and a possibility to donate to the project can be found on the &lt;a href=&#34;https://qfield.org/pr-preview/pr-59/android-gis/qfield/&#34;&gt;QField page&lt;/a&gt; (preferred) or by buying the QField for &lt;a href=&#34;https://qfield.opengis.ch/karma&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QGIS Karma edition app&lt;/a&gt;.
-Also if you need a specific feature, &lt;a href=&#34;https://qfield.org/pr-preview/pr-59/contact/&#34;&gt;contact us&lt;/a&gt; to sponsor its development.&lt;/p&gt;</description>
+QField is an Open Source project led by OPENGIS.ch LLC, more &lt;a href=&#34;https://qfield.org/pr-preview/pr-59/android-gis/qfield/&#34;&gt;information&lt;/a&gt;
+, the &lt;a href=&#34;https://qfield.opengis.ch/repo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;source code&lt;/a&gt;
+ and a possibility to donate to the project can be found on the &lt;a href=&#34;https://qfield.org/pr-preview/pr-59/android-gis/qfield/&#34;&gt;QField page&lt;/a&gt;
+ (preferred) or by buying the QField for &lt;a href=&#34;https://qfield.opengis.ch/karma&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QGIS Karma edition app&lt;/a&gt;
+.
+Also if you need a specific feature, &lt;a href=&#34;https://qfield.org/pr-preview/pr-59/contact/&#34;&gt;contact us&lt;/a&gt;
+ to sponsor its development.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<figure class="figure text-center mb-4"><img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png"
          alt="QField app on Google Play" 
          class="figure-img img-fluid gallery-img" style="ZgotmplZ"
          loading="lazy">
   <figcaption class="figure-caption text-center">QField app on Google Play</figcaption></figure>
+
 <p><img src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt=""></p>
 <figure class="figure text-center mb-4"><img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png"
          alt="QField Karma edition app on Google Play" 
          class="figure-img img-fluid gallery-img" style="ZgotmplZ"
          loading="lazy">
   <figcaption class="figure-caption text-center">QField Karma edition app on Google Play</figcaption></figure>
+
 <p>QField Experimental is out, after a couple of months of requirements gathering, private early alpha testing and foremost tons of  emails requesting access to the testes group we decided today to put the current BETA version in the playstore. This means that from now on you can install QField just like any other android app by using the playstore.
 It is important to remember that QField is still beta and thus it doesn&rsquo;t have all the features we want yet. Notably, <em>there is no digitizing, due to a bug in android, Android 5 (Lollipop) is currently not supported (android 4.3 and 4.4 are suggested) and for now you need to manually copy the projects and data from the desktop to your device.</em>
-QField is an Open Source project led by OPENGIS.ch LLC, more <a href="/android-gis/qfield/">information</a>, the <a href="https://qfield.opengis.ch/repo" target="_blank" rel="noopener">source code</a> and a possibility to donate to the project can be found on the <a href="/android-gis/qfield/">QField page</a> (preferred) or by buying the QField for <a href="https://qfield.opengis.ch/karma" target="_blank" rel="noopener">QGIS Karma edition app</a>.
-Also if you need a specific feature, <a href="/contact/">contact us</a> to sponsor its development.</p>
+QField is an Open Source project led by OPENGIS.ch LLC, more <a href="/pr-preview/pr-59/android-gis/qfield/">information</a>
+, the <a href="https://qfield.opengis.ch/repo" target="_blank" rel="noopener">source code</a>
+ and a possibility to donate to the project can be found on the <a href="/pr-preview/pr-59/android-gis/qfield/">QField page</a>
+ (preferred) or by buying the QField for <a href="https://qfield.opengis.ch/karma" target="_blank" rel="noopener">QGIS Karma edition app</a>
+.
+Also if you need a specific feature, <a href="/pr-preview/pr-59/contact/">contact us</a>
+ to sponsor its development.</p>
 ]]></content:encoded>
       <category domain="categories">android-qgis</category>
       <category domain="categories">featured</category>
