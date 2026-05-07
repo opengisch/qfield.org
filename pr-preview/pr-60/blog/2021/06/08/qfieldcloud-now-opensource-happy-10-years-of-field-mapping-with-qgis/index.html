@@ -1,0 +1,1138 @@
+<!doctype html>
+<html lang="en-US" data-bs-theme="light" data-theme-default="light"> 
+<head>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24350287-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-24350287-3");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv='Content-Security-Policy' content="script-src &#39;self&#39; https://cdn.jsdelivr.net; style-src &#39;self&#39; &#39;unsafe-inline&#39; https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net; font-src &#39;self&#39; data: https://use.typekit.net https://p.typekit.net; img-src &#39;self&#39; data: https:; connect-src &#39;self&#39;; frame-src &#39;self&#39;; worker-src &#39;self&#39;; form-action &#39;self&#39;; object-src 'none'; base-uri 'none'">
+<script src="/pr-preview/pr-60/js/theme-init.min.7afa657cd4d8aa104066ad85e1ccaca5450753acddb0ea4c04efac675a9b5b0b.js" integrity="sha256-evplfNTYqhBAZq2F4cyspUUHU6zdsOpMBO&#43;sZ1qbWws=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/pr-preview/pr-60/css/bootstrap.min.3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8.css" integrity="sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=" crossorigin="anonymous"><link rel="stylesheet" href="/pr-preview/pr-60/css/main.c0f8834aaeb205d8263123db42073b379c203f791d2fe9a9ba383808a1c59eb2.css" integrity="sha256-wPiDSq6yBdgmMSPbQgc7N5wgP3kdL&#43;mpujg4CKHFnrI=" crossorigin="anonymous"><link rel="stylesheet" href="/pr-preview/pr-60/css/styles.f9d7244339c9ead4315b602116324224ed07759496dcbb7296993e785f8af6bf.css" integrity="sha256-&#43;dckQznJ6tQxW2AhFjJCJO0HdZSW3Ltylpk&#43;eF&#43;K9r8=" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://use.typekit.net" crossorigin>
+<link rel="stylesheet" href="/pr-preview/pr-60/vendor/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/cbd7kad.css"><link rel="stylesheet" href="/pr-preview/pr-60/bootstrap-icons/bootstrap-icons.004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b.css" integrity="sha256-AEMichyFVzMXWbxt2qy7aJsPBxXWiK7IK9BW0tW1zDs=" crossorigin="anonymous">
+
+    <title>QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS | QField - Efficient field work built for QGIS</title><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+  <meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+  <meta name="bingbot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+
+
+<link rel="canonical" href="https://qfield.org/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/">
+
+
+<link rel="alternate" hreflang="en-US" href="https://qfield.org/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/">
+
+
+
+<link rel="alternate" hreflang="x-default" href="https://qfield.org/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<meta property="og:title" content="QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS">
+<meta property="og:description" content="Today, on QField’s 10th anniversary, we’re extremely proud to publish the results of over 18 months of development and give you the source code of QFieldCloud to go and make your awesome adaptations, …">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://qfield.org/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/">
+<meta property="og:locale" content="en-US">
+    
+  <meta property="article:section" content="blog">
+  
+    <meta property="article:published_time" content="2021-06-08T06:01:00+00:00">
+  
+  
+    <meta property="article:modified_time" content="2026-03-08T19:05:40+01:00">
+  
+  <meta property="og:site_name" content="QField - Efficient field work built for QGIS">
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+    <meta name="twitter:title" content="QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS">
+<meta name="twitter:description" content="Today, on QField’s 10th anniversary, we’re extremely proud to publish the results of over 18 months of development and give you the source code of QFieldCloud to go and make your awesome adaptations, …">
+
+
+
+
+  
+
+
+
+  
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS",
+  "datePublished": "2021-06-08T06:01:00+00:00",
+  "dateModified": "2026-03-08T19:05:40+01:00",
+  "mainEntityOfPage": "https://qfield.org/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/",
+  "publisher": {
+    "@type": "Organization",
+    
+    "name": "QField - Efficient field work built for QGIS"
+  },
+  "wordCount" :  2030 ,
+  "description": "Today, on QField’s 10th anniversary, we’re extremely proud to publish the results of over 18 months of development and give you the source code of QFieldCloud to go and make your awesome adaptations, …",
+  "keywords": []
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "\"QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS | QField - Efficient field work built for QGIS\"",
+  "url": "https:\/\/qfield.org\/pr-preview\/pr-60\/blog\/2021\/06\/08\/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis\/",
+  "inLanguage": "en-US",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "\"QField - Efficient field work built for QGIS\"",
+    "url": "https:\/\/qfield.org\/pr-preview\/pr-60\/"
+  }
+}
+</script>
+
+    <link rel="icon" type="image/svg+xml" href="/pr-preview/pr-60/images/qfield-logo.svg">
+
+
+</head>
+<body class="blog single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-lg bg-white border-bottom sticky-top">
+    <div class="container">
+
+      <a class="navbar-brand fw-bold" href="/pr-preview/pr-60/">
+        
+        <img src="/pr-preview/pr-60/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
+          class="navbar-brand__logo navbar-brand__logo--light" loading="eager" decoding="async">
+        
+
+        
+        <img src="/pr-preview/pr-60/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
+          class="navbar-brand__logo navbar-brand__logo--dark" loading="eager" decoding="async">
+        
+
+        
+      </a>
+
+      <div class="d-flex align-items-center gap-2 order-lg-3">
+        <button id="themeToggle"
+          class="btn btn-outline-secondary d-none d-lg-inline-flex align-items-center justify-content-center"
+          type="button" aria-label="Toggle theme">
+          <i id="themeIcon" class="bi"></i>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+          aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="visually-hidden">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse order-lg-2" id="navMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link"
+              href="/pr-preview/pr-60/#highlights" target="_self" >
+              
+              <span>Highlights</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="/pr-preview/pr-60/assistance/" target="_self" >
+              
+              <span>Get Assistance</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="nav-dropdown-resources" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Resources
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="nav-dropdown-resources">
+              <li>
+                <a class="dropdown-item" href="/pr-preview/pr-60/success-stories/" target="_self" >
+                  Success Stories
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://community.qfield.org/" target="_blank"  rel="noopener noreferrer" >
+                  Community
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://docs.qfield.org" target="_blank"  rel="noopener noreferrer" >
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pr-preview/pr-60/guidelines/" target="_self" >
+                  Brand guidelines
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://docs.qfield.org/get-started/contribute/" target="_blank"  rel="noopener noreferrer" >
+                  Contribute
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://github.com/opengisch/qfield" target="_blank"  rel="noopener noreferrer" >
+                  Source Code
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pr-preview/pr-60/partner/" target="_self" >
+                  Partner Programs
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pr-preview/pr-60/sdgs/" target="_self" >
+                  Sustainable Development Goals
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pr-preview/pr-60/blog/" target="_self" >
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://www.opengis.ch/newsletter" target="_blank"  rel="noopener noreferrer" >
+                  Newsletter
+                </a>
+              </li>
+              </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://opengis.ch/#contact" target="_blank"  rel="noopener noreferrer" >
+              
+              <span>Contact Us</span>
+            </a>
+          </li>
+          <li class="nav-item nav-item--button">
+            <a class="nav-link nav-link--button nav-link--primary"
+              href="/pr-preview/pr-60/get/" target="_self" >
+              <i class="fa-solid fa-rocket" aria-hidden="true"></i>
+              <span>Get started</span>
+            </a>
+          </li>
+          <li class="nav-item nav-item--button">
+            <a class="nav-link nav-link--button nav-link--support"
+              href="/pr-preview/pr-60/support-us/" target="_self" >
+              <i class="fa-solid fa-heart" aria-hidden="true"></i>
+              <span>Support us</span>
+            </a>
+          </li>
+          </ul>
+
+        <div class="d-lg-none mt-3">
+          <button id="themeToggleMobile"
+            class="btn btn-outline-secondary w-100 d-flex align-items-center justify-content-center" type="button"
+            aria-label="Toggle theme">
+            <i id="themeIconMobile" class="bi me-2"></i>
+            <span>Toggle theme</span>
+          </button>
+        </div>
+        </div>
+    </div>
+  </nav>
+</header>
+<div id="content">
+
+
+<section class="py-2">
+  <div class="container">
+    
+    
+    <div class="my-4">
+      <a href="/pr-preview/pr-60/blog/" class="btn btn-outline-secondary btn-sm">
+        <i class="fas fa-arrow-left me-2"></i>Back to Blog
+      </a>
+    </div>
+
+    
+    <header class="mb-2">
+      <h1 class="display-5 fw-bold mb-3">QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS</h1>
+      
+      <div class="text-muted mb-1">
+        <i class="fas fa-calendar me-1"></i>
+        <span class="me-3">June 8, 2021</span>
+        
+        <i class="fas fa-user me-1"></i>
+        <span class="me-3">mbernasocchi</span>
+        
+        
+        <i class="fas fa-clock me-1"></i>
+        <span>10 min read</span>
+        
+      </div>
+      <hr>
+    </header>
+
+    
+    
+    
+    
+    
+    
+  </div>
+</section>
+
+
+<article class="py-1 blog-single">
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="content blog-content">
+          <p>Today, on QField&rsquo;s 10th anniversary, we&rsquo;re extremely proud to publish the results of over <a href="https://github.com/opengisch/qfieldcloud/graphs/contributors" target="_blank" rel="noopener">18 months</a>
+ of development and give you <a href="https://github.com/opengisch/qfieldcloud/pull/3" target="_blank" rel="noopener">the source code of QFieldCloud</a>
+ to go and make your awesome adaptations, solutions, and hopefully contributions :)</p>
+<p>If you want to quickly try it out, head to <a href="https://qfield.cloud/" target="_blank" rel="noopener">https://qfield.cloud</a>
+ where our hosted solution is running and secure yourself a spot in the beta program.</p>
+<p>QFieldCloud&rsquo;s unique technology allows your team to focus on what&rsquo;s important, making sure you efficiently get the best field data possible. Thanks to the tight integration with the leading GIS fieldwork app QField, your team will be able to start surveying and digitising data in no time.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/qfield-git-history.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/qfield-git-history.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/qfield-git-history_hu_d00fea8d16043608.png 2x"
+         alt="QField git history" 
+         class="figure-img img-fluid gallery-img" width="660" height="280"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">QField git history</figcaption></figure>
+
+<p>What a journey it was and what plans do we already have&hellip; It has now been 10 years since I <a href="https://github.com/qgis/QGIS-Android/commit/664145015f31783a5687807a7b77049d4e6938c9" target="_blank" rel="noopener">pushed the first scripts</a>
+ to build Quantum GIS for Android and it is incredible what we&rsquo;ve been able to achieve thanks to a vibrant community, sponsors and especially our <a href="https://opengis.ch/#team" target="_blank" rel="noopener">fantastic team</a>
+.</p>
+<p>At <a href="/pr-preview/pr-60/">OPENGIS.ch</a>
+ we strongly believe in <a href="/pr-preview/pr-60/core-values/#give-back">giving back</a>
+. We live from open-source projects and are deeply committed to sustaining their technological and <a href="https://www.qgis.org/en/site/about/sustaining_members.html#list-of-current-sustaining-members" target="_blank" rel="noopener">economic</a>
+ <a href="https://www.osgeo.org/sponsors/" target="_blank" rel="noopener">well-being</a>
+. We also believe everyone should have access to the best possible tools and knowledge. By committing ourselves to develop open-source applications, we give everyone access to powerful tools to plan, review and mitigate geospatial issues.</p>
+<p>That is why we are even more thrilled to have created and open-sourced a professional data and team management solution for the best <a href="https://qfield.org" target="_blank" rel="noopener">QGIS fieldwork app</a>
+ and would like to share a bit of the history of how we revolutionised field work by creating QField for QGIS.</p>
+<h2 id="prehistory---qgis-for-android-is-born">Prehistory - QGIS for Android is born</h2>
+<p>Stone-, bronze-, iron-age, you get it, the beginnings of field mapping in the QGIS world were pretty rough around the edges. It all started thanks to me <a href="/pr-preview/pr-60/2011/04/25/gsoc-2011-im-in/">being accepted</a>
+ in the Google Summer of Code 2011 programme with the &ldquo;QGIS mobile&rdquo; <a href="https://issues.qgis.org/projects/qgis/wiki/QGIS_Mobile_GSoC_2011" target="_blank" rel="noopener">submission</a>
+. In the following 3 months, I&rsquo;d try, with the help of my mentors Pirmin Kalberer and Marco Hugentobler, to get Quantum GIS to run on my tablet.</p>
+<h3 id="the-first-start">The first start</h3>
+<blockquote>
+<p>Hi all, it is a pleasure to announce that I finally got Quantum GIS to start on an android (3.2) tablet (Asus transformer). I tested as well on a Samsung Galaxy phone with cyanogen mod 7 RC1 and it works well (with the obvious screen size limitations).<br>
+Qgis still doesn&rsquo;t load many elements, but the GUI is there and the rest should be only minor issues. I’ll post more as soon as I make further developments. Meanwhile, if you want to test the apk, you can download it from my GitHub <a href="https://github.com/downloads/mbernasocchi/qgis-android/Qgis-debug.apk" target="_blank" rel="noopener">here</a>
+. For building your own, have a look at <a href="https://qgis.org/wiki/QGIS_Mobile_GSoC_2011" target="_blank" rel="noopener">qgis wiki</a>
+</p>
+<p><a href="/pr-preview/pr-60/2011/08/17/qgis-on-android/">/2011/08/17/qgis-on-android/</a>
+</p>
+</blockquote>
+<p><a href="https://vimeo.com/27793965" target="_blank" rel="noopener">https://vimeo.com/27793965</a>
+</p>
+<p>The first ever video about QGIS on Android</p>
+<h3 id="a-proper-gui">A proper GUI</h3>
+<blockquote>
+<p>See my last posts. In short, I managed to get qgis packaged as an APK and to properly run with only one major problem. The map canvas is always black. I&rsquo;ll investigate this till Tuesday.<br>
+Cheers</p>
+<p><a href="/pr-preview/pr-60/2011/08/18/qgis-on-android-has-a-proper-gui/">/2011/08/18/qgis-on-android-has-a-proper-gui/</a>
+</p>
+</blockquote>
+<p><a href="https://vimeo.com/27854857" target="_blank" rel="noopener">https://vimeo.com/27854857</a>
+</p>
+<p>After 3 months of intensive work, QGIS for android finally has a a proper GUI</p>
+<h3 id="blazing-fast-startup">Blazing fast startup</h3>
+<blockquote>
+<p>Hi, I just managed to create an APK with all the resources needed by qgis &hellip;</p>
+<p>The only inconvenience at the moment is that at the first startup the app shows a black screen while it&rsquo;s copying the files for about <strong>30 to 60sec</strong> so just be patient and remember that the whole app will take up to 230MB (it installs on external storage by default)</p>
+<p><a href="/pr-preview/pr-60/2011/08/19/qgis-on-android-has-complete-gui-and-supports-translations/">/2011/08/19/qgis-on-android-has-complete-gui-and-supports-translations/</a>
+</p>
+</blockquote>
+<h3 id="a-working-reality">A working reality</h3>
+<p>I still remember the feeling that day when after almost 3 months, of fighting with shell scripts, patching of build systems, debugging via ADB, writing C++ in Java wrappers and so on, my Quantum GIS test project was suddenly running on my tablet&hellip; I Was so happy I just went running in the mountains :).</p>
+<blockquote>
+<p>Just a quick screenshot to show that qgis on android is now a working reality. Tomorrow I’ll make a video and so on. The major missing thing now is reading SHP files ad maybe spatialite… maybe tomorrow. Now it’s Sunday ?</p>
+<p><a href="/pr-preview/pr-60/2011/08/21/qgis-android-works-2/">/2011/08/21/qgis-android-works-2/</a>
+</p>
+</blockquote>
+
+
+
+
+
+
+<div class="gallery-wrapper" 
+     data-gallery-id="gallery-1778146555-164394528"
+     data-autoplay="false"
+     data-interval="5000"
+     data-controls="true"
+     data-indicators="true">
+    
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/P20110820193600_hu_69f8496b68b39a4f.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/P20110820193600_hu_69f8496b68b39a4f.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/P20110820193600_hu_fbb5b866aa3232ae.png 2x"
+         alt="First data is shown on the print composer" 
+         class="figure-img img-fluid gallery-img" width="1200" height="750"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">First data is shown on the print composer</figcaption></figure>
+  
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/P20110820193325_hu_5f02b2c894c6cb9b.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/P20110820193325_hu_5f02b2c894c6cb9b.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/P20110820193325_hu_50f418d9efd5aed7.png 2x"
+         alt="Map canvas still had some glitches" 
+         class="figure-img img-fluid gallery-img" width="1200" height="750"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">Map canvas still had some glitches</figcaption></figure>
+  
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-P20110821115718.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-P20110821115718.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-P20110821115718_hu_22a6295e488bd8d1.png 2x"
+         alt="Finally a map is rendered in the canvas" 
+         class="figure-img img-fluid gallery-img" width="499" height="312"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">Finally a map is rendered in the canvas</figcaption></figure>
+  
+
+</div>
+
+<style>
+ 
+#gallery-1778146555-164394528 .carousel-item .gallery-img {
+  height: 400px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  display: block !important;
+}
+
+#gallery-1778146555-164394528 .carousel-item {
+  height: auto;
+}
+
+#gallery-1778146555-164394528 .carousel-item .figure {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+#gallery-1778146555-164394528 .carousel-item .figure .gallery-img {
+  width: 100% !important;
+}
+
+#gallery-1778146555-164394528 .carousel-item .figure .figure-caption {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #gallery-1778146555-164394528 .carousel-item .gallery-img {
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #gallery-1778146555-164394528 .carousel-item .gallery-img {
+    height: 250px !important;
+  }
+}
+</style>
+
+
+<h3 id="gsoc-2011-results">GSoC 2011 results</h3>
+<p>At the end of the Google Summer of code, I received my MSc in geoinformatics and left for 3 Months to Indonesia working as a consultant/developer for the World-bank Global Facility for Disaster Reduction and Recovery.</p>
+<blockquote>
+<p>So, it is over, after 3 months of working on QGIS for android as a Google Summer of Code project it is now time to wrap up what I did and didn’t do.<br>
+First of all a QGIS android app exists now and it has many features including:<br>
+– reading/writing projects<br>
+– raster support<br>
+– spatialite support<br>
+– WMS support<br>
+– (apparent – untested) WFS and Postgres support<br>
+– partial shape files support (string attributes still crash the app)<br>
+– Fully functional GUI (SymbologyV2 doesn&rsquo;t work yet)<br>
+– (all?) core C++ plugins beside globe (any takers? ?)<br>
+Furthermore, I created a series of build scripts that make it easier to set up a dev environment.<br>
+Unfortunately, I didn&rsquo;t manage to implement live GPS tracking and a larger GUI optimisation, but all in all, I’m very happy with the results and seeing that few peoples are already testing it. Soon ill publish a video.<br>
+cheers</p>
+<p><a href="/pr-preview/pr-60/2011/08/24/gsoc-2011-final-report/">/2011/08/24/gsoc-2011-final-report/</a>
+</p>
+</blockquote>
+<p>Quantum GIS for Android was a reality and I was fully committed to keeping working on it. Turns out I wasn&rsquo;t wrong :)</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-1_hu_7820ac2e42875a77.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-1_hu_7820ac2e42875a77.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-1_hu_b56894c4ab98597c.png 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="602"
+         loading="lazy"></figure>
+
+<h2 id="classical---qgis-for-android-grows">Classical - QGIS for Android grows</h2>
+<p>The Next Era of QGIS for android is what could be seen as the time of great knowledge enhancement, philosophical musings and the rise of the first great features including:</p>
+<ul>
+<li><a href="/pr-preview/pr-60/2012/01/31/qgis-on-android-gets-gps-support/">GPS support</a>
+ including <a href="/pr-preview/pr-60/2012/05/01/qgis-on-android-using-external-gps-receivers/">external GPS</a>
+</li>
+<li><a href="/pr-preview/pr-60/2012/02/01/qgis-gets-compass-support/">Compass support</a>
+</li>
+<li><a href="/pr-preview/pr-60/2012/02/16/qgis-on-android-gets-right-click-support/">Right-click support</a>
+</li>
+<li><a href="/pr-preview/pr-60/2012/03/01/qgis-for-android-gets-pinch-zooming/">Pinch zooming, tap zooming and panning</a>
+</li>
+<li><a href="/pr-preview/pr-60/2012/02/23/qgis-for-android-alpha-6/">armeabi-v7a optimizations</a>
+</li>
+<li><a href="/pr-preview/pr-60/2012/03/30/qgis-on-android-phone/">the 3.2&quot; screen experiment</a>
+</li>
+<li><a href="/pr-preview/pr-60/2012/05/12/qgis-4200m/">Extreme environment testing</a>
+</li>
+</ul>
+<p><a href="https://vimeo.com/36862461" target="_blank" rel="noopener">https://vimeo.com/36862461</a>
+</p>
+<h2 id="middle-ages---qgis-mobile">Middle Ages - QGIS Mobile</h2>
+<p>The dark ages, times of instability, change and some setbacks. Sounds terrifying, it was not at all, on the contrary it was a very formative period that apexed with the fantastic release of QGIS 2.0 for android.</p>
+<h3 id="the-qml-app-experiment">The QML app experiment</h3>
+<p>From the beginning on, the idea behind QGIS for android was to eventually ditch the GUI and build a dedicated one for touch devices. The <a href="https://web.archive.org/web/20120826232000/https://rcarrillo.org/&amp;#34;&amp;gt;https://web.archive.org/web/20120826232000/https://rcarrillo.org/" target="_blank" rel="noopener">Google Summer of code 2012</a>
+ by Ramon Carrillo mentored by myself set off to do that. Unfortunately, the project encountered some roadblocks and never took off as expected, but it did lay some ideas and <a href="https://github.com/rcarrillo/Quantum-GIS/commits/mobileapp-qml" target="_blank" rel="noopener">code</a>
+ for the future.</p>
+
+
+
+
+
+
+<div class="gallery-wrapper" 
+     data-gallery-id="gallery-1778146557-639162209"
+     data-autoplay="false"
+     data-interval="5000"
+     data-controls="true"
+     data-indicators="true">
+    
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Legend2-1.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Legend2-1.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Legend2-1_hu_5e84dd321e2da163.png 2x"
+         alt="UX mockup for the first QML based app" 
+         class="figure-img img-fluid gallery-img" width="480" height="800"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">UX mockup for the first QML based app</figcaption></figure>
+  
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Legend2-2.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Legend2-2.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Legend2-2_hu_d68b50f6b6913c50.png 2x"
+         alt="UX mockup for the first QML based app" 
+         class="figure-img img-fluid gallery-img" width="480" height="800"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">UX mockup for the first QML based app</figcaption></figure>
+  
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Map.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Map.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Map_hu_e6435e9d0c8db314.png 2x"
+         alt="UX mockup for the first QML based app" 
+         class="figure-img img-fluid gallery-img" width="480" height="800"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">UX mockup for the first QML based app</figcaption></figure>
+  
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_9a227f46bf32245b.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_9a227f46bf32245b.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_66b720ee04cfd8fa.png 2x"
+         alt="Screenshots of the first QML based UI" 
+         class="figure-img img-fluid gallery-img" width="1200" height="559"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">Screenshots of the first QML based UI</figcaption></figure>
+  
+
+</div>
+
+<style>
+ 
+#gallery-1778146557-639162209 .carousel-item .gallery-img {
+  height: 400px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  display: block !important;
+}
+
+#gallery-1778146557-639162209 .carousel-item {
+  height: auto;
+}
+
+#gallery-1778146557-639162209 .carousel-item .figure {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+#gallery-1778146557-639162209 .carousel-item .figure .gallery-img {
+  width: 100% !important;
+}
+
+#gallery-1778146557-639162209 .carousel-item .figure .figure-caption {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #gallery-1778146557-639162209 .carousel-item .gallery-img {
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #gallery-1778146557-639162209 .carousel-item .gallery-img {
+    height: 250px !important;
+  }
+}
+</style>
+
+
+<h3 id="the-python-failure">The Python failure</h3>
+<p>Probably the major setback in QGIS for android&rsquo;s history was the non-completion of the Python support. I got really close to it multiple times but unfortunately never managed to tame the snake. Maybe something we&rsquo;ll look into in future, who knows.</p>
+<p>/2013/05/20/python-support-in-qgis-is-getting-there/</p>
+<p>/2013/05/21/getting-closer-to-taming-the-snake/</p>
+<p>/2013/05/21/python-suport-even-closer/</p>
+<h3 id="the-qgis-20-release">The QGIS 2.0 release</h3>
+<p>The pivotal point of the Middle Ages was definitely 20.09.2013, when Tim Sutton presented to a full auditorium the shiny new QGIS 2.0. And along with it it introduced the general availability of QGIS 2.0 on android. The first real QGIS version for mobile devices was finally available for the broad public.</p>
+
+
+
+
+
+
+<div class="gallery-wrapper" 
+     data-gallery-id="gallery-1778146560-659614917"
+     data-autoplay="false"
+     data-interval="5000"
+     data-controls="true"
+     data-indicators="true">
+    
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-19-01-19-31_hu_4e871bb49fc7c630.jpeg" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-19-01-19-31_hu_4e871bb49fc7c630.jpeg 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-19-01-19-31_hu_a79a91b1613be2c1.jpeg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="750"
+         loading="lazy"></figure>
+  
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-17-23-31-39_hu_cca61f5d385e6d87.jpeg" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-17-23-31-39_hu_cca61f5d385e6d87.jpeg 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-17-23-31-39_hu_7da4ee3c74f431c.jpeg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="750"
+         loading="lazy"></figure>
+  
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-20-14-30-15_hu_74231de03147a686.jpeg" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-20-14-30-15_hu_74231de03147a686.jpeg 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/wpid-Screenshot_2013-09-20-14-30-15_hu_dec09006265884ca.jpeg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="750"
+         loading="lazy"></figure>
+  
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_9a227f46bf32245b.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_9a227f46bf32245b.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-06-19-24-45_hu_66b720ee04cfd8fa.png 2x"
+         alt="QField interface preview" 
+         class="figure-img img-fluid gallery-img" width="1200" height="559"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">QField interface preview</figcaption></figure>
+  
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-07-00-08-00_hu_28e156e06097e1f1.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-07-00-08-00_hu_28e156e06097e1f1.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-07-00-08-00_hu_bdb02e9d58624355.png 2x"
+         alt="QField UI improvements" 
+         class="figure-img img-fluid gallery-img" width="1200" height="1126"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">QField UI improvements</figcaption></figure>
+  
+
+</div>
+
+<style>
+ 
+#gallery-1778146560-659614917 .carousel-item .gallery-img {
+  height: 400px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  display: block !important;
+}
+
+#gallery-1778146560-659614917 .carousel-item {
+  height: auto;
+}
+
+#gallery-1778146560-659614917 .carousel-item .figure {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+#gallery-1778146560-659614917 .carousel-item .figure .gallery-img {
+  width: 100% !important;
+}
+
+#gallery-1778146560-659614917 .carousel-item .figure .figure-caption {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #gallery-1778146560-659614917 .carousel-item .gallery-img {
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #gallery-1778146560-659614917 .carousel-item .gallery-img {
+    height: 250px !important;
+  }
+}
+</style>
+
+
+<p>After the launch followed a very active time of keeping QGIS for Android on pair with the desktop versions leading to a regular release of updates on the playstore between 2013 and late 2014. This is also when Matthias Kuhn started committing to the QGIS for Android <a href="https://github.com/qgis/QGIS-Android/graphs/contributors" target="_blank" rel="noopener">repository</a>
+.</p>
+<p><a href="https://vimeo.com/75261402" target="_blank" rel="noopener">https://vimeo.com/75261402</a>
+</p>
+<h2 id="early-modern---qfield-for-qgis-is-here">Early Modern - QField for QGIS is here</h2>
+<p>Humanism, Renaissance and Enlightenment are what we saw happening in the period between 2015 and early 2019. Field users were put at the centre of the design process, new ideas were explored and a new name was chosen to reflect the main goal of the application: <strong>Make fieldwork as efficient as possible</strong>.</p>
+<p>Early 2015 was also when Matthias Kuhn and myself decided to join forces in OPENGIS.ch LLC.</p>
+<h3 id="the-rebranding">The rebranding</h3>
+<p>The project never had a clear name, at times it was called QGIS for Android at times QGIS mobile, we felt that to clearly convey what we were building we needed a clear, simple and poignant name.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-6_hu_f4cb6d334eabcd85.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-6_hu_f4cb6d334eabcd85.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-6_hu_d55539c1d7c74e2a.png 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="173"
+         loading="lazy"></figure>
+
+<blockquote>
+<p>It is with great pleasure that we want to announce the new name for what was briefly known as QGIS mobile.</p>
+<p><strong>Please welcome QField for QGIS™!</strong></p>
+<p>After long thinking about various names and variants including QGIS mobile, QTouch, OPENGIS.ch QGIS mobile, QWork, and many more, we felt that QField represents best what we want to archive. A field data capture and management app fully compatible with QGIS™.</p>
+<p><a href="/pr-preview/pr-60/2015/01/28/qgis-mobile-is-now-qfield/">/2015/01/28/qgis-mobile-is-now-qfield/</a>
+</p>
+</blockquote>
+<p><a href="https://vimeo.com/116231850" target="_blank" rel="noopener">https://vimeo.com/116231850</a>
+</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-7_hu_152d33b31e3ef5b3.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-7_hu_152d33b31e3ef5b3.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-7_hu_736cd6405560f83e.png 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="173"
+         loading="lazy"></figure>
+
+<blockquote>
+<p>QField Experimental is out, after a couple of months of requirements gathering, private early alpha testing and foremost tons of  emails requesting access to the testes group we decided today to put the current BETA version in the playstore.</p>
+<p><a href="/pr-preview/pr-60/2015/06/15/qfield-in-the-wild/">/2015/06/15/qfield-in-the-wild/</a>
+</p>
+</blockquote>
+<h3 id="streamlined-installation">Streamlined installation</h3>
+<p>Since the beginning of QGIS for android, to distribute the needed Qt libraries, we used a project called &ldquo;ministro&rdquo;. This was interesting because it allowed to download the libraries only once but on the other hand, it was a very painful experience for the user that needed to install a second app before getting QField to start. Around the end of 2015 it was so far, we finally managed to get rid of that dependency and make the installation process as streamlined as possible.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-8_hu_1acaa697f63f3ebc.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-8_hu_1acaa697f63f3ebc.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-8_hu_193b5928924a257c.png 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="183"
+         loading="lazy"></figure>
+
+<blockquote>
+<p>It’s done, finally we managed to get rid of Ministro so that we finally can say, QField runs on any android from 4.0.3 (ICS). This makes as of today (according to <a href="https://developer.android.com/about/dashboards/index.html" target="_blank" rel="noopener">google</a>
+) 96% of the android installations worldwide.</p>
+<p><a href="/pr-preview/pr-60/2015/12/01/qfield-for-android-5/">/2015/12/01/qfield-for-android-5/</a>
+</p>
+</blockquote>
+<h2 id="release-candidates">Release candidates</h2>
+<p>In these 3.5 years, a continuous, mainly volunteer-driven iterative process led by Matthias Kuhn made QField grow to the point where we felt confident it was time to launch QField 1.0.</p>
+<p>After a series of release candidates with lots of feedback from the community, we felt it was time to move into a New Era.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-9_hu_75fce9e13c137fe5.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-9_hu_75fce9e13c137fe5.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-9_hu_c5fca18e2421d62b.png 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="202"
+         loading="lazy"></figure>
+
+<blockquote>
+<p>It was a long and winding road but we are very excited to announce the general availability of QField 1.0 Release Candidate 1.</p>
+<p>Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is a powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.</p>
+<p><a href="/pr-preview/pr-60/2019/01/08/qfield-1-0-rc1/">/2019/01/08/qfield-1-0-rc1/</a>
+</p>
+</blockquote>
+<h2 id="modern-times---qfield-1x">Modern times - QField 1.X</h2>
+<p>Fast forward to March 28th 2019,</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-10_hu_c0e2be7d4a0acd53.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-10_hu_c0e2be7d4a0acd53.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/image-10_hu_8527149341d70aed.png 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="214"
+         loading="lazy"></figure>
+
+<blockquote>
+<p>Let’s get straight to the point</p>
+<p><strong>It’s official, QField for QGIS 1.0 is out!</strong></p>
+<p>Get it while it’s hot on the Playstore ( <a href="https://qfield.org/get" target="_blank" rel="noopener">qfield.org/get</a>
+) or on <a href="https://github.com/opengisch/QField/releases" target="_blank" rel="noopener">GitHub</a>
+</p>
+<p>We are incredibly pleased and proud of just having released such a jewel and are convinced that thanks to all its features and conscious design choices, QField will make your field digitizing work much more efficient and pleasant.</p>
+<p><a href="/pr-preview/pr-60/2019/03/28/qfield-1-0-is-here/">/2019/03/28/qfield-1-0-is-here/</a>
+</p>
+</blockquote>
+<h3 id="recent-releases">Recent releases</h3>
+<p>In the last 2 years the development pace increased tremendously, the sponsored featured grew as never before, QField rating skyrocketed to 4.7 ⭐ we currently have 100'000 active users and we&rsquo;re getting around 500 new users every day.</p>
+<p>Our QField core team grew more and now thanks to David Signer&rsquo;s lead and Mathieu Pellerin keen eye for UX we&rsquo;re pushing QField even further.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-07-00-08-00_hu_28e156e06097e1f1.png" srcset="/pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-07-00-08-00_hu_28e156e06097e1f1.png 1x, /pr-preview/pr-60/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/Screenshot-from-2021-06-07-00-08-00_hu_bdb02e9d58624355.png 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="1126"
+         loading="lazy"></figure>
+
+<p>Going into all releases would be so much information that this post would turn into a 3 volumes classic, and since starting from QField 1.0 we&rsquo;ve documented each new release, we&rsquo;re just going to link them: <a href="/pr-preview/pr-60/category/qfield/highlights/">/category/qfield/highlights/</a>
+</p>
+<h2 id="the-future-is-cloudy---ehm-sunny-of-course-">The future is cloudy - ehm sunny of course ;)</h2>
+<p>Yesterday we published QField 1.9.6, which is going to be the last 1.X release and will put QField 2.0 into the beta channel so that every beta tester can start using <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+ without having to use the <a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield_dev" target="_blank" rel="noopener">developer version</a>
+.</p>
+<p>But that is a different story and you can read all about it in our latest <a href="https://mailchi.mp/opengis.ch/seamless-fieldwork-with-qfieldcloud-is-around-the-corner#qfieldcloud" target="_blank" rel="noopener">newsletter</a>
+&hellip;</p>
+
+        </div>
+    </div>
+  </div>
+</article>
+
+
+<section class="py-5 border-top">
+  <div class="container">
+    <div class="row justify-content-center">
+        
+        
+        <div class="mb-5 text-center">
+          <h6 class="fw-bold mb-3">Share this post</h6>
+          
+          
+          
+          <ul class="share-buttons">
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS on X" 
+                 title="Share on X (Twitter)"
+                 href="https://x.com/intent/tweet/?text=QFieldCloud&#43;now&#43;opensource&#43;-&#43;Happy&#43;10&#43;Years&#43;of&#43;field&#43;mapping&#43;with&#43;QGIS&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-60%2Fblog%2F2021%2F06%2F08%2Fqfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis%2F&hashtags=qgis">
+                <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
+                  <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS on LinkedIn" 
+                 title="Share on LinkedIn"
+                 href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-60%2Fblog%2F2021%2F06%2F08%2Fqfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis%2F&title=QFieldCloud&#43;now&#43;opensource&#43;-&#43;Happy&#43;10&#43;Years&#43;of&#43;field&#43;mapping&#43;with&#43;QGIS&summary=%3Cp%3EToday%2C&#43;on&#43;QField%26rsquo%3Bs&#43;10th&#43;anniversary%2C&#43;we%26rsquo%3Bre&#43;extremely&#43;proud&#43;to&#43;publish&#43;the&#43;results&#43;of&#43;over&#43;%3Ca&#43;href%3D%22https%3A%2F%2Fgithub.com%2Fopengisch%2Fqfieldcloud%2Fgraphs%2Fcontributors%22&#43;target%3D%22_blank%22&#43;rel%3D%22noopener%22%3E18&#43;months%3C%2Fa%3E%0A&#43;of&#43;development&#43;and&#43;give&#43;you&#43;%3Ca&#43;href%3D%22https%3A%2F%2Fgithub.com%2Fopengisch%2Fqfieldcloud%2Fpull%2F3%22&#43;target%3D%22_blank%22&#43;rel%3D%22noopener%22%3Ethe&#43;source&#43;code&#43;of&#43;QFieldCloud%3C%2Fa%3E%0A&#43;to&#43;go&#43;and&#43;make&#43;your&#43;awesome&#43;adaptations%2C&#43;solutions%2C&#43;and&#43;hopefully&#43;contributions&#43;%3A%29%3C%2Fp%3E%0A%3Cp%3EIf&#43;you&#43;want&#43;to&#43;quickly&#43;try&#43;it&#43;out%2C&#43;head&#43;to%C2%A0%3Ca&#43;href%3D%22https%3A%2F%2Fqfield.cloud%2F%22&#43;target%3D%22_blank%22&#43;rel%3D%22noopener%22%3Ehttps%3A%2F%2Fqfield.cloud%3C%2Fa%3E%0A&#43;where&#43;our&#43;hosted&#43;solution&#43;is&#43;running&#43;and&#43;secure&#43;yourself&#43;a&#43;spot&#43;in&#43;the&#43;beta&#43;program.%3C%2Fp%3E%0A%3Cp%3EQFieldCloud%26rsquo%3Bs&#43;unique&#43;technology&#43;allows&#43;your&#43;team&#43;to&#43;focus&#43;on&#43;what%26rsquo%3Bs&#43;important%2C&#43;making&#43;sure&#43;you&#43;efficiently&#43;get&#43;the&#43;best&#43;field&#43;data&#43;possible.&#43;Thanks&#43;to&#43;the&#43;tight&#43;integration&#43;with&#43;the&#43;leading&#43;GIS&#43;fieldwork&#43;app&#43;QField%2C&#43;your&#43;team&#43;will&#43;be&#43;able&#43;to&#43;start&#43;surveying&#43;and&#43;digitising&#43;data&#43;in&#43;no&#43;time.%3C%2Fp%3E&source=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-60%2Fblog%2F2021%2F06%2F08%2Fqfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis%2F">
+                <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
+                  <path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS on Reddit" 
+                 title="Share on Reddit"
+                 href="https://reddit.com/submit?url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-60%2Fblog%2F2021%2F06%2F08%2Fqfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis%2F&title=QFieldCloud&#43;now&#43;opensource&#43;-&#43;Happy&#43;10&#43;Years&#43;of&#43;field&#43;mapping&#43;with&#43;QGIS">
+                <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
+                  <path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS on Facebook" 
+                 title="Share on Facebook"
+                 href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-60%2Fblog%2F2021%2F06%2F08%2Fqfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis%2F">
+                <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
+                  <path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS on WhatsApp" 
+                 title="Share on WhatsApp"
+                 href="https://api.whatsapp.com/send?text=QFieldCloud&#43;now&#43;opensource&#43;-&#43;Happy&#43;10&#43;Years&#43;of&#43;field&#43;mapping&#43;with&#43;QGIS%20-%20https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-60%2Fblog%2F2021%2F06%2F08%2Fqfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis%2F">
+                <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
+                  <path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS on Telegram" 
+                 title="Share on Telegram"
+                 href="https://telegram.me/share/url?text=QFieldCloud&#43;now&#43;opensource&#43;-&#43;Happy&#43;10&#43;Years&#43;of&#43;field&#43;mapping&#43;with&#43;QGIS&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-60%2Fblog%2F2021%2F06%2F08%2Fqfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis%2F">
+                <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" fill="currentColor">
+                  <path d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS on Hacker News" 
+                 title="Share on Hacker News"
+                 href="https://news.ycombinator.com/submitlink?t=QFieldCloud&#43;now&#43;opensource&#43;-&#43;Happy&#43;10&#43;Years&#43;of&#43;field&#43;mapping&#43;with&#43;QGIS&u=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-60%2Fblog%2F2021%2F06%2F08%2Fqfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis%2F">
+                <svg version="1.1" xml:space="preserve" viewBox="0 0 512 512" fill="currentColor">
+                  <path d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        
+        
+        <div class="mb-4">
+          <h6 class="fw-bold mb-2">Tags:</h6>
+          <div>
+            
+            <span class="badge bg-secondary me-2 mb-1">qgis.org</span>
+            
+          </div>
+        </div>
+        
+
+        
+        <div class="mb-4">
+          <div class="row g-3">
+            
+            <div class="col-md-6">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-muted">Previous Post</h6>
+                  <a href="/pr-preview/pr-60/blog/2021/02/24/powerful-and-gentle-qfield-1.8-selma-sneaked-in/" class="card-title h6 text-decoration-none stretched-link">
+                    <i class="fas fa-arrow-left me-2"></i>Powerful and gentle QField 1.8 Selma sneaked in
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+            <div class="col-md-6">
+              <div class="card h-100">
+                <div class="card-body text-end">
+                  <h6 class="card-subtitle mb-2 text-muted">Next Post</h6>
+                  <a href="/pr-preview/pr-60/blog/2022/02/02/qfield-collected-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/" class="card-title h6 text-decoration-none stretched-link">
+                    QField collected data crucial in disaster relief after Tonga’s volcanic eruption<i class="fas fa-arrow-right ms-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        <div class="text-center">
+          <a href="/pr-preview/pr-60/blog/" class="btn btn-outline-primary">
+            <i class="fas fa-arrow-left me-2"></i>Back to All Posts
+          </a>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h3 class="text-center mb-4">Related Posts</h3>
+    <div class="row g-4">
+      
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="/pr-preview/pr-60/blog/2021/02/24/powerful-and-gentle-qfield-1.8-selma-sneaked-in/" class="text-decoration-none text-dark stretched-link">Powerful and gentle QField 1.8 Selma sneaked in</a>
+            </h5>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-calendar me-1"></i>Feb 24, 2021
+              </small>
+            </p>
+            
+            <p class="card-text text-dark"><p><strong>Get fieldwork smoothly and nimbly done despite the ice and snow outside. Collect accurate data with …</strong></p></p>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="/pr-preview/pr-60/blog/2020/10/20/qfield-1.7-rockies-hits-the-stage/" class="text-decoration-none text-dark stretched-link">QField 1.7 Rockies hits the stage</a>
+            </h5>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-calendar me-1"></i>Oct 20, 2020
+              </small>
+            </p>
+            
+            <p class="card-text text-dark"><p><strong>Be ready for the cold weather with a smooth coordinate search, filters in the value relation widget, …</strong></p></p>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="/pr-preview/pr-60/blog/2020/08/18/qfield-1.6-is-out/" class="text-decoration-none text-dark stretched-link">QField 1.6 is out!</a>
+            </h5>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-calendar me-1"></i>Aug 18, 2020
+              </small>
+            </p>
+            
+            <p class="card-text text-dark"><p><strong>Editing multiple features at the same time, support for stylus pens, dynamic configuration of image …</strong></p></p>
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+    </div>
+    <footer class="site-footer mt-auto">
+  
+
+  
+  
+  <div class="footer-subscribe-banner">
+    <div class="container footer-subscribe-banner__inner">
+      <div class="footer-subscribe-banner__text">
+        <h2>Stay in the loop</h2>
+        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a>
+ and stay up to date on the latest and greatest!</p>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row gy-4">
+        
+        <div class="col-12"><h3>About QField</h3>
+          <p>QField is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management.
+As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/pr-preview/pr-60/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>
+, promoting a more sustainable and equitable future.</p>
+        </div>
+        
+        <div class="col-12"><h3>Open-source</h3>
+          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a>
+ under the GNU Public License (GPL) version 2 or later.
+Developing QField under this license means that you can inspect and modify the source code and guarantees that you will always have access to a QGIS based field data collection app that is free of cost and can be freely modified.</p>
+        </div>
+        
+        <div class="col-12"><h3>Legal</h3>
+          <p>View the QField <a href="/pr-preview/pr-60/privacy_policy">Privacy Policy</a>
+ to learn what information we collect and how we protect it, and the <a href="/pr-preview/pr-60/guidelines">Trademark and Brand Guidelines</a>
+ for permitted uses of the QField name and logo.</p>
+        </div>
+        
+        <div class="col-12"><h3>Credits</h3>
+          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>
+.
+OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>
+, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>
+, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a>
+ and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a>
+ for open-source software including QField, QGIS and PostGIS.</p>
+        </div>
+        
+
+      
+      <div class="social-links mt-4 text-center">
+        
+        <a href="https://fosstodon.org/@qfield" target="_blank" rel="noopener noreferrer">
+          
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Mastodon_Logotype_%28Simple%29.svg" alt="Mastodon" width="32" height="32">
+          
+        </a>
+        
+        <a href="https://bsky.app/profile/qfield.org" target="_blank" rel="noopener noreferrer">
+          
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg" alt="Bluesky" width="32" height="32">
+          
+        </a>
+        
+        <a href="https://www.linkedin.com/company/qfield" target="_blank" rel="noopener noreferrer">
+          
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="32" height="32">
+          
+        </a>
+        
+        <a href="https://github.com/opengisch/QField/" target="_blank" rel="noopener noreferrer">
+          
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub" width="32" height="32">
+          
+        </a>
+        
+      </div>
+      
+    </div>
+  </section>
+  
+
+  <section class="footer-bottom border-top">
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3">
+      <p class="mb-0 text-muted"></p>
+      
+    </div>
+  </section>
+</footer>
+
+    
+
+
+
+
+<script src="/pr-preview/pr-60/js/bootstrap/bootstrap.bundle.min.min.7620f70f6a288d4f1a662439d8772846a2d2084a9466d8d25b3b246d986b3c96e31aae489aaa01a1961bd6f4ad9842e677b02848d0aae0a3fb74b76a522f9e80.js" integrity="sha512-diD3D2oojU8aZiQ52HcoRqLSCEqUZtjSWzskbZhrPJbjGq5ImqoBoZYb1vStmELmd7AoSNCq4KP7dLdqUi&#43;egA==" crossorigin="anonymous" defer></script>
+  
+    <script src="/pr-preview/pr-60/js/main.min.696843dcc5419bf41a3ad99bbae4dbf9a9ca0cf207619b38cd0ead7c159d17b84e98432791a4bc7fb335e22430487d8b87460c0be5a072b90ac1bfafe34d331c.js" integrity="sha512-aWhD3MVBm/QaOtmbuuTb&#43;anKDPIHYZs4zQ6tfBWdF7hOmEMnkaS8f7M14iQwSH2Lh0YMC&#43;WgcrkKwb&#43;v400zHA==" crossorigin="anonymous" defer></script>
+  
+  
+
+
+
+<script src="/pr-preview/pr-60/vendor/fontawesome/js/all.min.js" defer></script>
+
+<script src="/pr-preview/pr-60/js/theme-toggle.min.3bb4185951368c998f021c8c418f3516f4d059579200f537ce98722de5b0a680.js" integrity="sha256-O7QYWVE2jJmPAhyMQY81FvTQWVeSAPU3zphyLeWwpoA=" crossorigin="anonymous" defer></script>
+
+
+</body>
+</html>
