@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tracking on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-62/tags/tracking/</link>
+    <description>Recent content in Tracking on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-62/tags/tracking/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Wildlife Tracking and Habitat Mapping</title>
+      <link>https://qfield.org/pr-preview/pr-62/solutions/wildlife-tracking-and-habitat-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-62/solutions/wildlife-tracking-and-habitat-mapping/</guid>
+      
+      <description>Field data collection for wildlife observations, habitats, and tracking studies with mobile GIS.</description>
+      <content:encoded><![CDATA[<h2 id="workflows">Workflows</h2>
+<ul>
+<li>Wildlife observations and telemetry</li>
+<li>Habitat mapping and suitability assessments</li>
+<li>Protected areas surveys and monitoring</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Prepare symbology and forms in QGIS, then sync projects with QFieldCloud to collaborate across teams.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">wildlife</category>
+      <category domain="tags">habitat mapping</category>
+      <category domain="tags">tracking</category>
+    </item>
+    
+  </channel>
+</rss>
