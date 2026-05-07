@@ -57,6 +57,9 @@
 <p>Anna, Chief Engineer, NIBIO Geomatics Department</p>
 </blockquote>
 ]]></content:encoded>
+      <category domain="categories">government-municipalities</category>
+      <category domain="categories">ecology-environment</category>
+      <category domain="categories">water-land-management</category>
     </item>
     
     <item>
@@ -270,6 +273,91 @@
     </item>
     
     <item>
+      <title>QField Helps Monitor 20,000 &lt;br&gt; WWII Fortifications Across Germany</title>
+      <link>https://qfield.org/pr-preview/pr-62/success-stories/ww2-fortifications/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-62/success-stories/ww2-fortifications/</guid>
+      
+      <description>&lt;p&gt;Along Germany&amp;rsquo;s western border, volunteers are using QField and QFieldCloud to &lt;strong&gt;map and monitor thousands of World War II fortifications&lt;/strong&gt; – protecting public safety, preserving history, and making democracy tangible for a new generation.&lt;/p&gt;
+&lt;h3 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h3&gt;
+&lt;p&gt;Stretching 600 kilometers along Germany&amp;rsquo;s western border lies a vast network of concrete bunkers and fortifications built in the 1930s and 40s. Known as the &lt;strong&gt;Siegfried Line&lt;/strong&gt; (or Westwall in Germany), this defensive system comprises approximately &lt;strong&gt;20,000 distinct structures&lt;/strong&gt;, half of which still exist in some form today.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Along Germany&rsquo;s western border, volunteers are using QField and QFieldCloud to <strong>map and monitor thousands of World War II fortifications</strong> – protecting public safety, preserving history, and making democracy tangible for a new generation.</p>
+<h3 id="the-challenge">The Challenge</h3>
+<p>Stretching 600 kilometers along Germany&rsquo;s western border lies a vast network of concrete bunkers and fortifications built in the 1930s and 40s. Known as the <strong>Siegfried Line</strong> (or Westwall in Germany), this defensive system comprises approximately <strong>20,000 distinct structures</strong>, half of which still exist in some form today.</p>
+<p>For decades after WWII, these structures were systematically destroyed or buried. But attitudes have changed. Today, they&rsquo;re protected as historical monuments, and volunteers working with German federal monument services are <strong>documenting, monitoring, and securing them</strong> before they deteriorate further or pose safety risks.</p>
+<p><em>Patrice Wijnands</em>, a geomaticist and volunteer coordinator, has been mapping these fortifications for 30 years. Five years ago, he discovered QField, and it <strong>transformed how this massive conservation effort operate</strong>s.</p>
+<p>The fortifications present unique challenges. Many were filled with sand in the decades following the war. Now, that sand is settling and draining away, creating new gaps and hazards.</p>
+<p><em>&ldquo;The sands with which these bunkers had been filled up is now filling in and it opens new gaps, new holes in the surface. That is especially the thing we are tackling because we not only map these objects, we also get back to them every few years.&rdquo;</em></p>
+<p><strong>The scale is immense:</strong> tracking safety risks, determining protective measures, and monitoring changes across a zone 600 kilometers long and up to 30 kilometers wide. Some structures near populated areas require fencing. Others in remote woodland need only warning signs. The key is knowing which is which, and tracking how conditions evolve.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpg"
+         alt="picture" 
+         class="figure-img img-fluid gallery-img"
+         loading="lazy"></figure>
+
+<h3 id="from-paper-maps-to-digital-collaboration">From Paper Maps to Digital Collaboration</h3>
+<p>For 15 years, volunteers mapped using paper maps, each person working on their own island. Patrice would receive photocopied maps and Excel spreadsheets, spending hours trying to reconcile different symbologies.</p>
+<p><em>&ldquo;What does that mean when they made a cross on the map? How does that fit with their Excel sheet that they maybe sent me in 2005?&rdquo;</em></p>
+<p>Patrice began using specialized GIS software in 2010, but found it difficult to share projects. In 2017, he started experimenting with QGIS. <strong>Then in 2019, he discovered QField.</strong></p>
+<p><em>&ldquo;I started using QField in 2019 and I felt that this was the state of the art after the tools I used before.&rdquo;</em></p>
+<p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpeg"
+         alt="pic" 
+         class="figure-img img-fluid gallery-img"
+         loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpeg"
+          alt="pic" 
+          class="figure-img img-fluid gallery-img"
+          loading="lazy"></figure>
+</p>
+<h3 id="scaling-up-with-qfieldcloud">Scaling Up with QFieldCloud</h3>
+<p>Within six months, Patrice began distributing QField projects to other volunteers. But as the network grew—especially during COVID-19—manually distributing projects became unsustainable. Then QFieldCloud arrived, solving the scalability problem completely.</p>
+<p><em>&ldquo;I just create these projects. I put them onto the cloud. People can gather them. They go into the field. The only thing I need to explain to them is how to map, what data are to be collected. They learn that within a few minutes. They upload these data and synchronize again with the QField cloud. And I can see these data in the next minutes again already here on my desktop.&rdquo;</em></p>
+<p><strong>The project by numbers:</strong></p>
+<ul>
+<li>600 kilometers: Length of the fortification zone</li>
+<li>20,000 objects: Total fortifications mapped today</li>
+<li>Scalable to 100+ volunteers: Thanks to QFieldCloud</li>
+</ul>
+<h3 id="keeping-it-simple">Keeping It Simple</h3>
+<p>Volunteers work with point data, adding observations to a monitoring layer rather than editing the base map. This eliminates GPS accuracy issues—critical when working under forest canopy where positioning might be off by 50 meters.</p>
+<p><em>&ldquo;Every person visiting an object adds a point. That means if next year somebody else is getting there, he adds a new point.They only add their observation and the interpretation is something for me and for the people post-processing this data later on.&rdquo;</em></p>
+<p>The system captures <strong>photographs, condition assessments, and observations about changes since the last visit</strong>. Because volunteers often work in areas with poor mobile coverage, Patrice includes offline maps and advises volunteers to synchronize at home.</p>
+<h3 id="learning-qfield-minutes-not-months">Learning QField: Minutes, Not Months</h3>
+<p>New volunteers become productive quickly. Patrice typically provides initial training through a single online or face-to-face session, and volunteers are mapping independently within weeks.</p>
+<p><em>&ldquo;I have seen people going into this without even having a GIS system before and they work with this after a few weeks as if they have never done anything else before. It does not need some software in which you need to spend a lot of time to learn it. That&rsquo;s my job. And all the people outside in the field, they don&rsquo;t need to understand that in that depth.&rdquo;</em></p>
+<p>This <strong>ease of adoption</strong> means Patrice can focus volunteers on what matters: understanding the history and significance of what they&rsquo;re documenting.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpg"
+         alt="pic" 
+         class="figure-img img-fluid gallery-img"
+         loading="lazy"></figure>
+
+<h3 id="data-that-serves-multiple-purposes">Data That Serves Multiple Purposes</h3>
+<p>The database serves <strong>various stakeholders with different needs</strong>. Some structures can be made public for educational purposes. Others must remain confidential due to safety concerns, property rights, or ecological considerations.</p>
+<p>Federal monument agencies receive data they need. Property owners get information about structures on their land. Ecologists access data about habitat. And the public gains access to appropriate historical information.</p>
+<p>The system is also adaptable. Patrice has successfully tested the data model on other historical fortifications, demonstrating the approach could be applied to different types of monuments.</p>
+<h3 id="the-difference-open-source-makes">The Difference Open Source Makes</h3>
+<p>For Patrice, <strong>the open-source nature of QGIS and QField proved essential</strong>. Unlike proprietary alternatives he&rsquo;d used previously, these tools could be freely distributed without licensing concerns.</p>
+<p><em>&ldquo;With QGIS there came the add-ins which made it powerful out of the box. You did not need any licenses. This is open source, it is easily distributable, everybody can download it and install it on their mobile device.&rdquo;</em></p>
+<p>When Patrice needed QFieldCloud access, he contacted OPENGIS.ch. The response was immediate and supportive — the only request was that the project link back to OPENGIS.ch on their webpage.</p>
+<p><em>&ldquo;I responded with creating a complete page about using this software. It&rsquo;s the best thing I can do also for OPENGIS.ch in promoting their software and promoting this cloud service.&rdquo;</em></p>
+<h3 id="more-than-just-mapping">More Than Just Mapping</h3>
+<p>For Patrice and the volunteers, the project <strong>serves purposes beyond safety and historical preservation</strong>. These tangible remnants of the Nazi era provide opportunities for communities to <strong>engage with history in meaningful ways.</strong></p>
+<p><em>&ldquo;It is also a contribution to maintaining democracy. Here along the western border, everybody can get in touch with that history with concrete remnants around their own village.&rdquo;</em></p>
+<p>When history is local—visible in the woods near home rather than distant and abstract, it becomes personal. People become curious about their own community&rsquo;s past.</p>
+<p><em>&ldquo;The people understand that it is a part of their identity and they are willing to view it also as a part of identity even if it has a dark history. It&rsquo;s not my fault but it is my responsibility for maintaining it.&rdquo;</em></p>
+<h3 id="looking-ahead">Looking Ahead</h3>
+<p>What once required Patrice to manually process data from each person now scales <strong>effortlessly across dozens of contributors</strong> spread across hundreds of kilometers.</p>
+<p><em>&ldquo;I can in that way suit not 10 people, it can be 20, it can be 50, it can be 100. It doesn&rsquo;t matter. That makes the process scalable.&rdquo;</em></p>
+<p>Technology hasn&rsquo;t just made the work more efficient, it&rsquo;s made an entire category of <strong>conservation and historical preservation</strong> possible that simply wouldn&rsquo;t exist otherwise.</p>
+<p><em>&ldquo;Now I can just give someone a project of all objects in 20 kilometers around their home. We can collect data in a standardized way. You end up with a standardized database that you can start to query, that you can start to use for interesting analysis.&rdquo;</em></p>
+<h4 id="about-the-project">About the Project:</h4>
+<p><strong>The West Wall (Siegfried Line) fortification mapping project</strong> is coordinated by volunteer monument preservation groups working alongside German federal monument services, documenting and monitoring approximately <strong>10,000 remaining WWII-era fortifications across a 600-kilometer zone</strong> along Germany&rsquo;s western border.</p>
+]]></content:encoded>
+      <category domain="categories">government-municipalities</category>
+      <category domain="categories">ecology-environment</category>
+    </item>
+    
+    <item>
       <title>QField Search and Routing Plugins Updates</title>
       <link>https://qfield.org/pr-preview/pr-62/blog/2026/02/12/qfield-search-and-routing-plugins-updates/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
@@ -316,6 +404,208 @@
       <category domain="tags">plugins</category>
       <category domain="tags">openstreetmap</category>
       <category domain="tags">routing</category>
+    </item>
+    
+    <item>
+      <title>How QField Supports Vocational Training in Switzerland</title>
+      <link>https://qfield.org/pr-preview/pr-62/success-stories/vocational-training/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-62/success-stories/vocational-training/</guid>
+      
+      <description>In the French-speaking region of Switzerland, ORIF is using QField to transform how students with physical or psychological challenges learn geomatics—providing them with professional-grade tools and a pathway back into the workforce.</description>
+      <content:encoded><![CDATA[<p>In the French-speaking region of Switzerland, <a href="https://www.orif.ch/fr/" target="_blank" rel="noopener">ORIF</a>
+ is using QField to <strong>transform how students with physical or psychological challenges learn geomatics</strong>, providing them with professional-grade tools and a pathway back into the workforce.</p>
+<p>ORIF is not a typical geomatics company. This vocational training organization provides apprenticeships across 30 different trades for people who have experienced <strong>life-changing injuries or psychological challenges</strong> and need to <strong>reorient their careers</strong>.
+Five years ago, Patrick Darbellay opened ORIF&rsquo;s geomatics section, creating opportunities for students to learn <strong>surveying, GNSS technology, and GIS software</strong> through a four-year apprenticeship program.</p>
+<h3 id="choosing-the-right-tools">Choosing the Right Tools</h3>
+<p>As the sole geomatics instructor working with five students, Patrick needed software that would align with what students learn in Swiss vocational schools while being <strong>accessible</strong>* and <strong>well-supported</strong>. QField and QGIS were natural choices.</p>
+<p><em>&ldquo;In Switzerland, QGIS is really well accepted by the geomatics community”</em></p>
+<p>Unlike proprietary alternatives, QGIS and QField offered abundant free learning resources and community support—invaluable for students rebuilding their lives.</p>
+<h3 id="from-paper-to-digital">From Paper to Digital</h3>
+<p>Before QField, students used paper notebooks to record attributes and a Trimble GNSS receiver for coordinates. Patrick worked with his students to develop a QField-based system that <strong>captures field data directly on mobile devices while maintaining rigorous GNSS survey protocols.</strong></p>
+<p>This hybrid approach gives students professional-grade GNSS data collection with detailed protocol logs for learning, combined with efficient digital attribute capture through QField.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpg"
+         alt="picture" 
+         class="figure-img img-fluid gallery-img"
+         loading="lazy"></figure>
+
+<h3 id="real-world-projects">Real-World Projects</h3>
+<p>ORIF&rsquo;s students conduct actual professional work supporting Switzerland&rsquo;s cadastral system. Their current project involves renewing base points (control points) used for official surveying across their region – approximately 2,000 points in total.</p>
+<p><em>&ldquo;We go to the field, we search for these points. If we find them, we survey them. Then in QField, we put the state—if it&rsquo;s good or not, if it&rsquo;s level. We take a photo, we link the photo in QField, we enter all the attributes and the date of surveying&rdquo;</em></p>
+<p>The project is carefully chosen to provide valuable experience without competing with local geomatics companies — many of which eventually employ ORIF graduates. The work gives students complete surveying experience: <strong>GNSS measurements, photography, attribute data entry, and physical marking with spray paint</strong>.</p>
+<p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpeg"
+         alt="pic" 
+         class="figure-img img-fluid gallery-img"
+         loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpeg"
+          alt="pic" 
+          class="figure-img img-fluid gallery-img"
+          loading="lazy"></figure>
+</p>
+<h3 id="building-confidence">Building Confidence</h3>
+<p>For students at ORIF, the ability to produce professional work using modern tools has impacts <strong>beyond technical skills</strong>.</p>
+<p><em>&ldquo;It&rsquo;s really special—it&rsquo;s not only geomatics, it&rsquo;s a bit social and psychological. For them, it&rsquo;s really valuable because they can make something themselves and produce something themselves. If you have trouble and a part of your life is difficult, you&rsquo;re a bit down. If you can go up again with such tools, I think that&rsquo;s really valuable.&rdquo;</em></p>
+<p><strong>The self-directed learning</strong> that QField and QGIS enable is particularly important. Students can explore the software independently, find solutions to problems, and experience the satisfaction of <strong>overcoming challenges on their own</strong>.</p>
+<h3 id="success-metrics">Success Metrics</h3>
+<p>ORIF&rsquo;s approach is working. <strong>Approximately 60-80% of students complete the full apprenticeship program and successfully transition to employment in geomatics companies</strong>. A remarkable achievement considering the challenges these students have faced.</p>
+<p>Students spend their first two years at ORIF building foundational skills and stability. If they&rsquo;re ready, they transition to work with a regular employer for their third and fourth years—completing their apprenticeship in the professional marketplace they&rsquo;ll eventually join.</p>
+<p>The QField system Patrick developed has become integral to preparing students for this transition. They learn modern digital workflows, database concepts, and mobile data collection—all skills that employers value.</p>
+<h3 id="looking-forward">Looking Forward</h3>
+<p>As ORIF continues to develop its geomatics program, Patrick is exploring <strong>additional ways to leverage QField&rsquo;s capabilities</strong>. For Patrick, the success of the program is measured not in points surveyed or data collected, but in lives changed.</p>
+<p><em>&ldquo;The goal of ORIF is to make this bridge. And it&rsquo;s working well.&rdquo;</em></p>
+]]></content:encoded>
+      <category domain="categories">--</category>
+    </item>
+    
+    <item>
+      <title>Community-led mapping for land rights and forest protection in Sarawak with QField</title>
+      <link>https://qfield.org/pr-preview/pr-62/success-stories/sarawak/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-62/success-stories/sarawak/</guid>
+      
+      <description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href=&#34;https://bmf.ch/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Bruno Manser Fonds&lt;/a&gt;
+ working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.&lt;/p&gt;
+&lt;p&gt;The goal is simple to describe, but powerful in practice: &lt;strong&gt;create maps that show where people live and what matters to them&lt;/strong&gt;. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In parts of Sarawak (Malaysia), indigenous communities are <strong>actively resisting deforestation and fighting for land rights</strong>. For one <a href="https://bmf.ch/en" target="_blank" rel="noopener">The Bruno Manser Fonds</a>
+ working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.</p>
+<p>The goal is simple to describe, but powerful in practice: <strong>create maps that show where people live and what matters to them</strong>. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.</p>
+<p>This is not only useful for planning and storytelling. In at least one case, a community map was used in court as <strong>evidence</strong> of long-standing connection and use. The community could show place names and key sites in a way that helped to <strong>prove</strong> that they have been living in those areas for a long time.</p>
+<h3 id="why-mapping-needs-more-than-satellite-imagery">Why mapping needs more than satellite imagery</h3>
+<p>Satellite imagery and topographic maps are helpful starting points. They show rivers, ridges, clearings, and settlement patterns. But they do not capture meaning.</p>
+<p>A satellite image can’t tell you where ancestors are buried, where a place is considered sacred, which part of the forest is used for hunting, or which areas people avoid for cultural reasons. Those details live in stories, memory, and daily practice.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-7_hu_29cd293473a47c9f.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-7_hu_29cd293473a47c9f.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-7_hu_e00d08ae3622fcb9.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="600" height="400" style="ZgotmplZ"
+         loading="lazy"></figure>
+
+<h3 id="the-reality-in-the-field-connectivity-comes-and-goes">The reality in the field: connectivity comes and goes</h3>
+<p>A second challenge is technical but very real: <strong>internet access</strong>. Many of these villages have unreliable connectivity, and “offline” can mean days or weeks, not just a few hours between the office and the field.</p>
+<p>That matters because community mapping usually involves <strong>large basemaps and plenty of edits from multiple devices</strong>. If you can’t reliably push data back and forth online, you need a workflow that works without it.</p>
+<h3 id="how-qfield-is-used-in-the-workflow">How QField is used in the workflow</h3>
+<p>The team prepares a QGIS project and packages it for mobile fieldwork using QFieldSync. Then QField is used for <strong>collecting features and attributes</strong> directly on Android devices in the field. A key part of this project is that distribution and syncing often happens by cable, not through the cloud.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-2_hu_e598815b0a248ba0.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-2_hu_e598815b0a248ba0.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-2_hu_617cacf0d918787.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="300" height="400" style="ZgotmplZ"
+         loading="lazy"></figure>
+
+<p><strong>1. Co-designing the project with each community</strong></p>
+<p>Before fieldwork begins, the team sits with the community and adapts the project to what they want to map.</p>
+<p><strong>Different communities care about different things.</strong> A village close to a river may want specific river sections and names recorded in detail. Another community might focus more on forest resources or cultural sites. Together, they decide:</p>
+<ul>
+<li>What feature types to include</li>
+<li>How features should be represented (point, line, polygon)</li>
+<li>Which attributes matter (names, local terms, notes, photos)</li>
+<li>What should be captured in the local language</li>
+</ul>
+<p>This step is not only about data structure. It is about decision-making. Many communities have had mapping done to them by outsiders. Here, the community defines what the place is called, what counts as important, and what should be left private.</p>
+<p><strong>2. Moving projects and data without the internet</strong></p>
+<p>Because basemaps are large and connectivity is weak, the team transfers projects to devices using a cable. Community members <strong>collect data in the field and return to a local computer</strong> where the data is brought back into the QGIS project.</p>
+<p>Later, when a stable connection is available, the consolidated dataset can be <strong>pushed to a database or cloud service</strong> for wider viewing and backup. But the core mapping work does not depend on that connection.</p>
+<p>This also changes how versioning is handled. In the “industrial” workflow, you often assume you can sync frequently, resolve conflicts quickly, and keep changes small. In this context, the gaps are longer and the differences between versions can be bigger. The team keeps multiple versions and, when needed, compares and fixes conflicts manually to protect data quality.</p>
+<h3 id="a-moment-of-real-impact-giving-the-map-ack-immediately">A moment of real impact: giving the map ack immediately</h3>
+<p>One of the strongest moments in the interview was what happened when the community saw the collected data on their own phones.
+At first, the idea might sound like giving people a basemap. But it was more than that. It was their own collected layers, their own names, their own places, and their own priorities, visible immediately. It became a local “Google Maps,” except it <strong>reflected their world</strong> rather than someone else’s.</p>
+<p>That created interest fast. The mapper described an evening when many community members showed up with smartphones, asking to get the map on their devices. For the project team, that was a clear sign the mapping wasn’t just a report deliverable. It was something people wanted to use and keep. QField made it possible for every community member to <strong>carry community data in their own pocket</strong>. So far, QField has been used in <strong>two communities</strong>, and its success ensures that it will be used again.</p>
+<h3 id="being-careful-about-what-is-share">Being careful about what is share</h3>
+<p>The project is also very deliberate about data protection. <strong>Not everything that is mapped should be published.</strong> Sensitive cultural sites, graveyards, and other locations can be exploited if they are made public. Even among neighboring communities, boundaries can be contested, and publishing one version can create conflict.</p>
+<p>For that reason, the team does not plan to publish all data to the web or to OpenStreetMap. There is interest in selectively sharing non-sensitive layers, such as river names, but only with consent and clear boundaries.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-8_hu_1f726087c27e9dcf.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-8_hu_1f726087c27e9dcf.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-8_hu_7431613da9ceb350.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="600" height="338" style="ZgotmplZ"
+         loading="lazy"></figure>
+
+<h3 id="the-final-deliverable-that-matters-most-a-printed-map">The final deliverable that matters most: a printed map</h3>
+<p><strong>Digital maps are essential for fieldwork</strong>, but the “finished” outcome for many communities is a <strong>high-quality printed map</strong>, with a thoughtful layout and space for metadata and stories.</p>
+<p>A printed map does something phones do not. People can spread it out, gather around it, point to places, and talk. It feels permanent. It can be stored, shared, and used as proof in a way that carries weight locally.</p>
+<p>For the BMF and the Communities, the printed map is not an afterthought. It is one of the main goals, alongside the longer-term aim of keeping community data organized in a comparable way across multiple mapping projects.</p>
+
+
+
+
+
+
+<div class="gallery-wrapper" 
+     data-gallery-id="gallery-1778194912-317532931"
+     data-autoplay="false"
+     data-interval="5000"
+     data-controls="true"
+     data-indicators="true">
+  
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-1.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-1.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-1_hu_e0bbe1123451cfa4.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="800" height="600"
+         loading="lazy"></figure>
+
+
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-3.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-3.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-3_hu_d6c89a8b60ee89d0.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="800" height="450"
+         loading="lazy"></figure>
+
+
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-5.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-5.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-5_hu_b281c337d83e7e5c.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="800" height="450"
+         loading="lazy"></figure>
+
+
+</div>
+
+<style>
+ 
+#gallery-1778194912-317532931 .carousel-item .gallery-img {
+  height: 400px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  display: block !important;
+}
+
+#gallery-1778194912-317532931 .carousel-item {
+  height: auto;
+}
+
+#gallery-1778194912-317532931 .carousel-item .figure {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+#gallery-1778194912-317532931 .carousel-item .figure .gallery-img {
+  width: 100% !important;
+}
+
+#gallery-1778194912-317532931 .carousel-item .figure .figure-caption {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #gallery-1778194912-317532931 .carousel-item .gallery-img {
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #gallery-1778194912-317532931 .carousel-item .gallery-img {
+    height: 250px !important;
+  }
+}
+</style>
+
+
+]]></content:encoded>
+      <category domain="categories">forestry</category>
+      <category domain="categories">ecology-environment</category>
+      <category domain="categories">water-land-management</category>
     </item>
     
     <item>
@@ -809,6 +1099,7 @@
 </li>
 </ul>
 ]]></content:encoded>
+      <category domain="categories">government-municipalities</category>
     </item>
     
     <item>
@@ -881,6 +1172,9 @@
          loading="lazy"></figure>
 
 ]]></content:encoded>
+      <category domain="categories">forestry</category>
+      <category domain="categories">ecology-environment</category>
+      <category domain="categories">government-municipalities</category>
     </item>
     
     <item>
@@ -933,6 +1227,8 @@
 <p>Also, one of our colleagues presented WASAC's activity in FOSS4G 2019 Bucharest. Although some of system were little bit changed now, you can also see this <a href="https://media.ccc.de/v/bucharest-30-case-study-of-data-collection-data-sharing-for-rural-water-supply-management-in-rwanda" target="_blank" rel="noopener">video</a>
  if you are interested.</p>
 ]]></content:encoded>
+      <category domain="categories">water-land-management</category>
+      <category domain="categories">government-municipalities</category>
     </item>
     
     <item>
@@ -987,6 +1283,8 @@
 </li>
 </ul>
 ]]></content:encoded>
+      <category domain="categories">government-municipalities</category>
+      <category domain="categories">humanitarian-emergency-response</category>
     </item>
     
     <item>
@@ -1055,6 +1353,8 @@
 </li>
 </ul>
 ]]></content:encoded>
+      <category domain="categories">government-municipalities</category>
+      <category domain="categories">water-land-management</category>
     </item>
     
     <item>
@@ -1095,6 +1395,7 @@
 <h3 id="looking-forward-plugins-and-possibilities">Looking Forward: Plugins and Possibilities</h3>
 <p>Felix is particularly excited about QField&rsquo;s plugin platform, which he sees as opening &ldquo;a Pandora&rsquo;s box for all kinds of applications.&rdquo; He envisions integrating tools like PlantNet&rsquo;s AI-powered species identification, creating workflows where users can photograph a plant, get AI-assisted species identification, and seamlessly incorporate that data into their field surveys.</p>
 ]]></content:encoded>
+      <category domain="categories">ecology-environment</category>
     </item>
     
     <item>
@@ -1151,6 +1452,7 @@
 
 <p><em>Figure 4: Map result</em></p>
 ]]></content:encoded>
+      <category domain="categories">water-land-management</category>
     </item>
     
     <item>
@@ -1200,6 +1502,7 @@
 
 <p><em>The Fiji Forestry/USP field team is about to collect ground truth data with QField.</em></p>
 ]]></content:encoded>
+      <category domain="categories">government-municipalities</category>
     </item>
     
     <item>
@@ -1374,6 +1677,7 @@ Even in this case, the QGIS “print composer” allows us to develop customised
 ]]></content:encoded>
       <category domain="authors">map[name:Roberto Montagnetti note:1 noteUrl:#fn:1]</category>
       <category domain="authors">map[name:Giuseppe Guarino note:2 noteUrl:#fn:2]</category>
+      <category domain="categories">humanitarian-emergency-response</category>
     </item>
     
     <item>
@@ -1414,6 +1718,7 @@ Even in this case, the QGIS “print composer” allows us to develop customised
 – Improving communication channels (see Figure 1.)
 – Improving the accuracy and quality of data</p>
 ]]></content:encoded>
+      <category domain="categories">ecology-environment</category>
     </item>
     
     <item>
@@ -1481,6 +1786,7 @@ Even in this case, the QGIS “print composer” allows us to develop customised
 <p>The information gathered identifies streams with only small populations (2-3 larvae) that are most vulnerable to extinction if conditions worsen. This allows BUND to prioritize conservation efforts where they&rsquo;re most needed.</p>
 <p>By making the data collection process more efficient and standardized through QField, the team can cover more ground, collect more consistent data, and ultimately make better-informed conservation decisions—helping ensure that this iconic amphibian continues to thrive in Saxony&rsquo;s forest streams.</p>
 ]]></content:encoded>
+      <category domain="categories">ecology-environment</category>
     </item>
     
     <item>
@@ -1528,6 +1834,8 @@ The system integrates multiple data types:
 <p>The success of QField integration has transformed how the team approaches radioactive waste cleanup. They can now respond immediately to detection data, coordinate multiple field crews efficiently, and provide real-time updates to regulatory agencies overseeing the cleanup efforts.</p>
 <p><em>&ldquo;It&rsquo;s really been upping our game here,&rdquo; concludes the specialist. &ldquo;The ability to visualize this data in real-time, combined with the precision GPS and immediate feedback, has completely changed how we operate in the field.&rdquo;</em></p>
 ]]></content:encoded>
+      <category domain="categories">government-municipalities</category>
+      <category domain="categories">infrastructure-engineering</category>
     </item>
     
     <item>
@@ -1580,6 +1888,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
           loading="lazy"></figure>
 </p>
 ]]></content:encoded>
+      <category domain="categories">water-land-management</category>
     </item>
     
     <item>
@@ -1622,6 +1931,8 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 <li>Dataset of loss and damages to the agricultural sector in affected communities.</li>
 </ul>
 ]]></content:encoded>
+      <category domain="categories">humanitarian-emergency-response</category>
+      <category domain="categories">government-municipalities</category>
     </item>
     
     <item>
@@ -1701,6 +2012,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 <h3 id="acknowledgment">Acknowledgment</h3>
 <p>We thank the Ernst-Commentz Stiftung, the Europäischer Tier- und Naturschutz Stiftung and the Adolf und Hildegard Isler Stiftung for generously supporting our project. Additionally, we want to thank the developers of QField and R for offering fantastic open source software. It is great that, due to free software, such projects can be implemented by a comparatively small conservation society.</p>
 ]]></content:encoded>
+      <category domain="categories">ecology-environment</category>
     </item>
     
     <item>
@@ -1743,6 +2055,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 
 <h5 id="on-the-field-work-using-qfield"><em>On the field work using QField</em></h5>
 ]]></content:encoded>
+      <category domain="categories">humanitarian-emergency-response</category>
     </item>
     
     <item>
@@ -1815,6 +2128,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
       <category domain="authors">map[name:Ahi Saipaia note:1 noteUrl:#fn:1]</category>
       <category domain="authors">map[name:Leody Vainikolo note:1 noteUrl:#fn:1]</category>
       <category domain="authors">map[name:John Duncan note:2 noteUrl:#fn:2]</category>
+      <category domain="categories">precision-agriculture</category>
     </item>
     
     <item>
@@ -1873,6 +2187,8 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 </p>
 <h5 id="coordinator-helps-check-alerts"><em>Coordinator helps check alerts</em></h5>
 ]]></content:encoded>
+      <category domain="categories">forestry</category>
+      <category domain="categories">ecology-environment</category>
     </item>
     
     <item>
@@ -1942,6 +2258,8 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 <p>📷 Photos taken by <a href="https://zip.org.nz/teamfeed/2018/1/chad-cottle" target="_blank" rel="noopener">Chad Cottle</a>
 </p>
 ]]></content:encoded>
+      <category domain="categories">ecology-environment</category>
+      <category domain="categories">government-municipalities</category>
     </item>
     
     <item>
@@ -2058,7 +2376,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192493-496320385"
+     data-gallery-id="gallery-1778194680-952658538"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2086,7 +2404,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 
 <style>
  
-#gallery-1778192493-496320385 .carousel-item .gallery-img {
+#gallery-1778194680-952658538 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2094,11 +2412,11 @@ Back at the office, it took only 2 hours to treat the data and get the final res
   display: block !important;
 }
 
-#gallery-1778192493-496320385 .carousel-item {
+#gallery-1778194680-952658538 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192493-496320385 .carousel-item .figure {
+#gallery-1778194680-952658538 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2107,11 +2425,11 @@ Back at the office, it took only 2 hours to treat the data and get the final res
   text-align: center;
 }
 
-#gallery-1778192493-496320385 .carousel-item .figure .gallery-img {
+#gallery-1778194680-952658538 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192493-496320385 .carousel-item .figure .figure-caption {
+#gallery-1778194680-952658538 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2120,13 +2438,13 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192493-496320385 .carousel-item .gallery-img {
+  #gallery-1778194680-952658538 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192493-496320385 .carousel-item .gallery-img {
+  #gallery-1778194680-952658538 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2177,7 +2495,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192495-232494702"
+     data-gallery-id="gallery-1778194682-414010045"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2205,7 +2523,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 <style>
  
-#gallery-1778192495-232494702 .carousel-item .gallery-img {
+#gallery-1778194682-414010045 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2213,11 +2531,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1778192495-232494702 .carousel-item {
+#gallery-1778194682-414010045 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192495-232494702 .carousel-item .figure {
+#gallery-1778194682-414010045 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2226,11 +2544,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1778192495-232494702 .carousel-item .figure .gallery-img {
+#gallery-1778194682-414010045 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192495-232494702 .carousel-item .figure .figure-caption {
+#gallery-1778194682-414010045 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2239,13 +2557,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192495-232494702 .carousel-item .gallery-img {
+  #gallery-1778194682-414010045 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192495-232494702 .carousel-item .gallery-img {
+  #gallery-1778194682-414010045 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2264,7 +2582,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192497-689991209"
+     data-gallery-id="gallery-1778194684-796625374"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2292,7 +2610,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1778192497-689991209 .carousel-item .gallery-img {
+#gallery-1778194684-796625374 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2300,11 +2618,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1778192497-689991209 .carousel-item {
+#gallery-1778194684-796625374 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192497-689991209 .carousel-item .figure {
+#gallery-1778194684-796625374 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2313,11 +2631,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1778192497-689991209 .carousel-item .figure .gallery-img {
+#gallery-1778194684-796625374 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192497-689991209 .carousel-item .figure .figure-caption {
+#gallery-1778194684-796625374 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2326,13 +2644,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192497-689991209 .carousel-item .gallery-img {
+  #gallery-1778194684-796625374 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192497-689991209 .carousel-item .gallery-img {
+  #gallery-1778194684-796625374 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2353,7 +2671,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192500-125184373"
+     data-gallery-id="gallery-1778194686-935099921"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2381,7 +2699,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1778192500-125184373 .carousel-item .gallery-img {
+#gallery-1778194686-935099921 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2389,11 +2707,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1778192500-125184373 .carousel-item {
+#gallery-1778194686-935099921 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192500-125184373 .carousel-item .figure {
+#gallery-1778194686-935099921 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2402,11 +2720,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1778192500-125184373 .carousel-item .figure .gallery-img {
+#gallery-1778194686-935099921 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192500-125184373 .carousel-item .figure .figure-caption {
+#gallery-1778194686-935099921 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2415,13 +2733,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192500-125184373 .carousel-item .gallery-img {
+  #gallery-1778194686-935099921 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192500-125184373 .carousel-item .gallery-img {
+  #gallery-1778194686-935099921 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3759,7 +4077,7 @@ Want to know more about the idea of community-driven open-source projects and th
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192499-761319421"
+     data-gallery-id="gallery-1778194687-644780120"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3805,7 +4123,7 @@ Want to know more about the idea of community-driven open-source projects and th
 
 <style>
  
-#gallery-1778192499-761319421 .carousel-item .gallery-img {
+#gallery-1778194687-644780120 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3813,11 +4131,11 @@ Want to know more about the idea of community-driven open-source projects and th
   display: block !important;
 }
 
-#gallery-1778192499-761319421 .carousel-item {
+#gallery-1778194687-644780120 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192499-761319421 .carousel-item .figure {
+#gallery-1778194687-644780120 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3826,11 +4144,11 @@ Want to know more about the idea of community-driven open-source projects and th
   text-align: center;
 }
 
-#gallery-1778192499-761319421 .carousel-item .figure .gallery-img {
+#gallery-1778194687-644780120 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192499-761319421 .carousel-item .figure .figure-caption {
+#gallery-1778194687-644780120 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3839,13 +4157,13 @@ Want to know more about the idea of community-driven open-source projects and th
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192499-761319421 .carousel-item .gallery-img {
+  #gallery-1778194687-644780120 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192499-761319421 .carousel-item .gallery-img {
+  #gallery-1778194687-644780120 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4285,7 +4603,7 @@ Cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192492-330471755"
+     data-gallery-id="gallery-1778194679-78445372"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4314,7 +4632,7 @@ Cheers</p>
 
 <style>
  
-#gallery-1778192492-330471755 .carousel-item .gallery-img {
+#gallery-1778194679-78445372 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4322,11 +4640,11 @@ Cheers</p>
   display: block !important;
 }
 
-#gallery-1778192492-330471755 .carousel-item {
+#gallery-1778194679-78445372 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192492-330471755 .carousel-item .figure {
+#gallery-1778194679-78445372 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4335,11 +4653,11 @@ Cheers</p>
   text-align: center;
 }
 
-#gallery-1778192492-330471755 .carousel-item .figure .gallery-img {
+#gallery-1778194679-78445372 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192492-330471755 .carousel-item .figure .figure-caption {
+#gallery-1778194679-78445372 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4348,13 +4666,13 @@ Cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192492-330471755 .carousel-item .gallery-img {
+  #gallery-1778194679-78445372 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192492-330471755 .carousel-item .gallery-img {
+  #gallery-1778194679-78445372 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4420,7 +4738,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192494-548821087"
+     data-gallery-id="gallery-1778194681-538910925"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4455,7 +4773,7 @@ cheers</p>
 
 <style>
  
-#gallery-1778192494-548821087 .carousel-item .gallery-img {
+#gallery-1778194681-538910925 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4463,11 +4781,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1778192494-548821087 .carousel-item {
+#gallery-1778194681-538910925 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192494-548821087 .carousel-item .figure {
+#gallery-1778194681-538910925 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4476,11 +4794,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1778192494-548821087 .carousel-item .figure .gallery-img {
+#gallery-1778194681-538910925 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192494-548821087 .carousel-item .figure .figure-caption {
+#gallery-1778194681-538910925 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4489,13 +4807,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192494-548821087 .carousel-item .gallery-img {
+  #gallery-1778194681-538910925 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192494-548821087 .carousel-item .gallery-img {
+  #gallery-1778194681-538910925 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4516,7 +4834,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192497-88681960"
+     data-gallery-id="gallery-1778194684-218260251"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4554,7 +4872,7 @@ cheers</p>
 
 <style>
  
-#gallery-1778192497-88681960 .carousel-item .gallery-img {
+#gallery-1778194684-218260251 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4562,11 +4880,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1778192497-88681960 .carousel-item {
+#gallery-1778194684-218260251 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192497-88681960 .carousel-item .figure {
+#gallery-1778194684-218260251 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4575,11 +4893,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1778192497-88681960 .carousel-item .figure .gallery-img {
+#gallery-1778194684-218260251 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192497-88681960 .carousel-item .figure .figure-caption {
+#gallery-1778194684-218260251 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4588,13 +4906,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192497-88681960 .carousel-item .gallery-img {
+  #gallery-1778194684-218260251 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192497-88681960 .carousel-item .gallery-img {
+  #gallery-1778194684-218260251 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4868,7 +5186,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192722-373744173"
+     data-gallery-id="gallery-1778194909-721488431"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4890,7 +5208,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 <style>
  
-#gallery-1778192722-373744173 .carousel-item .gallery-img {
+#gallery-1778194909-721488431 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4898,11 +5216,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   display: block !important;
 }
 
-#gallery-1778192722-373744173 .carousel-item {
+#gallery-1778194909-721488431 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192722-373744173 .carousel-item .figure {
+#gallery-1778194909-721488431 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4911,11 +5229,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   text-align: center;
 }
 
-#gallery-1778192722-373744173 .carousel-item .figure .gallery-img {
+#gallery-1778194909-721488431 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192722-373744173 .carousel-item .figure .figure-caption {
+#gallery-1778194909-721488431 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4924,13 +5242,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192722-373744173 .carousel-item .gallery-img {
+  #gallery-1778194909-721488431 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192722-373744173 .carousel-item .gallery-img {
+  #gallery-1778194909-721488431 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5142,7 +5460,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192509-196756092"
+     data-gallery-id="gallery-1778194696-576431341"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5171,7 +5489,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 
 <style>
  
-#gallery-1778192509-196756092 .carousel-item .gallery-img {
+#gallery-1778194696-576431341 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5179,11 +5497,11 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
   display: block !important;
 }
 
-#gallery-1778192509-196756092 .carousel-item {
+#gallery-1778194696-576431341 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192509-196756092 .carousel-item .figure {
+#gallery-1778194696-576431341 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5192,11 +5510,11 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
   text-align: center;
 }
 
-#gallery-1778192509-196756092 .carousel-item .figure .gallery-img {
+#gallery-1778194696-576431341 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192509-196756092 .carousel-item .figure .figure-caption {
+#gallery-1778194696-576431341 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5205,13 +5523,13 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192509-196756092 .carousel-item .gallery-img {
+  #gallery-1778194696-576431341 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192509-196756092 .carousel-item .gallery-img {
+  #gallery-1778194696-576431341 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5363,7 +5681,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 
 
 &lt;div class=&#34;gallery-wrapper&#34; 
-     data-gallery-id=&#34;gallery-1778192724-396640442&#34;
+     data-gallery-id=&#34;gallery-1778194911-705078690&#34;
      data-autoplay=&#34;false&#34;
      data-interval=&#34;5000&#34;
      data-controls=&#34;true&#34;
@@ -5398,7 +5716,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 
 &lt;style&gt;
  
-#gallery-1778192724-396640442 .carousel-item .gallery-img {
+#gallery-1778194911-705078690 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5406,11 +5724,11 @@ We have upgraded our whole building infrastructure so that you can comfortably g
   display: block !important;
 }
 
-#gallery-1778192724-396640442 .carousel-item {
+#gallery-1778194911-705078690 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192724-396640442 .carousel-item .figure {
+#gallery-1778194911-705078690 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5419,11 +5737,11 @@ We have upgraded our whole building infrastructure so that you can comfortably g
   text-align: center;
 }
 
-#gallery-1778192724-396640442 .carousel-item .figure .gallery-img {
+#gallery-1778194911-705078690 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192724-396640442 .carousel-item .figure .figure-caption {
+#gallery-1778194911-705078690 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5432,13 +5750,13 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192724-396640442 .carousel-item .gallery-img {
+  #gallery-1778194911-705078690 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192724-396640442 .carousel-item .gallery-img {
+  #gallery-1778194911-705078690 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5471,7 +5789,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192724-396640442"
+     data-gallery-id="gallery-1778194911-705078690"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5506,7 +5824,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 
 <style>
  
-#gallery-1778192724-396640442 .carousel-item .gallery-img {
+#gallery-1778194911-705078690 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5514,11 +5832,11 @@ We have upgraded our whole building infrastructure so that you can comfortably g
   display: block !important;
 }
 
-#gallery-1778192724-396640442 .carousel-item {
+#gallery-1778194911-705078690 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192724-396640442 .carousel-item .figure {
+#gallery-1778194911-705078690 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5527,11 +5845,11 @@ We have upgraded our whole building infrastructure so that you can comfortably g
   text-align: center;
 }
 
-#gallery-1778192724-396640442 .carousel-item .figure .gallery-img {
+#gallery-1778194911-705078690 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192724-396640442 .carousel-item .figure .figure-caption {
+#gallery-1778194911-705078690 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5540,13 +5858,13 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192724-396640442 .carousel-item .gallery-img {
+  #gallery-1778194911-705078690 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192724-396640442 .carousel-item .gallery-img {
+  #gallery-1778194911-705078690 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5712,7 +6030,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192504-841942096"
+     data-gallery-id="gallery-1778194692-143670739"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5741,7 +6059,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1778192504-841942096 .carousel-item .gallery-img {
+#gallery-1778194692-143670739 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5749,11 +6067,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1778192504-841942096 .carousel-item {
+#gallery-1778194692-143670739 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192504-841942096 .carousel-item .figure {
+#gallery-1778194692-143670739 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5762,11 +6080,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1778192504-841942096 .carousel-item .figure .gallery-img {
+#gallery-1778194692-143670739 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192504-841942096 .carousel-item .figure .figure-caption {
+#gallery-1778194692-143670739 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5775,13 +6093,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192504-841942096 .carousel-item .gallery-img {
+  #gallery-1778194692-143670739 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192504-841942096 .carousel-item .gallery-img {
+  #gallery-1778194692-143670739 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5800,7 +6118,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192504-842487068"
+     data-gallery-id="gallery-1778194692-144202994"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5891,7 +6209,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1778192504-842487068 .carousel-item .gallery-img {
+#gallery-1778194692-144202994 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5899,11 +6217,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1778192504-842487068 .carousel-item {
+#gallery-1778194692-144202994 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192504-842487068 .carousel-item .figure {
+#gallery-1778194692-144202994 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5912,11 +6230,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1778192504-842487068 .carousel-item .figure .gallery-img {
+#gallery-1778194692-144202994 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192504-842487068 .carousel-item .figure .figure-caption {
+#gallery-1778194692-144202994 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5925,13 +6243,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192504-842487068 .carousel-item .gallery-img {
+  #gallery-1778194692-144202994 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192504-842487068 .carousel-item .gallery-img {
+  #gallery-1778194692-144202994 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -6536,7 +6854,7 @@ Also if you need a specific feature, <a href="/pr-preview/pr-62/contact/">contac
       <guid>https://qfield.org/pr-preview/pr-62/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</guid>
       
       <description>&lt;div class=&#34;gallery-wrapper&#34; 
-     data-gallery-id=&#34;gallery-1778192509-68092712&#34;
+     data-gallery-id=&#34;gallery-1778194696-487836666&#34;
      data-autoplay=&#34;false&#34;
      data-interval=&#34;5000&#34;
      data-controls=&#34;true&#34;
@@ -6546,7 +6864,7 @@ Also if you need a specific feature, <a href="/pr-preview/pr-62/contact/">contac
 
 &lt;style&gt;
  
-#gallery-1778192509-68092712 .carousel-item .gallery-img {
+#gallery-1778194696-487836666 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -6554,11 +6872,11 @@ Also if you need a specific feature, <a href="/pr-preview/pr-62/contact/">contac
   display: block !important;
 }
 
-#gallery-1778192509-68092712 .carousel-item {
+#gallery-1778194696-487836666 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192509-68092712 .carousel-item .figure {
+#gallery-1778194696-487836666 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -6567,11 +6885,11 @@ Also if you need a specific feature, <a href="/pr-preview/pr-62/contact/">contac
   text-align: center;
 }
 
-#gallery-1778192509-68092712 .carousel-item .figure .gallery-img {
+#gallery-1778194696-487836666 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192509-68092712 .carousel-item .figure .figure-caption {
+#gallery-1778194696-487836666 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -6580,13 +6898,13 @@ Also if you need a specific feature, <a href="/pr-preview/pr-62/contact/">contac
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192509-68092712 .carousel-item .gallery-img {
+  #gallery-1778194696-487836666 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192509-68092712 .carousel-item .gallery-img {
+  #gallery-1778194696-487836666 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -6601,7 +6919,7 @@ Also if you need a specific feature, <a href="/pr-preview/pr-62/contact/">contac
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192509-68092712"
+     data-gallery-id="gallery-1778194696-487836666"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -6611,7 +6929,7 @@ Also if you need a specific feature, <a href="/pr-preview/pr-62/contact/">contac
 
 <style>
  
-#gallery-1778192509-68092712 .carousel-item .gallery-img {
+#gallery-1778194696-487836666 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -6619,11 +6937,11 @@ Also if you need a specific feature, <a href="/pr-preview/pr-62/contact/">contac
   display: block !important;
 }
 
-#gallery-1778192509-68092712 .carousel-item {
+#gallery-1778194696-487836666 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192509-68092712 .carousel-item .figure {
+#gallery-1778194696-487836666 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -6632,11 +6950,11 @@ Also if you need a specific feature, <a href="/pr-preview/pr-62/contact/">contac
   text-align: center;
 }
 
-#gallery-1778192509-68092712 .carousel-item .figure .gallery-img {
+#gallery-1778194696-487836666 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192509-68092712 .carousel-item .figure .figure-caption {
+#gallery-1778194696-487836666 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -6645,13 +6963,13 @@ Also if you need a specific feature, <a href="/pr-preview/pr-62/contact/">contac
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192509-68092712 .carousel-item .gallery-img {
+  #gallery-1778194696-487836666 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192509-68092712 .carousel-item .gallery-img {
+  #gallery-1778194696-487836666 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -6802,204 +7120,6 @@ We are are also available for helping you with any idea and project you might ha
 <a href="https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/" target="_blank" rel="noopener">https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/</a>
 </p>
 <p>This is a Work in progres and will be replaced with final campaign content.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Community-led mapping for land rights and forest protection in Sarawak with QField</title>
-      <link>https://qfield.org/pr-preview/pr-62/success-stories/sarawak/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://qfield.org/pr-preview/pr-62/success-stories/sarawak/</guid>
-      
-      <description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href=&#34;https://bmf.ch/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Bruno Manser Fonds&lt;/a&gt;
- working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.&lt;/p&gt;
-&lt;p&gt;The goal is simple to describe, but powerful in practice: &lt;strong&gt;create maps that show where people live and what matters to them&lt;/strong&gt;. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>In parts of Sarawak (Malaysia), indigenous communities are <strong>actively resisting deforestation and fighting for land rights</strong>. For one <a href="https://bmf.ch/en" target="_blank" rel="noopener">The Bruno Manser Fonds</a>
- working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.</p>
-<p>The goal is simple to describe, but powerful in practice: <strong>create maps that show where people live and what matters to them</strong>. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.</p>
-<p>This is not only useful for planning and storytelling. In at least one case, a community map was used in court as <strong>evidence</strong> of long-standing connection and use. The community could show place names and key sites in a way that helped to <strong>prove</strong> that they have been living in those areas for a long time.</p>
-<h3 id="why-mapping-needs-more-than-satellite-imagery">Why mapping needs more than satellite imagery</h3>
-<p>Satellite imagery and topographic maps are helpful starting points. They show rivers, ridges, clearings, and settlement patterns. But they do not capture meaning.</p>
-<p>A satellite image can’t tell you where ancestors are buried, where a place is considered sacred, which part of the forest is used for hunting, or which areas people avoid for cultural reasons. Those details live in stories, memory, and daily practice.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-7_hu_29cd293473a47c9f.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-7_hu_29cd293473a47c9f.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-7_hu_e00d08ae3622fcb9.jpg 2x"
-         alt="" 
-         class="figure-img img-fluid gallery-img" width="600" height="400" style="ZgotmplZ"
-         loading="lazy"></figure>
-
-<h3 id="the-reality-in-the-field-connectivity-comes-and-goes">The reality in the field: connectivity comes and goes</h3>
-<p>A second challenge is technical but very real: <strong>internet access</strong>. Many of these villages have unreliable connectivity, and “offline” can mean days or weeks, not just a few hours between the office and the field.</p>
-<p>That matters because community mapping usually involves <strong>large basemaps and plenty of edits from multiple devices</strong>. If you can’t reliably push data back and forth online, you need a workflow that works without it.</p>
-<h3 id="how-qfield-is-used-in-the-workflow">How QField is used in the workflow</h3>
-<p>The team prepares a QGIS project and packages it for mobile fieldwork using QFieldSync. Then QField is used for <strong>collecting features and attributes</strong> directly on Android devices in the field. A key part of this project is that distribution and syncing often happens by cable, not through the cloud.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-2_hu_e598815b0a248ba0.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-2_hu_e598815b0a248ba0.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-2_hu_617cacf0d918787.jpg 2x"
-         alt="" 
-         class="figure-img img-fluid gallery-img" width="300" height="400" style="ZgotmplZ"
-         loading="lazy"></figure>
-
-<p><strong>1. Co-designing the project with each community</strong></p>
-<p>Before fieldwork begins, the team sits with the community and adapts the project to what they want to map.</p>
-<p><strong>Different communities care about different things.</strong> A village close to a river may want specific river sections and names recorded in detail. Another community might focus more on forest resources or cultural sites. Together, they decide:</p>
-<ul>
-<li>What feature types to include</li>
-<li>How features should be represented (point, line, polygon)</li>
-<li>Which attributes matter (names, local terms, notes, photos)</li>
-<li>What should be captured in the local language</li>
-</ul>
-<p>This step is not only about data structure. It is about decision-making. Many communities have had mapping done to them by outsiders. Here, the community defines what the place is called, what counts as important, and what should be left private.</p>
-<p><strong>2. Moving projects and data without the internet</strong></p>
-<p>Because basemaps are large and connectivity is weak, the team transfers projects to devices using a cable. Community members <strong>collect data in the field and return to a local computer</strong> where the data is brought back into the QGIS project.</p>
-<p>Later, when a stable connection is available, the consolidated dataset can be <strong>pushed to a database or cloud service</strong> for wider viewing and backup. But the core mapping work does not depend on that connection.</p>
-<p>This also changes how versioning is handled. In the “industrial” workflow, you often assume you can sync frequently, resolve conflicts quickly, and keep changes small. In this context, the gaps are longer and the differences between versions can be bigger. The team keeps multiple versions and, when needed, compares and fixes conflicts manually to protect data quality.</p>
-<h3 id="a-moment-of-real-impact-giving-the-map-ack-immediately">A moment of real impact: giving the map ack immediately</h3>
-<p>One of the strongest moments in the interview was what happened when the community saw the collected data on their own phones.
-At first, the idea might sound like giving people a basemap. But it was more than that. It was their own collected layers, their own names, their own places, and their own priorities, visible immediately. It became a local “Google Maps,” except it <strong>reflected their world</strong> rather than someone else’s.</p>
-<p>That created interest fast. The mapper described an evening when many community members showed up with smartphones, asking to get the map on their devices. For the project team, that was a clear sign the mapping wasn’t just a report deliverable. It was something people wanted to use and keep. QField made it possible for every community member to <strong>carry community data in their own pocket</strong>. So far, QField has been used in <strong>two communities</strong>, and its success ensures that it will be used again.</p>
-<h3 id="being-careful-about-what-is-share">Being careful about what is share</h3>
-<p>The project is also very deliberate about data protection. <strong>Not everything that is mapped should be published.</strong> Sensitive cultural sites, graveyards, and other locations can be exploited if they are made public. Even among neighboring communities, boundaries can be contested, and publishing one version can create conflict.</p>
-<p>For that reason, the team does not plan to publish all data to the web or to OpenStreetMap. There is interest in selectively sharing non-sensitive layers, such as river names, but only with consent and clear boundaries.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-8_hu_1f726087c27e9dcf.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-8_hu_1f726087c27e9dcf.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-8_hu_7431613da9ceb350.jpg 2x"
-         alt="" 
-         class="figure-img img-fluid gallery-img" width="600" height="338" style="ZgotmplZ"
-         loading="lazy"></figure>
-
-<h3 id="the-final-deliverable-that-matters-most-a-printed-map">The final deliverable that matters most: a printed map</h3>
-<p><strong>Digital maps are essential for fieldwork</strong>, but the “finished” outcome for many communities is a <strong>high-quality printed map</strong>, with a thoughtful layout and space for metadata and stories.</p>
-<p>A printed map does something phones do not. People can spread it out, gather around it, point to places, and talk. It feels permanent. It can be stored, shared, and used as proof in a way that carries weight locally.</p>
-<p>For the BMF and the Communities, the printed map is not an afterthought. It is one of the main goals, alongside the longer-term aim of keeping community data organized in a comparable way across multiple mapping projects.</p>
-
-
-
-
-
-
-<div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192725-797276347"
-     data-autoplay="false"
-     data-interval="5000"
-     data-controls="true"
-     data-indicators="true">
-  
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-1.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-1.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-1_hu_e0bbe1123451cfa4.jpg 2x"
-         alt="" 
-         class="figure-img img-fluid gallery-img" width="800" height="600"
-         loading="lazy"></figure>
-
-
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-3.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-3.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-3_hu_d6c89a8b60ee89d0.jpg 2x"
-         alt="" 
-         class="figure-img img-fluid gallery-img" width="800" height="450"
-         loading="lazy"></figure>
-
-
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/success-stories/sarawak/sarawak-5.jpg" srcset="/pr-preview/pr-62/success-stories/sarawak/sarawak-5.jpg 1x, /pr-preview/pr-62/success-stories/sarawak/sarawak-5_hu_b281c337d83e7e5c.jpg 2x"
-         alt="" 
-         class="figure-img img-fluid gallery-img" width="800" height="450"
-         loading="lazy"></figure>
-
-
-</div>
-
-<style>
- 
-#gallery-1778192725-797276347 .carousel-item .gallery-img {
-  height: 400px !important;
-  width: 100% !important;
-  object-fit: cover !important;
-  object-position: center center !important;
-  display: block !important;
-}
-
-#gallery-1778192725-797276347 .carousel-item {
-  height: auto;
-}
-
-#gallery-1778192725-797276347 .carousel-item .figure {
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-}
-
-#gallery-1778192725-797276347 .carousel-item .figure .gallery-img {
-  width: 100% !important;
-}
-
-#gallery-1778192725-797276347 .carousel-item .figure .figure-caption {
-  position: absolute;
-  bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 0;
-}
-
-@media (max-width: 768px) {
-  #gallery-1778192725-797276347 .carousel-item .gallery-img {
-    height: 300px !important;
-  }
-}
-
-@media (max-width: 576px) {
-  #gallery-1778192725-797276347 .carousel-item .gallery-img {
-    height: 250px !important;
-  }
-}
-</style>
-
-
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>How QField Supports Vocational Training in Switzerland</title>
-      <link>https://qfield.org/pr-preview/pr-62/success-stories/vocational-training/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://qfield.org/pr-preview/pr-62/success-stories/vocational-training/</guid>
-      
-      <description>In the French-speaking region of Switzerland, ORIF is using QField to transform how students with physical or psychological challenges learn geomatics—providing them with professional-grade tools and a pathway back into the workforce.</description>
-      <content:encoded><![CDATA[<p>In the French-speaking region of Switzerland, <a href="https://www.orif.ch/fr/" target="_blank" rel="noopener">ORIF</a>
- is using QField to <strong>transform how students with physical or psychological challenges learn geomatics</strong>, providing them with professional-grade tools and a pathway back into the workforce.</p>
-<p>ORIF is not a typical geomatics company. This vocational training organization provides apprenticeships across 30 different trades for people who have experienced <strong>life-changing injuries or psychological challenges</strong> and need to <strong>reorient their careers</strong>.
-Five years ago, Patrick Darbellay opened ORIF&rsquo;s geomatics section, creating opportunities for students to learn <strong>surveying, GNSS technology, and GIS software</strong> through a four-year apprenticeship program.</p>
-<h3 id="choosing-the-right-tools">Choosing the Right Tools</h3>
-<p>As the sole geomatics instructor working with five students, Patrick needed software that would align with what students learn in Swiss vocational schools while being <strong>accessible</strong>* and <strong>well-supported</strong>. QField and QGIS were natural choices.</p>
-<p><em>&ldquo;In Switzerland, QGIS is really well accepted by the geomatics community”</em></p>
-<p>Unlike proprietary alternatives, QGIS and QField offered abundant free learning resources and community support—invaluable for students rebuilding their lives.</p>
-<h3 id="from-paper-to-digital">From Paper to Digital</h3>
-<p>Before QField, students used paper notebooks to record attributes and a Trimble GNSS receiver for coordinates. Patrick worked with his students to develop a QField-based system that <strong>captures field data directly on mobile devices while maintaining rigorous GNSS survey protocols.</strong></p>
-<p>This hybrid approach gives students professional-grade GNSS data collection with detailed protocol logs for learning, combined with efficient digital attribute capture through QField.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpg"
-         alt="picture" 
-         class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>
-
-<h3 id="real-world-projects">Real-World Projects</h3>
-<p>ORIF&rsquo;s students conduct actual professional work supporting Switzerland&rsquo;s cadastral system. Their current project involves renewing base points (control points) used for official surveying across their region – approximately 2,000 points in total.</p>
-<p><em>&ldquo;We go to the field, we search for these points. If we find them, we survey them. Then in QField, we put the state—if it&rsquo;s good or not, if it&rsquo;s level. We take a photo, we link the photo in QField, we enter all the attributes and the date of surveying&rdquo;</em></p>
-<p>The project is carefully chosen to provide valuable experience without competing with local geomatics companies — many of which eventually employ ORIF graduates. The work gives students complete surveying experience: <strong>GNSS measurements, photography, attribute data entry, and physical marking with spray paint</strong>.</p>
-<p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpeg"
-         alt="pic" 
-         class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>
- <figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpeg"
-          alt="pic" 
-          class="figure-img img-fluid gallery-img"
-          loading="lazy"></figure>
-</p>
-<h3 id="building-confidence">Building Confidence</h3>
-<p>For students at ORIF, the ability to produce professional work using modern tools has impacts <strong>beyond technical skills</strong>.</p>
-<p><em>&ldquo;It&rsquo;s really special—it&rsquo;s not only geomatics, it&rsquo;s a bit social and psychological. For them, it&rsquo;s really valuable because they can make something themselves and produce something themselves. If you have trouble and a part of your life is difficult, you&rsquo;re a bit down. If you can go up again with such tools, I think that&rsquo;s really valuable.&rdquo;</em></p>
-<p><strong>The self-directed learning</strong> that QField and QGIS enable is particularly important. Students can explore the software independently, find solutions to problems, and experience the satisfaction of <strong>overcoming challenges on their own</strong>.</p>
-<h3 id="success-metrics">Success Metrics</h3>
-<p>ORIF&rsquo;s approach is working. <strong>Approximately 60-80% of students complete the full apprenticeship program and successfully transition to employment in geomatics companies</strong>. A remarkable achievement considering the challenges these students have faced.</p>
-<p>Students spend their first two years at ORIF building foundational skills and stability. If they&rsquo;re ready, they transition to work with a regular employer for their third and fourth years—completing their apprenticeship in the professional marketplace they&rsquo;ll eventually join.</p>
-<p>The QField system Patrick developed has become integral to preparing students for this transition. They learn modern digital workflows, database concepts, and mobile data collection—all skills that employers value.</p>
-<h3 id="looking-forward">Looking Forward</h3>
-<p>As ORIF continues to develop its geomatics program, Patrick is exploring <strong>additional ways to leverage QField&rsquo;s capabilities</strong>. For Patrick, the success of the program is measured not in points surveyed or data collected, but in lives changed.</p>
-<p><em>&ldquo;The goal of ORIF is to make this bridge. And it&rsquo;s working well.&rdquo;</em></p>
 ]]></content:encoded>
     </item>
     
@@ -8390,89 +8510,6 @@ Five years ago, Patrick Darbellay opened ORIF&rsquo;s geomatics section, creatin
       <category domain="tags">wildlife</category>
       <category domain="tags">habitat mapping</category>
       <category domain="tags">tracking</category>
-    </item>
-    
-    <item>
-      <title>QField Helps Monitor 20,000 &lt;br&gt; WWII Fortifications Across Germany</title>
-      <link>https://qfield.org/pr-preview/pr-62/success-stories/ww2-fortifications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://qfield.org/pr-preview/pr-62/success-stories/ww2-fortifications/</guid>
-      
-      <description>&lt;p&gt;Along Germany&amp;rsquo;s western border, volunteers are using QField and QFieldCloud to &lt;strong&gt;map and monitor thousands of World War II fortifications&lt;/strong&gt; – protecting public safety, preserving history, and making democracy tangible for a new generation.&lt;/p&gt;
-&lt;h3 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h3&gt;
-&lt;p&gt;Stretching 600 kilometers along Germany&amp;rsquo;s western border lies a vast network of concrete bunkers and fortifications built in the 1930s and 40s. Known as the &lt;strong&gt;Siegfried Line&lt;/strong&gt; (or Westwall in Germany), this defensive system comprises approximately &lt;strong&gt;20,000 distinct structures&lt;/strong&gt;, half of which still exist in some form today.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Along Germany&rsquo;s western border, volunteers are using QField and QFieldCloud to <strong>map and monitor thousands of World War II fortifications</strong> – protecting public safety, preserving history, and making democracy tangible for a new generation.</p>
-<h3 id="the-challenge">The Challenge</h3>
-<p>Stretching 600 kilometers along Germany&rsquo;s western border lies a vast network of concrete bunkers and fortifications built in the 1930s and 40s. Known as the <strong>Siegfried Line</strong> (or Westwall in Germany), this defensive system comprises approximately <strong>20,000 distinct structures</strong>, half of which still exist in some form today.</p>
-<p>For decades after WWII, these structures were systematically destroyed or buried. But attitudes have changed. Today, they&rsquo;re protected as historical monuments, and volunteers working with German federal monument services are <strong>documenting, monitoring, and securing them</strong> before they deteriorate further or pose safety risks.</p>
-<p><em>Patrice Wijnands</em>, a geomaticist and volunteer coordinator, has been mapping these fortifications for 30 years. Five years ago, he discovered QField, and it <strong>transformed how this massive conservation effort operate</strong>s.</p>
-<p>The fortifications present unique challenges. Many were filled with sand in the decades following the war. Now, that sand is settling and draining away, creating new gaps and hazards.</p>
-<p><em>&ldquo;The sands with which these bunkers had been filled up is now filling in and it opens new gaps, new holes in the surface. That is especially the thing we are tackling because we not only map these objects, we also get back to them every few years.&rdquo;</em></p>
-<p><strong>The scale is immense:</strong> tracking safety risks, determining protective measures, and monitoring changes across a zone 600 kilometers long and up to 30 kilometers wide. Some structures near populated areas require fencing. Others in remote woodland need only warning signs. The key is knowing which is which, and tracking how conditions evolve.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpg"
-         alt="picture" 
-         class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>
-
-<h3 id="from-paper-maps-to-digital-collaboration">From Paper Maps to Digital Collaboration</h3>
-<p>For 15 years, volunteers mapped using paper maps, each person working on their own island. Patrice would receive photocopied maps and Excel spreadsheets, spending hours trying to reconcile different symbologies.</p>
-<p><em>&ldquo;What does that mean when they made a cross on the map? How does that fit with their Excel sheet that they maybe sent me in 2005?&rdquo;</em></p>
-<p>Patrice began using specialized GIS software in 2010, but found it difficult to share projects. In 2017, he started experimenting with QGIS. <strong>Then in 2019, he discovered QField.</strong></p>
-<p><em>&ldquo;I started using QField in 2019 and I felt that this was the state of the art after the tools I used before.&rdquo;</em></p>
-<p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpeg"
-         alt="pic" 
-         class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>
- <figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpeg"
-          alt="pic" 
-          class="figure-img img-fluid gallery-img"
-          loading="lazy"></figure>
-</p>
-<h3 id="scaling-up-with-qfieldcloud">Scaling Up with QFieldCloud</h3>
-<p>Within six months, Patrice began distributing QField projects to other volunteers. But as the network grew—especially during COVID-19—manually distributing projects became unsustainable. Then QFieldCloud arrived, solving the scalability problem completely.</p>
-<p><em>&ldquo;I just create these projects. I put them onto the cloud. People can gather them. They go into the field. The only thing I need to explain to them is how to map, what data are to be collected. They learn that within a few minutes. They upload these data and synchronize again with the QField cloud. And I can see these data in the next minutes again already here on my desktop.&rdquo;</em></p>
-<p><strong>The project by numbers:</strong></p>
-<ul>
-<li>600 kilometers: Length of the fortification zone</li>
-<li>20,000 objects: Total fortifications mapped today</li>
-<li>Scalable to 100+ volunteers: Thanks to QFieldCloud</li>
-</ul>
-<h3 id="keeping-it-simple">Keeping It Simple</h3>
-<p>Volunteers work with point data, adding observations to a monitoring layer rather than editing the base map. This eliminates GPS accuracy issues—critical when working under forest canopy where positioning might be off by 50 meters.</p>
-<p><em>&ldquo;Every person visiting an object adds a point. That means if next year somebody else is getting there, he adds a new point.They only add their observation and the interpretation is something for me and for the people post-processing this data later on.&rdquo;</em></p>
-<p>The system captures <strong>photographs, condition assessments, and observations about changes since the last visit</strong>. Because volunteers often work in areas with poor mobile coverage, Patrice includes offline maps and advises volunteers to synchronize at home.</p>
-<h3 id="learning-qfield-minutes-not-months">Learning QField: Minutes, Not Months</h3>
-<p>New volunteers become productive quickly. Patrice typically provides initial training through a single online or face-to-face session, and volunteers are mapping independently within weeks.</p>
-<p><em>&ldquo;I have seen people going into this without even having a GIS system before and they work with this after a few weeks as if they have never done anything else before. It does not need some software in which you need to spend a lot of time to learn it. That&rsquo;s my job. And all the people outside in the field, they don&rsquo;t need to understand that in that depth.&rdquo;</em></p>
-<p>This <strong>ease of adoption</strong> means Patrice can focus volunteers on what matters: understanding the history and significance of what they&rsquo;re documenting.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-62/--.jpg"
-         alt="pic" 
-         class="figure-img img-fluid gallery-img"
-         loading="lazy"></figure>
-
-<h3 id="data-that-serves-multiple-purposes">Data That Serves Multiple Purposes</h3>
-<p>The database serves <strong>various stakeholders with different needs</strong>. Some structures can be made public for educational purposes. Others must remain confidential due to safety concerns, property rights, or ecological considerations.</p>
-<p>Federal monument agencies receive data they need. Property owners get information about structures on their land. Ecologists access data about habitat. And the public gains access to appropriate historical information.</p>
-<p>The system is also adaptable. Patrice has successfully tested the data model on other historical fortifications, demonstrating the approach could be applied to different types of monuments.</p>
-<h3 id="the-difference-open-source-makes">The Difference Open Source Makes</h3>
-<p>For Patrice, <strong>the open-source nature of QGIS and QField proved essential</strong>. Unlike proprietary alternatives he&rsquo;d used previously, these tools could be freely distributed without licensing concerns.</p>
-<p><em>&ldquo;With QGIS there came the add-ins which made it powerful out of the box. You did not need any licenses. This is open source, it is easily distributable, everybody can download it and install it on their mobile device.&rdquo;</em></p>
-<p>When Patrice needed QFieldCloud access, he contacted OPENGIS.ch. The response was immediate and supportive — the only request was that the project link back to OPENGIS.ch on their webpage.</p>
-<p><em>&ldquo;I responded with creating a complete page about using this software. It&rsquo;s the best thing I can do also for OPENGIS.ch in promoting their software and promoting this cloud service.&rdquo;</em></p>
-<h3 id="more-than-just-mapping">More Than Just Mapping</h3>
-<p>For Patrice and the volunteers, the project <strong>serves purposes beyond safety and historical preservation</strong>. These tangible remnants of the Nazi era provide opportunities for communities to <strong>engage with history in meaningful ways.</strong></p>
-<p><em>&ldquo;It is also a contribution to maintaining democracy. Here along the western border, everybody can get in touch with that history with concrete remnants around their own village.&rdquo;</em></p>
-<p>When history is local—visible in the woods near home rather than distant and abstract, it becomes personal. People become curious about their own community&rsquo;s past.</p>
-<p><em>&ldquo;The people understand that it is a part of their identity and they are willing to view it also as a part of identity even if it has a dark history. It&rsquo;s not my fault but it is my responsibility for maintaining it.&rdquo;</em></p>
-<h3 id="looking-ahead">Looking Ahead</h3>
-<p>What once required Patrice to manually process data from each person now scales <strong>effortlessly across dozens of contributors</strong> spread across hundreds of kilometers.</p>
-<p><em>&ldquo;I can in that way suit not 10 people, it can be 20, it can be 50, it can be 100. It doesn&rsquo;t matter. That makes the process scalable.&rdquo;</em></p>
-<p>Technology hasn&rsquo;t just made the work more efficient, it&rsquo;s made an entire category of <strong>conservation and historical preservation</strong> possible that simply wouldn&rsquo;t exist otherwise.</p>
-<p><em>&ldquo;Now I can just give someone a project of all objects in 20 kilometers around their home. We can collect data in a standardized way. You end up with a standardized database that you can start to query, that you can start to use for interesting analysis.&rdquo;</em></p>
-<h4 id="about-the-project">About the Project:</h4>
-<p><strong>The West Wall (Siegfried Line) fortification mapping project</strong> is coordinated by volunteer monument preservation groups working alongside German federal monument services, documenting and monitoring approximately <strong>10,000 remaining WWII-era fortifications across a 600-kilometer zone</strong> along Germany&rsquo;s western border.</p>
-]]></content:encoded>
     </item>
     
     <item>

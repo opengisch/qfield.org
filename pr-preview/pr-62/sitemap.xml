@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://qfield.org/pr-preview/pr-62/success-stories/nibio-norway/</loc>
-    <lastmod>2026-05-08T00:13:42+02:00</lastmod>
+    <loc>https://qfield.org/pr-preview/pr-62/categories/</loc>
+    <lastmod>2026-05-08T00:53:11+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/pr-preview/pr-62/categories/</loc>
-    <lastmod>2026-03-30T19:54:00+02:00</lastmod>
+    <loc>https://qfield.org/pr-preview/pr-62/categories/ecology-environment/</loc>
+    <lastmod>2026-05-08T00:53:11+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-62/success-stories/nibio-norway/</loc>
+    <lastmod>2026-05-08T00:53:11+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-62/categories/government-municipalities/</loc>
+    <lastmod>2026-05-08T00:53:11+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-62/categories/water-land-management/</loc>
+    <lastmod>2026-05-08T00:53:11+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -47,6 +62,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-62/success-stories/ww2-fortifications/</loc>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/categories/community/</loc>
     <lastmod>2026-03-08T19:49:16+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -69,6 +89,26 @@
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/tags/routing/</loc>
     <lastmod>2026-03-08T19:49:16+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-62/categories/--/</loc>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-62/success-stories/vocational-training/</loc>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-62/success-stories/sarawak/</loc>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-62/categories/forestry/</loc>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -158,97 +198,112 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/un/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/building-on-top/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/water-supply-rwanda/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/dai/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/nls/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/freelance-success/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/geological-mapping/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/ground-truth-fiji/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/heritage-impact-assessment/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-62/categories/humanitarian-emergency-response/</loc>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/ecological-surveying/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-62/categories/infrastructure-engineering/</loc>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/fire-salamanders/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-62/categories/precision-agriculture/</loc>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/radiation-detection/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/river-state-survey/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/tonga/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/mapping-breeding-birds/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/malaria-data-collection/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/vanilla-surveys/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/ghana-deforestation/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/zero-invasive-predators/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
+    <lastmod>2026-05-08T00:48:45+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -726,11 +781,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/pr-preview/pr-62/success-stories/sarawak/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/tags/compliance/</loc>
     <lastmod>2026-01-05T11:09:50+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -931,11 +981,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/pr-preview/pr-62/success-stories/vocational-training/</loc>
-    <lastmod>2026-03-04T16:35:28+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/tags/humanitarian/</loc>
     <lastmod>2026-01-05T11:09:50+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1112,7 +1157,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/success-stories/</loc>
-    <lastmod>2026-04-02T15:58:48+02:00</lastmod>
+    <lastmod>2026-05-07T22:16:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1385,11 +1430,6 @@
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
-  </url><url>
-    <loc>https://qfield.org/pr-preview/pr-62/success-stories/ww2-fortifications/</loc>
-    <lastmod>2026-03-25T09:59:26+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-62/tags/qgis-fieldwork/</loc>
     <lastmod>2026-01-05T11:09:50+01:00</lastmod>
