@@ -20,7 +20,7 @@
       
       <guid>https://qfield.org/pr-preview/pr-62/success-stories/nibio-norway/</guid>
       
-      <description>Norway&#39;s national land research institute manages data on every forest, field, and wetland in the country. Learn how Anna, Chief Engineer in NIBIO&#39;s Geomatics department, spent years systematically replacing paper-based field workflows with QField, from early pollinator surveys to full polygon vegetation mapping, while keeping sensitive national data on Norwegian servers.</description>
+      <description>NIBIO replaced paper-based land-survey fieldwork with QField, enabling digital vegetation mapping while keeping sensitive data on Norwegian servers.</description>
       <content:encoded><![CDATA[<h3 id="the-challenge">The Challenge</h3>
 <p>NIBIO, the Norwegian Institute of Bioeconomy Research, carries an extraordinary mandate: know Norway&rsquo;s land. Where the forests are and what grows in them. How much wetland remains. Which soils store the most carbon. Where wild pastures lie and what grazes on them. This is the data the Norwegian government relies on for climate reporting, environmental policy, and agricultural planning.</p>
 <p>Gathering it means sending teams into the field for months at a time. From April through October, researchers fan out across Norway&rsquo;s varied terrain, counting pollinators, mapping vegetation, sampling soil. When they returned to the institute, they brought paper notebooks, audio recordings, and maps covered in hand-drawn polygon boundaries. Then the real work began: manually transcribing everything into digital form.</p>
@@ -1315,7 +1315,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192318-519601597"
+     data-gallery-id="gallery-1778192725-797276347"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1343,7 +1343,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1778192318-519601597 .carousel-item .gallery-img {
+#gallery-1778192725-797276347 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1351,11 +1351,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1778192318-519601597 .carousel-item {
+#gallery-1778192725-797276347 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192318-519601597 .carousel-item .figure {
+#gallery-1778192725-797276347 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1364,11 +1364,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1778192318-519601597 .carousel-item .figure .gallery-img {
+#gallery-1778192725-797276347 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192318-519601597 .carousel-item .figure .figure-caption {
+#gallery-1778192725-797276347 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1377,13 +1377,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192318-519601597 .carousel-item .gallery-img {
+  #gallery-1778192725-797276347 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192318-519601597 .carousel-item .gallery-img {
+  #gallery-1778192725-797276347 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }

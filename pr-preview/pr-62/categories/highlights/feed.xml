@@ -981,7 +981,7 @@ Want to know more about the idea of community-driven open-source projects and th
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192092-657896358"
+     data-gallery-id="gallery-1778192499-761319421"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1027,7 +1027,7 @@ Want to know more about the idea of community-driven open-source projects and th
 
 <style>
  
-#gallery-1778192092-657896358 .carousel-item .gallery-img {
+#gallery-1778192499-761319421 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1035,11 +1035,11 @@ Want to know more about the idea of community-driven open-source projects and th
   display: block !important;
 }
 
-#gallery-1778192092-657896358 .carousel-item {
+#gallery-1778192499-761319421 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192092-657896358 .carousel-item .figure {
+#gallery-1778192499-761319421 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1048,11 +1048,11 @@ Want to know more about the idea of community-driven open-source projects and th
   text-align: center;
 }
 
-#gallery-1778192092-657896358 .carousel-item .figure .gallery-img {
+#gallery-1778192499-761319421 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192092-657896358 .carousel-item .figure .figure-caption {
+#gallery-1778192499-761319421 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1061,13 +1061,13 @@ Want to know more about the idea of community-driven open-source projects and th
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192092-657896358 .carousel-item .gallery-img {
+  #gallery-1778192499-761319421 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192092-657896358 .carousel-item .gallery-img {
+  #gallery-1778192499-761319421 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1347,7 +1347,7 @@ Cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192083-965561906"
+     data-gallery-id="gallery-1778192492-330471755"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1376,7 +1376,7 @@ Cheers</p>
 
 <style>
  
-#gallery-1778192083-965561906 .carousel-item .gallery-img {
+#gallery-1778192492-330471755 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1384,11 +1384,11 @@ Cheers</p>
   display: block !important;
 }
 
-#gallery-1778192083-965561906 .carousel-item {
+#gallery-1778192492-330471755 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192083-965561906 .carousel-item .figure {
+#gallery-1778192492-330471755 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1397,11 +1397,11 @@ Cheers</p>
   text-align: center;
 }
 
-#gallery-1778192083-965561906 .carousel-item .figure .gallery-img {
+#gallery-1778192492-330471755 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192083-965561906 .carousel-item .figure .figure-caption {
+#gallery-1778192492-330471755 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1410,13 +1410,13 @@ Cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192083-965561906 .carousel-item .gallery-img {
+  #gallery-1778192492-330471755 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192083-965561906 .carousel-item .gallery-img {
+  #gallery-1778192492-330471755 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1482,7 +1482,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192086-412675366"
+     data-gallery-id="gallery-1778192494-548821087"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1517,7 +1517,7 @@ cheers</p>
 
 <style>
  
-#gallery-1778192086-412675366 .carousel-item .gallery-img {
+#gallery-1778192494-548821087 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1525,11 +1525,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1778192086-412675366 .carousel-item {
+#gallery-1778192494-548821087 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192086-412675366 .carousel-item .figure {
+#gallery-1778192494-548821087 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1538,11 +1538,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1778192086-412675366 .carousel-item .figure .gallery-img {
+#gallery-1778192494-548821087 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192086-412675366 .carousel-item .figure .figure-caption {
+#gallery-1778192494-548821087 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1551,13 +1551,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192086-412675366 .carousel-item .gallery-img {
+  #gallery-1778192494-548821087 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192086-412675366 .carousel-item .gallery-img {
+  #gallery-1778192494-548821087 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1578,7 +1578,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192088-572791792"
+     data-gallery-id="gallery-1778192497-88681960"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1616,7 +1616,7 @@ cheers</p>
 
 <style>
  
-#gallery-1778192088-572791792 .carousel-item .gallery-img {
+#gallery-1778192497-88681960 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1624,11 +1624,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1778192088-572791792 .carousel-item {
+#gallery-1778192497-88681960 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192088-572791792 .carousel-item .figure {
+#gallery-1778192497-88681960 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1637,11 +1637,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1778192088-572791792 .carousel-item .figure .gallery-img {
+#gallery-1778192497-88681960 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192088-572791792 .carousel-item .figure .figure-caption {
+#gallery-1778192497-88681960 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1650,13 +1650,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192088-572791792 .carousel-item .gallery-img {
+  #gallery-1778192497-88681960 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192088-572791792 .carousel-item .gallery-img {
+  #gallery-1778192497-88681960 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1930,7 +1930,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192316-986281740"
+     data-gallery-id="gallery-1778192722-373744173"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1952,7 +1952,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 <style>
  
-#gallery-1778192316-986281740 .carousel-item .gallery-img {
+#gallery-1778192722-373744173 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1960,11 +1960,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   display: block !important;
 }
 
-#gallery-1778192316-986281740 .carousel-item {
+#gallery-1778192722-373744173 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192316-986281740 .carousel-item .figure {
+#gallery-1778192722-373744173 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1973,11 +1973,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   text-align: center;
 }
 
-#gallery-1778192316-986281740 .carousel-item .figure .gallery-img {
+#gallery-1778192722-373744173 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192316-986281740 .carousel-item .figure .figure-caption {
+#gallery-1778192722-373744173 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1986,13 +1986,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192316-986281740 .carousel-item .gallery-img {
+  #gallery-1778192722-373744173 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192316-986281740 .carousel-item .gallery-img {
+  #gallery-1778192722-373744173 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2133,7 +2133,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778192101-256669138"
+     data-gallery-id="gallery-1778192509-196756092"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2162,7 +2162,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 <style>
  
-#gallery-1778192101-256669138 .carousel-item .gallery-img {
+#gallery-1778192509-196756092 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2170,11 +2170,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   display: block !important;
 }
 
-#gallery-1778192101-256669138 .carousel-item {
+#gallery-1778192509-196756092 .carousel-item {
   height: auto;
 }
 
-#gallery-1778192101-256669138 .carousel-item .figure {
+#gallery-1778192509-196756092 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2183,11 +2183,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   text-align: center;
 }
 
-#gallery-1778192101-256669138 .carousel-item .figure .gallery-img {
+#gallery-1778192509-196756092 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778192101-256669138 .carousel-item .figure .figure-caption {
+#gallery-1778192509-196756092 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2196,13 +2196,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 }
 
 @media (max-width: 768px) {
-  #gallery-1778192101-256669138 .carousel-item .gallery-img {
+  #gallery-1778192509-196756092 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778192101-256669138 .carousel-item .gallery-img {
+  #gallery-1778192509-196756092 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
