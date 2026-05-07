@@ -1,0 +1,11 @@
+{{- $url := .url | default "#" -}}
+{{- $isExternal := or (strings.HasPrefix $url "http://") (strings.HasPrefix $url "https://") (strings.HasPrefix $url "//") -}}
+{{- $isSpecial := or (strings.HasPrefix $url "#") (strings.HasPrefix $url "mailto:") (strings.HasPrefix $url "tel:") -}}
+{{- $basePath := site.Home.RelPermalink -}}
+{{- $basePathNoSlash := strings.TrimSuffix "/" $basePath -}}
+{{- $hasBasePath := and (ne $basePath "/") (or (strings.HasPrefix $url $basePath) (eq $url $basePathNoSlash)) -}}
+{{- if or $isExternal $isSpecial $hasBasePath -}}
+  {{- $url -}}
+{{- else -}}
+  {{- $url | strings.TrimPrefix "/" | relLangURL -}}
+{{- end -}}

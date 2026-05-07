@@ -14,23 +14,24 @@
   </div>
   {{ end }}
 
-  {{/* ── Footer sections ── */}}
+{{/* ── Footer sections ── */}}
   <section id="about" class="py-5">
     <div class="container">
       <div class="row gy-4">
         {{ range .sections }}
         <div class="col-12">
+          {{- $body := .body | markdownify -}}
           <h3>{{ .title }}</h3>
-          <p>{{ .body | markdownify }}</p>
+          <p>{{ $body | safeHTML }}</p>
         </div>
         {{ end }}
 
       {{ with .social }}
       <div class="social-links mt-4 text-center">
         {{ range . }}
-        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+        <a href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener noreferrer">
           {{ if .image }}
-          <img src="{{ .image }}" alt="{{ .name }}" width="32" height="32">
+          <img src="{{ .image | strings.TrimPrefix "/" | relURL }}" alt="{{ .name }}" width="32" height="32">
           {{ else if .icon }}
           <i class="{{ .icon }}" aria-hidden="true"></i>
           <span class="visually-hidden">{{ .name }}</span>

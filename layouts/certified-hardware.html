@@ -17,7 +17,7 @@
         </div>
         {{ with $content.intro.cta }}
           <div class="col-lg-4 text-lg-end">
-            <a class="btn btn-success btn-lg w-100 w-lg-auto" href="{{ .url }}" target="_blank" rel="noopener">{{ .text }}</a>
+            <a class="btn btn-success btn-lg w-100 w-lg-auto" href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener">{{ .text }}</a>
           </div>
         {{ end }}
       </div>
@@ -54,7 +54,7 @@
                           {{ with $device.image }}
                             {{- $imgSrc := .src | default "" -}}
                             {{ if $imgSrc }}
-                              <img class="card-img-top" src="{{ $imgSrc | relURL }}" alt="{{ .alt | default $device.name }}" loading="lazy">
+                              <img class="card-img-top" src="{{ $imgSrc | strings.TrimPrefix "/" | relURL }}" alt="{{ .alt | default $device.name }}" loading="lazy">
                             {{ end }}
                           {{ end }}
                           <div class="card-body d-flex flex-column">
@@ -66,7 +66,7 @@
                               <p class="small text-body-secondary">{{ . | markdownify }}</p>
                             {{ end }}
                             {{ with $device.link }}
-                              <a class="btn btn-outline-primary mt-auto" href="{{ .url }}" target="_blank" rel="noopener">{{ .text | default "Buy now" }}</a>
+                              <a class="btn btn-outline-primary mt-auto" href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener">{{ .text | default "Buy now" }}</a>
                             {{ end }}
                           </div>
                         </article>

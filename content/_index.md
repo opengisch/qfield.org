@@ -138,7 +138,7 @@ success_stories:
       logo: "/images/customer/un.svg"
       image: "/images/customer/un_img.jpg"
       description: >-
-        QField has been spotlighted by the UN OpenGIS initiative as a crucial part of their hybrid GIS system. This recognition underscores QField's superior capabilities in supporting multiple <a href="/sdgs">United Nations Sustainable Development Goals (SDGs)</a> and revolutionizing geospatial data collection.
+        QField has been spotlighted by the UN OpenGIS initiative as a crucial part of their hybrid GIS system. This recognition underscores QField's superior capabilities in supporting multiple [United Nations Sustainable Development Goals (SDGs)](sdgs) and revolutionizing geospatial data collection.
       link:
         label: "Read more..."
         url: "success-stories/un"

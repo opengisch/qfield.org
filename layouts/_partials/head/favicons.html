@@ -1,2 +1,2 @@
 {{- $favicon := .Site.Params.favicon | default "/images/qfield-logo.svg" -}}
-<link rel="icon" type="image/svg+xml" href="{{ $favicon | relURL }}">
+<link rel="icon" type="image/svg+xml" href="{{ $favicon | strings.TrimPrefix "/" | relURL }}">

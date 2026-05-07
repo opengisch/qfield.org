@@ -5,12 +5,12 @@
 
       <a class="navbar-brand fw-bold" href="{{ .Site.Home.RelPermalink }}">
         {{ with .Site.Params.mainMenuLogo }}
-        <img src="{{ . | relURL }}" alt="QField logo" width="205" height="70"
+        <img src="{{ . | strings.TrimPrefix "/" | relURL }}" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--light" loading="eager" decoding="async">
         {{ end }}
 
         {{ with .Site.Params.mainMenuLogoDark }}
-        <img src="{{ . | relURL }}" alt="QField logo" width="205" height="70"
+        <img src="{{ . | strings.TrimPrefix "/" | relURL }}" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--dark" loading="eager" decoding="async">
         {{ end }}
 
@@ -53,10 +53,9 @@
               {{- $childTarget = "_blank" -}}
               {{- end -}}
               {{- $childRel := cond (eq $childTarget "_blank") "noopener noreferrer" "" -}}
+              {{- $childURL := .URL | default "#" -}}
               <li>
-                <a class="dropdown-item" href="{{ if strings.HasPrefix .URL " http" }}{{ .URL }}{{ else }}{{ .URL |
-                  relLangURL }}{{ end }}" target="{{ $childTarget }}" {{ if $childRel }} rel="{{ $childRel }}" {{ end
-                  }}>
+                <a class="dropdown-item" href="{{ $childURL }}" target="{{ $childTarget }}" {{ if $childRel }} rel="{{ $childRel }}" {{ end }}>
                   {{ .Name }}
                 </a>
               </li>
@@ -77,10 +76,11 @@
           {{- if and (not $isActive) (and .URL (not (strings.HasPrefix .URL "http"))) -}}
           {{- $isActive = eq $current.RelPermalink (.URL | relLangURL) -}}
           {{- end -}}
+          {{- $itemURL := "#" -}}
+          {{- if .URL -}}{{- $itemURL = .URL -}}{{- end -}}
           <li class="nav-item{{ if $variant }} nav-item--button{{ end }}">
             <a class="{{ $linkClass }}{{ if $isActive }} active{{ end }}"
-              href="{{ if .URL }}{{ if strings.HasPrefix .URL " http" }}{{ .URL }}{{ else }}{{ .URL | relLangURL }}{{
-              end }}{{ else }}#{{ end }}" target="{{ $itemTarget }}" {{ if $itemRel }} rel="{{ $itemRel }}" {{ end }}>
+              href="{{ $itemURL }}" target="{{ $itemTarget }}" {{ if $itemRel }} rel="{{ $itemRel }}" {{ end }}>
               {{ with .Params.icon }}<i class="{{ . }}" aria-hidden="true"></i>{{ end }}
               <span>{{ .Name }}</span>
             </a>

@@ -14,7 +14,7 @@
 {{- $isAbs := or (hasPrefix $src "http://") (hasPrefix $src "https://") -}}
 
 {{- if $isAbs -}}
-  <img src="{{ $src }}" alt="{{ $alt }}" {{ with $w }}width="{{ . }}"{{ end }} {{ with $h }}height="{{ . }}"{{ end }} {{ with $class }}class="{{ . }}"{{ end }} {{ with $style }}style="{{ . | safeCSS }}"{{ end }}>
+  <img src="{{ partial "url.html" (dict "url" $src) }}" alt="{{ $alt }}" {{ with $w }}width="{{ . }}"{{ end }} {{ with $h }}height="{{ . }}"{{ end }} {{ with $class }}class="{{ . }}"{{ end }} {{ with $style }}style="{{ . | safeCSS }}"{{ end }}>
 {{- else -}}
 
   {{/* 1) Try Hugo Pipes assets */}}
@@ -49,10 +49,7 @@
   {{- else -}}
     {{/* --- STATIC FALLBACK PATH --- */}}
 
-    {{- $srcStatic := $src -}}
-    {{- if not (hasPrefix $srcStatic "/") -}}
-      {{- $srcStatic = printf "/%s" $srcStatic -}}
-    {{- end -}}
+    {{- $srcStatic := $src | strings.TrimPrefix "/" -}}
 
     {{- if $style -}}
       <img src="{{ $srcStatic | relURL }}" alt="{{ $alt }}" {{ with $class }}class="{{ . }}"{{ end }} style="{{ $style | safeCSS }}">

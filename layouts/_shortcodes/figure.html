@@ -5,6 +5,10 @@
 {{- $width := .Get "width" | default "" -}}
 {{- $height := .Get "height" | default "" -}}
 {{- $href := .Get "href" -}}
+{{- $resolvedHref := "" -}}
+{{- if $href -}}
+  {{- $resolvedHref = partial "url.html" (dict "url" $href) -}}
+{{- end -}}
 {{- $target := .Get "target" | default (cond (strings.HasPrefix $href "http") "_blank" "_self") -}}
 {{- $rel := .Get "rel" | default (cond (and $href (eq $target "_blank")) "noopener" "") -}}
 
@@ -63,7 +67,7 @@
     {{- $imgHeight = $processed.Height -}}
   {{- else -}}
     {{- /* Image not found as resource - use src as-is (fallback for static files) */ -}}
-    {{- $imgSrc = $src -}}
+    {{- $imgSrc = partial "url.html" (dict "url" $src) -}}
   {{- end -}}
 {{- end -}}
 
@@ -76,7 +80,7 @@
 {{- end -}}
 
 <figure class="figure text-center{{ if $class }} {{ $class }}{{ end }} mb-4">
-  {{- if $href -}}<a href="{{ $href }}" target="{{ $target }}"{{ if $rel }} rel="{{ $rel }}"{{ end }}>{{- end -}}
+  {{- if $resolvedHref -}}<a href="{{ $resolvedHref }}" target="{{ $target }}"{{ if $rel }} rel="{{ $rel }}"{{ end }}>{{- end -}}
     <img src="{{ $imgSrc }}" 
          {{- if $srcset }} srcset="{{ $srcset }}"{{ end }}
          alt="{{ $alt }}" 
@@ -85,7 +89,7 @@
          {{- if $imgHeight }} height="{{ $imgHeight }}"{{ end }}
          {{- if $style }} style="{{ $style }}"{{ end }}
          loading="lazy">
-  {{- if $href -}}</a>{{- end -}}
+  {{- if $resolvedHref -}}</a>{{- end -}}
   {{- if $caption }}
   <figcaption class="figure-caption text-center">{{ $caption | markdownify }}</figcaption>
   {{- end -}}

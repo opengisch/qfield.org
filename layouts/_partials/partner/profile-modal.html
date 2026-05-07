@@ -44,7 +44,7 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         {{ with $partner.website }}
-          <a href="{{ .url }}" class="btn btn-success" target="_blank">{{ .text | default "Visit Website" }}</a>
+          <a href="{{ partial "url.html" (dict "url" .url) }}" class="btn btn-success" target="_blank">{{ .text | default "Visit Website" }}</a>
         {{ end }}
       </div>
     </div>

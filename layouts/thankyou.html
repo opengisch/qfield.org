@@ -24,7 +24,7 @@
               <div class="d-flex flex-wrap justify-content-center gap-2">
                 {{ range $data.social_share.platforms }}
                 <a 
-                  href="{{ .url }}" 
+                  href="{{ partial "url.html" (dict "url" .url) }}"
                   target="_blank" 
                   rel="noopener noreferrer"
                   class="btn btn-outline-secondary rounded-pill"

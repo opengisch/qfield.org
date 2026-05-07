@@ -10,7 +10,7 @@
 <section class="redirect-notice py-5">
   <div class="container text-center">
     <p class="lead mb-3">{{ $message }}</p>
-    <p><a class="btn btn-primary" href="{{ $target | safeURL }}" rel="noopener">{{ $label }}</a></p>
+    <p><a class="btn btn-primary" href="{{ partial "url.html" (dict "url" $target) }}" rel="noopener">{{ $label }}</a></p>
     <p class="text-muted small">If the automatic redirect does not start, use the link above.</p>
   </div>
 </section>

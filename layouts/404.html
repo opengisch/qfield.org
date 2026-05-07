@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <img src="/images/Let_this_logo_202511201151.gif" alt="QField Logo" class="error-image">
+        <img src="{{ "images/Let_this_logo_202511201151.gif" | relURL }}" alt="QField Logo" class="error-image">
         <br>
         <img src="https://app.qfield.cloud/pages/sad_nyuki.svg" alt="Sad Nyuki mascot" class="error-image">
         <h1 class="error-title">404 - Page Not Found</h1>
@@ -12,10 +12,10 @@
         </p>
         
         <div class="error-actions">
-          <a href="{{ "/" | relURL }}" class="btn btn-primary">
+          <a href="{{ partial "url.html" (dict "url" "/") }}" class="btn btn-primary">
             <i class="fas fa-home"></i> Go to Homepage
           </a>
-          <a href="/success-stories/" class="btn btn-secondary">
+          <a href="{{ partial "url.html" (dict "url" "/success-stories/") }}" class="btn btn-secondary">
             <i class="fas fa-star"></i> Success Stories
           </a>
           <a href="https://docs.qfield.org" class="btn btn-secondary" target="_blank">
@@ -26,11 +26,11 @@
         <div class="search-suggestion">
           <h3>Popular Pages</h3>
           <ul class="popular-links">
-            <li><a href="/#highlights">QField Features</a></li>
-            <li><a href="/success-stories/">Success Stories</a></li>
+            <li><a href="{{ partial "url.html" (dict "url" "/#highlights") }}">QField Features</a></li>
+            <li><a href="{{ partial "url.html" (dict "url" "/success-stories/") }}">Success Stories</a></li>
             <li><a href="https://docs.qfield.org/get-started/" target="_blank">Getting Started Guide</a></li>
-            <li><a href="/support-us/">Support QField</a></li>
-            <li><a href="/partner/">Partner Programs</a></li>
+            <li><a href="{{ partial "url.html" (dict "url" "/support-us/") }}">Support QField</a></li>
+            <li><a href="{{ partial "url.html" (dict "url" "/partner/") }}">Partner Programs</a></li>
           </ul>
         </div>
       </div>
