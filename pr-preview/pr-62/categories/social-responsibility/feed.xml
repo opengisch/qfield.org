@@ -217,7 +217,7 @@ Cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778190786-990398937"
+     data-gallery-id="gallery-1778192083-965561906"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -246,7 +246,7 @@ Cheers</p>
 
 <style>
  
-#gallery-1778190786-990398937 .carousel-item .gallery-img {
+#gallery-1778192083-965561906 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -254,11 +254,11 @@ Cheers</p>
   display: block !important;
 }
 
-#gallery-1778190786-990398937 .carousel-item {
+#gallery-1778192083-965561906 .carousel-item {
   height: auto;
 }
 
-#gallery-1778190786-990398937 .carousel-item .figure {
+#gallery-1778192083-965561906 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -267,11 +267,11 @@ Cheers</p>
   text-align: center;
 }
 
-#gallery-1778190786-990398937 .carousel-item .figure .gallery-img {
+#gallery-1778192083-965561906 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778190786-990398937 .carousel-item .figure .figure-caption {
+#gallery-1778192083-965561906 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -280,13 +280,13 @@ Cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778190786-990398937 .carousel-item .gallery-img {
+  #gallery-1778192083-965561906 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778190786-990398937 .carousel-item .gallery-img {
+  #gallery-1778192083-965561906 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -352,7 +352,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778190789-132182579"
+     data-gallery-id="gallery-1778192086-412675366"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -387,7 +387,7 @@ cheers</p>
 
 <style>
  
-#gallery-1778190789-132182579 .carousel-item .gallery-img {
+#gallery-1778192086-412675366 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -395,11 +395,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1778190789-132182579 .carousel-item {
+#gallery-1778192086-412675366 .carousel-item {
   height: auto;
 }
 
-#gallery-1778190789-132182579 .carousel-item .figure {
+#gallery-1778192086-412675366 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -408,11 +408,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1778190789-132182579 .carousel-item .figure .gallery-img {
+#gallery-1778192086-412675366 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778190789-132182579 .carousel-item .figure .figure-caption {
+#gallery-1778192086-412675366 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -421,13 +421,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778190789-132182579 .carousel-item .gallery-img {
+  #gallery-1778192086-412675366 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778190789-132182579 .carousel-item .gallery-img {
+  #gallery-1778192086-412675366 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -448,7 +448,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778190791-876948600"
+     data-gallery-id="gallery-1778192088-572791792"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -486,7 +486,7 @@ cheers</p>
 
 <style>
  
-#gallery-1778190791-876948600 .carousel-item .gallery-img {
+#gallery-1778192088-572791792 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -494,11 +494,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1778190791-876948600 .carousel-item {
+#gallery-1778192088-572791792 .carousel-item {
   height: auto;
 }
 
-#gallery-1778190791-876948600 .carousel-item .figure {
+#gallery-1778192088-572791792 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -507,11 +507,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1778190791-876948600 .carousel-item .figure .gallery-img {
+#gallery-1778192088-572791792 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778190791-876948600 .carousel-item .figure .figure-caption {
+#gallery-1778192088-572791792 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -520,13 +520,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778190791-876948600 .carousel-item .gallery-img {
+  #gallery-1778192088-572791792 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778190791-876948600 .carousel-item .gallery-img {
+  #gallery-1778192088-572791792 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -641,7 +641,7 @@ cheers</p>
       <guid>https://qfield.org/pr-preview/pr-62/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</guid>
       
       <description>&lt;div class=&#34;gallery-wrapper&#34; 
-     data-gallery-id=&#34;gallery-1778190803-242578254&#34;
+     data-gallery-id=&#34;gallery-1778192153-539240315&#34;
      data-autoplay=&#34;false&#34;
      data-interval=&#34;5000&#34;
      data-controls=&#34;true&#34;
@@ -651,7 +651,7 @@ cheers</p>
 
 &lt;style&gt;
  
-#gallery-1778190803-242578254 .carousel-item .gallery-img {
+#gallery-1778192153-539240315 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -659,11 +659,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1778190803-242578254 .carousel-item {
+#gallery-1778192153-539240315 .carousel-item {
   height: auto;
 }
 
-#gallery-1778190803-242578254 .carousel-item .figure {
+#gallery-1778192153-539240315 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -672,11 +672,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1778190803-242578254 .carousel-item .figure .gallery-img {
+#gallery-1778192153-539240315 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778190803-242578254 .carousel-item .figure .figure-caption {
+#gallery-1778192153-539240315 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -685,13 +685,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778190803-242578254 .carousel-item .gallery-img {
+  #gallery-1778192153-539240315 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778190803-242578254 .carousel-item .gallery-img {
+  #gallery-1778192153-539240315 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -706,7 +706,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778190803-242578254"
+     data-gallery-id="gallery-1778192153-539240315"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -716,7 +716,7 @@ cheers</p>
 
 <style>
  
-#gallery-1778190803-242578254 .carousel-item .gallery-img {
+#gallery-1778192153-539240315 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -724,11 +724,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1778190803-242578254 .carousel-item {
+#gallery-1778192153-539240315 .carousel-item {
   height: auto;
 }
 
-#gallery-1778190803-242578254 .carousel-item .figure {
+#gallery-1778192153-539240315 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -737,11 +737,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1778190803-242578254 .carousel-item .figure .gallery-img {
+#gallery-1778192153-539240315 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778190803-242578254 .carousel-item .figure .figure-caption {
+#gallery-1778192153-539240315 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -750,13 +750,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1778190803-242578254 .carousel-item .gallery-img {
+  #gallery-1778192153-539240315 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778190803-242578254 .carousel-item .gallery-img {
+  #gallery-1778192153-539240315 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
