@@ -11,8 +11,8 @@ sourceLabel: "Original post (Livelihoods & Landscapes)"
 sourceUrl: "https://livelihoods-and-landscapes.com/examples/hunga-haapai/hunga-haapai.html"
 categories: ["humanitarian-emergency-response", "government-municipalities"]
 featured: true
-image: "tonga-2.jpg"
-ogImage: "https://qfield.org/success-stories/tonga/tonga-2.jpg"
+image: "tonga-1.jpg"
+ogImage: "https://qfield.org/success-stories/tonga/tonga-1.jpg"
 ---
 
 ### Context
