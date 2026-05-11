@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Citizen Science on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-65/tags/citizen-science/</link>
+    <description>Recent content in Citizen Science on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-65/tags/citizen-science/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Citizen Science and Participatory Mapping</title>
+      <link>https://qfield.org/pr-preview/pr-65/solutions/citizen-science-and-participatory-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-65/solutions/citizen-science-and-participatory-mapping/</guid>
+      
+      <description>Enable communities to collect high-quality geospatial data with a friendly mobile GIS.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Community mapping and local surveys</li>
+<li>Environmental observations and reporting</li>
+<li>Collaborative data projects with oversight</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Set up data models in QGIS and coordinate contributors via QFieldCloud.</p>
+]]></content:encoded>
+      <category domain="categories">Research, Education &amp; Innovation</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">citizen science</category>
+      <category domain="tags">participatory mapping</category>
+    </item>
+    
+  </channel>
+</rss>
