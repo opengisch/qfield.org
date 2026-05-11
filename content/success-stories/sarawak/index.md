@@ -7,10 +7,10 @@ draft: false
 company: "The Bruno Manser Fonds"
 # description: "In parts of Sarawak (Malaysia), indigenous communities are actively resisting deforestation and fighting for land rights. For one The Bruno Manser Fonds working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge."
 # image: "-.jpg"
-# ogImage: "-.jpg"
 date: "2026-01-15T00:00:00+00:00"
 categories: ["forestry", "ecology-environment", "water-land-management"]
 image: "sarawak-7.jpg"
+ogImage: "https://qfield.org/success-stories/sarawak/sarawak-7.jpg"
 ---
 
 

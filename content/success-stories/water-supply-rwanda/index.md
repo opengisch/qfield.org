@@ -9,6 +9,7 @@ description: "To conduct data collection of all rural water supply network in Rw
       order to improve operation & maintenance of waterworks."
 categories: ["water-land-management", "government-municipalities"]
 image: "rwanda-rural-water-1.png"
+ogImage: "https://qfield.org/success-stories/water-supply-rwanda/rwanda-rural-water-1.png"
 ---
 
 ### Goal

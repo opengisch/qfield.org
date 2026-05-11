@@ -11,6 +11,7 @@ description: "The main objective was to allow operators to access in the field t
 # image: "ginve-6.jpeg"
 categories: ["forestry", "ecology-environment", "government-municipalities"]
 image: "ginve-6.jpeg"
+ogImage: "https://qfield.org/success-stories/building-on-top/ginve-6.jpeg"
 ---
 
 ### Aims and Objectives
