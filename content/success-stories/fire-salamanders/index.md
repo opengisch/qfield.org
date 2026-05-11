@@ -25,7 +25,7 @@ This five-year conservation initiative receives funding from both the EU (80%) a
 
 _"Fire salamanders are indicators of environments that have remained largely untouched for extended periods and streams with clean water,"_ explains the project coordinator, who has a background in environmental monitoring. _"We've discovered they can adapt to various conditions, which tells us important information about our local ecosystems."_
 
-{{< figure src="salamander-1.JPG" alt="enter alt" caption="" >}}
+{{< figure src="salamander-1.JPG" alt="fire salamanders" caption="" >}}
 
 ### QField in Action: How the Team Collects Data
 

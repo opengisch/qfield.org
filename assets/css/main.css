@@ -2779,6 +2779,10 @@ div.explanation {
   font-weight: bolder;
 }
 
+.ss-image {
+  max-width: 50%;
+}
+
 /* donation page */
 /* Donation page styles */
 .donation-btn {
@@ -3776,4 +3780,23 @@ div.explanation {
 
 [data-bs-theme='dark'] #customers .customer-card a {
   color: var(--link-color);
+}
+
+/* ardusimple */
+.ardusimple-logo {
+  margin-bottom: 20px !important;
+  margin-top: 30px !important;
+  width: 30%;
+  align-items: center;
+}
+
+
+/* links */
+a {
+  color: #80cc28;
+  font-weight: 300;
+
+a:hover {
+  color: darkgreen;
+  font-weight: 500;
 }

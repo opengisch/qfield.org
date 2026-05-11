@@ -2,7 +2,7 @@
 title: "Finland’s National Land Survey Empowers Field Mapping with QField"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-company: "Company Name"
+company: "National Land Survey (NLS)"
 description: "In 2025, Finland’s National Land Survey (NLS) made a
           bold and visionary leap by launching MTTJ, an open-source topographic data production system built on
           QGIS, QField, and other open technologies. This landmark initiative makes Finland the first country in the world to adopt an
@@ -37,8 +37,8 @@ Among its standout features:
 
 All core components were built with **open-source principles** in mind — and many will be shared with the global QGIS and OSGeo community.
 
-{{< figure src="/images/customer/nls3.jpg" alt="Field mapping with QField" caption="" >}}
-{{< figure src="/images/customer/nls4.jpg" alt="Field mapping with QField" caption="" >}}
+{{< figure src="/images/customer/nls3.jpg" alt="Field mapping with QField" caption="" class="ss-image" >}}
+{{< figure src="/images/customer/nls4.jpg" alt="Field mapping with QField" caption="" class="ss-image" >}}
 
 ### Seamless Field-to-Database Workflow
 

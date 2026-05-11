@@ -6,7 +6,8 @@ type: landing
 layout: solutions
 ---
 
-## ArduSimple – Centimeter Precision GPS
+{{< figure src="/images/partners/ardusimple_logo.svg" class="ardusimple-logo" >}}
+
 QField works seamlessly with ArduSimple RTK GNSS receivers to deliver reliable, survey-grade positioning for professional field data collection. Capture precise points, lines, and boundaries directly in your QGIS projects and compare them with authoritative datasets such as cadastral maps.
 
 On Android devices, QField can connect directly to compatible GNSS receivers via Bluetooth or USB for real-time positioning. On iPhone and iPad, external receivers connect over Wi-Fi, enabling high-accuracy positioning and RTK corrections within iOS constraints. In both cases, you can verify property boundaries, map infrastructure, or document land features with confidence.
