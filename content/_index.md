@@ -173,7 +173,7 @@ industries:
         - "industry-image--offset-5"
       url: "/success-stories?filter=forestry"
     - title: "Humanitarian & Emergency Response"
-      image: "/images/ss/tonga-2.jpg"
+      image: "/images/bg/tonga.jpg"
       image_modifiers:
         - "industry-image--offset-55"
       url: "/success-stories?filter=humanitarian-emergency-response"
