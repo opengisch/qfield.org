@@ -2179,7 +2179,7 @@ span.green,
 .footer-subscribe-banner__text a {
   color: #80cc28;
   font-weight: 400;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .footer-subscribe-banner__text a:hover {
@@ -2189,6 +2189,12 @@ span.green,
 [data-bs-theme='dark'] .footer-subscribe-banner {
   background-color: #1f1f1f;
   margin-bottom: 40px;
+}
+
+.newsletter-logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
 }
 
 /* ____ */

@@ -10,6 +10,9 @@ hero:
 draft: false
 ---
 
+{{< figure src="/images/qf_nl.png" class="newsletter-logo" >}}
+
+
 ### Why subscribe?
 
 QField is evolving fast. Our newsletter keeps you informed without the noise:
