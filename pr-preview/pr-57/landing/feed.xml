@@ -46,7 +46,7 @@
     </item>
     
     <item>
-      <title>Stay in the loop with QField</title>
+      <title>Stay in the loop with QField - 13.05.2026 - 11:23</title>
       <link>https://qfield.org/pr-preview/pr-57/landing/newsletter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -168,10 +168,6 @@
           </div>
 
           <div style="padding:8px 0;">
-            <div class="cf-turnstile" data-sitekey="0x4AAAAAABhnveewR0onanou" data-callback="invisibleCaptchaCallback" data-language="en"></div>
-          </div>
-
-          <div style="padding:8px 0;">
             <div class="sib-form__declaration" style="direction:ltr">
               <div style="font-size:14px;text-align:left;font-family:Helvetica,sans-serif;color:#687484;background-color:transparent;">
                 <p>We use Brevo as our marketing platform. By submitting this form you agree that the personal data you provided will be transferred to Brevo for processing in accordance with <a href="https://www.brevo.com/en/legal/privacypolicy/">Brevo's Privacy Policy.</a></p>
@@ -234,7 +230,6 @@
   });
 </script>
 <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
-<script async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
 
 <hr>
 <p>We respect your privacy. You can unsubscribe at any time.</p>
