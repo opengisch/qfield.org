@@ -1,5 +1,5 @@
 ---
-title: "Stay in the loop with QField"
+title: "Stay in the loop with QField - 13.05.2026 - 11:23"
 slug: "newsletter"
 description: "Get the latest QField news, tips, and release highlights delivered straight to your inbox."
 type: landing
