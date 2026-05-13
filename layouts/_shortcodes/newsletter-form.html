@@ -77,7 +77,7 @@
               <div class="form__entry entry_block">
                 <div class="form__label-row form__label-row--horizontal">
                   <div class="entry__field">
-                    <input class="input" maxlength="2" type="text" id="COUNTRY_CODE" name="COUNTRY_CODE" autocomplete="country" placeholder="2 letter country code" data-required="true" required>
+                    <input class="input" maxlength="2" minlength="2" pattern="[A-Za-z]{2}" type="text" id="COUNTRY_CODE" name="COUNTRY_CODE" autocomplete="country" autocapitalize="characters" placeholder="2 letter country code" data-required="true" required>
                   </div>
                 </div>
                 <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
@@ -135,6 +135,14 @@
 </div>
 
 <script>
+  if (window.trustedTypes && !window.trustedTypes.defaultPolicy) {
+    window.trustedTypes.createPolicy('default', {
+      createHTML: function (input) { return input; },
+      createScript: function (input) { return input; },
+      createScriptURL: function (input) { return input; }
+    });
+  }
+
   window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
   window.LOCALE = 'en';
   window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = 'The information provided is invalid. Please review the field format and try again.';
@@ -149,6 +157,17 @@
     }
   };
   var AUTOHIDE = Boolean(0);
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var countryCode = document.getElementById('COUNTRY_CODE');
+    if (!countryCode) {
+      return;
+    }
+
+    countryCode.addEventListener('input', function () {
+      countryCode.value = countryCode.value.toUpperCase();
+    });
+  });
 </script>
 <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
 <script async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
