@@ -110,7 +110,7 @@
     
     "name": "QField - Efficient field work built for QGIS"
   },
-  "wordCount" :  604 ,
+  "wordCount" :  605 ,
   "description": "For QField 3.7, we opted for a shorter development cycle that focused on polishing preexisting functionalities from feature form editor widgets improvement through to better nearby Bluetooth device …",
   "keywords": []
 }
@@ -143,7 +143,7 @@
 }
 </script>
 
-    <link rel="icon" type="image/svg+xml" href="/images/qfield-logo.svg">
+    <link rel="icon" type="image/svg+xml" href="/pr-preview/pr-57/images/qfield-logo.svg">
 
 
 </head>
@@ -153,12 +153,12 @@
 
       <a class="navbar-brand fw-bold" href="/pr-preview/pr-57/">
         
-        <img src="/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
+        <img src="/pr-preview/pr-57/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--light" loading="eager" decoding="async">
         
 
         
-        <img src="/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
+        <img src="/pr-preview/pr-57/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--dark" loading="eager" decoding="async">
         
 
@@ -286,7 +286,8 @@
         </div>
     </div>
   </nav>
-</header><div id="content">
+</header>
+<div id="content">
 
 
 <section class="py-2">
@@ -294,7 +295,7 @@
     
     
     <div class="my-4">
-      <a href="/blog/" class="btn btn-outline-secondary btn-sm">
+      <a href="/pr-preview/pr-57/blog/" class="btn btn-outline-secondary btn-sm">
         <i class="fas fa-arrow-left me-2"></i>Back to Blog
       </a>
     </div>
@@ -338,12 +339,14 @@
          alt="" 
          class="figure-img img-fluid gallery-img" width="1200" height="736"
          loading="lazy"></figure>
+
 <p>One of the most interesting new functionalities from this development cycle has been the ability to stamp details on photos taken by QField’s in-app camera. A basic version of this has been supported for a while now; this new version offers flexible customisation of details stamping onto photos, including changing the font size, colour, and horizontal position, as well as providing users with the ability to completely change the details via expression-driven templates and add image overlays onto the photo.</p>
 <p>The custom details stamping configuration lives within project files, allowing for individual projects to drive styling and details. The configuration interface is provided by QFieldSync and can be found in the project properties dialog by switching to the QField panel when setting up projects in QGIS:</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-57/blog/2025/08/04/qfield-3.7-haida-gwaii-polishing-a-great-experience/image_stamping.webp" srcset="/pr-preview/pr-57/blog/2025/08/04/qfield-3.7-haida-gwaii-polishing-a-great-experience/image_stamping.webp 1x, /pr-preview/pr-57/blog/2025/08/04/qfield-3.7-haida-gwaii-polishing-a-great-experience/image_stamping_hu_90671caf2002c14b.webp 2x"
          alt="" 
          class="figure-img img-fluid gallery-img" width="767" height="756"
          loading="lazy"></figure>
+
 <p>The other significant addition in this release is <strong>the new plugin manager’s Available Plugins tab, which offers a curated list of plugins</strong> that can easily be installed with a single tap. The list makes it much easier to discover plugin-delivered functionalities such as online routing, geocoding searches, and much more.</p>
 <p>The plugin manager can also <strong>alert users of available updates for their installed plugins, ensuring that crucial bug fixes and improvements are easily delivered</strong>. When a new version is released, users can update via a single tap. We are looking into the possibility of enabling automated plugin upgrades soon.</p>
 <p>Long-time users of QField are probably aware of a nifty feature that allowed individual project layers to be locked, and for that lock to be driven by a data-defined property expression. For this new version, we’ve supercharged the layer lock functionality by breaking it down into four distinct vector layer permissions that can be disabled: i) feature addition, ii) attribute editing, iii) geometry editing, and iv) feature deletion. These permissions can be disabled by activating a checkbox or conditionality turned on via a data-defined property expression.</p>
@@ -351,7 +354,9 @@
          alt="" 
          class="figure-img img-fluid gallery-img" width="904" height="710"
          loading="lazy"></figure>
-<p>The disabling of permissions using a data-defined property expression allows for interesting scenarios when paired with QField-driven expression context variables such as the user name of a logged-in QFieldCloud account (@cloud_username), GNSS positioning (@gnss_coordinate) and more. Users can easily restrict permissions based on the user interacting with a cloud project, or form advanced geofencing-like rules based on location, time of the day, etc. For more details on available variables, <a href="https://docs.qfield.org/reference/expression_variables/" target="_blank" rel="noopener">read this page on QField&rsquo;s growing documentation site</a>.</p>
+
+<p>The disabling of permissions using a data-defined property expression allows for interesting scenarios when paired with QField-driven expression context variables such as the user name of a logged-in QFieldCloud account (@cloud_username), GNSS positioning (@gnss_coordinate) and more. Users can easily restrict permissions based on the user interacting with a cloud project, or form advanced geofencing-like rules based on location, time of the day, etc. For more details on available variables, <a href="https://docs.qfield.org/reference/expression_variables/" target="_blank" rel="noopener">read this page on QField&rsquo;s growing documentation site</a>
+.</p>
 <h2 id="improvements-all-around">Improvements all around</h2>
 <p>As mentioned above, this version focused on polishing preexisting functionality. Noteworthy improvements include:</p>
 <ul>
@@ -394,7 +399,7 @@
               <a target="_blank" rel="noopener noreferrer" 
                  aria-label="Share QField 3.7 “Haida Gwaii”: Polishing a great experience on LinkedIn" 
                  title="Share on LinkedIn"
-                 href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-57%2Fblog%2F2025%2F08%2F04%2Fqfield-3.7-haida-gwaii-polishing-a-great-experience%2F&title=QField&#43;3.7&#43;%E2%80%9CHaida&#43;Gwaii%E2%80%9D%3A&#43;Polishing&#43;a&#43;great&#43;experience&summary=%3Cp%3EFor&#43;QField&#43;3.7%2C&#43;we&#43;opted&#43;for&#43;a&#43;shorter&#43;development&#43;cycle&#43;that&#43;focused&#43;on&#43;polishing&#43;preexisting&#43;functionalities&#43;from&#43;feature&#43;form&#43;editor&#43;widgets&#43;improvement&#43;through&#43;to&#43;better&#43;nearby&#43;Bluetooth&#43;device&#43;discovery.&#43;Of&#43;course%2C&#43;we&#43;couldn%E2%80%99t&#43;help&#43;ourselves&#43;and&#43;still&#43;packed&#43;in&#43;some&#43;nice&#43;functionality&#43;that&#43;we&#43;thought&#43;deserved&#43;to&#43;reach&#43;QField%E2%80%99s&#43;growing&#43;community&#43;as&#43;soon&#43;as&#43;possible.%3C%2Fp%3E%0A%3Ch2&#43;id%3D%22main-highlights%22%3EMain&#43;highlights%3C%2Fh2%3E%0A%3Cfigure&#43;class%3D%22figure&#43;text-center&#43;mb-4%22%3E%3Cimg&#43;src%3D%22%2Fpr-preview%2Fpr-57%2Fblog%2F2025%2F08%2F04%2Fqfield-3.7-haida-gwaii-polishing-a-great-experience%2Fsplash_hu_94c4a84048887871.webp%22&#43;srcset%3D%22%2Fpr-preview%2Fpr-57%2Fblog%2F2025%2F08%2F04%2Fqfield-3.7-haida-gwaii-polishing-a-great-experience%2Fsplash_hu_94c4a84048887871.webp&#43;1x%2C&#43;%2Fpr-preview%2Fpr-57%2Fblog%2F2025%2F08%2F04%2Fqfield-3.7-haida-gwaii-polishing-a-great-experience%2Fsplash_hu_1c9ac4978548e7ef.webp&#43;2x%22%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;alt%3D%22%22&#43;%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;class%3D%22figure-img&#43;img-fluid&#43;gallery-img%22&#43;width%3D%221200%22&#43;height%3D%22736%22%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;loading%3D%22lazy%22%3E%3C%2Ffigure%3E%0A%3Cp%3EOne&#43;of&#43;the&#43;most&#43;interesting&#43;new&#43;functionalities&#43;from&#43;this&#43;development&#43;cycle&#43;has&#43;been&#43;the&#43;ability&#43;to&#43;stamp&#43;details&#43;on&#43;photos&#43;taken&#43;by&#43;QField%E2%80%99s&#43;in-app&#43;camera.&#43;A&#43;basic&#43;version&#43;of&#43;this&#43;has&#43;been&#43;supported&#43;for&#43;a&#43;while&#43;now%3B%C2%A0this&#43;new&#43;version&#43;offers&#43;flexible&#43;customisation&#43;of&#43;details&#43;stamping&#43;onto&#43;photos%2C%C2%A0including&#43;changing&#43;the&#43;font&#43;size%2C&#43;colour%2C&#43;and&#43;horizontal&#43;position%2C&#43;as&#43;well&#43;as&#43;providing&#43;users&#43;with&#43;the&#43;ability&#43;to&#43;completely&#43;change&#43;the&#43;details&#43;via&#43;expression-driven&#43;templates&#43;and&#43;add&#43;image&#43;overlays&#43;onto&#43;the&#43;photo.%3C%2Fp%3E&source=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-57%2Fblog%2F2025%2F08%2F04%2Fqfield-3.7-haida-gwaii-polishing-a-great-experience%2F">
+                 href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-57%2Fblog%2F2025%2F08%2F04%2Fqfield-3.7-haida-gwaii-polishing-a-great-experience%2F&title=QField&#43;3.7&#43;%E2%80%9CHaida&#43;Gwaii%E2%80%9D%3A&#43;Polishing&#43;a&#43;great&#43;experience&summary=%3Cp%3EFor&#43;QField&#43;3.7%2C&#43;we&#43;opted&#43;for&#43;a&#43;shorter&#43;development&#43;cycle&#43;that&#43;focused&#43;on&#43;polishing&#43;preexisting&#43;functionalities&#43;from&#43;feature&#43;form&#43;editor&#43;widgets&#43;improvement&#43;through&#43;to&#43;better&#43;nearby&#43;Bluetooth&#43;device&#43;discovery.&#43;Of&#43;course%2C&#43;we&#43;couldn%E2%80%99t&#43;help&#43;ourselves&#43;and&#43;still&#43;packed&#43;in&#43;some&#43;nice&#43;functionality&#43;that&#43;we&#43;thought&#43;deserved&#43;to&#43;reach&#43;QField%E2%80%99s&#43;growing&#43;community&#43;as&#43;soon&#43;as&#43;possible.%3C%2Fp%3E%0A%3Ch2&#43;id%3D%22main-highlights%22%3EMain&#43;highlights%3C%2Fh2%3E%0A%3Cfigure&#43;class%3D%22figure&#43;text-center&#43;mb-4%22%3E%3Cimg&#43;src%3D%22%2Fpr-preview%2Fpr-57%2Fblog%2F2025%2F08%2F04%2Fqfield-3.7-haida-gwaii-polishing-a-great-experience%2Fsplash_hu_94c4a84048887871.webp%22&#43;srcset%3D%22%2Fpr-preview%2Fpr-57%2Fblog%2F2025%2F08%2F04%2Fqfield-3.7-haida-gwaii-polishing-a-great-experience%2Fsplash_hu_94c4a84048887871.webp&#43;1x%2C&#43;%2Fpr-preview%2Fpr-57%2Fblog%2F2025%2F08%2F04%2Fqfield-3.7-haida-gwaii-polishing-a-great-experience%2Fsplash_hu_1c9ac4978548e7ef.webp&#43;2x%22%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;alt%3D%22%22&#43;%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;class%3D%22figure-img&#43;img-fluid&#43;gallery-img%22&#43;width%3D%221200%22&#43;height%3D%22736%22%0A&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;&#43;loading%3D%22lazy%22%3E%3C%2Ffigure%3E%0A%0A%3Cp%3EOne&#43;of&#43;the&#43;most&#43;interesting&#43;new&#43;functionalities&#43;from&#43;this&#43;development&#43;cycle&#43;has&#43;been&#43;the&#43;ability&#43;to&#43;stamp&#43;details&#43;on&#43;photos&#43;taken&#43;by&#43;QField%E2%80%99s&#43;in-app&#43;camera.&#43;A&#43;basic&#43;version&#43;of&#43;this&#43;has&#43;been&#43;supported&#43;for&#43;a&#43;while&#43;now%3B%C2%A0this&#43;new&#43;version&#43;offers&#43;flexible&#43;customisation&#43;of&#43;details&#43;stamping&#43;onto&#43;photos%2C%C2%A0including&#43;changing&#43;the&#43;font&#43;size%2C&#43;colour%2C&#43;and&#43;horizontal&#43;position%2C&#43;as&#43;well&#43;as&#43;providing&#43;users&#43;with&#43;the&#43;ability&#43;to&#43;completely&#43;change&#43;the&#43;details&#43;via&#43;expression-driven&#43;templates&#43;and&#43;add&#43;image&#43;overlays&#43;onto&#43;the&#43;photo.%3C%2Fp%3E&source=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-57%2Fblog%2F2025%2F08%2F04%2Fqfield-3.7-haida-gwaii-polishing-a-great-experience%2F">
                 <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
                   <path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z"/>
                 </svg>
@@ -498,7 +503,7 @@
 
         
         <div class="text-center">
-          <a href="/blog/" class="btn btn-outline-primary">
+          <a href="/pr-preview/pr-57/blog/" class="btn btn-outline-primary">
             <i class="fas fa-arrow-left me-2"></i>Back to All Posts
           </a>
         </div>
@@ -587,38 +592,44 @@ As the name …</p></p>
     <div class="container footer-subscribe-banner__inner">
       <div class="footer-subscribe-banner__text">
         <h2>Stay in the loop</h2>
-        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a> and stay up to date on the latest and greatest!</p>
+        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a>
+ and stay up to date on the latest and greatest!</p>
       </div>
     </div>
   </div>
   
 
-  
+
   <section id="about" class="py-5">
     <div class="container">
       <div class="row gy-4">
         
-        <div class="col-12">
-          <h3>About QField</h3>
+        <div class="col-12"><h3>About QField</h3>
           <p>QField is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management.
-As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>, promoting a more sustainable and equitable future.</p>
+As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/pr-preview/pr-57/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>
+, promoting a more sustainable and equitable future.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Open-source</h3>
-          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a> under the GNU Public License (GPL) version 2 or later.
+        <div class="col-12"><h3>Open-source</h3>
+          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a>
+ under the GNU Public License (GPL) version 2 or later.
 Developing QField under this license means that you can inspect and modify the source code and guarantees that you will always have access to a QGIS based field data collection app that is free of cost and can be freely modified.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Legal</h3>
-          <p>View the QField <a href="/privacy_policy">Privacy Policy</a> to learn what information we collect and how we protect it, and the <a href="/guidelines">Trademark and Brand Guidelines</a> for permitted uses of the QField name and logo.</p>
+        <div class="col-12"><h3>Legal</h3>
+          <p>View the QField <a href="/pr-preview/pr-57/privacy_policy">Privacy Policy</a>
+ to learn what information we collect and how we protect it, and the <a href="/pr-preview/pr-57/guidelines">Trademark and Brand Guidelines</a>
+ for permitted uses of the QField name and logo.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Credits</h3>
-          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>.
-OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a> and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a> for open-source software including QField, QGIS and PostGIS.</p>
+        <div class="col-12"><h3>Credits</h3>
+          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>
+.
+OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>
+, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>
+, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a>
+ and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a>
+ for open-source software including QField, QGIS and PostGIS.</p>
         </div>
         
 

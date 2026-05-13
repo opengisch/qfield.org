@@ -110,7 +110,7 @@
     
     "name": "QField - Efficient field work built for QGIS"
   },
-  "wordCount" :  984 ,
+  "wordCount" :  986 ,
   "description": "This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the …",
   "keywords": []
 }
@@ -143,7 +143,7 @@
 }
 </script>
 
-    <link rel="icon" type="image/svg+xml" href="/images/qfield-logo.svg">
+    <link rel="icon" type="image/svg+xml" href="/pr-preview/pr-57/images/qfield-logo.svg">
 
 
 </head>
@@ -153,12 +153,12 @@
 
       <a class="navbar-brand fw-bold" href="/pr-preview/pr-57/">
         
-        <img src="/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
+        <img src="/pr-preview/pr-57/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--light" loading="eager" decoding="async">
         
 
         
-        <img src="/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
+        <img src="/pr-preview/pr-57/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
           class="navbar-brand__logo navbar-brand__logo--dark" loading="eager" decoding="async">
         
 
@@ -286,7 +286,8 @@
         </div>
     </div>
   </nav>
-</header><div id="content">
+</header>
+<div id="content">
 
 
 <section class="py-2">
@@ -294,7 +295,7 @@
     
     
     <div class="my-4">
-      <a href="/blog/" class="btn btn-outline-secondary btn-sm">
+      <a href="/pr-preview/pr-57/blog/" class="btn btn-outline-secondary btn-sm">
         <i class="fas fa-arrow-left me-2"></i>Back to Blog
       </a>
     </div>
@@ -332,11 +333,14 @@
   <div class="container">
     <div class="row justify-content-center">
         <div class="content blog-content">
-          <p>This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section <a href="#feature-filter-algorithm">the feature filter algorithm</a>.</p>
+          <p>This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section <a href="#feature-filter-algorithm">the feature filter algorithm</a>
+.</p>
 <h2 id="building-workflows-for-repetitive-tasks">Building workflows for repetitive tasks</h2>
 <p>When building workflows for simple or complex geodata infrastructures, one of the most common tasks one encounters is to extract some of the features and copy them to another destination. Sometimes they need to be modified and a few attributes calculated or deleted, maybe even the geometry needs to be adjusted or in some fancy situations one even wants to generate a couple of objects from one input object. This process is often called <em>ETL</em> (Extract, Transform, Load) and it is something that is worth mastering as a GIS expert.
-Let&rsquo;s imagine a situation where we sent a field worker out to collect information about public infrastructure, equipped with a brand-new tablet and the latest and greatest version of <a href="https://www.qfield.org/" target="_blank" rel="noopener">QField</a>. To make his task super easy, we prepare one single layer for him with an attribute type which can be set to Bus Station, Car Parking or Train Station. Now back in the office we want to integrate this back into our spatially enabled database which has been designed with 3 target tables.</p>
-<p><a href="Untitled-Diagram.png"><img src="/pr-preview/pr-57/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Untitled-Diagram.png" alt=""></a>
+Let&rsquo;s imagine a situation where we sent a field worker out to collect information about public infrastructure, equipped with a brand-new tablet and the latest and greatest version of <a href="https://www.qfield.org/" target="_blank" rel="noopener">QField</a>
+. To make his task super easy, we prepare one single layer for him with an attribute type which can be set to Bus Station, Car Parking or Train Station. Now back in the office we want to integrate this back into our spatially enabled database which has been designed with 3 target tables.</p>
+<p><a href="/pr-preview/pr-57/Untitled-Diagram.png"><img src="/pr-preview/pr-57/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Untitled-Diagram.png" alt=""></a>
+
 Easy enough to go to QGIS and select those features by type one after the other and use a bit of copy-paste. And maybe fiddling a bit with the attributes. But hey, after all we are a bit lazy and on the one hand like to have an ice cream later on that afternoon and on the other hand like to avoid errors. Those who are lucky enough to know SQL and have full access to the database are well enough equipped to do the job.</p>
 <h2 id="short-introduction-to-the-graphical-modeler">Short introduction to the graphical modeler</h2>
 <p>For those who just want to quickly do this job visually within QGIS, there is a tool called modeler in the processing plugin. With the help of this tool it is straightforward for everyone to automate processes. To get started with the modeler, simply enable the processing plugin and click on <em>Processing</em> &gt; <em>Graphical Modeler.</em>
@@ -346,10 +350,12 @@ With this in place, the job of doing the buffer can now be run on 200 input laye
 <h2 id="the-feature-filter-algorithm">The feature filter algorithm</h2>
 <p>Now back to the job of splitting the infrastructure layer into 3 different layers. To do this job visually and easily within QGIS, there is now a new algorithm available in QGIS 3.2. It is called <strong>Feature Filter</strong> and available in the processing modeler.
 To make use of it, we open the processing modeler and first add a new <strong>Vector Features</strong> input and name it <strong>Infrastructure</strong>. Since we know in this project we will always deal with points, we can make already specify that in this first dialog.</p>
-<p><a href="Screenshot-from-2018-05-24-15-25-15.png"><img src="/pr-preview/pr-57/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Screenshot-from-2018-05-24-15-25-15.png" alt=""></a>
+<p><a href="/pr-preview/pr-57/Screenshot-from-2018-05-24-15-25-15.png"><img src="/pr-preview/pr-57/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Screenshot-from-2018-05-24-15-25-15.png" alt=""></a>
+
 Let&rsquo;s now add a <strong>Feature Filter</strong> algorithm and use the following configuration:
 The <strong>Infrastructure</strong> layer is set as input, and we define three outputs for <strong>Train Stations</strong>, <strong>Bus Stations</strong> and <strong>Car Parking</strong>. All layers will be final outputs on which no further transformations will be applied within this model and they will be directly written to a new layer.</p>
-<p><a href="Screenshot-from-2018-05-24-15-30-18.png"><img src="/pr-preview/pr-57/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Screenshot-from-2018-05-24-15-30-18.png" alt=""></a>
+<p><a href="/pr-preview/pr-57/Screenshot-from-2018-05-24-15-30-18.png"><img src="/pr-preview/pr-57/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Screenshot-from-2018-05-24-15-30-18.png" alt=""></a>
+
 Now it&rsquo;s time to run our new model and check that it does what it promised.
 We can also uncheck the final output checkbox and send filtered features to further processing algorithms. For example sending them through a buffer based on an attribute size (although as a QGIS professional you know you should rather be using styles than modifying the geometry in most situations in such cases).</p>
 <h2 id="conclusion">Conclusion</h2>
@@ -357,13 +363,16 @@ We can also uncheck the final output checkbox and send filtered features to furt
 Of course you can get more creative in the filter criteria.
 Apart from the obvious ones to do geometry modifications, there are two particularly interesting ones if you liked this one</p>
 <ul>
-<li>The <a href="https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectortable.html#refactor-fields" target="_blank" rel="noopener"><strong>Refactor Fields</strong></a> algorithm allows calculating new fields or rename fields based on expressions</li>
-<li>The <a href="https://plugins.qgis.org/plugins/AppendFeaturesToLayer/" target="_blank" rel="noopener"><strong>Append</strong></a> plugin allows adding those features to an existing vector layer such as a database table</li>
+<li>The <a href="https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectortable.html#refactor-fields" target="_blank" rel="noopener"><strong>Refactor Fields</strong></a>
+ algorithm allows calculating new fields or rename fields based on expressions</li>
+<li>The <a href="https://plugins.qgis.org/plugins/AppendFeaturesToLayer/" target="_blank" rel="noopener"><strong>Append</strong></a>
+ plugin allows adding those features to an existing vector layer such as a database table</li>
 </ul>
 <p>The data from this walkthrough is available for download as [download id=&ldquo;3917&rdquo;].
 If you would like to test this new feature but do not yet have a concrete use-case in mind, here is a task for you: get an openstreetmap extract, import it using ogr2ogr and split the lines into different layers roads, rivers and railways, the polygons into lakes, forests and cities, the points according to your own liking.
 If there is big enough interest for this, we might write another blog post on this topic.</p>
-<p>We would like to thank the <a href="https://www.qgis.ch" target="_blank" rel="noopener">QGIS user group Switzerland</a> for making this project possible through funding.</p>
+<p>We would like to thank the <a href="https://www.qgis.ch" target="_blank" rel="noopener">QGIS user group Switzerland</a>
+ for making this project possible through funding.</p>
 
         </div>
     </div>
@@ -396,7 +405,7 @@ If there is big enough interest for this, we might write another blog post on th
               <a target="_blank" rel="noopener noreferrer" 
                  aria-label="Share How to filter features in QGIS using the graphical processing modeler on LinkedIn" 
                  title="Share on LinkedIn"
-                 href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-57%2Fblog%2F2018%2F05%2F28%2Fhow-to-filter-features-in-qgis-using-the-graphical-processing-modeler%2F&title=How&#43;to&#43;filter&#43;features&#43;in&#43;QGIS&#43;using&#43;the&#43;graphical&#43;processing&#43;modeler&summary=%3Cp%3EThis&#43;article&#43;describes&#43;a&#43;new&#43;algorithm&#43;for&#43;the&#43;processing&#43;modeler&#43;called&#43;feature&#43;filter&#43;algorithm.&#43;If&#43;you&#43;are&#43;already&#43;familiar&#43;with&#43;ETL&#43;concepts&#43;and&#43;the&#43;graphical&#43;modeler%2C&#43;you&#43;can&#43;directly&#43;jump&#43;to&#43;the&#43;section&#43;%3Ca&#43;href%3D%22%23feature-filter-algorithm%22%3Ethe&#43;feature&#43;filter&#43;algorithm%3C%2Fa%3E.%3C%2Fp%3E%0A%3Ch2&#43;id%3D%22building-workflows-for-repetitive-tasks%22%3EBuilding&#43;workflows&#43;for&#43;repetitive&#43;tasks%3C%2Fh2%3E%0A%3Cp%3EWhen&#43;building&#43;workflows&#43;for&#43;simple&#43;or&#43;complex&#43;geodata&#43;infrastructures%2C&#43;one&#43;of&#43;the&#43;most&#43;common&#43;tasks&#43;one&#43;encounters&#43;is&#43;to&#43;extract&#43;some&#43;of&#43;the&#43;features&#43;and&#43;copy&#43;them&#43;to&#43;another&#43;destination.&#43;Sometimes&#43;they&#43;need&#43;to&#43;be&#43;modified&#43;and&#43;a&#43;few&#43;attributes&#43;calculated&#43;or&#43;deleted%2C&#43;maybe&#43;even&#43;the&#43;geometry&#43;needs&#43;to&#43;be&#43;adjusted&#43;or&#43;in&#43;some&#43;fancy&#43;situations&#43;one&#43;even&#43;wants&#43;to&#43;generate&#43;a&#43;couple&#43;of&#43;objects&#43;from&#43;one&#43;input&#43;object.&#43;This&#43;process&#43;is&#43;often&#43;called&#43;%3Cem%3EETL%3C%2Fem%3E&#43;%28Extract%2C&#43;Transform%2C&#43;Load%29&#43;and&#43;it&#43;is&#43;something&#43;that&#43;is&#43;worth&#43;mastering&#43;as&#43;a&#43;GIS&#43;expert.%0ALet%26rsquo%3Bs&#43;imagine&#43;a&#43;situation&#43;where&#43;we&#43;sent&#43;a&#43;field&#43;worker&#43;out&#43;to&#43;collect&#43;information&#43;about&#43;public&#43;infrastructure%2C&#43;equipped&#43;with&#43;a&#43;brand-new&#43;tablet&#43;and&#43;the&#43;latest&#43;and&#43;greatest&#43;version&#43;of&#43;%3Ca&#43;href%3D%22https%3A%2F%2Fwww.qfield.org%2F%22&#43;target%3D%22_blank%22&#43;rel%3D%22noopener%22%3EQField%3C%2Fa%3E.&#43;To&#43;make&#43;his&#43;task&#43;super&#43;easy%2C&#43;we&#43;prepare&#43;one&#43;single&#43;layer&#43;for&#43;him&#43;with&#43;an&#43;attribute&#43;type&#43;which&#43;can&#43;be&#43;set&#43;to&#43;Bus&#43;Station%2C&#43;Car&#43;Parking&#43;or&#43;Train&#43;Station.&#43;Now&#43;back&#43;in&#43;the&#43;office&#43;we&#43;want&#43;to&#43;integrate&#43;this&#43;back&#43;into&#43;our&#43;spatially&#43;enabled&#43;database&#43;which&#43;has&#43;been&#43;designed&#43;with&#43;3&#43;target&#43;tables.%3C%2Fp%3E&source=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-57%2Fblog%2F2018%2F05%2F28%2Fhow-to-filter-features-in-qgis-using-the-graphical-processing-modeler%2F">
+                 href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-57%2Fblog%2F2018%2F05%2F28%2Fhow-to-filter-features-in-qgis-using-the-graphical-processing-modeler%2F&title=How&#43;to&#43;filter&#43;features&#43;in&#43;QGIS&#43;using&#43;the&#43;graphical&#43;processing&#43;modeler&summary=%3Cp%3EThis&#43;article&#43;describes&#43;a&#43;new&#43;algorithm&#43;for&#43;the&#43;processing&#43;modeler&#43;called&#43;feature&#43;filter&#43;algorithm.&#43;If&#43;you&#43;are&#43;already&#43;familiar&#43;with&#43;ETL&#43;concepts&#43;and&#43;the&#43;graphical&#43;modeler%2C&#43;you&#43;can&#43;directly&#43;jump&#43;to&#43;the&#43;section&#43;%3Ca&#43;href%3D%22%23feature-filter-algorithm%22%3Ethe&#43;feature&#43;filter&#43;algorithm%3C%2Fa%3E%0A.%3C%2Fp%3E%0A%3Ch2&#43;id%3D%22building-workflows-for-repetitive-tasks%22%3EBuilding&#43;workflows&#43;for&#43;repetitive&#43;tasks%3C%2Fh2%3E%0A%3Cp%3EWhen&#43;building&#43;workflows&#43;for&#43;simple&#43;or&#43;complex&#43;geodata&#43;infrastructures%2C&#43;one&#43;of&#43;the&#43;most&#43;common&#43;tasks&#43;one&#43;encounters&#43;is&#43;to&#43;extract&#43;some&#43;of&#43;the&#43;features&#43;and&#43;copy&#43;them&#43;to&#43;another&#43;destination.&#43;Sometimes&#43;they&#43;need&#43;to&#43;be&#43;modified&#43;and&#43;a&#43;few&#43;attributes&#43;calculated&#43;or&#43;deleted%2C&#43;maybe&#43;even&#43;the&#43;geometry&#43;needs&#43;to&#43;be&#43;adjusted&#43;or&#43;in&#43;some&#43;fancy&#43;situations&#43;one&#43;even&#43;wants&#43;to&#43;generate&#43;a&#43;couple&#43;of&#43;objects&#43;from&#43;one&#43;input&#43;object.&#43;This&#43;process&#43;is&#43;often&#43;called&#43;%3Cem%3EETL%3C%2Fem%3E&#43;%28Extract%2C&#43;Transform%2C&#43;Load%29&#43;and&#43;it&#43;is&#43;something&#43;that&#43;is&#43;worth&#43;mastering&#43;as&#43;a&#43;GIS&#43;expert.%0ALet%26rsquo%3Bs&#43;imagine&#43;a&#43;situation&#43;where&#43;we&#43;sent&#43;a&#43;field&#43;worker&#43;out&#43;to&#43;collect&#43;information&#43;about&#43;public&#43;infrastructure%2C&#43;equipped&#43;with&#43;a&#43;brand-new&#43;tablet&#43;and&#43;the&#43;latest&#43;and&#43;greatest&#43;version&#43;of&#43;%3Ca&#43;href%3D%22https%3A%2F%2Fwww.qfield.org%2F%22&#43;target%3D%22_blank%22&#43;rel%3D%22noopener%22%3EQField%3C%2Fa%3E%0A.&#43;To&#43;make&#43;his&#43;task&#43;super&#43;easy%2C&#43;we&#43;prepare&#43;one&#43;single&#43;layer&#43;for&#43;him&#43;with&#43;an&#43;attribute&#43;type&#43;which&#43;can&#43;be&#43;set&#43;to&#43;Bus&#43;Station%2C&#43;Car&#43;Parking&#43;or&#43;Train&#43;Station.&#43;Now&#43;back&#43;in&#43;the&#43;office&#43;we&#43;want&#43;to&#43;integrate&#43;this&#43;back&#43;into&#43;our&#43;spatially&#43;enabled&#43;database&#43;which&#43;has&#43;been&#43;designed&#43;with&#43;3&#43;target&#43;tables.%3C%2Fp%3E&source=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-57%2Fblog%2F2018%2F05%2F28%2Fhow-to-filter-features-in-qgis-using-the-graphical-processing-modeler%2F">
                 <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
                   <path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z"/>
                 </svg>
@@ -500,7 +509,7 @@ If there is big enough interest for this, we might write another blog post on th
 
         
         <div class="text-center">
-          <a href="/blog/" class="btn btn-outline-primary">
+          <a href="/pr-preview/pr-57/blog/" class="btn btn-outline-primary">
             <i class="fas fa-arrow-left me-2"></i>Back to All Posts
           </a>
         </div>
@@ -587,38 +596,44 @@ If there is big enough interest for this, we might write another blog post on th
     <div class="container footer-subscribe-banner__inner">
       <div class="footer-subscribe-banner__text">
         <h2>Stay in the loop</h2>
-        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a> and stay up to date on the latest and greatest!</p>
+        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a>
+ and stay up to date on the latest and greatest!</p>
       </div>
     </div>
   </div>
   
 
-  
+
   <section id="about" class="py-5">
     <div class="container">
       <div class="row gy-4">
         
-        <div class="col-12">
-          <h3>About QField</h3>
+        <div class="col-12"><h3>About QField</h3>
           <p>QField is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management.
-As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>, promoting a more sustainable and equitable future.</p>
+As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/pr-preview/pr-57/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>
+, promoting a more sustainable and equitable future.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Open-source</h3>
-          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a> under the GNU Public License (GPL) version 2 or later.
+        <div class="col-12"><h3>Open-source</h3>
+          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a>
+ under the GNU Public License (GPL) version 2 or later.
 Developing QField under this license means that you can inspect and modify the source code and guarantees that you will always have access to a QGIS based field data collection app that is free of cost and can be freely modified.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Legal</h3>
-          <p>View the QField <a href="/privacy_policy">Privacy Policy</a> to learn what information we collect and how we protect it, and the <a href="/guidelines">Trademark and Brand Guidelines</a> for permitted uses of the QField name and logo.</p>
+        <div class="col-12"><h3>Legal</h3>
+          <p>View the QField <a href="/pr-preview/pr-57/privacy_policy">Privacy Policy</a>
+ to learn what information we collect and how we protect it, and the <a href="/pr-preview/pr-57/guidelines">Trademark and Brand Guidelines</a>
+ for permitted uses of the QField name and logo.</p>
         </div>
         
-        <div class="col-12">
-          <h3>Credits</h3>
-          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>.
-OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a> and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a> for open-source software including QField, QGIS and PostGIS.</p>
+        <div class="col-12"><h3>Credits</h3>
+          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>
+.
+OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>
+, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>
+, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a>
+ and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a>
+ for open-source software including QField, QGIS and PostGIS.</p>
         </div>
         
 

@@ -22,20 +22,24 @@
       <media:content url="https://qfield.org/pr-preview/pr-57/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/on-demand-attachment.png" medium="image" />
       <description>QFieldCloud storage handling keeps improving, with shared datasets, on-demand attachment downloads, and resumable project downloads reducing sync time and bandwidth.</description>
       <content:encoded><![CDATA[<p>Our ninjas have been hard at work improving QFieldCloud!</p>
-<p>In recent versions, a series of functionality improvements have had a significant impact on the way <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a> handles storage, and we want to tell the world!</p>
+<p>In recent versions, a series of functionality improvements have had a significant impact on the way <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
+ handles storage, and we want to tell the world!</p>
 <p>Without further due&hellip;</p>
 <h2 id="shared-datasets">Shared datasets</h2>
 <p>Starting with version 3.6, QField supports shared datasets. Known in QGIS as &ldquo;localized data paths&rdquo;, this allows users to upload a single instance of a given dataset to QFieldCloud and have it embedded within multiple cloud projects.</p>
 <p>For large datasets such as satellite imagery or topo basemaps, the benefits include:</p>
 <ul>
 <li>Reduce the time QField users spend downloading large datasets. Once it&rsquo;s fetched for one cloud project, it&rsquo;ll remain available for other projects too.</li>
-<li>Reduce storage usage on <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a> as the large datasets will only be stored on the server once.</li>
+<li>Reduce storage usage on <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
+ as the large datasets will only be stored on the server once.</li>
 </ul>
 <p>In other words, whether you are on a free community plan or a paid subscription, you will get more value out of your QFieldCloud storage!</p>
 <p>While the main gains are around storage, shared datasets also ease management of projects as read-only datasets such as administrative boundaries can be updated in a single location and have it reflected within all the projects using these datasets.</p>
-<p>QField&rsquo;s growing documentation site covers this functionality in depth, follow the link to <a href="https://docs.qfield.org/how-to/outside-layers/" target="_blank" rel="noopener">learn how to configure your projects with shared datasets</a>.</p>
+<p>QField&rsquo;s growing documentation site covers this functionality in depth, follow the link to <a href="https://docs.qfield.org/how-to/outside-layers/" target="_blank" rel="noopener">learn how to configure your projects with shared datasets</a>
+.</p>
 <h2 id="on-demand-attachment-download">On-demand attachment download</h2>
-<p>A new project setting has made its way into <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud&rsquo;s web interface</a>: on demand attachment file download. When turned on, QField will defer the download of image, video, audio and other file types until users open a feature form containing such an attachment.</p>
+<p>A new project setting has made its way into <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud&rsquo;s web interface</a>
+: on demand attachment file download. When turned on, QField will defer the download of image, video, audio and other file types until users open a feature form containing such an attachment.</p>
 <p>This option can greatly reduce the time spent downloading and synchronizing projects when a large number of attachments is present.</p>
 <p><img src="/pr-preview/pr-57/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/on-demand-attachment.png" alt=""></p>
 <p>For work in remote areas with poor connectivity, this option should not be used when users require access to attachments while offline.</p>
