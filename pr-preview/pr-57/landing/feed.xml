@@ -46,7 +46,7 @@
     </item>
     
     <item>
-      <title>Stay in the loop with QField - 13.05.2026 - 11:23</title>
+      <title>Stay in the loop with QField - 13.05.2026 - 11:57</title>
       <link>https://qfield.org/pr-preview/pr-57/landing/newsletter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -155,7 +155,7 @@
                 <div class="form__label-row form__label-row--horizontal">
                   <div class="entry__choice">
                     <label>
-                      <input type="checkbox" class="input_replaced" value="1" id="VERIFIED" name="VERIFIED">
+                      <input type="checkbox" class="input_replaced" value="1" id="VERIFIED" name="VERIFIED" data-required="true" required>
                       <span class="checkbox checkbox_tick_positive"></span>
                       <span style="font-size:14px;text-align:left;font-family:Helvetica,sans-serif;color:#3C4858;background-color:transparent;">I agree to receive your newsletters and accept the data privacy statement.</span>
                     </label>
@@ -165,6 +165,10 @@
                 <label class="entry__specification" style="font-size:12px;text-align:left;font-family:Helvetica,sans-serif;color:#8390A4;text-align:left">You may unsubscribe at any time using the link in our newsletter.</label>
               </div>
             </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAABhnveewR0onanou" data-callback="qfieldNewsletterTurnstileCallback" data-expired-callback="qfieldNewsletterTurnstileExpiredCallback" data-error-callback="qfieldNewsletterTurnstileExpiredCallback" data-language="en"></div>
           </div>
 
           <div style="padding:8px 0;">
@@ -217,19 +221,117 @@
     }
   };
   var AUTOHIDE = Boolean(0);
+  var qfieldNewsletterTurnstileToken = '';
+
+  function qfieldNewsletterSetCaptchaToken(token) {
+    qfieldNewsletterTurnstileToken = token || '';
+    var form = document.getElementById('sib-form');
+    if (!form) {
+      return;
+    }
+
+    var input = form.querySelector('input[name="cf-turnstile-response"]');
+    if (!input) {
+      input = document.createElement('input');
+      input.type = 'hidden';
+      input.name = 'cf-turnstile-response';
+      form.appendChild(input);
+    }
+    input.value = qfieldNewsletterTurnstileToken;
+  }
+
+  window.qfieldNewsletterTurnstileCallback = function (token) {
+    qfieldNewsletterSetCaptchaToken(token);
+  };
+
+  window.qfieldNewsletterTurnstileExpiredCallback = function () {
+    qfieldNewsletterSetCaptchaToken('');
+  };
 
   document.addEventListener('DOMContentLoaded', function () {
+    var form = document.getElementById('sib-form');
     var countryCode = document.getElementById('COUNTRY_CODE');
-    if (!countryCode) {
+    var successMessage = document.getElementById('success-message');
+    var errorMessage = document.getElementById('error-message');
+    var submitButton = form ? form.querySelector('button[type="submit"]') : null;
+
+    function showPanel(panel, message) {
+      if (!panel) {
+        return;
+      }
+      var text = panel.querySelector('.sib-form-message-panel__inner-text');
+      if (text && message) {
+        text.innerText = message;
+      }
+      panel.style.display = 'block';
+      panel.classList.add('sib-form-message-panel--active');
+    }
+
+    function hidePanel(panel) {
+      if (!panel) {
+        return;
+      }
+      panel.style.display = 'none';
+      panel.classList.remove('sib-form-message-panel--active');
+    }
+
+    if (!form || !countryCode || !submitButton) {
       return;
     }
 
     countryCode.addEventListener('input', function () {
       countryCode.value = countryCode.value.toUpperCase();
     });
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      hidePanel(successMessage);
+      hidePanel(errorMessage);
+
+      if (!form.reportValidity()) {
+        return;
+      }
+
+      var captchaToken = qfieldNewsletterTurnstileToken || (form.querySelector('input[name="cf-turnstile-response"]') || {}).value;
+      if (!captchaToken) {
+        showPanel(errorMessage, 'Please complete the captcha and try again.');
+        return;
+      }
+
+      submitButton.disabled = true;
+      submitButton.classList.add('sib-form-block__button-disabled');
+
+      fetch(form.action + '?isAjax=1', {
+        method: 'POST',
+        body: new FormData(form),
+        credentials: 'include'
+      }).then(function (response) {
+        return response.json().then(function (data) {
+          return { ok: response.ok, data: data };
+        });
+      }).then(function (result) {
+        if (result.ok && result.data.success) {
+          showPanel(successMessage, result.data.message || 'Your subscription has been successful.');
+          form.reset();
+          qfieldNewsletterSetCaptchaToken('');
+          if (window.turnstile) {
+            window.turnstile.reset();
+          }
+          return;
+        }
+
+        var errors = result.data && result.data.errors ? Object.values(result.data.errors).join(' ') : '';
+        showPanel(errorMessage, errors || (result.data && result.data.message) || 'Your subscription could not be saved. Please try again.');
+      }).catch(function () {
+        showPanel(errorMessage, 'Your subscription could not be saved. Please try again.');
+      }).finally(function () {
+        submitButton.disabled = false;
+        submitButton.classList.remove('sib-form-block__button-disabled');
+      });
+    });
   });
 </script>
-<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+<script async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
 
 <hr>
 <p>We respect your privacy. You can unsubscribe at any time.</p>
