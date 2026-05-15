@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Video on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-66/categories/video/</link>
+    <description>Recent content in Video on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <lastBuildDate>Tue, 16 Aug 2022 04:58:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-66/categories/video/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A New Trick up QField’s Sleeve: Animated Maps</title>
+      <link>https://qfield.org/pr-preview/pr-66/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</link>
+      <pubDate>Tue, 16 Aug 2022 04:58:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-66/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</guid>
+      <media:content url="https://qfield.org/pr-preview/pr-66/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43.gif" medium="image" />
+      <description>&lt;p&gt;&lt;strong&gt;Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The example below demonstrates a scenario where animated raster markers are used to highlight active fires within the visible map extent. Notice how the subtle fire animation helps draw viewers’ eyes to those important markers.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.</strong></p>
+<p>The example below demonstrates a scenario where animated raster markers are used to highlight active fires within the visible map extent. Notice how the subtle fire animation helps draw viewers’ eyes to those important markers.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-66/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43.gif" srcset="/pr-preview/pr-66/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43.gif 1x, /pr-preview/pr-66/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43_hu_3f74ff6b04f989a3.gif 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="799" height="464"
+         loading="lazy"></figure>
+
+<p><a href="https://www.qgis.org/en/site/forusers/visualchangelog326/index.html#feature-new-animated-marker-symbol-type" target="_blank" rel="noopener"><em>Animated raster markers</em> is a new symbol layer type in QGIS 3.26</a>
+ that was developed by <a href="https://north-road.com/" target="_blank" rel="noopener">Nyall Dawson</a>
+. Supported image formats include GIF, WEBP, and APNG.</p>
+<p>The second example below showcases more advanced animated symbology which relies on expressions to animate several symbol properties such as marker size, border width, and color opacity. While more complex than simply adding a GIF marker, the results achieved with data-defined properties animation can be very appealing and integrate perfectly with any type of project.</p>
+<p><a href="https://player.vimeo.com/video/732691644" target="_blank" rel="noopener">https://player.vimeo.com/video/732691644</a>
+</p>
+<p>You’ll quickly notice how smooth the animation runs. That is thanks to OPENGIS.ch’s own ninjas having spent time improving the map canvas element’s handling of layers constantly refreshing. This includes automatic skipping of frames on older devices so the app remains responsive.</p>
+<p>Oh, we couldn’t help ourselves but take the opportunity to demonstrate how nice the QField feature form layout is these days in the video above ? To know more about <a href="https://github.com/opengisch/QField/releases/tag/v2.2.0" target="_blank" rel="noopener">other new features in QField 2.2, go and read the release page</a>
+.</p>
+<p>Happy field mapping to all!</p>
+<p><em>The lovely animal markers used in the zoo example above were made by Serbian artist <a href="https://www.behance.net/gallery/38312723/Animals" target="_blank" rel="noopener">Arsenije Vujovic</a>
+.</em></p>
+]]></content:encoded>
+      <category domain="categories">qfield</category>
+      <category domain="categories">highlights</category>
+      <category domain="categories">qgis</category>
+      <category domain="categories">video</category>
+      <category domain="tags">qgis.org</category>
+    </item>
+    
+    <item>
+      <title>QGIS Mobile 0.2 Demo</title>
+      <link>https://qfield.org/pr-preview/pr-66/blog/2015/01/11/qgis-mobile-0.2-demo/</link>
+      <pubDate>Sun, 11 Jan 2015 19:41:08 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-66/blog/2015/01/11/qgis-mobile-0.2-demo/</guid>
+      
+      <description>&lt;p&gt;QField (formerly known as QGIS Mobile) is a touch optimized interface for field work developed by OPENGIS.ch. It is with great pleasure the we want to share with you the demo video of version 0.2.
+Since the project is going to be one of our core projects, we set up a dedicated &lt;a href=&#34;https://qfield.org/pr-preview/pr-66/android-gis/qgis-mobile/&#34; title=&#34;QGIS mobile&#34;&gt;page here&lt;/a&gt;
+.
+The &lt;a href=&#34;https://vimeo.com/116231850&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QGIS mobile 0.2&lt;/a&gt;
+ video demonstrates some basic functionality like navigation, feature identification and attribute editing.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>QField (formerly known as QGIS Mobile) is a touch optimized interface for field work developed by OPENGIS.ch. It is with great pleasure the we want to share with you the demo video of version 0.2.
+Since the project is going to be one of our core projects, we set up a dedicated <a href="/pr-preview/pr-66/android-gis/qgis-mobile/" title="QGIS mobile">page here</a>
+.
+The <a href="https://vimeo.com/116231850" target="_blank" rel="noopener">QGIS mobile 0.2</a>
+ video demonstrates some basic functionality like navigation, feature identification and attribute editing.</p>
+<p>The performance is affected by android&rsquo;s video recording software. In reality animaitons look fluent and the interface feels snappy.
+Demo performed on a Galaxy Note 8.0 with Android 4.4.4 (CM11).</p>
+]]></content:encoded>
+      <category domain="categories">android-qgis</category>
+      <category domain="categories">featured</category>
+      <category domain="categories">qfield</category>
+      <category domain="categories">video</category>
+      <category domain="tags">qgis.org</category>
+    </item>
+    
+  </channel>
+</rss>
