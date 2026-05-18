@@ -14,7 +14,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv='Content-Security-Policy' content="script-src &#39;self&#39; https://cdn.jsdelivr.net &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://sibforms.com https://*.sibforms.com https://assets.brevo.com https://static.brevo.com https://challenges.cloudflare.com https://www.googletagmanager.com https://www.google-analytics.com; style-src &#39;self&#39; &#39;unsafe-inline&#39; https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net https://sibforms.com https://*.sibforms.com https://assets.brevo.com; font-src &#39;self&#39; data: https://use.typekit.net https://p.typekit.net https://assets.brevo.com; img-src &#39;self&#39; data: https:; connect-src &#39;self&#39; https://sibforms.com https://*.sibforms.com https://*.brevo.com https://*.cloudflare.com https://challenges.cloudflare.com https://www.google-analytics.com https://region1.google-analytics.com; frame-src &#39;self&#39; https://sibforms.com https://*.sibforms.com https://challenges.cloudflare.com; worker-src &#39;self&#39; blob:; form-action &#39;self&#39; https://sibforms.com https://*.sibforms.com; object-src 'none'; base-uri 'none'">
+    <meta http-equiv='Content-Security-Policy' content="script-src &#39;self&#39; https://cdn.jsdelivr.net &#39;unsafe-eval&#39; &#39;sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h&#43;Ew05pMzdY6xG8=&#39; https://sibforms.com https://*.sibforms.com https://assets.brevo.com https://static.brevo.com https://challenges.cloudflare.com https://www.googletagmanager.com https://www.google-analytics.com; style-src &#39;self&#39; &#39;unsafe-inline&#39; https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net https://sibforms.com https://*.sibforms.com https://assets.brevo.com; font-src &#39;self&#39; data: https://use.typekit.net https://p.typekit.net https://assets.brevo.com; img-src &#39;self&#39; data: https:; connect-src &#39;self&#39; https://sibforms.com https://*.sibforms.com https://*.brevo.com https://*.cloudflare.com https://challenges.cloudflare.com https://www.google-analytics.com https://region1.google-analytics.com; frame-src &#39;self&#39; https://sibforms.com https://*.sibforms.com https://challenges.cloudflare.com; worker-src &#39;self&#39; blob:; form-action &#39;self&#39; https://sibforms.com https://*.sibforms.com; object-src 'none'; base-uri 'none'">
 <script src="/pr-preview/pr-57/js/theme-init.min.7afa657cd4d8aa104066ad85e1ccaca5450753acddb0ea4c04efac675a9b5b0b.js" integrity="sha256-evplfNTYqhBAZq2F4cyspUUHU6zdsOpMBO&#43;sZ1qbWws=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/pr-preview/pr-57/css/bootstrap.min.3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8.css" integrity="sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=" crossorigin="anonymous"><link rel="stylesheet" href="/pr-preview/pr-57/css/main.c0f8834aaeb205d8263123db42073b379c203f791d2fe9a9ba383808a1c59eb2.css" integrity="sha256-wPiDSq6yBdgmMSPbQgc7N5wgP3kdL&#43;mpujg4CKHFnrI=" crossorigin="anonymous"><link rel="stylesheet" href="/pr-preview/pr-57/css/styles.f9d7244339c9ead4315b602116324224ed07759496dcbb7296993e785f8af6bf.css" integrity="sha256-&#43;dckQznJ6tQxW2AhFjJCJO0HdZSW3Ltylpk&#43;eF&#43;K9r8=" crossorigin="anonymous">
 
@@ -398,7 +398,7 @@
           </div>
 
           <div style="padding:8px 0;">
-            <div class="cf-turnstile" data-sitekey="0x4AAAAAABhnveewR0onanou" data-callback="qfieldNewsletterTurnstileCallback" data-expired-callback="qfieldNewsletterTurnstileExpiredCallback" data-error-callback="qfieldNewsletterTurnstileExpiredCallback" data-language="en"></div>
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAABhnveewR0onanou" data-explicit-render data-language="en"></div>
           </div>
 
           <div style="padding:8px 0;">
@@ -426,142 +426,8 @@
       </div>
     </div>
   </div>
-</div>
-
-<script>
-  if (window.trustedTypes && !window.trustedTypes.defaultPolicy) {
-    window.trustedTypes.createPolicy('default', {
-      createHTML: function (input) { return input; },
-      createScript: function (input) { return input; },
-      createScriptURL: function (input) { return input; }
-    });
-  }
-
-  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
-  window.LOCALE = 'en';
-  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = 'The information provided is invalid. Please review the field format and try again.';
-  window.REQUIRED_ERROR_MESSAGE = 'This field cannot be left blank. ';
-  window.GENERIC_INVALID_MESSAGE = 'The information provided is invalid. Please review the field format and try again.';
-  window.translation = {
-    common: {
-      selectedList: '{quantity} list selected',
-      selectedLists: '{quantity} lists selected',
-      selectedOption: '{quantity} selected',
-      selectedOptions: '{quantity} selected',
-    }
-  };
-  var AUTOHIDE = Boolean(0);
-  var qfieldNewsletterTurnstileToken = '';
-
-  function qfieldNewsletterSetCaptchaToken(token) {
-    qfieldNewsletterTurnstileToken = token || '';
-    var form = document.getElementById('sib-form');
-    if (!form) {
-      return;
-    }
-
-    var input = form.querySelector('input[name="cf-turnstile-response"]');
-    if (!input) {
-      input = document.createElement('input');
-      input.type = 'hidden';
-      input.name = 'cf-turnstile-response';
-      form.appendChild(input);
-    }
-    input.value = qfieldNewsletterTurnstileToken;
-  }
-
-  window.qfieldNewsletterTurnstileCallback = function (token) {
-    qfieldNewsletterSetCaptchaToken(token);
-  };
-
-  window.qfieldNewsletterTurnstileExpiredCallback = function () {
-    qfieldNewsletterSetCaptchaToken('');
-  };
-
-  document.addEventListener('DOMContentLoaded', function () {
-    var form = document.getElementById('sib-form');
-    var countryCode = document.getElementById('COUNTRY_CODE');
-    var successMessage = document.getElementById('success-message');
-    var errorMessage = document.getElementById('error-message');
-    var submitButton = form ? form.querySelector('button[type="submit"]') : null;
-
-    function showPanel(panel, message) {
-      if (!panel) {
-        return;
-      }
-      var text = panel.querySelector('.sib-form-message-panel__inner-text');
-      if (text && message) {
-        text.innerText = message;
-      }
-      panel.style.display = 'block';
-      panel.classList.add('sib-form-message-panel--active');
-    }
-
-    function hidePanel(panel) {
-      if (!panel) {
-        return;
-      }
-      panel.style.display = 'none';
-      panel.classList.remove('sib-form-message-panel--active');
-    }
-
-    if (!form || !countryCode || !submitButton) {
-      return;
-    }
-
-    countryCode.addEventListener('input', function () {
-      countryCode.value = countryCode.value.toUpperCase();
-    });
-
-    form.addEventListener('submit', function (event) {
-      event.preventDefault();
-      hidePanel(successMessage);
-      hidePanel(errorMessage);
-
-      if (!form.reportValidity()) {
-        return;
-      }
-
-      var captchaToken = qfieldNewsletterTurnstileToken || (form.querySelector('input[name="cf-turnstile-response"]') || {}).value;
-      if (!captchaToken) {
-        showPanel(errorMessage, 'Please complete the captcha and try again.');
-        return;
-      }
-
-      submitButton.disabled = true;
-      submitButton.classList.add('sib-form-block__button-disabled');
-
-      fetch(form.action + '?isAjax=1', {
-        method: 'POST',
-        body: new FormData(form),
-        credentials: 'include'
-      }).then(function (response) {
-        return response.json().then(function (data) {
-          return { ok: response.ok, data: data };
-        });
-      }).then(function (result) {
-        if (result.ok && result.data.success) {
-          showPanel(successMessage, result.data.message || 'Your subscription has been successful.');
-          form.reset();
-          qfieldNewsletterSetCaptchaToken('');
-          if (window.turnstile) {
-            window.turnstile.reset();
-          }
-          return;
-        }
-
-        var errors = result.data && result.data.errors ? Object.values(result.data.errors).join(' ') : '';
-        showPanel(errorMessage, errors || (result.data && result.data.message) || 'Your subscription could not be saved. Please try again.');
-      }).catch(function () {
-        showPanel(errorMessage, 'Your subscription could not be saved. Please try again.');
-      }).finally(function () {
-        submitButton.disabled = false;
-        submitButton.classList.remove('sib-form-block__button-disabled');
-      });
-    });
-  });
-</script>
-<script async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
+</div><script src="/pr-preview/pr-57/js/newsletter-form.min.fc8b3015ff8c46b61b08fbe1ba7a73d47924fa322f15ffc925149979c3dad930f33e5afcfe6ab8d863973e89e4c3f869d8457bcb2878580ba378535974ba1dea.js" integrity="sha512-/IswFf&#43;MRrYbCPvhunpz1Hkk&#43;jIvFf/JJRSZecPa2TDzPlr8/mq42GOXPonkw/hp2EV7yyh4WAujeFNZdLod6g==" crossorigin="anonymous"></script>
+<script async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=qfieldNewsletterTurnstileOnLoad&render=explicit" data-cfasync="false"></script>
 
 <hr>
 <p>We respect your privacy. You can unsubscribe at any time.</p>
