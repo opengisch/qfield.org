@@ -3,15 +3,12 @@ title: "Stay in the loop with QField - 13.05.2026 - 11:57"
 slug: "newsletter"
 description: "Get the latest QField news, tips, and release highlights delivered straight to your inbox."
 type: landing
-layout: solutions
+layout: newsletter
 hero:
   headline: "Stay in the loop with QField"
   sub: "Get the latest releases, field tips, and community stories delivered to your inbox — no noise, just what matters."
 draft: false
 ---
-
-{{< figure src="/images/qf_nl.png" class="newsletter-logo" >}}
-
 
 ### Why subscribe?
 

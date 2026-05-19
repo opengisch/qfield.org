@@ -2177,7 +2177,7 @@ span.green,
 }
 
 .footer-subscribe-banner__text a {
-  color: #80cc28;
+  color: #80cc28
   font-weight: 400;
   text-decoration: underline;
 }
@@ -2192,7 +2192,8 @@ span.green,
 }
 
 .newsletter-logo {
-  width: 120px;
+  width: 160px;
+  height: auto;
   height: auto;
   object-fit: contain;
 }
