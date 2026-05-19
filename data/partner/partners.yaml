@@ -356,8 +356,10 @@
   name: KAN
   regions:
     - europe
+    - south-america
   locations:
     - "🇪🇸 Spain"
+    - "🇦🇷 Argentina"
   logo:
     src: "images/partners/kan-logo.png"
     alt: "kan"
