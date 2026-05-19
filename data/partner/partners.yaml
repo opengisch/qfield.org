@@ -351,3 +351,29 @@
 
     expertise: |
       Claire Birnie, the owner of Maptastic has over a decade of experience in the private and public sector before starting her business. She’s worked within the environment and ecology sector and developed an understanding for their needs as a sector and bridges the gap between what people need to know in their work but making it efficient and streamlined as a geospatial expert. Claire has a particular focus on small to medium sized businesses and freelancers in the environment sector as the availability of dedicated in house GIS support is often scarce. It’s her passion to bring quality geospatial training to often overlooked people where skills gaps can widen quickly as technology becomes more prevalent.
+
+- id: kan
+  name: KAN
+  regions:
+    - europe
+    - south-america
+  locations:
+    - "🇦🇷 Argentina"
+    - "🇪🇸 Spain"
+  logo:
+    src: "images/partners/kan-logo.png"
+    alt: "kan"
+  description: |
+    KAN Territory & IT delivers scalable open-source geospatial and field operation solutions for public institutions and enterprise clients.
+  website:
+    url: "https://kan.com.ar/"
+  modal:
+    services:
+    - QField Cloud implementation
+    - Field workflow automation
+    - Open-source GIS architecture
+    - System integration
+    - Territorial data governance
+
+    expertise: |
+      KAN Territory & IT specializes in open-source geospatial architectures and scalable field operations powered by QFieldCloud. We support governments and enterprise clients in planning, automating, and integrating territory-based workflows, combining offline-first data collection, system interoperability, and secure, mission-critical deployments.
