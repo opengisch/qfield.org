@@ -358,8 +358,8 @@
     - europe
     - south-america
   locations:
-    - "🇪🇸 Spain"
     - "🇦🇷 Argentina"
+    - "🇪🇸 Spain"
   logo:
     src: "images/partners/kan-logo.png"
     alt: "kan"
