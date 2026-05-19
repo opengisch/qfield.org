@@ -2191,11 +2191,18 @@ span.green,
   margin-bottom: 40px;
 }
 
+/* NEWSLETTER */
+
 .newsletter-logo {
   width: 160px;
   height: auto;
   height: auto;
   object-fit: contain;
+}
+
+.accent {
+  color: var(--qfield-color);
+  font-weight: 600;
 }
 
 /* ____ */

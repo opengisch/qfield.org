@@ -1,101 +1,28 @@
 {{ define "main" }}
-<article class="success-story py-5">
+<article class="newsletter py-5">
   <div class="container">
-    <div class="success-story__back text-center">
+
+    {{ with .Params.hero.image }}
+    <div class="newsletter__banner text-center mb-4">
+      <img src="{{ . }}" alt="{{ $.Title }}" class="img-fluid" />
     </div>
+    {{ end }}
 
-  <header class="success-story__header text-center mx-auto mb-5">
-      <h1 class="display-9 mb-3">{{ .Title | safeHTML }}</h1>
-      {{ $authors := .Params.authors }}
-      {{ if $authors }}
-      <div class="success-story__byline text-muted mb-3">
-        <span class="d-block">
-          By
-          {{ $count := len $authors }}
-          {{ range $index, $author := $authors }}
-            {{ if gt $index 0 }}
-              {{ if eq (add $index 1) $count }} & {{ else }}, {{ end }}
-            {{ end }}
-            {{ $name := $author.name }}
-            {{ $url := $author.url }}
-            {{ if $url }}
-              <a href="{{ partial "url.html" (dict "url" $url) }}" target="_blank" rel="noopener" class="text-reset text-decoration-none">{{ $name }}</a>
-            {{ else }}
-              {{ $name }}
-            {{ end }}
-            {{ $note := $author.note }}
-            {{ $noteUrl := $author.noteUrl }}
-            {{ if $note }}
-              <sup>
-                {{ if $noteUrl }}
-                  <a href="{{ partial "url.html" (dict "url" $noteUrl) }}" class="text-reset text-decoration-none">{{ $note }}</a>
-                {{ else }}
-                  {{ $note }}
-                {{ end }}
-              </sup>
-            {{ end }}
-          {{ end }}
-        </span>
-        {{ with .Params.authorTitle }}
-        <span class="d-block small">{{ . }}</span>
-        {{ end }}
-        {{ with .Params.company }}
-        <span class="d-block small">{{ . | safeHTML }}</span>
-        {{ end }}
-      </div>
-      {{ else if .Params.author }}
-      <div class="success-story__byline text-muted mb-3">
-        <span class="d-block">
-          {{- if .Params.authorUrl -}}
-            <a href="{{ partial "url.html" (dict "url" .Params.authorUrl) }}" target="_blank" rel="noopener" class="text-reset text-decoration-none">By {{ .Params.author }}</a>
-          {{- else -}}
-            By {{ .Params.author }}
-          {{- end -}}
-        </span>
-        {{ with .Params.authorTitle }}
-        <span class="d-block small">{{ . }}</span>
-        {{ end }}
-        {{ with .Params.company }}
-        <span class="d-block small">{{ . | safeHTML }}</span>
-        {{ end }}
-      </div>
-      {{ else }}
-      {{ with .Params.company }}
-      <p class="text-muted mb-3">{{ . | safeHTML }}</p>
-      {{ end }}
-      {{ end }}
-
-      {{ with .Params.sourceUrl }}
-      {{ $label := default "Original article" $.Params.sourceLabel }}
-      <div class="success-story__header-actions d-flex justify-content-center mt-4">
-        <a href="{{ partial "url.html" (dict "url" .) }}" class="btn btn-primary d-inline-flex align-items-center gap-2" target="_blank" rel="noopener">
-          <span>{{ $label }}</span>
-          <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
-        </a>
-      </div>
+    <header class="newsletter__header text-center mx-auto mb-5">
+      <h1 class="display-9 mb-3">{{ .Params.hero.headline | default .Title | safeHTML }}</h1>
+      {{ with .Params.hero.sub }}
+      <p class="lead text-muted">{{ . }}</p>
       {{ end }}
     </header>
 
     <div class="row justify-content-center">
       <div class="col">
-        <div class="content success-story__content">
+        <div class="content newsletter__content">
           {{ .Content }}
         </div>
       </div>
     </div>
 
-    {{ with .Params.tags }}
-    <div class="row justify-content-center mt-4">
-      <div class="col">
-        <div class="success-story__tags d-flex flex-wrap align-items-center">
-          <span class="fw-semibold text-uppercase small text-muted me-3">Tags</span>
-          {{ range . }}
-          <span class="badge bg-secondary-subtle text-secondary-emphasis rounded-pill">{{ . }}</span>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-    {{ end }}
   </div>
 </article>
 {{ end }}

@@ -5,10 +5,14 @@ description: "Get the latest QField news, tips, and release highlights delivered
 type: landing
 layout: newsletter
 hero:
-  headline: "Stay in the loop with QField"
+  headline: "Stay in the loop with <span class=\"accent\">QField</span>"
   sub: "Get the latest releases, field tips, and community stories delivered to your inbox — no noise, just what matters."
 draft: false
 ---
+
+<!-- {{< figure src="/images/qf_nl.png" class="newsletter-logo" >}}
+
+## Stay in the loop with QField -->
 
 ### Why subscribe?
 
