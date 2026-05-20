@@ -6,8 +6,8 @@ author: "Author Name"
 authorTitle: "Author Title"
 company: "Company/Project/School Name"
 description: "Short description of the success story"
-image: "/images/ss/featured-image.jpg"
-ogImage: "https://qfield.org/images/ss/featured-image.jpg"
+image: "featured-image.jpg"
+ogImage: "https://qfield.org/success-stories/{{ .Name }}/featured-image.jpg"
 tags: []
 categories: []
 ---
@@ -28,7 +28,7 @@ More text content.
 - Point 2
 - Point 3
 
-![Image description](/images/ss/image.jpg)
+![Image description](image.jpg)
 *Image caption*
 
 ## Another Section

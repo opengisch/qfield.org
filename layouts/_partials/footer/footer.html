@@ -1,31 +1,37 @@
 {{- $about := hugo.Data.home.about -}}
 <footer class="site-footer mt-auto">
   {{ with $about }}
+
+  {{/* ── Subscribe banner ── */}}
+  {{ with .intro }}
+  <div class="footer-subscribe-banner">
+    <div class="container footer-subscribe-banner__inner">
+      <div class="footer-subscribe-banner__text">
+        <h2>{{ .title }}</h2>
+        {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+
+{{/* ── Footer sections ── */}}
   <section id="about" class="py-5">
     <div class="container">
-      <div class="page-header mb-4">
-        <h2>{{ .intro.title }}</h2>
-      </div>
       <div class="row gy-4">
+        {{ range .sections }}
+        <div class="col-12">
+          {{- $body := .body | markdownify -}}
+          <h3>{{ .title }}</h3>
+          <p>{{ $body | safeHTML }}</p>
+        </div>
+        {{ end }}
 
-          {{ with .intro.body }}
-          <p >{{ . | markdownify }}</p>
-          {{ end }}
-        
-          {{ range .sections }}
-          <div class="row">
-              <h3>{{ .title }}</h3>
-              <p>{{ .body | markdownify }}</p>
-          </div>
-          {{ end }}
-
-      </div>
       {{ with .social }}
       <div class="social-links mt-4 text-center">
         {{ range . }}
-        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+        <a href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener noreferrer">
           {{ if .image }}
-          <img src="{{ .image }}" alt="{{ .name }}" width="32" height="32">
+          <img src="{{ .image | strings.TrimPrefix "/" | relURL }}" alt="{{ .name }}" width="32" height="32">
           {{ else if .icon }}
           <i class="{{ .icon }}" aria-hidden="true"></i>
           <span class="visually-hidden">{{ .name }}</span>
@@ -41,7 +47,7 @@
   <section class="footer-bottom border-top">
     <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3">
       <p class="mb-0 text-muted">{{ .Site.Copyright | safeHTML }}</p>
-      {{ if isset .Site.Menus "footer" -}} 
+      {{ if isset .Site.Menus "footer" -}}
       <ul class="nav justify-content-center">
         {{ range .Site.Menus.footer -}}
         <li class="nav-item">

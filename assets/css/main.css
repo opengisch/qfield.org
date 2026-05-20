@@ -551,14 +551,14 @@ p {
 }
 
 .feature__icon {
-  width: 25%;
+  width: 17%;
   max-width: 140px;
   margin: 0 auto 1rem auto;
   display: block;
 }
 
 .feature__icon--narrow {
-  width: 22%;
+  width: 15%;
 }
 
 .feature__icon--spaced {
@@ -2094,7 +2094,7 @@ p:has(> img) {
 }
 
 .success-stories-button a:hover {
-  background-color: transparent;
+  background-color: white;
   color: var(--qfield-color) !important;
 }
 
@@ -2124,11 +2124,14 @@ p:has(> img) {
   background-size: 100%;
   background-repeat: no-repeat;
   height: auto;
-  margin: 50px auto 0px auto;
   width: 100%;
   position: relative;
   padding: 50px 0;
   color: #212121;
+}
+
+#about h3 {
+  margin-top: 0px !important;
 }
 
 #about a,
@@ -2144,12 +2147,57 @@ span.green,
   text-decoration: underline;
 }
 
+/* newsletter subscription footer: */
+
+.footer-subscribe-banner {
+  background-color: rgba(33, 33, 33, 0.95);
+  background-size: cover;
+  padding: 2.7rem 0;
+  margin-top: 40px;
+}
+
+.footer-subscribe-banner__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-subscribe-banner__text h2 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 200;
+}
+
+.footer-subscribe-banner__text p {
+  color: white;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.footer-subscribe-banner__text a {
+  color: #80cc28;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-subscribe-banner__text a:hover {
+  text-decoration: underline;
+}
+
+[data-bs-theme='dark'] .footer-subscribe-banner {
+  background-color: #1f1f1f;
+  margin-bottom: 40px;
+}
+
+/* ____ */
+
 .media-object {
   width: 64px;
   height: 64px;
   padding-bottom: 30px
 }
-
 
 div.feature {
   /* padding: 1.5rem 1.5rem; */
@@ -2573,9 +2621,9 @@ div.explanation {
 
 /* hardware page button */
 .btn-primary {
-  background-color: #80cc28;
-  color: #fff;
-  border: 1px solid #80cc28;
+  background-color: var(--qfield-color);
+  color: #fffff;
+  border: 1px solid var(q--qfield-color);
   border-radius: 999px;
   margin-top: 15px;
 }
@@ -2920,8 +2968,12 @@ div.explanation {
   flex-wrap: wrap;
 }
 
+/* .partner-row .panel {
+  padding-right: 20px;
+} */
+
 .partner-row .panel-body p {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .partner-card-wrapper {
@@ -2987,9 +3039,10 @@ div.explanation {
 }
 
 .partner-logo {
-  width: 40px;
+  width: 45px;
   height: 40px;
   margin-right: 10px;
+  margin-bottom: 0px;
   object-fit: contain;
   vertical-align: middle;
   display: inline-block;
@@ -3491,6 +3544,7 @@ div.explanation {
     flex: 1;
   }
 }
+
 
 /* Dark mode palette */
 :root[data-bs-theme='dark'] {

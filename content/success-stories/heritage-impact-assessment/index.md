@@ -16,9 +16,11 @@ description: |
 
   **Abstract:** The aim of this paper is to highlight the main benefits of using the QField app in archaeological jobs. In particular the article provides examples of how to use QField in open area excavation, archaeological survey, and impact assessment (HIA) projects.
 # image: "heritage_impact_figure3.png"
-# ogImage: "heritage_impact_figure3.png"
 sourceUrl: "https://qfield.org/success-stories/heritage-impact-assessment.html"
 sourceLabel: "View original success story"
+categories: ["humanitarian-emergency-response"]
+image: "heritage_impact_figure2.png"
+ogImage: "https://qfield.org/success-stories/heritage-impact-assessment/heritage_impact_figure2.png"
 ---
 
 ### Introduction

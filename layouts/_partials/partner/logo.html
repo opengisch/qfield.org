@@ -12,6 +12,6 @@
   {{ if $isAbs }}
     <img src="{{ $src }}"{{ range $k, $v := $attrs }} {{ $k }}="{{ $v }}"{{ end }}>
   {{ else }}
-    <img src="{{ $src | relURL }}"{{ range $k, $v := $attrs }} {{ $k }}="{{ $v }}"{{ end }}>
+    <img src="{{ $src | strings.TrimPrefix "/" | relURL }}"{{ range $k, $v := $attrs }} {{ $k }}="{{ $v }}"{{ end }}>
   {{ end }}
 {{ end }}

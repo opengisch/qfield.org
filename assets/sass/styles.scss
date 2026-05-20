@@ -231,15 +231,12 @@ html {
   --partner-card-bg: #fff;
   --partner-card-color: var(--bs-body-color);
   --partner-card-border: rgba(0, 0, 0, 0.08);
-  --partner-card-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.08);
-  --partner-cta-bg: rgba(128, 204, 40, 0.1);
   --partner-cta-color: var(--qfield-color);
   --partner-cta-border: rgba(128, 204, 40, 0.45);
   --partner-cta-hover-bg: var(--qfield-color);
-  --partner-cta-hover-color: #0c210a;
+  --partner-cta-hover-color: white;
   --partner-cta-hover-border: var(--qfield-color);
-  --partner-cta-shadow: 0 0.75rem 2rem rgba(128, 204, 40, 0.18);
-  --partner-cta-hover-shadow: 0 0.9rem 2.1rem rgba(128, 204, 40, 0.32);
+  --partner-cta-hover-shadow: 0 0.9rem 2.1rem rgba(128, 204, 40, 0.2);
 
   .feature {
     background-color: var(--partner-card-bg);
@@ -267,11 +264,9 @@ html {
       min-height: 2.5rem;
       padding: 0.35rem 1.2rem;
       border-radius: 999px;
-      background-color: var(--partner-cta-bg);
       color: var(--partner-cta-color);
       font-weight: 600;
       border: 1px solid var(--partner-cta-border);
-      box-shadow: var(--partner-cta-shadow);
       text-decoration: none;
       transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease,
         box-shadow 0.2s ease, transform 0.2s ease;
@@ -280,8 +275,6 @@ html {
       &:focus {
         background-color: var(--partner-cta-hover-bg);
         color: var(--partner-cta-hover-color);
-        border-color: var(--partner-cta-hover-border);
-        box-shadow: var(--partner-cta-hover-shadow);
         transform: translateY(-1px);
       }
 
@@ -309,7 +302,7 @@ html {
 }
 
 /* =========================================================================
-   Partner Filters & Nav Pills
+  Partner Filters & Nav Pills
    ========================================================================= */
 
 .nav.nav-pills,
@@ -317,15 +310,11 @@ html {
   --nav-pill-bg: rgba(255, 255, 255, 0.9);
   --nav-pill-color: var(--bs-body-color);
   --nav-pill-border: rgba(0, 0, 0, 0.12);
-  --nav-pill-hover-bg: rgba(128, 204, 40, 0.2);
   --nav-pill-hover-color: var(--bs-body-color);
   --nav-pill-hover-border: rgba(128, 204, 40, 0.55);
   --nav-pill-active-bg: var(--qfield-color);
   --nav-pill-active-color: #0c210a;
   --nav-pill-active-border: var(--qfield-color);
-  --nav-pill-shadow: 0 0.4rem 1.25rem rgba(0, 0, 0, 0.07);
-  --nav-pill-hover-shadow: 0 0.6rem 1.3rem rgba(128, 204, 40, 0.2);
-  --nav-pill-active-shadow: 0 0.65rem 1.4rem rgba(128, 204, 40, 0.32);
   gap: 0.45rem;
   flex-wrap: wrap;
 }
@@ -337,8 +326,7 @@ html {
   color: var(--nav-pill-color);
   font-weight: 600;
   padding: 0.4rem 1.2rem;
-  transition: background-color 0.2s ease, color 0.2s ease,
-    border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
   box-shadow: var(--nav-pill-shadow);
 }
 
@@ -384,26 +372,31 @@ html {
 /* =========================================================================
    Partner Directory Cards
    ========================================================================= */
+.txt-link {
+  color: var(--qfield-color);
+  }
+
+  .txt-link:hover {
+  color: var(--qfield-color);
+  font-weight: bolder;
+  }
 
 .partner-row {
-  --partner-panel-bg: #fff;
+  --partner-panel-bg: #ffffff;
   --partner-panel-color: var(--bs-body-color);
   --partner-panel-heading: var(--bs-body-color);
   --partner-panel-border: rgba(0, 0, 0, 0.08);
-  --partner-panel-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.08);
-  --partner-panel-shadow-hover: 0 1.5rem 3rem rgba(0, 0, 0, 0.12);
-  --partner-chip-bg: rgba(0, 0, 0, 0.05);
+  --partner-panel-shadow-hover: 0 1rem 2rem rgba(0, 0, 0, 0.09);
+  --partner-chip-bg: rgba(7, 4, 4, 0.03);
   --partner-chip-color: rgba(0, 0, 0, 0.7);
   --partner-chip-border: rgba(0, 0, 0, 0.08);
   --partner-btn-simple-color: var(--qfield-color);
   --partner-btn-simple-hover: #4c9f1a;
   --partner-btn-primary-bg: var(--qfield-color);
-  --partner-btn-primary-color: #0c210a;
+  --partner-btn-primary-color: var(--qfield-color);
   --partner-btn-primary-border: var(--qfield-color);
   --partner-btn-primary-hover-bg: #6ab71d;
-  --partner-btn-primary-hover-color: #0c210a;
-  --partner-btn-primary-shadow: 0 0.65rem 1.4rem rgba(128, 204, 40, 0.28);
-  --partner-btn-primary-hover-shadow: 0 0.85rem 1.7rem rgba(128, 204, 40, 0.36);
+  --partner-btn-primary-hover-color: white;
 
   .panel {
     background-color: var(--partner-panel-bg);
@@ -433,11 +426,12 @@ html {
     gap: 0.4rem;
     background-color: var(--partner-chip-bg);
     color: var(--partner-chip-color);
-    border: 1px solid var(--partner-chip-border);
+    // border: 1px solid var(--partner-chip-border);
     border-radius: 999px;
     padding: 0.2rem 0.65rem;
     font-weight: 600;
     white-space: nowrap;
+    margin-right: 10px;
   }
 
   .btn-simple {
@@ -464,10 +458,8 @@ html {
     min-height: 2.5rem;
     padding: 0.4rem 1.4rem;
     border-radius: 999px;
-    background-color: var(--partner-btn-primary-bg);
+    background-color: transparent;
     color: var(--partner-btn-primary-color);
-    border: 1px solid var(--partner-btn-primary-border);
-    box-shadow: var(--partner-btn-primary-shadow);
     transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease,
       transform 0.2s ease;
 
@@ -669,30 +661,27 @@ html {
     --ss-filter-active-shadow: 0 0 0 0.1rem rgba(128, 204, 40, 0.3);
 
     .btn {
-      border-radius: 999px;
-      border: 1px solid var(--ss-filter-border);
-      color: var(--ss-filter-color);
+      border-radius: 15px;
+      border: 1px solid var(--border-light);
+      color: var(--nav-pill-color, #212121);
       background-color: var(--ss-filter-bg);
       font-weight: 600;
       padding: 0.35rem 0.85rem;
       box-shadow: var(--ss-filter-shadow);
-      transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease,
-        box-shadow 0.2s ease;
+      transition: background-color var(--transition-standard), color var(--transition-standard), border-color var(--transition-standard);
     }
 
     .btn:hover,
     .btn:focus {
-      color: var(--ss-filter-hover-color);
-      border-color: var(--ss-filter-border-hover);
-      background-color: var(--ss-filter-hover-bg);
-      box-shadow: var(--ss-filter-hover-shadow);
+      color: var(--qfield-color);
+      border-color: var(--qfield-color);
+      text-decoration: none;
     }
 
     .btn.active {
-      color: var(--ss-filter-active-color);
-      background-color: var(--ss-filter-active-bg);
-      border-color: var(--ss-filter-border-active);
-      box-shadow: var(--ss-filter-active-shadow);
+      background-color: var(--qfield-color);
+      border-color: var(--qfield-color);
+      color: #fff;
     }
   }
 
@@ -940,7 +929,7 @@ html {
   width: 100% !important; // Fill the whole carousel width
   object-fit: cover !important; // Crop to fit, maintaining aspect ratio
   object-position: center center !important; // Keep crop centered
-  
+
 
   @media (max-width: 768px) {
     height: 300px !important;

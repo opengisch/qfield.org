@@ -13,12 +13,9 @@
     <p>
       {{- with $description }}{{ . }}{{- end }}
       {{- with $button }}
-        {{- $href := .url | default "#" -}}
-        {{- if hasPrefix $href "/" }}
-          {{- $href = relLangURL $href -}}
-        {{- end }}
+        {{- $href := partial "url.html" (dict "url" (.url | default "#")) -}}
         <br>
-        <a href="{{ $href | safeURL }}"
+        <a href="{{ $href }}"
            class="{{ .style | default "green-link" }}"
            title="{{ .label }}"
            {{ if .external }}target="_blank" rel="noopener noreferrer"{{ end }}>

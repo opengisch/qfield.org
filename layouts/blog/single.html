@@ -6,7 +6,7 @@
     
     <!-- Back to blog link -->
     <div class="my-4">
-      <a href="{{ "/blog/" | relURL }}" class="btn btn-outline-secondary btn-sm">
+      <a href="{{ partial "url.html" (dict "url" "/blog/") }}" class="btn btn-outline-secondary btn-sm">
         <i class="fas fa-arrow-left me-2"></i>Back to Blog
       </a>
     </div>
@@ -180,7 +180,7 @@
 
         <!-- Back to blog -->
         <div class="text-center">
-          <a href="{{ "/blog/" | relURL }}" class="btn btn-outline-primary">
+          <a href="{{ partial "url.html" (dict "url" "/blog/") }}" class="btn btn-outline-primary">
             <i class="fas fa-arrow-left me-2"></i>Back to All Posts
           </a>
         </div>

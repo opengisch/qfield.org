@@ -3,21 +3,11 @@
 {{ $heroLead := .Params.heroLead }}
 {{ $heroCta := .Params.heroCta }}
 {{ $filters := .Params.filters }}
-{{ $cards := .Params.cards }}
-{{ $featuredCards := slice }}
-{{ $otherCards := slice }}
-{{ range (collections.Reverse $cards) }}
-  {{ $cardTags := default (slice) .tags }}
-  {{ if in $cardTags "featured" }}
-    {{ $featuredCards = $featuredCards | append . }}
-  {{ else }}
-    {{ $otherCards = $otherCards | append . }}
-  {{ end }}
-{{ end }}
-{{ $displayCards := $featuredCards }}
-{{ range $otherCards }}
-  {{ $displayCards = $displayCards | append . }}
-{{ end }}
+
+{{ $featuredPages := sort (where .Pages "Params.featured" true) "Date" | collections.Reverse }}
+{{ $otherPages := sort (where .Pages "Params.featured" "ne" true) "Date" | collections.Reverse }}
+{{ $displayPages := $featuredPages | append $otherPages }}
+
 <div class="success-stories">
   <section class="py-5 bg-light text-center">
     <div class="container">
@@ -45,20 +35,18 @@
 
       <div class="ss-card-grid">
       {{ $placeholderImagePath := "images/ss-placeholder.webp" }}
-      {{ range $displayCards }}
-        {{ $cardTags := default (slice) .tags }}
-        {{ $imagePath := default "" .image }}
+      {{ range $displayPages }}
+        {{ $isFeatured := .Params.featured }}
+        {{ $imagePath := default "" .Params.image }}
         {{ $isExternal := or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") }}
         {{ $resolvedImage := "" }}
         {{ if $isExternal }}
           {{ $resolvedImage = $imagePath }}
         {{ else }}
-          {{ $storyPage := $.Site.GetPage .url }}
-
-          {{ if and (eq $resolvedImage "") $storyPage (ne $imagePath "") }}
-            {{ $bundleImage := $storyPage.Resources.GetMatch $imagePath }}
+          {{ if ne $imagePath "" }}
+            {{ $bundleImage := .Resources.GetMatch $imagePath }}
             {{ if not $bundleImage }}
-              {{ $bundleImage = $storyPage.Resources.GetMatch (printf "**/%s" (path.Base $imagePath)) }}
+              {{ $bundleImage = .Resources.GetMatch (printf "**/%s" (path.Base $imagePath)) }}
             {{ end }}
             {{ with $bundleImage }}
               {{ $resolvedImage = .RelPermalink }}
@@ -77,29 +65,8 @@
             {{ end }}
           {{ end }}
 
-          {{ if and (eq $resolvedImage "") $storyPage }}
-            {{ $pageImage := default "" $storyPage.Params.image }}
-            {{ if ne $pageImage "" }}
-              {{ $pageBundleImage := $storyPage.Resources.GetMatch $pageImage }}
-              {{ if not $pageBundleImage }}
-                {{ $pageBundleImage = $storyPage.Resources.GetMatch (printf "**/%s" (path.Base $pageImage)) }}
-              {{ end }}
-              {{ with $pageBundleImage }}
-                {{ $resolvedImage = .RelPermalink }}
-              {{ end }}
-
-              {{ if eq $resolvedImage "" }}
-                {{ $staticPagePath := $pageImage }}
-                {{ $staticPageFile := printf "static/%s" (replaceRE "^/" "" $staticPagePath) }}
-                {{ if fileExists $staticPageFile }}
-                  {{ $resolvedImage = $staticPagePath | relURL }}
-                {{ end }}
-              {{ end }}
-            {{ end }}
-          {{ end }}
-
-          {{ if and (eq $resolvedImage "") $storyPage }}
-            {{ $pageImages := $storyPage.Resources.ByType "image" }}
+          {{ if eq $resolvedImage "" }}
+            {{ $pageImages := .Resources.ByType "image" }}
             {{ if gt (len $pageImages) 0 }}
               {{ $firstImage := index $pageImages 0 }}
               {{ $resolvedImage = $firstImage.RelPermalink }}
@@ -110,13 +77,13 @@
             {{ $resolvedImage = $placeholderImagePath | relURL }}
           {{ end }}
         {{ end }}
-        <div class="ss-card-wrapper success-story-card" data-categories="{{ delimit .categories " " }}">
-          <a href="{{ .url | relURL }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ $resolvedImage }}');">
+        <div class="ss-card-wrapper success-story-card" data-categories="{{ delimit .Params.categories " " }}">
+          <a href="{{ .RelPermalink }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ $resolvedImage }}');">
             <div class="ss-card-content">
-              {{ if in $cardTags "featured" }}
+              {{ if $isFeatured }}
               <span class="badge rounded-pill border border-light border-opacity-50 bg-dark bg-opacity-25 text-white fw-normal small px-2 py-1 position-absolute top-0 start-0 m-2">Featured</span>
               {{ end }}
-              <h2 class="ss-card-title">{{ .title | safeHTML }}</h2>
+              <h2 class="ss-card-title">{{ .Title | safeHTML }}</h2>
             </div>
           </a>
         </div>

@@ -127,7 +127,7 @@ success_stories:
       logo: "/images/customer/ZIP-logo.png"
       logo_modifiers:
         - "customer-logo--wide"
-      image: "/images/ss/zero-invasive-3.jpg"
+      image: "/images/customer/zero-invasive-3.jpg"
       description: >-
         In the rugged wilderness of New Zealand's South Westland, an ambitious conservation project is underway. Zero Invasive Predators (ZIP) is systematically eliminating possums, rats, and stoats from vast tracts of forest—with QField and QFieldCloud playing a crucial role in their operations.
       link:
@@ -138,7 +138,7 @@ success_stories:
       logo: "/images/customer/un.svg"
       image: "/images/customer/un_img.jpg"
       description: >-
-        QField has been spotlighted by the UN OpenGIS initiative as a crucial part of their hybrid GIS system. This recognition underscores QField's superior capabilities in supporting multiple <a href="/sdgs">United Nations Sustainable Development Goals (SDGs)</a> and revolutionizing geospatial data collection.
+        QField has been spotlighted by the UN OpenGIS initiative as a crucial part of their hybrid GIS system. This recognition underscores QField's superior capabilities in supporting multiple [United Nations Sustainable Development Goals (SDGs)](sdgs) and revolutionizing geospatial data collection.
       link:
         label: "Read more..."
         url: "success-stories/un"
@@ -173,7 +173,7 @@ industries:
         - "industry-image--offset-5"
       url: "/success-stories?filter=forestry"
     - title: "Humanitarian & Emergency Response"
-      image: "/images/ss/tonga-2.jpg"
+      image: "/images/bg/tonga.jpg"
       image_modifiers:
         - "industry-image--offset-55"
       url: "/success-stories?filter=humanitarian-emergency-response"

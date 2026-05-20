@@ -12,6 +12,6 @@
     <p>{{ . | markdownify }}</p>
   {{ end }}
   {{ with .cta }}
-    <p><a href="{{ .url }}">{{ .text }}</a></p>
+    <p><a href="{{ partial "url.html" (dict "url" .url) }}">{{ .text }}</a></p>
   {{ end }}
 </div>

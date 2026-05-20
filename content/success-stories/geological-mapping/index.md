@@ -10,7 +10,9 @@ description: >-
       paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data
       directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.
 # image: "geologic_field.png"
-# ogImage: "geologic_field.png"
+categories: ["water-land-management"]
+image: "geologic_field.png"
+ogImage: "https://qfield.org/success-stories/geological-mapping/geologic_field.png"
 ---
 
 ### Goal

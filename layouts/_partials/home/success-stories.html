@@ -18,7 +18,7 @@
             {{- range $entry.logo_modifiers }}{{ $logoClasses = $logoClasses | append . }}{{ end }}
             {{- $logoSrc := $entry.logo -}}
             {{- if and $logoSrc (not (hasPrefix $logoSrc "http")) }}
-              {{- $logoSrc = relURL $logoSrc -}}
+              {{- $logoSrc = strings.TrimPrefix "/" $logoSrc | relURL -}}
             {{- end }}
             <img class="{{ delimit $logoClasses " " }}"
                  title="{{ $entry.name }}"
@@ -40,11 +40,8 @@
             <p class="small text-end">{{ . | safeHTML }}</p>
             {{- end }}
             {{- with $entry.link }}
-              {{- $href := .url | default "#" -}}
-              {{- if hasPrefix $href "/" }}
-                {{- $href = relLangURL $href -}}
-              {{- end }}
-              <a href="{{ $href | safeURL }}"
+              {{- $href := partial "url.html" (dict "url" (.url | default "#")) -}}
+              <a href="{{ $href }}"
                  class="ss-btn"
                  title="{{ .label }}"
                  {{ if .external }}target="_blank" rel="noopener noreferrer"{{ end }}>
@@ -60,7 +57,7 @@
           {{- if eq $index 0 }}{{ $imageClasses = $imageClasses | append "customer-active" }}{{ end }}
           {{- $imageSrc := $entry.image -}}
           {{- if and $imageSrc (not (hasPrefix $imageSrc "http")) }}
-            {{- $imageSrc = relURL $imageSrc -}}
+            {{- $imageSrc = strings.TrimPrefix "/" $imageSrc | relURL -}}
           {{- end }}
           <div title="{{ $entry.name }}" class="{{ delimit $imageClasses " " }}">
             {{- if $imageSrc }}
@@ -72,11 +69,8 @@
     </div>
     {{- with $cta }}
     <div class="success-stories-button text-center">
-      {{- $href := .url | default "#" -}}
-      {{- if hasPrefix $href "/" }}
-        {{- $href = relLangURL $href -}}
-      {{- end }}
-      <a href="{{ $href | safeURL }}" class="btn" title="{{ .label }}">
+      {{- $href := partial "url.html" (dict "url" (.url | default "#")) -}}
+      <a href="{{ $href }}" class="btn" title="{{ .label }}">
         {{ .label }}
       </a>
     </div>

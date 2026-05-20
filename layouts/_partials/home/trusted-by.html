@@ -14,17 +14,14 @@
   <div class="container section-container">
     <div class="d-flex justify-content-center flex-wrap align-items-center">
       {{- range $logos }}
-        {{- $href := .url | default "#" -}}
-        {{- if hasPrefix $href "/" }}
-          {{- $href = relLangURL $href -}}
-        {{- end }}
+        {{- $href := partial "url.html" (dict "url" (.url | default "#")) -}}
         {{- $imageSrc := .image -}}
         {{- if and $imageSrc (not (hasPrefix $imageSrc "http")) }}
-          {{- $imageSrc = relURL $imageSrc -}}
+          {{- $imageSrc = strings.TrimPrefix "/" $imageSrc | relURL -}}
         {{- end }}
         {{- $classes := slice "img-fluid" "client-logo" -}}
         {{- range .classes }}{{ $classes = $classes | append . }}{{ end }}
-      <a href="{{ $href | safeURL }}" target="_blank" rel="noopener noreferrer">
+      <a href="{{ $href }}" target="_blank" rel="noopener noreferrer">
         {{- if $imageSrc }}
         <img src="{{ $imageSrc }}" alt="{{ .alt }}" class="{{ delimit $classes " " }}" loading="lazy" decoding="async">
         {{- end }}

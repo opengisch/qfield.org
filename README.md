@@ -152,8 +152,8 @@ Required fields:
 - authorTitle: Their title or role
 - company: Company, project, or organization name
 - description: Brief summary for SEO and previews
-- image: Featured image path (e.g., /images/ss/my-story.jpg)
-- ogImage: Full URL for social media sharing (e.g., https://qfield.org/images/ss/my-story.jpg)
+- image: Featured image filename, placed in the story's folder (e.g., my-story.jpg)
+- ogImage: Full URL for social media sharing (e.g., https://qfield.org/success-stories/my-story/my-story.jpg)
 - draft: Set to false when ready to publish
 
 Optional fields:
@@ -163,8 +163,8 @@ Optional fields:
 
 Important:
 
-Place images in `ss` directory
-Reference them in markdown as `/images/ss/image-name.jpg`
+Place images in the story's folder alongside `index.md`
+Reference them in markdown as just the filename: `image-name.jpg`
 Use markdown formatting for content sections
 The "Back to success stories" button is added automatically
 

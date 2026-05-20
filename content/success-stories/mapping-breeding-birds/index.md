@@ -9,7 +9,9 @@ description: "The Wadden Sea in Denmark, Germany and The Netherlands is of outst
       Schleswig-Holstein / Germany. For a number of species we monitor a significant share of the entire German breeding
       population."
 # image: "wattenmeer4.jpg"
-# ogImage: "wattenmeer4.jpg"
+categories: ["ecology-environment"]
+image: "wattenmeer7.jpg"
+ogImage: "https://qfield.org/success-stories/mapping-breeding-birds/wattenmeer7.jpg"
 ---
 
 ### Goal and field constraints

@@ -19,7 +19,7 @@
     </div>
     {{ if $url }}
     <div class="card-footer bg-transparent border-0 pt-0">
-      <a href="{{ $url }}" class="btn btn-success w-100" target="_blank" rel="noopener noreferrer">Visit Website</a>
+      <a href="{{ partial "url.html" (dict "url" $url) }}" class="btn btn-success w-100" target="_blank" rel="noopener noreferrer">Visit Website</a>
     </div>
     {{ end }}
   </div>

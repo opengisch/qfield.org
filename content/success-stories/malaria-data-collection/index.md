@@ -12,7 +12,9 @@ description: "For a research work aiming at improving the knowledge on the envir
       their nature (savannahs and rural areas, where roads are mainly narrow clay tracks) imply to move around in
       motorbike or by feet."
 # image: "mosquito4.jpg"
-# ogImage: "mosquito4.jpg"
+categories: ["humanitarian-emergency-response"]
+image: "mosquito4.jpg"
+ogImage: "https://qfield.org/success-stories/malaria-data-collection/mosquito4.jpg"
 ---
 
 ### Goal and field constraints

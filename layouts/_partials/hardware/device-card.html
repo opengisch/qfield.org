@@ -6,7 +6,7 @@
         {{ with $device.image }}
           {{ $isExternal := or (hasPrefix .src "http://") (hasPrefix .src "https://") }}
           {{ if $isExternal }}
-            <img src="{{ .src }}" alt="{{ .alt }}" class="img-fluid" style="max-width: 200px;">
+            <img src="{{ partial "url.html" (dict "url" .src) }}" alt="{{ .alt }}" class="img-fluid" style="max-width: 200px;">
           {{ else }}
             {{ partial "asset-image.html" (dict "src" .src "alt" .alt "class" "img-fluid" "style" "max-width: 200px;") }}
           {{ end }}
@@ -21,7 +21,7 @@
           <p>{{ . | markdownify }}</p>
         {{ end }}
         {{ with $device.link }}
-          <a href="{{ .url }}" class="btn btn-primary" target="_blank" rel="noopener">{{ .text }}</a>
+          <a href="{{ partial "url.html" (dict "url" .url) }}" class="btn btn-primary" target="_blank" rel="noopener">{{ .text }}</a>
         {{ end }}
       </div>
     </div>
