@@ -2191,22 +2191,22 @@ span.green,
   margin-bottom: 40px;
 }
 
-/* NEWSLETTER */
+/* NEWSLETTER PAGE */
 
-.newsletter-logo {
-  width: 160px;
+/* .newsletter-logo {
+  width: 150px;
   height: auto;
   height: auto;
   object-fit: contain;
-}
+} */
 
-.newsletter__banner {
-  padding: 10px;
+/* .newsletter__banner {
+  padding: 0px;
 
   img {
-    max-width: 200px;
+    max-width: 800px;
   }
-}
+} */
 
 .newsletter__content {
   li strong {
@@ -2224,6 +2224,10 @@ span.green,
   i {
     color: var(--qfield-color);
   }
+}
+
+.accent {
+  color: var(--qfield-color);
 }
 
 /* ____ */

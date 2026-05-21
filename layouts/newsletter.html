@@ -1,15 +1,16 @@
 {{ define "main" }}
-<article class="newsletter py-5">
-  <div class="container">
+<article class="newsletter py-0">
 
-    {{ with .Params.hero.image }}
-    <div class="newsletter__banner text-center mb-4 {{ if $.Params.hero.background }}newsletter__banner--bg{{ end }}"
-      {{ if $.Params.hero.background }}
-      style="background-image: url('{{ $.Params.hero.background }}');"
-      {{ end }}>
-      <img src="{{ . }}" alt="{{ $.Title }}" class="img-fluid" />
-    </div>
-    {{ end }}
+  {{ with .Params.hero.image }}
+  <div class="newsletter__banner text-center mb-4 {{ if $.Params.hero.background }}newsletter__banner--bg{{ end }}"
+    {{ if $.Params.hero.background }}
+    style="background-image: url('{{ $.Params.hero.background }}');"
+    {{ end }}>
+    <img src="{{ . }}" alt="{{ $.Title }}" class="img-fluid w-100" />
+  </div>
+  {{ end }}
+
+  <div class="container">
 
     <header class="newsletter__header text-center mx-auto mb-5">
       <h1 class="display-9 mb-3">{{ .Params.hero.headline | default .Title | safeHTML }}</h1>
@@ -18,29 +19,29 @@
       {{ end }}
     </header>
 
-{{ with .Params.features }}
-<div class="text-center mb-5">
-  <h3>{{ .heading }}</h3>
-  <p class="text-muted">{{ .sub }}</p>
-</div>
-<div class="newsletter__features row justify-content-center g-4 mb-5">
-  {{ range .items }}
-  <div class="col-12 col-md-6">
-    <div class="newsletter__feature d-flex gap-3 align-items-start">
-      <i class="{{ .icon }} fs-3"></i>
-      <div>
-        <strong>{{ .title }}</strong>
-        <p class="mb-0 text-muted small mb-3">{{ .text }}</p>
-      </div>
+    {{ with .Params.features }}
+    <div class="text-center mb-5">
+      <h3>{{ .heading }}</h3>
+      <p class="text-muted">{{ .sub }}</p>
     </div>
-  </div>
-  {{ end }}
-</div>
-{{ end }}
+    <div class="newsletter__features row justify-content-center g-4 mb-5">
+      {{ range .items }}
+      <div class="col-12 col-md-6">
+        <div class="newsletter__feature d-flex gap-3 align-items-start">
+          <i class="{{ .icon }} fs-3"></i>
+          <div>
+            <strong>{{ .title }}</strong>
+            <p class="mb-0 text-muted small mb-3">{{ .text }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
 
-{{ with .Params.cta_text }}
-<p class="text-center text-muted mb-1">{{ . | safeHTML }}</p>
-{{ end }}
+    {{ with .Params.cta_text }}
+    <p class="text-center text-muted mb-1">{{ . | safeHTML }}</p>
+    {{ end }}
 
     <div class="row justify-content-center">
       <div class="col">
