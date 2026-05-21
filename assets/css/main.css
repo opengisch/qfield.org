@@ -2200,9 +2200,18 @@ span.green,
   object-fit: contain;
 }
 
-.accent {
-  color: var(--qfield-color);
-  font-weight: 600;
+.newsletter__banner {
+  padding: 10px;
+
+  img {
+    max-width: 200px;
+  }
+}
+
+.newsletter__content {
+  li strong {
+    color: var(--qfield-color);
+  }
 }
 
 /* ____ */

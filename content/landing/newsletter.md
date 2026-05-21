@@ -1,18 +1,21 @@
 ---
+<<<<<<< HEAD
 title: "Stay in the loop with QField - 13.05.2026 - 11:57"
+=======
+title: "Stay in the loop"
+>>>>>>> 84995a899 (newsletter layout update)
 slug: "newsletter"
 description: "Get the latest QField news, tips, and release highlights delivered straight to your inbox."
 type: landing
 layout: newsletter
 hero:
-  headline: "Stay in the loop with <span class=\"accent\">QField</span>"
-  sub: "Get the latest releases, field tips, and community stories delivered to your inbox — no noise, just what matters."
+  headline: "Stay in the loop"
+  sub: "Get the latest releases, field tips, and community stories delivered to your inbox. No noise, just what matters."
+  image: "/images/qf_nl.png"
+  background: "/images/qf_nl_bg.png"
 draft: false
 ---
 
-<!-- {{< figure src="/images/qf_nl.png" class="newsletter-logo" >}}
-
-## Stay in the loop with QField -->
 
 ### Why subscribe?
 

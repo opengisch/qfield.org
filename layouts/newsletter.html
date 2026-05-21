@@ -3,7 +3,10 @@
   <div class="container">
 
     {{ with .Params.hero.image }}
-    <div class="newsletter__banner text-center mb-4">
+    <div class="newsletter__banner text-center mb-4 {{ if $.Params.hero.background }}newsletter__banner--bg{{ end }}"
+      {{ if $.Params.hero.background }}
+      style="background-image: url('{{ $.Params.hero.background }}');"
+      {{ end }}>
       <img src="{{ . }}" alt="{{ $.Title }}" class="img-fluid" />
     </div>
     {{ end }}
