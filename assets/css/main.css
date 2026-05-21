@@ -2214,6 +2214,18 @@ span.green,
   }
 }
 
+.newsletter__features {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter__feature {
+  i {
+    color: var(--qfield-color);
+  }
+}
+
 /* ____ */
 
 .media-object {
