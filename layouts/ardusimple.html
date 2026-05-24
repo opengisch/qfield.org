@@ -1,53 +1,33 @@
 {{ define "main" }}
-<article class="ardusimple py-0">
-
-  {{ with .Params.hero.image }}
-  <div class="ardusimple__banner text-center mb-4 {{ if $.Params.hero.background }}newsletter__banner--bg{{ end }}"
-    {{ if $.Params.hero.background }}
-    style="background-image: url('{{ $.Params.hero.background }}');"
-    {{ end }}>
-    <img src="{{ . }}" alt="{{ $.Title }}" class="img-fluid w-100" />
-  </div>
-  {{ end }}
-
+<article class="ardusimple py-5">
   <div class="container">
 
-    <header class="ardusimple__header text-center mx-auto mb-5">
-      <h1 class="display-9 mb-3">{{ .Params.hero.headline | default .Title | safeHTML }}</h1>
-      {{ with .Params.hero.sub }}
-      <p class="lead text-muted">{{ . | safeHTML }}</p>
-      {{ end }}
-    </header>
-
-    {{ with .Params.features }}
-    <div class="text-center mb-5">
-      <h3>{{ .heading }}</h3>
-      <p class="text-muted">{{ .sub }}</p>
+    {{ with .Params.hero.image }}
+    <div class="ardusimple__logo text-center mb-5">
+      <img src="{{ . }}" alt="{{ $.Title }}" class="ardusimple__logo-img" />
     </div>
-    <div class="ardusimple__features row justify-content-center g-4 mb-5">
-      {{ range .items }}
-      <div class="col-12 col-md-6">
-        <div class="ardusimple__feature d-flex gap-3 align-items-start">
-          <i class="{{ .icon }} fs-3"></i>
-          <div>
-            <strong>{{ .title }}</strong>
-            <p class="mb-0 text-muted small mb-3">{{ .text }}</p>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-    {{ end }}
-
-    {{ with .Params.cta_text }}
-    <p class="text-center text-muted mb-1">{{ . | safeHTML }}</p>
     {{ end }}
 
     <div class="row justify-content-center">
-      <div class="col">
-        <div class="content newsletter__content">
+      <div class="col-lg-8">
+        <div class="ardusimple__content content">
           {{ .Content }}
         </div>
+
+        {{ with .Params.features }}
+        <div class="ardusimple__features mt-4">
+          {{ range .items }}
+          <div class="ardusimple__feature d-flex gap-3 align-items-start mb-3">
+            <i class="{{ .icon }} fs-5 mt-1" style="color: var(--qfield-color);"></i>
+            <div>
+              <strong>{{ .title }}</strong>
+              <p class="mb-0 text-muted small">{{ .text }}</p>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+
       </div>
     </div>
 

@@ -1,5 +1,5 @@
 ---
-title: "RTK GNSS"
+# title: "RTK GNSS"
 slug: "ardusimple"
 description: "Temporary landing page"
 type: landing
@@ -7,9 +7,23 @@ layout: ardusimple
 
 hero:
   image: "/images/partners/ardusimple_logo.svg"
+features:
+  # heading: "Why subscribe?"
+  # sub: "QField is evolving fast. Our newsletter keeps you informed without the noise:"
+  items:
+    - icon: "bi bi-newspaper"
+      title: "Release highlights"
+      text: "Know what's new and what changed before you update in the field"
+    - icon: "bi bi-tools"
+      title: "Tips & workflows"
+      text: "Practical advice from the community and the core team"
+    - icon: "bi bi-cloud"
+      title: "QFieldCloud news"
+      text: "Collaboration features, new plans, and service updates"
+    - icon: "bi bi-calendar-event"
+      title: "Events & webinars"
+      text: "Meet the team and learn from other field professionals"
 ---
-
-<!-- {{< figure src="/images/partners/ardusimple_logo.svg" class="ardusimple-logo" >}} -->
 
 QField works seamlessly with ArduSimple RTK GNSS receivers to deliver reliable, survey-grade positioning for professional field data collection. Capture precise points, lines, and boundaries directly in your QGIS projects and compare them with authoritative datasets such as cadastral maps.
 
