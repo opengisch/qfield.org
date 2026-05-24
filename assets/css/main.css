@@ -2191,41 +2191,6 @@ span.green,
   margin-bottom: 40px;
 }
 
-/* NEWSLETTER PAGE */
-
-/* .newsletter-logo {
-  width: 150px;
-  height: auto;
-  height: auto;
-  object-fit: contain;
-} */
-
-/* .newsletter__banner {
-  padding: 0px;
-
-  img {
-    max-width: 800px;
-  }
-} */
-
-.newsletter__content {
-  li strong {
-    color: var(--qfield-color);
-  }
-}
-
-.newsletter__features {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.newsletter__feature {
-  i {
-    color: var(--qfield-color);
-  }
-}
-
 .accent {
   color: var(--qfield-color);
 }
@@ -2313,7 +2278,6 @@ div.explanation {
 }
 
 .social-links a{
-
   text-decoration: none;
 }
 
@@ -3821,21 +3785,76 @@ div.explanation {
   color: var(--link-color);
 }
 
-/* ardusimple */
-.ardusimple-logo {
-  margin-bottom: 20px !important;
-  margin-top: 30px !important;
-  width: 30%;
-  align-items: center;
-}
-
-
 /* links */
 a {
   color: #80cc28;
-  font-weight: 300;
+  font-weight: 400;
 
 a:hover {
   color: darkgreen;
   font-weight: 500;
+}
+
+/* -- /landing -- */
+/* newsletter page */
+
+/* .newsletter-logo {
+  width: 150px;
+  height: auto;
+  height: auto;
+  object-fit: contain;
+} */
+
+.newsletter_banner {
+  padding: 0px;
+
+  img {
+    max-width: 800px;
+  }
+}
+
+.newsletter__content {
+  li strong {
+    color: var(--qfield-color);
+  }
+}
+
+.newsletter__features {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter__feature {
+  i {
+    color: var(--qfield-color);
+  }
+}
+
+/* ardusimple page */
+
+.ardusimple_banner {
+  padding: 0px;
+
+  img {
+    max-width: 800px;
+  }
+}
+
+.ardusimple_content {
+  li strong {
+    color: var(--qfield-color);
+  }
+}
+
+.ardusimple_features {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ardusimple_feature {
+  i {
+    color: var(--qfield-color);
+  }
 }

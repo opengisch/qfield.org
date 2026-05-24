@@ -20,7 +20,7 @@ In 2025, [National Land Survey (NLS)](https://www.maanmittauslaitos.fi/en/topica
 
 Developed over several years and officially rolled out in spring 2025, MTTJ gradually replaces legacy proprietary systems with a modern, efficient, and extensible solution tailored to NLS’s evolving needs — all while promoting transparency, interoperability, and long-term sustainability. As part of this open architecture, **QField will play a key role** , empowering field teams to collect and validate data efficiently, even in remote locations. Use of QField is being piloted over summer 2025 and will be gradually taken up for full production use towards the autumn.
 
-> “QField lets our field staff work smarter and faster, even in the most remote corners of Finland. It’s a vital part of our open-source geospatial infrastructure.”
+> “QField lets our field  staff work smarter and faster, even in the most remote corners of Finland. It’s a vital part of our open-source geospatial infrastructure.”
 >  — _Jani Kylmäaho, Director of Development and Digitalization, National Land Survey of Finland_
 
 Throughout the development of MTTJ, the National Land Survey of Finland actively engaged with the QField project, contributing not only feedback and use cases, but also **procuring for the development of new functionalities key to NLS use cases to QField core.** This close collaboration ensured that QField evolved to meet the demanding requirements of national-scale field data workflows and continues to benefit the wider open-source geospatial community.
