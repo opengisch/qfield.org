@@ -27,7 +27,7 @@ _"The sands with which these bunkers had been filled up is now filling in and it
 
 **The scale is immense:** tracking safety risks, determining protective measures, and monitoring changes across a zone 600 kilometers long and up to 30 kilometers wide. Some structures near populated areas require fencing. Others in remote woodland need only warning signs. The key is knowing which is which, and tracking how conditions evolve.
 
-{{< figure src="--.jpg" alt="picture" caption="" >}}
+{{< figure src="westwall-map.png" alt="Map of the Westwall / Siegfried Line along Germany's western border" caption="The Westwall stretches roughly 600 km along Germany's western border. Map courtesy of VEWA e.V." >}}
 
 
 ### From Paper Maps to Digital Collaboration
@@ -40,7 +40,7 @@ Patrice began using specialized GIS software in 2010, but found it difficult to 
 
 _"I started using QField in 2019 and I felt that this was the state of the art after the tools I used before."_
 
-{{< figure src="--.jpeg" alt="pic" caption="" >}} {{< figure src="--.jpeg" alt="pic" caption="" >}}
+{{< figure src="qfield-mobile-projects.png" alt="QField project list on a mobile phone" caption="Volunteers pick a project from QFieldCloud. Screenshot: VEWA e.V." >}} {{< figure src="qfield-mobile-map.png" alt="QField map view in the field" caption="Field view with the monitoring layer. Screenshot: VEWA e.V." >}}
 
 
 ### Scaling Up with QFieldCloud
@@ -72,7 +72,7 @@ _"I have seen people going into this without even having a GIS system before and
 
 This **ease of adoption** means Patrice can focus volunteers on what matters: understanding the history and significance of what they're documenting.
 
-{{< figure src="--.jpg" alt="pic" caption="" >}}
+{{< figure src="bunker-limes-23.jpg" alt="Limes 23 bunker near Pirmasens, one of around 20,000 Westwall structures" caption="Limes 23 near Pirmasens — one of the bunkers VEWA owns and maintains. Photo: VEWA e.V." >}}
 
 
 ### Data That Serves Multiple Purposes
