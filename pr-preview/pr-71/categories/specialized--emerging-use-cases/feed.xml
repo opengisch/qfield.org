@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Specialized &amp; Emerging Use Cases on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-71/categories/specialized--emerging-use-cases/</link>
+    <description>Recent content in Specialized &amp; Emerging Use Cases on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-71/categories/specialized--emerging-use-cases/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Community Mapping and Local Governance</title>
+      <link>https://qfield.org/pr-preview/pr-71/solutions/community-mapping-and-local-governance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-71/solutions/community-mapping-and-local-governance/</guid>
+      
+      <description>Support local governance with community-led mapping and reliable field data collection.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Community issue mapping</li>
+<li>Service access and planning</li>
+<li>Participatory planning and reporting</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Design projects in QGIS and collaborate securely via QFieldCloud.</p>
+]]></content:encoded>
+      <category domain="categories">Specialized &amp; Emerging Use Cases</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">community mapping</category>
+      <category domain="tags">local governance</category>
+    </item>
+    
+    <item>
+      <title>QField for Construction Progress Documentation</title>
+      <link>https://qfield.org/pr-preview/pr-71/solutions/construction-progress-documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-71/solutions/construction-progress-documentation/</guid>
+      
+      <description>Track construction progress with geotagged photos, notes, and as-built updates using mobile GIS.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Daily progress photos and notes</li>
+<li>As-built updates and redlines</li>
+<li>QA and handover documentation</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Prepare projects in QGIS and maintain a single source of truth via QFieldCloud.</p>
+]]></content:encoded>
+      <category domain="categories">Specialized &amp; Emerging Use Cases</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">construction progress</category>
+      <category domain="tags">as-built</category>
+    </item>
+    
+    <item>
+      <title>QField for Drone Survey Ground Validation</title>
+      <link>https://qfield.org/pr-preview/pr-71/solutions/drone-survey-ground-validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-71/solutions/drone-survey-ground-validation/</guid>
+      
+      <description>Collect ground truth and checkpoints for drone surveys using mobile GIS and high-accuracy GNSS.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Ground control and checkpoints</li>
+<li>Feature validation and QA</li>
+<li>Sync to QGIS/QFieldCloud for analysis</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Design projects in QGIS and keep field and office aligned with QFieldCloud.</p>
+]]></content:encoded>
+      <category domain="categories">Specialized &amp; Emerging Use Cases</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">drone survey</category>
+      <category domain="tags">ground truth</category>
+      <category domain="tags">checkpoints</category>
+    </item>
+    
+    <item>
+      <title>QField for Infrastructure Digital Twins</title>
+      <link>https://qfield.org/pr-preview/pr-71/solutions/infrastructure-digital-twins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-71/solutions/infrastructure-digital-twins/</guid>
+      
+      <description>Connect field observations to your digital twin with accurate, validated mobile GIS data.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Condition and asset updates</li>
+<li>Inspection and maintenance records</li>
+<li>Media capture and documentation</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Design data models in QGIS and keep field and office aligned with QFieldCloud.</p>
+]]></content:encoded>
+      <category domain="categories">Specialized &amp; Emerging Use Cases</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">digital twin</category>
+      <category domain="tags">infrastructure</category>
+    </item>
+    
+    <item>
+      <title>QField for LiDAR and Photogrammetry Ground Control</title>
+      <link>https://qfield.org/pr-preview/pr-71/solutions/lidar-and-photogrammetry-ground-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-71/solutions/lidar-and-photogrammetry-ground-control/</guid>
+      
+      <description>Plan and collect ground control points for LiDAR and photogrammetry with mobile GIS and GNSS.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Plan and stake out GCPs</li>
+<li>Record positions and evidence</li>
+<li>Export to GIS and processing workflows</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Prepare targets in QGIS and collaborate with teams via QFieldCloud.</p>
+]]></content:encoded>
+      <category domain="categories">Specialized &amp; Emerging Use Cases</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">LiDAR</category>
+      <category domain="tags">photogrammetry</category>
+      <category domain="tags">GCP</category>
+    </item>
+    
+    <item>
+      <title>QField for Remote Asset Inspection</title>
+      <link>https://qfield.org/pr-preview/pr-71/solutions/remote-asset-inspection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-71/solutions/remote-asset-inspection/</guid>
+      
+      <description>Inspect remote assets with offline mobile GIS, high-accuracy GNSS, and photo evidence.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Inspections and maintenance logs</li>
+<li>Photo and note documentation</li>
+<li>Sync to QGIS and QFieldCloud for reviews</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Prepare projects in QGIS and coordinate teams with QFieldCloud.</p>
+]]></content:encoded>
+      <category domain="categories">Specialized &amp; Emerging Use Cases</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">asset inspection</category>
+      <category domain="tags">remote sites</category>
+    </item>
+    
+  </channel>
+</rss>
