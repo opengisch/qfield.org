@@ -262,7 +262,7 @@
  made a bold and visionary leap by launching MTTJ, a fully open-source topographic data production system built on QGIS, QField, and other open technologies. This landmark initiative makes Finland the <strong>first country in the world to adopt a fully open-source GIS</strong> environment for national-scale topographic data production.</p>
 <p>Developed over several years and officially rolled out in spring 2025, MTTJ gradually replaces legacy proprietary systems with a modern, efficient, and extensible solution tailored to NLS’s evolving needs — all while promoting transparency, interoperability, and long-term sustainability. As part of this open architecture, <strong>QField will play a key role</strong> , empowering field teams to collect and validate data efficiently, even in remote locations. Use of QField is being piloted over summer 2025 and will be gradually taken up for full production use towards the autumn.</p>
 <blockquote>
-<p>“QField lets our field staff work smarter and faster, even in the most remote corners of Finland. It’s a vital part of our open-source geospatial infrastructure.”
+<p>“QField lets our field  staff work smarter and faster, even in the most remote corners of Finland. It’s a vital part of our open-source geospatial infrastructure.”
 — <em>Jani Kylmäaho, Director of Development and Digitalization, National Land Survey of Finland</em></p>
 </blockquote>
 <p>Throughout the development of MTTJ, the National Land Survey of Finland actively engaged with the QField project, contributing not only feedback and use cases, but also <strong>procuring for the development of new functionalities key to NLS use cases to QField core.</strong> This close collaboration ensured that QField evolved to meet the demanding requirements of national-scale field data workflows and continues to benefit the wider open-source geospatial community.</p>
@@ -275,12 +275,12 @@
 <li>Tight integration with QField for field data collection</li>
 </ul>
 <p>All core components were built with <strong>open-source principles</strong> in mind — and many will be shared with the global QGIS and OSGeo community.</p>
-<p><figure class="figure text-center mb-4"><img src="/images/customer/nls3.jpg"
+<p><figure class="figure text-center ss-image mb-4"><img src="/images/customer/nls3.jpg"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
 
-<figure class="figure text-center mb-4"><img src="/images/customer/nls4.jpg"
+<figure class="figure text-center ss-image mb-4"><img src="/images/customer/nls4.jpg"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>

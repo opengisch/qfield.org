@@ -397,7 +397,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942636-446893867"
+     data-gallery-id="gallery-1779975593-564984638"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -425,7 +425,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1779942636-446893867 .carousel-item .gallery-img {
+#gallery-1779975593-564984638 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -433,11 +433,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1779942636-446893867 .carousel-item {
+#gallery-1779975593-564984638 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942636-446893867 .carousel-item .figure {
+#gallery-1779975593-564984638 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -446,11 +446,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1779942636-446893867 .carousel-item .figure .gallery-img {
+#gallery-1779975593-564984638 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942636-446893867 .carousel-item .figure .figure-caption {
+#gallery-1779975593-564984638 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -459,13 +459,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942636-446893867 .carousel-item .gallery-img {
+  #gallery-1779975593-564984638 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942636-446893867 .carousel-item .gallery-img {
+  #gallery-1779975593-564984638 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -797,7 +797,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
  made a bold and visionary leap by launching MTTJ, a fully open-source topographic data production system built on QGIS, QField, and other open technologies. This landmark initiative makes Finland the <strong>first country in the world to adopt a fully open-source GIS</strong> environment for national-scale topographic data production.</p>
 <p>Developed over several years and officially rolled out in spring 2025, MTTJ gradually replaces legacy proprietary systems with a modern, efficient, and extensible solution tailored to NLS’s evolving needs — all while promoting transparency, interoperability, and long-term sustainability. As part of this open architecture, <strong>QField will play a key role</strong> , empowering field teams to collect and validate data efficiently, even in remote locations. Use of QField is being piloted over summer 2025 and will be gradually taken up for full production use towards the autumn.</p>
 <blockquote>
-<p>“QField lets our field staff work smarter and faster, even in the most remote corners of Finland. It’s a vital part of our open-source geospatial infrastructure.”
+<p>“QField lets our field  staff work smarter and faster, even in the most remote corners of Finland. It’s a vital part of our open-source geospatial infrastructure.”
 — <em>Jani Kylmäaho, Director of Development and Digitalization, National Land Survey of Finland</em></p>
 </blockquote>
 <p>Throughout the development of MTTJ, the National Land Survey of Finland actively engaged with the QField project, contributing not only feedback and use cases, but also <strong>procuring for the development of new functionalities key to NLS use cases to QField core.</strong> This close collaboration ensured that QField evolved to meet the demanding requirements of national-scale field data workflows and continues to benefit the wider open-source geospatial community.</p>
@@ -810,12 +810,12 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 <li>Tight integration with QField for field data collection</li>
 </ul>
 <p>All core components were built with <strong>open-source principles</strong> in mind — and many will be shared with the global QGIS and OSGeo community.</p>
-<p><figure class="figure text-center mb-4"><img src="/images/customer/nls3.jpg"
+<p><figure class="figure text-center ss-image mb-4"><img src="/images/customer/nls3.jpg"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
 
-<figure class="figure text-center mb-4"><img src="/images/customer/nls4.jpg"
+<figure class="figure text-center ss-image mb-4"><img src="/images/customer/nls4.jpg"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
@@ -1156,7 +1156,7 @@ Even in this case, the QGIS “print composer” allows us to develop customised
 <p>This five-year conservation initiative receives funding from both the EU (80%) and the state of Saxony (20%), with specific objectives to track fire salamander populations and assess their environments. What began as a solo monitoring effort has expanded to include four dedicated field workers who collect data systematically across numerous streams.</p>
 <p><em>&ldquo;Fire salamanders are indicators of environments that have remained largely untouched for extended periods and streams with clean water,&rdquo;</em> explains the project coordinator, who has a background in environmental monitoring. <em>&ldquo;We&rsquo;ve discovered they can adapt to various conditions, which tells us important information about our local ecosystems.&rdquo;</em></p>
 <figure class="figure text-center mb-4"><img src="/success-stories/fire-salamanders/salamander-1_hu_3f93c71f1d58a83a.JPG" srcset="/success-stories/fire-salamanders/salamander-1_hu_3f93c71f1d58a83a.JPG 1x, /success-stories/fire-salamanders/salamander-1_hu_67bbee0446dfa4bd.JPG 2x"
-         alt="enter alt" 
+         alt="fire salamanders" 
          class="figure-img img-fluid gallery-img" width="1200" height="1200"
          loading="lazy"></figure>
 
@@ -1654,7 +1654,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942386-65811438"
+     data-gallery-id="gallery-1779975343-455469151"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1682,7 +1682,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 <style>
  
-#gallery-1779942386-65811438 .carousel-item .gallery-img {
+#gallery-1779975343-455469151 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1690,11 +1690,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   display: block !important;
 }
 
-#gallery-1779942386-65811438 .carousel-item {
+#gallery-1779975343-455469151 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942386-65811438 .carousel-item .figure {
+#gallery-1779975343-455469151 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1703,11 +1703,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   text-align: center;
 }
 
-#gallery-1779942386-65811438 .carousel-item .figure .gallery-img {
+#gallery-1779975343-455469151 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942386-65811438 .carousel-item .figure .figure-caption {
+#gallery-1779975343-455469151 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1716,13 +1716,13 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942386-65811438 .carousel-item .gallery-img {
+  #gallery-1779975343-455469151 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942386-65811438 .carousel-item .gallery-img {
+  #gallery-1779975343-455469151 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1773,7 +1773,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942387-882492122"
+     data-gallery-id="gallery-1779975345-196074864"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1801,7 +1801,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 <style>
  
-#gallery-1779942387-882492122 .carousel-item .gallery-img {
+#gallery-1779975345-196074864 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1809,11 +1809,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1779942387-882492122 .carousel-item {
+#gallery-1779975345-196074864 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942387-882492122 .carousel-item .figure {
+#gallery-1779975345-196074864 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1822,11 +1822,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1779942387-882492122 .carousel-item .figure .gallery-img {
+#gallery-1779975345-196074864 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942387-882492122 .carousel-item .figure .figure-caption {
+#gallery-1779975345-196074864 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1835,13 +1835,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942387-882492122 .carousel-item .gallery-img {
+  #gallery-1779975345-196074864 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942387-882492122 .carousel-item .gallery-img {
+  #gallery-1779975345-196074864 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1860,7 +1860,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942390-490595466"
+     data-gallery-id="gallery-1779975347-639865293"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1888,7 +1888,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1779942390-490595466 .carousel-item .gallery-img {
+#gallery-1779975347-639865293 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1896,11 +1896,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1779942390-490595466 .carousel-item {
+#gallery-1779975347-639865293 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942390-490595466 .carousel-item .figure {
+#gallery-1779975347-639865293 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1909,11 +1909,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1779942390-490595466 .carousel-item .figure .gallery-img {
+#gallery-1779975347-639865293 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942390-490595466 .carousel-item .figure .figure-caption {
+#gallery-1779975347-639865293 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1922,13 +1922,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942390-490595466 .carousel-item .gallery-img {
+  #gallery-1779975347-639865293 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942390-490595466 .carousel-item .gallery-img {
+  #gallery-1779975347-639865293 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1949,7 +1949,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942393-370693200"
+     data-gallery-id="gallery-1779975350-590481039"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1977,7 +1977,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1779942393-370693200 .carousel-item .gallery-img {
+#gallery-1779975350-590481039 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1985,11 +1985,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1779942393-370693200 .carousel-item {
+#gallery-1779975350-590481039 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942393-370693200 .carousel-item .figure {
+#gallery-1779975350-590481039 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1998,11 +1998,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1779942393-370693200 .carousel-item .figure .gallery-img {
+#gallery-1779975350-590481039 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942393-370693200 .carousel-item .figure .figure-caption {
+#gallery-1779975350-590481039 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2011,13 +2011,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942393-370693200 .carousel-item .gallery-img {
+  #gallery-1779975350-590481039 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942393-370693200 .carousel-item .gallery-img {
+  #gallery-1779975350-590481039 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3015,7 +3015,7 @@ loading="lazy"&gt;&lt;/figure&gt;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942394-208642075"
+     data-gallery-id="gallery-1779975351-498369417"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3061,7 +3061,7 @@ loading="lazy"&gt;&lt;/figure&gt;
 
 <style>
  
-#gallery-1779942394-208642075 .carousel-item .gallery-img {
+#gallery-1779975351-498369417 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3069,11 +3069,11 @@ loading="lazy"&gt;&lt;/figure&gt;
   display: block !important;
 }
 
-#gallery-1779942394-208642075 .carousel-item {
+#gallery-1779975351-498369417 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942394-208642075 .carousel-item .figure {
+#gallery-1779975351-498369417 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3082,11 +3082,11 @@ loading="lazy"&gt;&lt;/figure&gt;
   text-align: center;
 }
 
-#gallery-1779942394-208642075 .carousel-item .figure .gallery-img {
+#gallery-1779975351-498369417 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942394-208642075 .carousel-item .figure .figure-caption {
+#gallery-1779975351-498369417 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3095,13 +3095,13 @@ loading="lazy"&gt;&lt;/figure&gt;
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942394-208642075 .carousel-item .gallery-img {
+  #gallery-1779975351-498369417 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942394-208642075 .carousel-item .gallery-img {
+  #gallery-1779975351-498369417 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3440,7 +3440,7 @@ Cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942383-964853425"
+     data-gallery-id="gallery-1779975340-917563930"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3469,7 +3469,7 @@ Cheers</p>
 
 <style>
  
-#gallery-1779942383-964853425 .carousel-item .gallery-img {
+#gallery-1779975340-917563930 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3477,11 +3477,11 @@ Cheers</p>
   display: block !important;
 }
 
-#gallery-1779942383-964853425 .carousel-item {
+#gallery-1779975340-917563930 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942383-964853425 .carousel-item .figure {
+#gallery-1779975340-917563930 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3490,11 +3490,11 @@ Cheers</p>
   text-align: center;
 }
 
-#gallery-1779942383-964853425 .carousel-item .figure .gallery-img {
+#gallery-1779975340-917563930 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942383-964853425 .carousel-item .figure .figure-caption {
+#gallery-1779975340-917563930 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3503,13 +3503,13 @@ Cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942383-964853425 .carousel-item .gallery-img {
+  #gallery-1779975340-917563930 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942383-964853425 .carousel-item .gallery-img {
+  #gallery-1779975340-917563930 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3575,7 +3575,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942387-216776461"
+     data-gallery-id="gallery-1779975343-655447023"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3610,7 +3610,7 @@ cheers</p>
 
 <style>
  
-#gallery-1779942387-216776461 .carousel-item .gallery-img {
+#gallery-1779975343-655447023 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3618,11 +3618,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1779942387-216776461 .carousel-item {
+#gallery-1779975343-655447023 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942387-216776461 .carousel-item .figure {
+#gallery-1779975343-655447023 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3631,11 +3631,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1779942387-216776461 .carousel-item .figure .gallery-img {
+#gallery-1779975343-655447023 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942387-216776461 .carousel-item .figure .figure-caption {
+#gallery-1779975343-655447023 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3644,13 +3644,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942387-216776461 .carousel-item .gallery-img {
+  #gallery-1779975343-655447023 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942387-216776461 .carousel-item .gallery-img {
+  #gallery-1779975343-655447023 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3671,7 +3671,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942389-844729662"
+     data-gallery-id="gallery-1779975346-219562757"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3709,7 +3709,7 @@ cheers</p>
 
 <style>
  
-#gallery-1779942389-844729662 .carousel-item .gallery-img {
+#gallery-1779975346-219562757 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3717,11 +3717,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1779942389-844729662 .carousel-item {
+#gallery-1779975346-219562757 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942389-844729662 .carousel-item .figure {
+#gallery-1779975346-219562757 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3730,11 +3730,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1779942389-844729662 .carousel-item .figure .gallery-img {
+#gallery-1779975346-219562757 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942389-844729662 .carousel-item .figure .figure-caption {
+#gallery-1779975346-219562757 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3743,13 +3743,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942389-844729662 .carousel-item .gallery-img {
+  #gallery-1779975346-219562757 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942389-844729662 .carousel-item .gallery-img {
+  #gallery-1779975346-219562757 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3991,7 +3991,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942633-528703549"
+     data-gallery-id="gallery-1779975590-636890673"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4013,7 +4013,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 <style>
  
-#gallery-1779942633-528703549 .carousel-item .gallery-img {
+#gallery-1779975590-636890673 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4021,11 +4021,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   display: block !important;
 }
 
-#gallery-1779942633-528703549 .carousel-item {
+#gallery-1779975590-636890673 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942633-528703549 .carousel-item .figure {
+#gallery-1779975590-636890673 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4034,11 +4034,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   text-align: center;
 }
 
-#gallery-1779942633-528703549 .carousel-item .figure .gallery-img {
+#gallery-1779975590-636890673 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942633-528703549 .carousel-item .figure .figure-caption {
+#gallery-1779975590-636890673 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4047,13 +4047,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942633-528703549 .carousel-item .gallery-img {
+  #gallery-1779975590-636890673 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942633-528703549 .carousel-item .gallery-img {
+  #gallery-1779975590-636890673 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4215,7 +4215,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942404-822432284"
+     data-gallery-id="gallery-1779975361-420814857"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4244,7 +4244,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 <style>
  
-#gallery-1779942404-822432284 .carousel-item .gallery-img {
+#gallery-1779975361-420814857 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4252,11 +4252,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   display: block !important;
 }
 
-#gallery-1779942404-822432284 .carousel-item {
+#gallery-1779975361-420814857 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942404-822432284 .carousel-item .figure {
+#gallery-1779975361-420814857 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4265,11 +4265,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   text-align: center;
 }
 
-#gallery-1779942404-822432284 .carousel-item .figure .gallery-img {
+#gallery-1779975361-420814857 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942404-822432284 .carousel-item .figure .figure-caption {
+#gallery-1779975361-420814857 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4278,13 +4278,13 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942404-822432284 .carousel-item .gallery-img {
+  #gallery-1779975361-420814857 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942404-822432284 .carousel-item .gallery-img {
+  #gallery-1779975361-420814857 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4400,7 +4400,7 @@ and &lt;a href="https://twitter.com/QFieldForQGIS" target="_blank" rel="noopener
 worth 550€&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="gallery-wrapper"
-data-gallery-id="gallery-1779942635-779189524"
+data-gallery-id="gallery-1779975592-879791740"
 data-autoplay="false"
 data-interval="5000"
 data-controls="true"
@@ -4427,17 +4427,17 @@ loading="lazy"&gt;
 &lt;figcaption class="figure-caption text-center"&gt;Assets management&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/div&gt;
 &lt;style&gt;
-#gallery-1779942635-779189524 .carousel-item .gallery-img {
+#gallery-1779975592-879791740 .carousel-item .gallery-img {
 height: 400px !important;
 width: 100% !important;
 object-fit: cover !important;
 object-position: center center !important;
 display: block !important;
 }
-#gallery-1779942635-779189524 .carousel-item {
+#gallery-1779975592-879791740 .carousel-item {
 height: auto;
 }
-#gallery-1779942635-779189524 .carousel-item .figure {
+#gallery-1779975592-879791740 .carousel-item .figure {
 margin: 0;
 width: 100%;
 display: flex;
@@ -4445,10 +4445,10 @@ justify-content: center;
 position: relative;
 text-align: center;
 }
-#gallery-1779942635-779189524 .carousel-item .figure .gallery-img {
+#gallery-1779975592-879791740 .carousel-item .figure .gallery-img {
 width: 100% !important;
 }
-#gallery-1779942635-779189524 .carousel-item .figure .figure-caption {
+#gallery-1779975592-879791740 .carousel-item .figure .figure-caption {
 position: absolute;
 bottom: 1rem;
 left: 50%;
@@ -4456,12 +4456,12 @@ transform: translateX(-50%);
 margin: 0;
 }
 @media (max-width: 768px) {
-#gallery-1779942635-779189524 .carousel-item .gallery-img {
+#gallery-1779975592-879791740 .carousel-item .gallery-img {
 height: 300px !important;
 }
 }
 @media (max-width: 576px) {
-#gallery-1779942635-779189524 .carousel-item .gallery-img {
+#gallery-1779975592-879791740 .carousel-item .gallery-img {
 height: 250px !important;
 }
 }
@@ -4491,7 +4491,7 @@ height: 250px !important;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942635-779189524"
+     data-gallery-id="gallery-1779975592-879791740"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4526,7 +4526,7 @@ height: 250px !important;
 
 <style>
  
-#gallery-1779942635-779189524 .carousel-item .gallery-img {
+#gallery-1779975592-879791740 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4534,11 +4534,11 @@ height: 250px !important;
   display: block !important;
 }
 
-#gallery-1779942635-779189524 .carousel-item {
+#gallery-1779975592-879791740 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942635-779189524 .carousel-item .figure {
+#gallery-1779975592-879791740 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4547,11 +4547,11 @@ height: 250px !important;
   text-align: center;
 }
 
-#gallery-1779942635-779189524 .carousel-item .figure .gallery-img {
+#gallery-1779975592-879791740 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942635-779189524 .carousel-item .figure .figure-caption {
+#gallery-1779975592-879791740 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4560,13 +4560,13 @@ height: 250px !important;
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942635-779189524 .carousel-item .gallery-img {
+  #gallery-1779975592-879791740 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942635-779189524 .carousel-item .gallery-img {
+  #gallery-1779975592-879791740 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4700,7 +4700,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942399-610675266"
+     data-gallery-id="gallery-1779975356-365612824"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4729,7 +4729,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1779942399-610675266 .carousel-item .gallery-img {
+#gallery-1779975356-365612824 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4737,11 +4737,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1779942399-610675266 .carousel-item {
+#gallery-1779975356-365612824 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942399-610675266 .carousel-item .figure {
+#gallery-1779975356-365612824 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4750,11 +4750,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1779942399-610675266 .carousel-item .figure .gallery-img {
+#gallery-1779975356-365612824 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942399-610675266 .carousel-item .figure .figure-caption {
+#gallery-1779975356-365612824 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4763,13 +4763,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942399-610675266 .carousel-item .gallery-img {
+  #gallery-1779975356-365612824 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942399-610675266 .carousel-item .gallery-img {
+  #gallery-1779975356-365612824 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4788,7 +4788,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942399-611220240"
+     data-gallery-id="gallery-1779975356-366144200"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4879,7 +4879,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1779942399-611220240 .carousel-item .gallery-img {
+#gallery-1779975356-366144200 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4887,11 +4887,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1779942399-611220240 .carousel-item {
+#gallery-1779975356-366144200 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942399-611220240 .carousel-item .figure {
+#gallery-1779975356-366144200 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4900,11 +4900,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1779942399-611220240 .carousel-item .figure .gallery-img {
+#gallery-1779975356-366144200 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942399-611220240 .carousel-item .figure .figure-caption {
+#gallery-1779975356-366144200 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4913,13 +4913,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942399-611220240 .carousel-item .gallery-img {
+  #gallery-1779975356-366144200 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942399-611220240 .carousel-item .gallery-img {
+  #gallery-1779975356-366144200 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5382,24 +5382,24 @@ QField is an Open Source project led by OPENGIS.ch LLC, more <a href="/android-g
 Also if you need a specific feature, <a href="/contact/">contact us</a>
  to sponsor its development.</p>
 ]]></content:encoded><category domain="categories">android-qgis</category><category domain="categories">featured</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>A star is born, QGIS mobile is now QField</title><link>https://qfield.org/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</link><pubDate>Wed, 28 Jan 2015 08:02:57 +0000</pubDate><guid>https://qfield.org/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</guid><description>&lt;div class="gallery-wrapper"
-data-gallery-id="gallery-1779942404-593085370"
+data-gallery-id="gallery-1779975417-414497753"
 data-autoplay="false"
 data-interval="5000"
 data-controls="true"
 data-indicators="true"&gt;
 &lt;/div&gt;
 &lt;style&gt;
-#gallery-1779942404-593085370 .carousel-item .gallery-img {
+#gallery-1779975417-414497753 .carousel-item .gallery-img {
 height: 400px !important;
 width: 100% !important;
 object-fit: cover !important;
 object-position: center center !important;
 display: block !important;
 }
-#gallery-1779942404-593085370 .carousel-item {
+#gallery-1779975417-414497753 .carousel-item {
 height: auto;
 }
-#gallery-1779942404-593085370 .carousel-item .figure {
+#gallery-1779975417-414497753 .carousel-item .figure {
 margin: 0;
 width: 100%;
 display: flex;
@@ -5407,10 +5407,10 @@ justify-content: center;
 position: relative;
 text-align: center;
 }
-#gallery-1779942404-593085370 .carousel-item .figure .gallery-img {
+#gallery-1779975417-414497753 .carousel-item .figure .gallery-img {
 width: 100% !important;
 }
-#gallery-1779942404-593085370 .carousel-item .figure .figure-caption {
+#gallery-1779975417-414497753 .carousel-item .figure .figure-caption {
 position: absolute;
 bottom: 1rem;
 left: 50%;
@@ -5418,12 +5418,12 @@ transform: translateX(-50%);
 margin: 0;
 }
 @media (max-width: 768px) {
-#gallery-1779942404-593085370 .carousel-item .gallery-img {
+#gallery-1779975417-414497753 .carousel-item .gallery-img {
 height: 300px !important;
 }
 }
 @media (max-width: 576px) {
-#gallery-1779942404-593085370 .carousel-item .gallery-img {
+#gallery-1779975417-414497753 .carousel-item .gallery-img {
 height: 250px !important;
 }
 }
@@ -5435,7 +5435,7 @@ height: 250px !important;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942404-593085370"
+     data-gallery-id="gallery-1779975417-414497753"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5445,7 +5445,7 @@ height: 250px !important;
 
 <style>
  
-#gallery-1779942404-593085370 .carousel-item .gallery-img {
+#gallery-1779975417-414497753 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5453,11 +5453,11 @@ height: 250px !important;
   display: block !important;
 }
 
-#gallery-1779942404-593085370 .carousel-item {
+#gallery-1779975417-414497753 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942404-593085370 .carousel-item .figure {
+#gallery-1779975417-414497753 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5466,11 +5466,11 @@ height: 250px !important;
   text-align: center;
 }
 
-#gallery-1779942404-593085370 .carousel-item .figure .gallery-img {
+#gallery-1779975417-414497753 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942404-593085370 .carousel-item .figure .figure-caption {
+#gallery-1779975417-414497753 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5479,13 +5479,13 @@ height: 250px !important;
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942404-593085370 .carousel-item .gallery-img {
+  #gallery-1779975417-414497753 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942404-593085370 .carousel-item .gallery-img {
+  #gallery-1779975417-414497753 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5548,7 +5548,7 @@ If you have a use-case for it and would like to support its development don’t 
 We are are also available for helping you with any idea and project you might have and to give ad-hoc courses that cover topics related to (Q)GIS and programming.</p>
 <p>All the best</p>
 <p>Marco and Matthias</p>
-]]></content:encoded><category domain="categories">android-qgis</category><category domain="categories">featured</category><category domain="categories">qfield</category><category domain="tags">qgis.org</category></item><item><title>A Digital Public Good Supporting Sustainable Development Goals</title><link>https://qfield.org/sdgs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/sdgs/</guid><description/><content:encoded></content:encoded></item><item><title>All</title><link>https://qfield.org/all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/all/</guid><description>archives</description><content:encoded></content:encoded></item><item><title>ArduSimple</title><link>https://qfield.org/landing/ardusimple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/landing/ardusimple/</guid><description>Temporary landing page</description><content:encoded><![CDATA[<p>QField works seamlessly with ArduSimple RTK GNSS receivers to deliver reliable, survey-grade positioning for professional field data collection. Capture precise points, lines, and boundaries directly in your QGIS projects and compare them with authoritative datasets such as cadastral maps.</p>
+]]></content:encoded><category domain="categories">android-qgis</category><category domain="categories">featured</category><category domain="categories">qfield</category><category domain="tags">qgis.org</category></item><item><title/><link>https://qfield.org/landing/ardusimple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/landing/ardusimple/</guid><description>Ardusimple RTK GNSS</description><content:encoded><![CDATA[<p>QField works seamlessly with ArduSimple RTK GNSS receivers to deliver reliable, survey-grade positioning for professional field data collection. Capture precise points, lines, and boundaries directly in your QGIS projects and compare them with authoritative datasets such as cadastral maps.</p>
 <p>On Android devices, QField can connect directly to compatible GNSS receivers via Bluetooth or USB for real-time positioning. On iPhone and iPad, external receivers connect over Wi-Fi, enabling high-accuracy positioning and RTK corrections within iOS constraints. In both cases, you can verify property boundaries, map infrastructure, or document land features with confidence.</p>
 <p>Combined with <strong><a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
 </strong>, field data flows instantly between your team and the office. Projects, basemaps, and updates stay synchronized, enabling real-time collaboration, version control, and centralized management of your survey workflows.</p>
@@ -5562,14 +5562,145 @@ We are are also available for helping you with any idea and project you might ha
 </ul>
 <h3 id="learn-more">Learn more</h3>
 <p>For step-by-step tutorials using ArduSimple receivers with QField:</p>
-<p>👉 Android (boundary surveying and cadastral verification):<br>
-<a href="https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/" target="_blank" rel="noopener">https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/</a>
+<p>👉 <a href="https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/" target="_blank" rel="noopener">Android (boundary surveying and cadastral verification)</a>
 </p>
-<p>👉 iOS (connecting an external RTK receiver to QField):<br>
-<a href="https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/" target="_blank" rel="noopener">https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/</a>
+<p>👉 <a href="https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/" target="_blank" rel="noopener">iOS (connecting an external RTK receiver to QField)</a>
 </p>
-<p>This is a Work in progres and will be replaced with final campaign content.</p>
-]]></content:encoded></item><item><title>QField for Academic Field Studies</title><link>https://qfield.org/solutions/academic-field-studies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/academic-field-studies/</guid><description>Mobile GIS for teaching and research fieldwork with offline mapping, forms, and collaboration.</description><content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<p>This is a work in progress and will be replaced with final campaign content.</p>
+]]></content:encoded></item><item><title/><link>https://qfield.org/landing/newsletter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/landing/newsletter/</guid><description>Get the latest QField news, tips, and release highlights delivered straight to your inbox.</description><content:encoded><![CDATA[<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+<style>
+  .qfield-newsletter-form {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .qfield-newsletter-form .sib-form {
+    background: transparent;
+    padding: 0;
+  }
+
+  .qfield-newsletter-form .sib-form-message-panel {
+    display: none;
+  }
+</style>
+
+<div class="qfield-newsletter-form">
+  <div class="sib-form">
+    <div id="sib-form-container" class="sib-form-container">
+      <div id="error-message" class="sib-form-message-panel" style="display:none;font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;max-width:540px;">
+        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+          <span class="sib-form-message-panel__inner-text">Your subscription could not be saved. Please try again.</span>
+        </div>
+      </div>
+
+      <div id="success-message" class="sib-form-message-panel" style="display:none;font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#085229;background-color:#e7faf0;border-radius:3px;border-color:#13ce66;max-width:540px;">
+        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+          <span class="sib-form-message-panel__inner-text">Your subscription has been successful.</span>
+        </div>
+      </div>
+
+      <div id="sib-container" class="sib-container--large sib-container--horizontal" style="text-align:center;background-color:transparent;max-width:540px;border-radius:3px;border-width:0;border-color:#C0CCD9;border-style:solid;direction:ltr">
+        <form id="sib-form" method="POST" action="https://b678e710.sibforms.com/serve/MUIFAHQl1n1AB8LkwmautCLnQaxzwRb-yP-fIrVWhiH7H1b1NoTycz52yOvfCN31Oyk1KpQDqKAz6v1vo_FvCAeH5jFygdGfVf-n2LOowx1r7elvPNx7sGUylFHJaRwKs1LLuZHXYUK1PbW5QBt3SA57prt9IzPcZ5nPzFsHlVcH_NeuKJFf0TlpQipuHFPgtZz-o0ygLW5BHtij" data-type="subscription">
+          <div style="padding:8px 0;">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row form__label-row--horizontal">
+                  <div class="entry__field">
+                    <input class="input" type="email" id="EMAIL" name="EMAIL" autocomplete="email" placeholder="EMAIL" data-required="true" required>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row form__label-row--horizontal">
+                  <div class="entry__field">
+                    <input class="input" maxlength="200" type="text" id="FIRSTNAME" name="FIRSTNAME" autocomplete="given-name" placeholder="FIRSTNAME" data-required="true" required>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row form__label-row--horizontal">
+                  <div class="entry__field">
+                    <input class="input" maxlength="200" type="text" id="LASTNAME" name="LASTNAME" autocomplete="family-name" placeholder="LASTNAME" data-required="true" required>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row form__label-row--horizontal">
+                  <div class="entry__field">
+                    <input class="input" maxlength="2" minlength="2" pattern="[A-Za-z]{2}" type="text" id="COUNTRY_CODE" name="COUNTRY_CODE" autocomplete="country" autocapitalize="characters" placeholder="2 letter country code" data-required="true" required>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-optin sib-form-block">
+              <div class="form__entry entry_mcq">
+                <div class="form__label-row form__label-row--horizontal">
+                  <div class="entry__choice">
+                    <label>
+                      <input type="checkbox" class="input_replaced" value="1" id="VERIFIED" name="VERIFIED" data-required="true" required>
+                      <span class="checkbox checkbox_tick_positive"></span>
+                      <span style="font-size:14px;text-align:left;font-family:Helvetica,sans-serif;color:#3C4858;background-color:transparent;">I agree to receive your newsletters and accept the data privacy statement.</span>
+                    </label>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
+                <label class="entry__specification" style="font-size:12px;text-align:left;font-family:Helvetica,sans-serif;color:#8390A4;text-align:left">You may unsubscribe at any time using the link in our newsletter.</label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAABhnveewR0onanou" data-explicit-render data-language="en"></div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-form__declaration" style="direction:ltr">
+              <div style="font-size:14px;text-align:left;font-family:Helvetica,sans-serif;color:#687484;background-color:transparent;">
+                <p>We use Brevo as our marketing platform. By submitting this form you agree that the personal data you provided will be transferred to Brevo for processing in accordance with <a href="https://www.brevo.com/en/legal/privacypolicy/">Brevo's Privacy Policy.</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-form-block" style="text-align:left">
+              <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px;text-align:left;font-weight:700;font-family:Helvetica,sans-serif;color:#fff;background-color:var(--qfield-color);border-radius:3px;border-width:0;" form="sib-form" type="submit">Join now</button>
+            </div>
+          </div>
+
+          <input type="text" name="email_address_check" value="" class="input--hidden">
+          <input type="hidden" name="locale" value="en">
+        </form>
+      </div>
+    </div>
+  </div>
+</div><script src="/js/newsletter-form.min.fc8b3015ff8c46b61b08fbe1ba7a73d47924fa322f15ffc925149979c3dad930f33e5afcfe6ab8d863973e89e4c3f869d8457bcb2878580ba378535974ba1dea.js" integrity="sha512-/IswFf&#43;MRrYbCPvhunpz1Hkk&#43;jIvFf/JJRSZecPa2TDzPlr8/mq42GOXPonkw/hp2EV7yyh4WAujeFNZdLod6g==" crossorigin="anonymous"></script>
+<script async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=qfieldNewsletterTurnstileOnLoad&render=explicit" data-cfasync="false"></script>
+
+<hr>
+<p>We respect your privacy. You can unsubscribe at any time.</p>
+]]></content:encoded></item><item><title>A Digital Public Good Supporting Sustainable Development Goals</title><link>https://qfield.org/sdgs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/sdgs/</guid><description/><content:encoded></content:encoded></item><item><title>All</title><link>https://qfield.org/all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/all/</guid><description>archives</description><content:encoded></content:encoded></item><item><title>QField for Academic Field Studies</title><link>https://qfield.org/solutions/academic-field-studies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/academic-field-studies/</guid><description>Mobile GIS for teaching and research fieldwork with offline mapping, forms, and collaboration.</description><content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
 <ul>
 <li>Field mapping exercises and labs</li>
 <li>Research data collection and QA</li>
@@ -6033,152 +6164,4 @@ We are are also available for helping you with any idea and project you might ha
 </ul>
 <h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
 <p>Prepare symbology and forms in QGIS, then sync projects with QFieldCloud to collaborate across teams.</p>
-]]></content:encoded><category domain="categories">Environment, Agriculture &amp; Natural Resources</category><category domain="tags">field data collection</category><category domain="tags">mobile GIS</category><category domain="tags">QGIS fieldwork</category><category domain="tags">wildlife</category><category domain="tags">habitat mapping</category><category domain="tags">tracking</category></item><item><title>Search</title><link>https://qfield.org/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/search/</guid><description>Search</description><content:encoded></content:encoded></item><item><title>Stay in the loop with QField - 13.05.2026 - 11:57</title><link>https://qfield.org/landing/newsletter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/landing/newsletter/</guid><description>Get the latest QField news, tips, and release highlights delivered straight to your inbox.</description><content:encoded><![CDATA[<h3 id="why-subscribe">Why subscribe?</h3>
-<p>QField is evolving fast. Our newsletter keeps you informed without the noise:</p>
-<ul>
-<li><strong>Release highlights</strong> — know what&rsquo;s new and what changed before you update in the field</li>
-<li><strong>Tips &amp; workflows</strong> — practical advice from the community and the core team</li>
-<li><strong>QFieldCloud news</strong> — collaboration features, new plans, and service updates</li>
-<li><strong>Events &amp; webinars</strong> — meet the team and learn from other field professionals</li>
-</ul>
-<p>Sign up below and join thousands of surveyors, ecologists, engineers, and GIS professionals who use QField every day.</p>
-<hr>
-<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
-<style>
-  .qfield-newsletter-form {
-    max-width: 540px;
-    margin: 0 auto;
-  }
-
-  .qfield-newsletter-form .sib-form {
-    background: transparent;
-    padding: 0;
-  }
-
-  .qfield-newsletter-form .sib-form-message-panel {
-    display: none;
-  }
-</style>
-
-<div class="qfield-newsletter-form">
-  <div class="sib-form">
-    <div id="sib-form-container" class="sib-form-container">
-      <div id="error-message" class="sib-form-message-panel" style="display:none;font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;max-width:540px;">
-        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
-          <span class="sib-form-message-panel__inner-text">Your subscription could not be saved. Please try again.</span>
-        </div>
-      </div>
-
-      <div id="success-message" class="sib-form-message-panel" style="display:none;font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#085229;background-color:#e7faf0;border-radius:3px;border-color:#13ce66;max-width:540px;">
-        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
-          <span class="sib-form-message-panel__inner-text">Your subscription has been successful.</span>
-        </div>
-      </div>
-
-      <div id="sib-container" class="sib-container--large sib-container--horizontal" style="text-align:center;background-color:transparent;max-width:540px;border-radius:3px;border-width:0;border-color:#C0CCD9;border-style:solid;direction:ltr">
-        <form id="sib-form" method="POST" action="https://b678e710.sibforms.com/serve/MUIFAHQl1n1AB8LkwmautCLnQaxzwRb-yP-fIrVWhiH7H1b1NoTycz52yOvfCN31Oyk1KpQDqKAz6v1vo_FvCAeH5jFygdGfVf-n2LOowx1r7elvPNx7sGUylFHJaRwKs1LLuZHXYUK1PbW5QBt3SA57prt9IzPcZ5nPzFsHlVcH_NeuKJFf0TlpQipuHFPgtZz-o0ygLW5BHtij" data-type="subscription">
-          <div style="padding:8px 0;">
-            <div class="sib-input sib-form-block">
-              <div class="form__entry entry_block">
-                <div class="form__label-row form__label-row--horizontal">
-                  <div class="entry__field">
-                    <input class="input" type="email" id="EMAIL" name="EMAIL" autocomplete="email" placeholder="EMAIL" data-required="true" required>
-                  </div>
-                </div>
-                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
-              </div>
-            </div>
-          </div>
-
-          <div style="padding:8px 0;">
-            <div class="sib-input sib-form-block">
-              <div class="form__entry entry_block">
-                <div class="form__label-row form__label-row--horizontal">
-                  <div class="entry__field">
-                    <input class="input" maxlength="200" type="text" id="FIRSTNAME" name="FIRSTNAME" autocomplete="given-name" placeholder="FIRSTNAME" data-required="true" required>
-                  </div>
-                </div>
-                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
-              </div>
-            </div>
-          </div>
-
-          <div style="padding:8px 0;">
-            <div class="sib-input sib-form-block">
-              <div class="form__entry entry_block">
-                <div class="form__label-row form__label-row--horizontal">
-                  <div class="entry__field">
-                    <input class="input" maxlength="200" type="text" id="LASTNAME" name="LASTNAME" autocomplete="family-name" placeholder="LASTNAME" data-required="true" required>
-                  </div>
-                </div>
-                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
-              </div>
-            </div>
-          </div>
-
-          <div style="padding:8px 0;">
-            <div class="sib-input sib-form-block">
-              <div class="form__entry entry_block">
-                <div class="form__label-row form__label-row--horizontal">
-                  <div class="entry__field">
-                    <input class="input" maxlength="2" minlength="2" pattern="[A-Za-z]{2}" type="text" id="COUNTRY_CODE" name="COUNTRY_CODE" autocomplete="country" autocapitalize="characters" placeholder="2 letter country code" data-required="true" required>
-                  </div>
-                </div>
-                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
-              </div>
-            </div>
-          </div>
-
-          <div style="padding:8px 0;">
-            <div class="sib-optin sib-form-block">
-              <div class="form__entry entry_mcq">
-                <div class="form__label-row form__label-row--horizontal">
-                  <div class="entry__choice">
-                    <label>
-                      <input type="checkbox" class="input_replaced" value="1" id="VERIFIED" name="VERIFIED" data-required="true" required>
-                      <span class="checkbox checkbox_tick_positive"></span>
-                      <span style="font-size:14px;text-align:left;font-family:Helvetica,sans-serif;color:#3C4858;background-color:transparent;">I agree to receive your newsletters and accept the data privacy statement.</span>
-                    </label>
-                  </div>
-                </div>
-                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
-                <label class="entry__specification" style="font-size:12px;text-align:left;font-family:Helvetica,sans-serif;color:#8390A4;text-align:left">You may unsubscribe at any time using the link in our newsletter.</label>
-              </div>
-            </div>
-          </div>
-
-          <div style="padding:8px 0;">
-            <div class="cf-turnstile" data-sitekey="0x4AAAAAABhnveewR0onanou" data-explicit-render data-language="en"></div>
-          </div>
-
-          <div style="padding:8px 0;">
-            <div class="sib-form__declaration" style="direction:ltr">
-              <div style="font-size:14px;text-align:left;font-family:Helvetica,sans-serif;color:#687484;background-color:transparent;">
-                <p>We use Brevo as our marketing platform. By submitting this form you agree that the personal data you provided will be transferred to Brevo for processing in accordance with <a href="https://www.brevo.com/en/legal/privacypolicy/">Brevo's Privacy Policy.</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div style="padding:8px 0;">
-            <div class="sib-form-block" style="text-align:left">
-              <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px;text-align:left;font-weight:700;font-family:Helvetica,sans-serif;color:#fff;background-color:#3E4857;border-radius:3px;border-width:0;" form="sib-form" type="submit">
-                <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
-                  <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.149-10.75 8.462-16.728 5.01z"/>
-                </svg>
-                Join now
-              </button>
-            </div>
-          </div>
-
-          <input type="text" name="email_address_check" value="" class="input--hidden">
-          <input type="hidden" name="locale" value="en">
-        </form>
-      </div>
-    </div>
-  </div>
-</div><script src="/js/newsletter-form.min.fc8b3015ff8c46b61b08fbe1ba7a73d47924fa322f15ffc925149979c3dad930f33e5afcfe6ab8d863973e89e4c3f869d8457bcb2878580ba378535974ba1dea.js" integrity="sha512-/IswFf&#43;MRrYbCPvhunpz1Hkk&#43;jIvFf/JJRSZecPa2TDzPlr8/mq42GOXPonkw/hp2EV7yyh4WAujeFNZdLod6g==" crossorigin="anonymous"></script>
-<script async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=qfieldNewsletterTurnstileOnLoad&render=explicit" data-cfasync="false"></script>
-
-<hr>
-<p>We respect your privacy. You can unsubscribe at any time.</p>
-]]></content:encoded></item></channel></rss>
+]]></content:encoded><category domain="categories">Environment, Agriculture &amp; Natural Resources</category><category domain="tags">field data collection</category><category domain="tags">mobile GIS</category><category domain="tags">QGIS fieldwork</category><category domain="tags">wildlife</category><category domain="tags">habitat mapping</category><category domain="tags">tracking</category></item><item><title>Search</title><link>https://qfield.org/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/search/</guid><description>Search</description><content:encoded></content:encoded></item></channel></rss>

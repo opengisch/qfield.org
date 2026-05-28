@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Landings on QField - Efficient field work built for QGIS</title><link>https://qfield.org/landing/</link><description>Recent content in Landings on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://qfield.org/landing/feed.xml" rel="self" type="application/rss+xml"/><item><title>ArduSimple</title><link>https://qfield.org/landing/ardusimple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/landing/ardusimple/</guid><description>Temporary landing page</description><content:encoded><![CDATA[<p>QField works seamlessly with ArduSimple RTK GNSS receivers to deliver reliable, survey-grade positioning for professional field data collection. Capture precise points, lines, and boundaries directly in your QGIS projects and compare them with authoritative datasets such as cadastral maps.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Landings on QField - Efficient field work built for QGIS</title><link>https://qfield.org/landing/</link><description>Recent content in Landings on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://qfield.org/landing/feed.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://qfield.org/landing/ardusimple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/landing/ardusimple/</guid><description>Ardusimple RTK GNSS</description><content:encoded><![CDATA[<p>QField works seamlessly with ArduSimple RTK GNSS receivers to deliver reliable, survey-grade positioning for professional field data collection. Capture precise points, lines, and boundaries directly in your QGIS projects and compare them with authoritative datasets such as cadastral maps.</p>
 <p>On Android devices, QField can connect directly to compatible GNSS receivers via Bluetooth or USB for real-time positioning. On iPhone and iPad, external receivers connect over Wi-Fi, enabling high-accuracy positioning and RTK corrections within iOS constraints. In both cases, you can verify property boundaries, map infrastructure, or document land features with confidence.</p>
 <p>Combined with <strong><a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
 </strong>, field data flows instantly between your team and the office. Projects, basemaps, and updates stay synchronized, enabling real-time collaboration, version control, and centralized management of your survey workflows.</p>
@@ -12,24 +12,12 @@
 </ul>
 <h3 id="learn-more">Learn more</h3>
 <p>For step-by-step tutorials using ArduSimple receivers with QField:</p>
-<p>👉 Android (boundary surveying and cadastral verification):<br>
-<a href="https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/" target="_blank" rel="noopener">https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/</a>
+<p>👉 <a href="https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/" target="_blank" rel="noopener">Android (boundary surveying and cadastral verification)</a>
 </p>
-<p>👉 iOS (connecting an external RTK receiver to QField):<br>
-<a href="https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/" target="_blank" rel="noopener">https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/</a>
+<p>👉 <a href="https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/" target="_blank" rel="noopener">iOS (connecting an external RTK receiver to QField)</a>
 </p>
-<p>This is a Work in progres and will be replaced with final campaign content.</p>
-]]></content:encoded></item><item><title>Stay in the loop with QField - 13.05.2026 - 11:57</title><link>https://qfield.org/landing/newsletter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/landing/newsletter/</guid><description>Get the latest QField news, tips, and release highlights delivered straight to your inbox.</description><content:encoded><![CDATA[<h3 id="why-subscribe">Why subscribe?</h3>
-<p>QField is evolving fast. Our newsletter keeps you informed without the noise:</p>
-<ul>
-<li><strong>Release highlights</strong> — know what&rsquo;s new and what changed before you update in the field</li>
-<li><strong>Tips &amp; workflows</strong> — practical advice from the community and the core team</li>
-<li><strong>QFieldCloud news</strong> — collaboration features, new plans, and service updates</li>
-<li><strong>Events &amp; webinars</strong> — meet the team and learn from other field professionals</li>
-</ul>
-<p>Sign up below and join thousands of surveyors, ecologists, engineers, and GIS professionals who use QField every day.</p>
-<hr>
-<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+<p>This is a work in progress and will be replaced with final campaign content.</p>
+]]></content:encoded></item><item><title/><link>https://qfield.org/landing/newsletter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/landing/newsletter/</guid><description>Get the latest QField news, tips, and release highlights delivered straight to your inbox.</description><content:encoded><![CDATA[<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 <style>
   .qfield-newsletter-form {
     max-width: 540px;
@@ -147,12 +135,7 @@
 
           <div style="padding:8px 0;">
             <div class="sib-form-block" style="text-align:left">
-              <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px;text-align:left;font-weight:700;font-family:Helvetica,sans-serif;color:#fff;background-color:#3E4857;border-radius:3px;border-width:0;" form="sib-form" type="submit">
-                <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
-                  <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.149-10.75 8.462-16.728 5.01z"/>
-                </svg>
-                Join now
-              </button>
+              <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px;text-align:left;font-weight:700;font-family:Helvetica,sans-serif;color:#fff;background-color:var(--qfield-color);border-radius:3px;border-width:0;" form="sib-form" type="submit">Join now</button>
             </div>
           </div>
 

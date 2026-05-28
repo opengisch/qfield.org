@@ -131,7 +131,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1779942636-446893867"
+     data-gallery-id="gallery-1779975593-564984638"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -159,7 +159,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1779942636-446893867 .carousel-item .gallery-img {
+#gallery-1779975593-564984638 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -167,11 +167,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1779942636-446893867 .carousel-item {
+#gallery-1779975593-564984638 .carousel-item {
   height: auto;
 }
 
-#gallery-1779942636-446893867 .carousel-item .figure {
+#gallery-1779975593-564984638 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -180,11 +180,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1779942636-446893867 .carousel-item .figure .gallery-img {
+#gallery-1779975593-564984638 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1779942636-446893867 .carousel-item .figure .figure-caption {
+#gallery-1779975593-564984638 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -193,13 +193,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1779942636-446893867 .carousel-item .gallery-img {
+  #gallery-1779975593-564984638 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1779942636-446893867 .carousel-item .gallery-img {
+  #gallery-1779975593-564984638 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -331,7 +331,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 <p>This five-year conservation initiative receives funding from both the EU (80%) and the state of Saxony (20%), with specific objectives to track fire salamander populations and assess their environments. What began as a solo monitoring effort has expanded to include four dedicated field workers who collect data systematically across numerous streams.</p>
 <p><em>&ldquo;Fire salamanders are indicators of environments that have remained largely untouched for extended periods and streams with clean water,&rdquo;</em> explains the project coordinator, who has a background in environmental monitoring. <em>&ldquo;We&rsquo;ve discovered they can adapt to various conditions, which tells us important information about our local ecosystems.&rdquo;</em></p>
 <figure class="figure text-center mb-4"><img src="/success-stories/fire-salamanders/salamander-1_hu_3f93c71f1d58a83a.JPG" srcset="/success-stories/fire-salamanders/salamander-1_hu_3f93c71f1d58a83a.JPG 1x, /success-stories/fire-salamanders/salamander-1_hu_67bbee0446dfa4bd.JPG 2x"
-         alt="enter alt" 
+         alt="fire salamanders" 
          class="figure-img img-fluid gallery-img" width="1200" height="1200"
          loading="lazy"></figure>
 
