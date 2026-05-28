@@ -1,7 +1,7 @@
 ---
 # title: "RTK GNSS"
 slug: "ardusimple"
-description: "Temporary landing page"
+description: "Ardusimple RTK GNSS"
 type: landing
 layout: ardusimple
 
