@@ -8,6 +8,7 @@ sourceLabel: "xpand Foundation"
 sourceUrl: "https://www.xpand.net.au/"
 # image: "withoneseed-1.jpg"
 # ogImage: "withoneseed-1.jpg"
+category: [ecology-environment]
 ---
 
 ### The Challenge
