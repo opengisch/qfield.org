@@ -1,9 +1,12 @@
 ---
-title: "ArduSimple"
+# title: "RTK GNSS"
 slug: "ardusimple"
-description: "Temporary landing page"
+description: "Ardusimple RTK GNSS"
 type: landing
-layout: solutions
+layout: ardusimple
+
+hero:
+  image: "/images/partners/ardusimple_logo.svg"
 ---
 
 QField works seamlessly with ArduSimple RTK GNSS receivers to deliver reliable, survey-grade positioning for professional field data collection. Capture precise points, lines, and boundaries directly in your QGIS projects and compare them with authoritative datasets such as cadastral maps.
@@ -14,20 +17,18 @@ Combined with **[QFieldCloud](https://qfield.cloud)**, field data flows instantl
 
 ### Why this setup
 
-- Centimeter-level positioning with RTK corrections  
-- Direct connection on Android and Wi-Fi integration on iOS  
-- Ideal for boundary verification, asset mapping, and land management  
-- Seamless field-to-office workflow with QGIS  
-- Real-time synchronization and team collaboration via QFieldCloud  
+- Centimeter-level positioning with RTK corrections
+- Direct connection on Android and Wi-Fi integration on iOS
+- Ideal for boundary verification, asset mapping, and land management
+- Seamless field-to-office workflow with QGIS
+- Real-time synchronization and team collaboration via QFieldCloud
 
 ### Learn more
 
 For step-by-step tutorials using ArduSimple receivers with QField:
 
-👉 Android (boundary surveying and cadastral verification):  
-https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/
+👉 [Android (boundary surveying and cadastral verification)](https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/)
 
-👉 iOS (connecting an external RTK receiver to QField):  
-https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/
+👉 [iOS (connecting an external RTK receiver to QField)](https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/)
 
-This is a Work in progres and will be replaced with final campaign content.
+This is a work in progress and will be replaced with final campaign content.

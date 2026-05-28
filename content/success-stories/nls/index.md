@@ -2,7 +2,7 @@
 title: "Finland’s National Land Survey Empowers Field Mapping with QField"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-company: "Company Name"
+company: "National Land Survey (NLS)"
 description: "In 2025, Finland’s National Land Survey (NLS) made a
           bold and visionary leap by launching MTTJ, an open-source topographic data production system built on
           QGIS, QField, and other open technologies. This landmark initiative makes Finland the first country in the world to adopt an
@@ -20,7 +20,7 @@ In 2025, [National Land Survey (NLS)](https://www.maanmittauslaitos.fi/en/topica
 
 Developed over several years and officially rolled out in spring 2025, MTTJ gradually replaces legacy proprietary systems with a modern, efficient, and extensible solution tailored to NLS’s evolving needs — all while promoting transparency, interoperability, and long-term sustainability. As part of this open architecture, **QField will play a key role** , empowering field teams to collect and validate data efficiently, even in remote locations. Use of QField is being piloted over summer 2025 and will be gradually taken up for full production use towards the autumn.
 
-> “QField lets our field staff work smarter and faster, even in the most remote corners of Finland. It’s a vital part of our open-source geospatial infrastructure.”
+> “QField lets our field  staff work smarter and faster, even in the most remote corners of Finland. It’s a vital part of our open-source geospatial infrastructure.”
 >  — _Jani Kylmäaho, Director of Development and Digitalization, National Land Survey of Finland_
 
 Throughout the development of MTTJ, the National Land Survey of Finland actively engaged with the QField project, contributing not only feedback and use cases, but also **procuring for the development of new functionalities key to NLS use cases to QField core.** This close collaboration ensured that QField evolved to meet the demanding requirements of national-scale field data workflows and continues to benefit the wider open-source geospatial community.
@@ -37,8 +37,8 @@ Among its standout features:
 
 All core components were built with **open-source principles** in mind — and many will be shared with the global QGIS and OSGeo community.
 
-{{< figure src="/images/customer/nls3.jpg" alt="Field mapping with QField" caption="" >}}
-{{< figure src="/images/customer/nls4.jpg" alt="Field mapping with QField" caption="" >}}
+{{< figure src="/images/customer/nls3.jpg" alt="Field mapping with QField" caption="" class="ss-image" >}}
+{{< figure src="/images/customer/nls4.jpg" alt="Field mapping with QField" caption="" class="ss-image" >}}
 
 ### Seamless Field-to-Database Workflow
 

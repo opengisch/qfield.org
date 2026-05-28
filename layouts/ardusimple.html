@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article class="ardusimple py-5">
+  <div class="container">
+
+    {{ with .Params.hero.image }}
+    <div class="ardusimple__logo text-center mb-5">
+      <img src="{{ . }}" alt="{{ $.Title }}" class="ardusimple__logo-img" />
+    </div>
+    {{ end }}
+
+    <div class="row justify-content-center">
+      <div class="col-lg-11">
+        <div class="ardusimple__content content">
+          {{ .Content }}
+        </div>
+
+        {{ with .Params.features }}
+        <div class="ardusimple__features mt-4">
+          {{ range .items }}
+          <div class="ardusimple__feature d-flex gap-3 align-items-start mb-3">
+            <i class="{{ .icon }} fs-5 mt-1" style="color: var(--qfield-color);"></i>
+            <div>
+              <strong>{{ .title }}</strong>
+              <p class="mb-0 text-muted small">{{ .text }}</p>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+
+      </div>
+    </div>
+
+  </div>
+</article>
+{{ end }}
