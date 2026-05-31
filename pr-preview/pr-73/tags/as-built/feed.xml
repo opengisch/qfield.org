@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>As-Built on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-73/tags/as-built/</link>
+    <description>Recent content in As-Built on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-73/tags/as-built/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Construction and Engineering</title>
+      <link>https://qfield.org/pr-preview/pr-73/solutions/construction-and-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-73/solutions/construction-and-engineering/</guid>
+      
+      <description>Mobile GIS and QGIS fieldwork for site surveys, as-builts, and QA in construction projects.</description>
+      <content:encoded><![CDATA[<h2 id="field-ready-construction-data-collection">Field-ready construction data collection</h2>
+<p>QField lets site crews perform accurate surveys, stakeouts, and as-built capture with a simple mobile GIS. Forms, domains, and constraints from QGIS ensure consistent data entry.</p>
+<h3 id="why-teams-choose-qfield">Why teams choose QField</h3>
+<ul>
+<li>Works fully offline in demanding environments</li>
+<li>Real-time QA rules reduce rework</li>
+<li>Seamless sync to QGIS and QFieldCloud for collaboration</li>
+</ul>
+<h3 id="typical-workflows">Typical workflows</h3>
+<ul>
+<li>Pre-construction site surveys and utilities locating</li>
+<li>As-built capture with photos and notes</li>
+<li>Punch lists, inspections, and issue tracking</li>
+</ul>
+<h2 id="integrates-with-qgis-and-qfieldcloud">Integrates with QGIS and QFieldCloud</h2>
+<p>Prepare projects in QGIS, deploy to devices, and keep teams in sync with QFieldCloud. Maintain a single source of truth from design to handover.</p>
+]]></content:encoded>
+      <category domain="categories">Infrastructure, Construction &amp; Utilities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">construction surveying</category>
+      <category domain="tags">as-built</category>
+    </item>
+    
+    <item>
+      <title>QField for Construction Progress Documentation</title>
+      <link>https://qfield.org/pr-preview/pr-73/solutions/construction-progress-documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-73/solutions/construction-progress-documentation/</guid>
+      
+      <description>Track construction progress with geotagged photos, notes, and as-built updates using mobile GIS.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Daily progress photos and notes</li>
+<li>As-built updates and redlines</li>
+<li>QA and handover documentation</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Prepare projects in QGIS and maintain a single source of truth via QFieldCloud.</p>
+]]></content:encoded>
+      <category domain="categories">Specialized &amp; Emerging Use Cases</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">construction progress</category>
+      <category domain="tags">as-built</category>
+    </item>
+    
+    <item>
+      <title>QField for Gas and Pipeline Networks</title>
+      <link>https://qfield.org/pr-preview/pr-73/solutions/gas-and-pipeline-networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-73/solutions/gas-and-pipeline-networks/</guid>
+      
+      <description>Pipeline routing, as-built capture, and integrity inspections with offline mobile GIS.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<ul>
+<li>Route planning and wayleaves documentation</li>
+<li>As-built capture for new segments</li>
+<li>Integrity inspections and leak reports</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Prepare projects in QGIS and keep teams synced via QFieldCloud for efficient reviews.</p>
+]]></content:encoded>
+      <category domain="categories">Infrastructure, Construction &amp; Utilities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">pipeline inspection</category>
+      <category domain="tags">as-built</category>
+      <category domain="tags">integrity management</category>
+    </item>
+    
+  </channel>
+</rss>

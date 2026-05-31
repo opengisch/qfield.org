@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Crop Scouting on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-73/tags/crop-scouting/</link>
+    <description>Recent content in Crop Scouting on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-73/tags/crop-scouting/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Agriculture and Precision Farming</title>
+      <link>https://qfield.org/pr-preview/pr-73/solutions/agriculture-and-precision-farming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-73/solutions/agriculture-and-precision-farming/</guid>
+      
+      <description>Mobile GIS for crop scouting, soil sampling, and precision agriculture field data collection.</description>
+      <content:encoded><![CDATA[<h2 id="field-data-for-precision-agriculture">Field data for precision agriculture</h2>
+<p>Collect observations, pests, nutrient deficiencies, and treatment records. Use standardized forms to maintain quality.</p>
+<h3 id="typical-workflows">Typical workflows</h3>
+<ul>
+<li>Crop scouting and disease monitoring</li>
+<li>Soil sampling and fertility mapping</li>
+<li>Treatment records and compliance</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Build data models in QGIS and collaborate with QFieldCloud for timely decisions.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">precision agriculture</category>
+      <category domain="tags">crop scouting</category>
+      <category domain="tags">soil sampling</category>
+    </item>
+    
+  </channel>
+</rss>
