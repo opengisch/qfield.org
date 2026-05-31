@@ -44,7 +44,7 @@ Starting with QField 4.2, the feature form has gained a **novel gallery editor w
 
 Also improving the feature form is a **wizard mode that can greatly simplify a complex set of tabs into a linear experience** driven by an easy to use pair of next and previous buttons that are reacting to constraints. The wizard mode is a per-project setting that can be enabled when setting up projects in QGIS. Simply make sure QFieldSync is installed to see the configuration panel in the project properties dialog.
 
-<video style="max-width:100%;" controls><source src="wizard.webm" type="video/webm"></video>
+<p style="text-align:center;"><video style="width:500px;max-width:100%;" controls><source src="wizard.webm" type="video/webm"></video></p>
 
 ### Feature identification in 3D, and more
 
