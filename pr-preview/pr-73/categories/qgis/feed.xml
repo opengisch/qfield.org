@@ -32,7 +32,7 @@
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780225883-995693218"
+     data-gallery-id="gallery-1780230165-418510113"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -60,7 +60,7 @@
 
 <style>
  
-#gallery-1780225883-995693218 .carousel-item .gallery-img {
+#gallery-1780230165-418510113 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -68,11 +68,11 @@
   display: block !important;
 }
 
-#gallery-1780225883-995693218 .carousel-item {
+#gallery-1780230165-418510113 .carousel-item {
   height: auto;
 }
 
-#gallery-1780225883-995693218 .carousel-item .figure {
+#gallery-1780230165-418510113 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -81,11 +81,11 @@
   text-align: center;
 }
 
-#gallery-1780225883-995693218 .carousel-item .figure .gallery-img {
+#gallery-1780230165-418510113 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780225883-995693218 .carousel-item .figure .figure-caption {
+#gallery-1780230165-418510113 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -94,13 +94,13 @@
 }
 
 @media (max-width: 768px) {
-  #gallery-1780225883-995693218 .carousel-item .gallery-img {
+  #gallery-1780230165-418510113 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780225883-995693218 .carousel-item .gallery-img {
+  #gallery-1780230165-418510113 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -151,7 +151,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780225885-508677366"
+     data-gallery-id="gallery-1780230166-918316790"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -179,7 +179,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 <style>
  
-#gallery-1780225885-508677366 .carousel-item .gallery-img {
+#gallery-1780230166-918316790 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -187,11 +187,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1780225885-508677366 .carousel-item {
+#gallery-1780230166-918316790 .carousel-item {
   height: auto;
 }
 
-#gallery-1780225885-508677366 .carousel-item .figure {
+#gallery-1780230166-918316790 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -200,11 +200,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1780225885-508677366 .carousel-item .figure .gallery-img {
+#gallery-1780230166-918316790 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780225885-508677366 .carousel-item .figure .figure-caption {
+#gallery-1780230166-918316790 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -213,13 +213,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1780225885-508677366 .carousel-item .gallery-img {
+  #gallery-1780230166-918316790 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780225885-508677366 .carousel-item .gallery-img {
+  #gallery-1780230166-918316790 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -238,7 +238,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780225887-858492504"
+     data-gallery-id="gallery-1780230169-242241271"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -266,7 +266,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1780225887-858492504 .carousel-item .gallery-img {
+#gallery-1780230169-242241271 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -274,11 +274,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1780225887-858492504 .carousel-item {
+#gallery-1780230169-242241271 .carousel-item {
   height: auto;
 }
 
-#gallery-1780225887-858492504 .carousel-item .figure {
+#gallery-1780230169-242241271 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -287,11 +287,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1780225887-858492504 .carousel-item .figure .gallery-img {
+#gallery-1780230169-242241271 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780225887-858492504 .carousel-item .figure .figure-caption {
+#gallery-1780230169-242241271 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -300,13 +300,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1780225887-858492504 .carousel-item .gallery-img {
+  #gallery-1780230169-242241271 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780225887-858492504 .carousel-item .gallery-img {
+  #gallery-1780230169-242241271 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -327,7 +327,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780225890-139841352"
+     data-gallery-id="gallery-1780230171-559419216"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -355,7 +355,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1780225890-139841352 .carousel-item .gallery-img {
+#gallery-1780230171-559419216 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -363,11 +363,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1780225890-139841352 .carousel-item {
+#gallery-1780230171-559419216 .carousel-item {
   height: auto;
 }
 
-#gallery-1780225890-139841352 .carousel-item .figure {
+#gallery-1780230171-559419216 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -376,11 +376,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1780225890-139841352 .carousel-item .figure .gallery-img {
+#gallery-1780230171-559419216 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780225890-139841352 .carousel-item .figure .figure-caption {
+#gallery-1780230171-559419216 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -389,13 +389,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1780225890-139841352 .carousel-item .gallery-img {
+  #gallery-1780230171-559419216 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780225890-139841352 .carousel-item .gallery-img {
+  #gallery-1780230171-559419216 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -854,7 +854,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780225900-130458898"
+     data-gallery-id="gallery-1780230181-652134386"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -883,7 +883,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 
 <style>
  
-#gallery-1780225900-130458898 .carousel-item .gallery-img {
+#gallery-1780230181-652134386 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -891,11 +891,11 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
   display: block !important;
 }
 
-#gallery-1780225900-130458898 .carousel-item {
+#gallery-1780230181-652134386 .carousel-item {
   height: auto;
 }
 
-#gallery-1780225900-130458898 .carousel-item .figure {
+#gallery-1780230181-652134386 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -904,11 +904,11 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
   text-align: center;
 }
 
-#gallery-1780225900-130458898 .carousel-item .figure .gallery-img {
+#gallery-1780230181-652134386 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780225900-130458898 .carousel-item .figure .figure-caption {
+#gallery-1780230181-652134386 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -917,13 +917,13 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1780225900-130458898 .carousel-item .gallery-img {
+  #gallery-1780230181-652134386 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780225900-130458898 .carousel-item .gallery-img {
+  #gallery-1780230181-652134386 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1128,7 +1128,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780225896-106510532"
+     data-gallery-id="gallery-1780230177-248714906"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1157,7 +1157,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1780225896-106510532 .carousel-item .gallery-img {
+#gallery-1780230177-248714906 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1165,11 +1165,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1780225896-106510532 .carousel-item {
+#gallery-1780230177-248714906 .carousel-item {
   height: auto;
 }
 
-#gallery-1780225896-106510532 .carousel-item .figure {
+#gallery-1780230177-248714906 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1178,11 +1178,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1780225896-106510532 .carousel-item .figure .gallery-img {
+#gallery-1780230177-248714906 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780225896-106510532 .carousel-item .figure .figure-caption {
+#gallery-1780230177-248714906 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1191,13 +1191,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1780225896-106510532 .carousel-item .gallery-img {
+  #gallery-1780230177-248714906 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780225896-106510532 .carousel-item .gallery-img {
+  #gallery-1780230177-248714906 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1216,7 +1216,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780225896-107133310"
+     data-gallery-id="gallery-1780230177-249334301"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1307,7 +1307,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1780225896-107133310 .carousel-item .gallery-img {
+#gallery-1780230177-249334301 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1315,11 +1315,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1780225896-107133310 .carousel-item {
+#gallery-1780230177-249334301 .carousel-item {
   height: auto;
 }
 
-#gallery-1780225896-107133310 .carousel-item .figure {
+#gallery-1780230177-249334301 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1328,11 +1328,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1780225896-107133310 .carousel-item .figure .gallery-img {
+#gallery-1780230177-249334301 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780225896-107133310 .carousel-item .figure .figure-caption {
+#gallery-1780230177-249334301 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1341,13 +1341,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1780225896-107133310 .carousel-item .gallery-img {
+  #gallery-1780230177-249334301 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780225896-107133310 .carousel-item .gallery-img {
+  #gallery-1780230177-249334301 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
