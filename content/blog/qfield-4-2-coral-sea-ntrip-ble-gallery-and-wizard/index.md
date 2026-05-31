@@ -68,7 +68,7 @@ This new version of QField is packed with QFieldCloud improvements. The biggest 
 
 ![](qfc.webp)
 
-A brand new **cloud storage indicator has been added to QField** to let users know of their current used and remaining storage size. This will help users keep on top of their storage and provide an early warning when space is about to run out. Upgrade plans are available for users to keep working on these growing cloud projects.
+A brand new **cloud storage indicator has been added to QField** to let users know of their current used and remaining storage size. This will help users keep on top of their storage and provide an early warning when space is about to run out. Upgrades are available for users to keep working on these growing cloud projects that were started using the [free community plan](https://qfield.cloud/pricing).
 
 Beyond that, we’ve been hard at work hunting bugs and increasing the overall stability. We’ve also transformed a number of obscure and intimidating error messages into helpful notifications that will leave users with clearer understandings.
 
