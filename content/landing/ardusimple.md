@@ -30,5 +30,3 @@ For step-by-step tutorials using ArduSimple receivers with QField:
 👉 [Android (boundary surveying and cadastral verification)](https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/)
 
 👉 [iOS (connecting an external RTK receiver to QField)](https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/)
-
-This is a work in progress and will be replaced with final campaign content.
