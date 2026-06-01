@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Environment, Agriculture &amp; Natural Resources on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-74/categories/environment-agriculture--natural-resources/</link>
+    <description>Recent content in Environment, Agriculture &amp; Natural Resources on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-74/categories/environment-agriculture--natural-resources/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Agriculture and Precision Farming</title>
+      <link>https://qfield.org/pr-preview/pr-74/solutions/agriculture-and-precision-farming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-74/solutions/agriculture-and-precision-farming/</guid>
+      
+      <description>Mobile GIS for crop scouting, soil sampling, and precision agriculture field data collection.</description>
+      <content:encoded><![CDATA[<h2 id="field-data-for-precision-agriculture">Field data for precision agriculture</h2>
+<p>Collect observations, pests, nutrient deficiencies, and treatment records. Use standardized forms to maintain quality.</p>
+<h3 id="typical-workflows">Typical workflows</h3>
+<ul>
+<li>Crop scouting and disease monitoring</li>
+<li>Soil sampling and fertility mapping</li>
+<li>Treatment records and compliance</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Build data models in QGIS and collaborate with QFieldCloud for timely decisions.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">precision agriculture</category>
+      <category domain="tags">crop scouting</category>
+      <category domain="tags">soil sampling</category>
+    </item>
+    
+    <item>
+      <title>QField for Climate Change Research</title>
+      <link>https://qfield.org/pr-preview/pr-74/solutions/climate-change-research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-74/solutions/climate-change-research/</guid>
+      
+      <description>Field data collection for climate variables, impacts, and monitoring sites using mobile GIS.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Site mapping and variable recording</li>
+<li>Photo documentation and annotations</li>
+<li>Sync to QFieldCloud for collaboration</li>
+</ul>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">climate research</category>
+      <category domain="tags">monitoring sites</category>
+    </item>
+    
+    <item>
+      <title>QField for Ecology and Biodiversity Monitoring</title>
+      <link>https://qfield.org/pr-preview/pr-74/solutions/ecology-and-biodiversity-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-74/solutions/ecology-and-biodiversity-monitoring/</guid>
+      
+      <description>Species observations, habitats, and monitoring plots with offline mobile GIS and QGIS.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Record species, abundance, and habitats</li>
+<li>Map plots and transects with accurate GNSS</li>
+<li>Attach photos and notes for QA</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Share projects and manage permissions in QFieldCloud. Export to standard formats for analysis.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">biodiversity</category>
+      <category domain="tags">ecology</category>
+      <category domain="tags">species monitoring</category>
+    </item>
+    
+    <item>
+      <title>QField for Environmental Impact Assessment</title>
+      <link>https://qfield.org/pr-preview/pr-74/solutions/environmental-impact-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-74/solutions/environmental-impact-assessment/</guid>
+      
+      <description>Mobile GIS for baseline surveys, constraints mapping, and EIA field documentation.</description>
+      <content:encoded><![CDATA[<h2 id="eia-fieldwork">EIA fieldwork</h2>
+<ul>
+<li>Baseline surveys and constraints mapping</li>
+<li>Monitoring and mitigation checks</li>
+<li>Stakeholder and site access documentation</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Prepare symbology, rules, and forms in QGIS. Sync and collaborate with QFieldCloud for timely reviews.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">EIA</category>
+      <category domain="tags">baseline survey</category>
+      <category domain="tags">constraints mapping</category>
+    </item>
+    
+    <item>
+      <title>QField for Fisheries and Marine Resource Management</title>
+      <link>https://qfield.org/pr-preview/pr-74/solutions/fisheries-and-marine-resource-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-74/solutions/fisheries-and-marine-resource-management/</guid>
+      
+      <description>Mobile GIS for fisheries surveys, coastal monitoring, and marine resource mapping.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Fisheries surveys and logbooks</li>
+<li>Coastal habitat and erosion monitoring</li>
+<li>Marine resource mapping and compliance</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Prepare layers and forms in QGIS and keep teams aligned with QFieldCloud sync.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">fisheries</category>
+      <category domain="tags">marine</category>
+      <category domain="tags">coastal monitoring</category>
+    </item>
+    
+    <item>
+      <title>QField for Forestry and Silviculture</title>
+      <link>https://qfield.org/pr-preview/pr-74/solutions/forestry-and-silviculture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-74/solutions/forestry-and-silviculture/</guid>
+      
+      <description>Offline forest inventory, stand mapping, and silviculture operations tracking with mobile GIS.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<ul>
+<li>Forest inventory and plot sampling</li>
+<li>Silviculture and harvesting operations tracking</li>
+<li>Habitat and biodiversity mapping</li>
+</ul>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare in QGIS, collect in QField, and sync with QFieldCloud for conflict-safe merges.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">forest inventory</category>
+      <category domain="tags">silviculture</category>
+    </item>
+    
+    <item>
+      <title>QField for Hydrology and Watershed Management</title>
+      <link>https://qfield.org/pr-preview/pr-74/solutions/hydrology-and-watershed-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-74/solutions/hydrology-and-watershed-management/</guid>
+      
+      <description>Mobile GIS for stream surveys, flood assessments, and watershed monitoring.</description>
+      <content:encoded><![CDATA[<h2 id="hydrology-fieldwork">Hydrology fieldwork</h2>
+<ul>
+<li>Stream and culvert surveys</li>
+<li>Flood impact and debris mapping</li>
+<li>Watershed monitoring sites and parameters</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Prepare forms and styles in QGIS. Collaborate and sync changes through QFieldCloud.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">hydrology</category>
+      <category domain="tags">watershed</category>
+      <category domain="tags">flood assessment</category>
+    </item>
+    
+    <item>
+      <title>QField for Land Restoration and Conservation</title>
+      <link>https://qfield.org/pr-preview/pr-74/solutions/land-restoration-and-conservation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-74/solutions/land-restoration-and-conservation/</guid>
+      
+      <description>Mobile GIS for restoration planning, monitoring, and conservation field surveys.</description>
+      <content:encoded><![CDATA[<h2 id="workflows">Workflows</h2>
+<ul>
+<li>Restoration site mapping and monitoring</li>
+<li>Habitat assessments and invasive species tracking</li>
+<li>Community programs and stewardship records</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Design forms and symbology in QGIS, then sync and review via QFieldCloud.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">restoration</category>
+      <category domain="tags">conservation</category>
+      <category domain="tags">habitat mapping</category>
+    </item>
+    
+    <item>
+      <title>QField for Soil and Land Quality Surveys</title>
+      <link>https://qfield.org/pr-preview/pr-74/solutions/soil-and-land-quality-surveys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-74/solutions/soil-and-land-quality-surveys/</guid>
+      
+      <description>Standardize soil sampling and land quality assessments with offline mobile GIS and QGIS forms.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Plan sampling grids and record field logs</li>
+<li>Capture depths, horizons, and conditions</li>
+<li>Attach photos and sync to QFieldCloud</li>
+</ul>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">soil sampling</category>
+      <category domain="tags">land quality</category>
+    </item>
+    
+    <item>
+      <title>QField for Wildlife Tracking and Habitat Mapping</title>
+      <link>https://qfield.org/pr-preview/pr-74/solutions/wildlife-tracking-and-habitat-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-74/solutions/wildlife-tracking-and-habitat-mapping/</guid>
+      
+      <description>Field data collection for wildlife observations, habitats, and tracking studies with mobile GIS.</description>
+      <content:encoded><![CDATA[<h2 id="workflows">Workflows</h2>
+<ul>
+<li>Wildlife observations and telemetry</li>
+<li>Habitat mapping and suitability assessments</li>
+<li>Protected areas surveys and monitoring</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Prepare symbology and forms in QGIS, then sync projects with QFieldCloud to collaborate across teams.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">wildlife</category>
+      <category domain="tags">habitat mapping</category>
+      <category domain="tags">tracking</category>
+    </item>
+    
+  </channel>
+</rss>

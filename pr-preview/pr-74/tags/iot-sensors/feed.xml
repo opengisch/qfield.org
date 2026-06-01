@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IoT Sensors on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-74/tags/iot-sensors/</link>
+    <description>Recent content in IoT Sensors on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-74/tags/iot-sensors/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Smart Cities and Urban Mobility</title>
+      <link>https://qfield.org/pr-preview/pr-74/solutions/smart-cities-and-urban-mobility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-74/solutions/smart-cities-and-urban-mobility/</guid>
+      
+      <description>Mobile GIS for smart city assets, sensors, and mobility infrastructure field data collection.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Sensor and device inventories</li>
+<li>Mobility infrastructure mapping</li>
+<li>Condition and performance checks</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Ensure teams use the same data and styles, with sync and review workflows built in.</p>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">smart city</category>
+      <category domain="tags">urban mobility</category>
+      <category domain="tags">IoT sensors</category>
+    </item>
+    
+  </channel>
+</rss>
