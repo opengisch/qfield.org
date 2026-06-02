@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Gis on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/gis/</link><description>Recent content in Gis on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/categories/gis/feed.xml" rel="self" type="application/rss+xml"/><item><title>Looking at recent QFieldCloud storage handling improvements</title><link>https://qfield.org/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/</link><pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate><guid>https://qfield.org/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/</guid><media:content url="https://qfield.org/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/on-demand-attachment.png" medium="image"/><description>QFieldCloud storage handling keeps improving, with shared datasets, on-demand attachment downloads, and resumable project downloads reducing sync time and bandwidth.</description><content:encoded><![CDATA[<p>Our ninjas have been hard at work improving QFieldCloud!</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>GIS on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/gis/</link><description>Recent content in GIS on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/categories/gis/feed.xml" rel="self" type="application/rss+xml"/><item><title>Looking at recent QFieldCloud storage handling improvements</title><link>https://qfield.org/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/</link><pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate><guid>https://qfield.org/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/</guid><media:content url="https://qfield.org/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/on-demand-attachment.png" medium="image"/><description>QFieldCloud storage handling keeps improving, with shared datasets, on-demand attachment downloads, and resumable project downloads reducing sync time and bandwidth.</description><content:encoded><![CDATA[<p>Our ninjas have been hard at work improving QFieldCloud!</p>
 <p>In recent versions, a series of functionality improvements have had a significant impact on the way <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
  handles storage, and we want to tell the world!</p>
 <p>Without further due&hellip;</p>
@@ -442,7 +442,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780288455-670925467"
+     data-gallery-id="gallery-1780374851-483249989"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -464,7 +464,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 <style>
  
-#gallery-1780288455-670925467 .carousel-item .gallery-img {
+#gallery-1780374851-483249989 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -472,11 +472,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   display: block !important;
 }
 
-#gallery-1780288455-670925467 .carousel-item {
+#gallery-1780374851-483249989 .carousel-item {
   height: auto;
 }
 
-#gallery-1780288455-670925467 .carousel-item .figure {
+#gallery-1780374851-483249989 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -485,11 +485,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   text-align: center;
 }
 
-#gallery-1780288455-670925467 .carousel-item .figure .gallery-img {
+#gallery-1780374851-483249989 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780288455-670925467 .carousel-item .figure .figure-caption {
+#gallery-1780374851-483249989 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -498,13 +498,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 }
 
 @media (max-width: 768px) {
-  #gallery-1780288455-670925467 .carousel-item .gallery-img {
+  #gallery-1780374851-483249989 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780288455-670925467 .carousel-item .gallery-img {
+  #gallery-1780374851-483249989 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -743,7 +743,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780288219-464120754"
+     data-gallery-id="gallery-1780374616-575089649"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -772,7 +772,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1780288219-464120754 .carousel-item .gallery-img {
+#gallery-1780374616-575089649 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -780,11 +780,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1780288219-464120754 .carousel-item {
+#gallery-1780374616-575089649 .carousel-item {
   height: auto;
 }
 
-#gallery-1780288219-464120754 .carousel-item .figure {
+#gallery-1780374616-575089649 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -793,11 +793,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1780288219-464120754 .carousel-item .figure .gallery-img {
+#gallery-1780374616-575089649 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780288219-464120754 .carousel-item .figure .figure-caption {
+#gallery-1780374616-575089649 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -806,13 +806,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1780288219-464120754 .carousel-item .gallery-img {
+  #gallery-1780374616-575089649 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780288219-464120754 .carousel-item .gallery-img {
+  #gallery-1780374616-575089649 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -831,7 +831,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780288219-464720261"
+     data-gallery-id="gallery-1780374616-575692437"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -922,7 +922,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1780288219-464720261 .carousel-item .gallery-img {
+#gallery-1780374616-575692437 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -930,11 +930,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1780288219-464720261 .carousel-item {
+#gallery-1780374616-575692437 .carousel-item {
   height: auto;
 }
 
-#gallery-1780288219-464720261 .carousel-item .figure {
+#gallery-1780374616-575692437 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -943,11 +943,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1780288219-464720261 .carousel-item .figure .gallery-img {
+#gallery-1780374616-575692437 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780288219-464720261 .carousel-item .figure .figure-caption {
+#gallery-1780374616-575692437 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -956,13 +956,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1780288219-464720261 .carousel-item .gallery-img {
+  #gallery-1780374616-575692437 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780288219-464720261 .carousel-item .gallery-img {
+  #gallery-1780374616-575692437 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
