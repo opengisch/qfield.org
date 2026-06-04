@@ -164,7 +164,7 @@ Cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780460980-814846941"
+     data-gallery-id="gallery-1780547990-516508110"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -193,7 +193,7 @@ Cheers</p>
 
 <style>
  
-#gallery-1780460980-814846941 .carousel-item .gallery-img {
+#gallery-1780547990-516508110 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -201,11 +201,11 @@ Cheers</p>
   display: block !important;
 }
 
-#gallery-1780460980-814846941 .carousel-item {
+#gallery-1780547990-516508110 .carousel-item {
   height: auto;
 }
 
-#gallery-1780460980-814846941 .carousel-item .figure {
+#gallery-1780547990-516508110 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -214,11 +214,11 @@ Cheers</p>
   text-align: center;
 }
 
-#gallery-1780460980-814846941 .carousel-item .figure .gallery-img {
+#gallery-1780547990-516508110 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780460980-814846941 .carousel-item .figure .figure-caption {
+#gallery-1780547990-516508110 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -227,13 +227,13 @@ Cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1780460980-814846941 .carousel-item .gallery-img {
+  #gallery-1780547990-516508110 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780460980-814846941 .carousel-item .gallery-img {
+  #gallery-1780547990-516508110 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -299,7 +299,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780460983-973460989"
+     data-gallery-id="gallery-1780547993-628742963"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -334,7 +334,7 @@ cheers</p>
 
 <style>
  
-#gallery-1780460983-973460989 .carousel-item .gallery-img {
+#gallery-1780547993-628742963 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -342,11 +342,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1780460983-973460989 .carousel-item {
+#gallery-1780547993-628742963 .carousel-item {
   height: auto;
 }
 
-#gallery-1780460983-973460989 .carousel-item .figure {
+#gallery-1780547993-628742963 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -355,11 +355,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1780460983-973460989 .carousel-item .figure .gallery-img {
+#gallery-1780547993-628742963 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780460983-973460989 .carousel-item .figure .figure-caption {
+#gallery-1780547993-628742963 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -368,13 +368,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1780460983-973460989 .carousel-item .gallery-img {
+  #gallery-1780547993-628742963 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780460983-973460989 .carousel-item .gallery-img {
+  #gallery-1780547993-628742963 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -395,7 +395,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780460986-949791534"
+     data-gallery-id="gallery-1780547996-903661281"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -433,7 +433,7 @@ cheers</p>
 
 <style>
  
-#gallery-1780460986-949791534 .carousel-item .gallery-img {
+#gallery-1780547996-903661281 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -441,11 +441,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1780460986-949791534 .carousel-item {
+#gallery-1780547996-903661281 .carousel-item {
   height: auto;
 }
 
-#gallery-1780460986-949791534 .carousel-item .figure {
+#gallery-1780547996-903661281 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -454,11 +454,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1780460986-949791534 .carousel-item .figure .gallery-img {
+#gallery-1780547996-903661281 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780460986-949791534 .carousel-item .figure .figure-caption {
+#gallery-1780547996-903661281 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -467,13 +467,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1780460986-949791534 .carousel-item .gallery-img {
+  #gallery-1780547996-903661281 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780460986-949791534 .carousel-item .gallery-img {
+  #gallery-1780547996-903661281 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -574,24 +574,24 @@ cheers</p>
 <p>But that is a different story and you can read all about it in our latest <a href="https://mailchi.mp/opengis.ch/seamless-fieldwork-with-qfieldcloud-is-around-the-corner#qfieldcloud" target="_blank" rel="noopener">newsletter</a>
 &hellip;</p>
 ]]></content:encoded><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">social-responsibility</category><category domain="tags">qgis.org</category></item><item><title>A star is born, QGIS mobile is now QField</title><link>https://qfield.org/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</link><pubDate>Wed, 28 Jan 2015 08:02:57 +0000</pubDate><guid>https://qfield.org/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</guid><description>&lt;div class="gallery-wrapper"
-data-gallery-id="gallery-1780461001-827736455"
+data-gallery-id="gallery-1780548011-509517121"
 data-autoplay="false"
 data-interval="5000"
 data-controls="true"
 data-indicators="true"&gt;
 &lt;/div&gt;
 &lt;style&gt;
-#gallery-1780461001-827736455 .carousel-item .gallery-img {
+#gallery-1780548011-509517121 .carousel-item .gallery-img {
 height: 400px !important;
 width: 100% !important;
 object-fit: cover !important;
 object-position: center center !important;
 display: block !important;
 }
-#gallery-1780461001-827736455 .carousel-item {
+#gallery-1780548011-509517121 .carousel-item {
 height: auto;
 }
-#gallery-1780461001-827736455 .carousel-item .figure {
+#gallery-1780548011-509517121 .carousel-item .figure {
 margin: 0;
 width: 100%;
 display: flex;
@@ -599,10 +599,10 @@ justify-content: center;
 position: relative;
 text-align: center;
 }
-#gallery-1780461001-827736455 .carousel-item .figure .gallery-img {
+#gallery-1780548011-509517121 .carousel-item .figure .gallery-img {
 width: 100% !important;
 }
-#gallery-1780461001-827736455 .carousel-item .figure .figure-caption {
+#gallery-1780548011-509517121 .carousel-item .figure .figure-caption {
 position: absolute;
 bottom: 1rem;
 left: 50%;
@@ -610,12 +610,12 @@ transform: translateX(-50%);
 margin: 0;
 }
 @media (max-width: 768px) {
-#gallery-1780461001-827736455 .carousel-item .gallery-img {
+#gallery-1780548011-509517121 .carousel-item .gallery-img {
 height: 300px !important;
 }
 }
 @media (max-width: 576px) {
-#gallery-1780461001-827736455 .carousel-item .gallery-img {
+#gallery-1780548011-509517121 .carousel-item .gallery-img {
 height: 250px !important;
 }
 }
@@ -627,7 +627,7 @@ height: 250px !important;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1780461001-827736455"
+     data-gallery-id="gallery-1780548011-509517121"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -637,7 +637,7 @@ height: 250px !important;
 
 <style>
  
-#gallery-1780461001-827736455 .carousel-item .gallery-img {
+#gallery-1780548011-509517121 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -645,11 +645,11 @@ height: 250px !important;
   display: block !important;
 }
 
-#gallery-1780461001-827736455 .carousel-item {
+#gallery-1780548011-509517121 .carousel-item {
   height: auto;
 }
 
-#gallery-1780461001-827736455 .carousel-item .figure {
+#gallery-1780548011-509517121 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -658,11 +658,11 @@ height: 250px !important;
   text-align: center;
 }
 
-#gallery-1780461001-827736455 .carousel-item .figure .gallery-img {
+#gallery-1780548011-509517121 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1780461001-827736455 .carousel-item .figure .figure-caption {
+#gallery-1780548011-509517121 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -671,13 +671,13 @@ height: 250px !important;
 }
 
 @media (max-width: 768px) {
-  #gallery-1780461001-827736455 .carousel-item .gallery-img {
+  #gallery-1780548011-509517121 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1780461001-827736455 .carousel-item .gallery-img {
+  #gallery-1780548011-509517121 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
