@@ -1,6 +1,6 @@
 ---
 title: 'QField 4.2 "Coral Sea": Reaching sub-centimeter accuracy out of the box'
-date: '2026-06-04T00:05:00'
+date: '2026-06-09T00:02:00'
 author: 'Mathieu'
 description: "Here's another QField release, packed with the features that have been at the top of professional surveyors' wish list! (hint: it's in the title) — plus improvements across the board for our wide range of users."
 categories:
@@ -64,7 +64,7 @@ As always, the full changelog is available over here for even more goodies.
 
 ## A flood of QFieldCloud improvements
 
-This new version of QField is packed with QFieldCloud improvements. The biggest one is the retirement of the cloud projects ‘community’ tab in favor of a **completely revamped – and we believe improved – experience around cloud project searching and filtering**. Users can now easily filter projects by organization and teammate ownership as well as by keywords. The new user interface also makes searching through the countless cloud projects that have been made public by authors around the world far more intuitive.
+This new version of QField is packed with [QFieldCloud](https://qfield.cloud/) improvements. The biggest one is the retirement of the cloud projects ‘community’ tab in favor of a **completely revamped – and we believe improved – experience around cloud project searching and filtering**. Users can now easily filter projects by organization and teammate ownership as well as by keywords. The new user interface also makes searching through the countless cloud projects that have been made public by authors around the world far more intuitive.
 
 ![](qfc.webp)
 
