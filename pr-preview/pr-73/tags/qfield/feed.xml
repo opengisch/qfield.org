@@ -12,23 +12,23 @@
     
     
     
-    <lastBuildDate>Thu, 04 Jun 2026 00:05:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-73/tags/qfield/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jun 2026 00:02:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-73/tags/qfield/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField 4.2 &#34;Coral Sea&#34;: Reaching sub-centimeter accuracy out of the box</title>
-      <link>https://qfield.org/pr-preview/pr-73/blog/2026/06/04/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/</link>
-      <pubDate>Thu, 04 Jun 2026 00:05:00 +0000</pubDate>
+      <link>https://qfield.org/pr-preview/pr-73/blog/2026/06/09/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/</link>
+      <pubDate>Tue, 09 Jun 2026 00:02:00 +0000</pubDate>
       
-      <guid>https://qfield.org/pr-preview/pr-73/blog/2026/06/04/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-73/blog/2026/06/04/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/splash42.webp" medium="image" />
+      <guid>https://qfield.org/pr-preview/pr-73/blog/2026/06/09/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/</guid>
+      <media:content url="https://qfield.org/pr-preview/pr-73/blog/2026/06/09/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/splash42.webp" medium="image" />
       <description>Here&#39;s another QField release, packed with the features that have been at the top of professional surveyors&#39; wish list! (hint: it&#39;s in the title) — plus improvements across the board for our wide range of users.</description>
       <content:encoded><![CDATA[<p>Here&rsquo;s another QField release, packed with the features that have been at the top of professional surveyors&rsquo; wish list! (hint: it&rsquo;s in the title) — plus improvements across the board for our wide range of users.</p>
 <h2 id="main-highlights">Main highlights</h2>
-<p><img src="/pr-preview/pr-73/blog/2026/06/04/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/splash42.webp" alt=""></p>
+<p><img src="/pr-preview/pr-73/blog/2026/06/09/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/splash42.webp" alt=""></p>
 <h3 id="ntrip--bluetooth-low-energy">NTRIP &amp; Bluetooth Low Energy</h3>
 <p>First up, NTRIP support has been added in QField <strong>unlocking sub-centimeter accuracy position readings without the need for any third-party app</strong>. This has long been requested by cadastral surveyors and other professional field workers in need of highly accurate data where being a few centimeters off can have real consequences.</p>
 <p>To configure an NTRIP connection, simply connect to an RTK capable GNSS device via Bluetooth, BLE or TCP from the QField settings positioning panel. Once connected, the NTRIP user interface will be visible just below the positioning devices combo box in the same panel.</p>
 <p>From there, users can enter their NTRIP caster details and enable the connection. An NTRIP visual indicator has been added at the top of the map canvas positioning information panel overlay to reflect the status of the connection. A blue dot means everything&rsquo;s working, a glowing orange dot means the connection has stopped receiving correction data, and a gray dot means the connection has turned off.</p>
-<p><img src="/pr-preview/pr-73/blog/2026/06/04/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/ntrip.webp" alt=""></p>
+<p><img src="/pr-preview/pr-73/blog/2026/06/09/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/ntrip.webp" alt=""></p>
 <p>Moving onto another functionality that walks hand in hand with NTRIP: QField now <strong>supports connecting to external GNSS devices via Bluetooth Low Energy (BLE)</strong>. This means a whole array of GNSS devices can now talk directly to QField on iOS as well, simplifying workflows for field surveyors working on this platform. While the benefit is most visible on iOS as QField previously lacked the ability to talk through Bluetooth altogether on that platform, BLE connections are also available on Android, Windows, and Linux. In many cases, it can offer a more stable connection.</p>
 <p>The <strong>development of these fantastic features was supported by two QField hardware partners: HappySurvey and ArduSimple</strong>. Their support meant we were able to focus on getting the best possible experience running on their devices. Other hardware will definitively work out of the box too, and we&rsquo;d love to hear about your experiences. However, since we are dealing with functionalities that are often driven by vendor-specific commands and UUIDs, there’s plenty of room to grow when it comes to compatibility. So if you&rsquo;re a hardware vendor, feel free to reach out, <a href="https://qfield.org/hardware/" target="_blank" rel="noopener">join our certified hardware program</a>
  and support QField’s growth! :)</p>
@@ -56,8 +56,9 @@
 </ul>
 <p>As always, the full changelog is available over here for even more goodies.</p>
 <h2 id="a-flood-of-qfieldcloud-improvements">A flood of QFieldCloud improvements</h2>
-<p>This new version of QField is packed with QFieldCloud improvements. The biggest one is the retirement of the cloud projects ‘community’ tab in favor of a <strong>completely revamped – and we believe improved – experience around cloud project searching and filtering</strong>. Users can now easily filter projects by organization and teammate ownership as well as by keywords. The new user interface also makes searching through the countless cloud projects that have been made public by authors around the world far more intuitive.</p>
-<p><img src="/pr-preview/pr-73/blog/2026/06/04/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/qfc.webp" alt=""></p>
+<p>This new version of QField is packed with <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
+ improvements. The biggest one is the retirement of the cloud projects ‘community’ tab in favor of a <strong>completely revamped – and we believe improved – experience around cloud project searching and filtering</strong>. Users can now easily filter projects by organization and teammate ownership as well as by keywords. The new user interface also makes searching through the countless cloud projects that have been made public by authors around the world far more intuitive.</p>
+<p><img src="/pr-preview/pr-73/blog/2026/06/09/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/qfc.webp" alt=""></p>
 <p>A brand new <strong>cloud storage indicator has been added to QField</strong> to let users know of their current used and remaining storage size. This will help users keep on top of their storage and provide an early warning when space is about to run out. Upgrades are available for users to keep working on these growing cloud projects that were started using the <a href="https://qfield.cloud/pricing" target="_blank" rel="noopener">free community plan</a>
 .</p>
 <p>Beyond that, we’ve been hard at work hunting bugs and increasing the overall stability. We’ve also transformed a number of obscure and intimidating error messages into helpful notifications.</p>
