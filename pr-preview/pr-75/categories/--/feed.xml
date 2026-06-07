@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>-- on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-75/categories/--/</link>
+    <description>Recent content in -- on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-75/categories/--/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How QField Supports Vocational Training in Switzerland</title>
+      <link>https://qfield.org/pr-preview/pr-75/success-stories/vocational-training/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-75/success-stories/vocational-training/</guid>
+      
+      <description>In the French-speaking region of Switzerland, ORIF is using QField to transform how students with physical or psychological challenges learn geomatics—providing them with professional-grade tools and a pathway back into the workforce.</description>
+      <content:encoded><![CDATA[<p>In the French-speaking region of Switzerland, <a href="https://www.orif.ch/fr/" target="_blank" rel="noopener">ORIF</a>
+ is using QField to <strong>transform how students with physical or psychological challenges learn geomatics</strong>, providing them with professional-grade tools and a pathway back into the workforce.</p>
+<p>ORIF is not a typical geomatics company. This vocational training organization provides apprenticeships across 30 different trades for people who have experienced <strong>life-changing injuries or psychological challenges</strong> and need to <strong>reorient their careers</strong>.
+Five years ago, Patrick Darbellay opened ORIF&rsquo;s geomatics section, creating opportunities for students to learn <strong>surveying, GNSS technology, and GIS software</strong> through a four-year apprenticeship program.</p>
+<h3 id="choosing-the-right-tools">Choosing the Right Tools</h3>
+<p>As the sole geomatics instructor working with five students, Patrick needed software that would align with what students learn in Swiss vocational schools while being <strong>accessible</strong>* and <strong>well-supported</strong>. QField and QGIS were natural choices.</p>
+<p><em>&ldquo;In Switzerland, QGIS is really well accepted by the geomatics community”</em></p>
+<p>Unlike proprietary alternatives, QGIS and QField offered abundant free learning resources and community support—invaluable for students rebuilding their lives.</p>
+<h3 id="from-paper-to-digital">From Paper to Digital</h3>
+<p>Before QField, students used paper notebooks to record attributes and a Trimble GNSS receiver for coordinates. Patrick worked with his students to develop a QField-based system that <strong>captures field data directly on mobile devices while maintaining rigorous GNSS survey protocols.</strong></p>
+<p>This hybrid approach gives students professional-grade GNSS data collection with detailed protocol logs for learning, combined with efficient digital attribute capture through QField.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-75/--.jpg"
+         alt="picture" 
+         class="figure-img img-fluid gallery-img"
+         loading="lazy"></figure>
+
+<h3 id="real-world-projects">Real-World Projects</h3>
+<p>ORIF&rsquo;s students conduct actual professional work supporting Switzerland&rsquo;s cadastral system. Their current project involves renewing base points (control points) used for official surveying across their region – approximately 2,000 points in total.</p>
+<p><em>&ldquo;We go to the field, we search for these points. If we find them, we survey them. Then in QField, we put the state—if it&rsquo;s good or not, if it&rsquo;s level. We take a photo, we link the photo in QField, we enter all the attributes and the date of surveying&rdquo;</em></p>
+<p>The project is carefully chosen to provide valuable experience without competing with local geomatics companies — many of which eventually employ ORIF graduates. The work gives students complete surveying experience: <strong>GNSS measurements, photography, attribute data entry, and physical marking with spray paint</strong>.</p>
+<p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-75/--.jpeg"
+         alt="pic" 
+         class="figure-img img-fluid gallery-img"
+         loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-75/--.jpeg"
+          alt="pic" 
+          class="figure-img img-fluid gallery-img"
+          loading="lazy"></figure>
+</p>
+<h3 id="building-confidence">Building Confidence</h3>
+<p>For students at ORIF, the ability to produce professional work using modern tools has impacts <strong>beyond technical skills</strong>.</p>
+<p><em>&ldquo;It&rsquo;s really special—it&rsquo;s not only geomatics, it&rsquo;s a bit social and psychological. For them, it&rsquo;s really valuable because they can make something themselves and produce something themselves. If you have trouble and a part of your life is difficult, you&rsquo;re a bit down. If you can go up again with such tools, I think that&rsquo;s really valuable.&rdquo;</em></p>
+<p><strong>The self-directed learning</strong> that QField and QGIS enable is particularly important. Students can explore the software independently, find solutions to problems, and experience the satisfaction of <strong>overcoming challenges on their own</strong>.</p>
+<h3 id="success-metrics">Success Metrics</h3>
+<p>ORIF&rsquo;s approach is working. <strong>Approximately 60-80% of students complete the full apprenticeship program and successfully transition to employment in geomatics companies</strong>. A remarkable achievement considering the challenges these students have faced.</p>
+<p>Students spend their first two years at ORIF building foundational skills and stability. If they&rsquo;re ready, they transition to work with a regular employer for their third and fourth years—completing their apprenticeship in the professional marketplace they&rsquo;ll eventually join.</p>
+<p>The QField system Patrick developed has become integral to preparing students for this transition. They learn modern digital workflows, database concepts, and mobile data collection—all skills that employers value.</p>
+<h3 id="looking-forward">Looking Forward</h3>
+<p>As ORIF continues to develop its geomatics program, Patrick is exploring <strong>additional ways to leverage QField&rsquo;s capabilities</strong>. For Patrick, the success of the program is measured not in points surveyed or data collected, but in lives changed.</p>
+<p><em>&ldquo;The goal of ORIF is to make this bridge. And it&rsquo;s working well.&rdquo;</em></p>
+]]></content:encoded>
+      <category domain="categories">--</category>
+    </item>
+    
+  </channel>
+</rss>

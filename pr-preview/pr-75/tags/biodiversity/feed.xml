@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Biodiversity on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-75/tags/biodiversity/</link>
+    <description>Recent content in Biodiversity on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-75/tags/biodiversity/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Ecology and Biodiversity Monitoring</title>
+      <link>https://qfield.org/pr-preview/pr-75/solutions/ecology-and-biodiversity-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-75/solutions/ecology-and-biodiversity-monitoring/</guid>
+      
+      <description>Species observations, habitats, and monitoring plots with offline mobile GIS and QGIS.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Record species, abundance, and habitats</li>
+<li>Map plots and transects with accurate GNSS</li>
+<li>Attach photos and notes for QA</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Share projects and manage permissions in QFieldCloud. Export to standard formats for analysis.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">biodiversity</category>
+      <category domain="tags">ecology</category>
+      <category domain="tags">species monitoring</category>
+    </item>
+    
+  </channel>
+</rss>

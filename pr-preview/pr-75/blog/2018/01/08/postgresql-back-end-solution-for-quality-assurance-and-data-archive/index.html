@@ -1,0 +1,855 @@
+<!doctype html>
+<html lang="en-US" data-bs-theme="light" data-theme-default="light"> 
+<head>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24350287-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-24350287-3");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv='Content-Security-Policy' content="script-src &#39;self&#39; https://cdn.jsdelivr.net; style-src &#39;self&#39; &#39;unsafe-inline&#39; https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net; font-src &#39;self&#39; data: https://use.typekit.net https://p.typekit.net; img-src &#39;self&#39; data: https:; connect-src &#39;self&#39;; frame-src &#39;self&#39;; worker-src &#39;self&#39;; form-action &#39;self&#39;; object-src 'none'; base-uri 'none'">
+<script src="/pr-preview/pr-75/js/theme-init.min.7afa657cd4d8aa104066ad85e1ccaca5450753acddb0ea4c04efac675a9b5b0b.js" integrity="sha256-evplfNTYqhBAZq2F4cyspUUHU6zdsOpMBO&#43;sZ1qbWws=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/pr-preview/pr-75/css/bootstrap.min.3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8.css" integrity="sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=" crossorigin="anonymous"><link rel="stylesheet" href="/pr-preview/pr-75/css/main.2254f992fa3cb9c815e39afdfc74b521287e58e25c983dacca4712dd44ccae0b.css" integrity="sha256-IlT5kvo8ucgV45r9/HS1ISh&#43;WOJcmD2sykcS3UTMrgs=" crossorigin="anonymous"><link rel="stylesheet" href="/pr-preview/pr-75/css/styles.f9d7244339c9ead4315b602116324224ed07759496dcbb7296993e785f8af6bf.css" integrity="sha256-&#43;dckQznJ6tQxW2AhFjJCJO0HdZSW3Ltylpk&#43;eF&#43;K9r8=" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://use.typekit.net" crossorigin>
+<link rel="stylesheet" href="/pr-preview/pr-75/vendor/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="https://use.typekit.net/cbd7kad.css"><link rel="stylesheet" href="/pr-preview/pr-75/bootstrap-icons/bootstrap-icons.004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b.css" integrity="sha256-AEMichyFVzMXWbxt2qy7aJsPBxXWiK7IK9BW0tW1zDs=" crossorigin="anonymous">
+
+    <title>PostgreSQL back end solution for quality assurance and data archive | QField - Efficient field work built for QGIS</title><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+  <meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+  <meta name="bingbot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+
+
+<link rel="canonical" href="https://qfield.org/pr-preview/pr-75/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/">
+
+
+<link rel="alternate" hreflang="en-US" href="https://qfield.org/pr-preview/pr-75/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/">
+
+
+
+<link rel="alternate" hreflang="x-default" href="https://qfield.org/pr-preview/pr-75/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<meta property="og:title" content="PostgreSQL back end solution for quality assurance and data archive">
+<meta property="og:description" content="Did you know that the possibilities to make a full QGIS back end solution for quality assurance and archiving in PostgreSQL are immense? SQL has it’s well known limitations, but with a little bit …">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://qfield.org/pr-preview/pr-75/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/">
+<meta property="og:locale" content="en-US">
+    
+  <meta property="article:section" content="blog">
+  
+    <meta property="article:published_time" content="2018-01-08T06:06:13+00:00">
+  
+  
+    <meta property="article:modified_time" content="2025-12-01T11:53:43+01:00">
+  
+  <meta property="og:site_name" content="QField - Efficient field work built for QGIS">
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+    <meta name="twitter:title" content="PostgreSQL back end solution for quality assurance and data archive">
+<meta name="twitter:description" content="Did you know that the possibilities to make a full QGIS back end solution for quality assurance and archiving in PostgreSQL are immense? SQL has it’s well known limitations, but with a little bit …">
+
+
+
+
+  
+
+
+
+  
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "PostgreSQL back end solution for quality assurance and data archive",
+  "datePublished": "2018-01-08T06:06:13+00:00",
+  "dateModified": "2025-12-01T11:53:43+01:00",
+  "mainEntityOfPage": "https://qfield.org/pr-preview/pr-75/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/",
+  "publisher": {
+    "@type": "Organization",
+    
+    "name": "QField - Efficient field work built for QGIS"
+  },
+  "wordCount" :  2597 ,
+  "description": "Did you know that the possibilities to make a full QGIS back end solution for quality assurance and archiving in PostgreSQL are immense? SQL has it’s well known limitations, but with a little bit …",
+  "keywords": []
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "\"PostgreSQL back end solution for quality assurance and data archive | QField - Efficient field work built for QGIS\"",
+  "url": "https:\/\/qfield.org\/pr-preview\/pr-75\/blog\/2018\/01\/08\/postgresql-back-end-solution-for-quality-assurance-and-data-archive\/",
+  "inLanguage": "en-US",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "\"QField - Efficient field work built for QGIS\"",
+    "url": "https:\/\/qfield.org\/pr-preview\/pr-75\/"
+  }
+}
+</script>
+
+    <link rel="icon" type="image/svg+xml" href="/pr-preview/pr-75/images/qfield-logo.svg">
+
+
+</head>
+<body class="blog single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-lg bg-white border-bottom sticky-top">
+    <div class="container">
+
+      <a class="navbar-brand fw-bold" href="/pr-preview/pr-75/">
+        
+        <img src="/pr-preview/pr-75/images/qfield_for_qgis.png" alt="QField logo" width="205" height="70"
+          class="navbar-brand__logo navbar-brand__logo--light" loading="eager" decoding="async">
+        
+
+        
+        <img src="/pr-preview/pr-75/images/qfield_for_qgis_white.svg" alt="QField logo" width="205" height="70"
+          class="navbar-brand__logo navbar-brand__logo--dark" loading="eager" decoding="async">
+        
+
+        
+      </a>
+
+      <div class="d-flex align-items-center gap-2 order-lg-3">
+        <button id="themeToggle"
+          class="btn btn-outline-secondary d-none d-lg-inline-flex align-items-center justify-content-center"
+          type="button" aria-label="Toggle theme">
+          <i id="themeIcon" class="bi"></i>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+          aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="visually-hidden">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse order-lg-2" id="navMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link"
+              href="/pr-preview/pr-75/#highlights" target="_self" >
+              
+              <span>Highlights</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="/pr-preview/pr-75/assistance/" target="_self" >
+              
+              <span>Get Assistance</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="nav-dropdown-resources" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Resources
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="nav-dropdown-resources">
+              <li>
+                <a class="dropdown-item" href="/pr-preview/pr-75/success-stories/" target="_self" >
+                  Success Stories
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://community.qfield.org/" target="_blank"  rel="noopener noreferrer" >
+                  Community
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://docs.qfield.org" target="_blank"  rel="noopener noreferrer" >
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pr-preview/pr-75/guidelines/" target="_self" >
+                  Brand guidelines
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://docs.qfield.org/get-started/contribute/" target="_blank"  rel="noopener noreferrer" >
+                  Contribute
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://github.com/opengisch/qfield" target="_blank"  rel="noopener noreferrer" >
+                  Source Code
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pr-preview/pr-75/partner/" target="_self" >
+                  Partner Programs
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pr-preview/pr-75/sdgs/" target="_self" >
+                  Sustainable Development Goals
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/pr-preview/pr-75/blog/" target="_self" >
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://www.opengis.ch/newsletter" target="_blank"  rel="noopener noreferrer" >
+                  Newsletter
+                </a>
+              </li>
+              </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://opengis.ch/#contact" target="_blank"  rel="noopener noreferrer" >
+              
+              <span>Contact Us</span>
+            </a>
+          </li>
+          <li class="nav-item nav-item--button">
+            <a class="nav-link nav-link--button nav-link--primary"
+              href="/pr-preview/pr-75/get/" target="_self" >
+              <i class="fa-solid fa-rocket" aria-hidden="true"></i>
+              <span>Get started</span>
+            </a>
+          </li>
+          <li class="nav-item nav-item--button">
+            <a class="nav-link nav-link--button nav-link--support"
+              href="/pr-preview/pr-75/support-us/" target="_self" >
+              <i class="fa-solid fa-heart" aria-hidden="true"></i>
+              <span>Support us</span>
+            </a>
+          </li>
+          </ul>
+
+        <div class="d-lg-none mt-3">
+          <button id="themeToggleMobile"
+            class="btn btn-outline-secondary w-100 d-flex align-items-center justify-content-center" type="button"
+            aria-label="Toggle theme">
+            <i id="themeIconMobile" class="bi me-2"></i>
+            <span>Toggle theme</span>
+          </button>
+        </div>
+        </div>
+    </div>
+  </nav>
+</header>
+<div id="content">
+
+
+<section class="py-2">
+  <div class="container">
+    
+    
+    <div class="my-4">
+      <a href="/pr-preview/pr-75/blog/" class="btn btn-outline-secondary btn-sm">
+        <i class="fas fa-arrow-left me-2"></i>Back to Blog
+      </a>
+    </div>
+
+    
+    <header class="mb-2">
+      <h1 class="display-5 fw-bold mb-3">PostgreSQL back end solution for quality assurance and data archive</h1>
+      
+      <div class="text-muted mb-1">
+        <i class="fas fa-calendar me-1"></i>
+        <span class="me-3">January 8, 2018</span>
+        
+        <i class="fas fa-user me-1"></i>
+        <span class="me-3">signedav</span>
+        
+        
+        <i class="fas fa-clock me-1"></i>
+        <span>13 min read</span>
+        
+      </div>
+      <hr>
+    </header>
+
+    
+    
+    
+    
+    
+    
+  </div>
+</section>
+
+
+<article class="py-1 blog-single">
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="content blog-content">
+          <p><strong><em>Did you know that the possibilities to make a full QGIS back end solution for quality assurance and archiving in PostgreSQL are immense? SQL has it&rsquo;s well known limitations, but with a little bit creativity you can make quite nice solutions just using triggers and rules. In this post I&rsquo;ll explain what we did lately based on a project with a customer. He needed to assure the consistency of data but still give his employees the possibility of a fast feeding of the data collected on the field to the database. Another request was to keep every status of the data with the information about the changes (archiving).</em></strong>
+It&rsquo;s always the question, where to put the logical part of the solution. QGIS is quite powerful with constraints, but the undeniable advantage of a back end solution is, that you can use any front end - no matter what configuration you have on QGIS or what Feature Manipulation Engine (FME) you use - without influencing the guarantee of data validity.</p>
+<h1 id="situation">Situation</h1>
+<h2 id="its-all-about-trees">It&rsquo;s all about trees</h2>
+<p>At least for that customer we got lately. The customer owns pieces of land all over Switzerland. On this pieces are forests and in the forests are - as expected - trees. Well, mostly - if you are not a bark beetle or a squirrel - you don&rsquo;t care about a single tree. Except if there is something special with it. For example, a branch that could fell down on your brand new Citroën DS or if the tree has a disease that could kill the whole forest, that is actually needed to convert the carbon dioxide (from your DS) into oxygen.
+<a href="/pr-preview/pr-75/wald.png"><img src="/pr-preview/pr-75/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/wald.png" alt=""></a>
+ The issuetrees (yellow) lie on the forest (green) - and the forest lies on the land piece (brown).
+<a href="/pr-preview/pr-75/erm2.png"><img src="/pr-preview/pr-75/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/erm2.png" alt=""></a>
+ And the (Entity Relationship Model) ERM looks like this. A land can have zero, one or more forests - and a forest can have zero, one or more trees with issues.</p>
+<h2 id="its-not-really-about-trees">It&rsquo;s not really about trees</h2>
+<p>The situation is, that a lot of field workers (so called tree-inspectors) work with our mobile solution <a href="https://www.qfield.org/" target="_blank" rel="noopener">QField</a>
+, where they can collect the data while standing in the middle of a wild forest with one foot in a rabbit hole and the other one in the stinging nettle. It&rsquo;s quite possible and usual that there can be some problems entering all the data correctly. Typing issues on the tablet while running away from wolves or just lack of concentration because of the beauty of the swiss forests.</p>
+<h2 id="and-its-about-lots-of-front-ends">And it&rsquo;s about lots of front ends</h2>
+<p>But there are not only the tree-inspectors. There are the office-clerks working with QGIS and planning, when the problems on the tree has to be solved. And finally there are the woodsmen solving the issues and setting the status to done on QField again. So there have to be a lot of projects using the same data but with different configurations. If you make all the quality assurance on the front end you won&rsquo;t have time to care about the trees anymore and beside of that it&rsquo;s fault-prone.</p>
+<h1 id="quality-assurance-in-the-back-end">Quality assurance in the back end</h1>
+<h2 id="data-integrity-with-constraint-functions">Data integrity with constraint functions</h2>
+<p>There are simple constraints like that a field is not empty and more complex constraints with a lot of logic regarding the content of the field.</p>
+<h3 id="simple-constraints">Simple constraints</h3>
+<p>Lots of data integrity issues can be solved by using simple constraints like NOT NULL (column must not assume null), UNIQUE (column must be unique among all the rows in table) or Primary Key and Foreign Keys constraints.</p>
+<pre tabindex="0"><code class="language-default" data-lang="default">CREATE TABLE live.issuetree (
+  issuetree_id integer UNIQUE NOT NULL,
+  gps_id text NOT NULL,
+  issue text,
+  assignee text,
+  done boolean,
+  donedate date,
+  forest_id NOT NULL,
+  CONSTRAINT issuetree_pkey PRIMARY KEY (issuetree_id),
+  CONSTRAINT forest_fkey FOREIGN KEY (forest_id) REFERENCES live.forest;
+);
+</code></pre><h3 id="checks-and-constraint-functions">Checks and constraint functions</h3>
+<p>For more special cases or not really technical constraints, we can use checks. Here for example: If the issue is done, then it needs to have a donedate. But not if done is not TRUE (NULL or FALSE).</p>
+<pre tabindex="0"><code>CHECK (done IS NOT TRUE OR donedate IS NOT NULL )
+</code></pre><p>And if these cases are more complex and not technical at all, we can put it to a function and use the return value (for example the error message) as condition. In the following example we want to assure that assignee is the name of one of the employed woodsmen. Of course it can be NULL too.</p>
+<pre tabindex="0"><code class="language-default" data-lang="default">CONSTRAINT chk_assignee_valid CHECK (live.chk_assignee_valid(assignee) = &#39;&#39;::text)
+</code></pre><p>And the function <strong>live.chk_assignee_valid</strong>:</p>
+<pre tabindex="0"><code class="language-default" data-lang="default">CREATE OR REPLACE FUNCTION live.chk_assignee_valid(a_assignee text ) RETURNS text
+LANGUAGE plpgsql AS $$
+DECLARE
+result text;
+BEGIN
+  IF (
+    SELECT TRUE
+    WHERE a_assignee NOT IN ( &#39;Fritz Fangorn&#39; ,  &#39;Fiona Finglas&#39;,  &#39;Fred Fladrif&#39;, &#39;Barbara Beechbone&#39;, &#39;Berthold Bregalad&#39; )
+          AND a_assignee IS NOT NULL
+  ) THEN
+    result=&#39;The assignee has to be one of these guys: Fritz Fangorn, Fiona Finglas, Fred Fladrif, Barbara Beechbone, Berthold Bregalad&#39;;
+    RAISE EXCEPTION &#39;%&#39;, result;
+  ELSE
+    RAISE NOTICE &#39;CHECK chk_assignee_valid SUCCESSFUL&#39;;
+    result=&#39;&#39;;
+  END IF;
+  RETURN result;
+END;
+</code></pre><p>So with many of these constraints, we can assure a lot and the data are fully correct. But this is not always comfortable to use. Why? Go on reading&hellip;</p>
+<h2 id="using-of-a-data-quarantine">Using of a &ldquo;data quarantine&rdquo;</h2>
+<p>Let&rsquo;s imagine that the tree-inspector collected all day data in QField. Standing in the middle of the mentioned stinging nettle and rabbit holes, running from wolves etc&hellip; Of course he made some mistakes while collecting data. In the evening he returns tired to the office, already thinking about the dinner meal his wife is cooking (or his husband, of course), and wants to upload the data from the QField project to the database. And what happens? Lot&rsquo;s of error messages. He thinks about to solve them tomorrow, because his wife (or his husband) can get quite angry when he is late for dinner. But if he does it tomorrow, the data are only stored on the device and nowhere else overnight. He need to have them in the database. No matter, if correct or not. And this leads to the idea of the &ldquo;data quarantine&rdquo;.</p>
+<h3 id="use-case">Use Case</h3>
+<p>All data entered to the database (valid or not) need to be stored. The entries accepted from the so called live tables with all constraints, are stored normally. The entries failed because of the constraint, are stored in another table. In the so called quarantine table. So you have for every live table another quarantine table. This means, we need another table structure existing parallel to the live tables. We do it in two schemas: The live schema and the quarantine schema.
+So the tree-inspector synchronizes his QField without any problem to the database. The correct entries are written into the live tables. The incorrect into the quarantine. Actually all the data are coming into the quarantine and there is a Trigger passing them through to the live table. If they success, they will be stored in live and removed from quarantine. Otherwise they keeps staying in the quarantine. Same situation when the quarantine-clerk later corrects the data entries in the quarantine. On an update they are pushed into the live-table. If success, all good. Otherwise the entry keeps staying in the quarantine.</p>
+<h3 id="structure">Structure</h3>
+<h3><a href="/pr-preview/pr-75/structure1.png"><img src="/pr-preview/pr-75/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure1.png" alt=""></a>
+</h3>
+<h3 id="and-how-we-do-that">And how we do that?</h3>
+<p>It&rsquo;s all solved by using triggers. SQL triggers are procedural code that are automatically executed on an action on a table or view. For this solution we actually need two trigger per quarantine table. <strong><em>After insert into</em></strong> or <em><strong>update</strong></em> quarantine table, a trigger should be fired for every entry, doing this:
+<em>Insert the same entry into the live table. If success, then delete the entry in the quarantine table. Else write the info to the current entry in the quarantine table.</em>
+Probably you noticed the problem with the recursion, but let&rsquo;s not think about it at the moment :-)</p>
+<h3 id="code">Code</h3>
+<p>In PostgreSQL we can use trigger functions. Means you have the triggers on the table calling the functions.</p>
+<h4 id="trigger-on-table-quarantineissuetree-after-update">Trigger on table quarantine.issuetree after update</h4>
+<pre tabindex="0"><code class="language-default" data-lang="default">CREATE TRIGGER pushtolive
+AFTER UPDATE
+ON quarantine.issuetree
+FOR EACH ROW
+EXECUTE PROCEDURE quarantine.pushtolive();
+</code></pre><h4 id="trigger-function-simplified">Trigger function (simplified)</h4>
+<pre tabindex="0"><code class="language-default" data-lang="default">CREATE OR REPLACE FUNCTION quarantine.pushtolive() RETURNS trigger AS $BODY$
+BEGIN
+  INSERT INTO live.issuetree
+  SELECT * FROM quarantine.issuetree
+  WHERE quarantine_serial = NEW.quarantine_serial
+  RETURN NEW;
+END; $BODY$
+LANGUAGE plpgsql;
+</code></pre><h4 id="trigger-function-used-for-the-solution-when-inserting-into-live">Trigger function used for the solution when inserting into live</h4>
+<p>And this is the function with the logical part with success and failing.</p>
+<pre tabindex="0"><code class="language-default" data-lang="default">CREATE OR REPLACE FUNCTION quarantine.pushtolive() RETURNS trigger AS $BODY$
+BEGIN
+-- insert into live
+INSERT INTO live.issuetree
+SELECT * FROM quarantine.issuetree
+WHERE quarantine_serial = NEW.quarantine_serial
+RAISE NOTICE &#39;Inserted row in live.issuetree&#39;;
+-- delete in quarantine
+DELETE FROM quarantine.issuetree
+WHERE quarantine_serial = NEW.quarantine_serial
+RAISE NOTICE &#39;Deleted row in quarantine.issuetree&#39;;
+-- return when here
+RETURN NEW;
+-- if it failed:
+EXCEPTION WHEN OTHERS THEN
+  RAISE NOTICE &#39;EXCEPTION: %&#39;, SQLERRM;
+  UPDATE quarantine.issuetree
+  SET fail_info = SQLERRM,
+  WHERE NEW.quarantine_serial = quarantine_serial;
+  RAISE NOTICE &#39;Updated row in quarantine.issuetree&#39;;
+  RETURN NEW;
+END; $BODY$
+</code></pre><p>As you can see, we use here an id called quarantine_serial. We can not use the primary key in the quarantine, because here everything is accepted and so nothing of the entered data (not even issuetree_id) has to be be unique. But to identify the entry in the quarantine table we create the serial quarantine_serial.</p>
+<h4 id="trigger-function-used-for-the-solution-when-inserting-into-or-update-live">Trigger function used for the solution when inserting into or update live</h4>
+<p>Actually the trigger function before is not usable. Because it works only to insert new data into the live system. Now we remember the use case. The trigger here in the quarantine does not know if the tree-inspector created a new issuetree or updated an old one. On synchronization he made an INSERT INTO to the quarantine with all entries. But these could be new entries (new trees) or already existing ones in the live table. So the trigger function has to decide, if it&rsquo;s an insert or an update on the live table.</p>
+<pre tabindex="0"><code class="language-default" data-lang="default">CREATE OR REPLACE FUNCTION quarantine.pushtolive() RETURNS trigger AS $BODY$
+BEGIN
+-- check if an entry with this id is already existing
+IF( SELECT TRUE FROM live.issuetree WHERE issuetree_id = NEW.issuetree ) THEN
+  -- update into live
+  UPDATE live.issuetree
+  SET gps_id = NEW.gps_id, issue = NEW.issue, assignee = NEW.assignee, done = NEW.done, date = NEW.date, forest_id = NEW.forest_id
+  WHERE issuetree_id = NEW.issuetree_id
+  RAISE NOTICE &#39;Updated row in live.issuetree&#39;;
+ELSE
+  -- insert into live
+  INSERT INTO live.issuetree ( issuetree_id, gps_id, issue, assignee, done, date, forest_id )
+  VALUES ( NEW.issuetree_id, NEW.gps_id, NEW.issue, NEW.assignee, NEW.done, NEW.date, NEW.forest_id )
+  RAISE NOTICE &#39;Inserted row in live.issuetree&#39;;
+END IF;
+-- delete in quarantine
+DELETE FROM quarantine.issuetree
+WHERE quarantine_serial =NEW.quarantine_serial
+RAISE NOTICE &#39;Deleted row in quarantine.issuetree&#39;;
+-- return when here
+RETURN NEW;
+-- if it failed:
+EXCEPTION WHEN OTHERS THEN
+  RAISE NOTICE &#39;EXCEPTION: %&#39;, SQLERRM;
+  UPDATE quarantine.issuetree
+  SET fail_info=SQLERRM,
+  WHERE NEW.quarantine_serial = quarantine_serial;
+  RAISE NOTICE &#39;Updated row in quarantine.issuetree&#39;;
+  RETURN NEW;
+END; $BODY$
+</code></pre><h3 id="recursion-problem">Recursion problem</h3>
+<p>The problem with the recursion is that we have a trigger after update of table issuetree in quarantine. This trigger calls the function, and the function (in case of fail updating live) updates the quarantine.issuetree with the error-message. So there is another update and the trigger is fired again, and again, and again&hellip; ♪Across the universe♬
+We could solve the problem by checking the depth of triggers in PostgreSQL:</p>
+<pre tabindex="0"><code class="language-default" data-lang="default">CREATE TRIGGER pushtolive AFTER UPDATE ON quarantine.issuetree
+FOR EACH ROW
+WHEN pg_trigger_depth() = 0
+EXECUTE PROCEDURE quarantine.pushtolive();
+</code></pre><h3 id="and-it-looks-like-this">And it looks like this</h3>
+<p>The yellow points are the issue trees in the live. If we create another one and have a mistake in it (GPS Id wrong), then it&rsquo;s stored in the quarantine (pink). When we correct the data it&rsquo;s written over the quarantine trigger into live. If succeeded, the point changes the color to yellow.
+Actually the yellow point appears (live) and the pink point(quarantine) disappears, because the entry is inserted into live and deleted in quarantine.
+<a href="/pr-preview/pr-75/DemoQuaranLive.gif"><img src="/pr-preview/pr-75/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/DemoQuaranLive.gif" alt=""></a>
+</p>
+<h1 id="archiving-all-data">Archiving all data</h1>
+<p>There are different reasons why you need to archive data. Maybe somewhen you want to show your grandchildren, how much forest we still had today before the sky got dark. But this was not the reason for the mentioned customer, but legal reasons:
+When the woodsman cuts the last bamboo tree of the forest and this was the only food for the very last living panda bear of Switzerland, we need to know who created or changed this entry in the database and what tree should have been chopped down instead.</p>
+<h2 id="third-schema-archive">Third schema &ldquo;archive&rdquo;</h2>
+<p>So we created a third schema parallel to live and quarantine. The archive schema. This means every table in live does not only have a quarantine table accordingly, but also an archive table too where all the old status of entries including the timestamp, when it has been archived.
+Of course not only the changed live data are stored in the archive, but also every changed data from quarantine.</p>
+<h3 id="use-case-1">Use Case 1</h3>
+<p>The tree-inspector enters an entry of an issue tree that already existed in the live table to the quarantine (1). The after insert trigger is fired and it tries to write to the live table. And with success. The entry is written to the live table (2). This means, before the entry in live is updated, the old one was copied to the archive table (3). Then in the same transaction the entry in the quarantine is deleted (1). Means the old status is copied to the archive too (4).
+So there will be the updated entry in the live-table (2), no entry in the quarantine-table (1) and two entries (3 and 4) in the archive table.</p>
+<h3 id="use-case-2">Use Case 2</h3>
+<p>The tree-inspector enters an entry of an issue tree that already existed in the live table to the quarantine (1). The after insert trigger is fired and it tries to write to the live table. And it fails. The entry in the quarantine will be updated with the error-message (2). The old status is copied to archive (1). The office clerk makes no the changes to this entries. The trigger is fired and this time it could write into the live-table with success (3). So the old entry is copied to the archive (4) and after deleting the entry in the quarantine, there will be the second old status of quarantine (5) in archive too.
+So there will be the updated entry in the live-table (3), no entry in the quarantine-table (1 and 2) and three entries (1, 4 and 5) in the archive table.</p>
+<h3 id="structure-1">Structure</h3>
+<p><a href="/pr-preview/pr-75/structure2.png"><img src="/pr-preview/pr-75/blog/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure2.png" alt=""></a>
+</p>
+<h2 id="and-how-we-do-that-1">And how we do that?</h2>
+<p>It&rsquo;s solved by using triggers too. We actually need only one trigger per table, but not only in quarantine, but also in live. It has to be fired before every update of every entry, doing this:
+<em>Insert a copy of the current entry into the archive table with the status it had until the update we are doing right now.</em></p>
+<h3 id="code-1">Code</h3>
+<p>It&rsquo;s the same code for the live and the quarantine table triggers. So only the ones for the quarantine are explained.</p>
+<h4 id="trigger-on-table-quarantineissuetree-before-update">Trigger on table quarantine.issuetree before update</h4>
+<pre tabindex="0"><code class="language-default" data-lang="default">CREATE TRIGGER archiving
+BEFORE UPDATE
+ON quarantine.issuetree
+FOR EACH ROW
+EXECUTE PROCEDURE quarantine.archiving();
+</code></pre><h4 id="trigger-function-simplified-1">Trigger Function (simplified)</h4>
+<pre tabindex="0"><code class="language-default" data-lang="default">CREATE OR REPLACE FUNCTION quarantine.archiving() RETURNS trigger AS $BODY$
+BEGIN
+  INSERT INTO archive.issuetree
+  SELECT *
+  FROM quarantine.issuetree
+  WHERE NEW.quarantine_serial = quarantine_serial;
+END; $BODY$
+LANGUAGE plpgsql;
+</code></pre><p>And the archive-tables have a default time-column to store the time, when the entry has been archived:</p>
+<pre tabindex="0"><code class="language-default" data-lang="default">ar_time timestamp without time zone DEFAULT now()
+</code></pre><h1 id="thats-it">That&rsquo;s it</h1>
+<p>That&rsquo;s what I just needed to tell you. It was a very interesting project and I liked working on it.
+Thanks for reading so far. If you have questions, improvement suggestions or anything else to tell me, then please comment it.
+See yah! :-)</p>
+
+        </div>
+    </div>
+  </div>
+</article>
+
+
+<section class="py-5 border-top">
+  <div class="container">
+    <div class="row justify-content-center">
+        
+        
+        <div class="mb-5 text-center">
+          <h6 class="fw-bold mb-3">Share this post</h6>
+          
+          
+          
+          <ul class="share-buttons">
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share PostgreSQL back end solution for quality assurance and data archive on X" 
+                 title="Share on X (Twitter)"
+                 href="https://x.com/intent/tweet/?text=PostgreSQL&#43;back&#43;end&#43;solution&#43;for&#43;quality&#43;assurance&#43;and&#43;data&#43;archive&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-75%2Fblog%2F2018%2F01%2F08%2Fpostgresql-back-end-solution-for-quality-assurance-and-data-archive%2F&hashtags=qgis">
+                <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
+                  <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share PostgreSQL back end solution for quality assurance and data archive on LinkedIn" 
+                 title="Share on LinkedIn"
+                 href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-75%2Fblog%2F2018%2F01%2F08%2Fpostgresql-back-end-solution-for-quality-assurance-and-data-archive%2F&title=PostgreSQL&#43;back&#43;end&#43;solution&#43;for&#43;quality&#43;assurance&#43;and&#43;data&#43;archive&summary=%3Cp%3E%3Cstrong%3E%3Cem%3EDid&#43;you&#43;know&#43;that&#43;the&#43;possibilities&#43;to&#43;make&#43;a&#43;full&#43;QGIS&#43;back&#43;end&#43;solution&#43;for&#43;quality&#43;assurance&#43;and&#43;archiving&#43;in&#43;PostgreSQL&#43;are&#43;immense%3F&#43;SQL&#43;has&#43;it%26rsquo%3Bs&#43;well&#43;known&#43;limitations%2C&#43;but&#43;with&#43;a&#43;little&#43;bit&#43;creativity&#43;you&#43;can&#43;make&#43;quite&#43;nice&#43;solutions&#43;just&#43;using&#43;triggers&#43;and&#43;rules.&#43;In&#43;this&#43;post&#43;I%26rsquo%3Bll&#43;explain%C2%A0what&#43;we&#43;did&#43;lately&#43;based&#43;on&#43;a&#43;project&#43;with&#43;a&#43;customer.&#43;He&#43;needed&#43;to&#43;assure&#43;the&#43;consistency%C2%A0of&#43;data&#43;but&#43;still&#43;give&#43;his&#43;employees&#43;the&#43;possibility&#43;of&#43;a&#43;fast&#43;feeding&#43;of&#43;the&#43;data&#43;collected&#43;on&#43;the&#43;field&#43;to&#43;the&#43;database.%C2%A0Another&#43;request&#43;was&#43;to&#43;keep&#43;every&#43;status&#43;of&#43;the&#43;data&#43;with&#43;the&#43;information&#43;about&#43;the&#43;changes&#43;%28archiving%29.%3C%2Fem%3E%3C%2Fstrong%3E%0AIt%26rsquo%3Bs&#43;always&#43;the&#43;question%2C&#43;where&#43;to&#43;put&#43;the&#43;logical&#43;part&#43;of&#43;the&#43;solution.&#43;QGIS&#43;is&#43;quite&#43;powerful&#43;with&#43;constraints%2C&#43;but&#43;the&#43;undeniable&#43;advantage&#43;of&#43;a&#43;back&#43;end&#43;solution&#43;is%2C&#43;that&#43;you&#43;can&#43;use&#43;any&#43;front&#43;end&#43;-&#43;no&#43;matter&#43;what&#43;configuration&#43;you&#43;have&#43;on&#43;QGIS&#43;or&#43;what&#43;Feature&#43;Manipulation&#43;Engine&#43;%28FME%29&#43;you&#43;use&#43;-&#43;without&#43;influencing&#43;the&#43;guarantee&#43;of&#43;data&#43;validity.%3C%2Fp%3E&source=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-75%2Fblog%2F2018%2F01%2F08%2Fpostgresql-back-end-solution-for-quality-assurance-and-data-archive%2F">
+                <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
+                  <path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share PostgreSQL back end solution for quality assurance and data archive on Reddit" 
+                 title="Share on Reddit"
+                 href="https://reddit.com/submit?url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-75%2Fblog%2F2018%2F01%2F08%2Fpostgresql-back-end-solution-for-quality-assurance-and-data-archive%2F&title=PostgreSQL&#43;back&#43;end&#43;solution&#43;for&#43;quality&#43;assurance&#43;and&#43;data&#43;archive">
+                <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
+                  <path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share PostgreSQL back end solution for quality assurance and data archive on Facebook" 
+                 title="Share on Facebook"
+                 href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-75%2Fblog%2F2018%2F01%2F08%2Fpostgresql-back-end-solution-for-quality-assurance-and-data-archive%2F">
+                <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
+                  <path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share PostgreSQL back end solution for quality assurance and data archive on WhatsApp" 
+                 title="Share on WhatsApp"
+                 href="https://api.whatsapp.com/send?text=PostgreSQL&#43;back&#43;end&#43;solution&#43;for&#43;quality&#43;assurance&#43;and&#43;data&#43;archive%20-%20https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-75%2Fblog%2F2018%2F01%2F08%2Fpostgresql-back-end-solution-for-quality-assurance-and-data-archive%2F">
+                <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" fill="currentColor">
+                  <path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share PostgreSQL back end solution for quality assurance and data archive on Telegram" 
+                 title="Share on Telegram"
+                 href="https://telegram.me/share/url?text=PostgreSQL&#43;back&#43;end&#43;solution&#43;for&#43;quality&#43;assurance&#43;and&#43;data&#43;archive&url=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-75%2Fblog%2F2018%2F01%2F08%2Fpostgresql-back-end-solution-for-quality-assurance-and-data-archive%2F">
+                <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" fill="currentColor">
+                  <path d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer" 
+                 aria-label="Share PostgreSQL back end solution for quality assurance and data archive on Hacker News" 
+                 title="Share on Hacker News"
+                 href="https://news.ycombinator.com/submitlink?t=PostgreSQL&#43;back&#43;end&#43;solution&#43;for&#43;quality&#43;assurance&#43;and&#43;data&#43;archive&u=https%3A%2F%2Fqfield.org%2Fpr-preview%2Fpr-75%2Fblog%2F2018%2F01%2F08%2Fpostgresql-back-end-solution-for-quality-assurance-and-data-archive%2F">
+                <svg version="1.1" xml:space="preserve" viewBox="0 0 512 512" fill="currentColor">
+                  <path d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        
+        
+        <div class="mb-4">
+          <h6 class="fw-bold mb-2">Tags:</h6>
+          <div>
+            
+            <span class="badge bg-secondary me-2 mb-1">qgis.org</span>
+            
+          </div>
+        </div>
+        
+
+        
+        <div class="mb-4">
+          <div class="row g-3">
+            
+            <div class="col-md-6">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-muted">Previous Post</h6>
+                  <a href="/pr-preview/pr-75/blog/2015/12/01/qfield-for-android-5/" class="card-title h6 text-decoration-none stretched-link">
+                    <i class="fas fa-arrow-left me-2"></i>QField for Android 5
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+            <div class="col-md-6">
+              <div class="card h-100">
+                <div class="card-body text-end">
+                  <h6 class="card-subtitle mb-2 text-muted">Next Post</h6>
+                  <a href="/pr-preview/pr-75/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/" class="card-title h6 text-decoration-none stretched-link">
+                    How to filter features in QGIS using the graphical processing modeler<i class="fas fa-arrow-right ms-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        <div class="text-center">
+          <a href="/pr-preview/pr-75/blog/" class="btn btn-outline-primary">
+            <i class="fas fa-arrow-left me-2"></i>Back to All Posts
+          </a>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h3 class="text-center mb-4">Related Posts</h3>
+    <div class="row g-4">
+      
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="/pr-preview/pr-75/blog/2015/12/01/qfield-for-android-5/" class="text-decoration-none text-dark stretched-link">QField for Android 5</a>
+            </h5>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-calendar me-1"></i>Dec 1, 2015
+              </small>
+            </p>
+            
+            <p class="card-text text-dark"><p><figure class="figure text-center mb-4"><img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" …</figure></p></p>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="/pr-preview/pr-75/blog/2015/06/15/qfield-in-the-wild/" class="text-decoration-none text-dark stretched-link">QField in the wild</a>
+            </h5>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-calendar me-1"></i>Jun 15, 2015
+              </small>
+            </p>
+            
+            <p class="card-text text-dark"><figure class="figure text-center mb-4"><img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" …</figure></p>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="/pr-preview/pr-75/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/" class="text-decoration-none text-dark stretched-link">A star is born, QGIS mobile is now QField</a>
+            </h5>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-calendar me-1"></i>Jan 28, 2015
+              </small>
+            </p>
+            
+            <p class="card-text text-dark"><div class="gallery-wrapper" 
+     data-gallery-id="gallery-1780827928-991627945" …</p>
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+    </div>
+    <footer class="site-footer mt-auto">
+  
+
+  
+  
+  <div class="footer-subscribe-banner">
+    <div class="container footer-subscribe-banner__inner">
+      <div class="footer-subscribe-banner__text">
+        <h2>Stay in the loop 🚀</h2>
+        <p><a href="https://www.opengis.ch/newsletter" target="_blank" rel="noopener">Subscribe to our newsletter</a>
+ and stay up to date on the latest and greatest!</p>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row gy-4">
+        
+        <div class="col-12"><h3>About QField</h3>
+          <p>QField is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management.
+As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the <a href="/pr-preview/pr-75/sdgs/">United Nations Sustainable Development Goals (SDGs)</a>
+, promoting a more sustainable and equitable future.</p>
+        </div>
+        
+        <div class="col-12"><h3>Open-source</h3>
+          <p>QField is <a href="https://github.com/opengisch/QField" target="_blank" rel="noopener">released</a>
+ under the GNU Public License (GPL) version 2 or later.
+Developing QField under this license means that you can inspect and modify the source code and guarantees that you will always have access to a QGIS based field data collection app that is free of cost and can be freely modified.</p>
+        </div>
+        
+        <div class="col-12"><h3>Legal</h3>
+          <p>View the QField <a href="/pr-preview/pr-75/privacy_policy">Privacy Policy</a>
+ to learn what information we collect and how we protect it, and the <a href="/pr-preview/pr-75/guidelines">Trademark and Brand Guidelines</a>
+ for permitted uses of the QField name and logo.</p>
+        </div>
+        
+        <div class="col-12"><h3>Credits</h3>
+          <p>QField, QFieldCloud and QFieldSync are developed by <a href="https://www.opengis.ch/" target="_blank" rel="noopener">OPENGIS.ch</a>
+.
+OPENGIS.ch offers <a href="https://www.opengis.ch/training-consulting/" target="_blank" rel="noopener">consulting</a>
+, <a href="https://www.opengis.ch/custom-development/" target="_blank" rel="noopener">development</a>
+, <a href="https://www.opengis.ch/qfield-training/" target="_blank" rel="noopener">training</a>
+ and <a href="https://www.opengis.ch/qgis-support/" target="_blank" rel="noopener">support</a>
+ for open-source software including QField, QGIS and PostGIS.</p>
+        </div>
+        
+
+      
+      <div class="social-links mt-4 text-center">
+        
+        <a href="https://fosstodon.org/@qfield" target="_blank" rel="noopener noreferrer">
+          
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Mastodon_Logotype_%28Simple%29.svg" alt="Mastodon" width="32" height="32">
+          
+        </a>
+        
+        <a href="https://bsky.app/profile/qfield.org" target="_blank" rel="noopener noreferrer">
+          
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg" alt="Bluesky" width="32" height="32">
+          
+        </a>
+        
+        <a href="https://www.linkedin.com/company/qfield" target="_blank" rel="noopener noreferrer">
+          
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="32" height="32">
+          
+        </a>
+        
+        <a href="https://github.com/opengisch/QField/" target="_blank" rel="noopener noreferrer">
+          
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub" width="32" height="32">
+          
+        </a>
+        
+      </div>
+      
+    </div>
+  </section>
+  
+
+  <section class="footer-bottom border-top">
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3">
+      <p class="mb-0 text-muted"></p>
+      
+    </div>
+  </section>
+</footer>
+
+    
+
+
+
+
+<script src="/pr-preview/pr-75/js/bootstrap/bootstrap.bundle.min.min.7620f70f6a288d4f1a662439d8772846a2d2084a9466d8d25b3b246d986b3c96e31aae489aaa01a1961bd6f4ad9842e677b02848d0aae0a3fb74b76a522f9e80.js" integrity="sha512-diD3D2oojU8aZiQ52HcoRqLSCEqUZtjSWzskbZhrPJbjGq5ImqoBoZYb1vStmELmd7AoSNCq4KP7dLdqUi&#43;egA==" crossorigin="anonymous" defer></script>
+  
+    <script src="/pr-preview/pr-75/js/main.min.696843dcc5419bf41a3ad99bbae4dbf9a9ca0cf207619b38cd0ead7c159d17b84e98432791a4bc7fb335e22430487d8b87460c0be5a072b90ac1bfafe34d331c.js" integrity="sha512-aWhD3MVBm/QaOtmbuuTb&#43;anKDPIHYZs4zQ6tfBWdF7hOmEMnkaS8f7M14iQwSH2Lh0YMC&#43;WgcrkKwb&#43;v400zHA==" crossorigin="anonymous" defer></script>
+  
+  
+
+
+
+<script src="/pr-preview/pr-75/vendor/fontawesome/js/all.min.js" defer></script>
+
+<script src="/pr-preview/pr-75/js/theme-toggle.min.3bb4185951368c998f021c8c418f3516f4d059579200f537ce98722de5b0a680.js" integrity="sha256-O7QYWVE2jJmPAhyMQY81FvTQWVeSAPU3zphyLeWwpoA=" crossorigin="anonymous" defer></script>
+
+
+</body>
+</html>
