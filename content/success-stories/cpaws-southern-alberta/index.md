@@ -25,7 +25,7 @@ That's the gap CPAWS Southern Alberta works in. CPAWS, the Canadian Parks and Wi
 
 ### The Solution
 
-Joshua sets up the QField projects himself, watershed by watershed. Each watershed gets its own project with its own supporting layers: known trout habitat, current logging plans from the forestry companies, and whatever historical data already exists for that drainage. Field teams pick the watershed they are working in and load the project. Out on the east slopes, where there's no signal for days at a time, everything runs offline. Data syncs back to the office through QFieldCloud once people are out of the bush.
+Joshua sets up the QField projects himself, watershed by watershed. Each watershed gets its own project with its own supporting layers: known trout habitat, current logging plans from the forestry companies, and whatever historical data already exists for that drainage. Field teams pick the watershed they are working in and load the project. Out on the east slopes, where there's no signal for days at a time, everything runs offline. Data syncs back to the office through [QFieldCloud](https://qfield.cloud) once people are out of the bush.
 
 The data itself is points and tracks. Points sit at stream crossings and observation locations, each one carrying a structured form for the attributes that define critical habitat. Tracks get recorded for streams that aren't mapped or are mapped incorrectly, which happens often enough on the smaller tributaries that it's a standard part of the workflow. Photos are GPS-tagged and matched to records by location, a workaround Joshua landed on after running into the friction of managing large numbers of attached photos through the app directly.
 
