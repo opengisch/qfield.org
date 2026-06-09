@@ -31,7 +31,8 @@
 <p>Joshua Killeen, Conservation Science and Programs Manager, CPAWS Southern Alberta</p>
 </blockquote>
 <h3 id="the-solution">The Solution</h3>
-<p>Joshua sets up the QField projects himself, watershed by watershed. Each watershed gets its own project with its own supporting layers: known trout habitat, current logging plans from the forestry companies, and whatever historical data already exists for that drainage. Field teams pick the watershed they are working in and load the project. Out on the east slopes, where there&rsquo;s no signal for days at a time, everything runs offline. Data syncs back to the office through QFieldCloud once people are out of the bush.</p>
+<p>Joshua sets up the QField projects himself, watershed by watershed. Each watershed gets its own project with its own supporting layers: known trout habitat, current logging plans from the forestry companies, and whatever historical data already exists for that drainage. Field teams pick the watershed they are working in and load the project. Out on the east slopes, where there&rsquo;s no signal for days at a time, everything runs offline. Data syncs back to the office through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+ once people are out of the bush.</p>
 <p>The data itself is points and tracks. Points sit at stream crossings and observation locations, each one carrying a structured form for the attributes that define critical habitat. Tracks get recorded for streams that aren&rsquo;t mapped or are mapped incorrectly, which happens often enough on the smaller tributaries that it&rsquo;s a standard part of the workflow. Photos are GPS-tagged and matched to records by location, a workaround Joshua landed on after running into the friction of managing large numbers of attached photos through the app directly.</p>
 <p>The team is small. Five or six people in the field across a summer, a mix of staff, contractors and volunteers. Volunteers always go out paired with someone who knows the work. Last summer a field technician trained volunteers on the ground throughout the season, and they were productive within their first few outings. The structured forms do a lot of the heavy lifting there. Constrained dropdowns and toggle buttons mean a volunteer collecting data is collecting it in the same shape as a senior biologist, which keeps back-office cleanup manageable.</p>
 <p>What this replaces is a mix anyone in conservation will recognise. Some people had been using Avenza. Others, often consultants brought in for specific surveys, were on Esri&rsquo;s Field Maps. Some teams were taking voice notes on their phones. Some were on pen and paper. The data came back in whatever shape each person preferred, which made integration painful. Esri&rsquo;s licensing was prohibitive for the chapter&rsquo;s budget. QField, sitting on top of QGIS and QFieldCloud, gave Joshua a way to standardise the workflow without asking anyone for a licence fee.</p>
@@ -211,7 +212,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1778195901-821064616"
+     data-gallery-id="gallery-1780986456-442188471"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -239,7 +240,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1778195901-821064616 .carousel-item .gallery-img {
+#gallery-1780986456-442188471 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -247,11 +248,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1778195901-821064616 .carousel-item {
+#gallery-1780986456-442188471 .carousel-item {
   height: auto;
 }
 
-#gallery-1778195901-821064616 .carousel-item .figure {
+#gallery-1780986456-442188471 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -260,11 +261,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1778195901-821064616 .carousel-item .figure .gallery-img {
+#gallery-1780986456-442188471 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1778195901-821064616 .carousel-item .figure .figure-caption {
+#gallery-1780986456-442188471 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -273,13 +274,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1778195901-821064616 .carousel-item .gallery-img {
+  #gallery-1780986456-442188471 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1778195901-821064616 .carousel-item .gallery-img {
+  #gallery-1780986456-442188471 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -463,7 +464,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 <p>This five-year conservation initiative receives funding from both the EU (80%) and the state of Saxony (20%), with specific objectives to track fire salamander populations and assess their environments. What began as a solo monitoring effort has expanded to include four dedicated field workers who collect data systematically across numerous streams.</p>
 <p><em>&ldquo;Fire salamanders are indicators of environments that have remained largely untouched for extended periods and streams with clean water,&rdquo;</em> explains the project coordinator, who has a background in environmental monitoring. <em>&ldquo;We&rsquo;ve discovered they can adapt to various conditions, which tells us important information about our local ecosystems.&rdquo;</em></p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-61/success-stories/fire-salamanders/salamander-1_hu_6a23bbb362b6d099.JPG" srcset="/pr-preview/pr-61/success-stories/fire-salamanders/salamander-1_hu_6a23bbb362b6d099.JPG 1x, /pr-preview/pr-61/success-stories/fire-salamanders/salamander-1_hu_3db7303118bc1f5c.JPG 2x"
-         alt="enter alt" 
+         alt="fire salamanders" 
          class="figure-img img-fluid gallery-img" width="1200" height="1200"
          loading="lazy"></figure>
 

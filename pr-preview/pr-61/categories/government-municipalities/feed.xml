@@ -12,7 +12,70 @@
     
     
     
-    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-61/categories/government-municipalities/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Apr 2026 00:05:00 +0200</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-61/categories/government-municipalities/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking Scalable National Field Operations with QField Cloud</title>
+      <link>https://qfield.org/pr-preview/pr-61/success-stories/kan-inec-costa-rica/</link>
+      <pubDate>Tue, 28 Apr 2026 00:05:00 +0200</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-61/success-stories/kan-inec-costa-rica/</guid>
+      
+      <description>How KAN Territory &amp; IT supported nationwide survey workflows for the National Institute of Statistics and Census of Costa Rica (INEC), using QField Cloud as the central collaboration and synchronization layer between office-based planning and field execution.</description>
+      <content:encoded><![CDATA[<p>How KAN Territory &amp; IT supported survey workflows in Costa Rica</p>
+<p><strong>Partner:</strong> KAN Territory &amp; IT
+<strong>Technology:</strong> QField Cloud
+<strong>Client:</strong> National Institute of Statistics and Census of Costa Rica (INEC Costa Rica)</p>
+<h3 id="context">Context</h3>
+<p>National-scale field operations require much more than mobile data collection. They demand <strong>planning, coordination, reliability, and real-time visibility</strong> across complex territories and diverse teams.</p>
+<p>The National Institute of Statistics and Census of Costa Rica (INEC) is responsible for conducting nationwide surveys that involve multiple field teams operating simultaneously, often in areas with limited connectivity and under strict data quality requirements.</p>
+<p>INEC needed a solution that could support these challenges while remaining <strong>scalable, reliable, and easy to operate</strong> for both coordinators and field staff.</p>
+<h3 id="the-challenge">The Challenge</h3>
+<p>INEC faced several operational challenges:</p>
+<ul>
+<li>Planning and coordinating fieldwork across the entire country</li>
+<li>Managing multiple teams, users, and permission levels</li>
+<li>Ensuring reliable offline data collection and secure synchronization</li>
+<li>Monitoring survey progress in near real time</li>
+<li>Maintaining full data traceability and consistency</li>
+</ul>
+<p>Traditional workflows based on spreadsheets and fragmented tools limited operational control and made it difficult to detect issues early or adapt plans during field execution.</p>
+<h3 id="the-solution">The Solution</h3>
+<p>As an official partner, <strong>KAN Territory &amp; IT</strong> implemented a <strong>Field Planning and Execution System</strong> built on <strong>QField Cloud</strong>, positioning it as the <strong>central collaboration and synchronization layer</strong> between office-based planning and field execution.</p>
+<p>QField Cloud enabled:</p>
+<ul>
+<li>Centralized project and data management</li>
+<li>Organization-, team-, and role-based access control</li>
+<li>Reliable offline-first field data collection</li>
+<li>Secure merging and synchronization of data from multiple teams</li>
+</ul>
+<p>On top of this foundation, KAN designed planning workflows that allowed INEC to:</p>
+<ul>
+<li>Assign field tasks by geographic area and operational unit</li>
+<li>Structure field campaigns and priorities</li>
+<li>Monitor operational progress in near real time</li>
+<li>Maintain traceability of field activities</li>
+<li>Integrate field results into analytical and visualization environments</li>
+</ul>
+<p>Rather than replacing existing systems, QField Cloud became the <strong>connective layer</strong> that linked survey design, field execution, and decision-making processes.</p>
+<h3 id="results--impact">Results &amp; Impact</h3>
+<p>By adopting QField Cloud as part of its operational ecosystem, INEC achieved:</p>
+<ul>
+<li>Improved coordination of nationwide field teams</li>
+<li>Faster identification of operational bottlenecks</li>
+<li>Reduced manual intervention and error-prone processes</li>
+<li>Stronger data consistency and quality</li>
+<li>A scalable model ready for future survey campaigns</li>
+</ul>
+<p>Field teams benefited from a <strong>clearer and more intuitive workflow</strong>, while coordinators gained the visibility needed to steer operations effectively.</p>
+<h3 id="partnership-value">Partnership Value</h3>
+<p>This collaboration demonstrates how <strong>QField Cloud</strong>, combined with strong planning and integration expertise, can evolve from a data collection tool into a <strong>comprehensive field operations platform</strong>.</p>
+<p>For KAN Territory &amp; IT, the project reinforces its role as a partner that bridges <strong>technology and real-world operations</strong>, helping institutions unlock the full potential of spatial data in mission-critical fieldwork scenarios.</p>
+<h3 id="key-takeaway">Key Takeaway</h3>
+<p>QField Cloud provides a solid foundation for scalable field operations, and when combined with the right planning strategy, enables <strong>reliable, accessible, and well-orchestrated spatial workflows at national scale</strong>.</p>
+]]></content:encoded>
+      <category domain="categories">government-municipalities</category>
+    </item>
+    
     <item>
       <title>QField Helps Monitor 20,000 &lt;br&gt; WWII Fortifications Across Germany</title>
       <link>https://qfield.org/pr-preview/pr-61/success-stories/ww2-fortifications/</link>
@@ -350,7 +413,7 @@
  made a bold and visionary leap by launching MTTJ, a fully open-source topographic data production system built on QGIS, QField, and other open technologies. This landmark initiative makes Finland the <strong>first country in the world to adopt a fully open-source GIS</strong> environment for national-scale topographic data production.</p>
 <p>Developed over several years and officially rolled out in spring 2025, MTTJ gradually replaces legacy proprietary systems with a modern, efficient, and extensible solution tailored to NLS’s evolving needs — all while promoting transparency, interoperability, and long-term sustainability. As part of this open architecture, <strong>QField will play a key role</strong> , empowering field teams to collect and validate data efficiently, even in remote locations. Use of QField is being piloted over summer 2025 and will be gradually taken up for full production use towards the autumn.</p>
 <blockquote>
-<p>“QField lets our field staff work smarter and faster, even in the most remote corners of Finland. It’s a vital part of our open-source geospatial infrastructure.”
+<p>“QField lets our field  staff work smarter and faster, even in the most remote corners of Finland. It’s a vital part of our open-source geospatial infrastructure.”
 — <em>Jani Kylmäaho, Director of Development and Digitalization, National Land Survey of Finland</em></p>
 </blockquote>
 <p>Throughout the development of MTTJ, the National Land Survey of Finland actively engaged with the QField project, contributing not only feedback and use cases, but also <strong>procuring for the development of new functionalities key to NLS use cases to QField core.</strong> This close collaboration ensured that QField evolved to meet the demanding requirements of national-scale field data workflows and continues to benefit the wider open-source geospatial community.</p>
@@ -363,12 +426,12 @@
 <li>Tight integration with QField for field data collection</li>
 </ul>
 <p>All core components were built with <strong>open-source principles</strong> in mind — and many will be shared with the global QGIS and OSGeo community.</p>
-<p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-61/images/customer/nls3.jpg"
+<p><figure class="figure text-center ss-image mb-4"><img src="/pr-preview/pr-61/images/customer/nls3.jpg"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
 
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-61/images/customer/nls4.jpg"
+<figure class="figure text-center ss-image mb-4"><img src="/pr-preview/pr-61/images/customer/nls4.jpg"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>

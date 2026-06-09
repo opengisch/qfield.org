@@ -168,9 +168,6 @@ p {
   display: block;
 }
 
-
-
-
 #navbar .navbar-toggler {
   border-color: transparent;
   box-shadow: none !important;
@@ -2177,9 +2174,9 @@ span.green,
 }
 
 .footer-subscribe-banner__text a {
-  color: #80cc28;
+  color: #80cc28
   font-weight: 400;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .footer-subscribe-banner__text a:hover {
@@ -2189,6 +2186,10 @@ span.green,
 [data-bs-theme='dark'] .footer-subscribe-banner {
   background-color: #1f1f1f;
   margin-bottom: 40px;
+}
+
+.accent {
+  color: var(--qfield-color);
 }
 
 /* ____ */
@@ -2274,7 +2275,6 @@ div.explanation {
 }
 
 .social-links a{
-
   text-decoration: none;
 }
 
@@ -2777,6 +2777,10 @@ div.explanation {
 #success-story a {
   color: var(--qfield-color);
   font-weight: bolder;
+}
+
+.ss-image {
+  max-width: 50%;
 }
 
 /* donation page */
@@ -3776,4 +3780,68 @@ div.explanation {
 
 [data-bs-theme='dark'] #customers .customer-card a {
   color: var(--link-color);
+}
+
+/* links */
+a {
+  color: #80cc28;
+  font-weight: 400;
+}
+
+a:hover {
+  color: darkgreen;
+  font-weight: 500;
+}
+
+/* -- /landing -- */
+/* newsletter page */
+
+/* .newsletter-logo {
+  width: 150px;
+  height: auto;
+  height: auto;
+  object-fit: contain;
+} */
+
+.newsletter_banner {
+  padding: 0px;
+
+  img {
+    max-width: 800px;
+  }
+}
+
+.newsletter__content {
+  li strong {
+    color: var(--qfield-color);
+  }
+}
+
+.newsletter__feature {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .newsletter__feature {
+  i::before {
+    color: var(--qfield-color) !important;
+  }
+} */
+
+/* ardusimple page */
+
+.ardusimple__banner {
+  padding: 0px;
+
+  img {
+    max-width: 300px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+  }
+}
+
+.ardusimple__logo-img {
+  max-width: 300px;
+  height: auto;
 }

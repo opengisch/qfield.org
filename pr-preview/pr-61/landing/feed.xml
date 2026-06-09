@@ -14,13 +14,13 @@
     
     <atom:link href="https://qfield.org/pr-preview/pr-61/landing/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ArduSimple</title>
+      <title></title>
       <link>https://qfield.org/pr-preview/pr-61/landing/ardusimple/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-61/landing/ardusimple/</guid>
       
-      <description>Temporary landing page</description>
+      <description>Ardusimple RTK GNSS</description>
       <content:encoded><![CDATA[<p>QField works seamlessly with ArduSimple RTK GNSS receivers to deliver reliable, survey-grade positioning for professional field data collection. Capture precise points, lines, and boundaries directly in your QGIS projects and compare them with authoritative datasets such as cadastral maps.</p>
 <p>On Android devices, QField can connect directly to compatible GNSS receivers via Bluetooth or USB for real-time positioning. On iPhone and iPad, external receivers connect over Wi-Fi, enabling high-accuracy positioning and RTK corrections within iOS constraints. In both cases, you can verify property boundaries, map infrastructure, or document land features with confidence.</p>
 <p>Combined with <strong><a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
@@ -35,35 +35,22 @@
 </ul>
 <h3 id="learn-more">Learn more</h3>
 <p>For step-by-step tutorials using ArduSimple receivers with QField:</p>
-<p>👉 Android (boundary surveying and cadastral verification):<br>
-<a href="https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/" target="_blank" rel="noopener">https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/</a>
+<p>👉 <a href="https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/" target="_blank" rel="noopener">Android (boundary surveying and cadastral verification)</a>
 </p>
-<p>👉 iOS (connecting an external RTK receiver to QField):<br>
-<a href="https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/" target="_blank" rel="noopener">https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/</a>
+<p>👉 <a href="https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/" target="_blank" rel="noopener">iOS (connecting an external RTK receiver to QField)</a>
 </p>
-<p>This is a Work in progres and will be replaced with final campaign content.</p>
 ]]></content:encoded>
     </item>
     
     <item>
-      <title>Stay in the loop with QField</title>
+      <title></title>
       <link>https://qfield.org/pr-preview/pr-61/landing/newsletter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-61/landing/newsletter/</guid>
       
       <description>Get the latest QField news, tips, and release highlights delivered straight to your inbox.</description>
-      <content:encoded><![CDATA[<h3 id="why-subscribe">Why subscribe?</h3>
-<p>QField is evolving fast. Our newsletter keeps you informed without the noise:</p>
-<ul>
-<li><strong>Release highlights</strong> — know what&rsquo;s new and what changed before you update in the field</li>
-<li><strong>Tips &amp; workflows</strong> — practical advice from the community and the core team</li>
-<li><strong>QFieldCloud news</strong> — collaboration features, new plans, and service updates</li>
-<li><strong>Events &amp; webinars</strong> — meet the team and learn from other field professionals</li>
-</ul>
-<p>Sign up below and join thousands of surveyors, ecologists, engineers, and GIS professionals who use QField every day.</p>
-<hr>
-<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+      <content:encoded><![CDATA[<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 <style>
   .qfield-newsletter-form {
     max-width: 540px;
@@ -141,7 +128,7 @@
               <div class="form__entry entry_block">
                 <div class="form__label-row form__label-row--horizontal">
                   <div class="entry__field">
-                    <input class="input" maxlength="2" type="text" id="COUNTRY_CODE" name="COUNTRY_CODE" autocomplete="country" placeholder="2 letter country code" data-required="true" required>
+                    <input class="input" maxlength="2" minlength="2" pattern="[A-Za-z]{2}" type="text" id="COUNTRY_CODE" name="COUNTRY_CODE" autocomplete="country" autocapitalize="characters" placeholder="2 letter country code" data-required="true" required>
                   </div>
                 </div>
                 <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
@@ -155,7 +142,7 @@
                 <div class="form__label-row form__label-row--horizontal">
                   <div class="entry__choice">
                     <label>
-                      <input type="checkbox" class="input_replaced" value="1" id="VERIFIED" name="VERIFIED">
+                      <input type="checkbox" class="input_replaced" value="1" id="VERIFIED" name="VERIFIED" data-required="true" required>
                       <span class="checkbox checkbox_tick_positive"></span>
                       <span style="font-size:14px;text-align:left;font-family:Helvetica,sans-serif;color:#3C4858;background-color:transparent;">I agree to receive your newsletters and accept the data privacy statement.</span>
                     </label>
@@ -168,7 +155,7 @@
           </div>
 
           <div style="padding:8px 0;">
-            <div class="cf-turnstile" data-sitekey="0x4AAAAAABhnveewR0onanou" data-callback="invisibleCaptchaCallback" data-language="en"></div>
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAABhnveewR0onanou" data-explicit-render data-language="en"></div>
           </div>
 
           <div style="padding:8px 0;">
@@ -181,7 +168,7 @@
 
           <div style="padding:8px 0;">
             <div class="sib-form-block" style="text-align:left">
-              <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px;text-align:left;font-weight:700;font-family:Helvetica,sans-serif;color:#fff;background-color:#3E4857;border-radius:3px;border-width:0;" form="sib-form" type="submit">Join now</button>
+              <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px;text-align:left;font-weight:700;font-family:Helvetica,sans-serif;color:#fff;background-color:var(--qfield-color);border-radius:3px;border-width:0;" form="sib-form" type="submit">Join now</button>
             </div>
           </div>
 
@@ -191,26 +178,8 @@
       </div>
     </div>
   </div>
-</div>
-
-<script>
-  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
-  window.LOCALE = 'en';
-  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = 'The information provided is invalid. Please review the field format and try again.';
-  window.REQUIRED_ERROR_MESSAGE = 'This field cannot be left blank. ';
-  window.GENERIC_INVALID_MESSAGE = 'The information provided is invalid. Please review the field format and try again.';
-  window.translation = {
-    common: {
-      selectedList: '{quantity} list selected',
-      selectedLists: '{quantity} lists selected',
-      selectedOption: '{quantity} selected',
-      selectedOptions: '{quantity} selected',
-    }
-  };
-  var AUTOHIDE = Boolean(0);
-</script>
-<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
-<script async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
+</div><script src="/pr-preview/pr-61/js/newsletter-form.min.fc8b3015ff8c46b61b08fbe1ba7a73d47924fa322f15ffc925149979c3dad930f33e5afcfe6ab8d863973e89e4c3f869d8457bcb2878580ba378535974ba1dea.js" integrity="sha512-/IswFf&#43;MRrYbCPvhunpz1Hkk&#43;jIvFf/JJRSZecPa2TDzPlr8/mq42GOXPonkw/hp2EV7yyh4WAujeFNZdLod6g==" crossorigin="anonymous"></script>
+<script async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=qfieldNewsletterTurnstileOnLoad&render=explicit" data-cfasync="false"></script>
 
 <hr>
 <p>We respect your privacy. You can unsubscribe at any time.</p>
