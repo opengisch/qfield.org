@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Species Coding on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-76/tags/species-coding/</link>
+    <description>Recent content in Species Coding on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-76/tags/species-coding/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Forest Inventory and Plot Sampling</title>
+      <link>https://qfield.org/pr-preview/pr-76/solutions/forest-inventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-76/solutions/forest-inventory/</guid>
+      
+      <description>Mobile forest inventory, plot sampling, and tree-level data capture with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Forest inventory teams use QField across the full inventory chain:</p>
+<ul>
+<li>Plot location, geometry, and attribute capture, including fixed-radius, variable-radius, and strip sampling</li>
+<li>Tree-level data with species, DBH, height, defects, and per-tree position</li>
+<li>Photo documentation against individual trees and at the plot level</li>
+<li>Regeneration counts, deadwood and snag inventory, and understory observations</li>
+<li>Stand-level attribute capture for inventory polygons</li>
+</ul>
+<h2 id="designed-for-crews-of-mixed-experience">Designed for crews of mixed experience</h2>
+<p>Forest inventory often runs on a mix of staff, contractors, and seasonal hires. QField forms can be tuned to the experience level of the crew. Strict dropdowns and numeric constraints make it safe to put a tablet in the hands of a first-week volunteer and trust that the data coming back will be in the same shape as a senior biologist&rsquo;s. The structured frontmatter also means that a crew of twelve produces a single clean dataset, not twelve incompatible notebooks.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Set up the plot design in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Push it to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Crews work offline for as long as the survey takes, then sync when they next come into office connectivity. Conflict-safe merges handle the case where two crews edited the same record.</p>
+<h2 id="forestry-teams-using-qfield-for-inventory">Forestry teams using QField for inventory</h2>
+<ul>
+<li><a href="/pr-preview/pr-76/success-stories/ghana-deforestation/">Young farmers reduce deforestation by 71% in Ghana</a>
+, where community-based monitoring teams use QField in the Tano Offin Forest Reserve</li>
+<li><a href="/pr-preview/pr-76/success-stories/?filter=forestry">Browse all forestry success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-76/solutions/forestry-and-silviculture/">QField for forestry and silviculture →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">forest inventory</category>
+      <category domain="tags">plot sampling</category>
+      <category domain="tags">tree inventory</category>
+      <category domain="tags">DBH</category>
+      <category domain="tags">stand mapping</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">forest cruising</category>
+      <category domain="tags">offline forest inventory</category>
+      <category domain="tags">species coding</category>
+      <category domain="tags">forestry data collection</category>
+    </item>
+    
+  </channel>
+</rss>
