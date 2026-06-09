@@ -62,7 +62,8 @@ QField is used across the full span of forestry fieldwork:
 
 - [Forest inventory and plot sampling](/solutions/forest-inventory/), with structured tree-level forms and plot geometry
 - [Silviculture and harvesting operations tracking](/solutions/silviculture-and-harvesting-operations/), from planting blocks to post-harvest verification
-- Habitat and biodiversity mapping under forest canopy
+- [Forest habitat and biodiversity mapping](/solutions/forest-habitat-mapping/), under dense canopy and in remote terrain
+- [Forest health monitoring](/solutions/forest-health-monitoring/), tracking pests, disease, and tree condition over time
 - Forest road and infrastructure inventory
 - Riparian buffer monitoring and compliance documentation
 
