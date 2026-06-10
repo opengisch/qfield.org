@@ -15,8 +15,8 @@
     "name": "OpenStreetMap Nominatim Search",
     "description": "Integrates OpenStreetMap Nominatim results into the search bar through the osm prefix",
     "icon": "https://raw.githubusercontent.com/opengisch/qfield-nominatim-locator/refs/heads/main/icon.svg",
-    "version": "1.5",
-    "download": "https://github.com/opengisch/qfield-nominatim-locator/releases/download/v1.5/qfield-nominatim-locator-v1.5.zip",
+    "version": "1.6",
+    "download": "https://github.com/opengisch/qfield-nominatim-locator/releases/download/v1.6/qfield-nominatim-locator-v1.6.zip",
     "minimum_version": "3.6.0",
     "homepage": "https://github.com/opengisch/qfield-nominatim-locator",
     "author": "OPENGIS.ch"
