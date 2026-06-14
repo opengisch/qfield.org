@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wildfire on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-77/tags/wildfire/</link>
+    <description>Recent content in Wildfire on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-77/tags/wildfire/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Natural Disaster Assessment (Floods, Landslides, Wildfires)</title>
+      <link>https://qfield.org/pr-preview/pr-77/solutions/natural-disaster-assessment-floods-landslides-wildfires/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-77/solutions/natural-disaster-assessment-floods-landslides-wildfires/</guid>
+      
+      <description>Rapid damage assessments and situational mapping with offline mobile GIS in disaster zones.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<ul>
+<li>Rapid damage assessments</li>
+<li>Hazard and access mapping</li>
+<li>Infrastructure impact documentation</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Coordinate across teams with shared projects, permissions, and change tracking.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">disaster assessment</category>
+      <category domain="tags">flood</category>
+      <category domain="tags">landslide</category>
+      <category domain="tags">wildfire</category>
+    </item>
+    
+  </channel>
+</rss>
