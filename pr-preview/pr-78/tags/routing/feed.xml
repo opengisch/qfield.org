@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Routing on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-78/tags/routing/</link>
+    <description>Recent content in Routing on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-78/tags/routing/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField Search and Routing Plugins Updates</title>
+      <link>https://qfield.org/pr-preview/pr-78/blog/2026/02/12/qfield-search-and-routing-plugins-updates/</link>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-78/blog/2026/02/12/qfield-search-and-routing-plugins-updates/</guid>
+      <media:content url="https://qfield.org/pr-preview/pr-78/blog/2026/02/12/qfield-search-and-routing-plugins-updates/top.webp" medium="image" />
+      <description>&lt;p&gt;Throughout the first month of 2026, our ninjas added a nifty set of improvements to three useful plugins that we love: the &lt;a href=&#34;https://github.com/opengisch/qfield-geomapfish-locator/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GeoMapFish Search&lt;/a&gt;
+, &lt;a href=&#34;https://github.com/opengisch/qfield-nominatim-locator/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenStreetMap Nominatim Search&lt;/a&gt;
+, and &lt;a href=&#34;https://github.com/opengisch/qfield-osrm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OSRM Routing&lt;/a&gt;
+ plugins. These plugins all provide genuinely useful functionalities as well as being great showcases of how easy it is to integrate QField with online REST endpoints.&lt;/p&gt;
+&lt;p&gt;All three plugins have been updated to ship with useful endpoint presets out of the box, and users also have the option to configure their own custom endpoints for more flexibility. To configure endpoints, open QField&amp;rsquo;s settings panel, navigate to the plugin manager, and click the settings button next to the desired plugin.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Throughout the first month of 2026, our ninjas added a nifty set of improvements to three useful plugins that we love: the <a href="https://github.com/opengisch/qfield-geomapfish-locator/" target="_blank" rel="noopener">GeoMapFish Search</a>
+, <a href="https://github.com/opengisch/qfield-nominatim-locator/" target="_blank" rel="noopener">OpenStreetMap Nominatim Search</a>
+, and <a href="https://github.com/opengisch/qfield-osrm/" target="_blank" rel="noopener">OSRM Routing</a>
+ plugins. These plugins all provide genuinely useful functionalities as well as being great showcases of how easy it is to integrate QField with online REST endpoints.</p>
+<p>All three plugins have been updated to ship with useful endpoint presets out of the box, and users also have the option to configure their own custom endpoints for more flexibility. To configure endpoints, open QField&rsquo;s settings panel, navigate to the plugin manager, and click the settings button next to the desired plugin.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-78/blog/2026/02/12/qfield-search-and-routing-plugins-updates/top.webp" srcset="/pr-preview/pr-78/blog/2026/02/12/qfield-search-and-routing-plugins-updates/top.webp 1x, /pr-preview/pr-78/blog/2026/02/12/qfield-search-and-routing-plugins-updates/top_hu_6be98139e109a377.webp 2x"
+         alt="QField search and routing plugins overview" 
+         class="figure-img img-fluid gallery-img" width="768" height="469"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">All three plugins now ship with useful endpoint presets out of the box</figcaption></figure>
+
+<p><em>Running a public endpoint using one of these services? If you think users would benefit from having your endpoint included in the preset lists, please open a request on the relevant GitHub repositories linked above.</em></p>
+<h2 id="what-are-these-for-exactly">What are these for exactly?</h2>
+<p>For those not familiar with these plugins, let&rsquo;s take a minute to review their functionalities.</p>
+<p><strong>GeoMapFish Search</strong> and <strong>OpenStreetMap Nominatim Search</strong> plugins offer the ability to integrate online geocoding and spatial feature searches into QField&rsquo;s top search bar. When activated, these plugins appear in the search bar alongside core search components, with helpful tips on how to trigger searches via these open source services.</p>
+<p>The OpenStreetMap Nominatim Search plugin has worldwide coverage and exposes the wealth of OpenStreetMap data through simple geocoded searches such as &ldquo;pubs in London.&rdquo;</p>
+<p>The GeoMapFish Search plugin has several presets covering localities in Switzerland.</p>
+<p>The OSRM Routing plugin initially allowed users to retrieve car routes by long-tapping on the map to set a start point, end point, and optional waypoints. The updated version now supports additional routing profiles for bicycles and pedestrians.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-78/blog/2026/02/12/qfield-search-and-routing-plugins-updates/configuration.webp" srcset="/pr-preview/pr-78/blog/2026/02/12/qfield-search-and-routing-plugins-updates/configuration.webp 1x, /pr-preview/pr-78/blog/2026/02/12/qfield-search-and-routing-plugins-updates/configuration_hu_d88b19f16ce727f1.webp 2x"
+         alt="Plugin configuration panel" 
+         class="figure-img img-fluid gallery-img" width="767" height="376"
+         loading="lazy">
+  <figcaption class="figure-caption text-center">Configuring custom endpoints in QField&rsquo;s plugin manager</figcaption></figure>
+
+<h2 id="interested-in-knowing-more-about-plugins">Interested in knowing more about plugins?</h2>
+<p>QField&rsquo;s plugin framework continues to grow, with new capabilities added in each new point release. To find out more and begin writing plugins of your own, be sure to <a href="https://api.qfield.org/" target="_blank" rel="noopener">visit the dedicated API site</a>
+ which we launched last year to provide an overview, code snippets, and API documentation.</p>
+<p>While we work on building a dedicated plugin repository, you can explore the growing collection of plugins on GitHub&rsquo;s <a href="https://github.com/topics/qfield-plugin" target="_blank" rel="noopener">qfield-plugin topic page</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">community</category>
+      <category domain="tags">qfield</category>
+      <category domain="tags">plugins</category>
+      <category domain="tags">openstreetmap</category>
+      <category domain="tags">routing</category>
+    </item>
+    
+  </channel>
+</rss>

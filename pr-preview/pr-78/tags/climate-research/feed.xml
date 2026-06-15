@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Climate Research on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-78/tags/climate-research/</link>
+    <description>Recent content in Climate Research on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-78/tags/climate-research/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Climate Change Research</title>
+      <link>https://qfield.org/pr-preview/pr-78/solutions/climate-change-research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-78/solutions/climate-change-research/</guid>
+      
+      <description>Field data collection for climate variables, impacts, and monitoring sites using mobile GIS.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Site mapping and variable recording</li>
+<li>Photo documentation and annotations</li>
+<li>Sync to QFieldCloud for collaboration</li>
+</ul>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">climate research</category>
+      <category domain="tags">monitoring sites</category>
+    </item>
+    
+  </channel>
+</rss>
