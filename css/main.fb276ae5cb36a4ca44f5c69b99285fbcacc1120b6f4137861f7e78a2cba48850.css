@@ -575,14 +575,19 @@ p {
   text-align: center;
 }
 
-.link-qfieldcloud {
+.link-qfieldcloud,
+[data-bs-theme='dark'] .link-qfieldcloud {
   color: var(--qfieldcloud-color);
   font-weight: bold;
 }
 
 .link-qfieldcloud:hover,
-.link-qfieldcloud:focus {
+.link-qfieldcloud:focus,
+[data-bs-theme='dark'] .link-qfieldcloud:hover,
+[data-bs-theme='dark'] .link-qfieldcloud:focus
+ {
   color: var(--qfieldcloud-color);
+  font-weight: bold;
 }
 
 .customer-logo--wide {
@@ -2324,6 +2329,7 @@ div.explanation {
 
   .carousel-caption .carousel-title {
     font-size: 44px;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
   }
 
   .qf-button a,
