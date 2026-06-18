@@ -63,7 +63,7 @@ For maps shared on QFieldCloud, users can generate QR codes using their favorite
 
 Simply replace the `{username}` and `{project_name}` with the username or organization owning the project as well as the project name. The resulting QR code can be scanned from devices using the operating system camera and will automatically open QField to an informative cloud project details view.
 
-![](qrcode-share-qfieldcloud.webp.webp)
+![](qrcode-share-qfieldcloud.webp)
 
 ### Web URL QR codes
 
