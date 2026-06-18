@@ -1,5 +1,5 @@
 ---
-title: 'The many ways to share maps with friends, teammates, and the public to QField'
+title: 'The many ways to share maps with friends, teammates, and the public in QField'
 date: '2026-06-18T00:12:00'
 author: 'Mathieu'
 description: "Over the years, QField has gained a number of ways through which authors can share their mapping projects. This post looks at the multiple ways this can be achieved and what scenarios fit each method best."
@@ -39,13 +39,13 @@ QFieldCloud’s registry is free and you get 100MB of free storage, [give it a t
 
 If the maps are meant to be private and/or editable in a collaborative way, sharing them as part of a [QFieldCloud organization plan](https://qfield.cloud/pricing) is the way to go. Members of a registered organization are able to create projects in which the content of maps can be edited collaboratively and synchronized on-the-fly straight from the field.
 
-These projects will automatically appear in the cloud projects list of logged in users that are organization members and project collaborators, making it effortless to reach and download.
+These projects will automatically appear in the cloud projects list of logged in users that are organization member and a project collaborator, making it effortless to reach and download.
 
 ## Importing through web URLs
 
 It is also possible to share maps without relying on QFieldCloud. While we strongly believe QFieldCloud offers the best user experience, QField is all about providing its users with the freedom to choose.
 
-Sharing maps can be done by compressing a QGIS project into a ZIP archive or simply sharing a georeferenced PDF and offering that file through a web site URL. Users wanting to import these files into QField then open the local projects and datasets panel from the welcome screen, click on the bottom right plus sign ‘import’ button, and select the ‘Import from URL’ menu action.
+Sharing maps can be done by compressing a QGIS project into a ZIP archive or simply sharing a georeferenced PDF and make that file available  through a web site URL. Users wanting to import these files into QField then open the local projects and datasets panel from the welcome screen, click on the bottom right plus sign ‘import’ button, and select the ‘Import from URL’ menu action.
 
 ![](sharing-steps-import-web-url.webp)
 
