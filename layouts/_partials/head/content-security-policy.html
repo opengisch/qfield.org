@@ -1,17 +1,21 @@
 {{- /* Custom CSP; no inline scripts expected on most pages. */ -}}
-{{- $scriptSrc := "script-src 'self' https://cdn.jsdelivr.net" -}}
+{{- $scriptSrc := "script-src 'self' https://cdn.jsdelivr.net https://www.googletagmanager.com https://www.google-analytics.com" -}}
 {{- $styleSrc := "style-src 'self' 'unsafe-inline' https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net" -}}
 {{- $fontSrc := "font-src 'self' data: https://use.typekit.net https://p.typekit.net" -}}
 {{- $imgSrc := "img-src 'self' data: https:" -}}
-{{- $connectSrc := "connect-src 'self'" -}}
+{{- $connectSrc := "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com" -}}
 {{- $frameSrc := "frame-src 'self'" -}}
 {{- $workerSrc := "worker-src 'self'" -}}
 {{- $formAction := "form-action 'self'" -}}
+{{- if eq .Section "blog" -}}
+  {{- $scriptSrc = printf "%s https://community.qfield.org" $scriptSrc -}}
+  {{- $connectSrc = printf "%s https://community.qfield.org" $connectSrc -}}
+{{- end -}}
 {{- if eq .Slug "newsletter" -}}
-  {{- $scriptSrc = "script-src 'self' https://cdn.jsdelivr.net 'unsafe-eval' 'sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8=' https://sibforms.com https://*.sibforms.com https://assets.brevo.com https://static.brevo.com https://challenges.cloudflare.com https://www.googletagmanager.com https://www.google-analytics.com" -}}
+  {{- $scriptSrc = printf "%s 'unsafe-eval' 'sha256-eJGI0Ik4oYe/PKLDOt4wcN76wYs8h+Ew05pMzdY6xG8=' https://sibforms.com https://*.sibforms.com https://assets.brevo.com https://static.brevo.com https://challenges.cloudflare.com" $scriptSrc -}}
   {{- $styleSrc = "style-src 'self' 'unsafe-inline' https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net https://sibforms.com https://*.sibforms.com https://assets.brevo.com" -}}
   {{- $fontSrc = "font-src 'self' data: https://use.typekit.net https://p.typekit.net https://assets.brevo.com" -}}
-  {{- $connectSrc = "connect-src 'self' https://sibforms.com https://*.sibforms.com https://*.brevo.com https://*.cloudflare.com https://challenges.cloudflare.com https://www.google-analytics.com https://region1.google-analytics.com" -}}
+  {{- $connectSrc = printf "%s https://sibforms.com https://*.sibforms.com https://*.brevo.com https://*.cloudflare.com https://challenges.cloudflare.com" $connectSrc -}}
   {{- $frameSrc = "frame-src 'self' https://sibforms.com https://*.sibforms.com https://challenges.cloudflare.com" -}}
   {{- $workerSrc = "worker-src 'self' blob:" -}}
   {{- $formAction = "form-action 'self' https://sibforms.com https://*.sibforms.com" -}}
