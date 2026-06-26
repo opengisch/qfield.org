@@ -51,7 +51,19 @@
 </article>
 
 <!-- Blog post comments -->
-<div id='discourse-comments' data-discourse-url='https://community.qfield.org/' data-embed-url='{{ .Permalink }}'></div>
+<section class="blog-comments-section" aria-labelledby="blog-comments-title">
+  <div class="container">
+    <div class="blog-comments-section__inner">
+      <div class="blog-comments-section__header">
+        <span class="blog-comments-section__eyebrow">Community discussion</span>
+        <h2 id="blog-comments-title" class="blog-comments-section__title">Join the conversation</h2>
+      </div>
+      <div class="blog-comments-section__embed">
+        <div id='discourse-comments' data-discourse-url='https://community.qfield.org/' data-embed-url='{{ .Permalink }}'></div>
+      </div>
+    </div>
+  </div>
+</section>
 <script src="/js/discourse-embed.js"></script>
 
 

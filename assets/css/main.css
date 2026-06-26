@@ -2651,6 +2651,81 @@ div.explanation {
   font-size: 1.1rem;
 }
 
+/* Blog post comments */
+.blog-comments-section {
+  margin-top: 3rem;
+  padding: 4rem 0;
+  background:
+    linear-gradient(135deg, rgba(128, 204, 40, 0.12), rgba(74, 111, 174, 0.08)),
+    #f6f9f3;
+  border-top: 1px solid rgba(128, 204, 40, 0.24);
+  border-bottom: 1px solid rgba(128, 204, 40, 0.24);
+}
+
+.blog-comments-section__inner {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blog-comments-section__header {
+  margin-bottom: 1.75rem;
+}
+
+.blog-comments-section__eyebrow {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: var(--qfield-color);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.blog-comments-section__title {
+  margin: 0;
+  color: #2f2f2f;
+  font-size: clamp(1.6rem, 2vw, 2.2rem);
+  line-height: 1.2;
+}
+
+.blog-comments-section__embed {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid rgba(128, 204, 40, 0.24);
+  border-radius: 8px;
+  box-shadow: 0 14px 34px rgba(42, 58, 32, 0.08);
+}
+
+.blog-comments-section #discourse-comments {
+  display: block;
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+.blog-comments-section #discourse-embed-frame {
+  display: block;
+  width: 90% !important;
+  margin: 0 auto;
+}
+
+@media (max-width: 767.98px) {
+  .blog-comments-section {
+    padding: 3rem 0;
+  }
+
+  .blog-comments-section__embed {
+    padding: 0.85rem;
+  }
+
+  .blog-comments-section #discourse-embed-frame {
+    width: 100% !important;
+  }
+}
+
 /* Blog post social share buttons */
 .share-buttons {
   list-style: none;
@@ -3689,6 +3764,24 @@ div.explanation {
 [data-bs-theme='dark'] .page-link:hover {
   background-color: var(--surface-2);
   color: #fff;
+}
+
+[data-bs-theme='dark'] .blog-comments-section {
+  background:
+    linear-gradient(135deg, rgba(128, 204, 40, 0.12), rgba(74, 111, 174, 0.14)),
+    #202420;
+  border-top-color: rgba(128, 204, 40, 0.28);
+  border-bottom-color: rgba(128, 204, 40, 0.28);
+}
+
+[data-bs-theme='dark'] .blog-comments-section__title {
+  color: #f5f5f5;
+}
+
+[data-bs-theme='dark'] .blog-comments-section__embed {
+  background: rgba(47, 47, 47, 0.9);
+  border-color: rgba(128, 204, 40, 0.28);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
 }
 
 [data-bs-theme='dark'] footer,
