@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Site Supervision on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-86/tags/site-supervision/</link>
+    <description>Recent content in Site Supervision on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-86/tags/site-supervision/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Architecture and Site Supervision</title>
+      <link>https://qfield.org/pr-preview/pr-86/solutions/architecture-and-site-supervision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-86/solutions/architecture-and-site-supervision/</guid>
+      
+      <description>Mobile GIS for site supervision, design verification, and field annotations in architecture projects.</description>
+      <content:encoded><![CDATA[<h2 id="architecture-fieldwork-made-simple">Architecture fieldwork made simple</h2>
+<p>Use QField to check design intent, record deviations, and manage approvals. Forms and constraints mirror your QGIS model to keep data consistent.</p>
+<h3 id="key-benefits">Key benefits</h3>
+<ul>
+<li>Offline access to drawings and maps</li>
+<li>Photo and note capture linked to features</li>
+<li>Efficient supervision reports from synced data</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Prepare layers and forms in QGIS, then sync changes through QFieldCloud. Everyone sees the latest updates without email or USB handover.</p>
+]]></content:encoded>
+      <category domain="categories">Infrastructure, Construction &amp; Utilities</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">site supervision</category>
+      <category domain="tags">design verification</category>
+    </item>
+    
+  </channel>
+</rss>

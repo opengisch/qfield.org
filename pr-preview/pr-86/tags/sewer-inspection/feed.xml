@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sewer Inspection on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-86/tags/sewer-inspection/</link>
+    <description>Recent content in Sewer Inspection on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-86/tags/sewer-inspection/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Water Utilities and Wastewater Management</title>
+      <link>https://qfield.org/pr-preview/pr-86/solutions/water-utilities-and-wastewater-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-86/solutions/water-utilities-and-wastewater-management/</guid>
+      
+      <description>Mobile GIS for pipe networks, hydrants, valves, manholes, and treatment inspections.</description>
+      <content:encoded><![CDATA[<h2 id="water-and-wastewater-fieldwork">Water and wastewater fieldwork</h2>
+<p>Map pipes, valves, hydrants, manholes, and treatment facilities. Capture photos and notes linked to each feature.</p>
+<h3 id="typical-workflows">Typical workflows</h3>
+<ul>
+<li>Valve exercising and hydrant inspections</li>
+<li>Sewer manhole surveys and condition assessments</li>
+<li>Leak detection and repair documentation</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Design forms in QGIS, then sync and collaborate with QFieldCloud to keep asset data current.</p>
+]]></content:encoded>
+      <category domain="categories">Infrastructure, Construction &amp; Utilities</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">water network</category>
+      <category domain="tags">wastewater</category>
+      <category domain="tags">sewer inspection</category>
+    </item>
+    
+  </channel>
+</rss>
