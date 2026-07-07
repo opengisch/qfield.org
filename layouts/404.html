@@ -10,8 +10,8 @@
         </p>
         
         <div class="error-actions">
-          <a href="{{ partial "url.html" (dict "url" "/") }}" class="btn btn-primary">
-            <i class="fas fa-home"></i> Go to Homepage
+          <a href="{{ partial "url.html" (dict "url" "/#highlights") }}" class="btn btn-primary">
+            <i class="fas fa-home"></i> QField Highlights
           </a>
           <a href="{{ partial "url.html" (dict "url" "/success-stories/") }}" class="btn btn-secondary">
             <i class="fas fa-star"></i> Success Stories
@@ -19,17 +19,12 @@
           <a href="https://docs.qfield.org" class="btn btn-secondary" target="_blank">
             <i class="fas fa-book"></i> Documentation
           </a>
-        </div>
-        
-        <div class="search-suggestion">
-          <h3>Popular Pages</h3>
-          <ul class="popular-links">
-            <li><a href="{{ partial "url.html" (dict "url" "/#highlights") }}">QField Features</a></li>
-            <li><a href="{{ partial "url.html" (dict "url" "/success-stories/") }}">Success Stories</a></li>
-            <li><a href="https://docs.qfield.org/get-started/" target="_blank">Getting Started Guide</a></li>
-            <li><a href="{{ partial "url.html" (dict "url" "/support-us/") }}">Support QField</a></li>
-            <li><a href="{{ partial "url.html" (dict "url" "/partner/") }}">Partner Programs</a></li>
-          </ul>
+          <a href="{{ partial "url.html" (dict "url" "/support-us/") }}" class="btn btn-secondary">
+            <i class="fas fa-heart"></i> Support QField
+          </a>
+          <a href="{{ partial "url.html" (dict "url" "/partner/") }}" class="btn btn-secondary">
+            <i class="fas fa-handshake"></i> Partner Programs
+          </a>
         </div>
       </div>
     </div>
