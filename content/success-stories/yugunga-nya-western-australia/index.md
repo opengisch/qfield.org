@@ -7,6 +7,7 @@ company: "Yugunga-Nya Native Title Aboriginal Corporation (YN PBC)"
 description: "Four years after their native title determination, the Yugunga-Nya people are mapping and protecting hundreds of kilometres of ancestral country in the Western Australian desert. Inside the QField and QGIS workflow that supports heritage surveys with mining proponents on one side, and a thirty-strong ranger team recording artifacts, sacred sites, and endangered species on the other, for the first time in their history, on their own terms."
 sourceLabel: "Yugunga-Nya"
 sourceUrl: "https://www.ynpbc.com.au"
+categories: ["ecology-environment"]
 ---
 
 ### The Challenge
