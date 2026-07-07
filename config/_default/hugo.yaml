@@ -251,7 +251,7 @@ menu:
       weight: 80
     - name: "Newsletter"
       parent: "resources"
-      url: "https://www.opengis.ch/newsletter"
+      url: "https://qfield.org/landing/newsletter"
       weight: 90
     - name: "Contact Us"
       identifier: "contact"
