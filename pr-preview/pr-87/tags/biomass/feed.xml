@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Biomass on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-87/tags/biomass/</link>
+    <description>Recent content in Biomass on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-87/tags/biomass/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Carbon Stock and Sequestration Studies</title>
+      <link>https://qfield.org/pr-preview/pr-87/solutions/carbon-stock-and-sequestration-studies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-87/solutions/carbon-stock-and-sequestration-studies/</guid>
+      
+      <description>Field data collection for biomass plots, carbon stock measurements, and sequestration monitoring.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Biomass plot mapping and measurements</li>
+<li>QA with photo evidence</li>
+<li>Sync and collaborate with QFieldCloud</li>
+</ul>
+]]></content:encoded>
+      <category domain="categories">Sustainability, Compliance &amp; Monitoring</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">carbon stock</category>
+      <category domain="tags">biomass</category>
+      <category domain="tags">sequestration</category>
+    </item>
+    
+  </channel>
+</rss>
