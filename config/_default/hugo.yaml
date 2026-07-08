@@ -253,6 +253,10 @@ menu:
       parent: "resources"
       url: "https://qfield.org/landing/newsletter"
       weight: 90
+    # - name: "Pricing"
+    #   identifier: "pricing"
+    #   url: "/pricing/"
+    #   weight: 35
     - name: "Contact Us"
       identifier: "contact"
       url: "https://opengis.ch/#contact"
