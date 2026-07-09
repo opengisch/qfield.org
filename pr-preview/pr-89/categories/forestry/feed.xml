@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Forestry on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-89/categories/forestry/</link>
+    <description>Recent content in Forestry on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-89/categories/forestry/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community-led mapping for land rights and forest protection in Sarawak with QField</title>
+      <link>https://qfield.org/pr-preview/pr-89/success-stories/sarawak/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-89/success-stories/sarawak/</guid>
+      
+      <description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href=&#34;https://bmf.ch/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Bruno Manser Fonds&lt;/a&gt;
+ working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.&lt;/p&gt;
+&lt;p&gt;The goal is simple to describe, but powerful in practice: &lt;strong&gt;create maps that show where people live and what matters to them&lt;/strong&gt;. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In parts of Sarawak (Malaysia), indigenous communities are <strong>actively resisting deforestation and fighting for land rights</strong>. For one <a href="https://bmf.ch/en" target="_blank" rel="noopener">The Bruno Manser Fonds</a>
+ working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.</p>
+<p>The goal is simple to describe, but powerful in practice: <strong>create maps that show where people live and what matters to them</strong>. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.</p>
+<p>This is not only useful for planning and storytelling. In at least one case, a community map was used in court as <strong>evidence</strong> of long-standing connection and use. The community could show place names and key sites in a way that helped to <strong>prove</strong> that they have been living in those areas for a long time.</p>
+<h3 id="why-mapping-needs-more-than-satellite-imagery">Why mapping needs more than satellite imagery</h3>
+<p>Satellite imagery and topographic maps are helpful starting points. They show rivers, ridges, clearings, and settlement patterns. But they do not capture meaning.</p>
+<p>A satellite image can’t tell you where ancestors are buried, where a place is considered sacred, which part of the forest is used for hunting, or which areas people avoid for cultural reasons. Those details live in stories, memory, and daily practice.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/sarawak/sarawak-7_hu_29cd293473a47c9f.jpg" srcset="/pr-preview/pr-89/success-stories/sarawak/sarawak-7_hu_29cd293473a47c9f.jpg 1x, /pr-preview/pr-89/success-stories/sarawak/sarawak-7_hu_e00d08ae3622fcb9.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="600" height="400" style="ZgotmplZ"
+         loading="lazy"></figure>
+
+<h3 id="the-reality-in-the-field-connectivity-comes-and-goes">The reality in the field: connectivity comes and goes</h3>
+<p>A second challenge is technical but very real: <strong>internet access</strong>. Many of these villages have unreliable connectivity, and “offline” can mean days or weeks, not just a few hours between the office and the field.</p>
+<p>That matters because community mapping usually involves <strong>large basemaps and plenty of edits from multiple devices</strong>. If you can’t reliably push data back and forth online, you need a workflow that works without it.</p>
+<h3 id="how-qfield-is-used-in-the-workflow">How QField is used in the workflow</h3>
+<p>The team prepares a QGIS project and packages it for mobile fieldwork using QFieldSync. Then QField is used for <strong>collecting features and attributes</strong> directly on Android devices in the field. A key part of this project is that distribution and syncing often happens by cable, not through the cloud.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/sarawak/sarawak-2_hu_e598815b0a248ba0.jpg" srcset="/pr-preview/pr-89/success-stories/sarawak/sarawak-2_hu_e598815b0a248ba0.jpg 1x, /pr-preview/pr-89/success-stories/sarawak/sarawak-2_hu_617cacf0d918787.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="300" height="400" style="ZgotmplZ"
+         loading="lazy"></figure>
+
+<p><strong>1. Co-designing the project with each community</strong></p>
+<p>Before fieldwork begins, the team sits with the community and adapts the project to what they want to map.</p>
+<p><strong>Different communities care about different things.</strong> A village close to a river may want specific river sections and names recorded in detail. Another community might focus more on forest resources or cultural sites. Together, they decide:</p>
+<ul>
+<li>What feature types to include</li>
+<li>How features should be represented (point, line, polygon)</li>
+<li>Which attributes matter (names, local terms, notes, photos)</li>
+<li>What should be captured in the local language</li>
+</ul>
+<p>This step is not only about data structure. It is about decision-making. Many communities have had mapping done to them by outsiders. Here, the community defines what the place is called, what counts as important, and what should be left private.</p>
+<p><strong>2. Moving projects and data without the internet</strong></p>
+<p>Because basemaps are large and connectivity is weak, the team transfers projects to devices using a cable. Community members <strong>collect data in the field and return to a local computer</strong> where the data is brought back into the QGIS project.</p>
+<p>Later, when a stable connection is available, the consolidated dataset can be <strong>pushed to a database or cloud service</strong> for wider viewing and backup. But the core mapping work does not depend on that connection.</p>
+<p>This also changes how versioning is handled. In the “industrial” workflow, you often assume you can sync frequently, resolve conflicts quickly, and keep changes small. In this context, the gaps are longer and the differences between versions can be bigger. The team keeps multiple versions and, when needed, compares and fixes conflicts manually to protect data quality.</p>
+<h3 id="a-moment-of-real-impact-giving-the-map-ack-immediately">A moment of real impact: giving the map ack immediately</h3>
+<p>One of the strongest moments in the interview was what happened when the community saw the collected data on their own phones.
+At first, the idea might sound like giving people a basemap. But it was more than that. It was their own collected layers, their own names, their own places, and their own priorities, visible immediately. It became a local “Google Maps,” except it <strong>reflected their world</strong> rather than someone else’s.</p>
+<p>That created interest fast. The mapper described an evening when many community members showed up with smartphones, asking to get the map on their devices. For the project team, that was a clear sign the mapping wasn’t just a report deliverable. It was something people wanted to use and keep. QField made it possible for every community member to <strong>carry community data in their own pocket</strong>. So far, QField has been used in <strong>two communities</strong>, and its success ensures that it will be used again.</p>
+<h3 id="being-careful-about-what-is-share">Being careful about what is share</h3>
+<p>The project is also very deliberate about data protection. <strong>Not everything that is mapped should be published.</strong> Sensitive cultural sites, graveyards, and other locations can be exploited if they are made public. Even among neighboring communities, boundaries can be contested, and publishing one version can create conflict.</p>
+<p>For that reason, the team does not plan to publish all data to the web or to OpenStreetMap. There is interest in selectively sharing non-sensitive layers, such as river names, but only with consent and clear boundaries.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/sarawak/sarawak-8_hu_1f726087c27e9dcf.jpg" srcset="/pr-preview/pr-89/success-stories/sarawak/sarawak-8_hu_1f726087c27e9dcf.jpg 1x, /pr-preview/pr-89/success-stories/sarawak/sarawak-8_hu_7431613da9ceb350.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="600" height="338" style="ZgotmplZ"
+         loading="lazy"></figure>
+
+<h3 id="the-final-deliverable-that-matters-most-a-printed-map">The final deliverable that matters most: a printed map</h3>
+<p><strong>Digital maps are essential for fieldwork</strong>, but the “finished” outcome for many communities is a <strong>high-quality printed map</strong>, with a thoughtful layout and space for metadata and stories.</p>
+<p>A printed map does something phones do not. People can spread it out, gather around it, point to places, and talk. It feels permanent. It can be stored, shared, and used as proof in a way that carries weight locally.</p>
+<p>For the BMF and the Communities, the printed map is not an afterthought. It is one of the main goals, alongside the longer-term aim of keeping community data organized in a comparable way across multiple mapping projects.</p>
+
+
+
+
+
+
+<div class="gallery-wrapper" 
+     data-gallery-id="gallery-1783564971-119022471"
+     data-autoplay="false"
+     data-interval="5000"
+     data-controls="true"
+     data-indicators="true">
+  
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/sarawak/sarawak-1.jpg" srcset="/pr-preview/pr-89/success-stories/sarawak/sarawak-1.jpg 1x, /pr-preview/pr-89/success-stories/sarawak/sarawak-1_hu_e0bbe1123451cfa4.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="800" height="600"
+         loading="lazy"></figure>
+
+
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/sarawak/sarawak-3.jpg" srcset="/pr-preview/pr-89/success-stories/sarawak/sarawak-3.jpg 1x, /pr-preview/pr-89/success-stories/sarawak/sarawak-3_hu_d6c89a8b60ee89d0.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="800" height="450"
+         loading="lazy"></figure>
+
+
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/sarawak/sarawak-5.jpg" srcset="/pr-preview/pr-89/success-stories/sarawak/sarawak-5.jpg 1x, /pr-preview/pr-89/success-stories/sarawak/sarawak-5_hu_b281c337d83e7e5c.jpg 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="800" height="450"
+         loading="lazy"></figure>
+
+
+</div>
+
+<style>
+ 
+#gallery-1783564971-119022471 .carousel-item .gallery-img {
+  height: 400px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  display: block !important;
+}
+
+#gallery-1783564971-119022471 .carousel-item {
+  height: auto;
+}
+
+#gallery-1783564971-119022471 .carousel-item .figure {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+#gallery-1783564971-119022471 .carousel-item .figure .gallery-img {
+  width: 100% !important;
+}
+
+#gallery-1783564971-119022471 .carousel-item .figure .figure-caption {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #gallery-1783564971-119022471 .carousel-item .gallery-img {
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #gallery-1783564971-119022471 .carousel-item .gallery-img {
+    height: 250px !important;
+  }
+}
+</style>
+
+
+]]></content:encoded>
+      <category domain="categories">forestry</category>
+      <category domain="categories">ecology-environment</category>
+      <category domain="categories">water-land-management</category>
+    </item>
+    
+    <item>
+      <title>Building on Top of QFieldCloud</title>
+      <link>https://qfield.org/pr-preview/pr-89/success-stories/building-on-top/</link>
+      <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-89/success-stories/building-on-top/</guid>
+      
+      <description>The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees, shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the return of these data in GINVE.CLOUD via a synchronisation procedure.</description>
+      <content:encoded><![CDATA[<h3 id="aims-and-objectives">Aims and Objectives</h3>
+<p>The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees, shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the return of these data in GINVE.CLOUD via a synchronisation procedure.</p>
+<p>For this purpose, it was decided to exploit the potential offered by QField and the GeoPackage database.</p>
+<h3 id="preliminary-project-activity">Preliminary project activity</h3>
+<p>Initially, a procedure was set up in GINVE.CLOUD to generate a Geopackage and the corresponding QField project file from the GINVE.CLOUD platform.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/building-on-top/ginve-1.jpeg" srcset="/pr-preview/pr-89/success-stories/building-on-top/ginve-1.jpeg 1x, /pr-preview/pr-89/success-stories/building-on-top/ginve-1_hu_e50495dba3e359b.jpeg 2x"
+         alt="ginve" 
+         class="figure-img img-fluid gallery-img" width="1002" height="640"
+         loading="lazy"></figure>
+
+<p>The Geopackage produced was structured to allow the management and mapping of data, supporting the insertion of point elements, lines, polygons and photos. In addition, form fields with customised attributes and value maps, value relations and check boxes were prepared in order to simplify data input by users.</p>
+<p>In particular, the trees layer has been prepared to allow the management of forms for the collection of the following data:
+- Identification data
+- Dimensional and Qualitative
+- Notes-Other data
+- Damage
+- Interventions
+- Interference</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/building-on-top/ginve-2.jpeg" srcset="/pr-preview/pr-89/success-stories/building-on-top/ginve-2.jpeg 1x, /pr-preview/pr-89/success-stories/building-on-top/ginve-2_hu_9ba89c4cd3b32090.jpeg 2x"
+         alt="ginve" 
+         class="figure-img img-fluid gallery-img" width="1186" height="788"
+         loading="lazy"></figure>
+
+<p>Themes and labels were customised for each layer to make them similar to those in GINVE.CLOUD.</p>
+<p>In addition to customising the data fields, special procedures for displaying the base map were created. Google Maps and OpenStreetMap were used as the base map, but the structure was prepared to allow the use of other raster maps so that they can be displayed and managed in QField.</p>
+<h3 id="data-entry">Data Entry</h3>
+<p>The data entry activity refers to the possibility of entering data relating to the position of the element on the map, the compilation of the element&rsquo;s master data sheet, with photography and planning of interventions.</p>
+<p>The graphic data were entered using both automatic positioning via GPS and manual positioning using the positioning functions offered by QField. The alphanumeric data were entered by filling in specific survey sheets with differentiated data according to the element selected.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/building-on-top/ginve-4_hu_f1145a58e3a0edb5.jpeg" srcset="/pr-preview/pr-89/success-stories/building-on-top/ginve-4_hu_f1145a58e3a0edb5.jpeg 1x, /pr-preview/pr-89/success-stories/building-on-top/ginve-4_hu_7332e8c7938fed5e.jpeg 2x"
+         alt="ginve" 
+         class="figure-img img-fluid gallery-img" width="1200" height="750"
+         loading="lazy"></figure>
+
+<p>The collected data was then imported and synchronised with GINVE.CLOUD through a specific procedure that allows the verification of data (even from multiple operators) and alerts the user of any problems encountered, providing details of the error in order to facilitate its correction by the operator. This procedure also allows the import of photos that have been taken byQField and their automatic storage in the Cloud.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/building-on-top/ginve-5.jpeg" srcset="/pr-preview/pr-89/success-stories/building-on-top/ginve-5.jpeg 1x, /pr-preview/pr-89/success-stories/building-on-top/ginve-5_hu_4cc70ebf68172b84.jpeg 2x"
+         alt="ginve" 
+         class="figure-img img-fluid gallery-img" width="928" height="498"
+         loading="lazy"></figure>
+
+<h3 id="results">Results</h3>
+<p>Graphic and alphanumeric data were exported directly from GINVE.CLOUD into QField for immediate mobile use and management by operators. QField&rsquo;s feature of being completely offline usable coupled with the possibility of predefined filling in of certain fields allowed data entry activities to be speeded up, reducing the possibility of human errors occurring and allowing users to be more efficient during census activities. Any conflicts with data in GINVE.CLOUD were handled during synchronisation by allowing the operator to choose and validate which data should be stored. Data imported from QFields are immediately available to all GINVE.CLOUD operators.</p>
+<p><figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/building-on-top/ginve-6.jpeg" srcset="/pr-preview/pr-89/success-stories/building-on-top/ginve-6.jpeg 1x, /pr-preview/pr-89/success-stories/building-on-top/ginve-6_hu_c3ecc5de8eca1c41.jpeg 2x"
+         alt="larvae" 
+         class="figure-img img-fluid gallery-img" width="544" height="544"
+         loading="lazy"></figure>
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/building-on-top/ginve-6b.jpeg" srcset="/pr-preview/pr-89/success-stories/building-on-top/ginve-6b.jpeg 1x, /pr-preview/pr-89/success-stories/building-on-top/ginve-6b_hu_803ce6d857e5f8e4.jpeg 2x"
+          alt="larvae" 
+          class="figure-img img-fluid gallery-img" width="940" height="541"
+          loading="lazy"></figure>
+</p>
+<p>Thanks to QField, it has been possible to achieve new goals, enabling users of GINVE.CLOUD to use a high-performance and intuitive solution that provides continuity to the activities carried out in the field while guaranteeing maximum operational efficiency.</p>
+<p><strong>In addition, the integration enabled us to achieve the following objectives:</strong>
+- Use of maps and offline data on Smartphones and Tablets
+- Increased speed in data entry activities- Full compatibility with GINVE.CLOUD
+- Direct import of Geopackage from GINVE.CLOUD- Portability of data in QGIS
+- Data usable on other GIS platformsThe integration with QField represents an important step in the growth of GINVE.CLOUD and demonstrates its high readiness for interfacing with modern open source applications that make use of innovative, state-of-the-art technologies.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/building-on-top/ginve-7.jpeg" srcset="/pr-preview/pr-89/success-stories/building-on-top/ginve-7.jpeg 1x, /pr-preview/pr-89/success-stories/building-on-top/ginve-7_hu_7c045fa95c7ff207.jpeg 2x"
+         alt="larvae" 
+         class="figure-img img-fluid gallery-img" width="1104" height="499"
+         loading="lazy"></figure>
+
+]]></content:encoded>
+      <category domain="categories">forestry</category>
+      <category domain="categories">ecology-environment</category>
+      <category domain="categories">government-municipalities</category>
+    </item>
+    
+    <item>
+      <title>Young Farmers Use QField to Reduce Deforestation by 71% in Ghana&#39;s Forests</title>
+      <link>https://qfield.org/pr-preview/pr-89/success-stories/ghana-deforestation/</link>
+      <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-89/success-stories/ghana-deforestation/</guid>
+      
+      <description>How a community-based monitoring program in Ghana&#39;s Tano Offin Forest Reserve used QField to achieve remarkable conservation results through Payment for Ecosystem Services</description>
+      <content:encoded><![CDATA[<h3 id="the-challenge">The Challenge</h3>
+<p>Ghana&rsquo;s Tano Offin Forest Reserve, one of the country&rsquo;s most biodiverse areas supporting 569 species including seven globally threatened ones, faced a critical threat. Satellite imagery revealed that without intervention, the forest was projected to lose <strong>56 hectares annually to illegal farming and logging activities.</strong> Traditional monitoring methods using &ldquo;pen and paper&rdquo; were insufficient to respond quickly to emerging deforestation threats detected by remote sensing. The Alliance of Bioversity International and <a href="https://www.cgiar.org/" target="_blank" rel="noopener">CIAT</a>
+, working with local partners including the Ghana Forestry Commission, needed a way to rapidly ground-truth satellite alerts and engage local communities in real-time forest monitoring. The challenge was particularly complex given the rural setting where many community members had limited literacy and technology experience.</p>
+<h3 id="the-solution">The Solution</h3>
+<p>The project team implemented an innovative community-based monitoring system using QField on Android tablets. Twelve young farmers were trained as volunteers to verify deforestation alerts generated by the Terra-i satellite monitoring system, which uses freely available Sentinel 1 and 2 Copernicus satellite data to detect forest changes fortnightly.</p>
+<h4 id="the-qfield-workflow-was-designed-for-simplicity">The QField workflow was designed for simplicity:</h4>
+<p>- Volunteers receive GPS coordinates of deforestation alerts on their tablets
+- Working in groups of at least two for safety, they navigate to the alert locations
+- Using a simple QField form, they confirm whether deforestation is occurring
+- They identify the cause (farming, illegal logging, or other activities)
+- Photos are captured directly in the form
+- Data is synchronized back to researchers and the Ghana Forestry Commission</p>
+<p><em>&ldquo;The idea is not to confirm whether it&rsquo;s deforestation or not - we can see forest clearing from satellite imagery. The goal is to stop deforestation from expanding. If it&rsquo;s monitored when it&rsquo;s just started, then a farm won&rsquo;t grow from one hectare to 10 hectares.&rdquo;</em></p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/ghana-deforestation/ghana-1_hu_f0d4b9b5c412b6c6.jpeg" srcset="/pr-preview/pr-89/success-stories/ghana-deforestation/ghana-1_hu_f0d4b9b5c412b6c6.jpeg 1x, /pr-preview/pr-89/success-stories/ghana-deforestation/ghana-1_hu_b6650aae342d0757.jpeg 2x"
+         alt="enter alt" 
+         class="figure-img img-fluid gallery-img" width="1200" height="540"
+         loading="lazy"></figure>
+
+<h5 id="accountability-team-members"><em>Accountability Team members</em></h5>
+<h3 id="the-result">The Result</h3>
+<p>After just one year of implementation (July 2023 to July 2024), the project achieved <strong>extraordinary conservation outcomes</strong> across 1,044 hectares.</p>
+<h4 id="environmental-impact">Environmental Impact:</h4>
+<p>- 71% reduction in deforestation compared to business-as-usual projections
+- 38% reduction compared to historical deforestation rates
+– Annual deforestation dropped from a projected 56 hectares to just 16 hectares
+- 6,911 tons of CO2 equivalent conserved
+- 65,303 cubic meters of water recharge protected annually
+- 39 hectares of biodiverse forest safeguarded</p>
+<h4 id="community-empowerment">Community Empowerment:</h4>
+<p>- 423 households from 6 communities engaged in forest conservation
+- 12 young individuals received geospatial training and technology skills
+- Communities achieved $2,000 USD in Payment for Ecosystem Services rewards for health clinic construction</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/ghana-deforestation/ghana-2_hu_7b21c9dd20792202.jpeg" srcset="/pr-preview/pr-89/success-stories/ghana-deforestation/ghana-2_hu_7b21c9dd20792202.jpeg 1x, /pr-preview/pr-89/success-stories/ghana-deforestation/ghana-2_hu_8645d084b8a89d50.jpeg 2x"
+         alt="enter alt" 
+         class="figure-img img-fluid gallery-img" width="1200" height="540"
+         loading="lazy"></figure>
+
+<h5 id="accountability-team-member-checks-alerts"><em>Accountability Team member checks alerts</em></h5>
+<h3 id="scaling-conservation-impact">Scaling Conservation Impact</h3>
+<p>The success has demonstrated the potential for expanding this model across West Africa and beyond. The Payment for Ecosystem Services approach, combined with QField&rsquo;s accessible technology platform, provides a replicable framework for community-led forest conservation.</p>
+<p><em>&ldquo;If we expand it to another forest in Ghana or West Africa with this payment for ecosystem services model to motivate communities&rsquo; self-management of natural resources, then QField feels like a good technological platform to enable them to do that.&rdquo;</em></p>
+<p>The project showcases how mobile GIS technology can bridge the gap between satellite monitoring and community action, turning local residents from potential forest threats into <strong>empowered conservation guardians.</strong> <figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/ghana-deforestation/ghana-3.jpeg" srcset="/pr-preview/pr-89/success-stories/ghana-deforestation/ghana-3.jpeg 1x, /pr-preview/pr-89/success-stories/ghana-deforestation/ghana-3_hu_bc62d38e318d717c.jpeg 2x"
+         alt="enter alt" 
+         class="figure-img img-fluid gallery-img" width="576" height="1071"
+         loading="lazy"></figure>
+</p>
+<h5 id="coordinator-helps-check-alerts"><em>Coordinator helps check alerts</em></h5>
+]]></content:encoded>
+      <category domain="categories">forestry</category>
+      <category domain="categories">ecology-environment</category>
+    </item>
+    
+  </channel>
+</rss>
