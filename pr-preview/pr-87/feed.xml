@@ -14,6 +14,81 @@
     
     <atom:link href="https://qfield.org/pr-preview/pr-87/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pricing</title>
+      <link>https://qfield.org/pr-preview/pr-87/pricing/</link>
+      <pubDate>Wed, 08 Jul 2026 12:00:00 +0200</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-87/pricing/</guid>
+      
+      <description>QField is free, forever, under the GPL license. Here&#39;s where money actually comes in: QFieldCloud sync (hosted or self-hosted) and professional services, plus free and discounted programs for academia and non-profits.</description>
+      <content:encoded><![CDATA[<h1 id="qfield-is-free-heres-how-it-stays-that-way">QField is free. Here&rsquo;s how it stays that way.</h1>
+<p>QField is free and open source, and it stays that way because of what surrounds it. Teams pay for the <a class="green-link text-decoration-none fw-normal" href="https://qfield.cloud" target="_blank" rel="noopener">hosted cloud</a> and for expert help because it saves them time. Anyone can also sponsor a feature or fund development directly. All of it goes back into the app.</p>
+<p class="text-center my-4">
+  <a class="btn btn-primary btn-lg" href="/pr-preview/pr-87/get/" target="_self">
+    Download QField
+  </a>
+</p>
+
+<h2 id="want-more-convenience">Want more convenience?</h2>
+<p>Two ways to move faster when you need it.</p>
+<div class="row g-4 my-4">
+  <div class="col-lg-6 mb-2 d-flex">
+    <div class="card h-100 border-0 rounded-0 flex-fill">
+      <div class="card-body d-flex flex-column text-center pt-4 pb-1">
+        <h3 class="card-title h4 mb-3">QFieldCloud</h3>
+        <div class="card-text flex-grow-1">
+          Sync and collaboration, ready to go. Free to start; paid plans add storage, seats, and team features, with discounts for academic and non-profit use.
+          <br><br>
+          Prefer to host it yourself? It's open source (MIT), so you can.
+        </div>
+      </div>
+      <div class="card-footer bg-white border-0 text-center pb-1">
+        <a class="green-link text-decoration-none fw-normal" href="https://qfield.cloud/pricing" target="_blank" rel="noopener">QFieldCloud plans</a>
+        &middot;
+        <a class="green-link text-decoration-none fw-normal" href="https://github.com/opengisch/QFieldCloud" target="_blank" rel="noopener">Self-host from GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 mb-2 d-flex">
+    <div class="card h-100 border-0 rounded-0 flex-fill">
+      <div class="card-body d-flex flex-column text-center pt-4 pb-1">
+        <h3 class="card-title h4 mb-3">Professional services</h3>
+        <div class="card-text flex-grow-1">
+          Setup, training, and custom development from <a class="green-link text-decoration-none fw-normal" href="https://opengis.ch">OPENGIS.ch </a> or a certified partner. Get your projects configured the way your team works, and skip the ramp-up.
+          <br><br>
+          Need something specific? Sponsor a feature or ask us for plugin development.
+        </div>
+      </div>
+      <div class="card-footer bg-white border-0 text-center pb-1">
+        <a class="green-link text-decoration-none fw-normal" href="/assistance/">Get assistance</a>
+        &middot;
+        <a class="green-link text-decoration-none fw-normal" href="/partners/">Find a partner</a>
+      </div>
+    </div>
+  </div>
+</div>
+<h2 id="support-the-project">Support the project</h2>
+<p>QField is maintained by <a class="green-link text-decoration-none fw-normal" href="https://opengis.ch">OPENGIS.ch</a> and a global community of contributors. If QField is saving your team time, consider giving back: donate, sponsor a feature, or contribute code.</p>
+<p class="text-center my-4">
+  <a class="btn btn-primary btn-lg" href="/pr-preview/pr-87/support-us/" target="_self">
+    Support us
+  </a>
+</p>
+
+<h2 id="how-qfield-compares-to-proprietary-field-apps">How QField compares to proprietary field apps</h2>
+<p>QField is the leading open-source field app, used by over half a million people every month. It runs everywhere your team does: Android, iOS, Windows, macOS, and Linux.</p>
+<p>Switching is easy. QField reads your existing QGIS projects directly and works with open formats like GeoPackage, so there&rsquo;s nothing to convert and nothing left behind. It&rsquo;s free for as many users as you like, your data stays portable, and you add hosted sync only if you want it. Most teams are up and running the same day.</p>
+<p>New to the QGIS world? You don&rsquo;t need any QGIS experience to get started. Coming from Esri, QGIS can open and convert your shapefiles, geodatabases, and layers, so your data moves into QField without rebuilding. Using ODK or KoboToolbox? An <a class="green-link text-decoration-none fw-normal" href="https://plugins.qgis.org/plugins/xlsformconverter/" target="_blank" rel="noopener">XLSForm converter</a> brings your existing forms straight in, so your data collection setup carries over.</p>
+<p class="text-center my-4">
+  <a class="btn btn-primary btn-lg" href="/pr-preview/pr-87/assistance/" target="_self">
+    Get help migrating
+  </a>
+</p>
+
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>The many ways to share maps with friends, teammates, and the public in QField</title>
       <link>https://qfield.org/pr-preview/pr-87/blog/2026/06/18/the-many-ways-to-share-maps-with-friends-teammates-and-the-public-in-qfield/</link>
       <pubDate>Thu, 18 Jun 2026 00:12:00 +0000</pubDate>
@@ -675,7 +750,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407490-567149055"
+     data-gallery-id="gallery-1783563899-400370039"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -703,7 +778,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1783407490-567149055 .carousel-item .gallery-img {
+#gallery-1783563899-400370039 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -711,11 +786,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1783407490-567149055 .carousel-item {
+#gallery-1783563899-400370039 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407490-567149055 .carousel-item .figure {
+#gallery-1783563899-400370039 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -724,11 +799,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1783407490-567149055 .carousel-item .figure .gallery-img {
+#gallery-1783563899-400370039 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407490-567149055 .carousel-item .figure .figure-caption {
+#gallery-1783563899-400370039 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -737,13 +812,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407490-567149055 .carousel-item .gallery-img {
+  #gallery-1783563899-400370039 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407490-567149055 .carousel-item .gallery-img {
+  #gallery-1783563899-400370039 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2524,7 +2599,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407243-923772910"
+     data-gallery-id="gallery-1783563668-30007224"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2552,7 +2627,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 
 <style>
  
-#gallery-1783407243-923772910 .carousel-item .gallery-img {
+#gallery-1783563668-30007224 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2560,11 +2635,11 @@ Back at the office, it took only 2 hours to treat the data and get the final res
   display: block !important;
 }
 
-#gallery-1783407243-923772910 .carousel-item {
+#gallery-1783563668-30007224 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407243-923772910 .carousel-item .figure {
+#gallery-1783563668-30007224 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2573,11 +2648,11 @@ Back at the office, it took only 2 hours to treat the data and get the final res
   text-align: center;
 }
 
-#gallery-1783407243-923772910 .carousel-item .figure .gallery-img {
+#gallery-1783563668-30007224 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407243-923772910 .carousel-item .figure .figure-caption {
+#gallery-1783563668-30007224 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2586,13 +2661,13 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407243-923772910 .carousel-item .gallery-img {
+  #gallery-1783563668-30007224 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407243-923772910 .carousel-item .gallery-img {
+  #gallery-1783563668-30007224 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2643,7 +2718,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407245-463197846"
+     data-gallery-id="gallery-1783563669-607300721"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2671,7 +2746,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 <style>
  
-#gallery-1783407245-463197846 .carousel-item .gallery-img {
+#gallery-1783563669-607300721 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2679,11 +2754,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1783407245-463197846 .carousel-item {
+#gallery-1783563669-607300721 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407245-463197846 .carousel-item .figure {
+#gallery-1783563669-607300721 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2692,11 +2767,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1783407245-463197846 .carousel-item .figure .gallery-img {
+#gallery-1783563669-607300721 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407245-463197846 .carousel-item .figure .figure-caption {
+#gallery-1783563669-607300721 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2705,13 +2780,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407245-463197846 .carousel-item .gallery-img {
+  #gallery-1783563669-607300721 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407245-463197846 .carousel-item .gallery-img {
+  #gallery-1783563669-607300721 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2730,7 +2805,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407247-826419590"
+     data-gallery-id="gallery-1783563671-930110219"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2758,7 +2833,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1783407247-826419590 .carousel-item .gallery-img {
+#gallery-1783563671-930110219 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2766,11 +2841,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1783407247-826419590 .carousel-item {
+#gallery-1783563671-930110219 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407247-826419590 .carousel-item .figure {
+#gallery-1783563671-930110219 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2779,11 +2854,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1783407247-826419590 .carousel-item .figure .gallery-img {
+#gallery-1783563671-930110219 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407247-826419590 .carousel-item .figure .figure-caption {
+#gallery-1783563671-930110219 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2792,13 +2867,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407247-826419590 .carousel-item .gallery-img {
+  #gallery-1783563671-930110219 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407247-826419590 .carousel-item .gallery-img {
+  #gallery-1783563671-930110219 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2819,7 +2894,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407250-86664720"
+     data-gallery-id="gallery-1783563674-599272688"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2847,7 +2922,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1783407250-86664720 .carousel-item .gallery-img {
+#gallery-1783563674-599272688 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2855,11 +2930,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1783407250-86664720 .carousel-item {
+#gallery-1783563674-599272688 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407250-86664720 .carousel-item .figure {
+#gallery-1783563674-599272688 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2868,11 +2943,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1783407250-86664720 .carousel-item .figure .gallery-img {
+#gallery-1783563674-599272688 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407250-86664720 .carousel-item .figure .figure-caption {
+#gallery-1783563674-599272688 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2881,13 +2956,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407250-86664720 .carousel-item .gallery-img {
+  #gallery-1783563674-599272688 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407250-86664720 .carousel-item .gallery-img {
+  #gallery-1783563674-599272688 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3031,7 +3106,7 @@ As the name suggests, the plugin converts XLSForm survey files into ready-to-use
 </p>
 
 <hr>
-<h3 id="from-hahahugoshortcode12s2hbhb-to-the-world">From <span class="text-qfield">Switzerland</span>
+<h3 id="from-hahahugoshortcode14s2hbhb-to-the-world">From <span class="text-qfield">Switzerland</span>
  to the world!🇨🇭</h3>
 <p>Born in the Swiss Alps, raised by open-source, and now <strong>roaming the globe</strong>, QField has gone international! What started in Switzerland is now in the hands of field mappers, researchers, and GIS pros on six continents. Thank you for taking QField <strong>worldwide</strong>! 🌍</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-87/blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_128a0da4020cfbc6.png" srcset="/pr-preview/pr-87/blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_128a0da4020cfbc6.png 1x, /pr-preview/pr-87/blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_d945cb3b966e37d4.png 2x"
@@ -3039,7 +3114,7 @@ As the name suggests, the plugin converts XLSForm survey files into ready-to-use
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
 
-<h4 id="mapping-the-hahahugoshortcode12s4hbhb-one-field-at-a-time"><strong>Mapping the <span class="text-qfield">world</span>
+<h4 id="mapping-the-hahahugoshortcode14s4hbhb-one-field-at-a-time"><strong>Mapping the <span class="text-qfield">world</span>
  one field at a time.</strong></h4>
 <hr>
 <h3 id="the-numbers-tell-a-story-">The numbers tell a <em>story</em> 📖</h3>
@@ -4225,7 +4300,7 @@ Want to know more about the idea of community-driven open-source projects and th
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407250-757869799"
+     data-gallery-id="gallery-1783563674-395304121"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4271,7 +4346,7 @@ Want to know more about the idea of community-driven open-source projects and th
 
 <style>
  
-#gallery-1783407250-757869799 .carousel-item .gallery-img {
+#gallery-1783563674-395304121 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4279,11 +4354,11 @@ Want to know more about the idea of community-driven open-source projects and th
   display: block !important;
 }
 
-#gallery-1783407250-757869799 .carousel-item {
+#gallery-1783563674-395304121 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407250-757869799 .carousel-item .figure {
+#gallery-1783563674-395304121 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4292,11 +4367,11 @@ Want to know more about the idea of community-driven open-source projects and th
   text-align: center;
 }
 
-#gallery-1783407250-757869799 .carousel-item .figure .gallery-img {
+#gallery-1783563674-395304121 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407250-757869799 .carousel-item .figure .figure-caption {
+#gallery-1783563674-395304121 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4305,13 +4380,13 @@ Want to know more about the idea of community-driven open-source projects and th
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407250-757869799 .carousel-item .gallery-img {
+  #gallery-1783563674-395304121 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407250-757869799 .carousel-item .gallery-img {
+  #gallery-1783563674-395304121 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4751,7 +4826,7 @@ Cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407242-697276928"
+     data-gallery-id="gallery-1783563666-640209910"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4780,7 +4855,7 @@ Cheers</p>
 
 <style>
  
-#gallery-1783407242-697276928 .carousel-item .gallery-img {
+#gallery-1783563666-640209910 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4788,11 +4863,11 @@ Cheers</p>
   display: block !important;
 }
 
-#gallery-1783407242-697276928 .carousel-item {
+#gallery-1783563666-640209910 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407242-697276928 .carousel-item .figure {
+#gallery-1783563666-640209910 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4801,11 +4876,11 @@ Cheers</p>
   text-align: center;
 }
 
-#gallery-1783407242-697276928 .carousel-item .figure .gallery-img {
+#gallery-1783563666-640209910 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407242-697276928 .carousel-item .figure .figure-caption {
+#gallery-1783563666-640209910 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4814,13 +4889,13 @@ Cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407242-697276928 .carousel-item .gallery-img {
+  #gallery-1783563666-640209910 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407242-697276928 .carousel-item .gallery-img {
+  #gallery-1783563666-640209910 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4886,7 +4961,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407245-112765152"
+     data-gallery-id="gallery-1783563669-187717682"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4921,7 +4996,7 @@ cheers</p>
 
 <style>
  
-#gallery-1783407245-112765152 .carousel-item .gallery-img {
+#gallery-1783563669-187717682 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4929,11 +5004,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1783407245-112765152 .carousel-item {
+#gallery-1783563669-187717682 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407245-112765152 .carousel-item .figure {
+#gallery-1783563669-187717682 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4942,11 +5017,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1783407245-112765152 .carousel-item .figure .gallery-img {
+#gallery-1783563669-187717682 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407245-112765152 .carousel-item .figure .figure-caption {
+#gallery-1783563669-187717682 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4955,13 +5030,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407245-112765152 .carousel-item .gallery-img {
+  #gallery-1783563669-187717682 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407245-112765152 .carousel-item .gallery-img {
+  #gallery-1783563669-187717682 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4982,7 +5057,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407248-6706519"
+     data-gallery-id="gallery-1783563672-74911506"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5020,7 +5095,7 @@ cheers</p>
 
 <style>
  
-#gallery-1783407248-6706519 .carousel-item .gallery-img {
+#gallery-1783563672-74911506 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5028,11 +5103,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1783407248-6706519 .carousel-item {
+#gallery-1783563672-74911506 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407248-6706519 .carousel-item .figure {
+#gallery-1783563672-74911506 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5041,11 +5116,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1783407248-6706519 .carousel-item .figure .gallery-img {
+#gallery-1783563672-74911506 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407248-6706519 .carousel-item .figure .figure-caption {
+#gallery-1783563672-74911506 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5054,13 +5129,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407248-6706519 .carousel-item .gallery-img {
+  #gallery-1783563672-74911506 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407248-6706519 .carousel-item .gallery-img {
+  #gallery-1783563672-74911506 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5334,7 +5409,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407487-529919099"
+     data-gallery-id="gallery-1783563896-485280531"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5356,7 +5431,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 <style>
  
-#gallery-1783407487-529919099 .carousel-item .gallery-img {
+#gallery-1783563896-485280531 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5364,11 +5439,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   display: block !important;
 }
 
-#gallery-1783407487-529919099 .carousel-item {
+#gallery-1783563896-485280531 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407487-529919099 .carousel-item .figure {
+#gallery-1783563896-485280531 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5377,11 +5452,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   text-align: center;
 }
 
-#gallery-1783407487-529919099 .carousel-item .figure .gallery-img {
+#gallery-1783563896-485280531 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407487-529919099 .carousel-item .figure .figure-caption {
+#gallery-1783563896-485280531 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5390,13 +5465,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407487-529919099 .carousel-item .gallery-img {
+  #gallery-1783563896-485280531 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407487-529919099 .carousel-item .gallery-img {
+  #gallery-1783563896-485280531 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5608,7 +5683,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407259-813596097"
+     data-gallery-id="gallery-1783563683-903467952"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5637,7 +5712,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 
 <style>
  
-#gallery-1783407259-813596097 .carousel-item .gallery-img {
+#gallery-1783563683-903467952 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5645,11 +5720,11 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
   display: block !important;
 }
 
-#gallery-1783407259-813596097 .carousel-item {
+#gallery-1783563683-903467952 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407259-813596097 .carousel-item .figure {
+#gallery-1783563683-903467952 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5658,11 +5733,11 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
   text-align: center;
 }
 
-#gallery-1783407259-813596097 .carousel-item .figure .gallery-img {
+#gallery-1783563683-903467952 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407259-813596097 .carousel-item .figure .figure-caption {
+#gallery-1783563683-903467952 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5671,13 +5746,13 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407259-813596097 .carousel-item .gallery-img {
+  #gallery-1783563683-903467952 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407259-813596097 .carousel-item .gallery-img {
+  #gallery-1783563683-903467952 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5829,7 +5904,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 
 
 &lt;div class=&#34;gallery-wrapper&#34; 
-     data-gallery-id=&#34;gallery-1783407489-931298409&#34;
+     data-gallery-id=&#34;gallery-1783563898-788112071&#34;
      data-autoplay=&#34;false&#34;
      data-interval=&#34;5000&#34;
      data-controls=&#34;true&#34;
@@ -5864,7 +5939,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 
 &lt;style&gt;
  
-#gallery-1783407489-931298409 .carousel-item .gallery-img {
+#gallery-1783563898-788112071 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5872,11 +5947,11 @@ We have upgraded our whole building infrastructure so that you can comfortably g
   display: block !important;
 }
 
-#gallery-1783407489-931298409 .carousel-item {
+#gallery-1783563898-788112071 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407489-931298409 .carousel-item .figure {
+#gallery-1783563898-788112071 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5885,11 +5960,11 @@ We have upgraded our whole building infrastructure so that you can comfortably g
   text-align: center;
 }
 
-#gallery-1783407489-931298409 .carousel-item .figure .gallery-img {
+#gallery-1783563898-788112071 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407489-931298409 .carousel-item .figure .figure-caption {
+#gallery-1783563898-788112071 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5898,13 +5973,13 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407489-931298409 .carousel-item .gallery-img {
+  #gallery-1783563898-788112071 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407489-931298409 .carousel-item .gallery-img {
+  #gallery-1783563898-788112071 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5937,7 +6012,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407489-931298409"
+     data-gallery-id="gallery-1783563898-788112071"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5972,7 +6047,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 
 <style>
  
-#gallery-1783407489-931298409 .carousel-item .gallery-img {
+#gallery-1783563898-788112071 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5980,11 +6055,11 @@ We have upgraded our whole building infrastructure so that you can comfortably g
   display: block !important;
 }
 
-#gallery-1783407489-931298409 .carousel-item {
+#gallery-1783563898-788112071 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407489-931298409 .carousel-item .figure {
+#gallery-1783563898-788112071 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5993,11 +6068,11 @@ We have upgraded our whole building infrastructure so that you can comfortably g
   text-align: center;
 }
 
-#gallery-1783407489-931298409 .carousel-item .figure .gallery-img {
+#gallery-1783563898-788112071 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407489-931298409 .carousel-item .figure .figure-caption {
+#gallery-1783563898-788112071 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -6006,13 +6081,13 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407489-931298409 .carousel-item .gallery-img {
+  #gallery-1783563898-788112071 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407489-931298409 .carousel-item .gallery-img {
+  #gallery-1783563898-788112071 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -6178,7 +6253,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407255-167715161"
+     data-gallery-id="gallery-1783563679-226699664"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -6207,7 +6282,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1783407255-167715161 .carousel-item .gallery-img {
+#gallery-1783563679-226699664 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -6215,11 +6290,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1783407255-167715161 .carousel-item {
+#gallery-1783563679-226699664 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407255-167715161 .carousel-item .figure {
+#gallery-1783563679-226699664 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -6228,11 +6303,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1783407255-167715161 .carousel-item .figure .gallery-img {
+#gallery-1783563679-226699664 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407255-167715161 .carousel-item .figure .figure-caption {
+#gallery-1783563679-226699664 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -6241,13 +6316,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407255-167715161 .carousel-item .gallery-img {
+  #gallery-1783563679-226699664 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407255-167715161 .carousel-item .gallery-img {
+  #gallery-1783563679-226699664 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -6266,7 +6341,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407255-168303836"
+     data-gallery-id="gallery-1783563679-227328782"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -6357,7 +6432,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1783407255-168303836 .carousel-item .gallery-img {
+#gallery-1783563679-227328782 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -6365,11 +6440,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1783407255-168303836 .carousel-item {
+#gallery-1783563679-227328782 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407255-168303836 .carousel-item .figure {
+#gallery-1783563679-227328782 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -6378,11 +6453,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1783407255-168303836 .carousel-item .figure .gallery-img {
+#gallery-1783563679-227328782 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407255-168303836 .carousel-item .figure .figure-caption {
+#gallery-1783563679-227328782 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -6391,13 +6466,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407255-168303836 .carousel-item .gallery-img {
+  #gallery-1783563679-227328782 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407255-168303836 .carousel-item .gallery-img {
+  #gallery-1783563679-227328782 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -7002,7 +7077,7 @@ Also if you need a specific feature, <a href="/pr-preview/pr-87/contact/">contac
       <guid>https://qfield.org/pr-preview/pr-87/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</guid>
       
       <description>&lt;div class=&#34;gallery-wrapper&#34; 
-     data-gallery-id=&#34;gallery-1783407259-580411973&#34;
+     data-gallery-id=&#34;gallery-1783563683-235735647&#34;
      data-autoplay=&#34;false&#34;
      data-interval=&#34;5000&#34;
      data-controls=&#34;true&#34;
@@ -7012,7 +7087,7 @@ Also if you need a specific feature, <a href="/pr-preview/pr-87/contact/">contac
 
 &lt;style&gt;
  
-#gallery-1783407259-580411973 .carousel-item .gallery-img {
+#gallery-1783563683-235735647 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -7020,11 +7095,11 @@ Also if you need a specific feature, <a href="/pr-preview/pr-87/contact/">contac
   display: block !important;
 }
 
-#gallery-1783407259-580411973 .carousel-item {
+#gallery-1783563683-235735647 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407259-580411973 .carousel-item .figure {
+#gallery-1783563683-235735647 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -7033,11 +7108,11 @@ Also if you need a specific feature, <a href="/pr-preview/pr-87/contact/">contac
   text-align: center;
 }
 
-#gallery-1783407259-580411973 .carousel-item .figure .gallery-img {
+#gallery-1783563683-235735647 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407259-580411973 .carousel-item .figure .figure-caption {
+#gallery-1783563683-235735647 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -7046,13 +7121,13 @@ Also if you need a specific feature, <a href="/pr-preview/pr-87/contact/">contac
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407259-580411973 .carousel-item .gallery-img {
+  #gallery-1783563683-235735647 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407259-580411973 .carousel-item .gallery-img {
+  #gallery-1783563683-235735647 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -7067,7 +7142,7 @@ Also if you need a specific feature, <a href="/pr-preview/pr-87/contact/">contac
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783407259-580411973"
+     data-gallery-id="gallery-1783563683-235735647"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -7077,7 +7152,7 @@ Also if you need a specific feature, <a href="/pr-preview/pr-87/contact/">contac
 
 <style>
  
-#gallery-1783407259-580411973 .carousel-item .gallery-img {
+#gallery-1783563683-235735647 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -7085,11 +7160,11 @@ Also if you need a specific feature, <a href="/pr-preview/pr-87/contact/">contac
   display: block !important;
 }
 
-#gallery-1783407259-580411973 .carousel-item {
+#gallery-1783563683-235735647 .carousel-item {
   height: auto;
 }
 
-#gallery-1783407259-580411973 .carousel-item .figure {
+#gallery-1783563683-235735647 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -7098,11 +7173,11 @@ Also if you need a specific feature, <a href="/pr-preview/pr-87/contact/">contac
   text-align: center;
 }
 
-#gallery-1783407259-580411973 .carousel-item .figure .gallery-img {
+#gallery-1783563683-235735647 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783407259-580411973 .carousel-item .figure .figure-caption {
+#gallery-1783563683-235735647 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -7111,13 +7186,13 @@ Also if you need a specific feature, <a href="/pr-preview/pr-87/contact/">contac
 }
 
 @media (max-width: 768px) {
-  #gallery-1783407259-580411973 .carousel-item .gallery-img {
+  #gallery-1783563683-235735647 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783407259-580411973 .carousel-item .gallery-img {
+  #gallery-1783563683-235735647 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -7831,6 +7906,9 @@ We are are also available for helping you with any idea and project you might ha
 <li><a href="/pr-preview/pr-87/solutions/protected-area-management/">Protected area management</a>
 , for reserve patrols, assets, and condition monitoring</li>
 </ul>
+<h2 id="consistent-records-from-every-surveyor">Consistent records from every surveyor</h2>
+<p>Ecological fieldwork rarely happens where the network is. Surveys run along transects in remote terrain, at fixed monitoring plots revisited season after season, and often by volunteers or seasonal staff who joined the project a week ago. Basemaps, layers, and forms are loaded onto the device before anyone leaves the office, so the whole survey runs offline and syncs once the team is back in range.</p>
+<p>The harder problem is consistency. Value-relation widgets hold species lists and codes, numeric constraints keep abundance and measurement fields in range, and required-photo rules capture evidence at the moment of observation rather than hours later. Photos, audio, and GPS readings stay attached to the record they belong to. For sensitive species, the data never leaves your own QGIS project and QFieldCloud account, or a server you host yourself.</p>
 <h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
 <p>Share projects and manage permissions in QFieldCloud. Export to standard formats for analysis. Prepare forms and symbology in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
  once, push them to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
@@ -8105,6 +8183,152 @@ We are are also available for helping you with any idea and project you might ha
     </item>
     
     <item>
+      <title>QField for Forest Habitat and Biodiversity Mapping</title>
+      <link>https://qfield.org/pr-preview/pr-87/solutions/forest-habitat-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-87/solutions/forest-habitat-mapping/</guid>
+      
+      <description>Map habitats, species observations, and biodiversity features under forest canopy with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Habitat and biodiversity teams use QField to map:</p>
+<ul>
+<li>Habitat type and condition as polygons</li>
+<li>Species observations with location, count, and photos</li>
+<li>Deadwood, veteran trees, and microhabitat features</li>
+<li>Audio recordings for acoustic species such as birds and amphibians</li>
+<li>Repeat survey points for monitoring over time</li>
+</ul>
+<h2 id="built-for-sensitive-data">Built for sensitive data</h2>
+<p>Biodiversity data is often sensitive. The precise location of a protected species is exactly the information that needs to be handled with care. With QField the data lives in your own QGIS project and your own QFieldCloud account, or on a server you host yourself. QField and QFieldCloud are open source and self-hostable, so you decide what is captured, who can see it, and what is ever shared beyond your team.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare the survey project in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+, push it to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, and sync at the end of each day. Surveyors work offline for as long as they are in the field, and conflict-safe merges keep a whole team working the same area without losing records.</p>
+<h2 id="biodiversity-and-habitat-mapping-with-qfield">Biodiversity and habitat mapping with QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-87/success-stories/fire-salamanders/">Monitoring fire salamanders in Saxony</a>
+, a conservation project using QField to track a protected amphibian</li>
+<li><a href="/pr-preview/pr-87/success-stories/mapping-breeding-birds/">Mapping breeding birds in the Wadden Sea</a>
+, with Schutzstation Wattenmeer</li>
+<li><a href="/pr-preview/pr-87/success-stories/?filter=forestry">Browse all forestry success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-87/solutions/forestry-and-silviculture/">QField for forestry and silviculture →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">habitat mapping</category>
+      <category domain="tags">biodiversity mapping</category>
+      <category domain="tags">species observation</category>
+      <category domain="tags">forest habitat</category>
+      <category domain="tags">deadwood mapping</category>
+      <category domain="tags">veteran trees</category>
+      <category domain="tags">microhabitat</category>
+      <category domain="tags">ecological survey</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">offline mapping</category>
+      <category domain="tags">protected species</category>
+    </item>
+    
+    <item>
+      <title>QField for Forest Health Monitoring</title>
+      <link>https://qfield.org/pr-preview/pr-87/solutions/forest-health-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-87/solutions/forest-health-monitoring/</guid>
+      
+      <description>Record pest, disease, dieback, and tree-condition observations in the field with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Forest health teams use QField to record and monitor tree condition:</p>
+<ul>
+<li>Pest and disease observations with species, symptom, and severity</li>
+<li>Defoliation, dieback, and crown condition assessment</li>
+<li>Tree mortality and deadwood recording</li>
+<li>Affected-stand delineation as polygons</li>
+<li>Photo documentation against individual trees and stands</li>
+<li>Repeat monitoring at fixed locations to track change over time</li>
+</ul>
+<h2 id="built-for-repeat-monitoring">Built for repeat monitoring</h2>
+<p>Forest health is a question of change over time. A single survey tells you what a stand looks like today, but the value comes from coming back and seeing what has shifted. QField stores each observation as a structured record with its location, attributes, photos, and capture time. On the next visit, the previous records load straight onto the device, and the live GPS position guides crews back to the same trees and stands. The result is a consistent time series rather than a pile of one-off surveys.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Set up the health-survey project in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ once, push it to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, and run conflict-safe sync at the end of each day. Crews work offline for as long as the survey takes, then sync when they next come into office connectivity.</p>
+<h2 id="forestry-teams-using-qfield">Forestry teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-87/success-stories/ghana-deforestation/">Young farmers reduce deforestation by 71% in Ghana</a>
+, where community-based monitoring teams use QField in the Tano Offin Forest Reserve</li>
+<li><a href="/pr-preview/pr-87/success-stories/?filter=forestry">Browse all forestry success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-87/solutions/forestry-and-silviculture/">QField for forestry and silviculture →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">forest health</category>
+      <category domain="tags">pest monitoring</category>
+      <category domain="tags">tree disease</category>
+      <category domain="tags">dieback</category>
+      <category domain="tags">defoliation</category>
+      <category domain="tags">crown condition</category>
+      <category domain="tags">tree mortality</category>
+      <category domain="tags">forest condition survey</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">offline forestry mapping</category>
+      <category domain="tags">forest health monitoring</category>
+    </item>
+    
+    <item>
+      <title>QField for Forest Inventory and Plot Sampling</title>
+      <link>https://qfield.org/pr-preview/pr-87/solutions/forest-inventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-87/solutions/forest-inventory/</guid>
+      
+      <description>Mobile forest inventory, plot sampling, and tree-level data capture with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Forest inventory teams use QField across the full inventory chain:</p>
+<ul>
+<li>Plot location, geometry, and attribute capture, including fixed-radius, variable-radius, and strip sampling</li>
+<li>Tree-level data with species, DBH, height, defects, and per-tree position</li>
+<li>Photo documentation against individual trees and at the plot level</li>
+<li>Regeneration counts, deadwood and snag inventory, and understory observations</li>
+<li>Stand-level attribute capture for inventory polygons</li>
+</ul>
+<h2 id="designed-for-crews-of-mixed-experience">Designed for crews of mixed experience</h2>
+<p>Forest inventory often runs on a mix of staff, contractors, and seasonal hires. QField forms can be tuned to the experience level of the crew. Strict dropdowns and numeric constraints make it safe to put a tablet in the hands of a first-week volunteer and trust that the data coming back will be in the same shape as a senior biologist&rsquo;s. The structured frontmatter also means that a crew of twelve produces a single clean dataset, not twelve incompatible notebooks.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Set up the plot design in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Push it to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Crews work offline for as long as the survey takes, then sync when they next come into office connectivity. Conflict-safe merges handle the case where two crews edited the same record.</p>
+<h2 id="forestry-teams-using-qfield-for-inventory">Forestry teams using QField for inventory</h2>
+<ul>
+<li><a href="/pr-preview/pr-87/success-stories/ghana-deforestation/">Young farmers reduce deforestation by 71% in Ghana</a>
+, where community-based monitoring teams use QField in the Tano Offin Forest Reserve</li>
+<li><a href="/pr-preview/pr-87/success-stories/?filter=forestry">Browse all forestry success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-87/solutions/forestry-and-silviculture/">QField for forestry and silviculture →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">forest inventory</category>
+      <category domain="tags">plot sampling</category>
+      <category domain="tags">tree inventory</category>
+      <category domain="tags">DBH</category>
+      <category domain="tags">stand mapping</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">forest cruising</category>
+      <category domain="tags">offline forest inventory</category>
+      <category domain="tags">species coding</category>
+      <category domain="tags">forestry data collection</category>
+    </item>
+    
+    <item>
       <title>QField for Forestry</title>
       <link>https://qfield.org/pr-preview/pr-87/solutions/qfield-for-forestry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8141,15 +8365,40 @@ We are are also available for helping you with any idea and project you might ha
       
       <guid>https://qfield.org/pr-preview/pr-87/solutions/forestry-and-silviculture/</guid>
       
-      <description>Offline forest inventory, stand mapping, and silviculture operations tracking with mobile GIS.</description>
+      <description>Offline forest inventory, plot sampling, silviculture operations, and habitat mapping with QField, QGIS, and QFieldCloud.</description>
       <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>QField is used across the full span of forestry fieldwork:</p>
 <ul>
-<li>Forest inventory and plot sampling</li>
-<li>Silviculture and harvesting operations tracking</li>
-<li>Habitat and biodiversity mapping</li>
+<li><a href="/pr-preview/pr-87/solutions/forest-inventory/">Forest inventory and plot sampling</a>
+, with structured tree-level forms and plot geometry</li>
+<li><a href="/pr-preview/pr-87/solutions/silviculture-and-harvesting-operations/">Silviculture and harvesting operations tracking</a>
+, from planting blocks to post-harvest verification</li>
+<li><a href="/pr-preview/pr-87/solutions/forest-habitat-mapping/">Forest habitat and biodiversity mapping</a>
+, under dense canopy and in remote terrain</li>
+<li><a href="/pr-preview/pr-87/solutions/forest-health-monitoring/">Forest health monitoring</a>
+, tracking pests, disease, and tree condition over time</li>
+<li>Forest road and infrastructure inventory</li>
+<li>Riparian buffer monitoring and compliance documentation</li>
 </ul>
+<h2 id="working-under-canopy">Working under canopy</h2>
+<p>Forest fieldwork sits in the hardest conditions for mobile mapping. Mobile data is unreliable. GPS multipath under dense canopy degrades positioning. Crews spend days at a time out of office contact, often in environments where a paper notebook still feels like the safer bet.</p>
+<p>QField is built for those conditions. Basemaps and layers are packaged onto the device before the crew leaves the office, so nothing depends on a network connection. Forms can be tuned to forestry data with value-relation widgets for species codes, numeric constraints for DBH and height, and required-photo rules at any decision point. For survey-grade positioning, external GNSS receivers connect over Bluetooth with live accuracy visible during capture.</p>
 <h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
-<p>Prepare in QGIS, collect in QField, and sync with QFieldCloud for conflict-safe merges.</p>
+<p>Forestry teams prepare the project in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ once, push it to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, and run conflict-safe sync at the end of each day. The same QGIS project that an inventory crew uses in the field is the one the office uses to plan next year&rsquo;s operations.</p>
+<h2 id="see-qfield-in-real-forestry-projects">See QField in real forestry projects</h2>
+<p>Look at how QField is being used by forestry and forest-conservation programmes around the world:</p>
+<ul>
+<li><a href="/pr-preview/pr-87/success-stories/ghana-deforestation/">Young farmers reduce deforestation by 71% in Ghana</a>
+, through community-led monitoring in the Tano Offin Forest Reserve</li>
+<li><a href="/pr-preview/pr-87/success-stories/sarawak/">Community-led mapping for land rights and forest protection in Sarawak</a>
+, with the Bruno Manser Fonds</li>
+<li><a href="/pr-preview/pr-87/success-stories/building-on-top/">Building on top of QFieldCloud</a>
+, in Italian green infrastructure inventory</li>
+<li><a href="/pr-preview/pr-87/success-stories/?filter=forestry">Browse all forestry success stories →</a>
+</li>
+</ul>
 ]]></content:encoded>
       <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
       <category domain="tags">mobile GIS</category>
@@ -8157,6 +8406,15 @@ We are are also available for helping you with any idea and project you might ha
       <category domain="tags">QGIS fieldwork</category>
       <category domain="tags">forest inventory</category>
       <category domain="tags">silviculture</category>
+      <category domain="tags">forest management</category>
+      <category domain="tags">tree inventory</category>
+      <category domain="tags">stand mapping</category>
+      <category domain="tags">forest plot sampling</category>
+      <category domain="tags">DBH</category>
+      <category domain="tags">harvesting operations</category>
+      <category domain="tags">open source forestry GIS</category>
+      <category domain="tags">offline forestry mapping</category>
+      <category domain="tags">habitat mapping</category>
     </item>
     
     <item>
@@ -8698,6 +8956,53 @@ We are are also available for helping you with any idea and project you might ha
       <category domain="tags">crime mapping</category>
       <category domain="tags">public safety</category>
       <category domain="tags">policing</category>
+    </item>
+    
+    <item>
+      <title>QField for Silviculture and Harvesting Operations</title>
+      <link>https://qfield.org/pr-preview/pr-87/solutions/silviculture-and-harvesting-operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-87/solutions/silviculture-and-harvesting-operations/</guid>
+      
+      <description>Track planting blocks, harvest operations, post-harvest compliance, and forest road monitoring with QField, QGIS, and QFieldCloud.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Silviculture and harvesting teams use QField across the operations cycle:</p>
+<ul>
+<li>Planting block capture and verification against the plan</li>
+<li>Harvest block boundary tracking and post-harvest reconciliation</li>
+<li>Riparian buffer monitoring and compliance documentation</li>
+<li>Forest road, culvert, and crossing inventory</li>
+<li>Stream crossing condition assessment</li>
+<li>Post-harvest stand attributes for next-rotation planning</li>
+</ul>
+<h2 id="built-for-verification-not-just-planning">Built for verification, not just planning</h2>
+<p>A lot of forestry tooling is built for the proponent. QField sits cleanly on either side of the relationship. Forestry operators use it to track and document their own work. Independent organisations, including conservation groups and regulators, use the same tool to verify what actually happened on the ground after operations are complete. The data lives in whichever party&rsquo;s QGIS project and QFieldCloud account makes sense.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Operations plans go from <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ to every tablet through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Field crews capture activity, condition, and evidence as they work. The office sees the data the next time devices sync. Conflict-safe merges keep multiple crews working the same season without overwriting each other.</p>
+<h2 id="forestry-operations-stories">Forestry operations stories</h2>
+<ul>
+<li><a href="/pr-preview/pr-87/success-stories/building-on-top/">Building on top of QFieldCloud</a>
+, where GINVE&rsquo;s operators capture trees, shrubs, hedges, and turf across municipal landscapes</li>
+<li><a href="/pr-preview/pr-87/success-stories/?filter=forestry">Browse all forestry success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-87/solutions/forestry-and-silviculture/">QField for forestry and silviculture →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">silviculture</category>
+      <category domain="tags">harvesting operations</category>
+      <category domain="tags">forest operations tracking</category>
+      <category domain="tags">harvest block monitoring</category>
+      <category domain="tags">post-harvest verification</category>
+      <category domain="tags">forestry compliance</category>
+      <category domain="tags">riparian buffer monitoring</category>
+      <category domain="tags">forest road inventory</category>
+      <category domain="tags">stand management</category>
+      <category domain="tags">mobile GIS</category>
     </item>
     
     <item>

@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://qfield.org/pr-preview/pr-87/pricing/</loc>
+    <lastmod>2026-07-08T16:49:49+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/categories/</loc>
     <lastmod>2026-06-18T15:25:07+07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -771,6 +776,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/biodiversity-mapping/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/biodiversity-survey/</loc>
     <lastmod>2026-06-09T19:06:22+12:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -866,8 +876,28 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/crown-condition/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/cultural-heritage/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/dbh/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/deadwood-mapping/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/defoliation/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -878,6 +908,11 @@
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/design-verification/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/dieback/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -986,8 +1021,63 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/forest-condition-survey/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/forest-cruising/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/forest-habitat/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/forest-health/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/forest-health-monitoring/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/forest-inventory/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/forest-management/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/forest-operations-tracking/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/forest-plot-sampling/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/forest-road-inventory/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/forestry-compliance/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/forestry-data-collection/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1033,6 +1123,16 @@
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/habitat-mapping/</loc>
     <lastmod>2026-06-09T19:06:22+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/harvest-block-monitoring/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/harvesting-operations/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1146,6 +1246,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/microhabitat/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/mining/</loc>
     <lastmod>2026-01-05T11:09:50+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1186,8 +1291,28 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/offline-forest-inventory/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/offline-forestry-mapping/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/offline-gis/</loc>
     <lastmod>2026-06-09T19:06:22+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/offline-mapping/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/open-source-forestry-gis/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1206,6 +1331,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/pest-monitoring/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/photogrammetry/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1216,8 +1346,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/plot-sampling/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/policing/</loc>
     <lastmod>2026-01-05T11:09:50+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/post-harvest-verification/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1243,6 +1383,11 @@
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/protected-areas/</loc>
     <lastmod>2026-06-09T19:06:22+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/protected-species/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1401,13 +1546,28 @@
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/solutions/forest-habitat-mapping/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/solutions/forest-health-monitoring/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/solutions/forest-inventory/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/solutions/qfield-for-forestry/</loc>
     <lastmod>2026-01-05T11:09:50+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/solutions/forestry-and-silviculture/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.69</priority>
   </url><url>
@@ -1500,6 +1660,11 @@
     <lastmod>2026-01-05T11:09:50+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.67</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/solutions/silviculture-and-harvesting-operations/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/solutions/smart-cities-and-urban-mobility/</loc>
     <lastmod>2026-01-05T11:09:50+01:00</lastmod>
@@ -1621,6 +1786,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/riparian-buffer-monitoring/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/risk-assessment/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1667,7 +1837,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/silviculture/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1711,6 +1881,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/species-coding/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/species-monitoring/</loc>
     <lastmod>2026-06-09T19:06:22+12:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1718,6 +1893,16 @@
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/species-observation/</loc>
     <lastmod>2026-06-09T19:06:22+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/stand-management/</loc>
+    <lastmod>2026-05-26T18:08:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/stand-mapping/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1771,6 +1956,21 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/tree-disease/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/tree-inventory/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/tree-mortality/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/urban-mobility/</loc>
     <lastmod>2026-01-05T11:09:50+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1778,6 +1978,11 @@
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-87/tags/urban-planning/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-87/tags/veteran-trees/</loc>
+    <lastmod>2026-06-09T18:38:18+12:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
