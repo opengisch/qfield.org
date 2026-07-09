@@ -291,7 +291,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522744-616970344"
+     data-gallery-id="gallery-1783570726-504873954"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -319,7 +319,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 <style>
  
-#gallery-1783522744-616970344 .carousel-item .gallery-img {
+#gallery-1783570726-504873954 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -327,11 +327,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   display: block !important;
 }
 
-#gallery-1783522744-616970344 .carousel-item {
+#gallery-1783570726-504873954 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522744-616970344 .carousel-item .figure {
+#gallery-1783570726-504873954 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -340,11 +340,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   text-align: center;
 }
 
-#gallery-1783522744-616970344 .carousel-item .figure .gallery-img {
+#gallery-1783570726-504873954 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522744-616970344 .carousel-item .figure .figure-caption {
+#gallery-1783570726-504873954 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -353,13 +353,13 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522744-616970344 .carousel-item .gallery-img {
+  #gallery-1783570726-504873954 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522744-616970344 .carousel-item .gallery-img {
+  #gallery-1783570726-504873954 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -410,7 +410,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522746-70723909"
+     data-gallery-id="gallery-1783570728-194327028"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -438,7 +438,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 <style>
  
-#gallery-1783522746-70723909 .carousel-item .gallery-img {
+#gallery-1783570728-194327028 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -446,11 +446,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1783522746-70723909 .carousel-item {
+#gallery-1783570728-194327028 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522746-70723909 .carousel-item .figure {
+#gallery-1783570728-194327028 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -459,11 +459,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1783522746-70723909 .carousel-item .figure .gallery-img {
+#gallery-1783570728-194327028 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522746-70723909 .carousel-item .figure .figure-caption {
+#gallery-1783570728-194327028 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -472,13 +472,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522746-70723909 .carousel-item .gallery-img {
+  #gallery-1783570728-194327028 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522746-70723909 .carousel-item .gallery-img {
+  #gallery-1783570728-194327028 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -497,7 +497,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522748-172958595"
+     data-gallery-id="gallery-1783570730-613957283"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -525,7 +525,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1783522748-172958595 .carousel-item .gallery-img {
+#gallery-1783570730-613957283 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -533,11 +533,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1783522748-172958595 .carousel-item {
+#gallery-1783570730-613957283 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522748-172958595 .carousel-item .figure {
+#gallery-1783570730-613957283 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -546,11 +546,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1783522748-172958595 .carousel-item .figure .gallery-img {
+#gallery-1783570730-613957283 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522748-172958595 .carousel-item .figure .figure-caption {
+#gallery-1783570730-613957283 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -559,13 +559,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522748-172958595 .carousel-item .gallery-img {
+  #gallery-1783570730-613957283 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522748-172958595 .carousel-item .gallery-img {
+  #gallery-1783570730-613957283 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -586,7 +586,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522750-347142342"
+     data-gallery-id="gallery-1783570733-411315616"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -614,7 +614,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1783522750-347142342 .carousel-item .gallery-img {
+#gallery-1783570733-411315616 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -622,11 +622,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1783522750-347142342 .carousel-item {
+#gallery-1783570733-411315616 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522750-347142342 .carousel-item .figure {
+#gallery-1783570733-411315616 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -635,11 +635,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1783522750-347142342 .carousel-item .figure .gallery-img {
+#gallery-1783570733-411315616 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522750-347142342 .carousel-item .figure .figure-caption {
+#gallery-1783570733-411315616 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -648,13 +648,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522750-347142342 .carousel-item .gallery-img {
+  #gallery-1783570733-411315616 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522750-347142342 .carousel-item .gallery-img {
+  #gallery-1783570733-411315616 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -750,7 +750,7 @@ As the name suggests, the plugin converts XLSForm survey files into ready-to-use
 </p>
 
 <hr>
-<h3 id="from-hahahugoshortcode14s2hbhb-to-the-world">From <span class="text-qfield">Switzerland</span>
+<h3 id="from-hahahugoshortcode13s2hbhb-to-the-world">From <span class="text-qfield">Switzerland</span>
  to the world!🇨🇭</h3>
 <p>Born in the Swiss Alps, raised by open-source, and now <strong>roaming the globe</strong>, QField has gone international! What started in Switzerland is now in the hands of field mappers, researchers, and GIS pros on six continents. Thank you for taking QField <strong>worldwide</strong>! 🌍</p>
 <figure class="figure text-center mb-4"><img src="/blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_e805a69b4ac1240a.png" srcset="/blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_e805a69b4ac1240a.png 1x, /blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_7e422a22a2394b1c.png 2x"
@@ -758,7 +758,7 @@ As the name suggests, the plugin converts XLSForm survey files into ready-to-use
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
 
-<h4 id="mapping-the-hahahugoshortcode14s4hbhb-one-field-at-a-time"><strong>Mapping the <span class="text-qfield">world</span>
+<h4 id="mapping-the-hahahugoshortcode13s4hbhb-one-field-at-a-time"><strong>Mapping the <span class="text-qfield">world</span>
  one field at a time.</strong></h4>
 <hr>
 <h3 id="the-numbers-tell-a-story-">The numbers tell a <em>story</em> 📖</h3>
@@ -1599,7 +1599,7 @@ loading="lazy"&gt;&lt;/figure&gt;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522750-634493289"
+     data-gallery-id="gallery-1783570734-654432712"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1645,7 +1645,7 @@ loading="lazy"&gt;&lt;/figure&gt;
 
 <style>
  
-#gallery-1783522750-634493289 .carousel-item .gallery-img {
+#gallery-1783570734-654432712 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1653,11 +1653,11 @@ loading="lazy"&gt;&lt;/figure&gt;
   display: block !important;
 }
 
-#gallery-1783522750-634493289 .carousel-item {
+#gallery-1783570734-654432712 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522750-634493289 .carousel-item .figure {
+#gallery-1783570734-654432712 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1666,11 +1666,11 @@ loading="lazy"&gt;&lt;/figure&gt;
   text-align: center;
 }
 
-#gallery-1783522750-634493289 .carousel-item .figure .gallery-img {
+#gallery-1783570734-654432712 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522750-634493289 .carousel-item .figure .figure-caption {
+#gallery-1783570734-654432712 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1679,13 +1679,13 @@ loading="lazy"&gt;&lt;/figure&gt;
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522750-634493289 .carousel-item .gallery-img {
+  #gallery-1783570734-654432712 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522750-634493289 .carousel-item .gallery-img {
+  #gallery-1783570734-654432712 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2024,7 +2024,7 @@ Cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522742-97768274"
+     data-gallery-id="gallery-1783570725-48016234"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2053,7 +2053,7 @@ Cheers</p>
 
 <style>
  
-#gallery-1783522742-97768274 .carousel-item .gallery-img {
+#gallery-1783570725-48016234 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2061,11 +2061,11 @@ Cheers</p>
   display: block !important;
 }
 
-#gallery-1783522742-97768274 .carousel-item {
+#gallery-1783570725-48016234 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522742-97768274 .carousel-item .figure {
+#gallery-1783570725-48016234 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2074,11 +2074,11 @@ Cheers</p>
   text-align: center;
 }
 
-#gallery-1783522742-97768274 .carousel-item .figure .gallery-img {
+#gallery-1783570725-48016234 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522742-97768274 .carousel-item .figure .figure-caption {
+#gallery-1783570725-48016234 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2087,13 +2087,13 @@ Cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522742-97768274 .carousel-item .gallery-img {
+  #gallery-1783570725-48016234 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522742-97768274 .carousel-item .gallery-img {
+  #gallery-1783570725-48016234 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2159,7 +2159,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522744-767794597"
+     data-gallery-id="gallery-1783570728-217989068"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2194,7 +2194,7 @@ cheers</p>
 
 <style>
  
-#gallery-1783522744-767794597 .carousel-item .gallery-img {
+#gallery-1783570728-217989068 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2202,11 +2202,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1783522744-767794597 .carousel-item {
+#gallery-1783570728-217989068 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522744-767794597 .carousel-item .figure {
+#gallery-1783570728-217989068 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2215,11 +2215,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1783522744-767794597 .carousel-item .figure .gallery-img {
+#gallery-1783570728-217989068 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522744-767794597 .carousel-item .figure .figure-caption {
+#gallery-1783570728-217989068 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2228,13 +2228,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522744-767794597 .carousel-item .gallery-img {
+  #gallery-1783570728-217989068 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522744-767794597 .carousel-item .gallery-img {
+  #gallery-1783570728-217989068 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2255,7 +2255,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522746-963163577"
+     data-gallery-id="gallery-1783570731-882511468"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2293,7 +2293,7 @@ cheers</p>
 
 <style>
  
-#gallery-1783522746-963163577 .carousel-item .gallery-img {
+#gallery-1783570731-882511468 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2301,11 +2301,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1783522746-963163577 .carousel-item {
+#gallery-1783570731-882511468 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522746-963163577 .carousel-item .figure {
+#gallery-1783570731-882511468 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2314,11 +2314,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1783522746-963163577 .carousel-item .figure .gallery-img {
+#gallery-1783570731-882511468 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522746-963163577 .carousel-item .figure .figure-caption {
+#gallery-1783570731-882511468 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2327,13 +2327,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522746-963163577 .carousel-item .gallery-img {
+  #gallery-1783570731-882511468 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522746-963163577 .carousel-item .gallery-img {
+  #gallery-1783570731-882511468 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2575,7 +2575,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522947-821493417"
+     data-gallery-id="gallery-1783570974-123336386"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2597,7 +2597,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 <style>
  
-#gallery-1783522947-821493417 .carousel-item .gallery-img {
+#gallery-1783570974-123336386 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2605,11 +2605,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   display: block !important;
 }
 
-#gallery-1783522947-821493417 .carousel-item {
+#gallery-1783570974-123336386 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522947-821493417 .carousel-item .figure {
+#gallery-1783570974-123336386 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2618,11 +2618,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   text-align: center;
 }
 
-#gallery-1783522947-821493417 .carousel-item .figure .gallery-img {
+#gallery-1783570974-123336386 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522947-821493417 .carousel-item .figure .figure-caption {
+#gallery-1783570974-123336386 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2631,13 +2631,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522947-821493417 .carousel-item .gallery-img {
+  #gallery-1783570974-123336386 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522947-821493417 .carousel-item .gallery-img {
+  #gallery-1783570974-123336386 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2799,7 +2799,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522759-419989904"
+     data-gallery-id="gallery-1783570744-980448913"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2828,7 +2828,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 <style>
  
-#gallery-1783522759-419989904 .carousel-item .gallery-img {
+#gallery-1783570744-980448913 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2836,11 +2836,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   display: block !important;
 }
 
-#gallery-1783522759-419989904 .carousel-item {
+#gallery-1783570744-980448913 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522759-419989904 .carousel-item .figure {
+#gallery-1783570744-980448913 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2849,11 +2849,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   text-align: center;
 }
 
-#gallery-1783522759-419989904 .carousel-item .figure .gallery-img {
+#gallery-1783570744-980448913 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522759-419989904 .carousel-item .figure .figure-caption {
+#gallery-1783570744-980448913 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2862,13 +2862,13 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522759-419989904 .carousel-item .gallery-img {
+  #gallery-1783570744-980448913 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522759-419989904 .carousel-item .gallery-img {
+  #gallery-1783570744-980448913 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2984,7 +2984,7 @@ and &lt;a href="https://twitter.com/QFieldForQGIS" target="_blank" rel="noopener
 worth 550€&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="gallery-wrapper"
-data-gallery-id="gallery-1783522949-300821892"
+data-gallery-id="gallery-1783570976-326837159"
 data-autoplay="false"
 data-interval="5000"
 data-controls="true"
@@ -3011,17 +3011,17 @@ loading="lazy"&gt;
 &lt;figcaption class="figure-caption text-center"&gt;Assets management&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/div&gt;
 &lt;style&gt;
-#gallery-1783522949-300821892 .carousel-item .gallery-img {
+#gallery-1783570976-326837159 .carousel-item .gallery-img {
 height: 400px !important;
 width: 100% !important;
 object-fit: cover !important;
 object-position: center center !important;
 display: block !important;
 }
-#gallery-1783522949-300821892 .carousel-item {
+#gallery-1783570976-326837159 .carousel-item {
 height: auto;
 }
-#gallery-1783522949-300821892 .carousel-item .figure {
+#gallery-1783570976-326837159 .carousel-item .figure {
 margin: 0;
 width: 100%;
 display: flex;
@@ -3029,10 +3029,10 @@ justify-content: center;
 position: relative;
 text-align: center;
 }
-#gallery-1783522949-300821892 .carousel-item .figure .gallery-img {
+#gallery-1783570976-326837159 .carousel-item .figure .gallery-img {
 width: 100% !important;
 }
-#gallery-1783522949-300821892 .carousel-item .figure .figure-caption {
+#gallery-1783570976-326837159 .carousel-item .figure .figure-caption {
 position: absolute;
 bottom: 1rem;
 left: 50%;
@@ -3040,12 +3040,12 @@ transform: translateX(-50%);
 margin: 0;
 }
 @media (max-width: 768px) {
-#gallery-1783522949-300821892 .carousel-item .gallery-img {
+#gallery-1783570976-326837159 .carousel-item .gallery-img {
 height: 300px !important;
 }
 }
 @media (max-width: 576px) {
-#gallery-1783522949-300821892 .carousel-item .gallery-img {
+#gallery-1783570976-326837159 .carousel-item .gallery-img {
 height: 250px !important;
 }
 }
@@ -3075,7 +3075,7 @@ height: 250px !important;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522949-300821892"
+     data-gallery-id="gallery-1783570976-326837159"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3110,7 +3110,7 @@ height: 250px !important;
 
 <style>
  
-#gallery-1783522949-300821892 .carousel-item .gallery-img {
+#gallery-1783570976-326837159 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3118,11 +3118,11 @@ height: 250px !important;
   display: block !important;
 }
 
-#gallery-1783522949-300821892 .carousel-item {
+#gallery-1783570976-326837159 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522949-300821892 .carousel-item .figure {
+#gallery-1783570976-326837159 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3131,11 +3131,11 @@ height: 250px !important;
   text-align: center;
 }
 
-#gallery-1783522949-300821892 .carousel-item .figure .gallery-img {
+#gallery-1783570976-326837159 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522949-300821892 .carousel-item .figure .figure-caption {
+#gallery-1783570976-326837159 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3144,13 +3144,13 @@ height: 250px !important;
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522949-300821892 .carousel-item .gallery-img {
+  #gallery-1783570976-326837159 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522949-300821892 .carousel-item .gallery-img {
+  #gallery-1783570976-326837159 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3701,24 +3701,24 @@ QField is an Open Source project led by OPENGIS.ch LLC, more <a href="/android-g
 Also if you need a specific feature, <a href="/contact/">contact us</a>
  to sponsor its development.</p>
 ]]></content:encoded><category domain="categories">android-qgis</category><category domain="categories">featured</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>A star is born, QGIS mobile is now QField</title><link>https://qfield.org/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</link><pubDate>Wed, 28 Jan 2015 08:02:57 +0000</pubDate><guid>https://qfield.org/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</guid><description>&lt;div class="gallery-wrapper"
-data-gallery-id="gallery-1783522759-381186004"
+data-gallery-id="gallery-1783570801-339607897"
 data-autoplay="false"
 data-interval="5000"
 data-controls="true"
 data-indicators="true"&gt;
 &lt;/div&gt;
 &lt;style&gt;
-#gallery-1783522759-381186004 .carousel-item .gallery-img {
+#gallery-1783570801-339607897 .carousel-item .gallery-img {
 height: 400px !important;
 width: 100% !important;
 object-fit: cover !important;
 object-position: center center !important;
 display: block !important;
 }
-#gallery-1783522759-381186004 .carousel-item {
+#gallery-1783570801-339607897 .carousel-item {
 height: auto;
 }
-#gallery-1783522759-381186004 .carousel-item .figure {
+#gallery-1783570801-339607897 .carousel-item .figure {
 margin: 0;
 width: 100%;
 display: flex;
@@ -3726,10 +3726,10 @@ justify-content: center;
 position: relative;
 text-align: center;
 }
-#gallery-1783522759-381186004 .carousel-item .figure .gallery-img {
+#gallery-1783570801-339607897 .carousel-item .figure .gallery-img {
 width: 100% !important;
 }
-#gallery-1783522759-381186004 .carousel-item .figure .figure-caption {
+#gallery-1783570801-339607897 .carousel-item .figure .figure-caption {
 position: absolute;
 bottom: 1rem;
 left: 50%;
@@ -3737,12 +3737,12 @@ transform: translateX(-50%);
 margin: 0;
 }
 @media (max-width: 768px) {
-#gallery-1783522759-381186004 .carousel-item .gallery-img {
+#gallery-1783570801-339607897 .carousel-item .gallery-img {
 height: 300px !important;
 }
 }
 @media (max-width: 576px) {
-#gallery-1783522759-381186004 .carousel-item .gallery-img {
+#gallery-1783570801-339607897 .carousel-item .gallery-img {
 height: 250px !important;
 }
 }
@@ -3754,7 +3754,7 @@ height: 250px !important;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783522759-381186004"
+     data-gallery-id="gallery-1783570801-339607897"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3764,7 +3764,7 @@ height: 250px !important;
 
 <style>
  
-#gallery-1783522759-381186004 .carousel-item .gallery-img {
+#gallery-1783570801-339607897 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3772,11 +3772,11 @@ height: 250px !important;
   display: block !important;
 }
 
-#gallery-1783522759-381186004 .carousel-item {
+#gallery-1783570801-339607897 .carousel-item {
   height: auto;
 }
 
-#gallery-1783522759-381186004 .carousel-item .figure {
+#gallery-1783570801-339607897 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3785,11 +3785,11 @@ height: 250px !important;
   text-align: center;
 }
 
-#gallery-1783522759-381186004 .carousel-item .figure .gallery-img {
+#gallery-1783570801-339607897 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783522759-381186004 .carousel-item .figure .figure-caption {
+#gallery-1783570801-339607897 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3798,13 +3798,13 @@ height: 250px !important;
 }
 
 @media (max-width: 768px) {
-  #gallery-1783522759-381186004 .carousel-item .gallery-img {
+  #gallery-1783570801-339607897 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783522759-381186004 .carousel-item .gallery-img {
+  #gallery-1783570801-339607897 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
