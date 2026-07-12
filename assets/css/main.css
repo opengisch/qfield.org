@@ -3979,25 +3979,6 @@ a:hover {
   border-radius:12px;
 }
 
-.legend-panel_swatch {
-  width:34px;
-  height:0;
-  border-top:3px solid var(--swatch, var(--qfieldcloud-color));
-  position:relative;
-  margin-bottom:16px;
-}
-
-.legend-panel_swatch::after {
-  content:"";
-  position:absolute;
-  right:-3px;
-  top:-3px;
-  width:6px;
-  height:6px;
-  border-radius:50%;
-  background:var(--swatch, var(--qfieldcloud-color));
-}
-
 .legend-panel--cloud {
   --swatch:var(--qfieldcloud-color);
 }

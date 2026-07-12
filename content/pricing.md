@@ -28,7 +28,6 @@ draft: false
 
 <div class="legend-grid">
   <div class="legend-panel">
-    <div class="legend-panel_swatch"></div>
     <h3>QFieldCloud</h3>
     <p>Sync and collaboration, ready to go. Free to start; paid plans add storage, seats, and team features, with discounts for academic and non-profit use.</p>
     <p>Prefer to host it yourself? It's open source (MIT), so you can.</p>
@@ -38,7 +37,6 @@ draft: false
     </div>
   </div>
   <div class="legend-panel legend-panel--cloud">
-    <div class="legend-panel_swatch"></div>
     <h3>Professional services</h3>
     <p>Setup, training, and custom development from <a class="green-link text-decoration-none fw-normal" href="https://opengis.ch">OPENGIS.ch </a> or a certified partner. Get your projects configured the way your team works, and skip the ramp-up.</p>
     <p>Need something specific? Sponsor a feature or ask us for plugin development.</p>
