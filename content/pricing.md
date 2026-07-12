@@ -10,11 +10,11 @@ draft: false
 <div class="row justify-content-center">
 <div class="col-lg-8">
 
-<h1 id="hero-heading" class="display-4 mb-4">QField is free. Here's how it stays that way.</h1>
+<h1 id="hero-heading" class="display-4 mb-4">QField is free. <br> Here's how it stays that way.</h1>
 
 <p class="lead">QField is free and open source, and it stays that way because of what surrounds it. Teams pay for the <a class="green-link text-decoration-none fw-normal" href="https://qfield.cloud" target="_blank" rel="noopener">hosted cloud</a> and for expert help because it saves them time. Anyone can also sponsor a feature or fund development directly. All of it goes back into the app.</p>
 
-{{< button href="/get/" text="Download QField" target="_self" >}}
+{{< button href="/get/" text="Download QField" target="_self" size="btn" >}}
 
 </div>
 </div>
@@ -59,7 +59,7 @@ draft: false
 
 QField is maintained by <a class="green-link text-decoration-none fw-normal" href="https://opengis.ch">OPENGIS.ch</a> and a global community of contributors. If QField is saving your team time, consider giving back: donate, sponsor a feature, or contribute code.
 
-{{< button href="/support-us/" text="Support us" target="_self" >}}
+{{< button href="/support-us/" text="Support us" target="_self" size="btn" >}}
 
 </div>
 
@@ -76,7 +76,7 @@ Switching is easy. QField reads your existing QGIS projects directly and works w
 New to the QGIS world? You don't need any QGIS experience to get started. Coming from Esri, QGIS can open and convert your shapefiles, geodatabases, and layers, so your data moves into QField without rebuilding. Using ODK or KoboToolbox? An <a class="green-link text-decoration-none fw-normal" href="https://plugins.qgis.org/plugins/xlsformconverter/" target="_blank" rel="noopener">XLSForm converter</a> brings your existing forms straight in, so your data collection setup carries over.
 
 <div class="pricing-compare_cta">
-{{< button href="/assistance/" text="Get help migrating" target="_self" >}}
+{{< button href="/assistance/" text="Get help migrating" target="_self" size="btn" >}}
 </div>
 
 </div>
