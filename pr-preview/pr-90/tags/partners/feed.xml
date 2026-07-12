@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Partners on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-90/tags/partners/</link>
+    <description>Recent content in Partners on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <lastBuildDate>Fri, 15 Sep 2023 05:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-90/tags/partners/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OPENGIS.ch and Oslandia: A Strategic Partnership to Advance QField and QFieldCloud</title>
+      <link>https://qfield.org/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/</link>
+      <pubDate>Fri, 15 Sep 2023 05:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/</guid>
+      <media:content url="https://qfield.org/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Qfield_Banner_1500x500_BOSA_new.png" medium="image" />
+      <description>&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Qfield_Banner_1500x500_BOSA_new_hu_8a36568ccb69a84b.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Qfield_Banner_1500x500_BOSA_new_hu_8a36568ccb69a84b.png 1x, https://qfield.org/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Qfield_Banner_1500x500_BOSA_new_hu_9fad975982ef9148.png 2x&#34;
+         alt=&#34;&#34; 
+         class=&#34;figure-img img-fluid gallery-img&#34; width=&#34;1200&#34; height=&#34;400&#34;
+         loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;We are extremely happy to announce that we have partnered strategically with&lt;/strong&gt;Oslandia &lt;strong&gt;to push the leading #fieldwork app #QField even further.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the world of fieldwork, accuracy and efficiency are paramount. As GIS specialists, we understand the importance of reliable tools that streamline data collection and analysis processes. That&amp;rsquo;s why we are thrilled to join forces with Oslandia, a company that shares our passion for open-source development and innovation.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<figure class="figure text-center mb-4"><img src="/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Qfield_Banner_1500x500_BOSA_new_hu_8a36568ccb69a84b.png" srcset="/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Qfield_Banner_1500x500_BOSA_new_hu_8a36568ccb69a84b.png 1x, /pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Qfield_Banner_1500x500_BOSA_new_hu_9fad975982ef9148.png 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="400"
+         loading="lazy"></figure>
+
+<p><strong>We are extremely happy to announce that we have partnered strategically with</strong>Oslandia <strong>to push the leading #fieldwork app #QField even further.</strong></p>
+<p>In the world of fieldwork, accuracy and efficiency are paramount. As GIS specialists, we understand the importance of reliable tools that streamline data collection and analysis processes. That&rsquo;s why we are thrilled to join forces with Oslandia, a company that shares our passion for open-source development and innovation.</p>
+<h3 id="embracing-open-source-development">Embracing Open Source Development</h3>
+<p>At <a href="http://opengis.ch" target="_blank" rel="noopener">OPENGIS.ch</a>
+, we have always been committed to the principles of true open-source development. We firmly believe collaboration and shared knowledge drive progress in the GIS community. With Oslandia, we have found a partner who shares our values and cares as much as we do about the QGIS ecosystem.</p>
+<p><a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+, the world&rsquo;s most popular open-source geographic information system software, has already significantly impacted the GIS industry, providing users with versatile mapping tools and capabilities and is the base upon which QField is built. As main contributors to #QGIS, both <a href="http://opengis.ch" target="_blank" rel="noopener">OPENGIS.ch</a>
+ and Oslandia are dedicated to driving its growth and ensuring its availability to all.</p>
+<h3 id="advancing-qfield-and-qfieldcloud-together">Advancing QField and QFieldCloud Together</h3>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Logo_QFieldCloud-by-OpenGIS_transparent-1_hu_65e68451b7274108.png" srcset="/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Logo_QFieldCloud-by-OpenGIS_transparent-1_hu_65e68451b7274108.png 1x, /pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Logo_QFieldCloud-by-OpenGIS_transparent-1_hu_fc51f610b53e7a19.png 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="305"
+         loading="lazy"></figure>
+
+<p><a href="https://qfield.org" target="_blank" rel="noopener">QField</a>
+, with almost 1 million downloads, is the leading app for fieldwork tasks. It empowers professionals in various sectors, such as environmental research, agriculture, urban planning, and disaster management, to efficiently collect data and conduct analyses in the field. With our strategic partnership with Oslandia, we are committed to pushing the boundaries of QField even further.</p>
+<p>Our joint efforts will ensure that QField will keep setting trends in the industry, surpassing the evolving needs of GIS specialists and empowering them to excel in their fieldwork tasks.</p>
+<h3 id="a-synergy-of-expertise">A Synergy of Expertise</h3>
+<p>The collaboration between <a href="http://OPENGIS.ch" target="_blank" rel="noopener">OPENGIS.ch</a>
+ and <a href="https://www.linkedin.com/company/oslandia/" target="_blank" rel="noopener">Oslandia</a>
+ represents a true synergy of expertise. Our combined capabilities will enable us to tackle complex challenges quickly and deliver cutting-edge solutions that address the unique requirements for seamless #fielwork.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>At <a href="http://OPENGIS.ch" target="_blank" rel="noopener">OPENGIS.ch</a>
+, we are excited about the opportunities our partnership with Oslandia brings. Together, we will continue championing open-source development, empowering GIS specialists in each sector to perform their fieldwork tasks more effectively and efficiently.</p>
+<p>With QField as our flagship app, we are confident that this strategic collaboration will result in even greater advancements, benefiting our target audience of surveying professionals, fieldwork experts, and GIS specialists, as well as casual users who need a user-friendly solution for their projects.</p>
+<p>Join us in celebrating this exciting new chapter as we embark on a shared journey towards innovation and excellence in fieldwork applications.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Screenshot-from-2023-09-14-17-13-02.png" srcset="/pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Screenshot-from-2023-09-14-17-13-02.png 1x, /pr-preview/pr-90/blog/2023/09/15/opengis.ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/Screenshot-from-2023-09-14-17-13-02_hu_1f7bc62edf72160c.png 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="402" height="99"
+         loading="lazy"></figure>
+
+]]></content:encoded>
+      <category domain="categories">qfield</category>
+      <category domain="tags">partners</category>
+    </item>
+    
+  </channel>
+</rss>
