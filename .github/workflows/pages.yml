@@ -19,6 +19,7 @@ env:
   PRODUCTION_URL: 'https://qfield.org/'
   PREVIEW_ROOT: 'https://qfield.org/pr-preview'
   DEPLOY_BRANCH: 'gh-pages'
+  PAGES_MAX_BYTES: '1000000000'
 
 jobs:
   deploy-production:
@@ -26,6 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: read
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -42,7 +44,18 @@ jobs:
           hugo version
 
       - name: Build production site
-        run: hugo --environment production --gc --minify --baseURL "${PRODUCTION_URL}"
+        run: hugo --environment production --gc --minify --cleanDestinationDir --baseURL "${PRODUCTION_URL}"
+
+      - name: Check production site size
+        run: |
+          set -euo pipefail
+          size="$(du -sb public | cut -f1)"
+          echo "Production site size: ${size} bytes"
+          if (( size > PAGES_MAX_BYTES )); then
+            echo "::error::Production site is ${size} bytes, exceeding GitHub Pages' ${PAGES_MAX_BYTES}-byte artifact limit."
+            find public -type f -printf '%s %p\n' | sort -nr | head -40
+            exit 1
+          fi
 
       - name: Publish production site
         env:
@@ -62,7 +75,49 @@ jobs:
           fi
 
           rsync -a --delete --exclude '.git' --exclude 'pr-preview/' public/ "${deploy_dir}/"
+          shopt -s nullglob
+          for preview_dir in "${deploy_dir}/pr-preview"/pr-*; do
+            pr_number="${preview_dir##*/pr-}"
+            response_file="$(mktemp)"
+            if curl -fsSL \
+              -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/pulls/${pr_number}" \
+              -o "${response_file}"; then
+              if [[ "$(jq -r '.merged // false' "${response_file}")" == "true" ]]; then
+                echo "Removing merged PR preview: pr-${pr_number}"
+                rm -rf "${preview_dir}"
+              fi
+            else
+              echo "::warning::Could not check PR #${pr_number}; keeping ${preview_dir}."
+            fi
+            rm -f "${response_file}"
+          done
+          shopt -u nullglob
+          if [[ -d "${deploy_dir}/pr-preview" ]]; then
+            find "${deploy_dir}/pr-preview" -type f \( \
+              -name '*.zip' -o \
+              -name '*.gif' -o \
+              -name '*.webm' -o \
+              -name '*.jpg' -o \
+              -name '*.jpeg' -o \
+              -name '*.JPG' -o \
+              -name '*.png' -o \
+              -name '*.webp' -o \
+              -name '*.pdf' -o \
+              -name '*.xml' \
+            \) -delete
+          fi
           touch "${deploy_dir}/.nojekyll"
+
+          deploy_size="$(du -sb "${deploy_dir}" --exclude='.git' | cut -f1)"
+          echo "Pages branch size after production publish: ${deploy_size} bytes"
+          if (( deploy_size > PAGES_MAX_BYTES )); then
+            echo "::error::Pages branch would be ${deploy_size} bytes, exceeding GitHub Pages' ${PAGES_MAX_BYTES}-byte artifact limit."
+            find "${deploy_dir}" -path "${deploy_dir}/.git" -prune -o -type f -printf '%s %p\n' | sort -nr | head -40
+            exit 1
+          fi
 
           git -C "${deploy_dir}" config user.name "github-actions[bot]"
           git -C "${deploy_dir}" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -100,7 +155,27 @@ jobs:
           hugo version
 
       - name: Build PR preview
-        run: hugo --environment staging -D --baseURL "${PREVIEW_URL}"
+        run: hugo --environment staging -D --cleanDestinationDir --baseURL "${PREVIEW_URL}"
+
+      - name: Check PR preview size
+        run: |
+          set -euo pipefail
+
+          find public -type f \( \
+            -name '*.zip' -o \
+            -name '*.gif' -o \
+            -name '*.webm' -o \
+            -name '*.jpg' -o \
+            -name '*.jpeg' -o \
+            -name '*.JPG' -o \
+            -name '*.png' -o \
+            -name '*.webp' -o \
+            -name '*.pdf' -o \
+            -name '*.xml' \
+          \) -delete
+
+          size="$(du -sb public | cut -f1)"
+          echo "Slimmed PR preview size: ${size} bytes"
 
       - name: Publish PR preview
         env:
@@ -119,12 +194,54 @@ jobs:
             git -C "${deploy_dir}" remote add origin "${remote_url}"
           fi
 
+          shopt -s nullglob
+          for preview_dir in "${deploy_dir}/pr-preview"/pr-*; do
+            pr_number="${preview_dir##*/pr-}"
+            response_file="$(mktemp)"
+            if curl -fsSL \
+              -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/pulls/${pr_number}" \
+              -o "${response_file}"; then
+              if [[ "$(jq -r '.merged // false' "${response_file}")" == "true" ]]; then
+                echo "Removing merged PR preview: pr-${pr_number}"
+                rm -rf "${preview_dir}"
+              fi
+            else
+              echo "::warning::Could not check PR #${pr_number}; keeping ${preview_dir}."
+            fi
+            rm -f "${response_file}"
+          done
+          shopt -u nullglob
+          if [[ -d "${deploy_dir}/pr-preview" ]]; then
+            find "${deploy_dir}/pr-preview" -type f \( \
+              -name '*.zip' -o \
+              -name '*.gif' -o \
+              -name '*.webm' -o \
+              -name '*.jpg' -o \
+              -name '*.jpeg' -o \
+              -name '*.JPG' -o \
+              -name '*.png' -o \
+              -name '*.webp' -o \
+              -name '*.pdf' -o \
+              -name '*.xml' \
+            \) -delete
+          fi
           mkdir -p "${deploy_dir}/${PREVIEW_PATH}"
           rsync -a --delete --exclude 'CNAME' public/ "${deploy_dir}/${PREVIEW_PATH}/"
           rm -f "${deploy_dir}/${PREVIEW_PATH}/CNAME"
           touch "${deploy_dir}/.nojekyll"
           if [[ -f CNAME ]]; then
             cp CNAME "${deploy_dir}/CNAME"
+          fi
+
+          deploy_size="$(du -sb "${deploy_dir}" --exclude='.git' | cut -f1)"
+          echo "Pages branch size after preview publish: ${deploy_size} bytes"
+          if (( deploy_size > PAGES_MAX_BYTES )); then
+            echo "::error::Pages branch would be ${deploy_size} bytes, exceeding GitHub Pages' ${PAGES_MAX_BYTES}-byte artifact limit."
+            find "${deploy_dir}" -path "${deploy_dir}/.git" -prune -o -type f -printf '%s %p\n' | sort -nr | head -40
+            exit 1
           fi
 
           git -C "${deploy_dir}" config user.name "github-actions[bot]"
@@ -173,7 +290,7 @@ jobs:
           fi
 
   cleanup-preview:
-    if: ${{ github.event_name == 'pull_request' && github.event.action == 'closed' }}
+    if: ${{ github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
