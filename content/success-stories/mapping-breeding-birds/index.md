@@ -8,7 +8,7 @@ description: "The Wadden Sea in Denmark, Germany and The Netherlands is of outst
       assessment program (TMAP) and monitors the number of breeding birds in more than 100 monitoring areas in
       Schleswig-Holstein / Germany. For a number of species we monitor a significant share of the entire German breeding
       population."
-# image: "wattenmeer4.jpg"
+# image: "wattenmeer4.webp"
 categories: ["ecology-environment"]
 image: "wattenmeer7.jpg"
 ogImage: "https://qfield.org/success-stories/mapping-breeding-birds/wattenmeer7.jpg"
@@ -46,7 +46,7 @@ On a desktop computer we set up a QGIS project containing a high-resolution aeri
 
 ##### _Sketch of the QField Interface. For data entry we used a geopackage file with custom dropdown list and entry restrictions._
 
-{{< figure src="wattenmeer4.jpg" alt="logged observations in QField" caption="" >}}
+{{< figure src="wattenmeer4.webp" alt="logged observations in QField" caption="" >}}
 
 ##### _Logged observations are clearly laid out in QField._
 

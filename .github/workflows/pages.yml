@@ -20,9 +20,21 @@ env:
   PREVIEW_ROOT: 'https://qfield.org/pr-preview'
   DEPLOY_BRANCH: 'gh-pages'
   PAGES_MAX_BYTES: '1000000000'
+  IMAGE_MAX_BYTES: '2097152'
 
 jobs:
+  image-audit:
+    if: ${{ github.event_name != 'pull_request' || github.event.action != 'closed' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Check source image sizes
+        run: scripts/audit-source-images.sh
+
   deploy-production:
+    needs: image-audit
     if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') }}
     runs-on: ubuntu-latest
     permissions:
@@ -131,6 +143,7 @@ jobs:
           fi
 
   deploy-preview:
+    needs: image-audit
     if: ${{ github.event_name == 'pull_request' && github.event.action != 'closed' }}
     runs-on: ubuntu-latest
     permissions:

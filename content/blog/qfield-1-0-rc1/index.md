@@ -21,7 +21,7 @@ categories:
   - qfield
 cover:
   alt: QField_RC
-  image: QField_RC.png
+  image: QField_RC.webp
 date: "2019-01-08T06:59:38+00:00"
 guid: https://opengis.ch/?p=4737
 parent_post_id: null

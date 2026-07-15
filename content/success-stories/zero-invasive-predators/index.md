@@ -24,7 +24,7 @@ In South Westland alone, their project area spans 114,000 hectares of challengin
 
 As a frame of reference - _"The scale of the project area is extraordinary: 10 times the size of New Zealand's largest predator-free island, and over 30 times the size of the largest fenced sanctuary."_
 
-{{< figure src="zero-invasive-6.jpg" alt="mt price" caption="" >}}
+{{< figure src="/images/customer/zero-invasive-6.webp" alt="mt price" caption="" >}}
 
 ##### _Waitangitahuna River on the left and Whataroa from Mt Price_
 

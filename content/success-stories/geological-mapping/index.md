@@ -9,10 +9,10 @@ description: >-
       To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is completed using
       paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data
       directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.
-# image: "geologic_field.png"
+# image: "geologic_field.webp"
 categories: ["water-land-management"]
-image: "geologic_field.png"
-ogImage: "https://qfield.org/success-stories/geological-mapping/geologic_field.png"
+image: "geologic_field.webp"
+ogImage: "https://qfield.org/success-stories/geological-mapping/geologic_field.webp"
 ---
 
 ### Goal
@@ -53,11 +53,11 @@ Location and direction of travel are displayed using internal device GPS (or ext
 
 Field data are synchronized in QGIS followed by a short data clean up and verification process. The QGIS project is then exported back to QField for additional data collection.
 
-{{< figure src="geologic_field.png" alt="Geologic field" caption="" >}}
+{{< figure src="geologic_field.webp" alt="Geologic field" caption="" >}}
 
 _Figure 2: Field work_
 
-{{< figure src="geologic_station_qf.jpg" alt="Geologic field" caption="" >}}
+{{< figure src="geologic_station_qf.webp" alt="Geologic field" caption="" >}}
 
 _Figure 3: QField form_
 

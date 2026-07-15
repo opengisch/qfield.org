@@ -29,7 +29,7 @@ categories:
   - highlights
 cover:
   alt: selection_00-1
-  image: selection_00-1.png
+  image: selection_00-1.webp
 date: "2020-08-18T05:00:00+00:00"
 guid: https://www.opengis.ch/?p=11573
 obfx-footer-scripts: ""
@@ -58,7 +58,7 @@ With QField 1.6 it is now much easier to select a couple of features and change 
 
 ![](https://i2.wp.com/www.opengis.chedit_00.png)
 
-![](selection_00-1.png)
+![](selection_00-1.webp)
 
 ## Stylus support
 

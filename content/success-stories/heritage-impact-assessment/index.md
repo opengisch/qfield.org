@@ -19,8 +19,8 @@ description: |
 sourceUrl: "https://qfield.org/success-stories/heritage-impact-assessment.html"
 sourceLabel: "View original success story"
 categories: ["humanitarian-emergency-response"]
-image: "heritage_impact_figure2.png"
-ogImage: "https://qfield.org/success-stories/heritage-impact-assessment/heritage_impact_figure2.png"
+image: "heritage_impact_figure2.webp"
+ogImage: "https://qfield.org/success-stories/heritage-impact-assessment/heritage_impact_figure2.webp"
 ---
 
 ### Introduction
@@ -105,7 +105,7 @@ G.G.
 
 In an open area excavation scenario, the advantages and convenience of using an App such as QField are innumerable. This is true especially in commercial archaeology sites, where very often the deadlines to carry out the work and the budgets available for the archaeological investigation are very tight. This forces you to work with the maximum optimisation of the timing and assets, despite the fact that the weather and visibility conditions in the field are often poor (Figure 2).
 
-{{< figure src="heritage_impact_figure2.png" alt="figure 2" caption="" >}}
+{{< figure src="heritage_impact_figure2.webp" alt="figure 2" caption="" >}}
 
 ##### _Figure 2 - An example of when the weather and visibility conditions in the field are poor. Image by Roberto Montagnetti 2019._
 

@@ -136,7 +136,7 @@ success_stories:
         external: true
     - name: "UN Open GIS Initiative"
       logo: "/images/customer/un.svg"
-      image: "/images/customer/un_img.jpg"
+      image: "/images/customer/un_img.webp"
       description: >-
         QField has been spotlighted by the UN OpenGIS initiative as a crucial part of their hybrid GIS system. This recognition underscores QField's superior capabilities in supporting multiple [United Nations Sustainable Development Goals (SDGs)](sdgs) and revolutionizing geospatial data collection.
       link:

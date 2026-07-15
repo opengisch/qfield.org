@@ -37,7 +37,7 @@ categories:
   - qgis
 cover:
   alt: QField_1.0
-  image: QField_1.0.png
+  image: QField_1.0.webp
 date: "2019-03-28T15:34:38+00:00"
 enclosure: |-
   https://opengis.ch/blog/wp-content/uploads/2019/03/constraints.mp4
