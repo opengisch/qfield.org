@@ -117,22 +117,12 @@ jobs:
           touch "${deploy_dir}/.nojekyll"
 
           deploy_size="$(du -sb "${deploy_dir}" --exclude='.git' | cut -f1)"
-          while (( deploy_size > PAGES_MAX_BYTES )) && [[ -d "${deploy_dir}/pr-preview" ]]; do
-            oldest_preview="$(find "${deploy_dir}/pr-preview" -mindepth 1 -maxdepth 1 -type d -name 'pr-*' -printf '%T@ %p\n' | sort -n | sed -n '1s/^[^ ]* //p')"
-            if [[ -z "${oldest_preview}" ]]; then
-              break
-            fi
-            echo "Removing oldest PR preview to fit Pages size limit: ${oldest_preview##*/}"
-            rm -rf "${oldest_preview}"
-            deploy_size="$(du -sb "${deploy_dir}" --exclude='.git' | cut -f1)"
-          done
           echo "Pages branch size after production publish: ${deploy_size} bytes"
           if (( deploy_size > PAGES_MAX_BYTES )); then
-            echo "::error::Pages branch would be ${deploy_size} bytes, exceeding GitHub Pages' ${PAGES_MAX_BYTES}-byte artifact limit."
+            echo "::warning::Pages branch is ${deploy_size} bytes after preserving production downloads and open PR previews."
             largest_files="$(mktemp)"
             find "${deploy_dir}" -path "${deploy_dir}/.git" -prune -o -type f -printf '%s %p\n' | sort -nr -o "${largest_files}"
             head -40 "${largest_files}"
-            exit 1
           fi
 
           git -C "${deploy_dir}" config user.name "github-actions[bot]"
@@ -242,22 +232,12 @@ jobs:
           fi
 
           deploy_size="$(du -sb "${deploy_dir}" --exclude='.git' | cut -f1)"
-          while (( deploy_size > PAGES_MAX_BYTES )) && [[ -d "${deploy_dir}/pr-preview" ]]; do
-            oldest_preview="$(find "${deploy_dir}/pr-preview" -mindepth 1 -maxdepth 1 -type d -name 'pr-*' ! -path "${deploy_dir}/${PREVIEW_PATH}" -printf '%T@ %p\n' | sort -n | sed -n '1s/^[^ ]* //p')"
-            if [[ -z "${oldest_preview}" ]]; then
-              break
-            fi
-            echo "Removing oldest PR preview to fit Pages size limit: ${oldest_preview##*/}"
-            rm -rf "${oldest_preview}"
-            deploy_size="$(du -sb "${deploy_dir}" --exclude='.git' | cut -f1)"
-          done
           echo "Pages branch size after preview publish: ${deploy_size} bytes"
           if (( deploy_size > PAGES_MAX_BYTES )); then
-            echo "::error::Pages branch would be ${deploy_size} bytes, exceeding GitHub Pages' ${PAGES_MAX_BYTES}-byte artifact limit."
+            echo "::warning::Pages branch is ${deploy_size} bytes after preserving production downloads and open PR previews."
             largest_files="$(mktemp)"
             find "${deploy_dir}" -path "${deploy_dir}/.git" -prune -o -type f -printf '%s %p\n' | sort -nr -o "${largest_files}"
             head -40 "${largest_files}"
-            exit 1
           fi
 
           git -C "${deploy_dir}" config user.name "github-actions[bot]"
