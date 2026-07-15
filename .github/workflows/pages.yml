@@ -107,20 +107,6 @@ jobs:
             rm -f "${response_file}"
           done
           shopt -u nullglob
-          if [[ -d "${deploy_dir}/pr-preview" ]]; then
-            find "${deploy_dir}/pr-preview" -type f \( \
-              -name '*.zip' -o \
-              -name '*.gif' -o \
-              -name '*.webm' -o \
-              -name '*.jpg' -o \
-              -name '*.jpeg' -o \
-              -name '*.JPG' -o \
-              -name '*.png' -o \
-              -name '*.webp' -o \
-              -name '*.pdf' -o \
-              -name '*.xml' \
-            \) -delete
-          fi
           touch "${deploy_dir}/.nojekyll"
 
           deploy_size="$(du -sb "${deploy_dir}" --exclude='.git' | cut -f1)"
@@ -174,21 +160,13 @@ jobs:
         run: |
           set -euo pipefail
 
-          find public -type f \( \
-            -name '*.zip' -o \
-            -name '*.gif' -o \
-            -name '*.webm' -o \
-            -name '*.jpg' -o \
-            -name '*.jpeg' -o \
-            -name '*.JPG' -o \
-            -name '*.png' -o \
-            -name '*.webp' -o \
-            -name '*.pdf' -o \
-            -name '*.xml' \
-          \) -delete
-
           size="$(du -sb public | cut -f1)"
-          echo "Slimmed PR preview size: ${size} bytes"
+          echo "PR preview size: ${size} bytes"
+          if (( size > PAGES_MAX_BYTES )); then
+            echo "::error::PR preview is ${size} bytes, exceeding GitHub Pages' ${PAGES_MAX_BYTES}-byte artifact limit."
+            find public -type f -printf '%s %p\n' | sort -nr | head -40
+            exit 1
+          fi
 
       - name: Publish PR preview
         env:
@@ -227,20 +205,6 @@ jobs:
             rm -f "${response_file}"
           done
           shopt -u nullglob
-          if [[ -d "${deploy_dir}/pr-preview" ]]; then
-            find "${deploy_dir}/pr-preview" -type f \( \
-              -name '*.zip' -o \
-              -name '*.gif' -o \
-              -name '*.webm' -o \
-              -name '*.jpg' -o \
-              -name '*.jpeg' -o \
-              -name '*.JPG' -o \
-              -name '*.png' -o \
-              -name '*.webp' -o \
-              -name '*.pdf' -o \
-              -name '*.xml' \
-            \) -delete
-          fi
           mkdir -p "${deploy_dir}/${PREVIEW_PATH}"
           rsync -a --delete --exclude 'CNAME' public/ "${deploy_dir}/${PREVIEW_PATH}/"
           rm -f "${deploy_dir}/${PREVIEW_PATH}/CNAME"
