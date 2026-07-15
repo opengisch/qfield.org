@@ -65,7 +65,9 @@ jobs:
           echo "Production site size: ${size} bytes"
           if (( size > PAGES_MAX_BYTES )); then
             echo "::error::Production site is ${size} bytes, exceeding GitHub Pages' ${PAGES_MAX_BYTES}-byte artifact limit."
-            find public -type f -printf '%s %p\n' | sort -nr | head -40
+            largest_files="$(mktemp)"
+            find public -type f -printf '%s %p\n' | sort -nr -o "${largest_files}"
+            head -40 "${largest_files}"
             exit 1
           fi
 
@@ -107,13 +109,18 @@ jobs:
             rm -f "${response_file}"
           done
           shopt -u nullglob
+          if [[ -d "${deploy_dir}/pr-preview" ]]; then
+            find "${deploy_dir}/pr-preview" -type f -name '*.zip' -delete
+          fi
           touch "${deploy_dir}/.nojekyll"
 
           deploy_size="$(du -sb "${deploy_dir}" --exclude='.git' | cut -f1)"
           echo "Pages branch size after production publish: ${deploy_size} bytes"
           if (( deploy_size > PAGES_MAX_BYTES )); then
             echo "::error::Pages branch would be ${deploy_size} bytes, exceeding GitHub Pages' ${PAGES_MAX_BYTES}-byte artifact limit."
-            find "${deploy_dir}" -path "${deploy_dir}/.git" -prune -o -type f -printf '%s %p\n' | sort -nr | head -40
+            largest_files="$(mktemp)"
+            find "${deploy_dir}" -path "${deploy_dir}/.git" -prune -o -type f -printf '%s %p\n' | sort -nr -o "${largest_files}"
+            head -40 "${largest_files}"
             exit 1
           fi
 
@@ -160,11 +167,15 @@ jobs:
         run: |
           set -euo pipefail
 
+          find public -type f -name '*.zip' -delete
+
           size="$(du -sb public | cut -f1)"
           echo "PR preview size: ${size} bytes"
           if (( size > PAGES_MAX_BYTES )); then
             echo "::error::PR preview is ${size} bytes, exceeding GitHub Pages' ${PAGES_MAX_BYTES}-byte artifact limit."
-            find public -type f -printf '%s %p\n' | sort -nr | head -40
+            largest_files="$(mktemp)"
+            find public -type f -printf '%s %p\n' | sort -nr -o "${largest_files}"
+            head -40 "${largest_files}"
             exit 1
           fi
 
@@ -205,6 +216,9 @@ jobs:
             rm -f "${response_file}"
           done
           shopt -u nullglob
+          if [[ -d "${deploy_dir}/pr-preview" ]]; then
+            find "${deploy_dir}/pr-preview" -type f -name '*.zip' -delete
+          fi
           mkdir -p "${deploy_dir}/${PREVIEW_PATH}"
           rsync -a --delete --exclude 'CNAME' public/ "${deploy_dir}/${PREVIEW_PATH}/"
           rm -f "${deploy_dir}/${PREVIEW_PATH}/CNAME"
@@ -217,7 +231,9 @@ jobs:
           echo "Pages branch size after preview publish: ${deploy_size} bytes"
           if (( deploy_size > PAGES_MAX_BYTES )); then
             echo "::error::Pages branch would be ${deploy_size} bytes, exceeding GitHub Pages' ${PAGES_MAX_BYTES}-byte artifact limit."
-            find "${deploy_dir}" -path "${deploy_dir}/.git" -prune -o -type f -printf '%s %p\n' | sort -nr | head -40
+            largest_files="$(mktemp)"
+            find "${deploy_dir}" -path "${deploy_dir}/.git" -prune -o -type f -printf '%s %p\n' | sort -nr -o "${largest_files}"
+            head -40 "${largest_files}"
             exit 1
           fi
 
