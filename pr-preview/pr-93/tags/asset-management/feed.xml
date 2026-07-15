@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Asset Management on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-93/tags/asset-management/</link>
+    <description>Recent content in Asset Management on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-93/tags/asset-management/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Facility and Asset Management</title>
+      <link>https://qfield.org/pr-preview/pr-93/solutions/facility-and-asset-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-93/solutions/facility-and-asset-management/</guid>
+      
+      <description>Efficient asset inventory, inspections, and maintenance documentation using mobile GIS and QGIS.</description>
+      <content:encoded><![CDATA[<h2 id="field-data-for-asset-management">Field data for asset management</h2>
+<p>Collect accurate locations, attributes, and photos. Use domains and constraints for consistent records.</p>
+<h3 id="typical-workflows">Typical workflows</h3>
+<ul>
+<li>Asset inventory and barcoding</li>
+<li>Condition surveys and maintenance logs</li>
+<li>Space and safety inspections</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Build your model in QGIS, then sync projects with QFieldCloud for smooth collaboration.</p>
+]]></content:encoded>
+      <category domain="categories">Infrastructure, Construction &amp; Utilities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">asset management</category>
+      <category domain="tags">facility inspections</category>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Landings on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-93/landing/</link>
+    <description>Recent content in Landings on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-93/landing/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://qfield.org/pr-preview/pr-93/landing/ardusimple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-93/landing/ardusimple/</guid>
+      
+      <description>Ardusimple RTK GNSS</description>
+      <content:encoded><![CDATA[<p>QField works seamlessly with ArduSimple RTK GNSS receivers to deliver reliable, survey-grade positioning for professional field data collection. Capture precise points, lines, and boundaries directly in your QGIS projects and compare them with authoritative datasets such as cadastral maps.</p>
+<p>On Android devices, QField can connect directly to compatible GNSS receivers via Bluetooth or USB for real-time positioning. On iPhone and iPad, external receivers connect over Wi-Fi, enabling high-accuracy positioning and RTK corrections within iOS constraints. In both cases, you can verify property boundaries, map infrastructure, or document land features with confidence.</p>
+<p>Combined with <strong><a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+</strong>, field data flows instantly between your team and the office. Projects, basemaps, and updates stay synchronized, enabling real-time collaboration, version control, and centralized management of your survey workflows.</p>
+<h3 id="why-this-setup">Why this setup</h3>
+<ul>
+<li>Centimeter-level positioning with RTK corrections</li>
+<li>Direct connection on Android and Wi-Fi integration on iOS</li>
+<li>Ideal for boundary verification, asset mapping, and land management</li>
+<li>Seamless field-to-office workflow with QGIS</li>
+<li>Real-time synchronization and team collaboration via QFieldCloud</li>
+</ul>
+<h3 id="learn-more">Learn more</h3>
+<p>For step-by-step tutorials using ArduSimple receivers with QField:</p>
+<p>👉 <a href="https://www.ardusimple.com/how-to-survey-boundaries-of-land-to-verify-cadastral-maps/" target="_blank" rel="noopener">Android (boundary surveying and cadastral verification)</a>
+</p>
+<p>👉 <a href="https://www.ardusimple.com/how-to-connect-external-gnss-rtk-receiver-to-qfield-on-ios-device-iphone-or-ipad/" target="_blank" rel="noopener">iOS (connecting an external RTK receiver to QField)</a>
+</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://qfield.org/pr-preview/pr-93/landing/newsletter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-93/landing/newsletter/</guid>
+      
+      <description>Get the latest QField news, tips, and release highlights delivered straight to your inbox.</description>
+      <content:encoded><![CDATA[<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+<style>
+  .qfield-newsletter-form {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .qfield-newsletter-form .sib-form {
+    background: transparent;
+    padding: 0;
+  }
+
+  .qfield-newsletter-form .sib-form-message-panel {
+    display: none;
+  }
+</style>
+
+<div class="qfield-newsletter-form">
+  <div class="sib-form">
+    <div id="sib-form-container" class="sib-form-container">
+      <div id="error-message" class="sib-form-message-panel" style="display:none;font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;max-width:540px;">
+        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+          <span class="sib-form-message-panel__inner-text">Your subscription could not be saved. Please try again.</span>
+        </div>
+      </div>
+
+      <div id="success-message" class="sib-form-message-panel" style="display:none;font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#085229;background-color:#e7faf0;border-radius:3px;border-color:#13ce66;max-width:540px;">
+        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+          <span class="sib-form-message-panel__inner-text">Your subscription has been successful.</span>
+        </div>
+      </div>
+
+      <div id="sib-container" class="sib-container--large sib-container--horizontal" style="text-align:center;background-color:transparent;max-width:540px;border-radius:3px;border-width:0;border-color:#C0CCD9;border-style:solid;direction:ltr">
+        <form id="sib-form" method="POST" action="https://b678e710.sibforms.com/serve/MUIFAHQl1n1AB8LkwmautCLnQaxzwRb-yP-fIrVWhiH7H1b1NoTycz52yOvfCN31Oyk1KpQDqKAz6v1vo_FvCAeH5jFygdGfVf-n2LOowx1r7elvPNx7sGUylFHJaRwKs1LLuZHXYUK1PbW5QBt3SA57prt9IzPcZ5nPzFsHlVcH_NeuKJFf0TlpQipuHFPgtZz-o0ygLW5BHtij" data-type="subscription">
+          <div style="padding:8px 0;">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row form__label-row--horizontal">
+                  <div class="entry__field">
+                    <input class="input" type="email" id="EMAIL" name="EMAIL" autocomplete="email" placeholder="EMAIL" data-required="true" required>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row form__label-row--horizontal">
+                  <div class="entry__field">
+                    <input class="input" maxlength="200" type="text" id="FIRSTNAME" name="FIRSTNAME" autocomplete="given-name" placeholder="FIRSTNAME" data-required="true" required>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row form__label-row--horizontal">
+                  <div class="entry__field">
+                    <input class="input" maxlength="200" type="text" id="LASTNAME" name="LASTNAME" autocomplete="family-name" placeholder="LASTNAME" data-required="true" required>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row form__label-row--horizontal">
+                  <div class="entry__field">
+                    <input class="input" maxlength="2" minlength="2" pattern="[A-Za-z]{2}" type="text" id="COUNTRY_CODE" name="COUNTRY_CODE" autocomplete="country" autocapitalize="characters" placeholder="2 letter country code" data-required="true" required>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-optin sib-form-block">
+              <div class="form__entry entry_mcq">
+                <div class="form__label-row form__label-row--horizontal">
+                  <div class="entry__choice">
+                    <label>
+                      <input type="checkbox" class="input_replaced" value="1" id="VERIFIED" name="VERIFIED" data-required="true" required>
+                      <span class="checkbox checkbox_tick_positive"></span>
+                      <span style="font-size:14px;text-align:left;font-family:Helvetica,sans-serif;color:#3C4858;background-color:transparent;">I agree to receive your newsletters and accept the data privacy statement.</span>
+                    </label>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary" style="font-size:16px;text-align:left;font-family:Helvetica,sans-serif;color:#661d1d;background-color:#ffeded;border-radius:3px;border-color:#ff4949;"></label>
+                <label class="entry__specification" style="font-size:12px;text-align:left;font-family:Helvetica,sans-serif;color:#8390A4;text-align:left">You may unsubscribe at any time using the link in our newsletter.</label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAABhnveewR0onanou" data-explicit-render data-language="en"></div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-form__declaration" style="direction:ltr">
+              <div style="font-size:14px;text-align:left;font-family:Helvetica,sans-serif;color:#687484;background-color:transparent;">
+                <p>We use Brevo as our marketing platform. By submitting this form you agree that the personal data you provided will be transferred to Brevo for processing in accordance with <a href="https://www.brevo.com/en/legal/privacypolicy/">Brevo's Privacy Policy.</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:8px 0;">
+            <div class="sib-form-block" style="text-align:left">
+              <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px;text-align:left;font-weight:700;font-family:Helvetica,sans-serif;color:#fff;background-color:var(--qfield-color);border-radius:3px;border-width:0;" form="sib-form" type="submit">Join now</button>
+            </div>
+          </div>
+
+          <input type="text" name="email_address_check" value="" class="input--hidden">
+          <input type="hidden" name="locale" value="en">
+        </form>
+      </div>
+    </div>
+  </div>
+</div><script src="/pr-preview/pr-93/js/newsletter-form.min.fc8b3015ff8c46b61b08fbe1ba7a73d47924fa322f15ffc925149979c3dad930f33e5afcfe6ab8d863973e89e4c3f869d8457bcb2878580ba378535974ba1dea.js" integrity="sha512-/IswFf&#43;MRrYbCPvhunpz1Hkk&#43;jIvFf/JJRSZecPa2TDzPlr8/mq42GOXPonkw/hp2EV7yyh4WAujeFNZdLod6g==" crossorigin="anonymous"></script>
+<script async defer src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=qfieldNewsletterTurnstileOnLoad&render=explicit" data-cfasync="false"></script>
+
+<hr>
+<p>We respect your privacy. You can unsubscribe at any time.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
