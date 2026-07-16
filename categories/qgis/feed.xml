@@ -9,7 +9,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1784174469-793980468"
+     data-gallery-id="gallery-1784191037-242140129"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -37,7 +37,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 <style>
  
-#gallery-1784174469-793980468 .carousel-item .gallery-img {
+#gallery-1784191037-242140129 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -45,11 +45,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   display: block !important;
 }
 
-#gallery-1784174469-793980468 .carousel-item {
+#gallery-1784191037-242140129 .carousel-item {
   height: auto;
 }
 
-#gallery-1784174469-793980468 .carousel-item .figure {
+#gallery-1784191037-242140129 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -58,11 +58,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   text-align: center;
 }
 
-#gallery-1784174469-793980468 .carousel-item .figure .gallery-img {
+#gallery-1784191037-242140129 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1784174469-793980468 .carousel-item .figure .figure-caption {
+#gallery-1784191037-242140129 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -71,13 +71,13 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 }
 
 @media (max-width: 768px) {
-  #gallery-1784174469-793980468 .carousel-item .gallery-img {
+  #gallery-1784191037-242140129 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1784174469-793980468 .carousel-item .gallery-img {
+  #gallery-1784191037-242140129 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -128,7 +128,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1784174471-580731914"
+     data-gallery-id="gallery-1784191038-877507388"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -156,7 +156,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 <style>
  
-#gallery-1784174471-580731914 .carousel-item .gallery-img {
+#gallery-1784191038-877507388 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -164,11 +164,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1784174471-580731914 .carousel-item {
+#gallery-1784191038-877507388 .carousel-item {
   height: auto;
 }
 
-#gallery-1784174471-580731914 .carousel-item .figure {
+#gallery-1784191038-877507388 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -177,11 +177,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1784174471-580731914 .carousel-item .figure .gallery-img {
+#gallery-1784191038-877507388 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1784174471-580731914 .carousel-item .figure .figure-caption {
+#gallery-1784191038-877507388 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -190,13 +190,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1784174471-580731914 .carousel-item .gallery-img {
+  #gallery-1784191038-877507388 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1784174471-580731914 .carousel-item .gallery-img {
+  #gallery-1784191038-877507388 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -215,7 +215,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1784174474-261835307"
+     data-gallery-id="gallery-1784191042-360151778"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -243,7 +243,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1784174474-261835307 .carousel-item .gallery-img {
+#gallery-1784191042-360151778 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -251,11 +251,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1784174474-261835307 .carousel-item {
+#gallery-1784191042-360151778 .carousel-item {
   height: auto;
 }
 
-#gallery-1784174474-261835307 .carousel-item .figure {
+#gallery-1784191042-360151778 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -264,11 +264,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1784174474-261835307 .carousel-item .figure .gallery-img {
+#gallery-1784191042-360151778 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1784174474-261835307 .carousel-item .figure .figure-caption {
+#gallery-1784191042-360151778 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -277,13 +277,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1784174474-261835307 .carousel-item .gallery-img {
+  #gallery-1784191042-360151778 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1784174474-261835307 .carousel-item .gallery-img {
+  #gallery-1784191042-360151778 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -304,7 +304,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1784174476-705183034"
+     data-gallery-id="gallery-1784191046-150033517"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -332,7 +332,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1784174476-705183034 .carousel-item .gallery-img {
+#gallery-1784191046-150033517 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -340,11 +340,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1784174476-705183034 .carousel-item {
+#gallery-1784191046-150033517 .carousel-item {
   height: auto;
 }
 
-#gallery-1784174476-705183034 .carousel-item .figure {
+#gallery-1784191046-150033517 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -353,11 +353,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1784174476-705183034 .carousel-item .figure .gallery-img {
+#gallery-1784191046-150033517 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1784174476-705183034 .carousel-item .figure .figure-caption {
+#gallery-1784191046-150033517 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -366,13 +366,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1784174476-705183034 .carousel-item .gallery-img {
+  #gallery-1784191046-150033517 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1784174476-705183034 .carousel-item .gallery-img {
+  #gallery-1784191046-150033517 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -599,7 +599,7 @@ event and right before the &lt;a href="https://2022.foss4g.org/" target="_blank"
 ]]></content:encoded><category domain="categories">events</category><category domain="categories">qfield</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>A New Trick up QField’s Sleeve: Animated Maps</title><link>https://qfield.org/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</link><pubDate>Tue, 16 Aug 2022 04:58:00 +0000</pubDate><guid>https://qfield.org/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</guid><media:content url="https://qfield.org/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43.gif" medium="image"/><description>&lt;p&gt;&lt;strong&gt;Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The example below demonstrates a scenario where animated raster markers are used to highlight active fires within the visible map extent. Notice how the subtle fire animation helps draw viewers’ eyes to those important markers.&lt;/p&gt;</description><content:encoded><![CDATA[<p><strong>Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.</strong></p>
 <p>The example below demonstrates a scenario where animated raster markers are used to highlight active fires within the visible map extent. Notice how the subtle fire animation helps draw viewers’ eyes to those important markers.</p>
-<figure class="figure text-center mb-4"><img src="/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43.gif" srcset="/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43.gif 1x, /blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43_hu_97d07d2f82031fe2.gif 2x"
+<figure class="figure text-center mb-4"><img src="/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43.gif"
          alt="" 
          class="figure-img img-fluid gallery-img" width="799" height="464"
          loading="lazy"></figure>
@@ -702,7 +702,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1784174487-886362464"
+     data-gallery-id="gallery-1784191054-75076701"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -731,7 +731,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 <style>
  
-#gallery-1784174487-886362464 .carousel-item .gallery-img {
+#gallery-1784191054-75076701 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -739,11 +739,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   display: block !important;
 }
 
-#gallery-1784174487-886362464 .carousel-item {
+#gallery-1784191054-75076701 .carousel-item {
   height: auto;
 }
 
-#gallery-1784174487-886362464 .carousel-item .figure {
+#gallery-1784191054-75076701 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -752,11 +752,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   text-align: center;
 }
 
-#gallery-1784174487-886362464 .carousel-item .figure .gallery-img {
+#gallery-1784191054-75076701 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1784174487-886362464 .carousel-item .figure .figure-caption {
+#gallery-1784191054-75076701 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -765,13 +765,13 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 }
 
 @media (max-width: 768px) {
-  #gallery-1784174487-886362464 .carousel-item .gallery-img {
+  #gallery-1784191054-75076701 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1784174487-886362464 .carousel-item .gallery-img {
+  #gallery-1784191054-75076701 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -823,7 +823,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 <h2 id="whats-next">What&rsquo;s next?</h2>
 <p>As you can imagine we&rsquo;ve had a very busy start of 2020, but even more is to come soon with the next releases of QField. We&rsquo;d like to thank again all companies and individuals that actively use QField and that invest in making QField even better. If you feel QField misses something you need or would like to support the project, don&rsquo;t hesitate <a href="/contact/">to get in touch with us.</a>
 </p>
-]]></content:encoded><category domain="categories">featured</category><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>QField 1.0 is here</title><link>https://qfield.org/blog/2019/03/28/qfield-1.0-is-here/</link><pubDate>Thu, 28 Mar 2019 15:34:38 +0000</pubDate><guid>https://qfield.org/blog/2019/03/28/qfield-1.0-is-here/</guid><media:content url="https://qfield.org/blog/2019/03/28/qfield-1.0-is-here/QField_1.0.png" medium="image"/><description>&lt;h2 id="lets-get-straight-to-the-point"&gt;Let&amp;rsquo;s get straight to the point&lt;/h2&gt;
+]]></content:encoded><category domain="categories">featured</category><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>QField 1.0 is here</title><link>https://qfield.org/blog/2019/03/28/qfield-1.0-is-here/</link><pubDate>Thu, 28 Mar 2019 15:34:38 +0000</pubDate><guid>https://qfield.org/blog/2019/03/28/qfield-1.0-is-here/</guid><media:content url="https://qfield.org/blog/2019/03/28/qfield-1.0-is-here/QField_1.0.webp" medium="image"/><description>&lt;h2 id="lets-get-straight-to-the-point"&gt;Let&amp;rsquo;s get straight to the point&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;It&amp;rsquo;s official, QField for QGIS 1.0 is out!&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -902,7 +902,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 <p>OPENGIS.ch helps you setting up your spatial data infrastructure based on seamlessly integrated desktop, web, and mobile components.<br>
 We support your team in planning, developing, deploying and running your infrastructure. Thanks to several senior geodata infrastructure experts, QGIS core developers and the makers of the mobile data acquisition solution QField, OPENGIS.ch has all it takes to make your project a success. OPENGIS.ch is known for its commitment to high-quality products and its continuous efforts to improve the open source ecosystem.</p>
 <p>\* We might be biased, but we do believe it</p>
-]]></content:encoded><category domain="categories">android</category><category domain="categories">android-qgis</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>GeoBeer #26 in Bern hosted by OPENGIS.ch</title><link>https://qfield.org/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</link><pubDate>Mon, 25 Mar 2019 09:22:43 +0000</pubDate><guid>https://qfield.org/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</guid><media:content url="https://qfield.org/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/MG_3711.jpg" medium="image"/><description>&lt;p&gt;Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// &lt;a href="https://bern.impacthub.net/%29" target="_blank" rel="noopener"&gt;https://bern.impacthub.net/)&lt;/a&gt;
+]]></content:encoded><category domain="categories">android</category><category domain="categories">android-qgis</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>GeoBeer #26 in Bern hosted by OPENGIS.ch</title><link>https://qfield.org/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</link><pubDate>Mon, 25 Mar 2019 09:22:43 +0000</pubDate><guid>https://qfield.org/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</guid><media:content url="https://qfield.org/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/MG_3711.webp" medium="image"/><description>&lt;p&gt;Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// &lt;a href="https://bern.impacthub.net/%29" target="_blank" rel="noopener"&gt;https://bern.impacthub.net/)&lt;/a&gt;
 .&lt;br&gt;
 [GeoBeer](https:// &lt;a href="https://www.geobeer.ch" target="_blank" rel="noopener"&gt;https://www.geobeer.ch&lt;/a&gt;
 ) is a quarterly meeting of people interested in geography, GIS, cartography and the latest technologies. It&amp;rsquo;s hosted every time by someone else. This time by us, OPENGIS.ch.&lt;/p&gt;
@@ -941,7 +941,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1784174483-228112246"
+     data-gallery-id="gallery-1784191049-150408596"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -970,7 +970,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1784174483-228112246 .carousel-item .gallery-img {
+#gallery-1784191049-150408596 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -978,11 +978,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1784174483-228112246 .carousel-item {
+#gallery-1784191049-150408596 .carousel-item {
   height: auto;
 }
 
-#gallery-1784174483-228112246 .carousel-item .figure {
+#gallery-1784191049-150408596 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -991,11 +991,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1784174483-228112246 .carousel-item .figure .gallery-img {
+#gallery-1784191049-150408596 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1784174483-228112246 .carousel-item .figure .figure-caption {
+#gallery-1784191049-150408596 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1004,13 +1004,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1784174483-228112246 .carousel-item .gallery-img {
+  #gallery-1784191049-150408596 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1784174483-228112246 .carousel-item .gallery-img {
+  #gallery-1784191049-150408596 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1029,7 +1029,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1784174483-228673042"
+     data-gallery-id="gallery-1784191049-150914201"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1120,7 +1120,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1784174483-228673042 .carousel-item .gallery-img {
+#gallery-1784191049-150914201 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1128,11 +1128,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1784174483-228673042 .carousel-item {
+#gallery-1784191049-150914201 .carousel-item {
   height: auto;
 }
 
-#gallery-1784174483-228673042 .carousel-item .figure {
+#gallery-1784191049-150914201 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1141,11 +1141,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1784174483-228673042 .carousel-item .figure .gallery-img {
+#gallery-1784191049-150914201 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1784174483-228673042 .carousel-item .figure .figure-caption {
+#gallery-1784191049-150914201 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1154,20 +1154,20 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1784174483-228673042 .carousel-item .gallery-img {
+  #gallery-1784191049-150914201 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1784174483-228673042 .carousel-item .gallery-img {
+  #gallery-1784191049-150914201 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
 </style>
 
 
-]]></content:encoded><category domain="categories">events</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">qgis</category></item><item><title>You gave us feedback - we give you QField 1.0 RC3</title><link>https://qfield.org/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/</link><pubDate>Thu, 31 Jan 2019 06:51:35 +0000</pubDate><guid>https://qfield.org/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/</guid><media:content url="https://qfield.org/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/QField_RC3.png" medium="image"/><description>&lt;p&gt;We are really happy to announce the release a new great milestone in QField&amp;rsquo;s history, QField 1.0 Release Candidate 3! (Yes, you might have got a glimpse of the broken RC2 if you where very attentive)&lt;/p&gt;
+]]></content:encoded><category domain="categories">events</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">qgis</category></item><item><title>You gave us feedback - we give you QField 1.0 RC3</title><link>https://qfield.org/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/</link><pubDate>Thu, 31 Jan 2019 06:51:35 +0000</pubDate><guid>https://qfield.org/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/</guid><media:content url="https://qfield.org/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/QField_RC3.webp" medium="image"/><description>&lt;p&gt;We are really happy to announce the release a new great milestone in QField&amp;rsquo;s history, QField 1.0 Release Candidate 3! (Yes, you might have got a glimpse of the broken RC2 if you where very attentive)&lt;/p&gt;
 &lt;p&gt;Thanks to the great feedback we received since releasing RC1 we were able to fix plenty of issues and add some more goodies.&lt;/p&gt;
 &lt;p&gt;We would like to invite everybody to install this Release Candidate and help us test it as much as possible so that we can iron out as many bugs as possible before the final release of QField 1.0.&lt;/p&gt;</description><content:encoded><![CDATA[<p>We are really happy to announce the release a new great milestone in QField&rsquo;s history, QField 1.0 Release Candidate 3! (Yes, you might have got a glimpse of the broken RC2 if you where very attentive)</p>
 <p>Thanks to the great feedback we received since releasing RC1 we were able to fix plenty of issues and add some more goodies.</p>

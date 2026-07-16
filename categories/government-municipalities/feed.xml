@@ -137,7 +137,7 @@
 </ul>
 <figure class="figure text-center">
   <img
-    src="/images/customer/un_img.jpg"
+    src="/images/customer/un_img.webp"
     alt="UN Open GIS Initiative"
     class="img-fluid "
     loading="lazy"
@@ -331,7 +331,7 @@
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
 
-<figure class="figure text-center ss-image mb-4"><img src="/images/customer/nls4.jpg"
+<figure class="figure text-center ss-image mb-4"><img src="/images/customer/nls4.webp"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
@@ -376,7 +376,7 @@
 – Data collected from all tablets was combined into one ground truth data collection in QGIS.
 – Image interpretation using the OpenForis platform will be used to increase the number of ground truth plots.
 – The final ground truth collection will be imported into Google Earth Engine to produce the LULC map and calculate the map accuracy.</p>
-<figure class="figure text-center mb-4"><img src="/success-stories/ground-truth-fiji/use_study_fiji1.png" srcset="/success-stories/ground-truth-fiji/use_study_fiji1.png 1x, /success-stories/ground-truth-fiji/use_study_fiji1_hu_e13ec5fbc3519591.png 2x"
+<figure class="figure text-center mb-4"><img src="/success-stories/ground-truth-fiji/use_study_fiji1.webp" srcset="/success-stories/ground-truth-fiji/use_study_fiji1.webp 1x, /success-stories/ground-truth-fiji/use_study_fiji1_hu_4bab7057f0bad3f.webp 2x"
          alt="Predefined Ground Truth Plots" 
          class="figure-img img-fluid gallery-img" width="800" height="1280"
          loading="lazy"></figure>
@@ -442,9 +442,9 @@ The system integrates multiple data types:
 <p><em>&ldquo;It&rsquo;s really been upping our game here,&rdquo; concludes the specialist. &ldquo;The ability to visualize this data in real-time, combined with the precision GPS and immediate feedback, has completely changed how we operate in the field.&rdquo;</em></p>
 ]]></content:encoded><category domain="categories">government-municipalities</category><category domain="categories">infrastructure-engineering</category></item><item><title>Tonga Crop Survey using QField</title><link>https://qfield.org/success-stories/tonga/</link><pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate><guid>https://qfield.org/success-stories/tonga/</guid><description>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</description><content:encoded><![CDATA[<h3 id="context">Context</h3>
 <p>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</p>
-<figure class="figure text-center mb-4"><img src="/success-stories/tonga/tonga-1_hu_82532738f4c08559.jpg" srcset="/success-stories/tonga/tonga-1_hu_82532738f4c08559.jpg 1x, /success-stories/tonga/tonga-1_hu_903b737e47016be3.jpg 2x"
+<figure class="figure text-center mb-4"><img src="/images/bg/humanitarian.jpg"
          alt="mapping-farms" 
-         class="figure-img img-fluid gallery-img" width="400" height="200" style="ZgotmplZ"
+         class="figure-img img-fluid gallery-img" style="ZgotmplZ"
          loading="lazy"></figure>
 
 <p>Croplands damaged after Hunga Tonga-Hunga Ha’apai eruption.</p>
@@ -476,9 +476,9 @@ The system integrates multiple data types:
 <p>ZIP&rsquo;s mission is breathtaking in scope: to completely remove invasive predators from New Zealand as part of the nationwide Predator Free 2050 initiative. These predators devastate native ecosystems, killing an estimated 25 million native birds annually.</p>
 <p>In South Westland alone, their project area spans 114,000 hectares of challenging terrain. This extraordinary achievement represents a vast predator-free area, protected on all sides by mountains, rivers, the ocean, and a network of remote reporting traps and detection devices.</p>
 <p>As a frame of reference - <em>&ldquo;The scale of the project area is extraordinary: 10 times the size of New Zealand&rsquo;s largest predator-free island, and over 30 times the size of the largest fenced sanctuary.&rdquo;</em></p>
-<figure class="figure text-center mb-4"><img src="/success-stories/zero-invasive-predators/zero-invasive-6_hu_61694ce1bc42c4fa.jpg" srcset="/success-stories/zero-invasive-predators/zero-invasive-6_hu_61694ce1bc42c4fa.jpg 1x, /success-stories/zero-invasive-predators/zero-invasive-6_hu_3825669214ef1b3c.jpg 2x"
+<figure class="figure text-center mb-4"><img src="/images/customer/zero-invasive-6.webp"
          alt="mt price" 
-         class="figure-img img-fluid gallery-img" width="1200" height="444"
+         class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
 
 <h5 id="waitangitahuna-river-on-the-left-and-whataroa-from-mt-price"><em>Waitangitahuna River on the left and Whataroa from Mt Price</em></h5>
