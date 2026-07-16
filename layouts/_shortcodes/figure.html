@@ -33,9 +33,14 @@
   {{- if $image -}}
     {{- /* Image found - process it */ -}}
     {{- $processed := $image -}}
+    {{- $isGif := eq (lower $image.MediaType.SubType) "gif" -}}
     
-    {{- /* Resize if width or height specified */ -}}
-    {{- if $width -}}
+    {{- /* Avoid resizing animated GIFs: Hugo expands them into very large generated files. */ -}}
+    {{- if $isGif -}}
+      {{- $imgSrc = $image.RelPermalink -}}
+      {{- $imgWidth = $image.Width -}}
+      {{- $imgHeight = $image.Height -}}
+    {{- else if $width -}}
       {{- $w := strings.TrimSuffix "px" $width -}}
       {{- if (gt (int $w) 0) -}}
         {{- $processed = $image.Resize (printf "%sx" $w) -}}
@@ -52,19 +57,21 @@
       {{- end -}}
     {{- end -}}
     
-    {{- /* Generate responsive srcset */ -}}
-    {{- $img1x := $processed -}}
-    {{- $img2x := $image -}}
-    {{- if le $image.Width 2400 -}}
-      {{- $img2x = $image.Resize (printf "%dx" (mul $processed.Width 2)) -}}
-    {{- else -}}
-      {{- $img2x = $image.Resize "2400x" -}}
+    {{- if not $isGif -}}
+      {{- /* Generate responsive srcset */ -}}
+      {{- $img1x := $processed -}}
+      {{- $img2x := $image -}}
+      {{- if le $image.Width 2400 -}}
+        {{- $img2x = $image.Resize (printf "%dx" (mul $processed.Width 2)) -}}
+      {{- else -}}
+        {{- $img2x = $image.Resize "2400x" -}}
+      {{- end -}}
+
+      {{- $srcset = printf "%s 1x, %s 2x" $img1x.RelPermalink $img2x.RelPermalink -}}
+      {{- $imgSrc = $processed.RelPermalink -}}
+      {{- $imgWidth = $processed.Width -}}
+      {{- $imgHeight = $processed.Height -}}
     {{- end -}}
-    
-    {{- $srcset = printf "%s 1x, %s 2x" $img1x.RelPermalink $img2x.RelPermalink -}}
-    {{- $imgSrc = $processed.RelPermalink -}}
-    {{- $imgWidth = $processed.Width -}}
-    {{- $imgHeight = $processed.Height -}}
   {{- else -}}
     {{- /* Image not found as resource - use src as-is (fallback for static files) */ -}}
     {{- $imgSrc = partial "url.html" (dict "url" $src) -}}

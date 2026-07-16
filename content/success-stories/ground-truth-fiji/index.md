@@ -26,7 +26,7 @@ Communities in Fiji rely on landscape resources for agricultural and forestry-re
 – Image interpretation using the OpenForis platform will be used to increase the number of ground truth plots.
 – The final ground truth collection will be imported into Google Earth Engine to produce the LULC map and calculate the map accuracy.
 
-{{< figure src="use_study_fiji1.png" alt="Predefined Ground Truth Plots" caption="" >}}
+{{< figure src="use_study_fiji1.webp" alt="Predefined Ground Truth Plots" caption="" >}}
 
 _Figure 1: Predefined Ground Truth Plots_
 

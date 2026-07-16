@@ -22,7 +22,7 @@ categories:
   - qgis
 cover:
   alt: QField_RC3
-  image: QField_RC3.png
+  image: QField_RC3.webp
 date: "2019-01-31T06:51:35+00:00"
 guid: https://opengis.ch/?p=4939
 parent_post_id: null

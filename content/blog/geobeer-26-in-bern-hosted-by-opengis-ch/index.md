@@ -25,7 +25,7 @@ categories:
   - qgis
 cover:
   alt: _MG_3711
-  image: MG_3711.jpg
+  image: MG_3711.webp
 date: "2019-03-25T09:22:43+00:00"
 guid: https://opengis.ch/?p=5295
 parent_post_id: null

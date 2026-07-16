@@ -6,20 +6,20 @@ company: "Ahi Saipaia, Ministry of Agriculture, Food and Forest Tonga"
 description: "In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano
           erupted. Ash clouds from the eruption and the subsequent tsunami
           damaged croplands on the Tongatapu and Ha’apai island groups."
-# image: "tonga-1.jpg"
+# image: "/images/bg/humanitarian.jpg"
 sourceLabel: "Original post (Livelihoods & Landscapes)"
 sourceUrl: "https://livelihoods-and-landscapes.com/examples/hunga-haapai/hunga-haapai.html"
 categories: ["humanitarian-emergency-response", "government-municipalities"]
 featured: true
-image: "tonga-1.jpg"
-ogImage: "https://qfield.org/success-stories/tonga/tonga-1.jpg"
+image: "/images/bg/humanitarian.jpg"
+ogImage: "https://qfield.org/images/bg/humanitarian.jpg"
 ---
 
 ### Context
 
 In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.
 
-{{< figure src="tonga-1.jpg" width="400" alt="mapping-farms" caption="" >}}
+{{< figure src="/images/bg/humanitarian.jpg" width="400" alt="mapping-farms" caption="" >}}
 
 Croplands damaged after Hunga Tonga-Hunga Ha’apai eruption.
 

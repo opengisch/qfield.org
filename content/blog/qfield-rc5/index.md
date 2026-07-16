@@ -37,7 +37,7 @@ categories:
   - qfield
 cover:
   alt: QField_RC5
-  image: QField_RC5.png
+  image: QField_RC5.webp
 date: "2019-03-14T11:50:16+00:00"
 guid: https://opengis.ch/?p=5206
 parent_post_id: null

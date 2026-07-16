@@ -552,7 +552,7 @@ categories:
   - qfield-courses
 cover:
   alt: tim-gouw-73926-unsplash
-  image: tim-gouw-73926-unsplash.jpg
+  image: tim-gouw-73926-unsplash.webp
 date: "2023-03-06T11:00:00+00:00"
 footnotes: ""
 guid: https://opengis.ch/?p=5461

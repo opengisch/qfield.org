@@ -56,9 +56,9 @@ We are launching the [# **MyQField**](https://twitter.com/hashtag/MyQField?src=h
 
 {{< gallery cols="1" >}}  
 {{< figure src="zombie.jpg" alt="Risk assessment" caption="Risk assessment" >}}  
-{{< figure src="20190409_193629.jpg" alt="Location tracking" caption="Location tracking" >}}  
+{{< figure src="20190409_193629.webp" alt="Location tracking" caption="Location tracking" >}}  
 {{< figure src="gnss.jpg" alt="Cadastral surveying" caption="Cadastral surveying" >}}  
-{{< figure src="20190403_164731.jpg" alt="Assets management" caption="Assets management" >}}  
+{{< figure src="20190403_164731.webp" alt="Assets management" caption="Assets management" >}}  
 {{< /gallery >}}  
 
 Fine boring prints:

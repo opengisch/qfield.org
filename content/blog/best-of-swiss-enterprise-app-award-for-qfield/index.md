@@ -72,15 +72,15 @@ And here some moments of the award night. It was a blast!
 
 
 {{< gallery cols="1" >}}  
-{{< figure src="Michael-Quade-Juryprasident-gratuliert-zur-Gold_c_bestofswissapps.ch_.jpg" alt="" caption="" >}}
+{{< figure src="Michael-Quade-Juryprasident-gratuliert-zur-Gold_c_bestofswissapps.ch_.webp" alt="" caption="" >}}
 
 {{< figure src="Best-of-swiss-App-Award-2022_c_bestofswissapps.ch_.jpg" alt="" caption="" >}}
 
 {{< figure src="QField-Werbevideo-bei-der-Awardvergabe_c_opengis.ch_-1.jpg" alt="" caption="" >}}
 
-{{< figure src="winner_selfie_c_opengis.ch_.jpg" alt="" caption="" >}}
+{{< figure src="winner_selfie_c_opengis.ch_.webp" alt="" caption="" >}}
 
 {{< figure src="Marco-Bernasocchi-und-Anna-Randegger-von-OPENGI.ch_c_bestswissapps.ch_.jpg" alt="" caption="" >}}
 
-{{< figure src="qfield_laudatio-c-opengis.ch_.jpg" alt="" caption="" >}}  
+{{< figure src="qfield_laudatio-c-opengis.ch_.webp" alt="" caption="" >}}  
 {{< /gallery >}}  

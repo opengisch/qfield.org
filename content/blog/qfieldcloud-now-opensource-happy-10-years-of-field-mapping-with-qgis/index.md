@@ -179,7 +179,7 @@ From the beginning on, the idea behind QGIS for android was to eventually ditch 
 {{< figure src="Legend2-1.png" alt="UX mockup for the first QML based app" caption="UX mockup for the first QML based app" >}}  
 {{< figure src="Legend2-2.png" alt="UX mockup for the first QML based app" caption="UX mockup for the first QML based app" >}}  
 {{< figure src="Map.png" alt="UX mockup for the first QML based app" caption="UX mockup for the first QML based app" >}}  
-{{< figure src="Screenshot-from-2021-06-06-19-24-45.png" alt="Screenshots of the first QML based UI" caption="Screenshots of the first QML based UI" >}}  
+{{< figure src="Screenshot-from-2021-06-06-19-24-45.webp" alt="Screenshots of the first QML based UI" caption="Screenshots of the first QML based UI" >}}  
 {{< /gallery >}}  
 
 ### The Python failure
@@ -201,7 +201,7 @@ The pivotal point of the Middle Ages was definitely 20.09.2013, when Tim Sutton 
 {{< figure src="wpid-Screenshot_2013-09-19-01-19-31.jpeg" alt="" caption="" >}}  
 {{< figure src="wpid-Screenshot_2013-09-17-23-31-39.jpeg" alt="" caption="" >}}  
 {{< figure src="wpid-Screenshot_2013-09-20-14-30-15.jpeg" alt="" caption="" >}}  
-{{< figure src="Screenshot-from-2021-06-06-19-24-45.png" alt="QField interface preview" caption="QField interface preview" >}}  
+{{< figure src="Screenshot-from-2021-06-06-19-24-45.webp" alt="QField interface preview" caption="QField interface preview" >}}  
 {{< figure src="Screenshot-from-2021-06-07-00-08-00.png" alt="QField UI improvements" caption="QField UI improvements" >}}  
 {{< /gallery >}}  
 

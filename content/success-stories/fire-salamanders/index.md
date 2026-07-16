@@ -9,10 +9,10 @@ company: "BUND Saxony"
 description: "In the steep, forested valleys of Saxony, Germany, a dedicated environmental monitoring team is using QField to
       track one of Europe's most striking amphibians—the fire salamander. This distinctive black-and-yellow creature
       serves as an important indicator species for stream health and ecosystem integrity."
-# image: "salamander-1.JPG"
+# image: "salamander-1.webp"
 categories: ["ecology-environment"]
-image: "salamander-1.JPG"
-ogImage: "https://qfield.org/success-stories/fire-salamanders/salamander-1.JPG"
+image: "salamander-1.webp"
+ogImage: "https://qfield.org/success-stories/fire-salamanders/salamander-1.webp"
 ---
 
 In the steep, forested valleys of Saxony, Germany, a dedicated environmental monitoring team is using QField to track one of Europe's most striking amphibians—the fire salamander. This distinctive black-and-yellow creature serves as an important indicator species for stream health and ecosystem integrity.
@@ -25,7 +25,7 @@ This five-year conservation initiative receives funding from both the EU (80%) a
 
 _"Fire salamanders are indicators of environments that have remained largely untouched for extended periods and streams with clean water,"_ explains the project coordinator, who has a background in environmental monitoring. _"We've discovered they can adapt to various conditions, which tells us important information about our local ecosystems."_
 
-{{< figure src="salamander-1.JPG" alt="fire salamanders" caption="" >}}
+{{< figure src="salamander-1.webp" alt="fire salamanders" caption="" >}}
 
 ### QField in Action: How the Team Collects Data
 
@@ -62,7 +62,7 @@ QField, the team now has:
 \- The ability to include photos directly with observations
 \- Seamless synchronization across the team
 
-{{< figure src="salamander-2.JPG" alt="enter alt" caption="" >}}
+{{< figure src="salamander-2.webp" alt="enter alt" caption="" >}}
 
 ### From Paper to Digital: The QField Advantage
 

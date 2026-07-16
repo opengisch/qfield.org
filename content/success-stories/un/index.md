@@ -8,8 +8,8 @@ description: "The United Nations Open GIS Initiative, a global
             solution for mobile geospatial data collection in UN field
             operations."
 categories: ["government-municipalities"]
-image: "un_img.jpg"
-ogImage: "https://qfield.org/success-stories/un/un_img.jpg"
+image: "/images/customer/un_img.webp"
+ogImage: "https://qfield.org/images/customer/un_img.webp"
 ---
 
 ## 
@@ -33,7 +33,7 @@ Its tight integration with QGIS, offline-first design, and customizable forms ma
   * Support for custom forms, photos, UUIDs, and quality assurance 
   * Open licensing, enabling capacity-building and technology transfer 
 
-{{< img src="images/customer/un_img.jpg" alt="UN Open GIS Initiative" >}}
+{{< img src="images/customer/un_img.webp" alt="UN Open GIS Initiative" >}}
 
 ### 🛰️ UN Recognition for QField's Strategic Role
 

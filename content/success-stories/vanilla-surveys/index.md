@@ -49,7 +49,7 @@ Capturing this information using QField enabled MAFF to identify that large area
 
 The project was funded by the Australian Centre for International Agricultural Research (ACIAR; ASEM/2016/101). 
 
-{{< figure src="use_study_vanilla1.jpg" alt="vanilla surveys" caption="" >}} {{< figure src="use_study_vanilla2.png" alt="vanilla surveys" caption="" >}} {{< figure src="use_study_vanilla3.jpg" alt="extension officers" caption="" >}}
+{{< figure src="use_study_vanilla1.jpg" alt="vanilla surveys" caption="" >}} {{< figure src="use_study_vanilla2.webp" alt="vanilla surveys" caption="" >}} {{< figure src="use_study_vanilla3.jpg" alt="extension officers" caption="" >}}
 
 ##### _Extension Officers, Tangaki Aloua and Selimoti Fetokai, looking for the exact location of the vanilla plantation before the plot survey._
 

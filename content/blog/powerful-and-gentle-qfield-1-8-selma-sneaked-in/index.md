@@ -39,7 +39,7 @@ categories:
   - highlights
 cover:
   alt: freehand
-  image: freehand.png
+  image: freehand.webp
 date: "2021-02-24T06:31:00+00:00"
 guid: https://www.opengis.ch/?p=12073
 obfx-footer-scripts: ""
@@ -62,7 +62,7 @@ Let's have a look.
 
 This might be a feature that brings a lot of fun and professionalism to your work. The freehand digitizing mode allows the user to "draw" lines and polygons with the stylus pen. The mode is available for adding line/polygon features as well as for the ring tool of the geometry editor.
 
-{{< figure src="freehand.png" alt="" caption="" >}}
+{{< figure src="freehand.webp" alt="" caption="" >}}
 
 Together with the powerful options in the topological editing where you can snap to existing features and avoid overlaps, it's very convenient to digitize complex shapes.
 
@@ -148,4 +148,4 @@ In the Play Store you should find this section under the "QField for QGIS" app l
 
 ... why this release is called "Selma". It's of course because of the Mount Selma in Australia... And because it's the name of my beloved cat. That's her - Selma Eulenkopf - staring at me while I'm coding QField.
 
-{{< figure src="selm_office.jpeg" alt="" caption="" >}}
+{{< figure src="selm_office.webp" alt="" caption="" >}}
