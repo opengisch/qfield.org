@@ -213,46 +213,60 @@ menu:
     - name: "Resources"
       identifier: "resources"
       weight: 30
-    - name: "Success Stories"
-      parent: "resources"
-      url: "/success-stories/"
-      weight: 10
-    - name: "Community"
-      parent: "resources"
-      url: "https://community.qfield.org/"
-      weight: 20
+    # Group: Use / evaluate
     - name: "Documentation"
       parent: "resources"
       url: "https://docs.qfield.org"
-      weight: 30
-    - name: "Brand guidelines"
+      weight: 10
+    - name: "Supported hardware"
       parent: "resources"
-      url: "/guidelines/"
-      weight: 35
+      url: "/hardware/"
+      weight: 20
+    - name: "Success Stories"
+      parent: "resources"
+      url: "/success-stories/"
+      weight: 30
+    # Group: Get involved
+    - name: "Community"
+      parent: "resources"
+      url: "https://community.qfield.org/"
+      weight: 40
+      params:
+        divider: true
     - name: "Contribute"
       parent: "resources"
       url: "https://docs.qfield.org/get-started/contribute/"
-      weight: 40
+      weight: 50
     - name: "Source Code"
       parent: "resources"
       url: "https://github.com/opengisch/qfield"
-      weight: 50
+      weight: 60
+    # Group: Partners / values
     - name: "Partner Programs"
       parent: "resources"
       url: "/partner/"
-      weight: 60
+      weight: 70
+      params:
+        divider: true
+    - name: "Brand guidelines"
+      parent: "resources"
+      url: "/guidelines/"
+      weight: 80
     - name: "Sustainable Development Goals"
       parent: "resources"
       url: "/sdgs/"
-      weight: 70
+      weight: 90
+    # Group: Stay updated
     - name: "Blog"
       parent: "resources"
       url: "/blog/"
-      weight: 80
+      weight: 100
+      params:
+        divider: true
     - name: "Newsletter"
       parent: "resources"
       url: "https://qfield.org/landing/newsletter"
-      weight: 90
+      weight: 110
     # - name: "Pricing"
     #   identifier: "pricing"
     #   url: "/pricing/"

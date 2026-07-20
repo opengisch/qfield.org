@@ -48,6 +48,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="{{ $dropdownId }}">
               {{ range .Children -}}
+              {{- if .Params.divider }}<li><hr class="dropdown-divider"></li>{{ end -}}
               {{- $childTarget := "_self" -}}
               {{- if strings.HasPrefix .URL "http" -}}
               {{- $childTarget = "_blank" -}}
