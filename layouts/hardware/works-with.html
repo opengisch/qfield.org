@@ -32,6 +32,9 @@
 
   <section class="py-5">
     <div class="container">
+      {{ with $content.note }}
+        <p class="text-muted small mb-4">{{ . | markdownify }}</p>
+      {{ end }}
       {{ partial "hardware/device-table.html" (dict "devices" $devices "tier" "works-with" "empty" "Works with QField devices will be listed here soon.") }}
     </div>
   </section>

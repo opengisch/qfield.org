@@ -3,6 +3,9 @@
 
 title: "QField hardware"
 
+# Shown above every device list.
+note: "By using the *Buy now* links below you are directly supporting the development of QField."
+
 # Index page (/hardware/) — QField Certified devices
 intro:
   description: |
@@ -15,7 +18,6 @@ intro:
 
 certified:
   title: "QField Certified devices"
-  note: "By using the *Buy now* links below you are directly supporting the development of QField."
 
 # Cross-links between the three tiers; each page shows the two it is not.
 more:
@@ -51,4 +53,4 @@ works_with:
     description: |
       These devices have been tested and reported as functional by their manufacturers or the community.
     details: |
-      Compatibility is self-reported and is not verified by the QField team. By using the *Buy now* links below you are directly supporting the development of QField.
+      Compatibility is self-reported and is not verified by the QField team.

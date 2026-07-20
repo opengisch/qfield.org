@@ -27,7 +27,7 @@
 
   <section class="py-5">
     <div class="container">
-      {{ with $content.certified.note }}
+      {{ with $content.note }}
         <p class="text-muted small mb-4">{{ . | markdownify }}</p>
       {{ end }}
       {{ partial "hardware/device-cards.html" (dict "devices" $certifiedDevices "tier" "certified" "empty" "Certified devices will appear here as soon as they are published.") }}
