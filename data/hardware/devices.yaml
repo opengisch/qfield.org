@@ -71,6 +71,21 @@
 
 # --- QField Native ------------------------------------------------------------
 
+- id: ardusimple-handheld-surveyor-kit
+  level: native
+  brand: "ArduSimple"
+  name: "Handheld Surveyor Kit"
+  image:
+    src: "https://www.ardusimple.com/wp-content/uploads/2025/05/Handheld2_surveyor-kit-hand.jpg"
+    alt: "ArduSimple Handheld Surveyor Kit"
+  description: |
+    Professional centimetre-level RTK surveying in the palm of your hand — a complete, portable mapping kit that pairs with your smartphone for correction data.
+  details: |
+    Built around the u-blox ZED-F9P receiver with a triple-band + L-Band helical antenna, offering simultaneous USB and Bluetooth Low Energy connectivity to Android and iOS devices.
+  link:
+    url: "https://www.ardusimple.com/user-manual-handheld-surveyor-kit/"
+    text: "Buy now"
+
 - id: juniper-spire
   level: native
   brand: "Juniper Systems, Inc."
