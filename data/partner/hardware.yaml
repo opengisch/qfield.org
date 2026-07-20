@@ -1,4 +1,4 @@
-# Hardware partners shown on /partners-hardware/.
+# Hardware partners shown on /hardware-partners/.
 # Same shape as partners.yaml; the `regions` field is not used here (no filter).
 # `logo` and `modal` are optional — cards render fine without them.
 
