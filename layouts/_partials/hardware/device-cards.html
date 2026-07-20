@@ -1,0 +1,43 @@
+{{- /* Renders a card grid for one certification tier.
+       Expects (dict "devices" <slice> "tier" "<certified|native|works-with>" "empty" "<msg>").
+       Devices whose level is higher than the page tier get a badge. */ -}}
+{{- $devices := .devices | default (slice) -}}
+{{- $tier := .tier | default "" -}}
+{{- $empty := .empty | default "No devices listed yet." -}}
+{{ if gt (len $devices) 0 }}
+  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+    {{ range $devices }}
+      {{- $device := . -}}
+      <div class="col">
+        <article class="card h-100 shadow-sm">
+          {{ with $device.image }}
+            {{- $imgSrc := .src | default "" -}}
+            {{ if $imgSrc }}
+              {{- $isExternal := or (hasPrefix $imgSrc "http://") (hasPrefix $imgSrc "https://") -}}
+              {{ if $isExternal }}
+                <img class="card-img-top" src="{{ $imgSrc }}" alt="{{ .alt | default $device.name }}" loading="lazy">
+              {{ else }}
+                <img class="card-img-top" src="{{ $imgSrc | strings.TrimPrefix "/" | relURL }}" alt="{{ .alt | default $device.name }}" loading="lazy">
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          <div class="card-body d-flex flex-column">
+            {{ partial "hardware/badge.html" (dict "level" $device.level "tier" $tier "class" "align-self-start mb-2") }}
+            <h2 class="h5">{{ $device.name }}</h2>
+            {{ with $device.description }}
+              <p class="mb-3 text-muted">{{ . | markdownify }}</p>
+            {{ end }}
+            {{ with $device.details }}
+              <p class="small text-body-secondary">{{ . | markdownify }}</p>
+            {{ end }}
+            {{ with $device.link }}
+              <a class="btn btn-outline-primary mt-auto" href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener">{{ .text | default "Buy now" }}</a>
+            {{ end }}
+          </div>
+        </article>
+      </div>
+    {{ end }}
+  </div>
+{{ else }}
+  <div class="alert alert-info mb-0">{{ $empty }}</div>
+{{ end }}

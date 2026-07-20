@@ -2,7 +2,9 @@
   {{- $hardware := hugo.Data.hardware | default dict -}}
   {{- $content := $hardware.content | default dict -}}
   {{- $native := $content.native | default dict -}}
-  {{- $devices := where ($hardware.devices | default (slice)) "level" "native" -}}
+  {{- $all := $hardware.devices | default (slice) -}}
+  {{- /* Native tier and above (certified first). */ -}}
+  {{- $devices := append (where $all "level" "native") (where $all "level" "certified") -}}
 
   <section class="py-5 border-bottom bg-body-tertiary">
     <div class="container">
@@ -21,7 +23,7 @@
 
   <section class="py-5">
     <div class="container">
-      {{ partial "hardware/device-table.html" (dict "devices" $devices "empty" "QField Native devices will be listed here soon.") }}
+      {{ partial "hardware/device-cards.html" (dict "devices" $devices "tier" "native" "empty" "QField Native devices will be listed here soon.") }}
     </div>
   </section>
 

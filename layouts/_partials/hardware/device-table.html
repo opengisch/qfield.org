@@ -1,6 +1,8 @@
-{{- /* Renders a device table for one certification level.
-       Expects (dict "devices" <slice> "empty" "<empty-state message>"). */ -}}
+{{- /* Renders a device table for one certification tier.
+       Expects (dict "devices" <slice> "tier" "<certified|native|works-with>" "empty" "<msg>").
+       Devices whose level is higher than the page tier get a badge. */ -}}
 {{- $devices := .devices | default (slice) -}}
+{{- $tier := .tier | default "" -}}
 {{- $empty := .empty | default "No devices listed yet." -}}
 {{ if gt (len $devices) 0 }}
   <div class="table-responsive">
@@ -24,7 +26,10 @@
         {{ range $devices }}
           <tr>
             <td>{{ .brand }}</td>
-            <td>{{ .name }}</td>
+            <td>
+              {{ .name }}
+              {{ partial "hardware/badge.html" (dict "level" .level "tier" $tier "class" "ms-1") }}
+            </td>
             <td>{{ .qfield_version }}</td>
             <td>{{ .android }}</td>
             <td>{{ .ios }}</td>
