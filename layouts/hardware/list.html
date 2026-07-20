@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{- $hardware := hugo.Data.hardware | default dict -}}
   {{- $content := $hardware.content | default dict -}}
-  {{- $certifiedDevices := $hardware.certified | default (slice) -}}
+  {{- $certifiedDevices := where ($hardware.devices | default (slice)) "level" "certified" -}}
 
   <section class="py-5 border-bottom bg-body-tertiary">
     <div class="container">

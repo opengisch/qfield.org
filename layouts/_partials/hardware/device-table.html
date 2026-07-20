@@ -1,0 +1,49 @@
+{{- /* Renders a device table for one certification level.
+       Expects (dict "devices" <slice> "empty" "<empty-state message>"). */ -}}
+{{- $devices := .devices | default (slice) -}}
+{{- $empty := .empty | default "No devices listed yet." -}}
+{{ if gt (len $devices) 0 }}
+  <div class="table-responsive">
+    <table class="table table-bordered align-middle">
+      <thead>
+        <tr>
+          <th>Brand</th>
+          <th>Device</th>
+          <th>QField version</th>
+          <th>Android</th>
+          <th>iOS</th>
+          <th>Windows</th>
+          <th>macOS</th>
+          <th>Linux</th>
+          <th>Notes</th>
+          <th>Date</th>
+          <th>Referral</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $devices }}
+          <tr>
+            <td>{{ .brand }}</td>
+            <td>{{ .name }}</td>
+            <td>{{ .qfield_version }}</td>
+            <td>{{ .android }}</td>
+            <td>{{ .ios }}</td>
+            <td>{{ .windows }}</td>
+            <td>{{ .macos }}</td>
+            <td>{{ .linux }}</td>
+            <td>{{ .notes }}</td>
+            <td>{{ .date }}</td>
+            <td>
+              {{ with .link }}
+                {{ if .url }}<a href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener">{{ .text | default "Buy now" }}</a>{{ end }}
+              {{ end }}
+            </td>
+          </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+  <p class="text-muted small mt-3">x: Supported&nbsp;&nbsp;-: Not supported&nbsp;&nbsp;?: Unknown</p>
+{{ else }}
+  <div class="alert alert-info mb-0">{{ $empty }}</div>
+{{ end }}
