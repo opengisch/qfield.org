@@ -11,13 +11,22 @@
       <p class="text-uppercase text-muted small mb-2">
         <a href="{{ partial "url.html" (dict "url" "/hardware/") }}" class="text-decoration-none">{{ i18n "hardware_label" | default "QField hardware" }}</a>
       </p>
-      <h1 class="display-5 fw-semibold mb-3">{{ $native.title | default .Title }}</h1>
-      {{ with $native.intro.description }}
-        <p class="lead mb-3">{{ . | markdownify }}</p>
-      {{ end }}
-      {{ with $native.intro.details }}
-        <div class="text-muted">{{ . | markdownify }}</div>
-      {{ end }}
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <h1 class="display-5 fw-semibold mb-3">{{ $native.title | default .Title }}</h1>
+          {{ with $native.intro.description }}
+            <p class="lead mb-3">{{ . | markdownify }}</p>
+          {{ end }}
+          {{ with $native.intro.details }}
+            <div class="text-muted">{{ . | markdownify }}</div>
+          {{ end }}
+        </div>
+        {{ with $content.intro.cta }}
+          <div class="col-lg-4 text-lg-end">
+            <a class="btn btn-success btn-lg w-100 w-lg-auto" href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener">{{ .text }}</a>
+          </div>
+        {{ end }}
+      </div>
     </div>
   </section>
 
