@@ -1,0 +1,43 @@
+# Hardware partners shown on /partners-hardware/.
+# Same shape as partners.yaml; the `regions` field is not used here (no filter).
+# `logo` and `modal` are optional — cards render fine without them.
+
+- id: happy-survey
+  name: Happy Survey
+  logo:
+    src: "images/partners/happy-mini-q.jpg"
+    alt: "Happy Survey"
+  description: |
+    Swiss maker of the HAPPY MiniQ and HAPPY Mönch GNSS receivers — compact, high-precision positioning devices with IMU, built to work seamlessly with QField.
+  website:
+    url: "https://happysurvey.ch"
+
+- id: samsung
+  name: Samsung
+  logo:
+    src: "https://images.samsung.com/is/image/samsung/p6pim/uk/feature/165074157/uk-feature-tablets-540309214?$FB_TYPE_K_JPG$"
+    alt: "Samsung"
+  description: |
+    Maker of the rugged Galaxy Tab Active and XCover series — MIL-STD-810H tablets and smartphones designed to keep QField running in the harshest field conditions.
+  website:
+    url: "https://www.samsung.com/business/"
+
+# Template for a new hardware partner:
+#
+# - id: acme-gnss
+#   name: Acme GNSS
+#   locations:
+#     - "🇩🇪 Germany"
+#   logo:
+#     src: "images/partners/acme.png"   # optional
+#     alt: "Acme GNSS"
+#   description: |
+#     Short description of the manufacturer and its QField-compatible hardware.
+#   website:
+#     url: "https://example.com"
+#   modal:                              # optional "Read more" details
+#     services:
+#       - "Device line 1"
+#       - "Device line 2"
+#     expertise: |
+#       Longer text shown in the modal.

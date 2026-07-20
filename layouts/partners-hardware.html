@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+<!-- Section #1: claim -->
+<section class="py-5 text-center" aria-labelledby="hero-heading">
+  <div>
+    {{ partial "asset-image.html" (dict
+      "src" "images/logo_qfield-partner.png"
+      "alt" "QField Partner Logo"
+      "class" "partners-logo"
+      "style" "width: 10%; height: auto;"
+    ) }}
+  </div>
+  <h1 id="hero-heading" class="display-4 mb-1">Hardware Partner program</h1>
+</section>
+
+<!-- Section #2: main points -->
+<section id="highlights" class="text-center">
+  <div class="container partners-container">
+    <div class="row">
+      <p>
+        We team up with hardware manufacturers to bring reliable, field-ready
+        GNSS receivers, rugged tablets and smartphones <br>to QField users –
+        tested to work smoothly with your field data workflows.
+      </p>
+      <p>
+        Are you a hardware manufacturer?
+        <a class="txt-link" href="https://forms.clickup.com/2192114/f/22wqj-30275/PL7WYHF6T67DE484DE" target="_blank">Get in touch</a>
+        to learn more about joining our Hardware Partner Program.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    {{ $partners := hugo.Data.partner.hardware }}
+    {{ if $partners }}
+      <div class="row partner-row">
+        {{ range $partners }}
+          {{ partial "partner/profile-card.html" . }}
+        {{ end }}
+      </div>
+
+      {{ range $partners }}
+        {{ partial "partner/profile-modal.html" . }}
+      {{ end }}
+    {{ else }}
+      <p class="text-center">No hardware partners available right now. Check back soon.</p>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}
