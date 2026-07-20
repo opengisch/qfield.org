@@ -1,0 +1,73 @@
+{{ define "main" }}
+  {{- $hardware := hugo.Data.hardware | default dict -}}
+  {{- $content := $hardware.content | default dict -}}
+  {{- $native := $content.native | default dict -}}
+  {{- $devices := $hardware.native.devices | default (slice) -}}
+
+  <section class="py-5 border-bottom bg-body-tertiary">
+    <div class="container">
+      <p class="text-uppercase text-muted small mb-2">
+        <a href="{{ partial "url.html" (dict "url" "/hardware/") }}" class="text-decoration-none">{{ i18n "hardware_label" | default "QField hardware" }}</a>
+      </p>
+      <h1 class="display-5 fw-semibold mb-3">{{ $native.title | default .Title }}</h1>
+      {{ with $native.intro.description }}
+        <p class="lead mb-3">{{ . | markdownify }}</p>
+      {{ end }}
+      {{ with $native.intro.details }}
+        <div class="text-muted">{{ . | markdownify }}</div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      {{ if gt (len $devices) 0 }}
+        <div class="table-responsive">
+          <table class="table table-bordered align-middle">
+            <thead>
+              <tr>
+                <th>Brand</th>
+                <th>Device</th>
+                <th>QField version</th>
+                <th>Android</th>
+                <th>iOS</th>
+                <th>Windows</th>
+                <th>macOS</th>
+                <th>Linux</th>
+                <th>Notes</th>
+                <th>Referral</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $devices }}
+                <tr>
+                  <td>{{ .brand }}</td>
+                  <td>{{ .device }}</td>
+                  <td>{{ .qfield_version }}</td>
+                  <td>{{ .android }}</td>
+                  <td>{{ .ios }}</td>
+                  <td>{{ .windows }}</td>
+                  <td>{{ .macos }}</td>
+                  <td>{{ .linux }}</td>
+                  <td>{{ .notes }}</td>
+                  <td>
+                    {{ with .referral }}
+                      {{ if .url }}<a href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener">{{ .text | default "Buy now" }}</a>{{ end }}
+                    {{ end }}
+                  </td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+        <p class="text-muted small mt-3">x: Supported&nbsp;&nbsp;-: Not supported&nbsp;&nbsp;?: Unknown</p>
+      {{ else }}
+        <div class="alert alert-info mb-0">QField Native devices will be listed here soon.</div>
+      {{ end }}
+    </div>
+  </section>
+
+  {{ with $content.more }}
+    {{ partial "hardware/other-types.html" (slice .certified .works_with) }}
+  {{ end }}
+{{ end }}

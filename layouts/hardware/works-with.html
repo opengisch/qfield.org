@@ -1,0 +1,40 @@
+{{ define "main" }}
+  {{- $hardware := hugo.Data.hardware | default dict -}}
+  {{- $content := $hardware.content | default dict -}}
+  {{- $worksWith := $content.works_with | default dict -}}
+
+  <section class="py-5 border-bottom bg-body-tertiary">
+    <div class="container">
+      <p class="text-uppercase text-muted small mb-2">
+        <a href="{{ partial "url.html" (dict "url" "/hardware/") }}" class="text-decoration-none">{{ i18n "hardware_label" | default "QField hardware" }}</a>
+      </p>
+      <h1 class="display-5 fw-semibold mb-3">{{ $worksWith.title | default .Title }}</h1>
+      {{ with $worksWith.intro.description }}
+        <p class="lead mb-3">{{ . | markdownify }}</p>
+      {{ end }}
+      {{ with $worksWith.intro.details }}
+        <div class="text-muted">{{ . | markdownify }}</div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      {{ with $worksWith.markdown_file }}
+        {{- $staticPath := printf "static/%s" (strings.TrimPrefix "/" .) -}}
+        {{ if fileExists $staticPath }}
+          <div class="markdown-body table-responsive">{{ readFile $staticPath | markdownify }}</div>
+        {{ else }}
+          <div class="alert alert-warning">The referenced file <code>{{ . }}</code> could not be found.</div>
+        {{ end }}
+      {{ end }}
+      {{ with $worksWith.legend }}
+        <p class="text-muted small mt-3">{{ . | safeHTML }}</p>
+      {{ end }}
+    </div>
+  </section>
+
+  {{ with $content.more }}
+    {{ partial "hardware/other-types.html" (slice .certified .native) }}
+  {{ end }}
+{{ end }}

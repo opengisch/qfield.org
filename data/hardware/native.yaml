@@ -1,0 +1,17 @@
+# Natively supported devices.
+# Columns mirror the "Works with QField" table.
+# Platform cells: "x" (supported), "-" (not supported), "?" (unknown) or leave empty.
+# Add one entry per device under `devices:` (remove the empty list once you add the first one).
+devices: []
+#  - brand: "Example Brand"
+#    device: "Model X"
+#    qfield_version: "4.0+"
+#    android: "x"
+#    ios: "x"
+#    windows: "-"
+#    macos: "-"
+#    linux: "-"
+#    notes: ""
+#    referral:
+#      url: "https://example.com"
+#      text: "Buy now"
