@@ -11,7 +11,10 @@
     <ul class="list-unstyled mb-0">
       {{ range . }}
         {{- $base := cond (eq .level "certified") "/hardware/" "/hardware/native/" -}}
-        <li><a href="{{ partial "url.html" (dict "url" $base) }}#{{ .id }}">{{ .name }}</a></li>
+        <li class="mb-1 d-flex justify-content-between align-items-center gap-2">
+          <a href="{{ partial "url.html" (dict "url" $base) }}#{{ .id }}">{{ .name }}</a>
+          {{ partial "hardware/badge.html" (dict "level" .level "tier" "works-with" "class" "flex-shrink-0") }}
+        </li>
       {{ end }}
     </ul>
   </div>
