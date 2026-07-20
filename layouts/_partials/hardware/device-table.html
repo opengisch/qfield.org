@@ -27,8 +27,8 @@
           <tr>
             <td>{{ .brand }}</td>
             <td>
-              {{ .name }}
-              {{ partial "hardware/badge.html" (dict "level" .level "tier" $tier "class" "ms-1") }}
+              <div>{{ .name }}</div>
+              {{ partial "hardware/badge.html" (dict "level" .level "tier" $tier "class" "mt-1") }}
             </td>
             <td>{{ .qfield_version }}</td>
             <td>{{ .android }}</td>

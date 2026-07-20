@@ -70,30 +70,21 @@
     text: "Buy now"
 
 # --- QField Native ------------------------------------------------------------
-# (none yet — add entries with level: native)
+
+- id: juniper-spire
+  level: native
+  brand: "Juniper Systems, Inc."
+  name: "Juniper Spire"
+  image:
+    src: "https://junipersys.com/images/productHeros/spire/hero.webp"
+    alt: "Juniper Spire GNSS receiver"
+  description: |
+    Spire is the latest addition to Juniper Systems' line of GNSS receivers, offering a lightweight solution with a simple design that's easy to use and affordable for those getting started in mapping.
+  details: |
+    A lightweight, rugged multi-frequency receiver delivering sub-metre to 2 cm RTK accuracy, with SBAS and Network RTK ready out of the box, a 20-hour battery, and Bluetooth connectivity to iOS, Android and Windows devices.
 
 # --- Works with QField --------------------------------------------------------
 
-- id: happy-mini-2
-  level: works-with
-  brand: "Happy"
-  name: "Mini 2"
-  qfield_version: "2.8+"
-  android: "x"
-  notes: "Use UDP socket"
-  date: "26.09.23"
-  link:
-    url: "https://happy-q.com"
-    text: "Buy now"
-
-- id: happy-monch-2-ww
-  level: works-with
-  brand: "Happy"
-  name: "Monch 2"
-  qfield_version: "2.8+"
-  android: "x"
-  notes: "Use UDP socket"
-  date: "26.09.23"
 
 - id: general-laser-glrm
   level: works-with

@@ -1,10 +1,10 @@
-{{- /* Renders a "higher tier" badge when a device outranks the current page tier.
+{{- /* Renders the device's certification-tier tag on any page at or below that tier.
        Expects (dict "level" <device level> "tier" <page tier> "class" <extra classes>). */ -}}
 {{- $ranks := dict "certified" 3 "native" 2 "works-with" 1 -}}
 {{- $labels := dict "certified" "QField Certified" "native" "QField Native" "works-with" "Works with QField" -}}
 {{- $styles := dict "certified" "text-bg-success" "native" "text-bg-primary" "works-with" "text-bg-secondary" -}}
 {{- $devRank := index $ranks .level | default 0 -}}
 {{- $pageRank := index $ranks .tier | default 0 -}}
-{{- if gt $devRank $pageRank -}}
+{{- if ge $devRank $pageRank -}}
   <span class="badge {{ index $styles .level }} {{ .class }}">{{ index $labels .level }}</span>
 {{- end -}}
