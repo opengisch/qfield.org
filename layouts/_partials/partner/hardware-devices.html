@@ -1,0 +1,18 @@
+{{- /* Lists a hardware partner's certified/native QField devices as links.
+       Matches devices by brand ($partner.brand, falling back to $partner.name).
+       Renders nothing when the partner has no certified/native devices. */ -}}
+{{- $partner := . -}}
+{{- $brand := $partner.brand | default $partner.name -}}
+{{- $eligible := where (hugo.Data.hardware.devices | default (slice)) "level" "in" (slice "certified" "native") -}}
+{{- $devices := where $eligible "brand" $brand -}}
+{{- with $devices }}
+  <div class="partner-devices mt-3">
+    <p class="small text-muted mb-1">QField-ready devices</p>
+    <ul class="list-unstyled mb-0">
+      {{ range . }}
+        {{- $base := cond (eq .level "certified") "/hardware/" "/hardware/native/" -}}
+        <li><a href="{{ partial "url.html" (dict "url" $base) }}#{{ .id }}">{{ .name }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+{{- end -}}

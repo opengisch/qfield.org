@@ -9,7 +9,7 @@
     {{ range $devices }}
       {{- $device := . -}}
       <div class="col">
-        <article class="card h-100 shadow-sm">
+        <article id="{{ $device.id }}" class="card h-100 shadow-sm" style="scroll-margin-top: 6rem;">
           {{ with $device.image }}
             {{- $imgSrc := .src | default "" -}}
             {{ if $imgSrc }}
