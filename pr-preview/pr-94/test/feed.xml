@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tests on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-94/test/</link>
+    <description>Recent content in Tests on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-94/test/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField Is Cool</title>
+      <link>https://qfield.org/pr-preview/pr-94/test/qfield-is-cool/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-94/test/qfield-is-cool/</guid>
+      
+      <description>A small test page for validating pull request previews.</description>
+      <content:encoded><![CDATA[<h1 id="qfield-is-cool">QField is cool</h1>
+<p>This is a temporary test page for validating the GitHub Pages pull request preview workflow.</p>
+<p>If this page is visible at <code>/test/qfield-is-cool/</code>, the preview deployment is publishing new content correctly.</p>
+<h2 id="what-to-check">What to check</h2>
+<ul>
+<li>The page renders with the normal QField website layout.</li>
+<li>The URL works on the PR preview domain path.</li>
+<li>Links and assets still load when the site is served from a preview subdirectory.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
