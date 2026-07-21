@@ -185,7 +185,7 @@
 </ul>
 <figure class="figure text-center">
   <img
-    src="/pr-preview/pr-89/images/customer/un_img.jpg"
+    src="/pr-preview/pr-89/images/customer/un_img.webp"
     alt="UN Open GIS Initiative"
     class="img-fluid "
     loading="lazy"
@@ -431,7 +431,7 @@
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
 
-<figure class="figure text-center ss-image mb-4"><img src="/pr-preview/pr-89/images/customer/nls4.jpg"
+<figure class="figure text-center ss-image mb-4"><img src="/pr-preview/pr-89/images/customer/nls4.webp"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
@@ -489,7 +489,7 @@
 – Data collected from all tablets was combined into one ground truth data collection in QGIS.
 – Image interpretation using the OpenForis platform will be used to increase the number of ground truth plots.
 – The final ground truth collection will be imported into Google Earth Engine to produce the LULC map and calculate the map accuracy.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1.png" srcset="/pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1.png 1x, /pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1_hu_9ab980b9bf185026.png 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1.webp" srcset="/pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1.webp 1x, /pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1_hu_5cac1d285859a426.webp 2x"
          alt="Predefined Ground Truth Plots" 
          class="figure-img img-fluid gallery-img" width="800" height="1280"
          loading="lazy"></figure>
@@ -580,9 +580,9 @@ The system integrates multiple data types:
       <description>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</description>
       <content:encoded><![CDATA[<h3 id="context">Context</h3>
 <p>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/tonga/tonga-1_hu_ca428536accbf5c.jpg" srcset="/pr-preview/pr-89/success-stories/tonga/tonga-1_hu_ca428536accbf5c.jpg 1x, /pr-preview/pr-89/success-stories/tonga/tonga-1_hu_9b4324597406e078.jpg 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/images/bg/humanitarian.jpg"
          alt="mapping-farms" 
-         class="figure-img img-fluid gallery-img" width="400" height="200" style="ZgotmplZ"
+         class="figure-img img-fluid gallery-img" style="ZgotmplZ"
          loading="lazy"></figure>
 
 <p>Croplands damaged after Hunga Tonga-Hunga Ha’apai eruption.</p>
@@ -627,9 +627,9 @@ The system integrates multiple data types:
 <p>ZIP&rsquo;s mission is breathtaking in scope: to completely remove invasive predators from New Zealand as part of the nationwide Predator Free 2050 initiative. These predators devastate native ecosystems, killing an estimated 25 million native birds annually.</p>
 <p>In South Westland alone, their project area spans 114,000 hectares of challenging terrain. This extraordinary achievement represents a vast predator-free area, protected on all sides by mountains, rivers, the ocean, and a network of remote reporting traps and detection devices.</p>
 <p>As a frame of reference - <em>&ldquo;The scale of the project area is extraordinary: 10 times the size of New Zealand&rsquo;s largest predator-free island, and over 30 times the size of the largest fenced sanctuary.&rdquo;</em></p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/zero-invasive-predators/zero-invasive-6_hu_275f1ae786abb263.jpg" srcset="/pr-preview/pr-89/success-stories/zero-invasive-predators/zero-invasive-6_hu_275f1ae786abb263.jpg 1x, /pr-preview/pr-89/success-stories/zero-invasive-predators/zero-invasive-6_hu_d476a3502de14795.jpg 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/images/customer/zero-invasive-6.webp"
          alt="mt price" 
-         class="figure-img img-fluid gallery-img" width="1200" height="444"
+         class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
 
 <h5 id="waitangitahuna-river-on-the-left-and-whataroa-from-mt-price"><em>Waitangitahuna River on the left and Whataroa from Mt Price</em></h5>

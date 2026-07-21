@@ -3,27 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://qfield.org/pr-preview/pr-89/pricing/</loc>
-    <lastmod>2026-07-08T16:49:49+02:00</lastmod>
+    <lastmod>2026-07-12T17:16:59+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/</loc>
-    <lastmod>2026-07-07T18:54:58+12:00</lastmod>
+    <lastmod>2026-07-21T13:41:29+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/humanitarian-emergency-response/</loc>
-    <lastmod>2026-07-07T18:54:58+12:00</lastmod>
+    <lastmod>2026-07-21T13:41:29+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/success-stories/find-our-lost-loved-ones/</loc>
-    <lastmod>2026-07-07T18:54:58+12:00</lastmod>
+    <lastmod>2026-07-21T13:41:29+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/highlights/</loc>
-    <lastmod>2026-06-18T15:25:07+07:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -33,12 +33,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/tags/qgis.org/</loc>
-    <lastmod>2026-06-18T15:25:07+07:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/tags/</loc>
-    <lastmod>2026-06-18T15:25:07+07:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -57,6 +57,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-89/categories/ecology-environment/</loc>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-89/success-stories/withoneseed-timor-leste/</loc>
+    <lastmod>2026-07-07T07:31:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/test/qfield-is-cool/</loc>
     <lastmod>2026-05-06T11:31:05+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -68,7 +78,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/government-municipalities/</loc>
-    <lastmod>2026-05-24T12:31:43+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -84,11 +94,6 @@
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/guidelines/</loc>
     <lastmod>2026-03-20T11:48:04+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://qfield.org/pr-preview/pr-89/categories/ecology-environment/</loc>
-    <lastmod>2026-05-11T19:30:04+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -143,7 +148,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/water-land-management/</loc>
-    <lastmod>2026-05-24T12:31:43+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -168,7 +173,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/redirects/</loc>
-    <lastmod>2026-02-05T16:17:20+01:00</lastmod>
+    <lastmod>2026-07-20T23:18:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -187,11 +192,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/pr-preview/pr-89/certified-hardware/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/donate/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -203,7 +203,17 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/hardware/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <lastmod>2026-07-20T23:18:00+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-89/hardware-partners/</loc>
+    <lastmod>2026-07-20T23:32:57+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://qfield.org/pr-preview/pr-89/hardware/native/</loc>
+    <lastmod>2026-07-20T23:18:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -232,8 +242,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qfield.org/pr-preview/pr-89/hardware/works-with/</loc>
+    <lastmod>2026-07-20T23:18:00+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/success-stories/un/</loc>
-    <lastmod>2026-05-08T01:20:25+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -253,7 +268,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/success-stories/nls/</loc>
-    <lastmod>2026-05-24T12:31:43+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -263,17 +278,17 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/success-stories/geological-mapping/</loc>
-    <lastmod>2026-05-08T01:20:25+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/success-stories/ground-truth-fiji/</loc>
-    <lastmod>2026-05-08T01:20:25+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/success-stories/heritage-impact-assessment/</loc>
-    <lastmod>2026-05-08T01:20:25+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -288,12 +303,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/success-stories/fire-salamanders/</loc>
-    <lastmod>2026-05-11T19:30:04+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/precision-agriculture/</loc>
-    <lastmod>2026-05-08T01:20:25+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -308,12 +323,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/success-stories/tonga/</loc>
-    <lastmod>2026-05-08T01:35:36+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/success-stories/mapping-breeding-birds/</loc>
-    <lastmod>2026-05-08T01:20:25+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -323,7 +338,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/success-stories/vanilla-surveys/</loc>
-    <lastmod>2026-05-08T01:20:25+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -333,12 +348,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/success-stories/zero-invasive-predators/</loc>
-    <lastmod>2026-05-08T01:20:25+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/gis/</loc>
-    <lastmod>2026-03-08T19:27:00+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -353,7 +368,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/qfield/</loc>
-    <lastmod>2026-03-08T19:27:00+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -368,12 +383,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/events/</loc>
-    <lastmod>2025-12-17T19:47:09+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/qgis/</loc>
-    <lastmod>2026-03-08T19:27:00+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -443,7 +458,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/social-responsibility/</loc>
-    <lastmod>2026-03-08T19:05:40+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -508,12 +523,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2023/03/06/qfield-jump-start/</loc>
-    <lastmod>2025-12-01T11:53:43+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/qfield-courses/</loc>
-    <lastmod>2025-12-01T11:53:43+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -533,7 +548,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2022/11/03/best-of-swiss-enterprise-app-award-for-qfield/</loc>
-    <lastmod>2026-03-08T19:05:40+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -573,22 +588,22 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/</loc>
-    <lastmod>2026-03-08T19:05:40+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/android-qgis/</loc>
-    <lastmod>2026-03-08T19:05:40+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/featured/</loc>
-    <lastmod>2026-03-08T19:05:40+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2021/02/24/powerful-and-gentle-qfield-1.8-selma-sneaked-in/</loc>
-    <lastmod>2026-03-08T19:05:40+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -598,7 +613,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2020/08/18/qfield-1.6-is-out/</loc>
-    <lastmod>2026-03-08T19:05:40+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -623,42 +638,42 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2019/04/11/win-a-qfield-jump-start-package-use-%23myqfield/</loc>
-    <lastmod>2025-12-01T11:53:43+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/categories/android/</loc>
-    <lastmod>2026-03-08T19:05:40+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2019/03/28/qfield-1.0-is-here/</loc>
-    <lastmod>2026-03-08T19:05:40+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</loc>
-    <lastmod>2025-12-01T11:53:43+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2019/03/14/qfield-rc5-last-call-for-testing/</loc>
-    <lastmod>2025-12-01T11:53:43+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/</loc>
-    <lastmod>2025-12-01T11:53:43+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2019/01/08/new-years-present-qfield-1.0-rc1/</loc>
-    <lastmod>2025-12-01T11:53:43+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/blog/2019/01/08/new-year%23039s-present-qfield-1.0-rc1/</loc>
-    <lastmod>2025-12-01T11:53:43+01:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1332,7 +1347,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://qfield.org/pr-preview/pr-89/</loc>
-    <lastmod>2026-05-11T12:12:28+02:00</lastmod>
+    <lastmod>2026-07-15T11:28:13+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

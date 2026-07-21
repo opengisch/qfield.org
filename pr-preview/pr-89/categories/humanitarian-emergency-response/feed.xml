@@ -171,7 +171,7 @@ This application, although it presents itself with a very simple interface, is <
 G.G.</p>
 <h3 id="working-with-qfield-in-an-open-area-excavation">Working with QField in an Open Area Excavation</h3>
 <p>In an open area excavation scenario, the advantages and convenience of using an App such as QField are innumerable. This is true especially in commercial archaeology sites, where very often the deadlines to carry out the work and the budgets available for the archaeological investigation are very tight. This forces you to work with the maximum optimisation of the timing and assets, despite the fact that the weather and visibility conditions in the field are often poor (Figure 2).</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_6e64f75aab04fe58.png" srcset="/pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_6e64f75aab04fe58.png 1x, /pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_6fa6fab95199e02c.png 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_92cc39769f541ed0.webp" srcset="/pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_92cc39769f541ed0.webp 1x, /pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_9f1d3f4f3bc4a9b1.webp 2x"
          alt="figure 2" 
          class="figure-img img-fluid gallery-img" width="1200" height="347"
          loading="lazy"></figure>
@@ -295,9 +295,9 @@ Even in this case, the QGIS “print composer” allows us to develop customised
       <description>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</description>
       <content:encoded><![CDATA[<h3 id="context">Context</h3>
 <p>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/tonga/tonga-1_hu_ca428536accbf5c.jpg" srcset="/pr-preview/pr-89/success-stories/tonga/tonga-1_hu_ca428536accbf5c.jpg 1x, /pr-preview/pr-89/success-stories/tonga/tonga-1_hu_9b4324597406e078.jpg 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/images/bg/humanitarian.jpg"
          alt="mapping-farms" 
-         class="figure-img img-fluid gallery-img" width="400" height="200" style="ZgotmplZ"
+         class="figure-img img-fluid gallery-img" style="ZgotmplZ"
          loading="lazy"></figure>
 
 <p>Croplands damaged after Hunga Tonga-Hunga Ha’apai eruption.</p>

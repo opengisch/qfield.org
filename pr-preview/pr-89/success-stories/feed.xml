@@ -55,6 +55,55 @@
     </item>
     
     <item>
+      <title>From 12 Farmers to a National Programme: WithOneSeed Maps Timor-Leste&#39;s Reforestation with QField</title>
+      <link>https://qfield.org/pr-preview/pr-89/success-stories/withoneseed-timor-leste/</link>
+      <pubDate>Thu, 14 May 2026 00:05:00 +0200</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-89/success-stories/withoneseed-timor-leste/</guid>
+      
+      <description>What began with twelve farmers replanting their land has grown into a national reforestation programme aiming for 10 million trees and 20,000 farming families. Inside the QField workflow that maps farm boundaries, tracks every tree, and turns rural communities into the people doing the mapping — not the people being mapped.</description>
+      <content:encoded><![CDATA[<h3 id="the-challenge">The Challenge</h3>
+<p>After decades of deforestation, Timor-Leste needed a way for rural communities to put trees back into their landscapes — and a way to pay people for keeping them alive.</p>
+<p>What became the WithOneSeed programme began in 2009 with twelve farmers in a single community. The arrangement was simple to describe and slow to gain trust: for every tree a farmer planted and kept alive for twelve months, the programme would pay 50 cents per tree, every year, for the life of that tree. The Australian-based <a href="https://www.xpand.net.au/" target="_blank" rel="noopener">xpand Foundation</a>
+ brokered the early funding. Most people in the community took a while to believe the offer was real.</p>
+<p>Fifteen years on, that pilot community has close to a thousand participating farmers and more than 600,000 trees in the ground. The programme is certified under the <a href="https://www.goldstandard.org/" target="_blank" rel="noopener">Gold Standard</a>
+ for carbon credits, which finances the annual payments back to farmers. In 2020 the European Union supported expansion into six further communities, and the programme is now scaling toward a national footprint: a target of 10 million trees, 20,000 farming families, and 17 million tonnes of carbon sequestered.</p>
+<p>That scale created a new problem.</p>
+<p>To register and monitor every farm, the team had to capture eligibility assessments, polygon farm boundaries, planting dates, and per-tree identifiers — across thousands of farms, multiple districts, and remote rural areas where mobile signal is unreliable and field staff aren&rsquo;t GIS specialists. Early attempts using KML files synced through cloud storage got messy quickly. Files went missing. Versions diverged. The manual pipeline could not keep up with the rate of new farms entering the programme.</p>
+<h3 id="the-solution">The Solution</h3>
+<p>The mapping workflow was rebuilt around QGIS, QField, and QFieldCloud.</p>
+<p>Each farm registration starts on a tablet in the field, in QField. Field staff walk the boundary, record the polygon, capture the farmer&rsquo;s details, and tag the planting date and tree IDs against the farm record. The form structure is designed once in QGIS and pushed to every device — so every field worker, regardless of GIS experience, collects the same fields, the same way.</p>
+<p>Crucially, QField runs <strong>fully offline</strong>. Basemaps are packaged onto the device before staff leave for the field. New boundaries and attribute data are captured wherever the work happens — in communities with little or no mobile coverage — and synchronise to <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+ the moment a device returns to a connected office.</p>
+<p>The programme runs three QFieldCloud roles in parallel:</p>
+<ul>
+<li><strong>Managers</strong> organise the project structure and oversight on QFieldCloud</li>
+<li><strong>Admins</strong> maintain the data model, push updates out to the field, and monitor incoming data in QGIS</li>
+<li><strong>Field staff</strong> see the project read-only on their devices and add new farm boundaries</li>
+</ul>
+<p>Field staff were trained on-site, over a week of classroom sessions and hands-on field walks. None were GIS specialists when they started; the team simply learned by doing.</p>
+<p>A separate tree-tagging system handles the annual count: every tree carries a physical tag, and field crews scan the tags each year to confirm the trees are still alive. Those results are imported into QGIS and matched against the farm boundaries captured in QField — closing the loop between the polygons drawn in the field and the carbon payments returning to the farmers.</p>
+<h3 id="the-result">The Result</h3>
+<p>The QField workflow now supports the operational backbone of the programme:</p>
+<ul>
+<li><strong>Around 3,000 farms registered</strong>, growing by more than a thousand farms per year</li>
+<li><strong>Six project areas</strong> across multiple districts, each run by a partner organisation</li>
+<li><strong>Around 100 field staff</strong> using QField across the partner network</li>
+<li><strong>Files no longer go missing.</strong> Every farm boundary, attribute, and photo is captured directly against the QGIS data model and synced through QFieldCloud, replacing the earlier cloud-storage pipeline that was losing files and versions</li>
+<li>The data model and three-role workflow are designed to scale to the <strong>national target of 10 million trees and 20,000 farming families</strong></li>
+</ul>
+<p>The programme is also a jobs programme. Annual tree counts, tagging, and farm registration sustain rural employment — work that would otherwise pull young people to the capital city in search of jobs. Tree payments feed into women-led savings and loans groups, school fees, and small social enterprises that have spun out of the programme. Connectivity has improved as a side effect, too: every district office now has Starlink, which keeps the QFieldCloud sync reliable in places that had little reliable internet at all.</p>
+<p>Most importantly, the people doing the mapping are the people living on the land. Communities that have historically had mapping <em>done to them</em> are the ones holding the tablets.</p>
+<blockquote>
+<p>&ldquo;We don&rsquo;t lose anything. Field staff collect offline, and when they&rsquo;re back online, everything pushes to the cloud. We can monitor the data immediately.&rdquo;</p>
+</blockquote>
+<h3 id="scaling-the-model">Scaling the Model</h3>
+<p>The WithOneSeed approach — community planting, annual verification, carbon-finance payback, and a QField-based mapping spine — is being designed for replication. The next phase scales the same workflow nationally across Timor-Leste, with partner organisations running parallel project areas under a shared data model. The technology stack does not need to change to support it. The QGIS project, QField forms, and QFieldCloud roles already in production are the same ones that will carry the programme to 10 million trees.</p>
+]]></content:encoded>
+      <category domain="categories">ecology-environment</category>
+    </item>
+    
+    <item>
       <title>Unlocking Scalable National Field Operations with QField Cloud</title>
       <link>https://qfield.org/pr-preview/pr-89/success-stories/kan-inec-costa-rica/</link>
       <pubDate>Tue, 28 Apr 2026 00:05:00 +0200</pubDate>
@@ -323,7 +372,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783564971-119022471"
+     data-gallery-id="gallery-1784605502-103223204"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -351,7 +400,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1783564971-119022471 .carousel-item .gallery-img {
+#gallery-1784605502-103223204 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -359,11 +408,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1783564971-119022471 .carousel-item {
+#gallery-1784605502-103223204 .carousel-item {
   height: auto;
 }
 
-#gallery-1783564971-119022471 .carousel-item .figure {
+#gallery-1784605502-103223204 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -372,11 +421,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1783564971-119022471 .carousel-item .figure .gallery-img {
+#gallery-1784605502-103223204 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783564971-119022471 .carousel-item .figure .figure-caption {
+#gallery-1784605502-103223204 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -385,13 +434,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1783564971-119022471 .carousel-item .gallery-img {
+  #gallery-1784605502-103223204 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783564971-119022471 .carousel-item .gallery-img {
+  #gallery-1784605502-103223204 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -428,7 +477,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 </ul>
 <figure class="figure text-center">
   <img
-    src="/pr-preview/pr-89/images/customer/un_img.jpg"
+    src="/pr-preview/pr-89/images/customer/un_img.webp"
     alt="UN Open GIS Initiative"
     class="img-fluid "
     loading="lazy"
@@ -674,7 +723,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
 
-<figure class="figure text-center ss-image mb-4"><img src="/pr-preview/pr-89/images/customer/nls4.jpg"
+<figure class="figure text-center ss-image mb-4"><img src="/pr-preview/pr-89/images/customer/nls4.webp"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
@@ -786,13 +835,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 <p>Field data collection includes adding point data for map stations, structures, photos, and samples. Polygons and lines are drawn freehand with a stylus or adding vertices manually.</p>
 <p>Location and direction of travel are displayed using internal device GPS (or external GPS device linked via Bluetooth), historic vector and raster layers can be viewed relative to location. Current and historic vector layers can be searched and viewed in QField.</p>
 <p>Field data are synchronized in QGIS followed by a short data clean up and verification process. The QGIS project is then exported back to QField for additional data collection.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_af62a0d62c86700c.png" srcset="/pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_af62a0d62c86700c.png 1x, /pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_311df3fb9d8ab4b6.png 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_c1b4cc7a6dfb19dc.webp" srcset="/pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_c1b4cc7a6dfb19dc.webp 1x, /pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_d143cc727ed95f8.webp 2x"
          alt="Geologic field" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
 
 <p><em>Figure 2: Field work</em></p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_15c99c22080620f.jpg" srcset="/pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_15c99c22080620f.jpg 1x, /pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_23e111a495725f91.jpg 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_b7cfa3061349a1f4.webp" srcset="/pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_b7cfa3061349a1f4.webp 1x, /pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_27d6dda6012b7e3.webp 2x"
          alt="Geologic field" 
          class="figure-img img-fluid gallery-img" width="1200" height="750"
          loading="lazy"></figure>
@@ -830,7 +879,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 – Data collected from all tablets was combined into one ground truth data collection in QGIS.
 – Image interpretation using the OpenForis platform will be used to increase the number of ground truth plots.
 – The final ground truth collection will be imported into Google Earth Engine to produce the LULC map and calculate the map accuracy.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1.png" srcset="/pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1.png 1x, /pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1_hu_9ab980b9bf185026.png 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1.webp" srcset="/pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1.webp 1x, /pr-preview/pr-89/success-stories/ground-truth-fiji/use_study_fiji1_hu_5cac1d285859a426.webp 2x"
          alt="Predefined Ground Truth Plots" 
          class="figure-img img-fluid gallery-img" width="800" height="1280"
          loading="lazy"></figure>
@@ -923,7 +972,7 @@ This application, although it presents itself with a very simple interface, is <
 G.G.</p>
 <h3 id="working-with-qfield-in-an-open-area-excavation">Working with QField in an Open Area Excavation</h3>
 <p>In an open area excavation scenario, the advantages and convenience of using an App such as QField are innumerable. This is true especially in commercial archaeology sites, where very often the deadlines to carry out the work and the budgets available for the archaeological investigation are very tight. This forces you to work with the maximum optimisation of the timing and assets, despite the fact that the weather and visibility conditions in the field are often poor (Figure 2).</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_6e64f75aab04fe58.png" srcset="/pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_6e64f75aab04fe58.png 1x, /pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_6fa6fab95199e02c.png 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_92cc39769f541ed0.webp" srcset="/pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_92cc39769f541ed0.webp 1x, /pr-preview/pr-89/success-stories/heritage-impact-assessment/heritage_impact_figure2_hu_9f1d3f4f3bc4a9b1.webp 2x"
          alt="figure 2" 
          class="figure-img img-fluid gallery-img" width="1200" height="347"
          loading="lazy"></figure>
@@ -1091,7 +1140,7 @@ Even in this case, the QGIS “print composer” allows us to develop customised
 <p>Working for BUND (Bund für Umwelt- und Naturschutz-Börgerland) in Saxony, a regional environmental protection organization with approximately 10,000 members, the project coordinator leads a team focused specifically on monitoring fire salamander populations and their habitats.</p>
 <p>This five-year conservation initiative receives funding from both the EU (80%) and the state of Saxony (20%), with specific objectives to track fire salamander populations and assess their environments. What began as a solo monitoring effort has expanded to include four dedicated field workers who collect data systematically across numerous streams.</p>
 <p><em>&ldquo;Fire salamanders are indicators of environments that have remained largely untouched for extended periods and streams with clean water,&rdquo;</em> explains the project coordinator, who has a background in environmental monitoring. <em>&ldquo;We&rsquo;ve discovered they can adapt to various conditions, which tells us important information about our local ecosystems.&rdquo;</em></p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/fire-salamanders/salamander-1_hu_6a23bbb362b6d099.JPG" srcset="/pr-preview/pr-89/success-stories/fire-salamanders/salamander-1_hu_6a23bbb362b6d099.JPG 1x, /pr-preview/pr-89/success-stories/fire-salamanders/salamander-1_hu_3db7303118bc1f5c.JPG 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/fire-salamanders/salamander-1_hu_c233db6e6ea5a65a.webp" srcset="/pr-preview/pr-89/success-stories/fire-salamanders/salamander-1_hu_c233db6e6ea5a65a.webp 1x, /pr-preview/pr-89/success-stories/fire-salamanders/salamander-1_hu_ea8f8caf2bc4b895.webp 2x"
          alt="fire salamanders" 
          class="figure-img img-fluid gallery-img" width="1200" height="1200"
          loading="lazy"></figure>
@@ -1128,7 +1177,7 @@ Even in this case, the QGIS “print composer” allows us to develop customised
 - Precise GPS positioning
 - The ability to include photos directly with observations
 - Seamless synchronization across the team</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/fire-salamanders/salamander-2_hu_fbf1f66ab1d09f01.JPG" srcset="/pr-preview/pr-89/success-stories/fire-salamanders/salamander-2_hu_fbf1f66ab1d09f01.JPG 1x, /pr-preview/pr-89/success-stories/fire-salamanders/salamander-2_hu_a856c49761e0acca.JPG 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/fire-salamanders/salamander-2_hu_ef80d47cff98fe81.webp" srcset="/pr-preview/pr-89/success-stories/fire-salamanders/salamander-2_hu_ef80d47cff98fe81.webp 1x, /pr-preview/pr-89/success-stories/fire-salamanders/salamander-2_hu_c268585da446525b.webp 2x"
          alt="enter alt" 
          class="figure-img img-fluid gallery-img" width="1200" height="1600"
          loading="lazy"></figure>
@@ -1258,9 +1307,9 @@ Back at the office, it took only 2 hours to treat the data and get the final res
       <description>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</description>
       <content:encoded><![CDATA[<h3 id="context">Context</h3>
 <p>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/tonga/tonga-1_hu_ca428536accbf5c.jpg" srcset="/pr-preview/pr-89/success-stories/tonga/tonga-1_hu_ca428536accbf5c.jpg 1x, /pr-preview/pr-89/success-stories/tonga/tonga-1_hu_9b4324597406e078.jpg 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/images/bg/humanitarian.jpg"
          alt="mapping-farms" 
-         class="figure-img img-fluid gallery-img" width="400" height="200" style="ZgotmplZ"
+         class="figure-img img-fluid gallery-img" style="ZgotmplZ"
          loading="lazy"></figure>
 
 <p>Croplands damaged after Hunga Tonga-Hunga Ha’apai eruption.</p>
@@ -1329,7 +1378,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          loading="lazy"></figure>
 
 <h5 id="sketch-of-the-qfield-interface-for-data-entry-we-used-a-geopackage-file-with-custom-dropdown-list-and-entry-restrictions"><em>Sketch of the QField Interface. For data entry we used a geopackage file with custom dropdown list and entry restrictions.</em></h5>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/mapping-breeding-birds/wattenmeer4_hu_71708926f75e307e.jpg" srcset="/pr-preview/pr-89/success-stories/mapping-breeding-birds/wattenmeer4_hu_71708926f75e307e.jpg 1x, /pr-preview/pr-89/success-stories/mapping-breeding-birds/wattenmeer4_hu_e4e1418dcfcb0cb0.jpg 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/mapping-breeding-birds/wattenmeer4_hu_93f4a1cb5561094b.webp" srcset="/pr-preview/pr-89/success-stories/mapping-breeding-birds/wattenmeer4_hu_93f4a1cb5561094b.webp 1x, /pr-preview/pr-89/success-stories/mapping-breeding-birds/wattenmeer4_hu_8591d2df45889f2b.webp 2x"
          alt="logged observations in QField" 
          class="figure-img img-fluid gallery-img" width="1200" height="750"
          loading="lazy"></figure>
@@ -1449,7 +1498,7 @@ Back at the office, it took only 2 hours to treat the data and get the final res
          alt="vanilla surveys" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
- <figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/vanilla-surveys/use_study_vanilla2_hu_d48d9fe64809097d.png" srcset="/pr-preview/pr-89/success-stories/vanilla-surveys/use_study_vanilla2_hu_d48d9fe64809097d.png 1x, /pr-preview/pr-89/success-stories/vanilla-surveys/use_study_vanilla2_hu_e0378c1f83b5817.png 2x"
+ <figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/vanilla-surveys/use_study_vanilla2_hu_d61a67be6ca4f1b0.webp" srcset="/pr-preview/pr-89/success-stories/vanilla-surveys/use_study_vanilla2_hu_d61a67be6ca4f1b0.webp 1x, /pr-preview/pr-89/success-stories/vanilla-surveys/use_study_vanilla2_hu_5e687ab8f70e61a7.webp 2x"
           alt="vanilla surveys" 
           class="figure-img img-fluid gallery-img" width="1200" height="849"
           loading="lazy"></figure>
@@ -1561,9 +1610,9 @@ Back at the office, it took only 2 hours to treat the data and get the final res
 <p>ZIP&rsquo;s mission is breathtaking in scope: to completely remove invasive predators from New Zealand as part of the nationwide Predator Free 2050 initiative. These predators devastate native ecosystems, killing an estimated 25 million native birds annually.</p>
 <p>In South Westland alone, their project area spans 114,000 hectares of challenging terrain. This extraordinary achievement represents a vast predator-free area, protected on all sides by mountains, rivers, the ocean, and a network of remote reporting traps and detection devices.</p>
 <p>As a frame of reference - <em>&ldquo;The scale of the project area is extraordinary: 10 times the size of New Zealand&rsquo;s largest predator-free island, and over 30 times the size of the largest fenced sanctuary.&rdquo;</em></p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/zero-invasive-predators/zero-invasive-6_hu_275f1ae786abb263.jpg" srcset="/pr-preview/pr-89/success-stories/zero-invasive-predators/zero-invasive-6_hu_275f1ae786abb263.jpg 1x, /pr-preview/pr-89/success-stories/zero-invasive-predators/zero-invasive-6_hu_d476a3502de14795.jpg 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/images/customer/zero-invasive-6.webp"
          alt="mt price" 
-         class="figure-img img-fluid gallery-img" width="1200" height="444"
+         class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
 
 <h5 id="waitangitahuna-river-on-the-left-and-whataroa-from-mt-price"><em>Waitangitahuna River on the left and Whataroa from Mt Price</em></h5>

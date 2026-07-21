@@ -82,7 +82,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1783564971-119022471"
+     data-gallery-id="gallery-1784605502-103223204"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -110,7 +110,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1783564971-119022471 .carousel-item .gallery-img {
+#gallery-1784605502-103223204 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -118,11 +118,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1783564971-119022471 .carousel-item {
+#gallery-1784605502-103223204 .carousel-item {
   height: auto;
 }
 
-#gallery-1783564971-119022471 .carousel-item .figure {
+#gallery-1784605502-103223204 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -131,11 +131,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1783564971-119022471 .carousel-item .figure .gallery-img {
+#gallery-1784605502-103223204 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1783564971-119022471 .carousel-item .figure .figure-caption {
+#gallery-1784605502-103223204 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -144,13 +144,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1783564971-119022471 .carousel-item .gallery-img {
+  #gallery-1784605502-103223204 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1783564971-119022471 .carousel-item .gallery-img {
+  #gallery-1784605502-103223204 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -247,7 +247,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
 
-<figure class="figure text-center ss-image mb-4"><img src="/pr-preview/pr-89/images/customer/nls4.jpg"
+<figure class="figure text-center ss-image mb-4"><img src="/pr-preview/pr-89/images/customer/nls4.webp"
          alt="Field mapping with QField" 
          class="figure-img img-fluid gallery-img"
          loading="lazy"></figure>
@@ -318,13 +318,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 <p>Field data collection includes adding point data for map stations, structures, photos, and samples. Polygons and lines are drawn freehand with a stylus or adding vertices manually.</p>
 <p>Location and direction of travel are displayed using internal device GPS (or external GPS device linked via Bluetooth), historic vector and raster layers can be viewed relative to location. Current and historic vector layers can be searched and viewed in QField.</p>
 <p>Field data are synchronized in QGIS followed by a short data clean up and verification process. The QGIS project is then exported back to QField for additional data collection.</p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_af62a0d62c86700c.png" srcset="/pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_af62a0d62c86700c.png 1x, /pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_311df3fb9d8ab4b6.png 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_c1b4cc7a6dfb19dc.webp" srcset="/pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_c1b4cc7a6dfb19dc.webp 1x, /pr-preview/pr-89/success-stories/geological-mapping/geologic_field_hu_d143cc727ed95f8.webp 2x"
          alt="Geologic field" 
          class="figure-img img-fluid gallery-img" width="1200" height="900"
          loading="lazy"></figure>
 
 <p><em>Figure 2: Field work</em></p>
-<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_15c99c22080620f.jpg" srcset="/pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_15c99c22080620f.jpg 1x, /pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_23e111a495725f91.jpg 2x"
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_b7cfa3061349a1f4.webp" srcset="/pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_b7cfa3061349a1f4.webp 1x, /pr-preview/pr-89/success-stories/geological-mapping/geologic_station_qf_hu_27d6dda6012b7e3.webp 2x"
          alt="Geologic field" 
          class="figure-img img-fluid gallery-img" width="1200" height="750"
          loading="lazy"></figure>
