@@ -1,7 +1,7 @@
 ---
 title: "One Shared Map: Finding Australia's Missing with QField"
 date: "2026-07-07T00:00:00+00:00"
-draft: true
+draft: false
 company: "Find Our Lost Loved Ones (FOLLO)"
 description: "Find Our Lost Loved Ones, an Australian volunteer nonprofit, uses QField, QGIS and QFieldCloud to coordinate large ground searches for missing people. In 2026 the team located two missing people that official searches could not, giving their families an end to years of uncertainty."
 image: "follo.jpg"
