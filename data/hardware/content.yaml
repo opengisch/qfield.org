@@ -18,6 +18,8 @@ intro:
 
 certified:
   title: "QField Certified devices"
+  description: |
+    Tested by our team on physical hardware before every major QField release, so you get reliable, guaranteed compatibility out of the box. Every QField Certified device is also QField Native, so it connects through the same open, standard protocols and keeps the same smooth, app-free setup.
 
 # Cross-links between the three tiers; each page shows the two it is not.
 more:
@@ -29,7 +31,7 @@ more:
   native:
     title: "QField Native devices"
     description: "Devices that connect out of the box using QField's built-in NTRIP client and NMEA parser."
-    url: "/hardware/native/"
+    url: "/hardware/#native"
     text: "See QField Native devices"
   works_with:
     title: "Works with QField devices"
@@ -37,14 +39,14 @@ more:
     url: "/hardware/works-with/"
     text: "See Works with QField devices"
 
-# Native page (/hardware/native/)
+# QField Native section (/hardware/#native)
 native:
   title: "QField Native devices"
   intro:
     description: |
       QField Native devices connect to QField using its built-in NTRIP client and NMEA parser — no extra background app is required to receive high-accuracy positioning.
     details: |
-      QField implements open, standard protocols that these devices use directly: **Bluetooth SPP** (Android), **BLE** (Android/iOS), **TCP** (Android/iOS) and **UDP** (Android). Manufacturer apps can still be used for initial setup or firmware updates. This tier does not include ongoing compatibility guarantees — for verified compatibility on every release, see our [QField Certified devices](/hardware/).
+      QField implements open, standard protocols that these devices use directly: **Bluetooth SPP** (Android), **BLE** (Android/iOS), **TCP** (Android/iOS) and **UDP** (Android). Manufacturer apps can still be used for initial setup or firmware updates. This tier does not include ongoing compatibility guarantees — for verified compatibility on every release, see our [QField Certified devices](#certified).
 
 # Works with page (/hardware/works-with/)
 works_with:

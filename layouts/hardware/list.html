@@ -27,8 +27,11 @@
 
   <section id="certified" class="py-5" style="scroll-margin-top: 5rem;">
     <div class="container">
-      {{ with $content.certified.title }}
-        <h2 class="h4 mb-2" style="color: var(--qfield-color);">{{ . }}</h2>
+      {{ with $content.certified }}
+        <h2 class="h4 mb-2" style="color: var(--qfield-color);">{{ .title }}</h2>
+        {{ with .description }}
+          <p class="text-muted">{{ . | markdownify }}</p>
+        {{ end }}
       {{ end }}
       {{ with $content.note }}
         <p class="text-muted small mb-4">{{ . | markdownify }}</p>
@@ -38,12 +41,15 @@
   </section>
 
   <!-- QField Native devices, listed below the certified cards -->
-  <section id="native" class="py-5 border-top" style="scroll-margin-top: 5rem;">
+  <section id="native" class="py-5 border-top bg-body-tertiary" style="scroll-margin-top: 5rem;">
     <div class="container">
       {{ with $content.native }}
         <h2 class="h4 mb-2" style="color: var(--qfield-color);">{{ .title | default "QField Native devices" }}</h2>
         {{ with .intro.description }}
           <p class="text-muted">{{ . | markdownify }}</p>
+        {{ end }}
+        {{ with .intro.details }}
+          <div class="text-muted small mb-4">{{ . | markdownify }}</div>
         {{ end }}
       {{ end }}
       {{ partial "hardware/device-list.html" (dict "devices" $nativeDevices "tier" "native" "empty" "QField Native devices will be listed here soon.") }}

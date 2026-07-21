@@ -1,7 +1,7 @@
 # All QField hardware devices in one place.
 # `level` sets the certification tier and where the device is shown:
 #   certified   -> /hardware/          (card, needs image/description)
-#   native      -> /hardware/native/   (table row)
+#   native      -> /hardware/#native    (horizontal card)
 #   works-with  -> /hardware/works-with/ (table row)
 #
 # Card fields (certified): name, image{src,alt}, description, details, link{url,text}

@@ -10,9 +10,9 @@
     <p class="small text-muted mb-1">QField-ready devices</p>
     <ul class="list-unstyled mb-0">
       {{ range . }}
-        {{- $base := cond (eq .level "certified") "/hardware/" "/hardware/native/" -}}
+        {{- /* Certified and native devices are both listed on /hardware/. */ -}}
         <li class="mb-1 d-flex justify-content-between align-items-center gap-2">
-          <a href="{{ partial "url.html" (dict "url" $base) }}#{{ .id }}">{{ .name }}</a>
+          <a href="{{ partial "url.html" (dict "url" "/hardware/") }}#{{ .id }}">{{ .name }}</a>
           {{ partial "hardware/badge.html" (dict "level" .level "tier" "works-with" "class" "flex-shrink-0") }}
         </li>
       {{ end }}
