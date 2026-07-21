@@ -23,9 +23,10 @@
           {{ end }}
           <div class="card-body d-flex flex-column">
             {{- /* Show every tier the device qualifies for down to native, so a certified
-                   device also carries the "QField Native" tag. */ -}}
+                   device also carries the "Native RTK" tag. */ -}}
             <div class="d-flex flex-wrap gap-1 mb-2">
               {{ partial "hardware/badges.html" (dict "level" $device.level "tier" "native") }}
+              {{ partial "hardware/partner-badge.html" (dict "brand" $device.brand) }}
             </div>
             <h2 class="h5">{{ $device.name }}</h2>
             {{ with $device.description }}

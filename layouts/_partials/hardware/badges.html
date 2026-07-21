@@ -1,16 +1,17 @@
 {{- /* Renders every certification tag a device qualifies for, from the page tier up to
        the device's own level (highest first). A certified device on the native page
-       therefore shows both "QField Certified" and "QField Native".
+       therefore shows both "QField Certified" and "Native RTK".
        Expects (dict "level" <device level> "tier" <page tier> "class" <extra classes>). */ -}}
 {{- $level := .level -}}
 {{- $tier := .tier -}}
 {{- $class := .class | default "" -}}
+{{- $link := .link | default false -}}
 {{- $ranks := dict "certified" 3 "native" 2 "works-with" 1 -}}
 {{- $devRank := index $ranks $level | default 0 -}}
 {{- $pageRank := index $ranks $tier | default 0 -}}
 {{- range (slice "certified" "native" "works-with") -}}
   {{- $rank := index $ranks . | default 0 -}}
   {{- if and (le $rank $devRank) (ge $rank $pageRank) -}}
-    {{ partial "hardware/badge.html" (dict "level" . "tier" . "class" $class) }}
+    {{ partial "hardware/badge.html" (dict "level" . "tier" . "class" $class "link" $link) }}
   {{- end -}}
 {{- end -}}

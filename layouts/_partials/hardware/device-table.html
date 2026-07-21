@@ -1,8 +1,6 @@
-{{- /* Renders a device table for one certification tier.
-       Expects (dict "devices" <slice> "tier" "<certified|native|works-with>" "empty" "<msg>").
-       Devices whose level is higher than the page tier get a badge. */ -}}
+{{- /* Renders a device table with a Tags column carrying each device's certification tags.
+       Expects (dict "devices" <slice> "empty" "<msg>"). */ -}}
 {{- $devices := .devices | default (slice) -}}
-{{- $tier := .tier | default "" -}}
 {{- $empty := .empty | default "No devices listed yet." -}}
 {{ if gt (len $devices) 0 }}
   <div class="table-responsive">
@@ -11,6 +9,7 @@
         <tr>
           <th>Brand</th>
           <th>Device</th>
+          <th>Tags</th>
           <th>QField version</th>
           <th>Android</th>
           <th>iOS</th>
@@ -26,9 +25,13 @@
         {{ range $devices }}
           <tr>
             <td>{{ .brand }}</td>
+            <td>{{ .name }}</td>
             <td>
-              <div>{{ .name }}</div>
-              {{ partial "hardware/badge.html" (dict "level" .level "tier" $tier "class" "mt-1") }}
+              {{- /* Certified devices also carry the "Native RTK" tag, as on the cards. */ -}}
+              <div class="d-flex flex-wrap gap-1">
+                {{ partial "hardware/badges.html" (dict "level" .level "tier" (cond (eq .level "certified") "native" .level) "link" true) }}
+                {{ partial "hardware/partner-badge.html" (dict "brand" .brand) }}
+              </div>
             </td>
             <td>{{ .qfield_version }}</td>
             <td>{{ .android }}</td>

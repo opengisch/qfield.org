@@ -11,7 +11,7 @@ intro:
   description: |
     QField works with a wide range of GNSS receivers, rugged tablets and smartphones. To help you pick the right device, we group supported hardware into three levels.
   details: |
-    [**QField Certified**](#certified) devices are tested by our team before every major QField release, guaranteeing reliable, out-of-the-box compatibility. [**QField Native**](#native) devices connect through QField's built-in NTRIP client and NMEA parser over open, standard protocols. [**Works with QField**](/hardware/works-with/) devices are tested and reported by their manufacturers or the community.
+    [**QField Certified**](#certified) devices are tested by our team before every major QField release. [**QField Native RTK**](#native) devices do RTK directly in QField, with no extra app. [**Works with QField**](/hardware/works-with/) devices are tested and reported by manufacturers or the community.
   cta:
     text: "Join the program"
     url: "https://forms.clickup.com/2192114/f/22wqj-30275/PL7WYHF6T67DE484DE"
@@ -19,7 +19,7 @@ intro:
 certified:
   title: "QField Certified devices"
   description: |
-    Tested by our team on physical hardware before every major QField release, so you get reliable, guaranteed compatibility out of the box. Every QField Certified device is also QField Native, so it connects through the same open, standard protocols and keeps the same smooth, app-free setup.
+    Tested by our team on physical hardware before every major QField release, so you get reliable, guaranteed compatibility out of the box. Every QField Certified device is also QField Native RTK, so it connects through the same open, standard protocols and keeps the same smooth, app-free setup.
 
 # Cross-links between the three tiers; each page shows the two it is not.
 more:
@@ -29,22 +29,22 @@ more:
     url: "/hardware/"
     text: "See QField Certified devices"
   native:
-    title: "QField Native devices"
-    description: "Devices that connect out of the box using QField's built-in NTRIP client and NMEA parser."
+    title: "QField Native RTK devices"
+    description: "Devices that do RTK directly in QField, out of the box."
     url: "/hardware/#native"
-    text: "See QField Native devices"
+    text: "See QField Native RTK devices"
   works_with:
     title: "Works with QField devices"
     description: "Devices tested and reported as compatible by their manufacturers or the community."
     url: "/hardware/works-with/"
     text: "See Works with QField devices"
 
-# QField Native section (/hardware/#native)
+# QField Native RTK section (/hardware/#native)
 native:
-  title: "QField Native devices"
+  title: "QField Native RTK devices"
   intro:
     description: |
-      QField Native devices connect to QField using its built-in NTRIP client and NMEA parser — no extra background app is required to receive high-accuracy positioning.
+      QField Native RTK devices do RTK directly in QField, so no extra background app is required to receive high-accuracy positioning.
     details: |
       QField implements open, standard protocols that these devices use directly: **Bluetooth SPP** (Android), **BLE** (Android/iOS), **TCP** (Android/iOS) and **UDP** (Android). Manufacturer apps can still be used for initial setup or firmware updates. This tier does not include ongoing compatibility guarantees — for verified compatibility on every release, see our [QField Certified devices](#certified).
 

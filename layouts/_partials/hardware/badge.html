@@ -1,10 +1,17 @@
 {{- /* Renders the device's certification-tier tag on any page at or below that tier.
-       Expects (dict "level" <device level> "tier" <page tier> "class" <extra classes>). */ -}}
+       Expects (dict "level" <device level> "tier" <page tier> "class" <extra classes>
+       "link" <true to link the tag to the section describing that tier>). */ -}}
 {{- $ranks := dict "certified" 3 "native" 2 "works-with" 1 -}}
-{{- $labels := dict "certified" "QField Certified" "native" "QField Native" "works-with" "Works with QField" -}}
+{{- $labels := dict "certified" "QField Certified" "native" "Native RTK" "works-with" "Works with QField" -}}
 {{- $styles := dict "certified" "text-bg-success" "native" "text-bg-primary" "works-with" "text-bg-secondary" -}}
+{{- $urls := dict "certified" "/hardware/#certified" "native" "/hardware/#native" -}}
 {{- $devRank := index $ranks .level | default 0 -}}
 {{- $pageRank := index $ranks .tier | default 0 -}}
+{{- $url := index $urls .level -}}
 {{- if ge $devRank $pageRank -}}
-  <span class="badge {{ index $styles .level }} {{ .class }}">{{ index $labels .level }}</span>
+  {{- if and .link $url -}}
+    <a class="badge {{ index $styles .level }} text-decoration-none {{ .class }}" href="{{ partial "url.html" (dict "url" $url) }}">{{ index $labels .level }}</a>
+  {{- else -}}
+    <span class="badge {{ index $styles .level }} {{ .class }}">{{ index $labels .level }}</span>
+  {{- end -}}
 {{- end -}}

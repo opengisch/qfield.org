@@ -8,9 +8,6 @@
 
   <section class="py-5 border-bottom bg-body-tertiary">
     <div class="container">
-      <p class="text-uppercase text-muted small mb-2">
-        <a href="{{ partial "url.html" (dict "url" "/hardware/") }}" class="text-decoration-none">{{ i18n "hardware_label" | default "QField hardware" }}</a>
-      </p>
       <div class="row align-items-center g-4">
         <div class="col-lg-8">
           <h1 class="display-5 fw-semibold mb-3">{{ $worksWith.title | default .Title }}</h1>
@@ -35,7 +32,7 @@
       {{ with $content.note }}
         <p class="text-muted small mb-4">{{ . | markdownify }}</p>
       {{ end }}
-      {{ partial "hardware/device-table.html" (dict "devices" $devices "tier" "works-with" "empty" "Works with QField devices will be listed here soon.") }}
+      {{ partial "hardware/device-table.html" (dict "devices" $devices "empty" "Works with QField devices will be listed here soon.") }}
     </div>
   </section>
 

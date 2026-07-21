@@ -31,6 +31,7 @@
               </div>
               <div class="d-flex flex-wrap justify-content-end gap-1 flex-shrink-0">
                 {{ partial "hardware/badges.html" (dict "level" $device.level "tier" $tier) }}
+                {{ partial "hardware/partner-badge.html" (dict "brand" $device.brand) }}
               </div>
             </div>
             {{ with $device.description }}

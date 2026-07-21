@@ -69,7 +69,7 @@
     url: "https://www.samsung.com/ch/business/smartphones/xcover/galaxy-xcover7-sm-g556bzkdeee/"
     text: "Buy now"
 
-# --- QField Native ------------------------------------------------------------
+# --- QField Native RTK ------------------------------------------------------------
 
 - id: ardusimple-handheld-surveyor-kit
   level: native

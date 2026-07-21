@@ -1,0 +1,12 @@
+{{- /* Renders a "Partner" tag when the device's brand belongs to a hardware partner
+       (data/partner/hardware.yaml, matched on brand falling back to name).
+       Expects (dict "brand" <device brand> "class" <extra classes>). */ -}}
+{{- $brand := .brand | default "" -}}
+{{- $class := .class | default "" -}}
+{{- if $brand -}}
+  {{- range (hugo.Data.partner.hardware | default (slice)) -}}
+    {{- if eq $brand (.brand | default .name) -}}
+      <a class="badge text-bg-warning text-decoration-none {{ $class }}" href="{{ partial "url.html" (dict "url" "/hardware-partners/") }}">Partner</a>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
