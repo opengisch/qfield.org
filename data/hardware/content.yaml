@@ -1,7 +1,7 @@
 # Text for the QField hardware pages (end-user facing).
 # Device lists live in certified.yaml, native.yaml and static/works-with-hardware.md.
 
-title: "QField hardware"
+title: "QField ready devices"
 
 # Shown above every device list.
 note: "By using the *Buy now* links below you are directly supporting the development of QField."

@@ -2,13 +2,13 @@
   {{- $hardware := hugo.Data.hardware | default dict -}}
   {{- $content := $hardware.content | default dict -}}
   {{- $certifiedDevices := where ($hardware.devices | default (slice)) "level" "certified" -}}
+  {{- $nativeDevices := where ($hardware.devices | default (slice)) "level" "native" -}}
 
   <section class="py-5 border-bottom bg-body-tertiary">
     <div class="container">
-      <p class="text-uppercase text-muted small mb-2">{{ i18n "hardware_label" | default "QField hardware" }}</p>
       <div class="row align-items-center g-4">
         <div class="col-lg-8">
-          <h1 class="display-5 fw-semibold mb-3">{{ with $content.certified.title }}{{ . }}{{ else }}{{ $content.title | default .Title }}{{ end }}</h1>
+          <h1 class="display-5 fw-semibold mb-3">{{ $content.title | default .Title }}</h1>
           {{ with $content.intro.description }}
             <p class="lead mb-3">{{ . | markdownify }}</p>
           {{ end }}
@@ -27,6 +27,9 @@
 
   <section class="py-5">
     <div class="container">
+      {{ with $content.certified.title }}
+        <h2 class="h4 mb-2" style="color: var(--qfield-color);">{{ . }}</h2>
+      {{ end }}
       {{ with $content.note }}
         <p class="text-muted small mb-4">{{ . | markdownify }}</p>
       {{ end }}
@@ -34,7 +37,20 @@
     </div>
   </section>
 
+  <!-- QField Native devices, listed below the certified cards -->
+  <section class="py-5 border-top">
+    <div class="container">
+      {{ with $content.native }}
+        <h2 class="h4 mb-2" style="color: var(--qfield-color);">{{ .title | default "QField Native devices" }}</h2>
+        {{ with .intro.description }}
+          <p class="text-muted">{{ . | markdownify }}</p>
+        {{ end }}
+      {{ end }}
+      {{ partial "hardware/device-list.html" (dict "devices" $nativeDevices "tier" "native" "empty" "QField Native devices will be listed here soon.") }}
+    </div>
+  </section>
+
   {{ with $content.more }}
-    {{ partial "hardware/other-types.html" (slice .native .works_with) }}
+    {{ partial "hardware/other-types.html" (slice .works_with) }}
   {{ end }}
 {{ end }}
