@@ -1,0 +1,8 @@
+{{- /* Manufacturer call to action, kept as a discreet text link: the hardware pages
+       are written for users, not manufacturers.
+       Expects the cta dict from data/hardware/content.yaml (lead, text, url). */ -}}
+{{- with . -}}
+  <p class="small text-body-secondary mt-4 mb-0">
+    {{ with .lead }}{{ . }} {{ end }}<a href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener">{{ .text }}</a>
+  </p>
+{{- end -}}

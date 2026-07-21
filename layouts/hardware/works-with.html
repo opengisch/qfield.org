@@ -17,12 +17,8 @@
           {{ with $worksWith.intro.details }}
             <div class="text-muted">{{ . | markdownify }}</div>
           {{ end }}
+          {{ partial "hardware/cta.html" $content.intro.cta }}
         </div>
-        {{ with $content.intro.cta }}
-          <div class="col-lg-4 text-lg-end">
-            <a class="btn btn-success btn-lg w-100 w-lg-auto" href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener">{{ .text }}</a>
-          </div>
-        {{ end }}
       </div>
     </div>
   </section>
