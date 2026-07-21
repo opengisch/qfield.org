@@ -22,7 +22,11 @@
             {{ end }}
           {{ end }}
           <div class="card-body d-flex flex-column">
-            {{ partial "hardware/badge.html" (dict "level" $device.level "tier" $tier "class" "align-self-start mb-2") }}
+            {{- /* Show every tier the device qualifies for down to native, so a certified
+                   device also carries the "QField Native" tag. */ -}}
+            <div class="d-flex flex-wrap gap-1 mb-2">
+              {{ partial "hardware/badges.html" (dict "level" $device.level "tier" "native") }}
+            </div>
             <h2 class="h5">{{ $device.name }}</h2>
             {{ with $device.description }}
               <p class="mb-3 text-muted">{{ . | markdownify }}</p>

@@ -35,7 +35,7 @@
       {{ with $content.note }}
         <p class="text-muted small mb-4">{{ . | markdownify }}</p>
       {{ end }}
-      {{ partial "hardware/device-cards.html" (dict "devices" $devices "tier" "native" "empty" "QField Native devices will be listed here soon.") }}
+      {{ partial "hardware/device-list.html" (dict "devices" $devices "tier" "native" "empty" "QField Native devices will be listed here soon.") }}
     </div>
   </section>
 
