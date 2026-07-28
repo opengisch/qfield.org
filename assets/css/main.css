@@ -4048,3 +4048,58 @@ a:hover {
     grid-template-columns:1fr;
   }
 }
+
+/* hardware - QField ready devices */
+/* top of the page */
+.hardware-intro {
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.hardware-intro::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 1.5px;
+  background-color: var(--qfield-color);
+  border-radius: 2px;
+}
+
+/* device cards */
+.btn-buy-now {
+  color: var(--qfield-color);
+  border-color: var(--qfield-color);
+  border-radius: 40px;
+}
+
+.btn-buy-now:hover,
+.btn-buy-now:focus {
+  background-color: white;
+  border-color: var(--qfield-color);
+  color: #fff;
+}
+
+.hardware-device-card {
+  border-radius: 15px;
+}
+
+.hardware-device-card {
+  transition: transform 0.4s ease-out;
+}
+
+.hardware-device-card:hover {
+  transform: translateY(-2px) rotate(var(--card-rotate, 0deg));
+}
+
+.hardware-device-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.hardware-device-card .card-body {
+  padding: 1.5rem;
+}

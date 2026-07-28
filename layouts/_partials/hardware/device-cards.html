@@ -9,7 +9,14 @@
     {{ range $devices }}
       {{- $device := . -}}
       <div class="col">
-        <article id="{{ $device.id }}" class="card h-100 shadow-sm" style="scroll-margin-top: 6rem;">
+
+{{- $hash := hash.FNV32a $device.id -}}
+{{- $direction := mod $hash 2 -}}
+{{- $angleFloat := 0.6 -}}
+{{- if eq $direction 0 -}}
+  {{- $angleFloat = mul $angleFloat -1 -}}
+{{- end -}}
+<article id="{{ $device.id }}" class="card hardware-device-card h-100 shadow-sm" style="scroll-margin-top: 6rem; --card-rotate: {{ $angleFloat }}deg;">
           {{ with $device.image }}
             {{- $imgSrc := .src | default "" -}}
             {{ if $imgSrc }}
@@ -36,8 +43,7 @@
               <p class="small text-body-secondary">{{ . | markdownify }}</p>
             {{ end }}
             {{ with $device.link }}
-              <a class="btn btn-outline-primary mt-auto" href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener">{{ .text | default "Buy now" }}</a>
-            {{ end }}
+              <a class="btn btn-outline-primary btn-buy-now mt-auto" href="{{ partial "url.html" (dict "url" .url) }}" target="_blank" rel="noopener">{{ .text | default "Buy now" }}</a>            {{ end }}
           </div>
         </article>
       </div>
