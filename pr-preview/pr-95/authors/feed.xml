@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Authors on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-95/authors/</link>
+    <description>Recent content in Authors on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-95/authors/feed.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
