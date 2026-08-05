@@ -389,7 +389,7 @@
     src: "images/partners/logo-csgis.png"
     alt: "csgis"
   description: |
-    CSGIS provides customized open source GIS solutions, training, and software development services with a strong focus on QGIS, QField, and FOSSGIS technologies.  website:
+    CSGIS provides customized open source GIS solutions, training, and software development services with a strong focus on QGIS, QField, and FOSSGIS technologies.
   website:
     url: "https://csgis.de/"
   modal:
