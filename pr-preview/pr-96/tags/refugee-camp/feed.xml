@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Refugee Camp on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-96/tags/refugee-camp/</link>
+    <description>Recent content in Refugee Camp on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-96/tags/refugee-camp/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Refugee Camp and Shelter Mapping</title>
+      <link>https://qfield.org/pr-preview/pr-96/solutions/refugee-camp-and-shelter-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-96/solutions/refugee-camp-and-shelter-mapping/</guid>
+      
+      <description>Site planning, shelter inventories, and service mapping using mobile GIS in challenging contexts.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<ul>
+<li>Shelter and service inventories</li>
+<li>Site planning and allocation</li>
+<li>Protection and safety mapping</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Prepare projects in QGIS and collaborate via QFieldCloud even in challenging contexts.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">refugee camp</category>
+      <category domain="tags">shelter mapping</category>
+      <category domain="tags">humanitarian</category>
+    </item>
+    
+  </channel>
+</rss>
