@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Processing on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-97/categories/processing/</link>
+    <description>Recent content in Processing on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <lastBuildDate>Mon, 02 Jun 2025 04:57:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-97/categories/processing/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>XLSForm Converter: unlock a world of surveys with our brand new QGIS plugin</title>
+      <link>https://qfield.org/pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/</link>
+      <pubDate>Mon, 02 Jun 2025 04:57:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/</guid>
+      <media:content url="https://qfield.org/pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/xlsformconverter-qgis-qfield.webp" medium="image" />
+      <description>&lt;p&gt;Today marks the initial release of our brand-new QGIS plugin, &lt;em&gt;XLSForm Converter&lt;/em&gt;.&lt;br&gt;
+As the name suggests, the plugin converts XLSForm survey files into ready-to-use QGIS projects with a preconfigured survey attribute form.&lt;/p&gt;
+&lt;p&gt;Migrating to QField was never easier!&lt;/p&gt;
+&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/xlsformconverter-qgis-qfield-1.webp&#34; srcset=&#34;https://qfield.org/pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/xlsformconverter-qgis-qfield-1.webp 1x, https://qfield.org/pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/xlsformconverter-qgis-qfield-1_hu_2444076eeac5e0fd.webp 2x&#34;
+         alt=&#34;&#34; 
+         class=&#34;figure-img img-fluid gallery-img&#34; width=&#34;1064&#34; height=&#34;809&#34;
+         loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+
+&lt;p&gt;Even more exciting is that the converted QGIS project includes all the necessary settings for use with QField, thanks to a nifty QFieldCloud integration. With just a single checkbox, you can upload your generated project to the cloud and begin gathering data—either as a standalone surveyor or collaboratively as part of a team.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Today marks the initial release of our brand-new QGIS plugin, <em>XLSForm Converter</em>.<br>
+As the name suggests, the plugin converts XLSForm survey files into ready-to-use QGIS projects with a preconfigured survey attribute form.</p>
+<p>Migrating to QField was never easier!</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/xlsformconverter-qgis-qfield-1.webp" srcset="/pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/xlsformconverter-qgis-qfield-1.webp 1x, /pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/xlsformconverter-qgis-qfield-1_hu_2444076eeac5e0fd.webp 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1064" height="809"
+         loading="lazy"></figure>
+
+<p>Even more exciting is that the converted QGIS project includes all the necessary settings for use with QField, thanks to a nifty QFieldCloud integration. With just a single checkbox, you can upload your generated project to the cloud and begin gathering data—either as a standalone surveyor or collaboratively as part of a team.</p>
+<p>We believe this provides a fantastic solution for organisations and groups familiar with XLSForm—or already working with templates—who want to leverage QGIS-powered QField to conduct spatial surveys.</p>
+<h2 id="plugin-highlights">Plugin highlights</h2>
+<p>The plugin adds an algorithm to QGIS’ processing toolbox that converts a XLSForm file – Microsoft Excel’s .xls or .xlsx as well as LibreOffice Calc’s .ods – into a QGIS project containing a main survey layer and a basemap.</p>
+<figure class="figure text-center mb-4"><img src="/pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/xlsformconverter-algorithm-screenshot.webp" srcset="/pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/xlsformconverter-algorithm-screenshot.webp 1x, /pr-preview/pr-97/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/xlsformconverter-algorithm-screenshot_hu_dc097eed302258c7.webp 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="754" height="762"
+         loading="lazy"></figure>
+
+<p>The layer’s geometry type will reflect the first geometry-driven question type found in the XLSForm, namely a point geometry for geopoint, a line geometry for geotrace, or a polygon geometry for geoshape.</p>
+<p>For XLSForm <em>repeat</em> blocks, the algorithm generates additional layers and configures parent-child relationships to bind them to the main survey layer. These layers are hidden from the layer tree by default, keeping the project simple and user-friendly—even for users unfamiliar with QGIS.</p>
+<p>For questions that capture media content—such as photographs, videos, and audio clips—the converter sets up the project so users can easily record them in QField with a single tap.</p>
+<p><em>Pro tip: Since the converter is an algorithm, you can use it to build complex, model-driven survey projects via the QGIS Processing Modeler. You can also run conversions in headless environments using <code>qgis_process</code>. The possibilities are endless!</em></p>
+<h2 id="qfieldcloud-facilitated-deployment-to-qfield">QFieldCloud-facilitated deployment to QField</h2>
+<p>As mentioned earlier, the converted project can immediately be used in QField to conduct surveying. The best way to deploy these projects to your QField-running devices is via <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
+. The algorithm comes with a parameter that – when checked – will automatically upload the generated project to QFieldCloud.</p>
+<p>That functionality requires the QFieldSync plugin to be installed and enabled in QGIS. Just log in to your QFieldCloud account via QFieldSync, and let the algorithm take care of the rest. It’s magical! If you haven’t yet tried QFieldCloud, this might be <a href="https://qfield.cloud/" target="_blank" rel="noopener">a good time to do so by signing up for a free community account</a>
+.</p>
+<p>Of course, you’ll always be able to copy these projects manually onto devices via USB cable or the numerous file import options available in QField.</p>
+<h2 id="xlsform-what">XLSForm-what?</h2>
+<p><a href="https://xlsform.org/" target="_blank" rel="noopener">XLSForm</a>
+ is a form standard designed to simplify the authoring of forms using spreadsheet programs like LibreOffice Calc or Microsoft Excel. They are simple to get started with and allow for the authoring of complex forms in no time. The syntax is beginner-friendly, and the building of surveys by adding rows onto a spreadsheet is surprisingly intuitive.</p>
+<p>The standard has been widely adopted across various sectors, including public health, humanitarian relief, disaster response, local governance, and non-profit organisations.</p>
+<p>Over here at OPENGIS.ch, we believe this plugin can be instrumental to preexisting operations and projects interested in migrating to a QField surveying environment where spatial considerations are front and center. If you are interested in discussing this further, <a href="/pr-preview/pr-97/#contact">do not hesitate to contact us</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">processing</category>
+      <category domain="categories">qfield</category>
+      <category domain="categories">qgis-plugins</category>
+      <category domain="tags">qgis.org</category>
+    </item>
+    
+    <item>
+      <title>Offline WMS - Benchmarking raster formats for QField</title>
+      <link>https://qfield.org/pr-preview/pr-97/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</link>
+      <pubDate>Tue, 09 Jun 2020 05:03:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-97/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</guid>
+      <media:content url="https://qfield.org/pr-preview/pr-97/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/Screenshot-from-2020-06-08-13-00-42.png" medium="image" />
+      <description>&lt;h2 id=&#34;what-are-we-looking-for&#34;&gt;What are we looking for?&lt;/h2&gt;
+&lt;p&gt;We would like to use WMS offline on QField. For that, we need to figure out what is the best way to get a raster from a WMS and which format is the most efficient (size and performance).&lt;/p&gt;
+&lt;p&gt;In this post we&amp;rsquo;ll show you is how to generate the ideal raster file from a WMS and the results of our efficiency tests for the the different raster formats.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="what-are-we-looking-for">What are we looking for?</h2>
+<p>We would like to use WMS offline on QField. For that, we need to figure out what is the best way to get a raster from a WMS and which format is the most efficient (size and performance).</p>
+<p>In this post we&rsquo;ll show you is how to generate the ideal raster file from a WMS and the results of our efficiency tests for the the different raster formats.</p>
+<h2 id="wms-to-gpkg">WMS to GPKG</h2>
+<h3 id="the-simple-way">The simple way</h3>
+<p>If there is no limitation on the WMS or you need only a small region, here is the easiest process.</p>
+<ol>
+<li>Request the WMS and store a <a href="https://gdal.org/drivers/raster/wms.html#xml-description-file" target="_blank" rel="noopener">description file in XML</a>
+:</li>
+</ol>
+<pre tabindex="0"><code>gdal_translate &#34;WMS:url&#34; file.xml -of WMS
+</code></pre><ol>
+<li>Create a Geopackage from the information in the description file.</li>
+</ol>
+<pre tabindex="0"><code>gdal_translate -of GPKG file.xml file.gpkg -co TILE_FORMAT=JPEG
+</code></pre><p>That was quite simple, right?</p>
+<h3 id="the-larger-datasets-way">The larger datasets way</h3>
+<p>If the command takes too much time, it means that it is trying to download too much data and could be caused by downloading higher resolution data than required.<br>
+The command might even completely fail if it contains a request for bigger data blocks thant the server allows.</p>
+<p>Here is the process to get larger datasets in a simple way. Let&rsquo;s use a real example:</p>
+<ol>
+<li>Use <code>gdal_translate &quot;WMS:https://www.gebco.net/data_and_products/gebco_web_services/web_map_service/mapserv?request=getmap&amp;service=wms&amp;crs=EPSG:4326&amp;format=image/jpeg&amp;layers=gebco_latest&amp;version=1.1.0&quot; test.xml -of WMS</code></li>
+<li>Open the test.xml file for editing, here you&rsquo;ll find the parameters of the WMS. We change the &ldquo;SizeX&rdquo; to 3600 and &ldquo;SizeY&rdquo; to 1800. By changing these parameters we lower the resolution. It is important to keep proportionality.</li>
+<li>Another thing we need to change are &ldquo;BlockSizeX&rdquo; and &ldquo;BlockSizeY&rdquo; that define the size of the tiles. We change both to 2048.</li>
+<li>Finally, use <code>gdal_translate -of GPKG test.xml test.gpkg -co TILE_FORMAT=JPEG</code></li>
+<li>To make a Geopackage pyramid use <code>gdaladdo GPKG:test.gpkg:gebco_latest</code>. It will <strong>replace</strong> the Geopackage, if you want to keep the original one, you need to copy it first.</li>
+</ol>
+<p>Now you have a raster Geopackage that you can use in QField.</p>
+<h2 id="testing-raster-formats">Testing raster formats</h2>
+<h3 id="preparing-the-files">Preparing the files</h3>
+<p>As first step we exported our test orthophoto WMS to a plain GeoTIFF using QGIS&rsquo; default behaviour.</p>
+<figure class="figure text-center mb-4"><img src="https://i1.wp.com/www.opengis.chtiff.png"
+         alt="" 
+         class="figure-img img-fluid gallery-img"
+         loading="lazy"></figure>
+
+<p>Formatgdal_translategdaladdogpkg JPEGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_JPEG.gpkg&rdquo; -co TILE_FORMAT=JPEG
+gpkg PNGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG.gpkg&rdquo; -co TILE_FORMAT=PNGgpkg PNG_JPEGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG_JPEG.gpkg&rdquo; -co TILE_FORMAT=PNG_JPEGgpkg PNG8gdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG8.gpkg&rdquo; -co TILE_FORMAT=PNG8gpkg WEBPgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_WEBP.gpkg&rdquo; -co TILE_FORMAT=WEBPgpkg pyramid_JPEGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_JPEG.gpkg&rdquo; -co TILE_FORMAT=JPEGgdaladdo GPKG:C:\test\test_JPEG.gpkg:test_gpkg_JPEG gpkg pyramid_PNGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG.gpkg&rdquo; -co TILE_FORMAT=PNGgdaladdo GPKG:C:\test\test_PNG.gpkg:test_gpkg_PNGgpkg pyramid_PNG_JPEGgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG_JPEG.gpkg&rdquo; -co TILE_FORMAT=PNG_JPEGgdaladdo GPKG:C:\test\test_PNG_JPEG.gpkg:test_gpkg_PNG_JPEGgpkg pyramid_PNG8gdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_PNG8.gpkg&rdquo; -co TILE_FORMAT=PNG8gdaladdo GPKG:C:\test\test_PNG8.gpkg:test_gpkg_PNG8gpkg pyramid_WEBPgdal_translate -of GPKG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_WEBP.gpkg&rdquo; -co TILE_FORMAT=WEBPgdaladdo GPKG:C:\test\test_WEBP.gpkg:test_gpkg_WEBPJPEG2000gdal_translate -of JP2OpenJPEG &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_jpeg_2000.jpg&quot;COG DEFLATEgdal_translate &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_cog.tif&rdquo; -co TILED=YES -co COPY_SRC_OVERVIEWS=YES -co COMPRESS=DEFLATECOG_JPEGgdal_translate &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_cog_JPEG.tif&rdquo; -co TILED=YES -co COPY_SRC_OVERVIEWS=YES -co COMPRESS=JPEGtifIn QGIS right click on the layer &gt; export &gt; save as &gt; (see the details in the picture under the table)MBTgdal_translate -of MBTILES &ldquo;C:\test\ortho_test.tif&rdquo; &ldquo;C:\test\test_mbt.mbtiles&quot;Creation commands for all the tested formats</p>
+<h3 id="rendering-test-results">Rendering test results</h3>
+<p>We have tested many formats, here is a table with the results of the size and rendering speed in QGIS and QField.<br>
+To analyze the speed we used <code>qgis_bench.exe -i 10 -p &quot;C:\test\test.qgs&quot; &gt;&gt; &quot;C:\test\test.log</code>.<br>
+Qgis_bench is a tool that renders a QGIS project a number of times to get performance measurements. The parameter -i is to define the iterations and -p is the project used which contains only the generated raster.</p>
+<p>FormatExtent [m]File size [GB]Total_avgTotal_maxdevTotal_minTotal_stdevgpkg JPEG52'880/29'2300.4250.242255.7815.539244.984gpkg PNG52'880/29'2302.9412.002490.328152.142259.859gpkg PNG_JPEG52'880/29'2300.4250.125256.8756.750245.172gpkg PNG852'880/29'2301.4283.875296.40612.625271.250gpkg WEBP52'880/29'2300.3330.238348.10973.534256.703gpkg pyramid_JPEG52'880/29'2300.51.0093.4062.3970.688gpkg pyramid_PNG52'880/29'2303.01.2083.2812.0730.688gpkg pyramid_PNG_JPEG52'880/29'2300.61.4914.3442.8531.016gpkg pyramid_PNG852'880/29'2301.61.5084.3752.8670.969gpkg pyramid_WEBP52'880/29'2300.41.3334.9063.5730.766JPEG200052'880/29'2301.113.888136.109122.2220.219COG DEFLATE52'880/29'2303.6264.427273.09425.411239.016COG_JPEG52'880/29'2301.014.778131.172116.3941.734tif52'880/29'2306.42.3676.7344.3671.672MBT52'880/29'2304.40.4694.6414.1710Comparison of file size and rendering speed of different raster formats. &ldquo;Total&rdquo; columns are rendering times in [s]. Lower file size is more storage friendly, lower Total_avg is more performant.</p>
+<h2 id="analysis">Analysis</h2>
+<h3 id="file-size">File size</h3>
+<p>The Geopackage WEBP (with and without pyramid) has the best result for file size, but it is not _yet_supported by QField (from 1.6) and is only slightly smaller than the JPEG variant.</p>
+<p>Plain GeoTiff, MBTiles, Cloud Optimized GeoTIFF (COG - DEFLATE mode) and Geopackages with PNG generate by far the largest file sizes (up to 20x larger) and are thus not recommended.</p>
+<h3 id="rendering-speed">Rendering speed</h3>
+<p>MBTiles are on average double as fast as JPEG Geopackages with pyramids which in turn are more than double as fast as GeoTIFF and 15x faster than COG.<br>
+Geopackages without pyramids are 200 to 400 times slower.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Even though MBTiles render faster than the Geopackage pyramid JPEG, they come with an almost 10x bigger storage requirement which makes us say that the best offline raster format supported by QField is <strong>Geopackage pyramid JPEG</strong> or if you need transparency and slightly smaller files <strong>Geopackage pyramid WebP</strong>.</p>
+<p>If you need transparency before QField 1.6, the best results are achieved with Geopackage pyramid PNG_JPEG.</p>
+]]></content:encoded>
+      <category domain="categories">processing</category>
+      <category domain="categories">qfield</category>
+      <category domain="categories">qgis</category>
+      <category domain="categories">scripts</category>
+      <category domain="tags">qgis.org</category>
+    </item>
+    
+    <item>
+      <title>How to filter features in QGIS using the graphical processing modeler</title>
+      <link>https://qfield.org/pr-preview/pr-97/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</link>
+      <pubDate>Mon, 28 May 2018 07:41:26 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-97/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</guid>
+      <media:content url="https://qfield.org/pr-preview/pr-97/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/modeller.png" medium="image" />
+      <description>&lt;p&gt;This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section &lt;a href=&#34;#feature-filter-algorithm&#34;&gt;the feature filter algorithm&lt;/a&gt;
+.&lt;/p&gt;
+&lt;h2 id=&#34;building-workflows-for-repetitive-tasks&#34;&gt;Building workflows for repetitive tasks&lt;/h2&gt;
+&lt;p&gt;When building workflows for simple or complex geodata infrastructures, one of the most common tasks one encounters is to extract some of the features and copy them to another destination. Sometimes they need to be modified and a few attributes calculated or deleted, maybe even the geometry needs to be adjusted or in some fancy situations one even wants to generate a couple of objects from one input object. This process is often called &lt;em&gt;ETL&lt;/em&gt; (Extract, Transform, Load) and it is something that is worth mastering as a GIS expert.
+Let&amp;rsquo;s imagine a situation where we sent a field worker out to collect information about public infrastructure, equipped with a brand-new tablet and the latest and greatest version of &lt;a href=&#34;https://www.qfield.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QField&lt;/a&gt;
+. To make his task super easy, we prepare one single layer for him with an attribute type which can be set to Bus Station, Car Parking or Train Station. Now back in the office we want to integrate this back into our spatially enabled database which has been designed with 3 target tables.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section <a href="#feature-filter-algorithm">the feature filter algorithm</a>
+.</p>
+<h2 id="building-workflows-for-repetitive-tasks">Building workflows for repetitive tasks</h2>
+<p>When building workflows for simple or complex geodata infrastructures, one of the most common tasks one encounters is to extract some of the features and copy them to another destination. Sometimes they need to be modified and a few attributes calculated or deleted, maybe even the geometry needs to be adjusted or in some fancy situations one even wants to generate a couple of objects from one input object. This process is often called <em>ETL</em> (Extract, Transform, Load) and it is something that is worth mastering as a GIS expert.
+Let&rsquo;s imagine a situation where we sent a field worker out to collect information about public infrastructure, equipped with a brand-new tablet and the latest and greatest version of <a href="https://www.qfield.org/" target="_blank" rel="noopener">QField</a>
+. To make his task super easy, we prepare one single layer for him with an attribute type which can be set to Bus Station, Car Parking or Train Station. Now back in the office we want to integrate this back into our spatially enabled database which has been designed with 3 target tables.</p>
+<p><a href="/pr-preview/pr-97/Untitled-Diagram.png"><img src="/pr-preview/pr-97/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Untitled-Diagram.png" alt=""></a>
+
+Easy enough to go to QGIS and select those features by type one after the other and use a bit of copy-paste. And maybe fiddling a bit with the attributes. But hey, after all we are a bit lazy and on the one hand like to have an ice cream later on that afternoon and on the other hand like to avoid errors. Those who are lucky enough to know SQL and have full access to the database are well enough equipped to do the job.</p>
+<h2 id="short-introduction-to-the-graphical-modeler">Short introduction to the graphical modeler</h2>
+<p>For those who just want to quickly do this job visually within QGIS, there is a tool called modeler in the processing plugin. With the help of this tool it is straightforward for everyone to automate processes. To get started with the modeler, simply enable the processing plugin and click on <em>Processing</em> &gt; <em>Graphical Modeler.</em>
+Within the modeler, there are <em>Inputs</em> and <em>Algorithms</em> available. <em>Inputs</em> are there to define variables, algorithms on the other hand transform those variables. In its most simple form, there is one vector feature source (a layer) as input and one algorithm, for example a fixed distance buffer which in turn has one output layer with all buffered features. Such a model can be saved and reused. To run a model directly from the modeler, click the play button on top. Once saved, it appears in the processing toolbox. Every time a model is run, the input layer can be handed to the model. Or it can even run in batch mode on a list of layers or files.
+With this in place, the job of doing the buffer can now be run on 200 input layers without any manual interaction. Simple as that.
+<strong>Pro tip:</strong> processing models do not have to be complex. They can also be used to preconfigure single algorithms so when an algorithm is run, the parameters which you never change are predefined already. For example you can add a <em>Simplify geometries to 1 meter</em> algorithm which only takes a layer as parameter and has the 1 meter tolerance built-in.</p>
+<h2 id="the-feature-filter-algorithm">The feature filter algorithm</h2>
+<p>Now back to the job of splitting the infrastructure layer into 3 different layers. To do this job visually and easily within QGIS, there is now a new algorithm available in QGIS 3.2. It is called <strong>Feature Filter</strong> and available in the processing modeler.
+To make use of it, we open the processing modeler and first add a new <strong>Vector Features</strong> input and name it <strong>Infrastructure</strong>. Since we know in this project we will always deal with points, we can make already specify that in this first dialog.</p>
+<p><a href="/pr-preview/pr-97/Screenshot-from-2018-05-24-15-25-15.png"><img src="/pr-preview/pr-97/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Screenshot-from-2018-05-24-15-25-15.png" alt=""></a>
+
+Let&rsquo;s now add a <strong>Feature Filter</strong> algorithm and use the following configuration:
+The <strong>Infrastructure</strong> layer is set as input, and we define three outputs for <strong>Train Stations</strong>, <strong>Bus Stations</strong> and <strong>Car Parking</strong>. All layers will be final outputs on which no further transformations will be applied within this model and they will be directly written to a new layer.</p>
+<p><a href="/pr-preview/pr-97/Screenshot-from-2018-05-24-15-30-18.png"><img src="/pr-preview/pr-97/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/Screenshot-from-2018-05-24-15-30-18.png" alt=""></a>
+
+Now it&rsquo;s time to run our new model and check that it does what it promised.
+We can also uncheck the final output checkbox and send filtered features to further processing algorithms. For example sending them through a buffer based on an attribute size (although as a QGIS professional you know you should rather be using styles than modifying the geometry in most situations in such cases).</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>With this new algorithm built directly inside the core of QGIS, the processing framework is now able to transform and refine features of a dataset with the same precision as an open heart surgery.
+Of course you can get more creative in the filter criteria.
+Apart from the obvious ones to do geometry modifications, there are two particularly interesting ones if you liked this one</p>
+<ul>
+<li>The <a href="https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectortable.html#refactor-fields" target="_blank" rel="noopener"><strong>Refactor Fields</strong></a>
+ algorithm allows calculating new fields or rename fields based on expressions</li>
+<li>The <a href="https://plugins.qgis.org/plugins/AppendFeaturesToLayer/" target="_blank" rel="noopener"><strong>Append</strong></a>
+ plugin allows adding those features to an existing vector layer such as a database table</li>
+</ul>
+<p>The data from this walkthrough is available for download as [download id=&ldquo;3917&rdquo;].
+If you would like to test this new feature but do not yet have a concrete use-case in mind, here is a task for you: get an openstreetmap extract, import it using ogr2ogr and split the lines into different layers roads, rivers and railways, the polygons into lakes, forests and cities, the points according to your own liking.
+If there is big enough interest for this, we might write another blog post on this topic.</p>
+<p>We would like to thank the <a href="https://www.qgis.ch" target="_blank" rel="noopener">QGIS user group Switzerland</a>
+ for making this project possible through funding.</p>
+]]></content:encoded>
+      <category domain="categories">expressions</category>
+      <category domain="categories">processing</category>
+      <category domain="categories">qfield</category>
+      <category domain="categories">qgis</category>
+      <category domain="tags">qgis.org</category>
+    </item>
+    
+  </channel>
+</rss>
