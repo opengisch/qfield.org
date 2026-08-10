@@ -83,7 +83,7 @@ html {
     border-color: var(--bs-btn-hover-border-color);
   }
 
-  &:visited {
+  &:visited:not(:hover):not(:focus) {
     color: var(--bs-btn-color);
   }
 }
@@ -92,6 +92,15 @@ html {
 :root[data-bs-theme='dark'] .btn-primary:visited {
   --bs-btn-color: #fff;
   color: var(--bs-btn-color);
+}
+
+:root[data-bs-theme='dark'] .btn-primary:hover,
+:root[data-bs-theme='dark'] .btn-primary:focus,
+:root[data-bs-theme='dark'] .btn-primary:visited:hover,
+:root[data-bs-theme='dark'] .btn-primary:visited:focus {
+  background-color: transparent;
+  color: var(--qfield-color);
+  border-color: var(--qfield-color);
 }
 
 .btn-outline-primary {
