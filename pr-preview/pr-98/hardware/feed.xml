@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>QField ready devices on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-98/hardware/</link>
+    <description>Recent content in QField ready devices on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <lastBuildDate>Thu, 16 Oct 2025 12:30:00 +0200</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-98/hardware/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>works-with</title>
+      <link>https://qfield.org/pr-preview/pr-98/hardware/works-with/</link>
+      <pubDate>Thu, 16 Oct 2025 12:30:00 +0200</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-98/hardware/works-with/</guid>
+      
+      <description>&lt;!-- Content will be in the layout --&gt;</description>
+      <content:encoded><![CDATA[<!-- Content will be in the layout -->
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
