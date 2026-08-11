@@ -3652,8 +3652,7 @@ div.explanation {
 }
 
 [data-bs-theme='dark'] .main-header,
-[data-bs-theme='dark'] #navbar,
-[data-bs-theme='dark'] #navbar .navbar-collapse {
+[data-bs-theme='dark'] #navbar {
   background-color: #262626;
 }
 
