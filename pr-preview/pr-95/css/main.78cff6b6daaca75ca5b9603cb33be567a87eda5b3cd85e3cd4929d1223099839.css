@@ -760,12 +760,12 @@ p {
   max-width: 100%;
 }
 
-.blog-single .blog-content a {
+.blog-single .blog-content a:not(.btn) {
   color: var(--qfield-color);
   text-decoration: none;
 }
 
-.blog-single .blog-content a:hover {
+.blog-single .blog-content a:not(.btn):hover {
   text-decoration: underline;
 }
 
@@ -3652,8 +3652,7 @@ div.explanation {
 }
 
 [data-bs-theme='dark'] .main-header,
-[data-bs-theme='dark'] #navbar,
-[data-bs-theme='dark'] #navbar .navbar-collapse {
+[data-bs-theme='dark'] #navbar {
   background-color: #262626;
 }
 
