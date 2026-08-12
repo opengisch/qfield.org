@@ -377,3 +377,29 @@
 
     expertise: |
       KAN Territory & IT specializes in open-source geospatial architectures and scalable field operations powered by QFieldCloud. We support governments and enterprise clients in planning, automating, and integrating territory-based workflows, combining offline-first data collection, system interoperability, and secure, mission-critical deployments.
+
+
+- id: csgis
+  name: CSGIS
+  regions:
+    - europe
+  locations:
+    - "🇩🇪 Germany"
+  logo:
+    src: "images/partners/logo-csgis.png"
+    alt: "csgis"
+  description: |
+    CSGIS provides customized open source GIS solutions, training, and software development services with a strong focus on QGIS, QField, and FOSSGIS technologies.
+  website:
+    url: "https://csgis.de/"
+  modal:
+    services:
+    - Customized Open Source GIS Solutions
+    - WebGIS Application Development, Support & Maintenance
+    - GIS Database Design and Management
+    - GIS Training and Workshops
+    - QGIS Plugin Development
+    - FOSSGIS Software Development and Contributions
+
+  expertise: |
+    We work closely with clients implementing enterprise GIS - with PostgreSQL, QGIS, QField and QFieldCloud - as well as Web GIS projects, ranging from simple views to complex systems. In addition, we develop QGIS plugins and actively contribute to the development of FOSSGIS software. Since 2007, CSGIS has been providing online and customized on-site training in FOSSGIS, with thousands of participants from various institutions taking part in our sessions and workshops.
