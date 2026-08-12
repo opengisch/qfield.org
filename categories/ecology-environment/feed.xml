@@ -135,7 +135,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1786453265-3466170"
+     data-gallery-id="gallery-1786506170-79174043"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -163,7 +163,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1786453265-3466170 .carousel-item .gallery-img {
+#gallery-1786506170-79174043 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -171,11 +171,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1786453265-3466170 .carousel-item {
+#gallery-1786506170-79174043 .carousel-item {
   height: auto;
 }
 
-#gallery-1786453265-3466170 .carousel-item .figure {
+#gallery-1786506170-79174043 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -184,11 +184,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1786453265-3466170 .carousel-item .figure .gallery-img {
+#gallery-1786506170-79174043 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1786453265-3466170 .carousel-item .figure .figure-caption {
+#gallery-1786506170-79174043 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -197,13 +197,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1786453265-3466170 .carousel-item .gallery-img {
+  #gallery-1786506170-79174043 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1786453265-3466170 .carousel-item .gallery-img {
+  #gallery-1786506170-79174043 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
