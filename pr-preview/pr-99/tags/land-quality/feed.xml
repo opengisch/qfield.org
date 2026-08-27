@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Land Quality on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-99/tags/land-quality/</link>
+    <description>Recent content in Land Quality on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-99/tags/land-quality/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Soil and Land Quality Surveys</title>
+      <link>https://qfield.org/pr-preview/pr-99/solutions/soil-and-land-quality-surveys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-99/solutions/soil-and-land-quality-surveys/</guid>
+      
+      <description>Standardize soil sampling and land quality assessments with offline mobile GIS and QGIS forms.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Plan sampling grids and record field logs</li>
+<li>Capture depths, horizons, and conditions</li>
+<li>Attach photos and sync to QFieldCloud</li>
+</ul>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">soil sampling</category>
+      <category domain="tags">land quality</category>
+    </item>
+    
+  </channel>
+</rss>
