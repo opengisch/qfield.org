@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Revegetation on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-100/tags/revegetation/</link>
+    <description>Recent content in Revegetation on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-100/tags/revegetation/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Land Restoration and Conservation</title>
+      <link>https://qfield.org/pr-preview/pr-100/solutions/land-restoration-and-conservation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-100/solutions/land-restoration-and-conservation/</guid>
+      
+      <description>Mobile GIS for restoration planning, monitoring, and conservation field surveys.</description>
+      <content:encoded><![CDATA[<h2 id="workflows">Workflows</h2>
+<ul>
+<li>Restoration site mapping and monitoring</li>
+<li>Habitat assessments and invasive species tracking</li>
+<li>Community programs and stewardship records</li>
+<li>Planting block and treatment area capture as polygons</li>
+<li>Before-and-after monitoring at fixed locations</li>
+<li>Photo documentation against sites and individual features</li>
+</ul>
+<h2 id="built-for-monitoring-recovery-over-time">Built for monitoring recovery over time</h2>
+<p>Restoration is measured in years, not a single visit. QField stores each observation as a structured record with its location, attributes, photos, and capture time. On the next visit, the previous records load straight onto the device, and the live GPS position guides crews back to the same sites. The result is a consistent record of recovery rather than a pile of one-off surveys.</p>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Design forms and symbology in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+, then sync and review via <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Crews work offline for as long as the survey takes, and conflict-safe merges keep multiple crews working the same site without overwriting each other.</p>
+<h2 id="restoration-and-conservation-projects-using-qfield">Restoration and conservation projects using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-100/success-stories/zero-invasive-predators/">Zero Invasive Predators: eliminating invasive species with QField</a>
+, restoring forest in New Zealand&rsquo;s South Westland</li>
+<li><a href="/pr-preview/pr-100/success-stories/ghana-deforestation/">Young farmers reduce deforestation by 71% in Ghana</a>
+, through community-led monitoring</li>
+<li><a href="/pr-preview/pr-100/success-stories/?filter=ecology-environment">Browse all ecology success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-100/solutions/ecology-and-biodiversity-monitoring/">QField for ecology and biodiversity monitoring →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">restoration</category>
+      <category domain="tags">conservation</category>
+      <category domain="tags">habitat mapping</category>
+      <category domain="tags">revegetation</category>
+      <category domain="tags">monitoring plots</category>
+      <category domain="tags">stewardship</category>
+      <category domain="tags">offline GIS</category>
+      <category domain="tags">GNSS</category>
+      <category domain="tags">biodiversity</category>
+    </item>
+    
+  </channel>
+</rss>

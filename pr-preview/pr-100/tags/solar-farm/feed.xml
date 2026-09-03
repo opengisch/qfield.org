@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Solar Farm on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-100/tags/solar-farm/</link>
+    <description>Recent content in Solar Farm on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-100/tags/solar-farm/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Energy and Renewables (Solar, Wind, Hydro)</title>
+      <link>https://qfield.org/pr-preview/pr-100/solutions/energy-and-renewables-solar-wind-hydro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-100/solutions/energy-and-renewables-solar-wind-hydro/</guid>
+      
+      <description>Mobile GIS for renewable energy site surveys, construction QA, and O&amp;M inspections.</description>
+      <content:encoded><![CDATA[<h2 id="fieldwork-for-renewable-assets">Fieldwork for renewable assets</h2>
+<p>Map infrastructure, record conditions, and document issues with photos. Work fully offline and sync later with QFieldCloud.</p>
+<h3 id="typical-workflows">Typical workflows</h3>
+<ul>
+<li>Pre-construction environmental and site surveys</li>
+<li>Construction QA and cable route verification</li>
+<li>O&amp;M inspections, defects, and preventive maintenance</li>
+</ul>
+<h2 id="integrates-with-qgis-and-qfieldcloud">Integrates with QGIS and QFieldCloud</h2>
+<p>Prepare layers and smart forms in QGIS. Share projects, collaborate, and sync changes via QFieldCloud.</p>
+]]></content:encoded>
+      <category domain="categories">Infrastructure, Construction &amp; Utilities</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">renewable energy</category>
+      <category domain="tags">solar farm</category>
+      <category domain="tags">wind turbine</category>
+      <category domain="tags">hydropower</category>
+    </item>
+    
+  </channel>
+</rss>

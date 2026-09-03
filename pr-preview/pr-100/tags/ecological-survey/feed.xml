@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ecological Survey on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-100/tags/ecological-survey/</link>
+    <description>Recent content in Ecological Survey on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-100/tags/ecological-survey/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Ecology and Biodiversity Monitoring</title>
+      <link>https://qfield.org/pr-preview/pr-100/solutions/ecology-and-biodiversity-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-100/solutions/ecology-and-biodiversity-monitoring/</guid>
+      
+      <description>Species observations, habitats, and monitoring plots with offline mobile GIS and QGIS.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Record species, abundance, and habitats</li>
+<li>Map plots and transects with accurate GNSS</li>
+<li>Attach photos and notes for QA</li>
+<li>Capture audio for acoustic species such as birds and amphibians</li>
+<li>Revisit fixed monitoring points to track change over time</li>
+</ul>
+<h2 id="explore-ecology-and-biodiversity-workflows">Explore ecology and biodiversity workflows</h2>
+<p>QField covers the full span of ecological fieldwork. Each area has its own focused workflow:</p>
+<ul>
+<li><a href="/pr-preview/pr-100/solutions/wildlife-tracking-and-habitat-mapping/">Wildlife tracking and habitat mapping</a>
+, for observations, telemetry, and habitat surveys</li>
+<li><a href="/pr-preview/pr-100/solutions/land-restoration-and-conservation/">Land restoration and conservation</a>
+, for restoration planning, monitoring, and stewardship</li>
+<li><a href="/pr-preview/pr-100/solutions/invasive-species-control/">Invasive species control</a>
+, for detection, treatment, and eradication operations</li>
+<li><a href="/pr-preview/pr-100/solutions/protected-area-management/">Protected area management</a>
+, for reserve patrols, assets, and condition monitoring</li>
+</ul>
+<h2 id="consistent-records-from-every-surveyor">Consistent records from every surveyor</h2>
+<p>Ecological fieldwork rarely happens where the network is. Surveys run along transects in remote terrain, at fixed monitoring plots revisited season after season, and often by volunteers or seasonal staff who joined the project a week ago. Basemaps, layers, and forms are loaded onto the device before anyone leaves the office, so the whole survey runs offline and syncs once the team is back in range.</p>
+<p>The harder problem is consistency. Value-relation widgets hold species lists and codes, numeric constraints keep abundance and measurement fields in range, and required-photo rules capture evidence at the moment of observation rather than hours later. Photos, audio, and GPS readings stay attached to the record they belong to. For sensitive species, the data never leaves your own QGIS project and QFieldCloud account, or a server you host yourself.</p>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Share projects and manage permissions in QFieldCloud. Export to standard formats for analysis. Prepare forms and symbology in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ once, push them to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, and run conflict-safe sync at the end of each day.</p>
+<h2 id="see-qfield-in-real-ecology-projects">See QField in real ecology projects</h2>
+<ul>
+<li><a href="/pr-preview/pr-100/success-stories/zero-invasive-predators/">Zero Invasive Predators: eliminating invasive species with QField</a>
+, in the rugged wilderness of New Zealand&rsquo;s South Westland</li>
+<li><a href="/pr-preview/pr-100/success-stories/fire-salamanders/">Monitoring fire salamanders in Saxony</a>
+, tracking a protected amphibian</li>
+<li><a href="/pr-preview/pr-100/success-stories/mapping-breeding-birds/">Mapping breeding birds in the Wadden Sea</a>
+, with Schutzstation Wattenmeer</li>
+<li><a href="/pr-preview/pr-100/success-stories/ecological-surveying/">Improving efficiencies in ecological surveying</a>
+, with Delta-Simons</li>
+<li><a href="/pr-preview/pr-100/success-stories/?filter=ecology-environment">Browse all ecology success stories →</a>
+</li>
+</ul>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">biodiversity</category>
+      <category domain="tags">ecology</category>
+      <category domain="tags">species monitoring</category>
+      <category domain="tags">ecological survey</category>
+      <category domain="tags">habitat mapping</category>
+      <category domain="tags">monitoring plots</category>
+      <category domain="tags">offline GIS</category>
+      <category domain="tags">GNSS</category>
+      <category domain="tags">protected areas</category>
+    </item>
+    
+    <item>
+      <title>QField for Forest Habitat and Biodiversity Mapping</title>
+      <link>https://qfield.org/pr-preview/pr-100/solutions/forest-habitat-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-100/solutions/forest-habitat-mapping/</guid>
+      
+      <description>Map habitats, species observations, and biodiversity features under forest canopy with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Habitat and biodiversity teams use QField to map:</p>
+<ul>
+<li>Habitat type and condition as polygons</li>
+<li>Species observations with location, count, and photos</li>
+<li>Deadwood, veteran trees, and microhabitat features</li>
+<li>Audio recordings for acoustic species such as birds and amphibians</li>
+<li>Repeat survey points for monitoring over time</li>
+</ul>
+<h2 id="built-for-sensitive-data">Built for sensitive data</h2>
+<p>Biodiversity data is often sensitive. The precise location of a protected species is exactly the information that needs to be handled with care. With QField the data lives in your own QGIS project and your own QFieldCloud account, or on a server you host yourself. QField and QFieldCloud are open source and self-hostable, so you decide what is captured, who can see it, and what is ever shared beyond your team.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare the survey project in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+, push it to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, and sync at the end of each day. Surveyors work offline for as long as they are in the field, and conflict-safe merges keep a whole team working the same area without losing records.</p>
+<h2 id="biodiversity-and-habitat-mapping-with-qfield">Biodiversity and habitat mapping with QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-100/success-stories/fire-salamanders/">Monitoring fire salamanders in Saxony</a>
+, a conservation project using QField to track a protected amphibian</li>
+<li><a href="/pr-preview/pr-100/success-stories/mapping-breeding-birds/">Mapping breeding birds in the Wadden Sea</a>
+, with Schutzstation Wattenmeer</li>
+<li><a href="/pr-preview/pr-100/success-stories/?filter=forestry">Browse all forestry success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-100/solutions/forestry-and-silviculture/">QField for forestry and silviculture →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Environment, Agriculture &amp; Natural Resources</category>
+      <category domain="tags">habitat mapping</category>
+      <category domain="tags">biodiversity mapping</category>
+      <category domain="tags">species observation</category>
+      <category domain="tags">forest habitat</category>
+      <category domain="tags">deadwood mapping</category>
+      <category domain="tags">veteran trees</category>
+      <category domain="tags">microhabitat</category>
+      <category domain="tags">ecological survey</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">offline mapping</category>
+      <category domain="tags">protected species</category>
+    </item>
+    
+  </channel>
+</rss>
