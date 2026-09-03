@@ -12,27 +12,27 @@
     
     
     
-    <lastBuildDate>Sat, 05 Sep 2026 00:02:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-100/categories/highlights/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Sep 2026 00:02:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-100/categories/highlights/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField 4.3 “Danube”: Summer of stability</title>
-      <link>https://qfield.org/pr-preview/pr-100/blog/2026/09/05/qfield-4.3-danube-summer-of-stability/</link>
-      <pubDate>Sat, 05 Sep 2026 00:02:00 +0000</pubDate>
+      <link>https://qfield.org/pr-preview/pr-100/blog/2026/09/08/qfield-4.3-danube-summer-of-stability/</link>
+      <pubDate>Tue, 08 Sep 2026 00:02:00 +0000</pubDate>
       
-      <guid>https://qfield.org/pr-preview/pr-100/blog/2026/09/05/qfield-4.3-danube-summer-of-stability/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-100/blog/2026/09/05/qfield-4.3-danube-summer-of-stability/splash43.webp" medium="image" />
+      <guid>https://qfield.org/pr-preview/pr-100/blog/2026/09/08/qfield-4.3-danube-summer-of-stability/</guid>
+      <media:content url="https://qfield.org/pr-preview/pr-100/blog/2026/09/08/qfield-4.3-danube-summer-of-stability/splash43.webp" medium="image" />
       <description>The next version of QField is here. While this time of the year is a well-deserved holiday period for many, we’ve dedicated ourselves to improving the stability and refining of your favorite field mapping tool.  We’re calling this effort the “summer of stability”, a sprint we will undertake on a yearly basis. But there are plenty of improvements to cover, so let’s go over them.</description>
       <content:encoded><![CDATA[<p>The next version of QField is here. While this time of the year is a well-deserved holiday period for many, we’ve dedicated ourselves to improving the stability and refining of your favorite field mapping tool.</p>
 <p>We’re calling this effort the “summer of stability”, a sprint we will undertake on a yearly basis. But there are plenty of improvements to cover, so let’s go over them.</p>
 <h2 id="main-highlights">Main highlights</h2>
-<p><img src="/pr-preview/pr-100/blog/2026/09/05/qfield-4.3-danube-summer-of-stability/splash43.webp" alt=""></p>
+<p><img src="/pr-preview/pr-100/blog/2026/09/08/qfield-4.3-danube-summer-of-stability/splash43.webp" alt=""></p>
 <h3 id="bookmark-manager">Bookmark manager</h3>
 <p>First, we’ve introduced <strong>a new bookmark manager to make QField’s experience around spatial bookmarking feel more complete</strong>. With the manager accessible via the dashboard’s main menu – users will be able to browse their bookmarks as a full list with the ability to quickly jump to a bookmark’s location by tapping its name, as well as edit its properties.</p>
 <p>Furthermore, users will also be able to <strong>export bookmarks as a geopackage</strong>, which means the data captured through spatial bookmarks is no longer locked within users’ devices anymore. And, if users’ bookmarks become irrelevant, the manager also allows for <strong>bulk deletion of bookmarks</strong>.</p>
-<p><img src="/pr-preview/pr-100/blog/2026/09/05/qfield-4.3-danube-summer-of-stability/bookmark-navigation.webp" alt=""></p>
+<p><img src="/pr-preview/pr-100/blog/2026/09/08/qfield-4.3-danube-summer-of-stability/bookmark-navigation.webp" alt=""></p>
 <p>While improving the relevance and usefulness of bookmarks, we added a <strong>“navigate to bookmark” action to the search bar results</strong>.</p>
 <h3 id="rock-solid-camera">Rock-solid camera</h3>
 <p>As mentioned above, this release focused on refinement and polish, and the camera got special attention. We’ve added <strong>logic to ensure that the rotation of snapped photos matches expectations</strong>. When the device angle gets too tricky for that to work, <strong>users can now manually rotate and flip photos</strong> while previewing them. We also improved camera stability by preventing auto-focus and auto-white balance from freezing the process when the hardware or the operating system fails us.</p>
-<p><img src="/pr-preview/pr-100/blog/2026/09/05/qfield-4.3-danube-summer-of-stability/camera-flip-rotate.webp" alt=""></p>
+<p><img src="/pr-preview/pr-100/blog/2026/09/08/qfield-4.3-danube-summer-of-stability/camera-flip-rotate.webp" alt=""></p>
 <p>Image stamping has been improved too: it’s now possible to <strong>write details on your images coming from the layer and features</strong> the images will be attached to. This is sure to please many of our users as it was requested more than once across our <a href="https://community.qfield.org/" target="_blank" rel="noopener">community discourse</a>
  and <a href="https://ideas.qfield.org/" target="_blank" rel="noopener">ideas platform</a>
 .</p>
@@ -40,7 +40,7 @@
 <p>Leveraging <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
 &rsquo;s latest capabilities, this new version of QField introduces a <strong>new way to create projects while in the field: project templates</strong>.</p>
 <p>When setting up projects in QFieldCloud, users can now flag them as templates. This newly-introduced type allows users to create new projects from these templates through QField itself in the field.</p>
-<p><img src="/pr-preview/pr-100/blog/2026/09/05/qfield-4.3-danube-summer-of-stability/qfieldcloud-template.webp" alt=""></p>
+<p><img src="/pr-preview/pr-100/blog/2026/09/08/qfield-4.3-danube-summer-of-stability/qfieldcloud-template.webp" alt=""></p>
 <p>Templates become super handy when shared within an organization where all affiliated members can have access to the template. And of course, when the templates are made public, they turn into a fantastic shared resource for the broader community. Trust us, it beats a GitHub repository archive any day of the week ;)</p>
 <h3 id="polished-cloud-project-management">Polished cloud project management</h3>
 <p>One of the most important ways to manage QFieldCloud data in QField is through its cloud project panel, accessed by tapping the blue cloud button at the top of the dashboard.</p>
@@ -59,7 +59,7 @@
 <p>To avoid accidental data loss, we’ve relocated the discarding or local changes action to a new ‘danger zone’ sub-panel.</p>
 </li>
 </ul>
-<p><img src="/pr-preview/pr-100/blog/2026/09/05/qfield-4.3-danube-summer-of-stability/cloud-project-panel.webp" alt=""></p>
+<p><img src="/pr-preview/pr-100/blog/2026/09/08/qfield-4.3-danube-summer-of-stability/cloud-project-panel.webp" alt=""></p>
 <p>In addition, the cloud project control panel now offers a summary and detailed view of local changes. This allows for users to review the feature addition, editing, and deletion prior to uploading and synchronizing them back to QFieldCloud.</p>
 <p>Haven’t tried QFieldCloud yet? <a href="https://app.qfield.cloud/accounts/signup/" target="_blank" rel="noopener">Sign up for a free community account</a>
 !</p>
@@ -74,7 +74,7 @@
 <p>Beyond that, we’ve also increased our number of automated test cases that act as safeguard against silent regressions every time we commit a change in QField. An extra 27% lines of code were added covering C++ classes and QML items that were until now not tested. This is the way we ensured that the impact of this stability sprint will not dissipate overnight.</p>
 <h2 id="danube-release-name">“Danube” release name</h2>
 <p>The Danube is the longest river in the European Union. Rising in Germany&rsquo;s Black Forest, it flows through ten countries and four capital cities — Vienna, Bratislava, Budapest, and Belgrade — before emptying into the Black Sea, sustaining ecosystems, agriculture, energy infrastructure, and the livelihoods of millions along its banks.</p>
-<p><img src="/pr-preview/pr-100/blog/2026/09/05/qfield-4.3-danube-summer-of-stability/danube.webp" alt=""></p>
+<p><img src="/pr-preview/pr-100/blog/2026/09/08/qfield-4.3-danube-summer-of-stability/danube.webp" alt=""></p>
 <p><em>Photo by <a href="https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_Danube_Gorge_near_Weltenburg.jpg" target="_blank" rel="noopener">Carsten Steger</a>
 </em></p>
 <p>This summer, the Danube made headlines for the wrong reasons. Record-low water levels, driven by unprecedented heatwaves, have exposed long-sunken WWII warships and forced drastic action to protect critical infrastructure. In Hungary, the Paks nuclear power plant, which generates nearly half of the country&rsquo;s electricity using Danube water for cooling, was forced to take all but one of its reactors offline. The European Commission&rsquo;s Joint Research Centre confirmed the Danube had reached record-low levels, with reduced flows putting pressure on navigation, water supplies, agriculture, and the energy sector. The river that has connected civilisations for millennia is telling us something urgent.</p>
@@ -429,7 +429,7 @@
 </p>
 
 <hr>
-<h3 id="from-hahahugoshortcode48s2hbhb-to-the-world">From <span class="text-qfield">Switzerland</span>
+<h3 id="from-hahahugoshortcode15s2hbhb-to-the-world">From <span class="text-qfield">Switzerland</span>
  to the world!🇨🇭</h3>
 <p>Born in the Swiss Alps, raised by open-source, and now <strong>roaming the globe</strong>, QField has gone international! What started in Switzerland is now in the hands of field mappers, researchers, and GIS pros on six continents. Thank you for taking QField <strong>worldwide</strong>! 🌍</p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-100/blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_128a0da4020cfbc6.png" srcset="/pr-preview/pr-100/blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_128a0da4020cfbc6.png 1x, /pr-preview/pr-100/blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_d945cb3b966e37d4.png 2x"
@@ -437,7 +437,7 @@
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
 
-<h4 id="mapping-the-hahahugoshortcode48s4hbhb-one-field-at-a-time"><strong>Mapping the <span class="text-qfield">world</span>
+<h4 id="mapping-the-hahahugoshortcode15s4hbhb-one-field-at-a-time"><strong>Mapping the <span class="text-qfield">world</span>
  one field at a time.</strong></h4>
 <hr>
 <h3 id="the-numbers-tell-a-story-">The numbers tell a <em>story</em> 📖</h3>
@@ -1225,7 +1225,7 @@ Want to know more about the idea of community-driven open-source projects and th
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1788415018-623626028"
+     data-gallery-id="gallery-1788425574-504744360"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1271,7 +1271,7 @@ Want to know more about the idea of community-driven open-source projects and th
 
 <style>
  
-#gallery-1788415018-623626028 .carousel-item .gallery-img {
+#gallery-1788425574-504744360 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1279,11 +1279,11 @@ Want to know more about the idea of community-driven open-source projects and th
   display: block !important;
 }
 
-#gallery-1788415018-623626028 .carousel-item {
+#gallery-1788425574-504744360 .carousel-item {
   height: auto;
 }
 
-#gallery-1788415018-623626028 .carousel-item .figure {
+#gallery-1788425574-504744360 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1292,11 +1292,11 @@ Want to know more about the idea of community-driven open-source projects and th
   text-align: center;
 }
 
-#gallery-1788415018-623626028 .carousel-item .figure .gallery-img {
+#gallery-1788425574-504744360 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1788415018-623626028 .carousel-item .figure .figure-caption {
+#gallery-1788425574-504744360 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1305,13 +1305,13 @@ Want to know more about the idea of community-driven open-source projects and th
 }
 
 @media (max-width: 768px) {
-  #gallery-1788415018-623626028 .carousel-item .gallery-img {
+  #gallery-1788425574-504744360 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1788415018-623626028 .carousel-item .gallery-img {
+  #gallery-1788425574-504744360 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1591,7 +1591,7 @@ Cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1788415006-77122582"
+     data-gallery-id="gallery-1788425557-813330805"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1620,7 +1620,7 @@ Cheers</p>
 
 <style>
  
-#gallery-1788415006-77122582 .carousel-item .gallery-img {
+#gallery-1788425557-813330805 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1628,11 +1628,11 @@ Cheers</p>
   display: block !important;
 }
 
-#gallery-1788415006-77122582 .carousel-item {
+#gallery-1788425557-813330805 .carousel-item {
   height: auto;
 }
 
-#gallery-1788415006-77122582 .carousel-item .figure {
+#gallery-1788425557-813330805 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1641,11 +1641,11 @@ Cheers</p>
   text-align: center;
 }
 
-#gallery-1788415006-77122582 .carousel-item .figure .gallery-img {
+#gallery-1788425557-813330805 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1788415006-77122582 .carousel-item .figure .figure-caption {
+#gallery-1788425557-813330805 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1654,13 +1654,13 @@ Cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1788415006-77122582 .carousel-item .gallery-img {
+  #gallery-1788425557-813330805 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1788415006-77122582 .carousel-item .gallery-img {
+  #gallery-1788425557-813330805 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1726,7 +1726,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1788415007-857324573"
+     data-gallery-id="gallery-1788425560-654786913"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1761,7 +1761,7 @@ cheers</p>
 
 <style>
  
-#gallery-1788415007-857324573 .carousel-item .gallery-img {
+#gallery-1788425560-654786913 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1769,11 +1769,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1788415007-857324573 .carousel-item {
+#gallery-1788425560-654786913 .carousel-item {
   height: auto;
 }
 
-#gallery-1788415007-857324573 .carousel-item .figure {
+#gallery-1788425560-654786913 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1782,11 +1782,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1788415007-857324573 .carousel-item .figure .gallery-img {
+#gallery-1788425560-654786913 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1788415007-857324573 .carousel-item .figure .figure-caption {
+#gallery-1788425560-654786913 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1795,13 +1795,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1788415007-857324573 .carousel-item .gallery-img {
+  #gallery-1788425560-654786913 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1788415007-857324573 .carousel-item .gallery-img {
+  #gallery-1788425560-654786913 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1822,7 +1822,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1788415010-291749147"
+     data-gallery-id="gallery-1788425563-379303749"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1860,7 +1860,7 @@ cheers</p>
 
 <style>
  
-#gallery-1788415010-291749147 .carousel-item .gallery-img {
+#gallery-1788425563-379303749 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1868,11 +1868,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1788415010-291749147 .carousel-item {
+#gallery-1788425563-379303749 .carousel-item {
   height: auto;
 }
 
-#gallery-1788415010-291749147 .carousel-item .figure {
+#gallery-1788425563-379303749 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1881,11 +1881,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1788415010-291749147 .carousel-item .figure .gallery-img {
+#gallery-1788425563-379303749 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1788415010-291749147 .carousel-item .figure .figure-caption {
+#gallery-1788425563-379303749 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1894,13 +1894,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1788415010-291749147 .carousel-item .gallery-img {
+  #gallery-1788425563-379303749 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1788415010-291749147 .carousel-item .gallery-img {
+  #gallery-1788425563-379303749 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2174,7 +2174,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1788415027-295752908"
+     data-gallery-id="gallery-1788425588-59679617"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2196,7 +2196,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 <style>
  
-#gallery-1788415027-295752908 .carousel-item .gallery-img {
+#gallery-1788425588-59679617 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2204,11 +2204,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   display: block !important;
 }
 
-#gallery-1788415027-295752908 .carousel-item {
+#gallery-1788425588-59679617 .carousel-item {
   height: auto;
 }
 
-#gallery-1788415027-295752908 .carousel-item .figure {
+#gallery-1788425588-59679617 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2217,11 +2217,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   text-align: center;
 }
 
-#gallery-1788415027-295752908 .carousel-item .figure .gallery-img {
+#gallery-1788425588-59679617 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1788415027-295752908 .carousel-item .figure .figure-caption {
+#gallery-1788425588-59679617 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2230,13 +2230,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 }
 
 @media (max-width: 768px) {
-  #gallery-1788415027-295752908 .carousel-item .gallery-img {
+  #gallery-1788425588-59679617 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1788415027-295752908 .carousel-item .gallery-img {
+  #gallery-1788425588-59679617 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2377,7 +2377,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1788415023-718748420"
+     data-gallery-id="gallery-1788425580-72725028"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2406,7 +2406,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 <style>
  
-#gallery-1788415023-718748420 .carousel-item .gallery-img {
+#gallery-1788425580-72725028 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2414,11 +2414,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   display: block !important;
 }
 
-#gallery-1788415023-718748420 .carousel-item {
+#gallery-1788425580-72725028 .carousel-item {
   height: auto;
 }
 
-#gallery-1788415023-718748420 .carousel-item .figure {
+#gallery-1788425580-72725028 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2427,11 +2427,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   text-align: center;
 }
 
-#gallery-1788415023-718748420 .carousel-item .figure .gallery-img {
+#gallery-1788425580-72725028 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1788415023-718748420 .carousel-item .figure .figure-caption {
+#gallery-1788425580-72725028 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2440,13 +2440,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 }
 
 @media (max-width: 768px) {
-  #gallery-1788415023-718748420 .carousel-item .gallery-img {
+  #gallery-1788425580-72725028 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1788415023-718748420 .carousel-item .gallery-img {
+  #gallery-1788425580-72725028 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }

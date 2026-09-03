@@ -180,7 +180,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1788415027-295752908"
+     data-gallery-id="gallery-1788425588-59679617"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -202,7 +202,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 <style>
  
-#gallery-1788415027-295752908 .carousel-item .gallery-img {
+#gallery-1788425588-59679617 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -210,11 +210,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   display: block !important;
 }
 
-#gallery-1788415027-295752908 .carousel-item {
+#gallery-1788425588-59679617 .carousel-item {
   height: auto;
 }
 
-#gallery-1788415027-295752908 .carousel-item .figure {
+#gallery-1788425588-59679617 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -223,11 +223,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   text-align: center;
 }
 
-#gallery-1788415027-295752908 .carousel-item .figure .gallery-img {
+#gallery-1788425588-59679617 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1788415027-295752908 .carousel-item .figure .figure-caption {
+#gallery-1788425588-59679617 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -236,13 +236,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 }
 
 @media (max-width: 768px) {
-  #gallery-1788415027-295752908 .carousel-item .gallery-img {
+  #gallery-1788425588-59679617 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1788415027-295752908 .carousel-item .gallery-img {
+  #gallery-1788425588-59679617 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
