@@ -1,6 +1,6 @@
 ---
 title: 'QField 4.3 “Danube”: Summer of stability'
-date: '2026-09-05T00:02:00'
+date: '2026-09-08T00:02:00'
 author: 'Mathieu'
 description: "The next version of QField is here. While this time of the year is a well-deserved holiday period for many, we’ve dedicated ourselves to improving the stability and refining of your favorite field mapping tool.  We’re calling this effort the “summer of stability”, a sprint we will undertake on a yearly basis. But there are plenty of improvements to cover, so let’s go over them."
 categories:
@@ -12,7 +12,7 @@ tags:
 cover:
   image: splash43.webp
   alt: ''
-draft: true
+draft: false
 
 ---
 
