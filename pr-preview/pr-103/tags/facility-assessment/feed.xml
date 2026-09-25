@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Facility Assessment on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-103/tags/facility-assessment/</link>
+    <description>Recent content in Facility Assessment on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-103/tags/facility-assessment/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Health and Epidemiology Fieldwork</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/health-and-epidemiology-fieldwork/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/health-and-epidemiology-fieldwork/</guid>
+      
+      <description>Health facility mapping, household surveys, vector and outbreak monitoring, and ground truth data collection with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Health programmes and research teams use QField to connect health data to place:</p>
+<ul>
+<li>Health facility and service mapping</li>
+<li>Household and community surveys</li>
+<li>Vector surveillance and breeding site mapping</li>
+<li>Outbreak case mapping and contact area monitoring</li>
+<li>Ground truth data collection for land cover and risk models</li>
+<li>Vaccination and distribution campaign tracking</li>
+</ul>
+<h2 id="location-you-can-trust">Location you can trust</h2>
+<p>Epidemiology depends on knowing where things are. A household survey with bad coordinates, or a land cover sample placed in the wrong field, weakens everything built on top of it.</p>
+<p>QField shows the surveyor&rsquo;s position live over the imagery and project layers, together with the accuracy of the fix. When the French Research Institute for Sustainable Development (IRD) mapped the environment of malaria transmitting mosquitoes in Burkina Faso and Ivory Coast, its team moved around by motorbike using satellite imagery in QField to find their way, drew land cover parcels directly on the tablet, and could see at the end of each day which parts of the study area they had covered and how many samples of each class they still needed.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare the survey in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ with the imagery, reference layers, and questionnaire. Push it to every enumerator through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, or to a self-hosted server where data protection rules require it. Teams work offline in the field, and every record comes back with its location, attributes, and photos in one place.</p>
+<h2 id="health-teams-using-qfield">Health teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-103/success-stories/malaria-data-collection/">Ground truth data on malaria transmitting mosquitoes</a>
+, with the French Research Institute for Sustainable Development in Burkina Faso and Ivory Coast</li>
+<li><a href="/pr-preview/pr-103/success-stories/?filter=humanitarian-emergency-response">Browse all humanitarian and emergency response success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/">QField for humanitarian aid and disaster relief →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">health surveys</category>
+      <category domain="tags">epidemiology</category>
+      <category domain="tags">facility assessment</category>
+      <category domain="tags">vector surveillance</category>
+      <category domain="tags">malaria</category>
+      <category domain="tags">outbreak mapping</category>
+      <category domain="tags">household survey</category>
+      <category domain="tags">public health GIS</category>
+      <category domain="tags">ground truth</category>
+      <category domain="tags">offline health mapping</category>
+    </item>
+    
+  </channel>
+</rss>

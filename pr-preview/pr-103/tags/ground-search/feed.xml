@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ground Search on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-103/tags/ground-search/</link>
+    <description>Recent content in Ground Search on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-103/tags/ground-search/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Security, Policing, and Crime Mapping</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/security-policing-and-crime-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/security-policing-and-crime-mapping/</guid>
+      
+      <description>Incident mapping, patrol records, and search and rescue coordination with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Public safety and search teams use QField to coordinate work on the ground:</p>
+<ul>
+<li>Search and rescue grids, team assignments, and coverage tracking</li>
+<li>Missing person searches with shared track logs</li>
+<li>Incident and hazard mapping with photos</li>
+<li>Patrol routes and observations</li>
+<li>Event safety planning and on-the-day coordination</li>
+<li>Community safety surveys</li>
+</ul>
+<h2 id="one-shared-map-for-every-team">One shared map for every team</h2>
+<p>When dozens of people are searching the same bushland, the biggest risk is not the terrain but the coordination. If teams work from different maps, and track logs have to be emailed in each night, ground gets searched twice while other areas are missed.</p>
+<p>Find Our Lost Loved Ones (FOLLO), a volunteer nonprofit in Australia, fixed that with QField. Each search starts in QGIS with LiDAR, hillshade, and contours, overlaid with a grid of 20 metre squares. Teams are colour coded and assigned rows of squares. Volunteers open QField, press sync, and everyone is on the same map. Their track logs flow back automatically, so the team knows exactly which squares were covered and which need a second look. On one search, 52 volunteers worked from the same live map.</p>
+<p>FOLLO also gave the head of a state search and rescue unit a QFieldCloud reader account, so the police could follow the search in real time. In 2026, the team found two missing people that the official searches could not.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Build the map and the assignment grid in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Share it with every team through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, with read-only access for partner agencies. Teams work offline in the field and their records and track logs sync back to one shared project.</p>
+<h2 id="teams-using-qfield">Teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-103/success-stories/find-our-lost-loved-ones/">One shared map: finding Australia&rsquo;s missing with QField</a>
+, with Find Our Lost Loved Ones</li>
+<li><a href="/pr-preview/pr-103/success-stories/?filter=humanitarian-emergency-response">Browse all humanitarian and emergency response success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/">QField for humanitarian aid and disaster relief →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">crime mapping</category>
+      <category domain="tags">public safety</category>
+      <category domain="tags">policing</category>
+      <category domain="tags">search and rescue</category>
+      <category domain="tags">missing persons</category>
+      <category domain="tags">ground search</category>
+      <category domain="tags">track logs</category>
+      <category domain="tags">incident mapping</category>
+      <category domain="tags">patrol mapping</category>
+      <category domain="tags">offline mapping</category>
+    </item>
+    
+  </channel>
+</rss>

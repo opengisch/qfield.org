@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Aid Distribution on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-103/tags/aid-distribution/</link>
+    <description>Recent content in Aid Distribution on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-103/tags/aid-distribution/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Humanitarian Aid and Disaster Relief</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/</guid>
+      
+      <description>Needs assessments, damage mapping, shelter and site planning, and search coordination with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Humanitarian and emergency teams use QField across the whole response cycle. Each area has its own focused workflow:</p>
+<ul>
+<li><a href="/pr-preview/pr-103/solutions/natural-disaster-assessment-floods-landslides-wildfires/">Natural disaster assessment</a>
+, for rapid damage mapping after floods, landslides, wildfires, and earthquakes</li>
+<li><a href="/pr-preview/pr-103/solutions/civil-protection-and-risk-assessment/">Civil protection and risk assessment</a>
+, for hazard mapping, critical assets, and emergency drills</li>
+<li><a href="/pr-preview/pr-103/solutions/refugee-camp-and-shelter-mapping/">Refugee camp and shelter mapping</a>
+, for site planning, shelter inventories, and service mapping</li>
+<li><a href="/pr-preview/pr-103/solutions/health-and-epidemiology-fieldwork/">Health and epidemiology fieldwork</a>
+, for facility mapping, household surveys, and outbreak monitoring</li>
+<li><a href="/pr-preview/pr-103/solutions/security-policing-and-crime-mapping/">Security, policing, and search coordination</a>
+, for incidents, patrols, and ground searches</li>
+<li><a href="/pr-preview/pr-103/solutions/social-suffering-vulnerability-mapping/">Social vulnerability mapping</a>
+, for identifying the communities most at risk</li>
+<li>Needs assessments and aid distribution tracking</li>
+</ul>
+<h2 id="built-for-the-worst-conditions">Built for the worst conditions</h2>
+<p>A disaster usually takes out the infrastructure that most field apps depend on. Power is intermittent, mobile networks are down or saturated, and the people doing the fieldwork are often surge staff or volunteers who were not trained on the tool last week.</p>
+<p>QField is designed around those constraints. Projects are packaged onto the device before a team deploys, so maps, forms, and reference layers are all available with no connection at all. Forms configured in QGIS carry dropdowns, constraints, and required photos onto the device, so a volunteer on their first day produces the same structured record as an experienced assessor. When a team gets back into coverage, even briefly, their work syncs and becomes visible to everyone else on the project.</p>
+<h2 id="one-shared-map-for-every-team">One shared map for every team</h2>
+<p>The hardest part of a large response is often not collecting data but getting everyone onto the same picture. Prepare the project once in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ and share it through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Every team, from every organisation, works from the same layers and the same forms, and every record lands in the same place. Coordinators see progress as teams sync, rather than stitching together spreadsheets and emailed files late at night.</p>
+<h2 id="see-qfield-in-real-humanitarian-projects">See QField in real humanitarian projects</h2>
+<ul>
+<li><a href="/pr-preview/pr-103/success-stories/find-our-lost-loved-ones/">One shared map: finding Australia&rsquo;s missing</a>
+, where a volunteer nonprofit coordinates ground searches of 50 or more people in QField</li>
+<li><a href="/pr-preview/pr-103/success-stories/un/">The UN Open GIS Initiative recommends QField for field operations</a>
+, across peacekeeping and humanitarian missions</li>
+<li><a href="/pr-preview/pr-103/success-stories/tonga/">Tonga crop survey</a>
+, mapping crop damage and monitoring recovery after the Hunga Tonga eruption, while the internet was cut</li>
+<li><a href="/pr-preview/pr-103/success-stories/dai/">Emergency data management for cultural heritage rescue</a>
+, with Germany&rsquo;s KulturGutRetter project</li>
+<li><a href="/pr-preview/pr-103/success-stories/malaria-data-collection/">Ground truth data on malaria transmitting mosquitoes</a>
+, in rural Burkina Faso and Ivory Coast</li>
+<li><a href="/pr-preview/pr-103/success-stories/?filter=humanitarian-emergency-response">Browse all humanitarian and emergency response success stories →</a>
+</li>
+</ul>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">humanitarian</category>
+      <category domain="tags">aid distribution</category>
+      <category domain="tags">needs assessment</category>
+      <category domain="tags">disaster relief</category>
+      <category domain="tags">emergency response</category>
+      <category domain="tags">damage assessment</category>
+      <category domain="tags">humanitarian GIS</category>
+      <category domain="tags">offline humanitarian mapping</category>
+      <category domain="tags">open source humanitarian GIS</category>
+      <category domain="tags">search and rescue</category>
+      <category domain="tags">multi-agency coordination</category>
+    </item>
+    
+  </channel>
+</rss>

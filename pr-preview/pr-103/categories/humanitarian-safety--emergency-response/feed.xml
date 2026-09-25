@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Humanitarian, Safety &amp; Emergency Response on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-103/categories/humanitarian-safety--emergency-response/</link>
+    <description>Recent content in Humanitarian, Safety &amp; Emergency Response on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-103/categories/humanitarian-safety--emergency-response/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Civil Protection and Risk Assessment</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/civil-protection-and-risk-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/civil-protection-and-risk-assessment/</guid>
+      
+      <description>Hazard mapping, critical asset checks, and emergency planning and drills with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Civil protection teams use QField to understand risk before an emergency and to respond when one happens:</p>
+<ul>
+<li>Hazard mapping for floods, landslides, wildfires, and industrial risks</li>
+<li>Critical asset and infrastructure checks, from shelters and hospitals to bridges and pumping stations</li>
+<li>Vulnerability and exposure surveys of buildings and communities</li>
+<li>Evacuation route and assembly point inspections</li>
+<li>Emergency drills and exercises using live field workflows</li>
+<li>Post-event inspections and damage records</li>
+</ul>
+<h2 id="practise-with-the-tool-you-will-use-on-the-day">Practise with the tool you will use on the day</h2>
+<p>The worst time to learn a new app is in the middle of an emergency. Civil protection work has the advantage of time to prepare, and QField makes the most of it. The same project that holds your hazard maps and asset register can carry your emergency forms, so risk assessments, drills, and real events all run through one tool that teams already know.</p>
+<p>Germany&rsquo;s KulturGutRetter project, which builds rapid response capacity for cultural heritage in emergencies, took that approach. Its QField field kits sync over a local server and router, so they keep working offline, and they were put to the test in a full scale disaster drill in 2024.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Maintain your hazard layers and asset registers in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Push the project to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, or run your own server where the data has to stay inside your network. Every change is attributed to the person who made it, which is what an after-action review or an audit will ask for.</p>
+<h2 id="teams-using-qfield">Teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-103/success-stories/dai/">Emergency data management for cultural heritage rescue</a>
+, with Germany&rsquo;s KulturGutRetter project</li>
+<li><a href="/pr-preview/pr-103/success-stories/un/">The UN Open GIS Initiative recommends QField for field operations</a>
+</li>
+<li><a href="/pr-preview/pr-103/success-stories/?filter=humanitarian-emergency-response">Browse all humanitarian and emergency response success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/">QField for humanitarian aid and disaster relief →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">risk assessment</category>
+      <category domain="tags">civil protection</category>
+      <category domain="tags">hazard mapping</category>
+      <category domain="tags">emergency planning</category>
+      <category domain="tags">critical infrastructure</category>
+      <category domain="tags">vulnerability assessment</category>
+      <category domain="tags">emergency drills</category>
+      <category domain="tags">disaster risk reduction</category>
+      <category domain="tags">open source civil protection GIS</category>
+    </item>
+    
+    <item>
+      <title>QField for Health and Epidemiology Fieldwork</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/health-and-epidemiology-fieldwork/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/health-and-epidemiology-fieldwork/</guid>
+      
+      <description>Health facility mapping, household surveys, vector and outbreak monitoring, and ground truth data collection with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Health programmes and research teams use QField to connect health data to place:</p>
+<ul>
+<li>Health facility and service mapping</li>
+<li>Household and community surveys</li>
+<li>Vector surveillance and breeding site mapping</li>
+<li>Outbreak case mapping and contact area monitoring</li>
+<li>Ground truth data collection for land cover and risk models</li>
+<li>Vaccination and distribution campaign tracking</li>
+</ul>
+<h2 id="location-you-can-trust">Location you can trust</h2>
+<p>Epidemiology depends on knowing where things are. A household survey with bad coordinates, or a land cover sample placed in the wrong field, weakens everything built on top of it.</p>
+<p>QField shows the surveyor&rsquo;s position live over the imagery and project layers, together with the accuracy of the fix. When the French Research Institute for Sustainable Development (IRD) mapped the environment of malaria transmitting mosquitoes in Burkina Faso and Ivory Coast, its team moved around by motorbike using satellite imagery in QField to find their way, drew land cover parcels directly on the tablet, and could see at the end of each day which parts of the study area they had covered and how many samples of each class they still needed.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare the survey in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ with the imagery, reference layers, and questionnaire. Push it to every enumerator through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, or to a self-hosted server where data protection rules require it. Teams work offline in the field, and every record comes back with its location, attributes, and photos in one place.</p>
+<h2 id="health-teams-using-qfield">Health teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-103/success-stories/malaria-data-collection/">Ground truth data on malaria transmitting mosquitoes</a>
+, with the French Research Institute for Sustainable Development in Burkina Faso and Ivory Coast</li>
+<li><a href="/pr-preview/pr-103/success-stories/?filter=humanitarian-emergency-response">Browse all humanitarian and emergency response success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/">QField for humanitarian aid and disaster relief →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">health surveys</category>
+      <category domain="tags">epidemiology</category>
+      <category domain="tags">facility assessment</category>
+      <category domain="tags">vector surveillance</category>
+      <category domain="tags">malaria</category>
+      <category domain="tags">outbreak mapping</category>
+      <category domain="tags">household survey</category>
+      <category domain="tags">public health GIS</category>
+      <category domain="tags">ground truth</category>
+      <category domain="tags">offline health mapping</category>
+    </item>
+    
+    <item>
+      <title>QField for Humanitarian Aid and Disaster Relief</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/</guid>
+      
+      <description>Needs assessments, damage mapping, shelter and site planning, and search coordination with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Humanitarian and emergency teams use QField across the whole response cycle. Each area has its own focused workflow:</p>
+<ul>
+<li><a href="/pr-preview/pr-103/solutions/natural-disaster-assessment-floods-landslides-wildfires/">Natural disaster assessment</a>
+, for rapid damage mapping after floods, landslides, wildfires, and earthquakes</li>
+<li><a href="/pr-preview/pr-103/solutions/civil-protection-and-risk-assessment/">Civil protection and risk assessment</a>
+, for hazard mapping, critical assets, and emergency drills</li>
+<li><a href="/pr-preview/pr-103/solutions/refugee-camp-and-shelter-mapping/">Refugee camp and shelter mapping</a>
+, for site planning, shelter inventories, and service mapping</li>
+<li><a href="/pr-preview/pr-103/solutions/health-and-epidemiology-fieldwork/">Health and epidemiology fieldwork</a>
+, for facility mapping, household surveys, and outbreak monitoring</li>
+<li><a href="/pr-preview/pr-103/solutions/security-policing-and-crime-mapping/">Security, policing, and search coordination</a>
+, for incidents, patrols, and ground searches</li>
+<li><a href="/pr-preview/pr-103/solutions/social-suffering-vulnerability-mapping/">Social vulnerability mapping</a>
+, for identifying the communities most at risk</li>
+<li>Needs assessments and aid distribution tracking</li>
+</ul>
+<h2 id="built-for-the-worst-conditions">Built for the worst conditions</h2>
+<p>A disaster usually takes out the infrastructure that most field apps depend on. Power is intermittent, mobile networks are down or saturated, and the people doing the fieldwork are often surge staff or volunteers who were not trained on the tool last week.</p>
+<p>QField is designed around those constraints. Projects are packaged onto the device before a team deploys, so maps, forms, and reference layers are all available with no connection at all. Forms configured in QGIS carry dropdowns, constraints, and required photos onto the device, so a volunteer on their first day produces the same structured record as an experienced assessor. When a team gets back into coverage, even briefly, their work syncs and becomes visible to everyone else on the project.</p>
+<h2 id="one-shared-map-for-every-team">One shared map for every team</h2>
+<p>The hardest part of a large response is often not collecting data but getting everyone onto the same picture. Prepare the project once in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ and share it through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Every team, from every organisation, works from the same layers and the same forms, and every record lands in the same place. Coordinators see progress as teams sync, rather than stitching together spreadsheets and emailed files late at night.</p>
+<h2 id="see-qfield-in-real-humanitarian-projects">See QField in real humanitarian projects</h2>
+<ul>
+<li><a href="/pr-preview/pr-103/success-stories/find-our-lost-loved-ones/">One shared map: finding Australia&rsquo;s missing</a>
+, where a volunteer nonprofit coordinates ground searches of 50 or more people in QField</li>
+<li><a href="/pr-preview/pr-103/success-stories/un/">The UN Open GIS Initiative recommends QField for field operations</a>
+, across peacekeeping and humanitarian missions</li>
+<li><a href="/pr-preview/pr-103/success-stories/tonga/">Tonga crop survey</a>
+, mapping crop damage and monitoring recovery after the Hunga Tonga eruption, while the internet was cut</li>
+<li><a href="/pr-preview/pr-103/success-stories/dai/">Emergency data management for cultural heritage rescue</a>
+, with Germany&rsquo;s KulturGutRetter project</li>
+<li><a href="/pr-preview/pr-103/success-stories/malaria-data-collection/">Ground truth data on malaria transmitting mosquitoes</a>
+, in rural Burkina Faso and Ivory Coast</li>
+<li><a href="/pr-preview/pr-103/success-stories/?filter=humanitarian-emergency-response">Browse all humanitarian and emergency response success stories →</a>
+</li>
+</ul>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">humanitarian</category>
+      <category domain="tags">aid distribution</category>
+      <category domain="tags">needs assessment</category>
+      <category domain="tags">disaster relief</category>
+      <category domain="tags">emergency response</category>
+      <category domain="tags">damage assessment</category>
+      <category domain="tags">humanitarian GIS</category>
+      <category domain="tags">offline humanitarian mapping</category>
+      <category domain="tags">open source humanitarian GIS</category>
+      <category domain="tags">search and rescue</category>
+      <category domain="tags">multi-agency coordination</category>
+    </item>
+    
+    <item>
+      <title>QField for Natural Disaster Assessment (Floods, Landslides, Wildfires)</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/natural-disaster-assessment-floods-landslides-wildfires/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/natural-disaster-assessment-floods-landslides-wildfires/</guid>
+      
+      <description>Rapid damage assessment, hazard and access mapping, and recovery monitoring after floods, landslides, and wildfires with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Response teams use QField to assess damage and plan recovery after natural hazards:</p>
+<ul>
+<li>Rapid damage assessment of buildings, roads, bridges, and utilities</li>
+<li>Flood extent and high water mark recording</li>
+<li>Landslide and slope failure mapping</li>
+<li>Burn area, fire line, and wildfire impact mapping</li>
+<li>Crop, livestock, and agricultural damage surveys</li>
+<li>Access route and road blockage mapping for logistics</li>
+<li>Recovery monitoring at the same sites over weeks and months</li>
+</ul>
+<h2 id="built-for-the-first-hours-after-a-disaster">Built for the first hours after a disaster</h2>
+<p>The window for a rapid assessment is short, and the conditions are at their worst. Networks are down, roads are cut, and assessors may be local staff or volunteers who have never used the tool before.</p>
+<p>QField handles that by doing everything on the device. The project, the forms, and the reference layers travel with the team, so there is nothing to download once they arrive. Forms built in QGIS carry the damage scale, required photos, and value checks onto the device, which means data from twenty different assessors can be combined straight away instead of being cleaned for a week. When any team finds a signal, their records sync and appear on the shared map.</p>
+<p>In Tonga, after the Hunga Tonga eruption in 2022, the undersea internet cable was cut. Ministry of Agriculture staff kept mapping crop damage and monitoring recovery in QField regardless, and the results were used to calculate relief payments to affected communities.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare the assessment project in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ once, with baseline imagery and the damage form. Push it to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Teams work offline across the affected area and sync whenever they can, with conflict-safe merges when two teams have assessed the same site.</p>
+<h2 id="response-teams-using-qfield">Response teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-103/success-stories/tonga/">Tonga crop survey</a>
+, mapping crop damage and monitoring recovery after the Hunga Tonga eruption</li>
+<li><a href="/pr-preview/pr-103/success-stories/dai/">Emergency data management for cultural heritage rescue</a>
+, with Germany&rsquo;s KulturGutRetter project</li>
+<li><a href="/pr-preview/pr-103/success-stories/?filter=humanitarian-emergency-response">Browse all humanitarian and emergency response success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/">QField for humanitarian aid and disaster relief →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">disaster assessment</category>
+      <category domain="tags">flood</category>
+      <category domain="tags">landslide</category>
+      <category domain="tags">wildfire</category>
+      <category domain="tags">rapid damage assessment</category>
+      <category domain="tags">post-disaster needs assessment</category>
+      <category domain="tags">flood mapping</category>
+      <category domain="tags">burn area mapping</category>
+      <category domain="tags">offline disaster mapping</category>
+      <category domain="tags">recovery monitoring</category>
+      <category domain="tags">emergency response GIS</category>
+    </item>
+    
+    <item>
+      <title>QField for Refugee Camp and Shelter Mapping</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/refugee-camp-and-shelter-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/refugee-camp-and-shelter-mapping/</guid>
+      
+      <description>Site planning, shelter inventories, and service mapping in camps and displacement settings with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Site planners and camp management teams use QField to keep an accurate, shared picture of a site:</p>
+<ul>
+<li>Shelter inventories with IDs, condition, and occupancy details</li>
+<li>Site planning, plot layout, and allocation</li>
+<li>Water, sanitation, and hygiene facility mapping</li>
+<li>Health posts, schools, distribution points, and other services</li>
+<li>Drainage, access routes, and hazard mapping</li>
+<li>Protection and safety mapping, including lighting and risk areas</li>
+</ul>
+<h2 id="keeping-pace-with-a-changing-site">Keeping pace with a changing site</h2>
+<p>Camps and displacement sites rarely stand still. New arrivals, relocations, flooding, and construction change the layout week by week, and a map that was right last month can send a distribution team to the wrong place today.</p>
+<p>QField lets the people who are on site every day keep the map current. Shelters and services are added and updated on the device, with photos and structured attributes, and the changes flow back into one shared project. Because the form is defined once in QGIS, a record captured by one partner looks the same as a record captured by another, so the data can be combined without a round of cleaning.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare the site project in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+, including drone imagery, plot layouts, and service layers. Share it with every partner through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, with permissions that match who needs to see what. Teams work offline on site and sync when they can.</p>
+<h2 id="humanitarian-teams-using-qfield">Humanitarian teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-103/success-stories/un/">The UN Open GIS Initiative recommends QField for field operations</a>
+, across peacekeeping and humanitarian missions</li>
+<li><a href="/pr-preview/pr-103/success-stories/?filter=humanitarian-emergency-response">Browse all humanitarian and emergency response success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/">QField for humanitarian aid and disaster relief →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">refugee camp</category>
+      <category domain="tags">shelter mapping</category>
+      <category domain="tags">humanitarian</category>
+      <category domain="tags">site planning</category>
+      <category domain="tags">camp management</category>
+      <category domain="tags">WASH mapping</category>
+      <category domain="tags">service mapping</category>
+      <category domain="tags">displacement</category>
+      <category domain="tags">offline humanitarian mapping</category>
+    </item>
+    
+    <item>
+      <title>QField for Security, Policing, and Crime Mapping</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/security-policing-and-crime-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/security-policing-and-crime-mapping/</guid>
+      
+      <description>Incident mapping, patrol records, and search and rescue coordination with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Public safety and search teams use QField to coordinate work on the ground:</p>
+<ul>
+<li>Search and rescue grids, team assignments, and coverage tracking</li>
+<li>Missing person searches with shared track logs</li>
+<li>Incident and hazard mapping with photos</li>
+<li>Patrol routes and observations</li>
+<li>Event safety planning and on-the-day coordination</li>
+<li>Community safety surveys</li>
+</ul>
+<h2 id="one-shared-map-for-every-team">One shared map for every team</h2>
+<p>When dozens of people are searching the same bushland, the biggest risk is not the terrain but the coordination. If teams work from different maps, and track logs have to be emailed in each night, ground gets searched twice while other areas are missed.</p>
+<p>Find Our Lost Loved Ones (FOLLO), a volunteer nonprofit in Australia, fixed that with QField. Each search starts in QGIS with LiDAR, hillshade, and contours, overlaid with a grid of 20 metre squares. Teams are colour coded and assigned rows of squares. Volunteers open QField, press sync, and everyone is on the same map. Their track logs flow back automatically, so the team knows exactly which squares were covered and which need a second look. On one search, 52 volunteers worked from the same live map.</p>
+<p>FOLLO also gave the head of a state search and rescue unit a QFieldCloud reader account, so the police could follow the search in real time. In 2026, the team found two missing people that the official searches could not.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Build the map and the assignment grid in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Share it with every team through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, with read-only access for partner agencies. Teams work offline in the field and their records and track logs sync back to one shared project.</p>
+<h2 id="teams-using-qfield">Teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-103/success-stories/find-our-lost-loved-ones/">One shared map: finding Australia&rsquo;s missing with QField</a>
+, with Find Our Lost Loved Ones</li>
+<li><a href="/pr-preview/pr-103/success-stories/?filter=humanitarian-emergency-response">Browse all humanitarian and emergency response success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/">QField for humanitarian aid and disaster relief →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">crime mapping</category>
+      <category domain="tags">public safety</category>
+      <category domain="tags">policing</category>
+      <category domain="tags">search and rescue</category>
+      <category domain="tags">missing persons</category>
+      <category domain="tags">ground search</category>
+      <category domain="tags">track logs</category>
+      <category domain="tags">incident mapping</category>
+      <category domain="tags">patrol mapping</category>
+      <category domain="tags">offline mapping</category>
+    </item>
+    
+    <item>
+      <title>QField for Social Suffering and Vulnerability Mapping</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/social-suffering-vulnerability-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/social-suffering-vulnerability-mapping/</guid>
+      
+      <description>Mobile GIS for community vulnerability mapping, social risks, and service access assessments.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<ul>
+<li>Vulnerability and needs assessments</li>
+<li>Service access and infrastructure mapping</li>
+<li>Community engagements and feedback</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Prepare forms in QGIS and collaborate through QFieldCloud with clear permissions and history.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">vulnerability mapping</category>
+      <category domain="tags">social risks</category>
+      <category domain="tags">community mapping</category>
+    </item>
+    
+  </channel>
+</rss>

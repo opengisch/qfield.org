@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Risk Assessment on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-103/tags/risk-assessment/</link>
+    <description>Recent content in Risk Assessment on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-103/tags/risk-assessment/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Civil Protection and Risk Assessment</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/civil-protection-and-risk-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/civil-protection-and-risk-assessment/</guid>
+      
+      <description>Hazard mapping, critical asset checks, and emergency planning and drills with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Civil protection teams use QField to understand risk before an emergency and to respond when one happens:</p>
+<ul>
+<li>Hazard mapping for floods, landslides, wildfires, and industrial risks</li>
+<li>Critical asset and infrastructure checks, from shelters and hospitals to bridges and pumping stations</li>
+<li>Vulnerability and exposure surveys of buildings and communities</li>
+<li>Evacuation route and assembly point inspections</li>
+<li>Emergency drills and exercises using live field workflows</li>
+<li>Post-event inspections and damage records</li>
+</ul>
+<h2 id="practise-with-the-tool-you-will-use-on-the-day">Practise with the tool you will use on the day</h2>
+<p>The worst time to learn a new app is in the middle of an emergency. Civil protection work has the advantage of time to prepare, and QField makes the most of it. The same project that holds your hazard maps and asset register can carry your emergency forms, so risk assessments, drills, and real events all run through one tool that teams already know.</p>
+<p>Germany&rsquo;s KulturGutRetter project, which builds rapid response capacity for cultural heritage in emergencies, took that approach. Its QField field kits sync over a local server and router, so they keep working offline, and they were put to the test in a full scale disaster drill in 2024.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Maintain your hazard layers and asset registers in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Push the project to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+, or run your own server where the data has to stay inside your network. Every change is attributed to the person who made it, which is what an after-action review or an audit will ask for.</p>
+<h2 id="teams-using-qfield">Teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-103/success-stories/dai/">Emergency data management for cultural heritage rescue</a>
+, with Germany&rsquo;s KulturGutRetter project</li>
+<li><a href="/pr-preview/pr-103/success-stories/un/">The UN Open GIS Initiative recommends QField for field operations</a>
+</li>
+<li><a href="/pr-preview/pr-103/success-stories/?filter=humanitarian-emergency-response">Browse all humanitarian and emergency response success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/">QField for humanitarian aid and disaster relief →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">risk assessment</category>
+      <category domain="tags">civil protection</category>
+      <category domain="tags">hazard mapping</category>
+      <category domain="tags">emergency planning</category>
+      <category domain="tags">critical infrastructure</category>
+      <category domain="tags">vulnerability assessment</category>
+      <category domain="tags">emergency drills</category>
+      <category domain="tags">disaster risk reduction</category>
+      <category domain="tags">open source civil protection GIS</category>
+    </item>
+    
+  </channel>
+</rss>

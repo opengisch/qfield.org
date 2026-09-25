@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Recovery Monitoring on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-103/tags/recovery-monitoring/</link>
+    <description>Recent content in Recovery Monitoring on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-103/tags/recovery-monitoring/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Natural Disaster Assessment (Floods, Landslides, Wildfires)</title>
+      <link>https://qfield.org/pr-preview/pr-103/solutions/natural-disaster-assessment-floods-landslides-wildfires/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-103/solutions/natural-disaster-assessment-floods-landslides-wildfires/</guid>
+      
+      <description>Rapid damage assessment, hazard and access mapping, and recovery monitoring after floods, landslides, and wildfires with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Response teams use QField to assess damage and plan recovery after natural hazards:</p>
+<ul>
+<li>Rapid damage assessment of buildings, roads, bridges, and utilities</li>
+<li>Flood extent and high water mark recording</li>
+<li>Landslide and slope failure mapping</li>
+<li>Burn area, fire line, and wildfire impact mapping</li>
+<li>Crop, livestock, and agricultural damage surveys</li>
+<li>Access route and road blockage mapping for logistics</li>
+<li>Recovery monitoring at the same sites over weeks and months</li>
+</ul>
+<h2 id="built-for-the-first-hours-after-a-disaster">Built for the first hours after a disaster</h2>
+<p>The window for a rapid assessment is short, and the conditions are at their worst. Networks are down, roads are cut, and assessors may be local staff or volunteers who have never used the tool before.</p>
+<p>QField handles that by doing everything on the device. The project, the forms, and the reference layers travel with the team, so there is nothing to download once they arrive. Forms built in QGIS carry the damage scale, required photos, and value checks onto the device, which means data from twenty different assessors can be combined straight away instead of being cleaned for a week. When any team finds a signal, their records sync and appear on the shared map.</p>
+<p>In Tonga, after the Hunga Tonga eruption in 2022, the undersea internet cable was cut. Ministry of Agriculture staff kept mapping crop damage and monitoring recovery in QField regardless, and the results were used to calculate relief payments to affected communities.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare the assessment project in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ once, with baseline imagery and the damage form. Push it to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Teams work offline across the affected area and sync whenever they can, with conflict-safe merges when two teams have assessed the same site.</p>
+<h2 id="response-teams-using-qfield">Response teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-103/success-stories/tonga/">Tonga crop survey</a>
+, mapping crop damage and monitoring recovery after the Hunga Tonga eruption</li>
+<li><a href="/pr-preview/pr-103/success-stories/dai/">Emergency data management for cultural heritage rescue</a>
+, with Germany&rsquo;s KulturGutRetter project</li>
+<li><a href="/pr-preview/pr-103/success-stories/?filter=humanitarian-emergency-response">Browse all humanitarian and emergency response success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-103/solutions/humanitarian-aid-and-disaster-relief/">QField for humanitarian aid and disaster relief →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Humanitarian, Safety &amp; Emergency Response</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">disaster assessment</category>
+      <category domain="tags">flood</category>
+      <category domain="tags">landslide</category>
+      <category domain="tags">wildfire</category>
+      <category domain="tags">rapid damage assessment</category>
+      <category domain="tags">post-disaster needs assessment</category>
+      <category domain="tags">flood mapping</category>
+      <category domain="tags">burn area mapping</category>
+      <category domain="tags">offline disaster mapping</category>
+      <category domain="tags">recovery monitoring</category>
+      <category domain="tags">emergency response GIS</category>
+    </item>
+    
+  </channel>
+</rss>
