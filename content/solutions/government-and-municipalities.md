@@ -64,7 +64,9 @@ QField covers the breadth of public sector fieldwork. Each area has its own focu
 - [Urban planning and zoning](/solutions/urban-planning-and-zoning/), for site surveys, compliance checks, and plan monitoring
 - [Public works and infrastructure maintenance](/solutions/public-works-and-infrastructure-maintenance/), for asset registers, condition assessment, and work orders
 - [Waste management and sanitation](/solutions/waste-management-and-sanitation/), for route audits, container inventories, and inspections
-- Street furniture, lighting, and signage inventories
+- [Smart cities and urban mobility](/solutions/smart-cities-and-urban-mobility/), for street furniture, urban trees, sensors, and mobility infrastructure
+- [Tourism and outdoor recreation](/solutions/tourism-and-outdoor-recreation-management/), for trails, signage, visitor facilities, and park assets
+- [Cultural heritage and archaeology](/solutions/cultural-heritage-and-archaeology/), for heritage inventories, condition monitoring, and excavation recording
 - Citizen issue reporting and resolution tracking
 
 ## Built for how public bodies actually buy software
