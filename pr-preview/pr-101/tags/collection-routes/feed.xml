@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Collection Routes on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-101/tags/collection-routes/</link>
+    <description>Recent content in Collection Routes on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-101/tags/collection-routes/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Waste Management and Sanitation</title>
+      <link>https://qfield.org/pr-preview/pr-101/solutions/waste-management-and-sanitation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-101/solutions/waste-management-and-sanitation/</guid>
+      
+      <description>Container inventories, collection route audits, and sanitation inspections with offline mobile GIS, QField, QGIS, and QFieldCloud.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Waste and sanitation teams use QField across operations:</p>
+<ul>
+<li>Container and bin inventories, verified by scanning the ID already on the asset</li>
+<li>Collection route audits and inputs to route optimisation</li>
+<li>Overflow, contamination, and illegal dumping reports with photo evidence</li>
+<li>Sanitation facility inspections and condition recording</li>
+<li>Maintenance tracking for containers, transfer stations, and equipment</li>
+<li>Service coverage mapping across a municipality</li>
+</ul>
+<h2 id="an-inventory-the-route-plan-can-actually-trust">An inventory the route plan can actually trust</h2>
+<p>Route optimisation is only as good as the container inventory underneath it, and that inventory is usually a spreadsheet that has drifted from reality for years. Verifying it by hand is the kind of task that never gets funded, because it means visiting every container in the municipality.</p>
+<p>QField makes it a by-product of work already happening. A crew running their normal route taps each container, scans the barcode fixed to it, confirms or corrects the attributes, and moves on. Over a collection cycle the register rebuilds itself from the ground truth. Issues get reported the same way: a photo, a location, a timestamp, attached to the container rather than sent to an inbox.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Build the container and route model in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Push it to every vehicle and inspector through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Crews work offline along the route and sync at the end of the shift, with conflict-safe merges when two crews recorded the same asset.</p>
+<h2 id="municipal-service-providers-using-qfield">Municipal service providers using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-101/success-stories/water-supply-rwanda/">Operation and maintenance of rural water supply systems in Rwanda</a>
+, using QGIS and QField</li>
+<li><a href="/pr-preview/pr-101/success-stories/building-on-top/">Building on top of QFieldCloud</a>
+, in Italian green infrastructure inventory</li>
+<li><a href="/pr-preview/pr-101/success-stories/?filter=government-municipalities">Browse all government success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-101/solutions/government-and-municipalities/">QField for government and municipalities →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">waste management</category>
+      <category domain="tags">sanitation</category>
+      <category domain="tags">route audit</category>
+      <category domain="tags">container inventory</category>
+      <category domain="tags">collection routes</category>
+      <category domain="tags">municipal waste</category>
+      <category domain="tags">sanitation inspection</category>
+      <category domain="tags">barcode scanning</category>
+      <category domain="tags">WASH mapping</category>
+    </item>
+    
+  </channel>
+</rss>

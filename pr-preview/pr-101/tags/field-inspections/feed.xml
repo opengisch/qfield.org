@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Field Inspections on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-101/tags/field-inspections/</link>
+    <description>Recent content in Field Inspections on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-101/tags/field-inspections/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Government and Municipalities</title>
+      <link>https://qfield.org/pr-preview/pr-101/solutions/government-and-municipalities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-101/solutions/government-and-municipalities/</guid>
+      
+      <description>Municipal asset inventories, inspections, cadastral verification, and citizen services with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>QField covers the breadth of public sector fieldwork. Each area has its own focused workflow:</p>
+<ul>
+<li><a href="/pr-preview/pr-101/solutions/cadastral-and-land-registry/">Cadastral and land registry</a>
+, for boundary verification, parcel evidence, and registry updates</li>
+<li><a href="/pr-preview/pr-101/solutions/urban-planning-and-zoning/">Urban planning and zoning</a>
+, for site surveys, compliance checks, and plan monitoring</li>
+<li><a href="/pr-preview/pr-101/solutions/public-works-and-infrastructure-maintenance/">Public works and infrastructure maintenance</a>
+, for asset registers, condition assessment, and work orders</li>
+<li><a href="/pr-preview/pr-101/solutions/waste-management-and-sanitation/">Waste management and sanitation</a>
+, for route audits, container inventories, and inspections</li>
+<li>Street furniture, lighting, and signage inventories</li>
+<li>Citizen issue reporting and resolution tracking</li>
+</ul>
+<h2 id="built-for-how-public-bodies-actually-buy-software">Built for how public bodies actually buy software</h2>
+<p>Municipal GIS rarely fails on capability. It fails on procurement, on the cost of adding the twentieth field inspector to a per-seat licence, and on the question of where the data physically lives. QField removes all three. There is no per-seat licence, the source is open, and QFieldCloud can be self-hosted inside your own infrastructure when data residency rules require it.</p>
+<p>The second constraint is people. Public sector field teams are large, they turn over, and they are not GIS specialists. Forms configured in QGIS carry constraints, dropdowns, and required-photo rules onto the tablet, so an inspector in their first week produces the same clean record as a twenty-year veteran. Every edit is attributable through QFieldCloud, which is what an audit or a contested decision eventually asks for.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare layers, forms, and symbology in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ once. Push the project to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Crews work offline across the territory and sync when they return to connectivity, with conflict-safe merges when two teams have touched the same record.</p>
+<h2 id="see-qfield-in-real-government-projects">See QField in real government projects</h2>
+<p>Public bodies from national agencies to single municipalities run QField in production:</p>
+<ul>
+<li><a href="/pr-preview/pr-101/success-stories/nls/">Finland&rsquo;s National Land Survey empowers field mapping with QField</a>
+, the first country to adopt fully open-source GIS at national scale</li>
+<li><a href="/pr-preview/pr-101/success-stories/un/">The UN Open GIS Initiative recommends QField for field operations</a>
+, across peacekeeping missions</li>
+<li><a href="/pr-preview/pr-101/success-stories/kan-inec-costa-rica/">Scalable national field operations in Costa Rica</a>
+, with KAN and INEC</li>
+<li><a href="/pr-preview/pr-101/success-stories/ww2-fortifications/">Monitoring 20,000 WWII fortifications across Germany</a>
+, a heritage asset register at national scale</li>
+<li><a href="/pr-preview/pr-101/success-stories/radiation-detection/">Real-time radiation detection</a>
+, cleaning up America&rsquo;s nuclear legacy</li>
+<li><a href="/pr-preview/pr-101/success-stories/tonga/">Tonga crop survey</a>
+, mapping cleared and re-ploughed fields after the Hunga Tonga eruption</li>
+<li><a href="/pr-preview/pr-101/success-stories/?filter=government-municipalities">Browse all government success stories →</a>
+</li>
+</ul>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">municipal GIS</category>
+      <category domain="tags">public services</category>
+      <category domain="tags">asset inventory</category>
+      <category domain="tags">government GIS</category>
+      <category domain="tags">local government</category>
+      <category domain="tags">public sector mapping</category>
+      <category domain="tags">field inspections</category>
+      <category domain="tags">open source government GIS</category>
+      <category domain="tags">offline municipal mapping</category>
+      <category domain="tags">cadastre</category>
+      <category domain="tags">public works</category>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Government, Public Administration &amp; Municipalities on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-101/categories/government-public-administration--municipalities/</link>
+    <description>Recent content in Government, Public Administration &amp; Municipalities on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-101/categories/government-public-administration--municipalities/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Cadastral and Land Registry</title>
+      <link>https://qfield.org/pr-preview/pr-101/solutions/cadastral-and-land-registry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-101/solutions/cadastral-and-land-registry/</guid>
+      
+      <description>Parcel boundary verification, evidence capture, and registry updates with survey-grade GNSS, QField, QGIS, and QFieldCloud.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Cadastral and land administration teams use QField across the survey chain:</p>
+<ul>
+<li>Boundary verification, corner capture, and evidence documentation</li>
+<li>Parcel attribute checks, updates, and tenure recording</li>
+<li>Stakeout of existing corners from registry coordinates</li>
+<li>Photo documentation with accuracy readings against each point</li>
+<li>Systematic land adjudication and first registration campaigns</li>
+</ul>
+<h2 id="evidence-that-holds-up-when-a-boundary-is-contested">Evidence that holds up when a boundary is contested</h2>
+<p>A cadastral record is only as strong as the evidence behind it. QField captures the coordinate, the GNSS accuracy at the moment of capture, the photograph, the attributes, and the identity of the surveyor as one record, rather than as four artefacts to be reconciled later. Required-photo rules mean a corner cannot be submitted without its evidence. Constraints keep parcel identifiers and tenure codes in the shape the registry expects.</p>
+<p>When a boundary is later disputed, the question is rarely what the coordinate was. It is who recorded it, with what equipment, and on what day. QFieldCloud answers that from the audit trail, without anyone having to find a field notebook.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare the parcel layer, forms, and coordinate reference system in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Push the project to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Field teams work offline for as long as the campaign takes, then sync back with conflict-safe merges.</p>
+<h2 id="land-agencies-using-qfield">Land agencies using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-101/success-stories/nls/">Finland&rsquo;s National Land Survey empowers field mapping with QField</a>
+, the first country to adopt fully open-source GIS at national scale</li>
+<li><a href="/pr-preview/pr-101/success-stories/kan-inec-costa-rica/">Scalable national field operations in Costa Rica</a>
+, with KAN and INEC</li>
+<li><a href="/pr-preview/pr-101/success-stories/?filter=government-municipalities">Browse all government success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-101/solutions/government-and-municipalities/">QField for government and municipalities →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">cadastral</category>
+      <category domain="tags">land registry</category>
+      <category domain="tags">parcel mapping</category>
+      <category domain="tags">boundary verification</category>
+      <category domain="tags">cadastral survey</category>
+      <category domain="tags">land administration</category>
+      <category domain="tags">RTK GNSS</category>
+      <category domain="tags">stakeout</category>
+      <category domain="tags">tenure mapping</category>
+      <category domain="tags">open source cadastre</category>
+    </item>
+    
+    <item>
+      <title>QField for Cultural Heritage and Archaeology</title>
+      <link>https://qfield.org/pr-preview/pr-101/solutions/cultural-heritage-and-archaeology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-101/solutions/cultural-heritage-and-archaeology/</guid>
+      
+      <description>Site surveys, excavations, and heritage inventories with mobile GIS and QGIS forms.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Heritage inventories and condition surveys</li>
+<li>Excavation context and finds recording</li>
+<li>Monitoring and conservation activities</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Prepare layers and forms in QGIS and sync via QFieldCloud to collaborate across teams.</p>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">archaeology</category>
+      <category domain="tags">cultural heritage</category>
+      <category domain="tags">site survey</category>
+    </item>
+    
+    <item>
+      <title>QField for Government and Municipalities</title>
+      <link>https://qfield.org/pr-preview/pr-101/solutions/government-and-municipalities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-101/solutions/government-and-municipalities/</guid>
+      
+      <description>Municipal asset inventories, inspections, cadastral verification, and citizen services with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>QField covers the breadth of public sector fieldwork. Each area has its own focused workflow:</p>
+<ul>
+<li><a href="/pr-preview/pr-101/solutions/cadastral-and-land-registry/">Cadastral and land registry</a>
+, for boundary verification, parcel evidence, and registry updates</li>
+<li><a href="/pr-preview/pr-101/solutions/urban-planning-and-zoning/">Urban planning and zoning</a>
+, for site surveys, compliance checks, and plan monitoring</li>
+<li><a href="/pr-preview/pr-101/solutions/public-works-and-infrastructure-maintenance/">Public works and infrastructure maintenance</a>
+, for asset registers, condition assessment, and work orders</li>
+<li><a href="/pr-preview/pr-101/solutions/waste-management-and-sanitation/">Waste management and sanitation</a>
+, for route audits, container inventories, and inspections</li>
+<li>Street furniture, lighting, and signage inventories</li>
+<li>Citizen issue reporting and resolution tracking</li>
+</ul>
+<h2 id="built-for-how-public-bodies-actually-buy-software">Built for how public bodies actually buy software</h2>
+<p>Municipal GIS rarely fails on capability. It fails on procurement, on the cost of adding the twentieth field inspector to a per-seat licence, and on the question of where the data physically lives. QField removes all three. There is no per-seat licence, the source is open, and QFieldCloud can be self-hosted inside your own infrastructure when data residency rules require it.</p>
+<p>The second constraint is people. Public sector field teams are large, they turn over, and they are not GIS specialists. Forms configured in QGIS carry constraints, dropdowns, and required-photo rules onto the tablet, so an inspector in their first week produces the same clean record as a twenty-year veteran. Every edit is attributable through QFieldCloud, which is what an audit or a contested decision eventually asks for.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare layers, forms, and symbology in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ once. Push the project to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Crews work offline across the territory and sync when they return to connectivity, with conflict-safe merges when two teams have touched the same record.</p>
+<h2 id="see-qfield-in-real-government-projects">See QField in real government projects</h2>
+<p>Public bodies from national agencies to single municipalities run QField in production:</p>
+<ul>
+<li><a href="/pr-preview/pr-101/success-stories/nls/">Finland&rsquo;s National Land Survey empowers field mapping with QField</a>
+, the first country to adopt fully open-source GIS at national scale</li>
+<li><a href="/pr-preview/pr-101/success-stories/un/">The UN Open GIS Initiative recommends QField for field operations</a>
+, across peacekeeping missions</li>
+<li><a href="/pr-preview/pr-101/success-stories/kan-inec-costa-rica/">Scalable national field operations in Costa Rica</a>
+, with KAN and INEC</li>
+<li><a href="/pr-preview/pr-101/success-stories/ww2-fortifications/">Monitoring 20,000 WWII fortifications across Germany</a>
+, a heritage asset register at national scale</li>
+<li><a href="/pr-preview/pr-101/success-stories/radiation-detection/">Real-time radiation detection</a>
+, cleaning up America&rsquo;s nuclear legacy</li>
+<li><a href="/pr-preview/pr-101/success-stories/tonga/">Tonga crop survey</a>
+, mapping cleared and re-ploughed fields after the Hunga Tonga eruption</li>
+<li><a href="/pr-preview/pr-101/success-stories/?filter=government-municipalities">Browse all government success stories →</a>
+</li>
+</ul>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">municipal GIS</category>
+      <category domain="tags">public services</category>
+      <category domain="tags">asset inventory</category>
+      <category domain="tags">government GIS</category>
+      <category domain="tags">local government</category>
+      <category domain="tags">public sector mapping</category>
+      <category domain="tags">field inspections</category>
+      <category domain="tags">open source government GIS</category>
+      <category domain="tags">offline municipal mapping</category>
+      <category domain="tags">cadastre</category>
+      <category domain="tags">public works</category>
+    </item>
+    
+    <item>
+      <title>QField for Public Works and Infrastructure Maintenance</title>
+      <link>https://qfield.org/pr-preview/pr-101/solutions/public-works-and-infrastructure-maintenance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-101/solutions/public-works-and-infrastructure-maintenance/</guid>
+      
+      <description>Asset registers, condition assessment, and work order documentation in the field with QField, QGIS, and QFieldCloud.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Public works teams use QField across the maintenance cycle:</p>
+<ul>
+<li>Asset inventory and register updates, from street furniture to culverts</li>
+<li>Condition assessment against a constrained, comparable rating scale</li>
+<li>Maintenance inspections, repairs, and work order close-out</li>
+<li>Before and after photo documentation attached to the asset</li>
+<li>Routine route inspections for roads, drainage, signage, and lighting</li>
+<li>Defect and hazard reporting with location and severity</li>
+</ul>
+<h2 id="a-register-that-stays-true-after-the-crew-leaves">A register that stays true after the crew leaves</h2>
+<p>Most asset registers decay for a structural reason: the record is updated somewhere other than where the work happens. A crew replaces a streetlight, notes it on a job sheet, and the register is updated a week later by someone who was not there. QField collapses that loop. The asset is on the map, the crew taps it, records the work, attaches the photo, and the register updates on sync.</p>
+<p>Consistency is the other half. Condition ratings only mean something if a &ldquo;3&rdquo; means the same thing in two districts and in two different years. Constrained dropdowns configured in QGIS enforce that on the tablet, which is the only place enforcement actually works.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Build the asset data model and inspection forms in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Push the project to every crew through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Crews work offline across their routes and sync at the end of the shift, with conflict-safe merges when two crews touched the same asset.</p>
+<h2 id="public-works-teams-using-qfield">Public works teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-101/success-stories/ww2-fortifications/">Monitoring 20,000 WWII fortifications across Germany</a>
+, a heritage asset register maintained at national scale</li>
+<li><a href="/pr-preview/pr-101/success-stories/building-on-top/">Building on top of QFieldCloud</a>
+, in Italian green infrastructure inventory</li>
+<li><a href="/pr-preview/pr-101/success-stories/water-supply-rwanda/">Operation and maintenance of rural water supply systems in Rwanda</a>
+</li>
+<li><a href="/pr-preview/pr-101/success-stories/?filter=government-municipalities">Browse all government success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-101/solutions/government-and-municipalities/">QField for government and municipalities →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">public works</category>
+      <category domain="tags">infrastructure maintenance</category>
+      <category domain="tags">asset register</category>
+      <category domain="tags">condition assessment</category>
+      <category domain="tags">work orders</category>
+      <category domain="tags">CMMS integration</category>
+      <category domain="tags">municipal assets</category>
+      <category domain="tags">barcode scanning</category>
+      <category domain="tags">offline asset inventory</category>
+    </item>
+    
+    <item>
+      <title>QField for Smart Cities and Urban Mobility</title>
+      <link>https://qfield.org/pr-preview/pr-101/solutions/smart-cities-and-urban-mobility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-101/solutions/smart-cities-and-urban-mobility/</guid>
+      
+      <description>Mobile GIS for smart city assets, sensors, and mobility infrastructure field data collection.</description>
+      <content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Sensor and device inventories</li>
+<li>Mobility infrastructure mapping</li>
+<li>Condition and performance checks</li>
+</ul>
+<h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud</h2>
+<p>Ensure teams use the same data and styles, with sync and review workflows built in.</p>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">smart city</category>
+      <category domain="tags">urban mobility</category>
+      <category domain="tags">IoT sensors</category>
+    </item>
+    
+    <item>
+      <title>QField for Tourism and Outdoor Recreation Management</title>
+      <link>https://qfield.org/pr-preview/pr-101/solutions/tourism-and-outdoor-recreation-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-101/solutions/tourism-and-outdoor-recreation-management/</guid>
+      
+      <description>Trail mapping, facility inventories, and visitor infrastructure inspections with mobile GIS.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<ul>
+<li>Trail mapping and signage</li>
+<li>Facility inventories and inspections</li>
+<li>Visitor infrastructure planning and maintenance</li>
+</ul>
+<h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
+<p>Prepare projects in QGIS and keep teams aligned with QFieldCloud collaboration.</p>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">tourism</category>
+      <category domain="tags">recreation</category>
+      <category domain="tags">trail mapping</category>
+    </item>
+    
+    <item>
+      <title>QField for Urban Planning and Zoning</title>
+      <link>https://qfield.org/pr-preview/pr-101/solutions/urban-planning-and-zoning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-101/solutions/urban-planning-and-zoning/</guid>
+      
+      <description>Site surveys, zoning compliance checks, and plan monitoring in the field with QField, QGIS, and QFieldCloud.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Planning departments use QField across the planning cycle:</p>
+<ul>
+<li>Site surveys and pre-application assessments</li>
+<li>Zoning compliance checks against the overlay that governs the parcel</li>
+<li>Building permit inspections and development monitoring</li>
+<li>Enforcement documentation with dated, geolocated photo evidence</li>
+<li>Land use surveys and plan monitoring over time</li>
+<li>Public consultation notes captured against specific locations</li>
+</ul>
+<h2 id="the-plan-on-the-parcel-in-your-hand">The plan, on the parcel, in your hand</h2>
+<p>Planning decisions are made in the office and tested on the ground, and the gap between the two is where enforcement cases are lost. QField closes it by putting the zoning overlay, the cadastral parcel, the permit record, and the aerial imagery on the tablet, available offline. An inspector standing on a site can see what is permitted there before deciding whether what is built matches it.</p>
+<p>The evidence follows the same logic. A photograph taken in QField carries its coordinate, its timestamp, and the inspector who took it, attached to the feature it documents. Assembling an enforcement pack stops being an archaeology exercise across a camera roll, an email thread, and a notebook.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare zoning layers, parcels, and inspection forms in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Push the project to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Planners and inspectors work offline and sync back into the same project the office plans from, with conflict-safe merges.</p>
+<h2 id="public-authorities-using-qfield">Public authorities using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-101/success-stories/kan-inec-costa-rica/">Scalable national field operations in Costa Rica</a>
+, with KAN and INEC</li>
+<li><a href="/pr-preview/pr-101/success-stories/ground-truth-fiji/">Ground truth data collection for land use and land cover mapping in Fiji</a>
+</li>
+<li><a href="/pr-preview/pr-101/success-stories/?filter=government-municipalities">Browse all government success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-101/solutions/government-and-municipalities/">QField for government and municipalities →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">urban planning</category>
+      <category domain="tags">zoning enforcement</category>
+      <category domain="tags">site survey</category>
+      <category domain="tags">planning compliance</category>
+      <category domain="tags">land use planning</category>
+      <category domain="tags">building permits</category>
+      <category domain="tags">development monitoring</category>
+      <category domain="tags">municipal planning</category>
+      <category domain="tags">offline planning maps</category>
+    </item>
+    
+    <item>
+      <title>QField for Waste Management and Sanitation</title>
+      <link>https://qfield.org/pr-preview/pr-101/solutions/waste-management-and-sanitation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-101/solutions/waste-management-and-sanitation/</guid>
+      
+      <description>Container inventories, collection route audits, and sanitation inspections with offline mobile GIS, QField, QGIS, and QFieldCloud.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Waste and sanitation teams use QField across operations:</p>
+<ul>
+<li>Container and bin inventories, verified by scanning the ID already on the asset</li>
+<li>Collection route audits and inputs to route optimisation</li>
+<li>Overflow, contamination, and illegal dumping reports with photo evidence</li>
+<li>Sanitation facility inspections and condition recording</li>
+<li>Maintenance tracking for containers, transfer stations, and equipment</li>
+<li>Service coverage mapping across a municipality</li>
+</ul>
+<h2 id="an-inventory-the-route-plan-can-actually-trust">An inventory the route plan can actually trust</h2>
+<p>Route optimisation is only as good as the container inventory underneath it, and that inventory is usually a spreadsheet that has drifted from reality for years. Verifying it by hand is the kind of task that never gets funded, because it means visiting every container in the municipality.</p>
+<p>QField makes it a by-product of work already happening. A crew running their normal route taps each container, scans the barcode fixed to it, confirms or corrects the attributes, and moves on. Over a collection cycle the register rebuilds itself from the ground truth. Issues get reported the same way: a photo, a location, a timestamp, attached to the container rather than sent to an inbox.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Build the container and route model in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Push it to every vehicle and inspector through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Crews work offline along the route and sync at the end of the shift, with conflict-safe merges when two crews recorded the same asset.</p>
+<h2 id="municipal-service-providers-using-qfield">Municipal service providers using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-101/success-stories/water-supply-rwanda/">Operation and maintenance of rural water supply systems in Rwanda</a>
+, using QGIS and QField</li>
+<li><a href="/pr-preview/pr-101/success-stories/building-on-top/">Building on top of QFieldCloud</a>
+, in Italian green infrastructure inventory</li>
+<li><a href="/pr-preview/pr-101/success-stories/?filter=government-municipalities">Browse all government success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-101/solutions/government-and-municipalities/">QField for government and municipalities →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">waste management</category>
+      <category domain="tags">sanitation</category>
+      <category domain="tags">route audit</category>
+      <category domain="tags">container inventory</category>
+      <category domain="tags">collection routes</category>
+      <category domain="tags">municipal waste</category>
+      <category domain="tags">sanitation inspection</category>
+      <category domain="tags">barcode scanning</category>
+      <category domain="tags">WASH mapping</category>
+    </item>
+    
+  </channel>
+</rss>

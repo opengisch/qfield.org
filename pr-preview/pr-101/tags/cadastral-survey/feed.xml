@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cadastral Survey on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-101/tags/cadastral-survey/</link>
+    <description>Recent content in Cadastral Survey on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-101/tags/cadastral-survey/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Cadastral and Land Registry</title>
+      <link>https://qfield.org/pr-preview/pr-101/solutions/cadastral-and-land-registry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-101/solutions/cadastral-and-land-registry/</guid>
+      
+      <description>Parcel boundary verification, evidence capture, and registry updates with survey-grade GNSS, QField, QGIS, and QFieldCloud.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Cadastral and land administration teams use QField across the survey chain:</p>
+<ul>
+<li>Boundary verification, corner capture, and evidence documentation</li>
+<li>Parcel attribute checks, updates, and tenure recording</li>
+<li>Stakeout of existing corners from registry coordinates</li>
+<li>Photo documentation with accuracy readings against each point</li>
+<li>Systematic land adjudication and first registration campaigns</li>
+</ul>
+<h2 id="evidence-that-holds-up-when-a-boundary-is-contested">Evidence that holds up when a boundary is contested</h2>
+<p>A cadastral record is only as strong as the evidence behind it. QField captures the coordinate, the GNSS accuracy at the moment of capture, the photograph, the attributes, and the identity of the surveyor as one record, rather than as four artefacts to be reconciled later. Required-photo rules mean a corner cannot be submitted without its evidence. Constraints keep parcel identifiers and tenure codes in the shape the registry expects.</p>
+<p>When a boundary is later disputed, the question is rarely what the coordinate was. It is who recorded it, with what equipment, and on what day. QFieldCloud answers that from the audit trail, without anyone having to find a field notebook.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare the parcel layer, forms, and coordinate reference system in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+. Push the project to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Field teams work offline for as long as the campaign takes, then sync back with conflict-safe merges.</p>
+<h2 id="land-agencies-using-qfield">Land agencies using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-101/success-stories/nls/">Finland&rsquo;s National Land Survey empowers field mapping with QField</a>
+, the first country to adopt fully open-source GIS at national scale</li>
+<li><a href="/pr-preview/pr-101/success-stories/kan-inec-costa-rica/">Scalable national field operations in Costa Rica</a>
+, with KAN and INEC</li>
+<li><a href="/pr-preview/pr-101/success-stories/?filter=government-municipalities">Browse all government success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-101/solutions/government-and-municipalities/">QField for government and municipalities →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Government, Public Administration &amp; Municipalities</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">cadastral</category>
+      <category domain="tags">land registry</category>
+      <category domain="tags">parcel mapping</category>
+      <category domain="tags">boundary verification</category>
+      <category domain="tags">cadastral survey</category>
+      <category domain="tags">land administration</category>
+      <category domain="tags">RTK GNSS</category>
+      <category domain="tags">stakeout</category>
+      <category domain="tags">tenure mapping</category>
+      <category domain="tags">open source cadastre</category>
+    </item>
+    
+  </channel>
+</rss>
