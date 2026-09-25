@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Design Verification on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-106/tags/design-verification/</link>
+    <description>Recent content in Design Verification on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-106/tags/design-verification/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Architecture and Site Supervision</title>
+      <link>https://qfield.org/pr-preview/pr-106/solutions/architecture-and-site-supervision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-106/solutions/architecture-and-site-supervision/</guid>
+      
+      <description>Design verification, deviation records, site observations, and supervision reports with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Architects, supervisors, and clerks of works use QField to keep a structured record of what is happening on site:</p>
+<ul>
+<li>Design verification against site conditions</li>
+<li>Deviation and non-conformance records with photos</li>
+<li>Snagging and punch lists with status tracking</li>
+<li>Set-out checks against design points</li>
+<li>Site visit logs with author and date on every record</li>
+<li>Follow-up inspections linked to the original observation</li>
+</ul>
+<h2 id="a-record-that-stands-up-later">A record that stands up later</h2>
+<p>Site supervision produces evidence. When a deviation is disputed months later, what matters is whether the record shows where the issue was, what it looked like, who recorded it, and when. A notebook entry and a photo in someone&rsquo;s camera roll rarely answer all four.</p>
+<p>In QField, every observation is a feature with a location, a structured form, attached photos, and a capture time, and QFieldCloud records which user made each edit. Forms configured in QGIS use dropdowns for issue type and trade, required fields for severity and status, and constraints that stop an incomplete record from being saved. The result is a consistent log across every supervisor on the project, ready to filter and map in QGIS rather than retype into a report.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Set up the supervision project in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ with your design layers and observation forms, then push it to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Supervisors work offline during site visits and sync afterwards, with conflict-safe merges when two people have updated the same record.</p>
+<h2 id="site-supervision-teams-using-qfield">Site supervision teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-106/success-stories/?filter=infrastructure-engineering">Browse all infrastructure and engineering success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-106/solutions/construction-and-engineering/">QField for construction and engineering →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Infrastructure, Construction &amp; Utilities</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">site supervision</category>
+      <category domain="tags">design verification</category>
+      <category domain="tags">site inspection</category>
+      <category domain="tags">clerk of works</category>
+      <category domain="tags">snagging</category>
+      <category domain="tags">punch list</category>
+      <category domain="tags">deviation records</category>
+      <category domain="tags">construction supervision</category>
+      <category domain="tags">architecture fieldwork</category>
+      <category domain="tags">offline site mapping</category>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Stakeout on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-106/tags/stakeout/</link>
+    <description>Recent content in Stakeout on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-106/tags/stakeout/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Construction and Engineering</title>
+      <link>https://qfield.org/pr-preview/pr-106/solutions/construction-and-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-106/solutions/construction-and-engineering/</guid>
+      
+      <description>Site surveys, stakeout checks, as-built capture, inspections, and asset registers with QField, QGIS, and QFieldCloud, fully offline.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>QField covers construction and engineering fieldwork from first site survey to handover and operation. Each area has its own focused workflow:</p>
+<ul>
+<li><a href="/pr-preview/pr-106/solutions/architecture-and-site-supervision/">Architecture and site supervision</a>
+, for design verification, deviation records, and supervision reports</li>
+<li><a href="/pr-preview/pr-106/solutions/construction-progress-documentation/">Construction progress documentation</a>
+, for daily progress records, as-built updates, and handover evidence</li>
+<li><a href="/pr-preview/pr-106/solutions/transportation-roads-rail-airports-signage/">Transportation: roads, rail, airports, and signage</a>
+, for corridor asset inventories and condition inspections</li>
+<li><a href="/pr-preview/pr-106/solutions/facility-and-asset-management/">Facility and asset management</a>
+, for asset registers, condition surveys, and maintenance logs</li>
+<li><a href="/pr-preview/pr-106/solutions/mining-and-quarrying/">Mining and quarrying</a>
+, for geological mapping, sampling, and site inspections</li>
+<li>Pre-construction site surveys and existing utility records</li>
+<li>Snagging, punch lists, and defect tracking</li>
+</ul>
+<h2 id="from-design-to-as-built-without-redrawing">From design to as-built without redrawing</h2>
+<p>The usual gap on a construction project is not measurement. It is the time between a crew recording something on site and that record reaching the drawing, the register, or the client. Redlines on paper, photos on personal phones, and spreadsheets emailed at the end of the week all have to be redrawn or retyped before anyone can use them, and that is where errors and delays creep in.</p>
+<p>QField closes the gap by putting the same QGIS project the office works from onto the tablet. Crews see the current design layers, navigate to points they need to check, and record as-built positions and inspections directly against the relevant feature. Forms configured in QGIS carry dropdowns, constraints, and required fields to site, so a subcontractor&rsquo;s inspector and the client&rsquo;s supervisor produce records in the same structure. When positioning matters, an external GNSS receiver with RTK corrections connects over Bluetooth, and live accuracy is visible before a point is saved.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare layers, forms, and symbology in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ once. Push the project to every device through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Site teams work offline all day and sync at the end of the shift, with conflict-safe merges when two crews have touched the same record, and the office sees the update in the same QGIS project.</p>
+<h2 id="infrastructure-and-engineering-projects-using-qfield">Infrastructure and engineering projects using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-106/success-stories/radiation-detection/">Real-time radiation detection</a>
+, where remediation crews cut a three-day processing cycle to real time and moved from one backfill a week to two</li>
+<li><a href="/pr-preview/pr-106/success-stories/building-on-top/">Building on top of QFieldCloud</a>
+, where GINVE connected QField to its platform for offline inventory of trees and street furniture</li>
+<li><a href="/pr-preview/pr-106/success-stories/water-supply-rwanda/">Data collection for rural water supply O&amp;M in Rwanda</a>
+, where district engineers keep a national waterworks register up to date</li>
+<li><a href="/pr-preview/pr-106/success-stories/ww2-fortifications/">Monitoring 20,000 WWII fortifications across Germany</a>
+, a register of concrete structures revisited every few years</li>
+<li><a href="/pr-preview/pr-106/success-stories/?filter=infrastructure-engineering">Browse all infrastructure and engineering success stories →</a>
+</li>
+</ul>
+]]></content:encoded>
+      <category domain="categories">Infrastructure, Construction &amp; Utilities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">construction surveying</category>
+      <category domain="tags">as-built</category>
+      <category domain="tags">site supervision</category>
+      <category domain="tags">construction progress</category>
+      <category domain="tags">engineering GIS</category>
+      <category domain="tags">infrastructure inspection</category>
+      <category domain="tags">asset management</category>
+      <category domain="tags">stakeout</category>
+      <category domain="tags">RTK GNSS</category>
+      <category domain="tags">open source construction GIS</category>
+      <category domain="tags">offline site mapping</category>
+    </item>
+    
+  </channel>
+</rss>

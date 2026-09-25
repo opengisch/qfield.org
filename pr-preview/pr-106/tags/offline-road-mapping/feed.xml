@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Offline Road Mapping on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-106/tags/offline-road-mapping/</link>
+    <description>Recent content in Offline Road Mapping on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <atom:link href="https://qfield.org/pr-preview/pr-106/tags/offline-road-mapping/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Transportation (Roads, Rail, Airports, Signage)</title>
+      <link>https://qfield.org/pr-preview/pr-106/solutions/transportation-roads-rail-airports-signage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-106/solutions/transportation-roads-rail-airports-signage/</guid>
+      
+      <description>Road, rail, airport, and signage asset inventories and condition inspections with QField, QGIS, and QFieldCloud, fully offline along the corridor.</description>
+      <content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+<p>Transport authorities, contractors, and consultants use QField to keep network assets documented:</p>
+<ul>
+<li>Traffic sign and road marking inventories</li>
+<li>Road furniture, barriers, kerbs, and drainage condition surveys</li>
+<li>Pavement defect recording with photos and severity</li>
+<li>Rail corridor asset inspections and vegetation clearance checks</li>
+<li>Airport signage, lighting, and airside inspections</li>
+<li>Track logs of inspection routes for coverage records</li>
+</ul>
+<h2 id="keeping-a-linear-network-register-current">Keeping a linear network register current</h2>
+<p>Transport assets are spread thin over long distances. A single road authority can have tens of thousands of signs, posts, and gullies, and the register is only as good as the last time someone walked past each one. Registers go stale not because nobody inspects, but because inspection notes and photos never make it back into the asset record.</p>
+<p>QField removes that step. The inspector works directly on the asset layer, finds the asset on the map or by scanning its tag, and updates its condition in the same record. Forms configured in QGIS carry dropdowns and constraints for condition ratings, so scores are comparable between inspectors and from one year to the next. Photos attach to the asset, track logs show the ground covered, and the whole survey runs offline in cuttings, tunnels, and rural stretches without mobile coverage.</p>
+<h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud</h2>
+<p>Prepare the asset layers and inspection forms in <a href="https://qgis.org" target="_blank" rel="noopener">QGIS</a>
+ once, then push the project to every crew through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+. Inspection teams work offline along the route and sync at the end of the day, with conflict-safe merges when two crews have updated the same asset.</p>
+<h2 id="transport-and-infrastructure-teams-using-qfield">Transport and infrastructure teams using QField</h2>
+<ul>
+<li><a href="/pr-preview/pr-106/success-stories/?filter=infrastructure-engineering">Browse all infrastructure and engineering success stories →</a>
+</li>
+</ul>
+<p>Looking for the broader picture? See <a href="/pr-preview/pr-106/solutions/construction-and-engineering/">QField for construction and engineering →</a>
+.</p>
+]]></content:encoded>
+      <category domain="categories">Infrastructure, Construction &amp; Utilities</category>
+      <category domain="tags">field data collection</category>
+      <category domain="tags">mobile GIS</category>
+      <category domain="tags">QGIS fieldwork</category>
+      <category domain="tags">transportation mapping</category>
+      <category domain="tags">road inventory</category>
+      <category domain="tags">rail inspections</category>
+      <category domain="tags">airport signage</category>
+      <category domain="tags">road asset management</category>
+      <category domain="tags">sign inventory</category>
+      <category domain="tags">pavement condition survey</category>
+      <category domain="tags">street furniture</category>
+      <category domain="tags">corridor inspection</category>
+      <category domain="tags">offline road mapping</category>
+      <category domain="tags">open source transport GIS</category>
+    </item>
+    
+  </channel>
+</rss>
