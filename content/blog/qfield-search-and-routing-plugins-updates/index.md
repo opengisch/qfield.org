@@ -11,9 +11,6 @@ tags:
   - routing
 images:
   - top.webp
-cover:
-  image: top.webp
-  alt: "QField search and routing plugins updates"
 draft: false
 ---
 

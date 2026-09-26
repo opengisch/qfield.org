@@ -9,9 +9,6 @@ keywords: ["qfieldcloud", "storage", "attachments", "shared datasets"]
 author: Mathieu
 images:
   - on-demand-attachment.png
-cover:
-  alt: on-demand-attachment
-  image: on-demand-attachment.png
 ---
 
 Our ninjas have been hard at work improving QFieldCloud!

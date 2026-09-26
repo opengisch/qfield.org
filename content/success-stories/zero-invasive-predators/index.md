@@ -10,7 +10,6 @@ description: "In the rugged wilderness of New Zealand's South Westland, an ambit
       QField and QFieldCloud playing a crucial role in their operations."
 categories: ["ecology-environment", "government-municipalities"]
 featured: true
-image: "zero-invasive-3.jpg"
 images:
   - zero-invasive-3.jpg
 ---

@@ -60,9 +60,6 @@ categories:
   - highlights
 images:
   - qfield-bird-plugin.gif
-cover:
-  alt: qfield-bird-plugin
-  image: qfield-bird-plugin.gif
 date: "2024-06-18T04:45:00+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=14471

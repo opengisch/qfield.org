@@ -76,9 +76,6 @@ categories:
   - qgis
 images:
   - 20250603_154007.jpg
-cover:
-  alt: "20250603_154007"
-  image: 20250603_154007.jpg
 date: "2025-06-25T04:45:00+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=15655

@@ -18,9 +18,6 @@ keywords:
   - project creation
 images:
   - infograph-qfield-xlsform.png
-cover:
-  image: infograph-qfield-xlsform.png
-  alt: 'Creating a new project in QFieldCloud'
 ---
 
 We've overhauled the project creation flow in [QFieldCloud](https://qfield.cloud/) to make getting your field data campaigns off the ground faster than ever. Along with a clean new web interface, we are introducing two highly requested features to boost your team's productivity: more advanced project creation, with native XLSForm imports and 1-click project cloning! 🚀

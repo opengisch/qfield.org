@@ -16,9 +16,6 @@ keywords:
 author: Mathieu
 images:
   - image.png
-cover:
-  alt: splash
-  image: image.png
 ---
 
 Just in time for the end of 2025, **QField 4.0** is now available in a virtual store near you. This release brings significant improvements and marks an important usability milestone, worthy of a new major version. It's truly never been easier to get started with QField - whether you're a seasoned GIS professional or new to spatial data collection.

@@ -12,9 +12,6 @@ tags:
   - conference
 images:
   - 20251121_113100.webp
-cover:
-  image: 20251121_113100.webp
-  alt: "QField at FOSS4G 2025 Auckland"
 draft: false
 ---
 

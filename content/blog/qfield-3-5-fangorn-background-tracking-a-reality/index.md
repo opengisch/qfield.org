@@ -59,9 +59,6 @@ categories:
   - highlights
 images:
   - splash.png
-cover:
-  alt: splash
-  image: splash.png
 date: "2025-03-04T05:45:00+00:00"
 enclosure: |-
   https://videos.files.wordpress.com/RqiQKWXY/qfield_tracking_demo_green.mp4

@@ -10,9 +10,6 @@ tags:
   - qgis.org
 images:
   - share-cover.webp
-cover:
-  image: share-cover.webp
-  alt: ''
 draft: false
 
 ---

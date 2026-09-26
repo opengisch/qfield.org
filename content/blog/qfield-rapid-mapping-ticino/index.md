@@ -29,9 +29,6 @@ categories:
   - social-responsibility
 images:
   - qfield-rapidmapper.jpg
-cover:
-  alt: qfield-rapidmapper
-  image: qfield-rapidmapper.jpg
 date: "2024-07-07T04:11:55+00:00"
 enclosure: |-
   https://videos.files.wordpress.com/jsrjp0NU/rapidmapping.mp4

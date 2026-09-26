@@ -8,9 +8,7 @@ authorUrl: "https://www.ginve.it/en/home-page-eng/"
 description: "The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees,
       shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the
       return of these data in GINVE.CLOUD via a synchronisation procedure."
-# image: "ginve-6.jpeg"
 categories: ["forestry", "ecology-environment", "government-municipalities"]
-image: "ginve-6.jpeg"
 images:
   - ginve-6.jpeg
 ---

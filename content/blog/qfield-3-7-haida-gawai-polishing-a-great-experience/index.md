@@ -55,9 +55,6 @@ categories:
   - qfield
 images:
   - splash.webp
-cover:
-  alt: splash
-  image: splash.webp
 date: "2025-08-04T08:41:52+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=15903
