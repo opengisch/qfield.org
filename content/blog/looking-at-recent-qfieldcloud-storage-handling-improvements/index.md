@@ -3,11 +3,12 @@ title: "Looking at recent QFieldCloud storage handling improvements"
 description: "QFieldCloud storage handling keeps improving, with shared datasets, on-demand attachment downloads, and resumable project downloads reducing sync time and bandwidth."
 date: 2025-10-09
 draft: false
-images: ["on-demand-attachment.png"]
 categories: ["GIS", "QField Highlights"]
 tags: ["qfield"]
 keywords: ["qfieldcloud", "storage", "attachments", "shared datasets"]
 author: Mathieu
+images:
+  - on-demand-attachment.png
 cover:
   alt: on-demand-attachment
   image: on-demand-attachment.png

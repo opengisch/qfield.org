@@ -52,6 +52,8 @@ categories:
   - events
   - qfield
   - qgis
+images:
+  - 20250327_160523.jpg
 cover:
   alt: "20250327_160523"
   image: 20250327_160523.jpg

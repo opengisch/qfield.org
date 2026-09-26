@@ -58,6 +58,8 @@ author: Mathieu
 categories:
   - qfield
   - highlights
+images:
+  - qfield-bird-plugin.gif
 cover:
   alt: qfield-bird-plugin
   image: qfield-bird-plugin.gif

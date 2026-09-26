@@ -27,6 +27,8 @@ author: mbernasocchi
 categories:
   - qfield
   - social-responsibility
+images:
+  - qfield-rapidmapper.jpg
 cover:
   alt: qfield-rapidmapper
   image: qfield-rapidmapper.jpg

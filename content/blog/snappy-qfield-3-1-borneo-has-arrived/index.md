@@ -20,6 +20,8 @@ categories:
   - gis
   - qfield
   - highlights
+images:
+  - 287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png
 cover:
   alt: 287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f
   image: 287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png

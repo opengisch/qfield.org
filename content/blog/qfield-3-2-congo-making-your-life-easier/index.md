@@ -36,6 +36,8 @@ categories:
   - qfield
   - highlights
   - qgis
+images:
+  - qfield32.png
 cover:
   alt: qfield32
   image: qfield32.png

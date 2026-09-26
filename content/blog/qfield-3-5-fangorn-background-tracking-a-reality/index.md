@@ -57,6 +57,8 @@ categories:
   - gis
   - qfield
   - highlights
+images:
+  - splash.png
 cover:
   alt: splash
   image: splash.png

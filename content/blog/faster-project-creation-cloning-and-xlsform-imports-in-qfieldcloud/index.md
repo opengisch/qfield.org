@@ -16,6 +16,8 @@ keywords:
   - xlsform
   - project cloning
   - project creation
+images:
+  - infograph-qfield-xlsform.png
 cover:
   image: infograph-qfield-xlsform.png
   alt: 'Creating a new project in QFieldCloud'

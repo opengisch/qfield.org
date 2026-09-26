@@ -53,6 +53,8 @@ categories:
   - qfield
   - highlights
   - qgis
+images:
+  - splash.png
 cover:
   alt: splash
   image: splash.png

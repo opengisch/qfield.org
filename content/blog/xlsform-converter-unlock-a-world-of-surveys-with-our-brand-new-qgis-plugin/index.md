@@ -54,6 +54,8 @@ categories:
   - processing
   - qfield
   - qgis-plugins
+images:
+  - xlsformconverter-qgis-qfield.webp
 cover:
   alt: xlsformconverter-qgis-qfield
   image: xlsformconverter-qgis-qfield.webp

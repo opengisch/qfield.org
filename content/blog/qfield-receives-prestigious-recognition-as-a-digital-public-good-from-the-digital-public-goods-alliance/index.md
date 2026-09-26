@@ -18,6 +18,8 @@ _wpml_word_count: "1124"
 author: mbernasocchi
 categories:
   - qfield
+images:
+  - qfield-sdg-text.png
 cover:
   alt: qfield-sdg-text
   image: qfield-sdg-text.png

@@ -74,6 +74,8 @@ categories:
   - events
   - qfield
   - qgis
+images:
+  - 20250603_154007.jpg
 cover:
   alt: "20250603_154007"
   image: 20250603_154007.jpg

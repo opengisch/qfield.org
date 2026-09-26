@@ -53,6 +53,8 @@ _wpml_word_count: "745"
 author: Mathieu
 categories:
   - qfield
+images:
+  - splash.webp
 cover:
   alt: splash
   image: splash.webp

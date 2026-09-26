@@ -47,6 +47,8 @@ categories:
   - newsletter-qf-2025-may
   - qfield
   - highlights
+images:
+  - qf-1mio-downloads-preview-1.jpg
 cover:
   alt: qf-1mio-downloads-preview
   image: qf-1mio-downloads-preview-1.jpg

@@ -20,6 +20,8 @@ categories:
   - gis
   - qfield
   - highlights
+images:
+  - 33splash.png
 cover:
   alt: 33splash
   image: 33splash.png

@@ -52,6 +52,8 @@ categories:
   - gis
   - qfield
   - highlights
+images:
+  - 34.png
 cover:
   alt: "34"
   image: 34.png

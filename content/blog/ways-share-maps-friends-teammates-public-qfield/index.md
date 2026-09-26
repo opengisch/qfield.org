@@ -8,6 +8,8 @@ categories:
 tags:
   - qfield
   - qgis.org
+images:
+  - share-cover.webp
 cover:
   image: share-cover.webp
   alt: ''
