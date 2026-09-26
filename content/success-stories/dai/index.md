@@ -15,7 +15,8 @@ keywords: ["cultural heritage", "emergency response", "disaster management", "mo
 categories: ["government-municipalities", "humanitarian-emergency-response"]
 featured: true
 image: "dai-2.png"
-ogImage: "https://qfield.org/success-stories/dai/dai-2.png"
+images:
+  - dai-2.png
 ---
 
 ### Context & Challenge

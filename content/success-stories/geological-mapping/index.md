@@ -12,7 +12,8 @@ description: >-
 # image: "geologic_field.webp"
 categories: ["water-land-management"]
 image: "geologic_field.webp"
-ogImage: "https://qfield.org/success-stories/geological-mapping/geologic_field.webp"
+images:
+  - geologic_field.webp
 ---
 
 ### Goal

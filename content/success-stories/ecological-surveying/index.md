@@ -10,7 +10,8 @@ description: "To conduct ecological surveying more efficiently than has been pre
 # image: "eco-survey.png"
 categories: ["ecology-environment"]
 image: "eco-survey.png"
-ogImage: "https://qfield.org/success-stories/ecological-surveying/eco-survey.png"
+images: 
+  - eco-survey.png
 ---
 
 ### Goal

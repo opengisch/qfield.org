@@ -20,7 +20,8 @@ sourceUrl: "https://qfield.org/success-stories/heritage-impact-assessment.html"
 sourceLabel: "View original success story"
 categories: ["humanitarian-emergency-response"]
 image: "heritage_impact_figure2.webp"
-ogImage: "https://qfield.org/success-stories/heritage-impact-assessment/heritage_impact_figure2.webp"
+images:
+  - heritage_impact_figure2.webp
 ---
 
 ### Introduction

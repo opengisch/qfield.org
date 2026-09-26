@@ -12,7 +12,8 @@ sourceUrl: "https://livelihoods-and-landscapes.com/examples/hunga-haapai/hunga-h
 categories: ["humanitarian-emergency-response", "government-municipalities"]
 featured: true
 image: "/images/bg/humanitarian.jpg"
-ogImage: "https://qfield.org/images/bg/humanitarian.jpg"
+images:
+  - humanitarian.jpg
 ---
 
 ### Context

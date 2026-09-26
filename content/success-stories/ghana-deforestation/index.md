@@ -6,7 +6,8 @@ description: "How a community-based monitoring program in Ghana's Tano Offin For
 # image: "ghana-3.jpeg"
 categories: ["forestry", "ecology-environment"]
 image: "ghana-2.jpeg"
-ogImage: "https://qfield.org/success-stories/ghana-deforestation/ghana-2.jpeg"
+images:
+  - ghana-2.jpeg
 ---
 
 ### The Challenge

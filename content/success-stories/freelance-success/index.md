@@ -9,7 +9,8 @@ description: "What started as a simple request from former colleagues has evolve
 # image: "freelance-success.jpg"
 categories: ["ecology-environment"]
 image: "freelance-success.jpg"
-ogImage: "https://qfield.org/success-stories/freelance-success/freelance-success.jpg"
+images:
+  - freelance-success.jpg
 ---
 
 What started as a simple request from former colleagues has evolved into a freelance business and a popular open source project. Meet Felix, a French geomatician who discovered an innovative way to build trust, showcase expertise, and create sustainable income—all while giving away his software for free.

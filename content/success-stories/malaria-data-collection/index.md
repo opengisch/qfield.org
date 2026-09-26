@@ -14,7 +14,8 @@ description: "For a research work aiming at improving the knowledge on the envir
 # image: "mosquito4.jpg"
 categories: ["humanitarian-emergency-response"]
 image: "mosquito4.jpg"
-ogImage: "https://qfield.org/success-stories/malaria-data-collection/mosquito4.jpg"
+images:
+  - mosquito4.jpg
 ---
 
 ### Goal and field constraints

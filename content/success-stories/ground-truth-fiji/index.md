@@ -9,7 +9,8 @@ description: "Communities in Fiji rely on landscape resources for agricultural a
 # image: "use_study_fiji4.jpg"
 categories: ["government-municipalities"]
 image: "use_study_fiji4.jpg"
-ogImage: "https://qfield.org/success-stories/ground-truth-fiji/use_study_fiji4.jpg"
+images:
+  - use_study_fiji4.jpg
 ---
 
 ### Purpose

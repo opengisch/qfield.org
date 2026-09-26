@@ -7,7 +7,8 @@ description: "To facilitate the technician's field work (usually done with a map
 # image: "river-state-survey3.jpg"
 categories: ["water-land-management"]
 image: "river-state-survey1.png"
-ogImage: "https://qfield.org/success-stories/river-state-survey/river-state-survey1.png"
+images:
+  - river-state-survey1.png
 ---
 
 ### Goal

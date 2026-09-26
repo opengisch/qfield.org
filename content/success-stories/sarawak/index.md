@@ -10,7 +10,8 @@ company: "The Bruno Manser Fonds"
 date: "2026-01-15T00:00:00+00:00"
 categories: ["forestry", "ecology-environment", "water-land-management"]
 image: "sarawak-7.jpg"
-ogImage: "https://qfield.org/success-stories/sarawak/sarawak-7.jpg"
+images:
+  - sarawak-7.jpg
 ---
 
 
