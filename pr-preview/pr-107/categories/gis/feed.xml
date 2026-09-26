@@ -19,7 +19,7 @@
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/on-demand-attachment.png" medium="image" />
+      
       <description>QFieldCloud storage handling keeps improving, with shared datasets, on-demand attachment downloads, and resumable project downloads reducing sync time and bandwidth.</description>
       <content:encoded><![CDATA[<p>Our ninjas have been hard at work improving QFieldCloud!</p>
 <p>In recent versions, a series of functionality improvements have had a significant impact on the way <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
@@ -60,7 +60,7 @@
       <pubDate>Tue, 04 Mar 2025 05:45:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/03/04/qfield-3.5-fangorn-background-tracking-a-reality/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/03/04/qfield-3.5-fangorn-background-tracking-a-reality/splash.png" medium="image" />
+      
       <description>&lt;p&gt;Let’s not bury the lead here: the long-awaited capability to track position while QField is in the background or the device is locked has arrived in this brand-new version of QField. This feels like a magical moment, so we settled for a fantastical forest for our release name.&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2025/03/04/qfield-3.5-fangorn-background-tracking-a-reality/splash_hu_7eec3d71adebb561.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2025/03/04/qfield-3.5-fangorn-background-tracking-a-reality/splash_hu_7eec3d71adebb561.png 1x, https://qfield.org/pr-preview/pr-107/blog/2025/03/04/qfield-3.5-fangorn-background-tracking-a-reality/splash_hu_a62350021f9f85d2.png 2x&#34;
@@ -125,7 +125,7 @@
       <pubDate>Tue, 08 Oct 2024 04:45:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/10/08/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/10/08/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/34.png" medium="image" />
+      
       <description>&lt;p&gt;QField 3.4 is out, and it won’t disappoint. It has tons of new features that continue to push the limits of what users can do in the field.&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/10/08/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/34_hu_5bbdc94424d1e295.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/10/08/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/34_hu_5bbdc94424d1e295.png 1x, https://qfield.org/pr-preview/pr-107/blog/2024/10/08/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/34_hu_8a9e815b1e95faee.png 2x&#34;
@@ -184,7 +184,7 @@
       <pubDate>Tue, 11 Jun 2024 04:50:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash.png" medium="image" />
+      
       <description>&lt;p&gt;QField 3.3 has been released, and with it, we are proud to introduce a brand new plugin framework that empowers users to customize and add completely new functionalities to their favourite field application. That’s on top of a bunch of new features and improvements added during this development cycle. What preceded this moment was just the beginning!&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash.png 1x, https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash_hu_ada2278aaf25dd6a.png 2x&#34;
@@ -253,7 +253,7 @@
       <pubDate>Thu, 04 Apr 2024 07:58:11 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png" medium="image" />
+      
       <description>&lt;p&gt;Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;&lt;strong&gt;Main highlights&lt;/strong&gt;&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png 1x, https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32_hu_689859826e404548.png 2x&#34;
@@ -314,7 +314,7 @@
       <pubDate>Wed, 10 Jan 2024 17:11:36 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/01/10/snappy-qfield-3.1-borneo-has-arrived/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/01/10/snappy-qfield-3.1-borneo-has-arrived/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png" medium="image" />
+      
       <description>&lt;p&gt;The launch of QField 3.0 was a big deal, but now we&amp;rsquo;re back to focusing on smaller, more frequent updates. Don&amp;rsquo;t let the shorter change log for 3.1 trick you – there are lots of cool new features in this update!&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/01/10/snappy-qfield-3.1-borneo-has-arrived/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/01/10/snappy-qfield-3.1-borneo-has-arrived/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png 1x, https://qfield.org/pr-preview/pr-107/blog/2024/01/10/snappy-qfield-3.1-borneo-has-arrived/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f_hu_7e6303f7a63a76a.png 2x&#34;
@@ -626,7 +626,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790413227-277132696"
+     data-gallery-id="gallery-1790414222-335913336"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -648,7 +648,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 <style>
  
-#gallery-1790413227-277132696 .carousel-item .gallery-img {
+#gallery-1790414222-335913336 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -656,11 +656,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   display: block !important;
 }
 
-#gallery-1790413227-277132696 .carousel-item {
+#gallery-1790414222-335913336 .carousel-item {
   height: auto;
 }
 
-#gallery-1790413227-277132696 .carousel-item .figure {
+#gallery-1790414222-335913336 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -669,11 +669,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   text-align: center;
 }
 
-#gallery-1790413227-277132696 .carousel-item .figure .gallery-img {
+#gallery-1790414222-335913336 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790413227-277132696 .carousel-item .figure .figure-caption {
+#gallery-1790414222-335913336 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -682,13 +682,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 }
 
 @media (max-width: 768px) {
-  #gallery-1790413227-277132696 .carousel-item .gallery-img {
+  #gallery-1790414222-335913336 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790413227-277132696 .carousel-item .gallery-img {
+  #gallery-1790414222-335913336 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -995,7 +995,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790413218-835749839"
+     data-gallery-id="gallery-1790414215-786084215"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1024,7 +1024,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1790413218-835749839 .carousel-item .gallery-img {
+#gallery-1790414215-786084215 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1032,11 +1032,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1790413218-835749839 .carousel-item {
+#gallery-1790414215-786084215 .carousel-item {
   height: auto;
 }
 
-#gallery-1790413218-835749839 .carousel-item .figure {
+#gallery-1790414215-786084215 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1045,11 +1045,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1790413218-835749839 .carousel-item .figure .gallery-img {
+#gallery-1790414215-786084215 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790413218-835749839 .carousel-item .figure .figure-caption {
+#gallery-1790414215-786084215 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1058,13 +1058,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1790413218-835749839 .carousel-item .gallery-img {
+  #gallery-1790414215-786084215 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790413218-835749839 .carousel-item .gallery-img {
+  #gallery-1790414215-786084215 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1083,7 +1083,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790413218-836295532"
+     data-gallery-id="gallery-1790414215-786585690"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1174,7 +1174,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1790413218-836295532 .carousel-item .gallery-img {
+#gallery-1790414215-786585690 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1182,11 +1182,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1790413218-836295532 .carousel-item {
+#gallery-1790414215-786585690 .carousel-item {
   height: auto;
 }
 
-#gallery-1790413218-836295532 .carousel-item .figure {
+#gallery-1790414215-786585690 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1195,11 +1195,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1790413218-836295532 .carousel-item .figure .gallery-img {
+#gallery-1790414215-786585690 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790413218-836295532 .carousel-item .figure .figure-caption {
+#gallery-1790414215-786585690 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1208,13 +1208,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1790413218-836295532 .carousel-item .gallery-img {
+  #gallery-1790414215-786585690 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790413218-836295532 .carousel-item .gallery-img {
+  #gallery-1790414215-786585690 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }

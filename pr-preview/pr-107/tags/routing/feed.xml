@@ -19,7 +19,7 @@
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2026/02/12/qfield-search-and-routing-plugins-updates/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2026/02/12/qfield-search-and-routing-plugins-updates/top.webp" medium="image" />
+      
       <description>&lt;p&gt;Throughout the first month of 2026, our ninjas added a nifty set of improvements to three useful plugins that we love: the &lt;a href=&#34;https://github.com/opengisch/qfield-geomapfish-locator/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GeoMapFish Search&lt;/a&gt;
 , &lt;a href=&#34;https://github.com/opengisch/qfield-nominatim-locator/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenStreetMap Nominatim Search&lt;/a&gt;
 , and &lt;a href=&#34;https://github.com/opengisch/qfield-osrm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OSRM Routing&lt;/a&gt;
