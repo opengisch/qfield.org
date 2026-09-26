@@ -20,6 +20,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/xlsformconverter-qgis-qfield.webp" medium="image" />
       <description>&lt;p&gt;Today marks the initial release of our brand-new QGIS plugin, &lt;em&gt;XLSForm Converter&lt;/em&gt;.&lt;br&gt;
 As the name suggests, the plugin converts XLSForm survey files into ready-to-use QGIS projects with a preconfigured survey attribute form.&lt;/p&gt;
 &lt;p&gt;Migrating to QField was never easier!&lt;/p&gt;

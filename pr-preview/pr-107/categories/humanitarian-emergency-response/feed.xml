@@ -20,6 +20,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/find-our-lost-loved-ones/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/find-our-lost-loved-ones/follo.jpg" medium="image" />
       <description>Find Our Lost Loved Ones, an Australian volunteer nonprofit, uses QField, QGIS and QFieldCloud to coordinate large ground searches for missing people. In 2026 the team located two missing people that official searches could not, giving their families an end to years of uncertainty.</description>
       <content:encoded><![CDATA[<p><strong>In the forests of Tasmania, a volunteer team is using QField, QGIS and <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
  to search for missing people, and to give their families the answers that official searches could not.</strong></p>
@@ -61,6 +63,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/dai/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/dai/dai-2.png" medium="image" />
       <description>Learn how the KulturGutRetter project uses QField for emergency cultural heritage rescue operations. This open-source mobile GIS workflow enables real-time documentation and coordination during disaster response missions.</description>
       <content:encoded><![CDATA[<h3 id="context--challenge">Context &amp; Challenge</h3>
 <p>Disaster response teams tasked with saving cultural heritage face the enormous challenge of documenting damage, tracking rescue actions, and ensuring efficient data handling—often under harsh conditions. The KulturGutRetter project, led by DAI in partnership with THW and LEIZA, set out to build an open-source workflow for real-time data acquisition and management during emergency missions</p>
@@ -117,6 +121,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/heritage-impact-assessment/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/heritage-impact-assessment/heritage_impact_figure2.webp" medium="image" />
       <description>**From QGIS to QField and Vice Versa: How the new Android application is facilitating the work of the archaeologist in the field**
 
 **Abstract:** The aim of this paper is to highlight the main benefits of using the QField app in archaeological jobs. In particular the article provides examples of how to use QField in open area excavation, archaeological survey, and impact assessment (HIA) projects.
@@ -292,6 +298,8 @@ Even in this case, the QGIS “print composer” allows us to develop customised
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/tonga/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/tonga//images/bg/humanitarian.jpg" medium="image" />
       <description>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</description>
       <content:encoded><![CDATA[<h3 id="context">Context</h3>
 <p>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</p>
@@ -336,6 +344,8 @@ Even in this case, the QGIS “print composer” allows us to develop customised
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/malaria-data-collection/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/malaria-data-collection/mosquito4.jpg" medium="image" />
       <description>For a research work aiming at improving the knowledge on the environment of the mosquitoes that transmit malaria, the French Research Institute for Sustainable Development needed to generate a land cover map of two rural areas in Africa, one in Burkina Faso and one in Ivory Coast. Two satellites images (Spot 6 at 1.5 meters spatial resolutions) are used as input of a supervised object-based image classification for this work. The supervised method implies the collection of ground truth parcels, i.e. location and geo-referencing of a set of parcels of each land cover class on the ground, preferably spread all over the study areas. Both areas are 50 km2 wide and their nature (savannahs and rural areas, where roads are mainly narrow clay tracks) imply to move around in motorbike or by feet.</description>
       <content:encoded><![CDATA[<h3 id="goal-and-field-constraints">Goal and field constraints</h3>
 <p>For a research work aiming at improving the knowledge on the environment of the mosquitoes that transmit malaria, the French Research Institute for Sustainable Development needed to generate a land cover map of two rural areas in Africa, one in Burkina Faso and one in Ivory Coast. Two satellites images (Spot 6 at 1.5 meters spatial resolutions) are used as input of a supervised object-based image classification for this work. The supervised method implies the collection of ground truth parcels, i.e. location and geo-referencing of a set of parcels of each land cover class on the ground, preferably spread all over the study areas. Both areas are 50 km2 wide and their nature (savannahs and rural areas, where roads are mainly narrow clay tracks) imply to move around in motorbike or by feet. In addition, one could quickly get lost in the rural labyrinth tracks in absence of a map. We hence needed light and very portable equipment, as well as a way to easily explore the area without getting lost.</p>

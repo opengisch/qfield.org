@@ -20,6 +20,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_154007.jpg" medium="image" />
       <description>&lt;p&gt;It was such a pleasure to be part of the &lt;span class=&#34;text-qfield&#34;&gt;QGIS&lt;/span&gt;
  User Conference 2025 in Norrköping! The event was extremely well organised — a big thank you to the amazing local team for pulling it all together so smoothly. Personally, it felt special to be back in Sweden, almost 20 years after my Uppsala university days. I truly enjoyed giving the opening keynote and sharing the latest from the QGIS project — and of course, showcasing all the QField greatness we&amp;rsquo;ve been working so hard on 💚&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It was such a pleasure to be part of the <span class="text-qfield">QGIS</span>
@@ -32,7 +34,7 @@
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414205-742728245"
+     data-gallery-id="gallery-1790418312-727748785"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -60,7 +62,7 @@
 
 <style>
  
-#gallery-1790414205-742728245 .carousel-item .gallery-img {
+#gallery-1790418312-727748785 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -68,11 +70,11 @@
   display: block !important;
 }
 
-#gallery-1790414205-742728245 .carousel-item {
+#gallery-1790418312-727748785 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414205-742728245 .carousel-item .figure {
+#gallery-1790418312-727748785 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -81,11 +83,11 @@
   text-align: center;
 }
 
-#gallery-1790414205-742728245 .carousel-item .figure .gallery-img {
+#gallery-1790418312-727748785 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414205-742728245 .carousel-item .figure .figure-caption {
+#gallery-1790418312-727748785 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -94,13 +96,13 @@
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414205-742728245 .carousel-item .gallery-img {
+  #gallery-1790418312-727748785 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414205-742728245 .carousel-item .gallery-img {
+  #gallery-1790418312-727748785 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -151,7 +153,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414206-826373606"
+     data-gallery-id="gallery-1790418313-926559038"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -179,7 +181,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 <style>
  
-#gallery-1790414206-826373606 .carousel-item .gallery-img {
+#gallery-1790418313-926559038 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -187,11 +189,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1790414206-826373606 .carousel-item {
+#gallery-1790418313-926559038 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414206-826373606 .carousel-item .figure {
+#gallery-1790418313-926559038 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -200,11 +202,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1790414206-826373606 .carousel-item .figure .gallery-img {
+#gallery-1790418313-926559038 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414206-826373606 .carousel-item .figure .figure-caption {
+#gallery-1790418313-926559038 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -213,13 +215,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414206-826373606 .carousel-item .gallery-img {
+  #gallery-1790418313-926559038 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414206-826373606 .carousel-item .gallery-img {
+  #gallery-1790418313-926559038 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -238,7 +240,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414209-497671174"
+     data-gallery-id="gallery-1790418316-495870777"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -266,7 +268,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1790414209-497671174 .carousel-item .gallery-img {
+#gallery-1790418316-495870777 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -274,11 +276,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1790414209-497671174 .carousel-item {
+#gallery-1790418316-495870777 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414209-497671174 .carousel-item .figure {
+#gallery-1790418316-495870777 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -287,11 +289,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1790414209-497671174 .carousel-item .figure .gallery-img {
+#gallery-1790418316-495870777 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414209-497671174 .carousel-item .figure .figure-caption {
+#gallery-1790418316-495870777 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -300,13 +302,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414209-497671174 .carousel-item .gallery-img {
+  #gallery-1790418316-495870777 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414209-497671174 .carousel-item .gallery-img {
+  #gallery-1790418316-495870777 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -327,7 +329,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414211-738246637"
+     data-gallery-id="gallery-1790418319-20556003"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -355,7 +357,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1790414211-738246637 .carousel-item .gallery-img {
+#gallery-1790418319-20556003 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -363,11 +365,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1790414211-738246637 .carousel-item {
+#gallery-1790418319-20556003 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414211-738246637 .carousel-item .figure {
+#gallery-1790418319-20556003 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -376,11 +378,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1790414211-738246637 .carousel-item .figure .gallery-img {
+#gallery-1790418319-20556003 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414211-738246637 .carousel-item .figure .figure-caption {
+#gallery-1790418319-20556003 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -389,13 +391,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414211-738246637 .carousel-item .gallery-img {
+  #gallery-1790418319-20556003 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414211-738246637 .carousel-item .gallery-img {
+  #gallery-1790418319-20556003 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -416,6 +418,8 @@ Definitely not our last one. 💚</p>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/06/03/qfield-3.6-gondwana-locking-on-greatness/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/06/03/qfield-3.6-gondwana-locking-on-greatness/splash.png" medium="image" />
       <description>&lt;p&gt;Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2025/06/03/qfield-3.6-gondwana-locking-on-greatness/splash_hu_7eec3d71adebb561.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2025/06/03/qfield-3.6-gondwana-locking-on-greatness/splash_hu_7eec3d71adebb561.png 1x, https://qfield.org/pr-preview/pr-107/blog/2025/06/03/qfield-3.6-gondwana-locking-on-greatness/splash_hu_a62350021f9f85d2.png 2x&#34;
@@ -466,6 +470,8 @@ Definitely not our last one. 💚</p>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/04/02/fossgis-2025-what-a-week/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/04/02/fossgis-2025-what-a-week/20250327_160523.jpg" medium="image" />
       <description>&lt;p&gt;As long time sponsors of FOSSGIS, we stepped up the game this year and became &lt;strong&gt;Platinum Sponsors for FOSSGIS 2025&lt;/strong&gt;. We are proud to be part of a thriving open-source GIS community and to contribute to such a great conference. Here&amp;rsquo;s a recap of everything we were involved in:&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;-talks--presentations&#34;&gt;🚀 Talks &amp;amp; Presentations&lt;/h3&gt;
@@ -548,6 +554,8 @@ In this practical workshop, <em>Michael</em> guided participants through using <
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png" medium="image" />
       <description>&lt;p&gt;Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;&lt;strong&gt;Main highlights&lt;/strong&gt;&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png 1x, https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32_hu_689859826e404548.png 2x&#34;
@@ -608,7 +616,7 @@ In this practical workshop, <em>Michael</em> guided participants through using <
       <pubDate>Tue, 06 Dec 2022 05:29:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2022/12/06/how-to-contribute-to-qfield/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2022/12/06/how-to-contribute-to-qfield/QField_AppAward_12-2022.png" medium="image" />
+      
       <description>&lt;p&gt;QField is a community-driven open-source project. It is free to share, use and modify and it will stay like that. The very essence of a community is to help and support each other. And that&amp;rsquo;s where YOU come into play. To make it work we need your support!&lt;/p&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2022/12/06/how-to-contribute-to-qfield/QField_AppAward_12-2022_hu_d1faaa4a63b3967d.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2022/12/06/how-to-contribute-to-qfield/QField_AppAward_12-2022_hu_d1faaa4a63b3967d.png 1x, https://qfield.org/pr-preview/pr-107/blog/2022/12/06/how-to-contribute-to-qfield/QField_AppAward_12-2022_hu_fc262e83c9526836.png 2x&#34;
          alt=&#34;&#34; 
@@ -668,7 +676,7 @@ Want to know more about the idea of community-driven open-source projects and th
       <pubDate>Thu, 08 Sep 2022 05:00:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/WhatsApp-Image-2022-08-22-at-13.40.29.jpeg" medium="image" />
+      
       <description>&lt;p&gt;The international community of QGIS contributors got together in person from 18 to 22 August in parallel to &lt;a href=&#34;https://2022.stateofthemap.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenStreetMap State of The Map&lt;/a&gt;
  event and right before the &lt;a href=&#34;https://2022.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSS4G&lt;/a&gt;
 . So there was a lot of &lt;strong&gt;open source geo power&lt;/strong&gt; concentrated in the &lt;strong&gt;beautiful city of Florence&lt;/strong&gt; in those days. It was my first participation and all I knew was that it&amp;rsquo;s supposed to be an unconference. This means, there is no strict schedule but space and opportunity for everyone to present their work or team up to discuss and hack on specific tasks to bring the QGIS project to the next level.&lt;/p&gt;</description>
@@ -714,7 +722,7 @@ Want to know more about the idea of community-driven open-source projects and th
       <pubDate>Tue, 16 Aug 2022 04:58:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43.gif" medium="image" />
+      
       <description>&lt;p&gt;&lt;strong&gt;Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The example below demonstrates a scenario where animated raster markers are used to highlight active fires within the visible map extent. Notice how the subtle fire animation helps draw viewers’ eyes to those important markers.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.</strong></p>
@@ -750,7 +758,7 @@ Want to know more about the idea of community-driven open-source projects and th
       <pubDate>Tue, 09 Jun 2020 05:03:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/Screenshot-from-2020-06-08-13-00-42.png" medium="image" />
+      
       <description>&lt;h2 id=&#34;what-are-we-looking-for&#34;&gt;What are we looking for?&lt;/h2&gt;
 &lt;p&gt;We would like to use WMS offline on QField. For that, we need to figure out what is the best way to get a raster from a WMS and which format is the most efficient (size and performance).&lt;/p&gt;
 &lt;p&gt;In this post we&amp;rsquo;ll show you is how to generate the ideal raster file from a WMS and the results of our efficiency tests for the the different raster formats.&lt;/p&gt;</description>
@@ -821,7 +829,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
       <pubDate>Tue, 03 Mar 2020 06:00:13 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2020/03/03/qfield-1.4-released-happy-new-year/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2020/03/03/qfield-1.4-released-happy-new-year/qfield_love_09.png" medium="image" />
+      
       <description>&lt;p&gt;What a year&amp;rsquo;s start! After a very packed December publishing all the &lt;a href=&#34;https://qfield.org/pr-preview/pr-107/qgis-on-the-road/&#34;&gt;QGIS on the road videos&lt;/a&gt;
  and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we could have gone and relaxed over the holidays. But since we love QField so much we immediately started working on the next iteration. Now, after an intensive testing period, we are proud to announce the release of &lt;strong&gt;QField 1.4 - Olavtoppen&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Olavtoppen!? yes, the highest point of Bouvet Island, the remotest island on Earth. And sure enough, QField would follow you there!&lt;/p&gt;</description>
@@ -854,7 +862,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414219-67297065"
+     data-gallery-id="gallery-1790418325-826065917"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -883,7 +891,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 
 <style>
  
-#gallery-1790414219-67297065 .carousel-item .gallery-img {
+#gallery-1790418325-826065917 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -891,11 +899,11 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
   display: block !important;
 }
 
-#gallery-1790414219-67297065 .carousel-item {
+#gallery-1790418325-826065917 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414219-67297065 .carousel-item .figure {
+#gallery-1790418325-826065917 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -904,11 +912,11 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
   text-align: center;
 }
 
-#gallery-1790414219-67297065 .carousel-item .figure .gallery-img {
+#gallery-1790418325-826065917 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414219-67297065 .carousel-item .figure .figure-caption {
+#gallery-1790418325-826065917 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -917,13 +925,13 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414219-67297065 .carousel-item .gallery-img {
+  #gallery-1790418325-826065917 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414219-67297065 .carousel-item .gallery-img {
+  #gallery-1790418325-826065917 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -989,7 +997,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
       <pubDate>Thu, 28 Mar 2019 15:34:38 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/03/28/qfield-1.0-is-here/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/03/28/qfield-1.0-is-here/QField_1.0.webp" medium="image" />
+      
       <description>&lt;h2 id=&#34;lets-get-straight-to-the-point&#34;&gt;Let&amp;rsquo;s get straight to the point&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;It&amp;rsquo;s official, QField for QGIS 1.0 is out!&lt;/p&gt;
@@ -1086,7 +1094,7 @@ We support your team in planning, developing, deploying and running your infrast
       <pubDate>Mon, 25 Mar 2019 09:22:43 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/MG_3711.webp" medium="image" />
+      
       <description>&lt;p&gt;Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// &lt;a href=&#34;https://bern.impacthub.net/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bern.impacthub.net/)&lt;/a&gt;
 .&lt;br&gt;
 [GeoBeer](https:// &lt;a href=&#34;https://www.geobeer.ch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.geobeer.ch&lt;/a&gt;
@@ -1128,7 +1136,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414215-786084215"
+     data-gallery-id="gallery-1790418322-475898671"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1157,7 +1165,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1790414215-786084215 .carousel-item .gallery-img {
+#gallery-1790418322-475898671 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1165,11 +1173,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1790414215-786084215 .carousel-item {
+#gallery-1790418322-475898671 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414215-786084215 .carousel-item .figure {
+#gallery-1790418322-475898671 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1178,11 +1186,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1790414215-786084215 .carousel-item .figure .gallery-img {
+#gallery-1790418322-475898671 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414215-786084215 .carousel-item .figure .figure-caption {
+#gallery-1790418322-475898671 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1191,13 +1199,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414215-786084215 .carousel-item .gallery-img {
+  #gallery-1790418322-475898671 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414215-786084215 .carousel-item .gallery-img {
+  #gallery-1790418322-475898671 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1216,7 +1224,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414215-786585690"
+     data-gallery-id="gallery-1790418322-476369160"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1307,7 +1315,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1790414215-786585690 .carousel-item .gallery-img {
+#gallery-1790418322-476369160 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1315,11 +1323,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1790414215-786585690 .carousel-item {
+#gallery-1790418322-476369160 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414215-786585690 .carousel-item .figure {
+#gallery-1790418322-476369160 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1328,11 +1336,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1790414215-786585690 .carousel-item .figure .gallery-img {
+#gallery-1790418322-476369160 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414215-786585690 .carousel-item .figure .figure-caption {
+#gallery-1790418322-476369160 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1341,13 +1349,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414215-786585690 .carousel-item .gallery-img {
+  #gallery-1790418322-476369160 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414215-786585690 .carousel-item .gallery-img {
+  #gallery-1790418322-476369160 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1367,7 +1375,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
       <pubDate>Thu, 31 Jan 2019 06:51:35 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/QField_RC3.webp" medium="image" />
+      
       <description>&lt;p&gt;We are really happy to announce the release a new great milestone in QField&amp;rsquo;s history, QField 1.0 Release Candidate 3! (Yes, you might have got a glimpse of the broken RC2 if you where very attentive)&lt;/p&gt;
 &lt;p&gt;Thanks to the great feedback we received since releasing RC1 we were able to fix plenty of issues and add some more goodies.&lt;/p&gt;
 &lt;p&gt;We would like to invite everybody to install this Release Candidate and help us test it as much as possible so that we can iron out as many bugs as possible before the final release of QField 1.0.&lt;/p&gt;</description>
@@ -1417,7 +1425,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
       <pubDate>Mon, 28 May 2018 07:41:26 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/modeller.png" medium="image" />
+      
       <description>&lt;p&gt;This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section &lt;a href=&#34;#feature-filter-algorithm&#34;&gt;the feature filter algorithm&lt;/a&gt;
 .&lt;/p&gt;
 &lt;h2 id=&#34;building-workflows-for-repetitive-tasks&#34;&gt;Building workflows for repetitive tasks&lt;/h2&gt;

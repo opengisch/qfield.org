@@ -19,7 +19,7 @@
       <pubDate>Wed, 24 Feb 2021 06:31:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2021/02/24/powerful-and-gentle-qfield-1.8-selma-sneaked-in/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2021/02/24/powerful-and-gentle-qfield-1.8-selma-sneaked-in/freehand.webp" medium="image" />
+      
       <description>&lt;p&gt;&lt;strong&gt;Get fieldwork smoothly and nimbly done despite the ice and snow outside. Collect accurate data with freehand digitizing and improved form widgets, use the data from your external GNSS receivers without any third-party apps and enjoy the pleasant usability of QField 1.8 Selma.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This year started off hi-speed for us. There&amp;rsquo;s been already a lot of coding, designing and teaching, and we&amp;rsquo;ve thrown ourselves into these things we love to do. And we published another QField release last week that I completely forgot to announce in this blog. But here it is. It&amp;rsquo;s QField 1.8, Selma. And it&amp;rsquo;s packed with cool features.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>Get fieldwork smoothly and nimbly done despite the ice and snow outside. Collect accurate data with freehand digitizing and improved form widgets, use the data from your external GNSS receivers without any third-party apps and enjoy the pleasant usability of QField 1.8 Selma.</strong></p>
@@ -127,7 +127,7 @@
       <pubDate>Tue, 20 Oct 2020 07:26:08 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2020/10/20/qfield-1.7-rockies-hits-the-stage/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2020/10/20/qfield-1.7-rockies-hits-the-stage/qml_land_trans.png" medium="image" />
+      
       <description>&lt;p&gt;&lt;strong&gt;Be ready for the cold weather with a smooth coordinate search, filters in the value relation widget, fancy new QML and HTML widgets, enhanced geometry editing functionalities and an expandable legend. Right when Autumn starts, QField 1.7 Rockies hits the stage.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;As usual get it now on the &lt;a href=&#34;https://play.google.com/store/apps/details?id=ch.opengis.qfield&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;play store&lt;/a&gt;
  or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;
@@ -180,7 +180,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414222-335913336"
+     data-gallery-id="gallery-1790418329-153378766"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -202,7 +202,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 <style>
  
-#gallery-1790414222-335913336 .carousel-item .gallery-img {
+#gallery-1790418329-153378766 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -210,11 +210,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   display: block !important;
 }
 
-#gallery-1790414222-335913336 .carousel-item {
+#gallery-1790418329-153378766 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414222-335913336 .carousel-item .figure {
+#gallery-1790418329-153378766 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -223,11 +223,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   text-align: center;
 }
 
-#gallery-1790414222-335913336 .carousel-item .figure .gallery-img {
+#gallery-1790418329-153378766 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414222-335913336 .carousel-item .figure .figure-caption {
+#gallery-1790418329-153378766 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -236,13 +236,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414222-335913336 .carousel-item .gallery-img {
+  #gallery-1790418329-153378766 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414222-335913336 .carousel-item .gallery-img {
+  #gallery-1790418329-153378766 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -285,7 +285,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
       <pubDate>Tue, 18 Aug 2020 05:00:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2020/08/18/qfield-1.6-is-out/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2020/08/18/qfield-1.6-is-out/selection_00-1.webp" medium="image" />
+      
       <description>&lt;p&gt;&lt;strong&gt;Editing multiple features at the same time, support for stylus pens, dynamic configuration of image names and much more.&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;QField 1.6 Qinling 秦岭 comes packed with awesome new features and an improved user experience.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We have been very busy over the last few months working on a new and shiny QField release. We have added many new features that increase efficiency on the field or allow for new workflows. In parallel, we have also been working on ironing out a series of issues and improving the overall user experience to make the app as pleasurable to use as possible. The result is QField 1.6 which has been published now.&lt;/p&gt;</description>
@@ -350,7 +350,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
       <pubDate>Thu, 28 Mar 2019 15:34:38 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/03/28/qfield-1.0-is-here/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/03/28/qfield-1.0-is-here/QField_1.0.webp" medium="image" />
+      
       <description>&lt;h2 id=&#34;lets-get-straight-to-the-point&#34;&gt;Let&amp;rsquo;s get straight to the point&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;It&amp;rsquo;s official, QField for QGIS 1.0 is out!&lt;/p&gt;
@@ -447,7 +447,7 @@ We support your team in planning, developing, deploying and running your infrast
       <pubDate>Thu, 14 Mar 2019 11:50:16 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/03/14/qfield-rc5-last-call-for-testing/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/03/14/qfield-rc5-last-call-for-testing/QField_RC5.webp" medium="image" />
+      
       <description>&lt;p&gt;We are really happy to announce the fifth and (hopefully) last 1.0 release candidate in QField&amp;rsquo;s history! This means that QField 1.0 is closer than ever.&lt;/p&gt;
 &lt;p&gt;Get it while it&amp;rsquo;s hot on the Playstore ( &lt;a href=&#34;https://qfield.org/get&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://qfield.org/get&lt;/a&gt;
 ) or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;
@@ -532,7 +532,7 @@ We support your team in planning, developing, deploying and running your infrast
       <pubDate>Tue, 08 Jan 2019 06:59:38 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/01/08/new-years-present-qfield-1.0-rc1/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/01/08/new-years-present-qfield-1.0-rc1/QField_RC.webp" medium="image" />
+      
       <description>&lt;p&gt;It was a long and winding road but we are very excited to announce the general availability of QField 1.0 Release Candidate 1.&lt;/p&gt;
 &lt;p&gt;Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is the powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It was a long and winding road but we are very excited to announce the general availability of QField 1.0 Release Candidate 1.</p>
@@ -558,7 +558,7 @@ We support your team in planning, developing, deploying and running your infrast
       <pubDate>Tue, 08 Jan 2019 06:59:38 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/01/08/new-year%23039s-present-qfield-1.0-rc1/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/01/08/new-year%23039s-present-qfield-1.0-rc1/QField_RC.webp" medium="image" />
+      
       <description>&lt;p&gt;It was a long and winding road but we are very excited to announce the general availability of QField 1.0 Release Candidate 1.&lt;/p&gt;
 &lt;p&gt;Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is the powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It was a long and winding road but we are very excited to announce the general availability of QField 1.0 Release Candidate 1.</p>

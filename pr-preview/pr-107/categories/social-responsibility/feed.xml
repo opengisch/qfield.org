@@ -20,6 +20,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/07/07/rapid-mapping-the-ticino-floods-and-landslides-with-qfield-rapid-mapper/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/07/07/rapid-mapping-the-ticino-floods-and-landslides-with-qfield-rapid-mapper/qfield-rapidmapper.jpg" medium="image" />
       <description>&lt;p&gt;&lt;strong&gt;QField Rapid Mapper&lt;/strong&gt; is a project for the &lt;a href=&#34;https://qfield.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QField mobile app&lt;/a&gt;
 , which allows emergency responders, civil protection, military, and citizens to &lt;strong&gt;assess and report damages from natural catastrophes by quickly sharing geolocated images, videos and audio&lt;/strong&gt;. QField Rapid Mapper offers real-time data collection, mapping and sharing to &lt;strong&gt;help enhance disaster response and coordination&lt;/strong&gt;.&lt;br&gt;
 QField and QFieldCloud are &lt;strong&gt;open-source&lt;/strong&gt;, and OPENGIS.ch is donating the needed QFieldCloud infrastructure and expertise to help map the floods in Ticino in 2024&lt;/p&gt;</description>
@@ -66,7 +68,7 @@ QField and QFieldCloud are <strong>open-source</strong>, and OPENGIS.ch is d
       <pubDate>Wed, 02 Feb 2022 06:43:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2022/02/02/qfield-collected-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2022/02/02/qfield-collected-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/qfield-field-training.jpg" medium="image" />
+      
       <description>&lt;p&gt;&lt;strong&gt;For once, it&amp;rsquo;s not an app from the Silicon Valley, but from Laax in the Swiss Alps that made the news. By publishing QField as an open-source app, OPENGIS.ch allows companies, organisations and even countries without the necessary financial means to have the opportunity to benefit from this important data collection app. And it is being used: Over half a million downloads have already been achieved. Now, since the volcanic eruption in Tonga on 15 January 2022, the app of the small Laax-based company is playing a not-unimportant role in disaster response planning.&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>For once, it&rsquo;s not an app from the Silicon Valley, but from Laax in the Swiss Alps that made the news. By publishing QField as an open-source app, OPENGIS.ch allows companies, organisations and even countries without the necessary financial means to have the opportunity to benefit from this important data collection app. And it is being used: Over half a million downloads have already been achieved. Now, since the volcanic eruption in Tonga on 15 January 2022, the app of the small Laax-based company is playing a not-unimportant role in disaster response planning.</strong></p>
 <figure class="figure text-center mb-4"><img src="/pr-preview/pr-107/blog/2022/02/02/qfield-collected-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/qfield-field-training_hu_145a39898bb1e53c.jpg" srcset="/pr-preview/pr-107/blog/2022/02/02/qfield-collected-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/qfield-field-training_hu_145a39898bb1e53c.jpg 1x, /pr-preview/pr-107/blog/2022/02/02/qfield-collected-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/qfield-field-training_hu_20846895649adf74.jpg 2x"
@@ -141,7 +143,7 @@ QField and QFieldCloud are <strong>open-source</strong>, and OPENGIS.ch is d
       <pubDate>Tue, 08 Jun 2021 06:01:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/qfield-git-history.png" medium="image" />
+      
       <description>&lt;p&gt;Today, on QField&amp;rsquo;s 10th anniversary, we&amp;rsquo;re extremely proud to publish the results of over &lt;a href=&#34;https://github.com/opengisch/qfieldcloud/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;18 months&lt;/a&gt;
  of development and give you &lt;a href=&#34;https://github.com/opengisch/qfieldcloud/pull/3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the source code of QFieldCloud&lt;/a&gt;
  to go and make your awesome adaptations, solutions, and hopefully contributions :)&lt;/p&gt;
@@ -217,7 +219,7 @@ Cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414201-638094382"
+     data-gallery-id="gallery-1790418308-253127024"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -246,7 +248,7 @@ Cheers</p>
 
 <style>
  
-#gallery-1790414201-638094382 .carousel-item .gallery-img {
+#gallery-1790418308-253127024 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -254,11 +256,11 @@ Cheers</p>
   display: block !important;
 }
 
-#gallery-1790414201-638094382 .carousel-item {
+#gallery-1790418308-253127024 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414201-638094382 .carousel-item .figure {
+#gallery-1790418308-253127024 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -267,11 +269,11 @@ Cheers</p>
   text-align: center;
 }
 
-#gallery-1790414201-638094382 .carousel-item .figure .gallery-img {
+#gallery-1790418308-253127024 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414201-638094382 .carousel-item .figure .figure-caption {
+#gallery-1790418308-253127024 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -280,13 +282,13 @@ Cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414201-638094382 .carousel-item .gallery-img {
+  #gallery-1790418308-253127024 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414201-638094382 .carousel-item .gallery-img {
+  #gallery-1790418308-253127024 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -352,7 +354,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414202-878298650"
+     data-gallery-id="gallery-1790418309-711902561"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -387,7 +389,7 @@ cheers</p>
 
 <style>
  
-#gallery-1790414202-878298650 .carousel-item .gallery-img {
+#gallery-1790418309-711902561 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -395,11 +397,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1790414202-878298650 .carousel-item {
+#gallery-1790418309-711902561 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414202-878298650 .carousel-item .figure {
+#gallery-1790418309-711902561 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -408,11 +410,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1790414202-878298650 .carousel-item .figure .gallery-img {
+#gallery-1790418309-711902561 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414202-878298650 .carousel-item .figure .figure-caption {
+#gallery-1790418309-711902561 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -421,13 +423,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414202-878298650 .carousel-item .gallery-img {
+  #gallery-1790418309-711902561 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414202-878298650 .carousel-item .gallery-img {
+  #gallery-1790418309-711902561 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -448,7 +450,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414204-830993386"
+     data-gallery-id="gallery-1790418312-506829612"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -486,7 +488,7 @@ cheers</p>
 
 <style>
  
-#gallery-1790414204-830993386 .carousel-item .gallery-img {
+#gallery-1790418312-506829612 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -494,11 +496,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1790414204-830993386 .carousel-item {
+#gallery-1790418312-506829612 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414204-830993386 .carousel-item .figure {
+#gallery-1790418312-506829612 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -507,11 +509,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1790414204-830993386 .carousel-item .figure .gallery-img {
+#gallery-1790418312-506829612 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414204-830993386 .carousel-item .figure .figure-caption {
+#gallery-1790418312-506829612 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -520,13 +522,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414204-830993386 .carousel-item .gallery-img {
+  #gallery-1790418312-506829612 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414204-830993386 .carousel-item .gallery-img {
+  #gallery-1790418312-506829612 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -641,7 +643,7 @@ cheers</p>
       <guid>https://qfield.org/pr-preview/pr-107/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</guid>
       
       <description>&lt;div class=&#34;gallery-wrapper&#34; 
-     data-gallery-id=&#34;gallery-1790414217-840615720&#34;
+     data-gallery-id=&#34;gallery-1790418324-734504540&#34;
      data-autoplay=&#34;false&#34;
      data-interval=&#34;5000&#34;
      data-controls=&#34;true&#34;
@@ -651,7 +653,7 @@ cheers</p>
 
 &lt;style&gt;
  
-#gallery-1790414217-840615720 .carousel-item .gallery-img {
+#gallery-1790418324-734504540 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -659,11 +661,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1790414217-840615720 .carousel-item {
+#gallery-1790418324-734504540 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414217-840615720 .carousel-item .figure {
+#gallery-1790418324-734504540 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -672,11 +674,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1790414217-840615720 .carousel-item .figure .gallery-img {
+#gallery-1790418324-734504540 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414217-840615720 .carousel-item .figure .figure-caption {
+#gallery-1790418324-734504540 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -685,13 +687,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414217-840615720 .carousel-item .gallery-img {
+  #gallery-1790418324-734504540 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414217-840615720 .carousel-item .gallery-img {
+  #gallery-1790418324-734504540 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -706,7 +708,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414217-840615720"
+     data-gallery-id="gallery-1790418324-734504540"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -716,7 +718,7 @@ cheers</p>
 
 <style>
  
-#gallery-1790414217-840615720 .carousel-item .gallery-img {
+#gallery-1790418324-734504540 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -724,11 +726,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1790414217-840615720 .carousel-item {
+#gallery-1790418324-734504540 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414217-840615720 .carousel-item .figure {
+#gallery-1790418324-734504540 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -737,11 +739,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1790414217-840615720 .carousel-item .figure .gallery-img {
+#gallery-1790418324-734504540 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414217-840615720 .carousel-item .figure .figure-caption {
+#gallery-1790418324-734504540 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -750,13 +752,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414217-840615720 .carousel-item .gallery-img {
+  #gallery-1790418324-734504540 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414217-840615720 .carousel-item .gallery-img {
+  #gallery-1790418324-734504540 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }

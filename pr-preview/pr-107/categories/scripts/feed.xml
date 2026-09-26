@@ -19,7 +19,7 @@
       <pubDate>Tue, 09 Jun 2020 05:03:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/Screenshot-from-2020-06-08-13-00-42.png" medium="image" />
+      
       <description>&lt;h2 id=&#34;what-are-we-looking-for&#34;&gt;What are we looking for?&lt;/h2&gt;
 &lt;p&gt;We would like to use WMS offline on QField. For that, we need to figure out what is the best way to get a raster from a WMS and which format is the most efficient (size and performance).&lt;/p&gt;
 &lt;p&gt;In this post we&amp;rsquo;ll show you is how to generate the ideal raster file from a WMS and the results of our efficiency tests for the the different raster formats.&lt;/p&gt;</description>

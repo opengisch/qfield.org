@@ -20,6 +20,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/20250603_154007.jpg" medium="image" />
       <description>&lt;p&gt;It was such a pleasure to be part of the &lt;span class=&#34;text-qfield&#34;&gt;QGIS&lt;/span&gt;
  User Conference 2025 in Norrköping! The event was extremely well organised — a big thank you to the amazing local team for pulling it all together so smoothly. Personally, it felt special to be back in Sweden, almost 20 years after my Uppsala university days. I truly enjoyed giving the opening keynote and sharing the latest from the QGIS project — and of course, showcasing all the QField greatness we&amp;rsquo;ve been working so hard on 💚&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It was such a pleasure to be part of the <span class="text-qfield">QGIS</span>
@@ -32,7 +34,7 @@
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414205-742728245"
+     data-gallery-id="gallery-1790418312-727748785"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -60,7 +62,7 @@
 
 <style>
  
-#gallery-1790414205-742728245 .carousel-item .gallery-img {
+#gallery-1790418312-727748785 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -68,11 +70,11 @@
   display: block !important;
 }
 
-#gallery-1790414205-742728245 .carousel-item {
+#gallery-1790418312-727748785 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414205-742728245 .carousel-item .figure {
+#gallery-1790418312-727748785 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -81,11 +83,11 @@
   text-align: center;
 }
 
-#gallery-1790414205-742728245 .carousel-item .figure .gallery-img {
+#gallery-1790418312-727748785 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414205-742728245 .carousel-item .figure .figure-caption {
+#gallery-1790418312-727748785 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -94,13 +96,13 @@
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414205-742728245 .carousel-item .gallery-img {
+  #gallery-1790418312-727748785 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414205-742728245 .carousel-item .gallery-img {
+  #gallery-1790418312-727748785 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -151,7 +153,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414206-826373606"
+     data-gallery-id="gallery-1790418313-926559038"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -179,7 +181,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 <style>
  
-#gallery-1790414206-826373606 .carousel-item .gallery-img {
+#gallery-1790418313-926559038 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -187,11 +189,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1790414206-826373606 .carousel-item {
+#gallery-1790418313-926559038 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414206-826373606 .carousel-item .figure {
+#gallery-1790418313-926559038 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -200,11 +202,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1790414206-826373606 .carousel-item .figure .gallery-img {
+#gallery-1790418313-926559038 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414206-826373606 .carousel-item .figure .figure-caption {
+#gallery-1790418313-926559038 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -213,13 +215,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414206-826373606 .carousel-item .gallery-img {
+  #gallery-1790418313-926559038 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414206-826373606 .carousel-item .gallery-img {
+  #gallery-1790418313-926559038 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -238,7 +240,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414209-497671174"
+     data-gallery-id="gallery-1790418316-495870777"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -266,7 +268,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1790414209-497671174 .carousel-item .gallery-img {
+#gallery-1790418316-495870777 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -274,11 +276,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1790414209-497671174 .carousel-item {
+#gallery-1790418316-495870777 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414209-497671174 .carousel-item .figure {
+#gallery-1790418316-495870777 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -287,11 +289,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1790414209-497671174 .carousel-item .figure .gallery-img {
+#gallery-1790418316-495870777 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414209-497671174 .carousel-item .figure .figure-caption {
+#gallery-1790418316-495870777 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -300,13 +302,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414209-497671174 .carousel-item .gallery-img {
+  #gallery-1790418316-495870777 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414209-497671174 .carousel-item .gallery-img {
+  #gallery-1790418316-495870777 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -327,7 +329,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414211-738246637"
+     data-gallery-id="gallery-1790418319-20556003"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -355,7 +357,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1790414211-738246637 .carousel-item .gallery-img {
+#gallery-1790418319-20556003 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -363,11 +365,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1790414211-738246637 .carousel-item {
+#gallery-1790418319-20556003 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414211-738246637 .carousel-item .figure {
+#gallery-1790418319-20556003 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -376,11 +378,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1790414211-738246637 .carousel-item .figure .gallery-img {
+#gallery-1790418319-20556003 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414211-738246637 .carousel-item .figure .figure-caption {
+#gallery-1790418319-20556003 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -389,13 +391,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414211-738246637 .carousel-item .gallery-img {
+  #gallery-1790418319-20556003 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414211-738246637 .carousel-item .gallery-img {
+  #gallery-1790418319-20556003 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -416,6 +418,8 @@ Definitely not our last one. 💚</p>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/04/02/fossgis-2025-what-a-week/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/04/02/fossgis-2025-what-a-week/20250327_160523.jpg" medium="image" />
       <description>&lt;p&gt;As long time sponsors of FOSSGIS, we stepped up the game this year and became &lt;strong&gt;Platinum Sponsors for FOSSGIS 2025&lt;/strong&gt;. We are proud to be part of a thriving open-source GIS community and to contribute to such a great conference. Here&amp;rsquo;s a recap of everything we were involved in:&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;-talks--presentations&#34;&gt;🚀 Talks &amp;amp; Presentations&lt;/h3&gt;
@@ -497,7 +501,7 @@ In this practical workshop, <em>Michael</em> guided participants through using <
       <pubDate>Thu, 08 Sep 2022 05:00:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/WhatsApp-Image-2022-08-22-at-13.40.29.jpeg" medium="image" />
+      
       <description>&lt;p&gt;The international community of QGIS contributors got together in person from 18 to 22 August in parallel to &lt;a href=&#34;https://2022.stateofthemap.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenStreetMap State of The Map&lt;/a&gt;
  event and right before the &lt;a href=&#34;https://2022.foss4g.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSS4G&lt;/a&gt;
 . So there was a lot of &lt;strong&gt;open source geo power&lt;/strong&gt; concentrated in the &lt;strong&gt;beautiful city of Florence&lt;/strong&gt; in those days. It was my first participation and all I knew was that it&amp;rsquo;s supposed to be an unconference. This means, there is no strict schedule but space and opportunity for everyone to present their work or team up to discuss and hack on specific tasks to bring the QGIS project to the next level.&lt;/p&gt;</description>
@@ -543,7 +547,7 @@ In this practical workshop, <em>Michael</em> guided participants through using <
       <pubDate>Mon, 25 Mar 2019 09:22:43 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/MG_3711.webp" medium="image" />
+      
       <description>&lt;p&gt;Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// &lt;a href=&#34;https://bern.impacthub.net/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bern.impacthub.net/)&lt;/a&gt;
 .&lt;br&gt;
 [GeoBeer](https:// &lt;a href=&#34;https://www.geobeer.ch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.geobeer.ch&lt;/a&gt;
@@ -585,7 +589,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414215-786084215"
+     data-gallery-id="gallery-1790418322-475898671"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -614,7 +618,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1790414215-786084215 .carousel-item .gallery-img {
+#gallery-1790418322-475898671 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -622,11 +626,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1790414215-786084215 .carousel-item {
+#gallery-1790418322-475898671 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414215-786084215 .carousel-item .figure {
+#gallery-1790418322-475898671 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -635,11 +639,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1790414215-786084215 .carousel-item .figure .gallery-img {
+#gallery-1790418322-475898671 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414215-786084215 .carousel-item .figure .figure-caption {
+#gallery-1790418322-475898671 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -648,13 +652,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414215-786084215 .carousel-item .gallery-img {
+  #gallery-1790418322-475898671 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414215-786084215 .carousel-item .gallery-img {
+  #gallery-1790418322-475898671 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -673,7 +677,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414215-786585690"
+     data-gallery-id="gallery-1790418322-476369160"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -764,7 +768,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1790414215-786585690 .carousel-item .gallery-img {
+#gallery-1790418322-476369160 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -772,11 +776,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1790414215-786585690 .carousel-item {
+#gallery-1790418322-476369160 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414215-786585690 .carousel-item .figure {
+#gallery-1790418322-476369160 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -785,11 +789,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1790414215-786585690 .carousel-item .figure .gallery-img {
+#gallery-1790418322-476369160 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414215-786585690 .carousel-item .figure .figure-caption {
+#gallery-1790418322-476369160 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -798,13 +802,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414215-786585690 .carousel-item .gallery-img {
+  #gallery-1790418322-476369160 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414215-786585690 .carousel-item .gallery-img {
+  #gallery-1790418322-476369160 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }

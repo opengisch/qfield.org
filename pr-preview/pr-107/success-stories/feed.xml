@@ -20,6 +20,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/find-our-lost-loved-ones/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/find-our-lost-loved-ones/follo.jpg" medium="image" />
       <description>Find Our Lost Loved Ones, an Australian volunteer nonprofit, uses QField, QGIS and QFieldCloud to coordinate large ground searches for missing people. In 2026 the team located two missing people that official searches could not, giving their families an end to years of uncertainty.</description>
       <content:encoded><![CDATA[<p><strong>In the forests of Tasmania, a volunteer team is using QField, QGIS and <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
  to search for missing people, and to give their families the answers that official searches could not.</strong></p>
@@ -110,6 +112,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/kan-inec-costa-rica/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/kan-inec-costa-rica/kan-architecture.png" medium="image" />
       <description>How KAN Territory &amp; IT supported nationwide survey workflows for the National Institute of Statistics and Census of Costa Rica (INEC), using QField Cloud as the central collaboration and synchronization layer between office-based planning and field execution.</description>
       <content:encoded><![CDATA[<p>How KAN Territory &amp; IT supported survey workflows in Costa Rica</p>
 <p><strong>Partner:</strong> KAN Territory &amp; IT
@@ -173,6 +177,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/ww2-fortifications/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/ww2-fortifications/westwall.png" medium="image" />
       <description>&lt;p&gt;Along Germany&amp;rsquo;s western border, volunteers are using QField and QFieldCloud to &lt;strong&gt;map and monitor thousands of World War II fortifications&lt;/strong&gt; – protecting public safety, preserving history, and making democracy tangible for a new generation.&lt;/p&gt;
 &lt;h3 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h3&gt;
 &lt;p&gt;Stretching 600 kilometers along Germany&amp;rsquo;s western border lies a vast network of concrete bunkers and fortifications built in the 1930s and 40s. Known as the &lt;strong&gt;Siegfried Line&lt;/strong&gt; (or Westwall in Germany), this defensive system comprises approximately &lt;strong&gt;20,000 distinct structures&lt;/strong&gt;, half of which still exist in some form today.&lt;/p&gt;</description>
@@ -262,6 +268,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/vocational-training/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/vocational-training/switzerland-vocational-training.jpg" medium="image" />
       <description>In the French-speaking region of Switzerland, ORIF is using QField to transform how students with physical or psychological challenges learn geomatics—providing them with professional-grade tools and a pathway back into the workforce.</description>
       <content:encoded><![CDATA[<p>In the French-speaking region of Switzerland, <a href="https://www.orif.ch/fr/" target="_blank" rel="noopener">ORIF</a>
  is using QField to <strong>transform how students with physical or psychological challenges learn geomatics</strong>, providing them with professional-grade tools and a pathway back into the workforce.</p>
@@ -314,6 +322,8 @@ Five years ago, Patrick Darbellay opened ORIF&rsquo;s geomatics section, creatin
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/sarawak/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/sarawak/sarawak-7.jpg" medium="image" />
       <description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href=&#34;https://bmf.ch/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Bruno Manser Fonds&lt;/a&gt;
  working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.&lt;/p&gt;
 &lt;p&gt;The goal is simple to describe, but powerful in practice: &lt;strong&gt;create maps that show where people live and what matters to them&lt;/strong&gt;. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.&lt;/p&gt;</description>
@@ -376,7 +386,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414227-897975937"
+     data-gallery-id="gallery-1790418334-755426595"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -404,7 +414,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1790414227-897975937 .carousel-item .gallery-img {
+#gallery-1790418334-755426595 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -412,11 +422,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1790414227-897975937 .carousel-item {
+#gallery-1790418334-755426595 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414227-897975937 .carousel-item .figure {
+#gallery-1790418334-755426595 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -425,11 +435,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1790414227-897975937 .carousel-item .figure .gallery-img {
+#gallery-1790418334-755426595 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414227-897975937 .carousel-item .figure .figure-caption {
+#gallery-1790418334-755426595 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -438,13 +448,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414227-897975937 .carousel-item .gallery-img {
+  #gallery-1790418334-755426595 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414227-897975937 .carousel-item .gallery-img {
+  #gallery-1790418334-755426595 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -464,6 +474,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/un/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/un//images/customer/un_img.webp" medium="image" />
       <description>The United Nations Open GIS Initiative, a global partnership led by the UN Geospatial Operations team, has officially recognized QField as a recommended open-source solution for mobile geospatial data collection in UN field operations.</description>
       <content:encoded><![CDATA[<h2></h2>
 <h3 id="trusted-mobile-gis-for-peacekeeping-and-humanitarian-response">Trusted Mobile GIS for Peacekeeping and Humanitarian Response</h3>
@@ -519,6 +531,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/building-on-top/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/building-on-top/ginve-6.jpeg" medium="image" />
       <description>The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees, shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the return of these data in GINVE.CLOUD via a synchronisation procedure.</description>
       <content:encoded><![CDATA[<h3 id="aims-and-objectives">Aims and Objectives</h3>
 <p>The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees, shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the return of these data in GINVE.CLOUD via a synchronisation procedure.</p>
@@ -594,6 +608,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/water-supply-rwanda/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/water-supply-rwanda/rwanda-rural-water-1.png" medium="image" />
       <description>To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp; maintenance of waterworks.</description>
       <content:encoded><![CDATA[<h3 id="goal">Goal</h3>
 <p>To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp; maintenance of waterworks.</p>
@@ -648,6 +664,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/dai/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/dai/dai-2.png" medium="image" />
       <description>Learn how the KulturGutRetter project uses QField for emergency cultural heritage rescue operations. This open-source mobile GIS workflow enables real-time documentation and coordination during disaster response missions.</description>
       <content:encoded><![CDATA[<h3 id="context--challenge">Context &amp; Challenge</h3>
 <p>Disaster response teams tasked with saving cultural heritage face the enormous challenge of documenting damage, tracking rescue actions, and ensuring efficient data handling—often under harsh conditions. The KulturGutRetter project, led by DAI in partnership with THW and LEIZA, set out to build an open-source workflow for real-time data acquisition and management during emergency missions</p>
@@ -774,6 +792,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/freelance-success/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/freelance-success/freelance-success.jpg" medium="image" />
       <description>What started as a simple request from former colleagues has evolved into a freelance business and a popular open source project. Meet Felix, a French geomatician who discovered an innovative way to build trust, showcase expertise, and create sustainable income—all while giving away his software for free</description>
       <content:encoded><![CDATA[<p>What started as a simple request from former colleagues has evolved into a freelance business and a popular open source project. Meet Felix, a French geomatician who discovered an innovative way to build trust, showcase expertise, and create sustainable income—all while giving away his software for free.</p>
 <h3 id="the-problem-naturalists-without-the-right-tools">The Problem: Naturalists Without the Right Tools</h3>
@@ -815,6 +835,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/geological-mapping/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/geological-mapping/geologic_field.webp" medium="image" />
       <description>To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is completed using paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.</description>
       <content:encoded><![CDATA[<h3 id="goal">Goal</h3>
 <p>To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is completed using paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.</p>
@@ -872,6 +894,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/ground-truth-fiji/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/ground-truth-fiji/use_study_fiji4.jpg" medium="image" />
       <description>Communities in Fiji rely on landscape resources for agricultural and forestry-related activities. Accurate mapping and monitoring patterns of land use and land cover (LULC) over time at an appropriate scale is important for informing landscape management, policies, and climate-smart sustainable development.</description>
       <content:encoded><![CDATA[<h3 id="purpose">Purpose</h3>
 <p>Communities in Fiji rely on landscape resources for agricultural and forestry-related activities. Accurate mapping and monitoring patterns of land use and land cover (LULC) over time at an appropriate scale is important for informing landscape management, policies, and climate-smart sustainable development. Fiji&rsquo;s Ministry of Forestry is collaboratively developing an approach with the Universities of Sydney (USYD), Western Australia (UWA) and the South Pacific (USP) to produce an inter-annual LULC map using Sentinel-2 satellite data, and freely available geospatial tools. QFIeld is being used for collecting ground truth data in the landscape for training and validation of the LULC map.</p>
@@ -922,6 +946,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/heritage-impact-assessment/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/heritage-impact-assessment/heritage_impact_figure2.webp" medium="image" />
       <description>**From QGIS to QField and Vice Versa: How the new Android application is facilitating the work of the archaeologist in the field**
 
 **Abstract:** The aim of this paper is to highlight the main benefits of using the QField app in archaeological jobs. In particular the article provides examples of how to use QField in open area excavation, archaeological survey, and impact assessment (HIA) projects.
@@ -1097,6 +1123,8 @@ Even in this case, the QGIS “print composer” allows us to develop customised
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/ecological-surveying/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/ecological-surveying/eco-survey.png" medium="image" />
       <description>To conduct ecological surveying more efficiently than has been previously achieved through traditional non-digital techniques, using QField as a medium for standardised and flexible field data collection.</description>
       <content:encoded><![CDATA[<h3 id="goal">Goal</h3>
 <p>To conduct ecological surveying more efficiently than has been previously achieved through traditional non-digital techniques, using QField as a medium for standardised and flexible field data collection.</p>
@@ -1138,6 +1166,8 @@ Even in this case, the QGIS “print composer” allows us to develop customised
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/fire-salamanders/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/fire-salamanders/salamander-1.webp" medium="image" />
       <description>In the steep, forested valleys of Saxony, Germany, a dedicated environmental monitoring team is using QField to track one of Europe&#39;s most striking amphibians—the fire salamander. This distinctive black-and-yellow creature serves as an important indicator species for stream health and ecosystem integrity.</description>
       <content:encoded><![CDATA[<p>In the steep, forested valleys of Saxony, Germany, a dedicated environmental monitoring team is using QField to track one of Europe&rsquo;s most striking amphibians—the fire salamander. This distinctive black-and-yellow creature serves as an important indicator species for stream health and ecosystem integrity.</p>
 <h3 id="the-project-salamander-conservation-in-bund-saxony">The Project: Salamander Conservation in BUND Saxony</h3>
@@ -1206,6 +1236,8 @@ Even in this case, the QGIS “print composer” allows us to develop customised
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/radiation-detection/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/radiation-detection/radiation.png" medium="image" />
       <description>In sites across the United States, from public parks in New York to former uranium processing facilities in New Jersey, a dedicated team of environmental specialists is using QField to detect and remediate radioactive contamination left over from America&#39;s atomic weapons program.</description>
       <content:encoded><![CDATA[<p>In sites across the United States, from public parks in New York to former uranium processing facilities in New Jersey, a dedicated team of environmental specialists is using QField to detect and remediate radioactive contamination left over from America&rsquo;s atomic weapons program.</p>
 <h3 id="the-mission-fusrap-site-remediation">The Mission: FUSRAP Site Remediation</h3>
@@ -1255,6 +1287,8 @@ The system integrates multiple data types:
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/river-state-survey/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/river-state-survey/river-state-survey1.png" medium="image" />
       <description>To facilitate the technician&#39;s field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap.</description>
       <content:encoded><![CDATA[<h3 id="goal">Goal</h3>
 <p>In order to assess the structural and morphological state of their water courses, the community of Milvignes needed to survey all the rivers crossing their territory.</p>
@@ -1308,6 +1342,8 @@ Back at the office, it took only 2 hours to treat the data and get the final res
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/tonga/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/tonga//images/bg/humanitarian.jpg" medium="image" />
       <description>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</description>
       <content:encoded><![CDATA[<h3 id="context">Context</h3>
 <p>In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.</p>
@@ -1352,6 +1388,8 @@ Back at the office, it took only 2 hours to treat the data and get the final res
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/mapping-breeding-birds/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/mapping-breeding-birds/wattenmeer7.jpg" medium="image" />
       <description>The Wadden Sea in Denmark, Germany and The Netherlands is of outstanding importance for many breeding bird species. Annually, the Schutzstation Wattenmeer participates in the Wadden Sea wide trilateral monitoring and assessment program (TMAP) and monitors the number of breeding birds in more than 100 monitoring areas in Schleswig-Holstein / Germany. For a number of species we monitor a significant share of the entire German breeding population.</description>
       <content:encoded><![CDATA[<h3 id="goal-and-field-constraints">Goal and field constraints</h3>
 <p>The Wadden Sea in Denmark, Germany and The Netherlands is of outstanding importance for many breeding bird species. Annually, the Schutzstation Wattenmeer participates in the Wadden Sea wide trilateral monitoring and assessment program (TMAP) and monitors the number of breeding birds in more than 100 monitoring areas in Schleswig-Holstein / Germany. For a number of species we monitor a significant share of the entire German breeding population.</p>
@@ -1432,6 +1470,8 @@ Back at the office, it took only 2 hours to treat the data and get the final res
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/malaria-data-collection/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/malaria-data-collection/mosquito4.jpg" medium="image" />
       <description>For a research work aiming at improving the knowledge on the environment of the mosquitoes that transmit malaria, the French Research Institute for Sustainable Development needed to generate a land cover map of two rural areas in Africa, one in Burkina Faso and one in Ivory Coast. Two satellites images (Spot 6 at 1.5 meters spatial resolutions) are used as input of a supervised object-based image classification for this work. The supervised method implies the collection of ground truth parcels, i.e. location and geo-referencing of a set of parcels of each land cover class on the ground, preferably spread all over the study areas. Both areas are 50 km2 wide and their nature (savannahs and rural areas, where roads are mainly narrow clay tracks) imply to move around in motorbike or by feet.</description>
       <content:encoded><![CDATA[<h3 id="goal-and-field-constraints">Goal and field constraints</h3>
 <p>For a research work aiming at improving the knowledge on the environment of the mosquitoes that transmit malaria, the French Research Institute for Sustainable Development needed to generate a land cover map of two rural areas in Africa, one in Burkina Faso and one in Ivory Coast. Two satellites images (Spot 6 at 1.5 meters spatial resolutions) are used as input of a supervised object-based image classification for this work. The supervised method implies the collection of ground truth parcels, i.e. location and geo-referencing of a set of parcels of each land cover class on the ground, preferably spread all over the study areas. Both areas are 50 km2 wide and their nature (savannahs and rural areas, where roads are mainly narrow clay tracks) imply to move around in motorbike or by feet. In addition, one could quickly get lost in the rural labyrinth tracks in absence of a map. We hence needed light and very portable equipment, as well as a way to easily explore the area without getting lost.</p>
@@ -1475,6 +1515,8 @@ Back at the office, it took only 2 hours to treat the data and get the final res
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/vanilla-surveys/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/vanilla-surveys/use_study_vanilla4.jpg" medium="image" />
       <description>A field survey of vanilla plantations on Vava&#39;u, an outer island in the Kingdom of Tonga, using QField was conducted in May and June 2020 by the Ministry of Agriculture, Forestry, Food, and Fisheries (MAFF).</description>
       <content:encoded><![CDATA[<h4>By Ahi Saipaia
     <sup id="fnref:1">
@@ -1549,6 +1591,8 @@ Back at the office, it took only 2 hours to treat the data and get the final res
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/ghana-deforestation/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/ghana-deforestation/ghana-2.jpeg" medium="image" />
       <description>How a community-based monitoring program in Ghana&#39;s Tano Offin Forest Reserve used QField to achieve remarkable conservation results through Payment for Ecosystem Services</description>
       <content:encoded><![CDATA[<h3 id="the-challenge">The Challenge</h3>
 <p>Ghana&rsquo;s Tano Offin Forest Reserve, one of the country&rsquo;s most biodiverse areas supporting 569 species including seven globally threatened ones, faced a critical threat. Satellite imagery revealed that without intervention, the forest was projected to lose <strong>56 hectares annually to illegal farming and logging activities.</strong> Traditional monitoring methods using &ldquo;pen and paper&rdquo; were insufficient to respond quickly to emerging deforestation threats detected by remote sensing. The Alliance of Bioversity International and <a href="https://www.cgiar.org/" target="_blank" rel="noopener">CIAT</a>
@@ -1609,6 +1653,8 @@ Back at the office, it took only 2 hours to treat the data and get the final res
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/zero-invasive-predators/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/zero-invasive-predators/zero-invasive-3.jpg" medium="image" />
       <description>In the rugged wilderness of New Zealand&#39;s South Westland, an ambitious conservation project is underway. Zero Invasive Predators (ZIP) is systematically eliminating possums, rats, and stoats from vast tracts of forest—with QField and QFieldCloud playing a crucial role in their operations.</description>
       <content:encoded><![CDATA[<p>In the rugged wilderness of New Zealand&rsquo;s South Westland, an ambitious conservation project is underway. Zero Invasive Predators (ZIP) is systematically eliminating possums, rats, and stoats from vast tracts of forest—with QField and QFieldCloud playing a crucial role in their operations.</p>
 <h3 id="the-challenge-managing-conservation-at-scale">The Challenge: Managing Conservation at Scale</h3>

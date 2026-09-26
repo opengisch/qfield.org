@@ -20,6 +20,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/sarawak/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/sarawak/sarawak-7.jpg" medium="image" />
       <description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href=&#34;https://bmf.ch/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Bruno Manser Fonds&lt;/a&gt;
  working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.&lt;/p&gt;
 &lt;p&gt;The goal is simple to describe, but powerful in practice: &lt;strong&gt;create maps that show where people live and what matters to them&lt;/strong&gt;. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.&lt;/p&gt;</description>
@@ -82,7 +84,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414227-897975937"
+     data-gallery-id="gallery-1790418334-755426595"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -110,7 +112,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1790414227-897975937 .carousel-item .gallery-img {
+#gallery-1790418334-755426595 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -118,11 +120,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1790414227-897975937 .carousel-item {
+#gallery-1790418334-755426595 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414227-897975937 .carousel-item .figure {
+#gallery-1790418334-755426595 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -131,11 +133,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1790414227-897975937 .carousel-item .figure .gallery-img {
+#gallery-1790418334-755426595 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414227-897975937 .carousel-item .figure .figure-caption {
+#gallery-1790418334-755426595 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -144,13 +146,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414227-897975937 .carousel-item .gallery-img {
+  #gallery-1790418334-755426595 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414227-897975937 .carousel-item .gallery-img {
+  #gallery-1790418334-755426595 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -170,6 +172,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/water-supply-rwanda/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/water-supply-rwanda/rwanda-rural-water-1.png" medium="image" />
       <description>To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp; maintenance of waterworks.</description>
       <content:encoded><![CDATA[<h3 id="goal">Goal</h3>
 <p>To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp; maintenance of waterworks.</p>
@@ -294,6 +298,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/geological-mapping/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/geological-mapping/geologic_field.webp" medium="image" />
       <description>To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is completed using paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.</description>
       <content:encoded><![CDATA[<h3 id="goal">Goal</h3>
 <p>To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is completed using paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.</p>
@@ -351,6 +357,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/river-state-survey/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/river-state-survey/river-state-survey1.png" medium="image" />
       <description>To facilitate the technician&#39;s field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap.</description>
       <content:encoded><![CDATA[<h3 id="goal">Goal</h3>
 <p>In order to assess the structural and morphological state of their water courses, the community of Milvignes needed to survey all the rivers crossing their territory.</p>

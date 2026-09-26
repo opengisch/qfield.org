@@ -20,6 +20,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/sarawak/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/sarawak/sarawak-7.jpg" medium="image" />
       <description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href=&#34;https://bmf.ch/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Bruno Manser Fonds&lt;/a&gt;
  working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.&lt;/p&gt;
 &lt;p&gt;The goal is simple to describe, but powerful in practice: &lt;strong&gt;create maps that show where people live and what matters to them&lt;/strong&gt;. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.&lt;/p&gt;</description>
@@ -82,7 +84,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414227-897975937"
+     data-gallery-id="gallery-1790418334-755426595"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -110,7 +112,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1790414227-897975937 .carousel-item .gallery-img {
+#gallery-1790418334-755426595 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -118,11 +120,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1790414227-897975937 .carousel-item {
+#gallery-1790418334-755426595 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414227-897975937 .carousel-item .figure {
+#gallery-1790418334-755426595 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -131,11 +133,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1790414227-897975937 .carousel-item .figure .gallery-img {
+#gallery-1790418334-755426595 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414227-897975937 .carousel-item .figure .figure-caption {
+#gallery-1790418334-755426595 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -144,13 +146,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414227-897975937 .carousel-item .gallery-img {
+  #gallery-1790418334-755426595 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414227-897975937 .carousel-item .gallery-img {
+  #gallery-1790418334-755426595 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -170,6 +172,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/building-on-top/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/building-on-top/ginve-6.jpeg" medium="image" />
       <description>The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees, shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the return of these data in GINVE.CLOUD via a synchronisation procedure.</description>
       <content:encoded><![CDATA[<h3 id="aims-and-objectives">Aims and Objectives</h3>
 <p>The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees, shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the return of these data in GINVE.CLOUD via a synchronisation procedure.</p>
@@ -245,6 +249,8 @@ At first, the idea might sound like giving people a basemap. But it was more tha
       
       <guid>https://qfield.org/pr-preview/pr-107/success-stories/ghana-deforestation/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/success-stories/ghana-deforestation/ghana-2.jpeg" medium="image" />
       <description>How a community-based monitoring program in Ghana&#39;s Tano Offin Forest Reserve used QField to achieve remarkable conservation results through Payment for Ecosystem Services</description>
       <content:encoded><![CDATA[<h3 id="the-challenge">The Challenge</h3>
 <p>Ghana&rsquo;s Tano Offin Forest Reserve, one of the country&rsquo;s most biodiverse areas supporting 569 species including seven globally threatened ones, faced a critical threat. Satellite imagery revealed that without intervention, the forest was projected to lose <strong>56 hectares annually to illegal farming and logging activities.</strong> Traditional monitoring methods using &ldquo;pen and paper&rdquo; were insufficient to respond quickly to emerging deforestation threats detected by remote sensing. The Alliance of Bioversity International and <a href="https://www.cgiar.org/" target="_blank" rel="noopener">CIAT</a>

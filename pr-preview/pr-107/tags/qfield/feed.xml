@@ -20,6 +20,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2026/09/08/qfield-4.3-danube-summer-of-stability/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2026/09/08/qfield-4.3-danube-summer-of-stability/splash43.webp" medium="image" />
       <description>The next version of QField is here. While this time of the year is a well-deserved holiday period for many, we’ve dedicated ourselves to improving the stability and refining of your favorite field mapping tool.  We’re calling this effort the “summer of stability”, a sprint we will undertake on a yearly basis. But there are plenty of improvements to cover, so let’s go over them.</description>
       <content:encoded><![CDATA[<p>The next version of QField is here. While this time of the year is a well-deserved holiday period for many, we’ve dedicated ourselves to improving the stability and refining of your favorite field mapping tool.</p>
 <p>We’re calling this effort the “summer of stability”, a sprint we will undertake on a yearly basis. But there are plenty of improvements to cover, so let’s go over them.</p>
@@ -94,6 +96,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2026/08/10/faster-project-creation-introducing-cloning-and-xlsform-imports-in-qfieldcloud/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2026/08/10/faster-project-creation-introducing-cloning-and-xlsform-imports-in-qfieldcloud/infograph-qfield-xlsform.png" medium="image" />
       <description>QFieldCloud&#39;s project creation flow has been overhauled with a clean new web interface, native XLSForm imports, and 1-click project cloning to get your field data campaigns off the ground faster.</description>
       <content:encoded><![CDATA[<p>We&rsquo;ve overhauled the project creation flow in <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
  to make getting your field data campaigns off the ground faster than ever. Along with a clean new web interface, we are introducing two highly requested features to boost your team&rsquo;s productivity: more advanced project creation, with native XLSForm imports and 1-click project cloning! 🚀</p>
@@ -150,6 +154,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2026/06/18/the-many-ways-to-share-maps-with-friends-teammates-and-the-public-in-qfield/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2026/06/18/the-many-ways-to-share-maps-with-friends-teammates-and-the-public-in-qfield/share-cover.webp" medium="image" />
       <description>Over the years, QField has gained a number of ways through which authors can share their mapping projects. This post looks at the multiple ways this can be achieved and what scenarios fit each method best.</description>
       <content:encoded><![CDATA[<p>Over the years, QField has gained a number of ways through which authors can share their mapping projects. This post looks at the multiple ways this can be achieved and what scenarios fit each method best.</p>
 <p><img src="/pr-preview/pr-107/blog/2026/06/18/the-many-ways-to-share-maps-with-friends-teammates-and-the-public-in-qfield/share-cover.webp" alt=""></p>
@@ -198,6 +204,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2026/06/09/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2026/06/09/qfield-4.2-coral-sea-reaching-sub-centimeter-accuracy-out-of-the-box/splash42.webp" medium="image" />
       <description>Here&#39;s another QField release, packed with the features that have been at the top of professional surveyors&#39; wish list! (hint: it&#39;s in the title) — plus improvements across the board for our wide range of users.</description>
       <content:encoded><![CDATA[<p>Here&rsquo;s another QField release, packed with the features that have been at the top of professional surveyors&rsquo; wish list! (hint: it&rsquo;s in the title) — plus improvements across the board for our wide range of users.</p>
 <h2 id="main-highlights">Main highlights</h2>
@@ -264,6 +272,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2026/03/23/qfield-4.1-barents-sea-dive-into-the-third-dimension-and-coordinate-geometry-operations/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2026/03/23/qfield-4.1-barents-sea-dive-into-the-third-dimension-and-coordinate-geometry-operations/splash41.webp" medium="image" />
       <description>QField&#39;s first release of the year comes packed with new features and improvements. 3D terrain view, COGO tools for land surveyors, and background tracking on iOS are the highlights.</description>
       <content:encoded><![CDATA[<p>QField’s first release of the year comes packed with new features as well as a bundle of improvements and polishing. Let’s jump right into it.</p>
 <h2 id="main-highlights">Main highlights</h2>
@@ -316,6 +326,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2026/02/12/qfield-search-and-routing-plugins-updates/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2026/02/12/qfield-search-and-routing-plugins-updates/top.webp" medium="image" />
       <description>&lt;p&gt;Throughout the first month of 2026, our ninjas added a nifty set of improvements to three useful plugins that we love: the &lt;a href=&#34;https://github.com/opengisch/qfield-geomapfish-locator/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GeoMapFish Search&lt;/a&gt;
 , &lt;a href=&#34;https://github.com/opengisch/qfield-nominatim-locator/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenStreetMap Nominatim Search&lt;/a&gt;
 , and &lt;a href=&#34;https://github.com/opengisch/qfield-osrm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OSRM Routing&lt;/a&gt;
@@ -365,6 +377,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2026/01/07/qfield-at-foss4g-2025-auckland/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2026/01/07/qfield-at-foss4g-2025-auckland/20251121_113100.webp" medium="image" />
       <description>&lt;p&gt;Throughout the week, in workshops, presentations, and project showcases, a consistent theme emerged: QField is not just &amp;ldquo;the mobile companion to QGIS,&amp;rdquo; it is &lt;strong&gt;production infrastructure for complete field-to-cloud-to-desktop workflows.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;It was incredible to see how present QField was throughout FOSS4G 2025 in Auckland. With around 20 presentations and workshops featuring QField, the conference showcased a wide range of real-world, production-grade use cases across many sectors.&lt;/p&gt;
 &lt;p&gt;What stood out was not just the number of talks, but how consistently QField was presented as a trusted, operational tool rather than an experiment.&lt;/p&gt;</description>
@@ -470,6 +484,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/on-demand-attachment.png" medium="image" />
       <description>QFieldCloud storage handling keeps improving, with shared datasets, on-demand attachment downloads, and resumable project downloads reducing sync time and bandwidth.</description>
       <content:encoded><![CDATA[<p>Our ninjas have been hard at work improving QFieldCloud!</p>
 <p>In recent versions, a series of functionality improvements have had a significant impact on the way <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
@@ -511,6 +527,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/06/03/qfield-3.6-gondwana-locking-on-greatness/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/06/03/qfield-3.6-gondwana-locking-on-greatness/splash.png" medium="image" />
       <description>&lt;p&gt;Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2025/06/03/qfield-3.6-gondwana-locking-on-greatness/splash_hu_7eec3d71adebb561.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2025/06/03/qfield-3.6-gondwana-locking-on-greatness/splash_hu_7eec3d71adebb561.png 1x, https://qfield.org/pr-preview/pr-107/blog/2025/06/03/qfield-3.6-gondwana-locking-on-greatness/splash_hu_a62350021f9f85d2.png 2x&#34;
@@ -561,6 +579,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash.png" medium="image" />
       <description>&lt;p&gt;QField 3.3 has been released, and with it, we are proud to introduce a brand new plugin framework that empowers users to customize and add completely new functionalities to their favourite field application. That’s on top of a bunch of new features and improvements added during this development cycle. What preceded this moment was just the beginning!&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash.png 1x, https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash_hu_ada2278aaf25dd6a.png 2x&#34;
@@ -630,6 +650,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png" medium="image" />
       <description>&lt;p&gt;Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;&lt;strong&gt;Main highlights&lt;/strong&gt;&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png 1x, https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32_hu_689859826e404548.png 2x&#34;

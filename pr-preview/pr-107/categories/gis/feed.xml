@@ -20,6 +20,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/on-demand-attachment.png" medium="image" />
       <description>QFieldCloud storage handling keeps improving, with shared datasets, on-demand attachment downloads, and resumable project downloads reducing sync time and bandwidth.</description>
       <content:encoded><![CDATA[<p>Our ninjas have been hard at work improving QFieldCloud!</p>
 <p>In recent versions, a series of functionality improvements have had a significant impact on the way <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
@@ -61,6 +63,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/03/04/qfield-3.5-fangorn-background-tracking-a-reality/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/03/04/qfield-3.5-fangorn-background-tracking-a-reality/splash.png" medium="image" />
       <description>&lt;p&gt;Let’s not bury the lead here: the long-awaited capability to track position while QField is in the background or the device is locked has arrived in this brand-new version of QField. This feels like a magical moment, so we settled for a fantastical forest for our release name.&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2025/03/04/qfield-3.5-fangorn-background-tracking-a-reality/splash_hu_7eec3d71adebb561.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2025/03/04/qfield-3.5-fangorn-background-tracking-a-reality/splash_hu_7eec3d71adebb561.png 1x, https://qfield.org/pr-preview/pr-107/blog/2025/03/04/qfield-3.5-fangorn-background-tracking-a-reality/splash_hu_a62350021f9f85d2.png 2x&#34;
@@ -126,6 +130,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/10/08/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/10/08/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/34.png" medium="image" />
       <description>&lt;p&gt;QField 3.4 is out, and it won’t disappoint. It has tons of new features that continue to push the limits of what users can do in the field.&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/10/08/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/34_hu_5bbdc94424d1e295.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/10/08/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/34_hu_5bbdc94424d1e295.png 1x, https://qfield.org/pr-preview/pr-107/blog/2024/10/08/qfield-3.4-ebo-geofencing-and-processing-out-of-the-box/34_hu_8a9e815b1e95faee.png 2x&#34;
@@ -185,6 +191,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash.png" medium="image" />
       <description>&lt;p&gt;QField 3.3 has been released, and with it, we are proud to introduce a brand new plugin framework that empowers users to customize and add completely new functionalities to their favourite field application. That’s on top of a bunch of new features and improvements added during this development cycle. What preceded this moment was just the beginning!&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash.png 1x, https://qfield.org/pr-preview/pr-107/blog/2024/06/11/qfield-3.3-dari%C3%A9n-it-is-just-the-beginning/33splash_hu_ada2278aaf25dd6a.png 2x&#34;
@@ -254,6 +262,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png" medium="image" />
       <description>&lt;p&gt;Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;&lt;strong&gt;Main highlights&lt;/strong&gt;&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32.png 1x, https://qfield.org/pr-preview/pr-107/blog/2024/04/04/qfield-3.2-congo-making-your-life-easier/qfield32_hu_689859826e404548.png 2x&#34;
@@ -315,6 +325,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2024/01/10/snappy-qfield-3.1-borneo-has-arrived/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2024/01/10/snappy-qfield-3.1-borneo-has-arrived/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png" medium="image" />
       <description>&lt;p&gt;The launch of QField 3.0 was a big deal, but now we&amp;rsquo;re back to focusing on smaller, more frequent updates. Don&amp;rsquo;t let the shorter change log for 3.1 trick you – there are lots of cool new features in this update!&lt;/p&gt;
 &lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/01/10/snappy-qfield-3.1-borneo-has-arrived/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2024/01/10/snappy-qfield-3.1-borneo-has-arrived/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png 1x, https://qfield.org/pr-preview/pr-107/blog/2024/01/10/snappy-qfield-3.1-borneo-has-arrived/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f_hu_7e6303f7a63a76a.png 2x&#34;
@@ -358,7 +370,7 @@
       <pubDate>Tue, 30 May 2023 04:00:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2023/05/30/qfield-2.8-boosting-field-work-through-external-sensors/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2023/05/30/qfield-2.8-boosting-field-work-through-external-sensors/238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce.png" medium="image" />
+      
       <description>&lt;p&gt;The latest version of QField is out, featuring as its main new feature sensor handling alongside the usual round of user experience and stability improvements. We simply can’t wait to see the sensor uses you will come up with!&lt;/p&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2023/05/30/qfield-2.8-boosting-field-work-through-external-sensors/238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2023/05/30/qfield-2.8-boosting-field-work-through-external-sensors/238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce.png 1x, https://qfield.org/pr-preview/pr-107/blog/2023/05/30/qfield-2.8-boosting-field-work-through-external-sensors/238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce_hu_79db2c701745fe8d.png 2x&#34;
          alt=&#34;&#34; 
@@ -398,7 +410,7 @@
       <pubDate>Tue, 04 Apr 2023 04:44:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2.7/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2.7/224213255-e51e619a-2505-49dc-a03d-088bfa2530e4.png" medium="image" />
+      
       <description>&lt;p&gt;A brand new version of QField has been released, &lt;strong&gt;packed with features&lt;/strong&gt; that will make you fall in love with this essential open source tool all over again with a focus on capturing more while you are in the field. QField 2.7 nicknamed “Heroic Hedgehog” also includes a number of worthy fixes making it a crucial update to get.&lt;/p&gt;
 &lt;h2 id=&#34;new-recording-capabilities&#34;&gt;New recording capabilities&lt;/h2&gt;
 &lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://qfield.org/pr-preview/pr-107/blog/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2.7/224213255-e51e619a-2505-49dc-a03d-088bfa2530e4.png&#34; srcset=&#34;https://qfield.org/pr-preview/pr-107/blog/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2.7/224213255-e51e619a-2505-49dc-a03d-088bfa2530e4.png 1x, https://qfield.org/pr-preview/pr-107/blog/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2.7/224213255-e51e619a-2505-49dc-a03d-088bfa2530e4_hu_c2a3503a58fac003.png 2x&#34;
@@ -439,7 +451,7 @@
       <pubDate>Mon, 06 Mar 2023 11:00:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2023/03/06/qfield-jump-start/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2023/03/06/qfield-jump-start/tim-gouw-73926-unsplash.webp" medium="image" />
+      
       <description>&lt;p&gt;You want to start collecting field data but &lt;strong&gt;never worked with a GIS&lt;/strong&gt; before?&lt;/p&gt;
 &lt;p&gt;You are a &lt;strong&gt;passionate QGIS user&lt;/strong&gt; and would like a jump start your fieldwork setup?&lt;/p&gt;
 &lt;p&gt;You are a &lt;strong&gt;senior GIS manager&lt;/strong&gt; and would like to optimize your teams&amp;rsquo; mobile data collection efficiency?&lt;/p&gt;
@@ -465,7 +477,7 @@
       <pubDate>Wed, 24 Feb 2021 06:31:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2021/02/24/powerful-and-gentle-qfield-1.8-selma-sneaked-in/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2021/02/24/powerful-and-gentle-qfield-1.8-selma-sneaked-in/freehand.webp" medium="image" />
+      
       <description>&lt;p&gt;&lt;strong&gt;Get fieldwork smoothly and nimbly done despite the ice and snow outside. Collect accurate data with freehand digitizing and improved form widgets, use the data from your external GNSS receivers without any third-party apps and enjoy the pleasant usability of QField 1.8 Selma.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This year started off hi-speed for us. There&amp;rsquo;s been already a lot of coding, designing and teaching, and we&amp;rsquo;ve thrown ourselves into these things we love to do. And we published another QField release last week that I completely forgot to announce in this blog. But here it is. It&amp;rsquo;s QField 1.8, Selma. And it&amp;rsquo;s packed with cool features.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>Get fieldwork smoothly and nimbly done despite the ice and snow outside. Collect accurate data with freehand digitizing and improved form widgets, use the data from your external GNSS receivers without any third-party apps and enjoy the pleasant usability of QField 1.8 Selma.</strong></p>
@@ -573,7 +585,7 @@
       <pubDate>Tue, 20 Oct 2020 07:26:08 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2020/10/20/qfield-1.7-rockies-hits-the-stage/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2020/10/20/qfield-1.7-rockies-hits-the-stage/qml_land_trans.png" medium="image" />
+      
       <description>&lt;p&gt;&lt;strong&gt;Be ready for the cold weather with a smooth coordinate search, filters in the value relation widget, fancy new QML and HTML widgets, enhanced geometry editing functionalities and an expandable legend. Right when Autumn starts, QField 1.7 Rockies hits the stage.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;As usual get it now on the &lt;a href=&#34;https://play.google.com/store/apps/details?id=ch.opengis.qfield&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;play store&lt;/a&gt;
  or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;
@@ -626,7 +638,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414222-335913336"
+     data-gallery-id="gallery-1790418329-153378766"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -648,7 +660,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 
 <style>
  
-#gallery-1790414222-335913336 .carousel-item .gallery-img {
+#gallery-1790418329-153378766 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -656,11 +668,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   display: block !important;
 }
 
-#gallery-1790414222-335913336 .carousel-item {
+#gallery-1790418329-153378766 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414222-335913336 .carousel-item .figure {
+#gallery-1790418329-153378766 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -669,11 +681,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
   text-align: center;
 }
 
-#gallery-1790414222-335913336 .carousel-item .figure .gallery-img {
+#gallery-1790418329-153378766 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414222-335913336 .carousel-item .figure .figure-caption {
+#gallery-1790418329-153378766 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -682,13 +694,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414222-335913336 .carousel-item .gallery-img {
+  #gallery-1790418329-153378766 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414222-335913336 .carousel-item .gallery-img {
+  #gallery-1790418329-153378766 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -731,7 +743,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
       <pubDate>Tue, 18 Aug 2020 05:00:00 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2020/08/18/qfield-1.6-is-out/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2020/08/18/qfield-1.6-is-out/selection_00-1.webp" medium="image" />
+      
       <description>&lt;p&gt;&lt;strong&gt;Editing multiple features at the same time, support for stylus pens, dynamic configuration of image names and much more.&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;QField 1.6 Qinling 秦岭 comes packed with awesome new features and an improved user experience.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We have been very busy over the last few months working on a new and shiny QField release. We have added many new features that increase efficiency on the field or allow for new workflows. In parallel, we have also been working on ironing out a series of issues and improving the overall user experience to make the app as pleasurable to use as possible. The result is QField 1.6 which has been published now.&lt;/p&gt;</description>
@@ -796,7 +808,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
       <pubDate>Thu, 03 Oct 2019 05:29:45 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/10/03/qfield-1.2-released/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/10/03/qfield-1.2-released/qfield_love_04.resized.jpg" medium="image" />
+      
       <description>&lt;p&gt;After an intensive testing period, we are proud to announce the release of &lt;strong&gt;QField 1.2&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;As usual, &lt;a href=&#34;https://play.google.com/store/apps/details?id=ch.opengis.qfield&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;get it on play store&lt;/a&gt;
  or &lt;a href=&#34;https://github.com/opengisch/QField/releases/tag/v1.2.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;download it from GitHub.&lt;/a&gt;
@@ -856,7 +868,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/pr-
       <pubDate>Thu, 28 Mar 2019 15:34:38 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/03/28/qfield-1.0-is-here/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/03/28/qfield-1.0-is-here/QField_1.0.webp" medium="image" />
+      
       <description>&lt;h2 id=&#34;lets-get-straight-to-the-point&#34;&gt;Let&amp;rsquo;s get straight to the point&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;It&amp;rsquo;s official, QField for QGIS 1.0 is out!&lt;/p&gt;
@@ -953,7 +965,7 @@ We support your team in planning, developing, deploying and running your infrast
       <pubDate>Mon, 25 Mar 2019 09:22:43 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/MG_3711.webp" medium="image" />
+      
       <description>&lt;p&gt;Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// &lt;a href=&#34;https://bern.impacthub.net/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bern.impacthub.net/)&lt;/a&gt;
 .&lt;br&gt;
 [GeoBeer](https:// &lt;a href=&#34;https://www.geobeer.ch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.geobeer.ch&lt;/a&gt;
@@ -995,7 +1007,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414215-786084215"
+     data-gallery-id="gallery-1790418322-475898671"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1024,7 +1036,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1790414215-786084215 .carousel-item .gallery-img {
+#gallery-1790418322-475898671 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1032,11 +1044,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1790414215-786084215 .carousel-item {
+#gallery-1790418322-475898671 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414215-786084215 .carousel-item .figure {
+#gallery-1790418322-475898671 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1045,11 +1057,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1790414215-786084215 .carousel-item .figure .gallery-img {
+#gallery-1790418322-475898671 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414215-786084215 .carousel-item .figure .figure-caption {
+#gallery-1790418322-475898671 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1058,13 +1070,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414215-786084215 .carousel-item .gallery-img {
+  #gallery-1790418322-475898671 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414215-786084215 .carousel-item .gallery-img {
+  #gallery-1790418322-475898671 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1083,7 +1095,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790414215-786585690"
+     data-gallery-id="gallery-1790418322-476369160"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1174,7 +1186,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1790414215-786585690 .carousel-item .gallery-img {
+#gallery-1790418322-476369160 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1182,11 +1194,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1790414215-786585690 .carousel-item {
+#gallery-1790418322-476369160 .carousel-item {
   height: auto;
 }
 
-#gallery-1790414215-786585690 .carousel-item .figure {
+#gallery-1790418322-476369160 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1195,11 +1207,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1790414215-786585690 .carousel-item .figure .gallery-img {
+#gallery-1790418322-476369160 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790414215-786585690 .carousel-item .figure .figure-caption {
+#gallery-1790418322-476369160 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1208,13 +1220,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1790414215-786585690 .carousel-item .gallery-img {
+  #gallery-1790418322-476369160 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790414215-786585690 .carousel-item .gallery-img {
+  #gallery-1790418322-476369160 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1234,7 +1246,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
       <pubDate>Thu, 14 Mar 2019 11:50:16 +0000</pubDate>
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2019/03/14/qfield-rc5-last-call-for-testing/</guid>
-      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2019/03/14/qfield-rc5-last-call-for-testing/QField_RC5.webp" medium="image" />
+      
       <description>&lt;p&gt;We are really happy to announce the fifth and (hopefully) last 1.0 release candidate in QField&amp;rsquo;s history! This means that QField 1.0 is closer than ever.&lt;/p&gt;
 &lt;p&gt;Get it while it&amp;rsquo;s hot on the Playstore ( &lt;a href=&#34;https://qfield.org/get&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://qfield.org/get&lt;/a&gt;
 ) or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;

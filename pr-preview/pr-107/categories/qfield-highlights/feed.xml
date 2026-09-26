@@ -20,6 +20,8 @@
       
       <guid>https://qfield.org/pr-preview/pr-107/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/</guid>
       
+      
+      <media:content url="https://qfield.org/pr-preview/pr-107/blog/2025/10/09/looking-at-recent-qfieldcloud-storage-handling-improvements/on-demand-attachment.png" medium="image" />
       <description>QFieldCloud storage handling keeps improving, with shared datasets, on-demand attachment downloads, and resumable project downloads reducing sync time and bandwidth.</description>
       <content:encoded><![CDATA[<p>Our ninjas have been hard at work improving QFieldCloud!</p>
 <p>In recent versions, a series of functionality improvements have had a significant impact on the way <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>
