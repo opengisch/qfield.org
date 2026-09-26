@@ -14,7 +14,6 @@ sourceUrl: "https://www.kulturgutretter.org/en/data-acquisition-and-data-managem
 keywords: ["cultural heritage", "emergency response", "disaster management", "mobile GIS", "QField", "QGIS", "archaeological documentation", "field data collection"]
 categories: ["government-municipalities", "humanitarian-emergency-response"]
 featured: true
-image: "dai-2.png"
 images:
   - dai-2.png
 ---

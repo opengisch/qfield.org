@@ -11,9 +11,6 @@ tags:
   - qgis.org
 images:
   - splash43.webp
-cover:
-  image: splash43.webp
-  alt: ''
 draft: false
 
 ---
