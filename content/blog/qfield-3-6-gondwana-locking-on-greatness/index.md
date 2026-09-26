@@ -53,9 +53,8 @@ categories:
   - qfield
   - highlights
   - qgis
-cover:
-  alt: splash
-  image: splash.png
+images:
+  - splash.png
 date: "2025-06-03T07:46:38+00:00"
 guid: https://www.opengis.ch/?p=15582
 obfx-footer-scripts: ""

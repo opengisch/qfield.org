@@ -6,10 +6,9 @@ author: "Kevin Davies, School of Geosciences, The University of Sydney"
 description: "Communities in Fiji rely on landscape resources for agricultural and forestry-related activities. Accurate mapping
           and monitoring patterns of land use and land cover (LULC) over time at an appropriate scale is important for informing
           landscape management, policies, and climate-smart sustainable development."
-# image: "use_study_fiji4.jpg"
 categories: ["government-municipalities"]
-image: "use_study_fiji4.jpg"
-ogImage: "https://qfield.org/success-stories/ground-truth-fiji/use_study_fiji4.jpg"
+images:
+  - use_study_fiji4.jpg
 ---
 
 ### Purpose

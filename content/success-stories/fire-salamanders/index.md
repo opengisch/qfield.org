@@ -9,10 +9,9 @@ company: "BUND Saxony"
 description: "In the steep, forested valleys of Saxony, Germany, a dedicated environmental monitoring team is using QField to
       track one of Europe's most striking amphibians—the fire salamander. This distinctive black-and-yellow creature
       serves as an important indicator species for stream health and ecosystem integrity."
-# image: "salamander-1.webp"
 categories: ["ecology-environment"]
-image: "salamander-1.webp"
-ogImage: "https://qfield.org/success-stories/fire-salamanders/salamander-1.webp"
+images:
+  - salamander-1.webp
 ---
 
 In the steep, forested valleys of Saxony, Germany, a dedicated environmental monitoring team is using QField to track one of Europe's most striking amphibians—the fire salamander. This distinctive black-and-yellow creature serves as an important indicator species for stream health and ecosystem integrity.

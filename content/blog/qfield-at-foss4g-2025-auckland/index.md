@@ -10,9 +10,8 @@ tags:
   - qfieldcloud
   - qgis.org
   - conference
-cover:
-  image: 20251121_113100.webp
-  alt: "QField at FOSS4G 2025 Auckland"
+images:
+  - 20251121_113100.webp
 draft: false
 ---
 

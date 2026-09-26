@@ -3,7 +3,6 @@ title: "QField 4.0 \"Aare\": Unlocking a great spatial experience for a larger a
 description: "QField 4.0 \"Aare\" marks a major usability milestone, making mobile field mapping more accessible than ever. With a streamlined project creation wizard, improved cloud workflows, and a leaner, clearer user interface, QField 4.0 unlocks a great spatial experience for both GIS professionals and newcomers - while launching a new release cycle dedicated to the world's water bodies."
 date: 2025-12-17
 draft: false
-images: ["image.png"]
 categories:
   - releases
   - highlights
@@ -15,9 +14,8 @@ keywords:
   - qfieldcloud
   - qgis
 author: Mathieu
-cover:
-  alt: splash
-  image: image.png
+images:
+  - image.png
 ---
 
 Just in time for the end of 2025, **QField 4.0** is now available in a virtual store near you. This release brings significant improvements and marks an important usability milestone, worthy of a new major version. It's truly never been easier to get started with QField - whether you're a seasoned GIS professional or new to spatial data collection.

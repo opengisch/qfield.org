@@ -9,10 +9,9 @@ description: >-
       To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is completed using
       paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data
       directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.
-# image: "geologic_field.webp"
 categories: ["water-land-management"]
-image: "geologic_field.webp"
-ogImage: "https://qfield.org/success-stories/geological-mapping/geologic_field.webp"
+images:
+  - geologic_field.webp
 ---
 
 ### Goal

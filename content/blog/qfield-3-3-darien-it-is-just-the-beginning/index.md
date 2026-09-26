@@ -20,9 +20,8 @@ categories:
   - gis
   - qfield
   - highlights
-cover:
-  alt: 33splash
-  image: 33splash.png
+images:
+  - 33splash.png
 date: "2024-06-11T04:50:00+00:00"
 guid: https://www.opengis.ch/?p=14431
 obfx-footer-scripts: ""

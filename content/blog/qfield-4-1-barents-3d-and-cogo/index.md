@@ -9,9 +9,8 @@ categories:
 tags:
   - qfield
   - qgis.org
-cover:
-  image: splash41.webp
-  alt: ''
+images:
+  - splash41.webp
 draft: false
 
 ---

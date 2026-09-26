@@ -52,9 +52,8 @@ categories:
   - gis
   - qfield
   - highlights
-cover:
-  alt: "34"
-  image: 34.png
+images:
+  - 34.png
 date: "2024-10-08T04:45:00+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=15063

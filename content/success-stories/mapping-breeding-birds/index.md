@@ -8,10 +8,9 @@ description: "The Wadden Sea in Denmark, Germany and The Netherlands is of outst
       assessment program (TMAP) and monitors the number of breeding birds in more than 100 monitoring areas in
       Schleswig-Holstein / Germany. For a number of species we monitor a significant share of the entire German breeding
       population."
-# image: "wattenmeer4.webp"
 categories: ["ecology-environment"]
-image: "wattenmeer7.jpg"
-ogImage: "https://qfield.org/success-stories/mapping-breeding-birds/wattenmeer7.jpg"
+images:
+  - wattenmeer7.jpg
 ---
 
 ### Goal and field constraints

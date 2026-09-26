@@ -5,8 +5,8 @@ draft: false
 company: "KAN Territory & IT (with INEC Costa Rica)"
 description: "How KAN Territory & IT supported nationwide survey workflows for the National Institute of Statistics and Census of Costa Rica (INEC), using QField Cloud as the central collaboration and synchronization layer between office-based planning and field execution."
 sourceLabel: "KAN Territory & IT"
-image: "kan-architecture.png"
-ogImage: "kan-architecture.png"
+images:
+  - kan-architecture.png
 categories: ["government-municipalities"]
 ---
 

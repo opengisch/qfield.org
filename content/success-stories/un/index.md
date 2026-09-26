@@ -8,8 +8,8 @@ description: "The United Nations Open GIS Initiative, a global
             solution for mobile geospatial data collection in UN field
             operations."
 categories: ["government-municipalities"]
-image: "/images/customer/un_img.webp"
-ogImage: "https://qfield.org/images/customer/un_img.webp"
+images:
+  - /images/customer/un_img.webp
 ---
 
 ## 
