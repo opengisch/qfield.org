@@ -6,8 +6,8 @@ company: "WithOneSeed (xpand Foundation)"
 description: "What began with twelve farmers replanting their land has grown into a national reforestation programme aiming for 10 million trees and 20,000 farming families. Inside the QField workflow that maps farm boundaries, tracks every tree, and turns rural communities into the people doing the mapping — not the people being mapped."
 sourceLabel: "xpand Foundation"
 sourceUrl: "https://www.xpand.net.au/"
-# image: "withoneseed-1.jpg"
-# ogImage: "withoneseed-1.jpg"
+# images:
+#  - withoneseed-1.jpg
 categories: ["ecology-environment"]
 ---
 

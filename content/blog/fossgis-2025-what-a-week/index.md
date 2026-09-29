@@ -52,9 +52,8 @@ categories:
   - events
   - qfield
   - qgis
-cover:
-  alt: "20250327_160523"
-  image: 20250327_160523.jpg
+images:
+  - 20250327_160523.jpg
 date: "2025-04-02T05:53:40+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=15365

@@ -38,6 +38,10 @@
       {{ range $displayPages }}
         {{ $isFeatured := .Params.featured }}
         {{ $imagePath := default "" .Params.image }}
+        {{ if .Params.images }}
+          {{ $firstImage := index .Params.images 0 }}
+          {{ $imagePath = $firstImage }}
+        {{ end }}
         {{ $isExternal := or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") }}
         {{ $resolvedImage := "" }}
         {{ if $isExternal }}

@@ -18,9 +18,8 @@ _wpml_word_count: "1124"
 author: mbernasocchi
 categories:
   - qfield
-cover:
-  alt: qfield-sdg-text
-  image: qfield-sdg-text.png
+images:
+  - qfield-sdg-text.png
 date: "2024-06-06T06:28:47+00:00"
 guid: https://www.opengis.ch/?p=14420
 obfx-footer-scripts: ""

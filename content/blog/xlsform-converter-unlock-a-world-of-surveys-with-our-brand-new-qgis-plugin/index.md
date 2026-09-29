@@ -54,9 +54,8 @@ categories:
   - processing
   - qfield
   - qgis-plugins
-cover:
-  alt: xlsformconverter-qgis-qfield
-  image: xlsformconverter-qgis-qfield.webp
+images:
+  - xlsformconverter-qgis-qfield.webp
 date: "2025-06-02T04:57:00+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=15627

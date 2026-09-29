@@ -47,9 +47,8 @@ categories:
   - newsletter-qf-2025-may
   - qfield
   - highlights
-cover:
-  alt: qf-1mio-downloads-preview
-  image: qf-1mio-downloads-preview-1.jpg
+images:
+  - qf-1mio-downloads-preview-1.jpg
 date: "2025-05-29T12:16:29+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=15494

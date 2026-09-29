@@ -30,9 +30,14 @@
           {{ $image := "" }}
           {{ $imageURL := "" }}
           {{ $alt := $page.Title }}
-          {{ with $page.Params.cover }}
-            {{ with .image }}{{ $image = . }}{{ end }}
-            {{ with .alt }}{{ $alt = . }}{{ end }}
+          {{ if $page.Params.images }}
+            {{ $firstImage := index $page.Params.images 0 }}
+            {{ $image = $firstImage }}
+          {{ else }}
+            {{ with $page.Params.cover }}
+              {{ with .image }}{{ $image = . }}{{ end }}
+              {{ with .alt }}{{ $alt = . }}{{ end }}
+            {{ end }}
           {{ end }}
           {{ if eq $image "" }}
             {{ with $page.Params.image }}{{ $image = . }}{{ end }}

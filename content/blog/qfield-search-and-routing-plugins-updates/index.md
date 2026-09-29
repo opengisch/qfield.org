@@ -9,9 +9,8 @@ tags:
   - plugins
   - openstreetmap
   - routing
-cover:
-  image: top.webp
-  alt: "QField search and routing plugins updates"
+images:
+  - top.webp
 draft: false
 ---
 

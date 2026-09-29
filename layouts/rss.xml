@@ -56,8 +56,9 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with $authorEmail }}<author>{{ $authorEmail }}{{ with $authorName }} ({{ $authorName }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
-      {{ with .Params.cover.image -}}
-      <media:content url="{{ print $page.Permalink . | absURL }}" medium="image" />
+      {{ if $page.Params.images }}
+      {{ $firstImage := index $page.Params.images 0 }}
+      <media:content url="{{ print $page.Permalink $firstImage | absURL }}" medium="image" />
       {{- end }}
       {{ with .Description }}<description>{{ . | html }}</description>{{ else }}<description>{{ .Summary | html }}</description>{{ end }}
       <content:encoded>{{ printf "<![CDATA[%s]]>" .Content | safeHTML }}</content:encoded>

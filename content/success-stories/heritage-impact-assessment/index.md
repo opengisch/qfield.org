@@ -15,12 +15,11 @@ description: |
   **From QGIS to QField and Vice Versa: How the new Android application is facilitating the work of the archaeologist in the field**
 
   **Abstract:** The aim of this paper is to highlight the main benefits of using the QField app in archaeological jobs. In particular the article provides examples of how to use QField in open area excavation, archaeological survey, and impact assessment (HIA) projects.
-# image: "heritage_impact_figure3.png"
 sourceUrl: "https://qfield.org/success-stories/heritage-impact-assessment.html"
 sourceLabel: "View original success story"
 categories: ["humanitarian-emergency-response"]
-image: "heritage_impact_figure2.webp"
-ogImage: "https://qfield.org/success-stories/heritage-impact-assessment/heritage_impact_figure2.webp"
+images:
+  - heritage_impact_figure2.webp
 ---
 
 ### Introduction
