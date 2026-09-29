@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Forestry on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/forestry/</link><description>Recent content in Forestry on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/categories/forestry/feed.xml" rel="self" type="application/rss+xml"/><item><title>Community-led mapping for land rights and forest protection in Sarawak with QField</title><link>https://qfield.org/success-stories/sarawak/</link><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate><guid>https://qfield.org/success-stories/sarawak/</guid><description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href="https://bmf.ch/en" target="_blank" rel="noopener"&gt;The Bruno Manser Fonds&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Forestry on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/forestry/</link><description>Recent content in Forestry on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/categories/forestry/feed.xml" rel="self" type="application/rss+xml"/><item><title>Community-led mapping for land rights and forest protection in Sarawak with QField</title><link>https://qfield.org/success-stories/sarawak/</link><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate><guid>https://qfield.org/success-stories/sarawak/</guid><media:content url="https://qfield.org/success-stories/sarawak/sarawak-7.jpg" medium="image"/><description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href="https://bmf.ch/en" target="_blank" rel="noopener"&gt;The Bruno Manser Fonds&lt;/a&gt;
 working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.&lt;/p&gt;
 &lt;p&gt;The goal is simple to describe, but powerful in practice: &lt;strong&gt;create maps that show where people live and what matters to them&lt;/strong&gt;. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.&lt;/p&gt;</description><content:encoded><![CDATA[<p>In parts of Sarawak (Malaysia), indigenous communities are <strong>actively resisting deforestation and fighting for land rights</strong>. For one <a href="https://bmf.ch/en" target="_blank" rel="noopener">The Bruno Manser Fonds</a>
  working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.</p>
@@ -59,7 +59,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790673389-686703042"
+     data-gallery-id="gallery-1790676485-251770347"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -87,7 +87,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1790673389-686703042 .carousel-item .gallery-img {
+#gallery-1790676485-251770347 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -95,11 +95,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1790673389-686703042 .carousel-item {
+#gallery-1790676485-251770347 .carousel-item {
   height: auto;
 }
 
-#gallery-1790673389-686703042 .carousel-item .figure {
+#gallery-1790676485-251770347 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -108,11 +108,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1790673389-686703042 .carousel-item .figure .gallery-img {
+#gallery-1790676485-251770347 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790673389-686703042 .carousel-item .figure .figure-caption {
+#gallery-1790676485-251770347 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -121,20 +121,20 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1790673389-686703042 .carousel-item .gallery-img {
+  #gallery-1790676485-251770347 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790673389-686703042 .carousel-item .gallery-img {
+  #gallery-1790676485-251770347 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
 </style>
 
 
-]]></content:encoded><category domain="categories">forestry</category><category domain="categories">ecology-environment</category><category domain="categories">water-land-management</category></item><item><title>Building on Top of QFieldCloud</title><link>https://qfield.org/success-stories/building-on-top/</link><pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate><guid>https://qfield.org/success-stories/building-on-top/</guid><description>The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees, shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the return of these data in GINVE.CLOUD via a synchronisation procedure.</description><content:encoded><![CDATA[<h3 id="aims-and-objectives">Aims and Objectives</h3>
+]]></content:encoded><category domain="categories">forestry</category><category domain="categories">ecology-environment</category><category domain="categories">water-land-management</category></item><item><title>Building on Top of QFieldCloud</title><link>https://qfield.org/success-stories/building-on-top/</link><pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate><guid>https://qfield.org/success-stories/building-on-top/</guid><media:content url="https://qfield.org/success-stories/building-on-top/ginve-6.jpeg" medium="image"/><description>The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees, shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the return of these data in GINVE.CLOUD via a synchronisation procedure.</description><content:encoded><![CDATA[<h3 id="aims-and-objectives">Aims and Objectives</h3>
 <p>The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees, shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the return of these data in GINVE.CLOUD via a synchronisation procedure.</p>
 <p>For this purpose, it was decided to exploit the potential offered by QField and the GeoPackage database.</p>
 <h3 id="preliminary-project-activity">Preliminary project activity</h3>
@@ -195,7 +195,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
          class="figure-img img-fluid gallery-img" width="1104" height="499"
          loading="lazy"></figure>
 
-]]></content:encoded><category domain="categories">forestry</category><category domain="categories">ecology-environment</category><category domain="categories">government-municipalities</category></item><item><title>Young Farmers Use QField to Reduce Deforestation by 71% in Ghana's Forests</title><link>https://qfield.org/success-stories/ghana-deforestation/</link><pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate><guid>https://qfield.org/success-stories/ghana-deforestation/</guid><description>How a community-based monitoring program in Ghana's Tano Offin Forest Reserve used QField to achieve remarkable conservation results through Payment for Ecosystem Services</description><content:encoded><![CDATA[<h3 id="the-challenge">The Challenge</h3>
+]]></content:encoded><category domain="categories">forestry</category><category domain="categories">ecology-environment</category><category domain="categories">government-municipalities</category></item><item><title>Young Farmers Use QField to Reduce Deforestation by 71% in Ghana's Forests</title><link>https://qfield.org/success-stories/ghana-deforestation/</link><pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate><guid>https://qfield.org/success-stories/ghana-deforestation/</guid><media:content url="https://qfield.org/success-stories/ghana-deforestation/ghana-2.jpeg" medium="image"/><description>How a community-based monitoring program in Ghana's Tano Offin Forest Reserve used QField to achieve remarkable conservation results through Payment for Ecosystem Services</description><content:encoded><![CDATA[<h3 id="the-challenge">The Challenge</h3>
 <p>Ghana&rsquo;s Tano Offin Forest Reserve, one of the country&rsquo;s most biodiverse areas supporting 569 species including seven globally threatened ones, faced a critical threat. Satellite imagery revealed that without intervention, the forest was projected to lose <strong>56 hectares annually to illegal farming and logging activities.</strong> Traditional monitoring methods using &ldquo;pen and paper&rdquo; were insufficient to respond quickly to emerging deforestation threats detected by remote sensing. The Alliance of Bioversity International and <a href="https://www.cgiar.org/" target="_blank" rel="noopener">CIAT</a>
 , working with local partners including the Ghana Forestry Commission, needed a way to rapidly ground-truth satellite alerts and engage local communities in real-time forest monitoring. The challenge was particularly complex given the rural setting where many community members had limited literacy and technology experience.</p>
 <h3 id="the-solution">The Solution</h3>

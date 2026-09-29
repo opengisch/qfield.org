@@ -9,7 +9,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790673362-173761352"
+     data-gallery-id="gallery-1790676468-578680789"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -37,7 +37,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 <style>
  
-#gallery-1790673362-173761352 .carousel-item .gallery-img {
+#gallery-1790676468-578680789 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -45,11 +45,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   display: block !important;
 }
 
-#gallery-1790673362-173761352 .carousel-item {
+#gallery-1790676468-578680789 .carousel-item {
   height: auto;
 }
 
-#gallery-1790673362-173761352 .carousel-item .figure {
+#gallery-1790676468-578680789 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -58,11 +58,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   text-align: center;
 }
 
-#gallery-1790673362-173761352 .carousel-item .figure .gallery-img {
+#gallery-1790676468-578680789 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790673362-173761352 .carousel-item .figure .figure-caption {
+#gallery-1790676468-578680789 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -71,13 +71,13 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 }
 
 @media (max-width: 768px) {
-  #gallery-1790673362-173761352 .carousel-item .gallery-img {
+  #gallery-1790676468-578680789 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790673362-173761352 .carousel-item .gallery-img {
+  #gallery-1790676468-578680789 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -128,7 +128,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790673363-844750267"
+     data-gallery-id="gallery-1790676469-452808603"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -156,7 +156,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 <style>
  
-#gallery-1790673363-844750267 .carousel-item .gallery-img {
+#gallery-1790676469-452808603 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -164,11 +164,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1790673363-844750267 .carousel-item {
+#gallery-1790676469-452808603 .carousel-item {
   height: auto;
 }
 
-#gallery-1790673363-844750267 .carousel-item .figure {
+#gallery-1790676469-452808603 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -177,11 +177,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1790673363-844750267 .carousel-item .figure .gallery-img {
+#gallery-1790676469-452808603 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790673363-844750267 .carousel-item .figure .figure-caption {
+#gallery-1790676469-452808603 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -190,13 +190,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1790673363-844750267 .carousel-item .gallery-img {
+  #gallery-1790676469-452808603 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790673363-844750267 .carousel-item .gallery-img {
+  #gallery-1790676469-452808603 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -215,7 +215,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790673366-35169647"
+     data-gallery-id="gallery-1790676471-220216094"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -243,7 +243,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1790673366-35169647 .carousel-item .gallery-img {
+#gallery-1790676471-220216094 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -251,11 +251,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1790673366-35169647 .carousel-item {
+#gallery-1790676471-220216094 .carousel-item {
   height: auto;
 }
 
-#gallery-1790673366-35169647 .carousel-item .figure {
+#gallery-1790676471-220216094 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -264,11 +264,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1790673366-35169647 .carousel-item .figure .gallery-img {
+#gallery-1790676471-220216094 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790673366-35169647 .carousel-item .figure .figure-caption {
+#gallery-1790676471-220216094 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -277,13 +277,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790673366-35169647 .carousel-item .gallery-img {
+  #gallery-1790676471-220216094 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790673366-35169647 .carousel-item .gallery-img {
+  #gallery-1790676471-220216094 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -304,7 +304,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790673369-885281972"
+     data-gallery-id="gallery-1790676473-39100863"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -332,7 +332,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1790673369-885281972 .carousel-item .gallery-img {
+#gallery-1790676473-39100863 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -340,11 +340,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1790673369-885281972 .carousel-item {
+#gallery-1790676473-39100863 .carousel-item {
   height: auto;
 }
 
-#gallery-1790673369-885281972 .carousel-item .figure {
+#gallery-1790676473-39100863 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -353,11 +353,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1790673369-885281972 .carousel-item .figure .gallery-img {
+#gallery-1790676473-39100863 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790673369-885281972 .carousel-item .figure .figure-caption {
+#gallery-1790676473-39100863 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -366,13 +366,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1790673369-885281972 .carousel-item .gallery-img {
+  #gallery-1790676473-39100863 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790673369-885281972 .carousel-item .gallery-img {
+  #gallery-1790676473-39100863 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -521,7 +521,7 @@ loading="lazy"&gt;&lt;/figure&gt;
  yet, try it! Psst, the community account is free 🤫</p>
 <p>The <strong>creation of relationship children during feature digitizing is now smoother</strong> as we lifted the requirement to save a parent feature <em>before</em> creating children. Users can now proceed in the order that feels most natural to them.</p>
 <p>Finally, Android users will be happy to hear that a <strong>significant rework of native camera, gallery, and file picker</strong> activities has led to increased stability and much better integration with Android itself. Activities such as the gallery are now properly overlayed on top of the QField map canvas instead of showing a black screen.</p>
-]]></content:encoded><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qfield</category><category domain="tags">qfieldcloud</category><category domain="tags">qgis.org</category></item><item><title>How to contribute to QField</title><link>https://qfield.org/blog/2022/12/06/how-to-contribute-to-qfield/</link><pubDate>Tue, 06 Dec 2022 05:29:00 +0000</pubDate><guid>https://qfield.org/blog/2022/12/06/how-to-contribute-to-qfield/</guid><media:content url="https://qfield.org/blog/2022/12/06/how-to-contribute-to-qfield/QField_AppAward_12-2022.png" medium="image"/><description>&lt;p&gt;QField is a community-driven open-source project. It is free to share, use and modify and it will stay like that. The very essence of a community is to help and support each other. And that&amp;rsquo;s where YOU come into play. To make it work we need your support!&lt;/p&gt;
+]]></content:encoded><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qfield</category><category domain="tags">qfieldcloud</category><category domain="tags">qgis.org</category></item><item><title>How to contribute to QField</title><link>https://qfield.org/blog/2022/12/06/how-to-contribute-to-qfield/</link><pubDate>Tue, 06 Dec 2022 05:29:00 +0000</pubDate><guid>https://qfield.org/blog/2022/12/06/how-to-contribute-to-qfield/</guid><description>&lt;p&gt;QField is a community-driven open-source project. It is free to share, use and modify and it will stay like that. The very essence of a community is to help and support each other. And that&amp;rsquo;s where YOU come into play. To make it work we need your support!&lt;/p&gt;
 &lt;figure class="figure text-center mb-4"&gt;&lt;img src="https://qfield.org/blog/2022/12/06/how-to-contribute-to-qfield/QField_AppAward_12-2022_hu_232b8375f39f1b46.png" srcset="https://qfield.org/blog/2022/12/06/how-to-contribute-to-qfield/QField_AppAward_12-2022_hu_232b8375f39f1b46.png 1x, https://qfield.org/blog/2022/12/06/how-to-contribute-to-qfield/QField_AppAward_12-2022_hu_ec8688896f5c3d46.png 2x"
 alt=""
 class="figure-img img-fluid gallery-img" width="1200" height="675"
@@ -565,7 +565,7 @@ loading="lazy"&gt;&lt;/figure&gt;
 <p>Nothing in it for you? In that case, just drop by to say thank you or have a hot or cold beverage with us next time you meet OPENGIS.ch at a conference and you might <strong>make our day</strong>!<br>
 Want to know more about the idea of community-driven open-source projects and the QGIS project in particular? Check out Nyall Dawson’s <a href="https://nyalldawson.net/2016/08/how-to-effectively-get-things-changed-in-qgis/" target="_blank" rel="noopener">blog post about how to effectively get things done in open source</a>
 !</p>
-]]></content:encoded><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>24th Contributors QGIS Meeting in Firenze 2022</title><link>https://qfield.org/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/</link><pubDate>Thu, 08 Sep 2022 05:00:00 +0000</pubDate><guid>https://qfield.org/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/</guid><media:content url="https://qfield.org/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/WhatsApp-Image-2022-08-22-at-13.40.29.jpeg" medium="image"/><description>&lt;p&gt;The international community of QGIS contributors got together in person from 18 to 22 August in parallel to &lt;a href="https://2022.stateofthemap.org/" target="_blank" rel="noopener"&gt;OpenStreetMap State of The Map&lt;/a&gt;
+]]></content:encoded><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>24th Contributors QGIS Meeting in Firenze 2022</title><link>https://qfield.org/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/</link><pubDate>Thu, 08 Sep 2022 05:00:00 +0000</pubDate><guid>https://qfield.org/blog/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/</guid><description>&lt;p&gt;The international community of QGIS contributors got together in person from 18 to 22 August in parallel to &lt;a href="https://2022.stateofthemap.org/" target="_blank" rel="noopener"&gt;OpenStreetMap State of The Map&lt;/a&gt;
 event and right before the &lt;a href="https://2022.foss4g.org/" target="_blank" rel="noopener"&gt;FOSS4G&lt;/a&gt;
 . So there was a lot of &lt;strong&gt;open source geo power&lt;/strong&gt; concentrated in the &lt;strong&gt;beautiful city of Florence&lt;/strong&gt; in those days. It was my first participation and all I knew was that it&amp;rsquo;s supposed to be an unconference. This means, there is no strict schedule but space and opportunity for everyone to present their work or team up to discuss and hack on specific tasks to bring the QGIS project to the next level.&lt;/p&gt;</description><content:encoded><![CDATA[<p>The international community of QGIS contributors got together in person from 18 to 22 August in parallel to <a href="https://2022.stateofthemap.org/" target="_blank" rel="noopener">OpenStreetMap State of The Map</a>
  event and right before the <a href="https://2022.foss4g.org/" target="_blank" rel="noopener">FOSS4G</a>
@@ -596,7 +596,7 @@ event and right before the &lt;a href="https://2022.foss4g.org/" target="_blank"
          loading="lazy"></figure>
 
 <p>The weather was nice and hot, the beers cold, the Tuscan food delicious and the contributors were not only popular Github avatars but really nice people. <strong>Thank you QGIS.</strong></p>
-]]></content:encoded><category domain="categories">events</category><category domain="categories">qfield</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>A New Trick up QField’s Sleeve: Animated Maps</title><link>https://qfield.org/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</link><pubDate>Tue, 16 Aug 2022 04:58:00 +0000</pubDate><guid>https://qfield.org/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</guid><media:content url="https://qfield.org/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43.gif" medium="image"/><description>&lt;p&gt;&lt;strong&gt;Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.&lt;/strong&gt;&lt;/p&gt;
+]]></content:encoded><category domain="categories">events</category><category domain="categories">qfield</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>A New Trick up QField’s Sleeve: Animated Maps</title><link>https://qfield.org/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</link><pubDate>Tue, 16 Aug 2022 04:58:00 +0000</pubDate><guid>https://qfield.org/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</guid><description>&lt;p&gt;&lt;strong&gt;Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The example below demonstrates a scenario where animated raster markers are used to highlight active fires within the visible map extent. Notice how the subtle fire animation helps draw viewers’ eyes to those important markers.&lt;/p&gt;</description><content:encoded><![CDATA[<p><strong>Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.</strong></p>
 <p>The example below demonstrates a scenario where animated raster markers are used to highlight active fires within the visible map extent. Notice how the subtle fire animation helps draw viewers’ eyes to those important markers.</p>
 <figure class="figure text-center mb-4"><img src="/blog/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/Peek-2022-07-16-12-43.gif"
@@ -616,7 +616,7 @@ event and right before the &lt;a href="https://2022.foss4g.org/" target="_blank"
 <p>Happy field mapping to all!</p>
 <p><em>The lovely animal markers used in the zoo example above were made by Serbian artist <a href="https://www.behance.net/gallery/38312723/Animals" target="_blank" rel="noopener">Arsenije Vujovic</a>
 .</em></p>
-]]></content:encoded><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="categories">video</category><category domain="tags">qgis.org</category></item><item><title>Offline WMS - Benchmarking raster formats for QField</title><link>https://qfield.org/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</link><pubDate>Tue, 09 Jun 2020 05:03:00 +0000</pubDate><guid>https://qfield.org/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</guid><media:content url="https://qfield.org/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/Screenshot-from-2020-06-08-13-00-42.png" medium="image"/><description>&lt;h2 id="what-are-we-looking-for"&gt;What are we looking for?&lt;/h2&gt;
+]]></content:encoded><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="categories">video</category><category domain="tags">qgis.org</category></item><item><title>Offline WMS - Benchmarking raster formats for QField</title><link>https://qfield.org/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</link><pubDate>Tue, 09 Jun 2020 05:03:00 +0000</pubDate><guid>https://qfield.org/blog/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</guid><description>&lt;h2 id="what-are-we-looking-for"&gt;What are we looking for?&lt;/h2&gt;
 &lt;p&gt;We would like to use WMS offline on QField. For that, we need to figure out what is the best way to get a raster from a WMS and which format is the most efficient (size and performance).&lt;/p&gt;
 &lt;p&gt;In this post we&amp;rsquo;ll show you is how to generate the ideal raster file from a WMS and the results of our efficiency tests for the the different raster formats.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="what-are-we-looking-for">What are we looking for?</h2>
 <p>We would like to use WMS offline on QField. For that, we need to figure out what is the best way to get a raster from a WMS and which format is the most efficient (size and performance).</p>
@@ -671,7 +671,7 @@ Geopackages without pyramids are 200 to 400 times slower.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>Even though MBTiles render faster than the Geopackage pyramid JPEG, they come with an almost 10x bigger storage requirement which makes us say that the best offline raster format supported by QField is <strong>Geopackage pyramid JPEG</strong> or if you need transparency and slightly smaller files <strong>Geopackage pyramid WebP</strong>.</p>
 <p>If you need transparency before QField 1.6, the best results are achieved with Geopackage pyramid PNG_JPEG.</p>
-]]></content:encoded><category domain="categories">processing</category><category domain="categories">qfield</category><category domain="categories">qgis</category><category domain="categories">scripts</category><category domain="tags">qgis.org</category></item><item><title>QField 1.4 released - Happy new year</title><link>https://qfield.org/blog/2020/03/03/qfield-1.4-released-happy-new-year/</link><pubDate>Tue, 03 Mar 2020 06:00:13 +0000</pubDate><guid>https://qfield.org/blog/2020/03/03/qfield-1.4-released-happy-new-year/</guid><media:content url="https://qfield.org/blog/2020/03/03/qfield-1.4-released-happy-new-year/qfield_love_09.png" medium="image"/><description>&lt;p&gt;What a year&amp;rsquo;s start! After a very packed December publishing all the &lt;a href="https://qfield.org/qgis-on-the-road/"&gt;QGIS on the road videos&lt;/a&gt;
+]]></content:encoded><category domain="categories">processing</category><category domain="categories">qfield</category><category domain="categories">qgis</category><category domain="categories">scripts</category><category domain="tags">qgis.org</category></item><item><title>QField 1.4 released - Happy new year</title><link>https://qfield.org/blog/2020/03/03/qfield-1.4-released-happy-new-year/</link><pubDate>Tue, 03 Mar 2020 06:00:13 +0000</pubDate><guid>https://qfield.org/blog/2020/03/03/qfield-1.4-released-happy-new-year/</guid><description>&lt;p&gt;What a year&amp;rsquo;s start! After a very packed December publishing all the &lt;a href="https://qfield.org/qgis-on-the-road/"&gt;QGIS on the road videos&lt;/a&gt;
 and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we could have gone and relaxed over the holidays. But since we love QField so much we immediately started working on the next iteration. Now, after an intensive testing period, we are proud to announce the release of &lt;strong&gt;QField 1.4 - Olavtoppen&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Olavtoppen!? yes, the highest point of Bouvet Island, the remotest island on Earth. And sure enough, QField would follow you there!&lt;/p&gt;</description><content:encoded><![CDATA[<p>What a year&rsquo;s start! After a very packed December publishing all the <a href="/qgis-on-the-road/">QGIS on the road videos</a>
  and quietly releasing <strong>QField 1.3 - Ben Nevis</strong> we could have gone and relaxed over the holidays. But since we love QField so much we immediately started working on the next iteration. Now, after an intensive testing period, we are proud to announce the release of <strong>QField 1.4 - Olavtoppen</strong>.</p>
@@ -702,7 +702,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790673379-763014181"
+     data-gallery-id="gallery-1790676478-149733644"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -731,7 +731,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 <style>
  
-#gallery-1790673379-763014181 .carousel-item .gallery-img {
+#gallery-1790676478-149733644 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -739,11 +739,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   display: block !important;
 }
 
-#gallery-1790673379-763014181 .carousel-item {
+#gallery-1790676478-149733644 .carousel-item {
   height: auto;
 }
 
-#gallery-1790673379-763014181 .carousel-item .figure {
+#gallery-1790676478-149733644 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -752,11 +752,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   text-align: center;
 }
 
-#gallery-1790673379-763014181 .carousel-item .figure .gallery-img {
+#gallery-1790676478-149733644 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790673379-763014181 .carousel-item .figure .figure-caption {
+#gallery-1790676478-149733644 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -765,13 +765,13 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 }
 
 @media (max-width: 768px) {
-  #gallery-1790673379-763014181 .carousel-item .gallery-img {
+  #gallery-1790676478-149733644 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790673379-763014181 .carousel-item .gallery-img {
+  #gallery-1790676478-149733644 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -823,7 +823,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 <h2 id="whats-next">What&rsquo;s next?</h2>
 <p>As you can imagine we&rsquo;ve had a very busy start of 2020, but even more is to come soon with the next releases of QField. We&rsquo;d like to thank again all companies and individuals that actively use QField and that invest in making QField even better. If you feel QField misses something you need or would like to support the project, don&rsquo;t hesitate <a href="/contact/">to get in touch with us.</a>
 </p>
-]]></content:encoded><category domain="categories">featured</category><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>QField 1.0 is here</title><link>https://qfield.org/blog/2019/03/28/qfield-1.0-is-here/</link><pubDate>Thu, 28 Mar 2019 15:34:38 +0000</pubDate><guid>https://qfield.org/blog/2019/03/28/qfield-1.0-is-here/</guid><media:content url="https://qfield.org/blog/2019/03/28/qfield-1.0-is-here/QField_1.0.webp" medium="image"/><description>&lt;h2 id="lets-get-straight-to-the-point"&gt;Let&amp;rsquo;s get straight to the point&lt;/h2&gt;
+]]></content:encoded><category domain="categories">featured</category><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>QField 1.0 is here</title><link>https://qfield.org/blog/2019/03/28/qfield-1.0-is-here/</link><pubDate>Thu, 28 Mar 2019 15:34:38 +0000</pubDate><guid>https://qfield.org/blog/2019/03/28/qfield-1.0-is-here/</guid><description>&lt;h2 id="lets-get-straight-to-the-point"&gt;Let&amp;rsquo;s get straight to the point&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;It&amp;rsquo;s official, QField for QGIS 1.0 is out!&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -902,7 +902,7 @@ We have upgraded our whole building infrastructure so that you can comfortably g
 <p>OPENGIS.ch helps you setting up your spatial data infrastructure based on seamlessly integrated desktop, web, and mobile components.<br>
 We support your team in planning, developing, deploying and running your infrastructure. Thanks to several senior geodata infrastructure experts, QGIS core developers and the makers of the mobile data acquisition solution QField, OPENGIS.ch has all it takes to make your project a success. OPENGIS.ch is known for its commitment to high-quality products and its continuous efforts to improve the open source ecosystem.</p>
 <p>\* We might be biased, but we do believe it</p>
-]]></content:encoded><category domain="categories">android</category><category domain="categories">android-qgis</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>GeoBeer #26 in Bern hosted by OPENGIS.ch</title><link>https://qfield.org/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</link><pubDate>Mon, 25 Mar 2019 09:22:43 +0000</pubDate><guid>https://qfield.org/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</guid><media:content url="https://qfield.org/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/MG_3711.webp" medium="image"/><description>&lt;p&gt;Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// &lt;a href="https://bern.impacthub.net/%29" target="_blank" rel="noopener"&gt;https://bern.impacthub.net/)&lt;/a&gt;
+]]></content:encoded><category domain="categories">android</category><category domain="categories">android-qgis</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">highlights</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>GeoBeer #26 in Bern hosted by OPENGIS.ch</title><link>https://qfield.org/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</link><pubDate>Mon, 25 Mar 2019 09:22:43 +0000</pubDate><guid>https://qfield.org/blog/2019/03/25/geobeer-%2326-in-bern-hosted-by-opengis.ch/</guid><description>&lt;p&gt;Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// &lt;a href="https://bern.impacthub.net/%29" target="_blank" rel="noopener"&gt;https://bern.impacthub.net/)&lt;/a&gt;
 .&lt;br&gt;
 [GeoBeer](https:// &lt;a href="https://www.geobeer.ch" target="_blank" rel="noopener"&gt;https://www.geobeer.ch&lt;/a&gt;
 ) is a quarterly meeting of people interested in geography, GIS, cartography and the latest technologies. It&amp;rsquo;s hosted every time by someone else. This time by us, OPENGIS.ch.&lt;/p&gt;
@@ -941,7 +941,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790673376-65113059"
+     data-gallery-id="gallery-1790676475-939513392"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -970,7 +970,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1790673376-65113059 .carousel-item .gallery-img {
+#gallery-1790676475-939513392 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -978,11 +978,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1790673376-65113059 .carousel-item {
+#gallery-1790676475-939513392 .carousel-item {
   height: auto;
 }
 
-#gallery-1790673376-65113059 .carousel-item .figure {
+#gallery-1790676475-939513392 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -991,11 +991,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1790673376-65113059 .carousel-item .figure .gallery-img {
+#gallery-1790676475-939513392 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790673376-65113059 .carousel-item .figure .figure-caption {
+#gallery-1790676475-939513392 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1004,13 +1004,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1790673376-65113059 .carousel-item .gallery-img {
+  #gallery-1790676475-939513392 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790673376-65113059 .carousel-item .gallery-img {
+  #gallery-1790676475-939513392 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1029,7 +1029,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790673376-78306570"
+     data-gallery-id="gallery-1790676475-939843519"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -1120,7 +1120,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1790673376-78306570 .carousel-item .gallery-img {
+#gallery-1790676475-939843519 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -1128,11 +1128,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1790673376-78306570 .carousel-item {
+#gallery-1790676475-939843519 .carousel-item {
   height: auto;
 }
 
-#gallery-1790673376-78306570 .carousel-item .figure {
+#gallery-1790676475-939843519 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -1141,11 +1141,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1790673376-78306570 .carousel-item .figure .gallery-img {
+#gallery-1790676475-939843519 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790673376-78306570 .carousel-item .figure .figure-caption {
+#gallery-1790676475-939843519 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -1154,20 +1154,20 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1790673376-78306570 .carousel-item .gallery-img {
+  #gallery-1790676475-939843519 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790673376-78306570 .carousel-item .gallery-img {
+  #gallery-1790676475-939843519 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
 </style>
 
 
-]]></content:encoded><category domain="categories">events</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">qgis</category></item><item><title>You gave us feedback - we give you QField 1.0 RC3</title><link>https://qfield.org/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/</link><pubDate>Thu, 31 Jan 2019 06:51:35 +0000</pubDate><guid>https://qfield.org/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/</guid><media:content url="https://qfield.org/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/QField_RC3.webp" medium="image"/><description>&lt;p&gt;We are really happy to announce the release a new great milestone in QField&amp;rsquo;s history, QField 1.0 Release Candidate 3! (Yes, you might have got a glimpse of the broken RC2 if you where very attentive)&lt;/p&gt;
+]]></content:encoded><category domain="categories">events</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">qgis</category></item><item><title>You gave us feedback - we give you QField 1.0 RC3</title><link>https://qfield.org/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/</link><pubDate>Thu, 31 Jan 2019 06:51:35 +0000</pubDate><guid>https://qfield.org/blog/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1.0-rc3/</guid><description>&lt;p&gt;We are really happy to announce the release a new great milestone in QField&amp;rsquo;s history, QField 1.0 Release Candidate 3! (Yes, you might have got a glimpse of the broken RC2 if you where very attentive)&lt;/p&gt;
 &lt;p&gt;Thanks to the great feedback we received since releasing RC1 we were able to fix plenty of issues and add some more goodies.&lt;/p&gt;
 &lt;p&gt;We would like to invite everybody to install this Release Candidate and help us test it as much as possible so that we can iron out as many bugs as possible before the final release of QField 1.0.&lt;/p&gt;</description><content:encoded><![CDATA[<p>We are really happy to announce the release a new great milestone in QField&rsquo;s history, QField 1.0 Release Candidate 3! (Yes, you might have got a glimpse of the broken RC2 if you where very attentive)</p>
 <p>Thanks to the great feedback we received since releasing RC1 we were able to fix plenty of issues and add some more goodies.</p>
@@ -1203,7 +1203,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 <p>QField, like QGIS, is an open source project. Everyone is welcome to contribute to make the product even better – whether it is with financial support, enthusiastic programming, translation and documentation work or visionary ideas.</p>
 <p>If you want to help us build a better QField or QGIS, or need any services related to the whole QGIS stack don’t hesitate to <a href="/contact">contact us</a>
 .</p>
-]]></content:encoded><category domain="categories">qfield</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>How to filter features in QGIS using the graphical processing modeler</title><link>https://qfield.org/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</link><pubDate>Mon, 28 May 2018 07:41:26 +0000</pubDate><guid>https://qfield.org/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</guid><media:content url="https://qfield.org/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/modeller.png" medium="image"/><description>&lt;p&gt;This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section &lt;a href="#feature-filter-algorithm"&gt;the feature filter algorithm&lt;/a&gt;
+]]></content:encoded><category domain="categories">qfield</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>How to filter features in QGIS using the graphical processing modeler</title><link>https://qfield.org/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</link><pubDate>Mon, 28 May 2018 07:41:26 +0000</pubDate><guid>https://qfield.org/blog/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</guid><description>&lt;p&gt;This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section &lt;a href="#feature-filter-algorithm"&gt;the feature filter algorithm&lt;/a&gt;
 .&lt;/p&gt;
 &lt;h2 id="building-workflows-for-repetitive-tasks"&gt;Building workflows for repetitive tasks&lt;/h2&gt;
 &lt;p&gt;When building workflows for simple or complex geodata infrastructures, one of the most common tasks one encounters is to extract some of the features and copy them to another destination. Sometimes they need to be modified and a few attributes calculated or deleted, maybe even the geometry needs to be adjusted or in some fancy situations one even wants to generate a couple of objects from one input object. This process is often called &lt;em&gt;ETL&lt;/em&gt; (Extract, Transform, Load) and it is something that is worth mastering as a GIS expert.

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Water-Land-Management on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/water-land-management/</link><description>Recent content in Water-Land-Management on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/categories/water-land-management/feed.xml" rel="self" type="application/rss+xml"/><item><title>Community-led mapping for land rights and forest protection in Sarawak with QField</title><link>https://qfield.org/success-stories/sarawak/</link><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate><guid>https://qfield.org/success-stories/sarawak/</guid><description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href="https://bmf.ch/en" target="_blank" rel="noopener"&gt;The Bruno Manser Fonds&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Water-Land-Management on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/water-land-management/</link><description>Recent content in Water-Land-Management on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/categories/water-land-management/feed.xml" rel="self" type="application/rss+xml"/><item><title>Community-led mapping for land rights and forest protection in Sarawak with QField</title><link>https://qfield.org/success-stories/sarawak/</link><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate><guid>https://qfield.org/success-stories/sarawak/</guid><media:content url="https://qfield.org/success-stories/sarawak/sarawak-7.jpg" medium="image"/><description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href="https://bmf.ch/en" target="_blank" rel="noopener"&gt;The Bruno Manser Fonds&lt;/a&gt;
 working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.&lt;/p&gt;
 &lt;p&gt;The goal is simple to describe, but powerful in practice: &lt;strong&gt;create maps that show where people live and what matters to them&lt;/strong&gt;. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.&lt;/p&gt;</description><content:encoded><![CDATA[<p>In parts of Sarawak (Malaysia), indigenous communities are <strong>actively resisting deforestation and fighting for land rights</strong>. For one <a href="https://bmf.ch/en" target="_blank" rel="noopener">The Bruno Manser Fonds</a>
  working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.</p>
@@ -59,7 +59,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1790673389-686703042"
+     data-gallery-id="gallery-1790676485-251770347"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -87,7 +87,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1790673389-686703042 .carousel-item .gallery-img {
+#gallery-1790676485-251770347 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -95,11 +95,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1790673389-686703042 .carousel-item {
+#gallery-1790676485-251770347 .carousel-item {
   height: auto;
 }
 
-#gallery-1790673389-686703042 .carousel-item .figure {
+#gallery-1790676485-251770347 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -108,11 +108,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1790673389-686703042 .carousel-item .figure .gallery-img {
+#gallery-1790676485-251770347 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1790673389-686703042 .carousel-item .figure .figure-caption {
+#gallery-1790676485-251770347 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -121,20 +121,20 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1790673389-686703042 .carousel-item .gallery-img {
+  #gallery-1790676485-251770347 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1790673389-686703042 .carousel-item .gallery-img {
+  #gallery-1790676485-251770347 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
 </style>
 
 
-]]></content:encoded><category domain="categories">forestry</category><category domain="categories">ecology-environment</category><category domain="categories">water-land-management</category></item><item><title>Data collection by QGIS/QField for O&amp;M work of rural water supply systems in Rwanda</title><link>https://qfield.org/success-stories/water-supply-rwanda/</link><pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate><guid>https://qfield.org/success-stories/water-supply-rwanda/</guid><description>To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp; maintenance of waterworks.</description><content:encoded><![CDATA[<h3 id="goal">Goal</h3>
+]]></content:encoded><category domain="categories">forestry</category><category domain="categories">ecology-environment</category><category domain="categories">water-land-management</category></item><item><title>Data collection by QGIS/QField for O&amp;M work of rural water supply systems in Rwanda</title><link>https://qfield.org/success-stories/water-supply-rwanda/</link><pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate><guid>https://qfield.org/success-stories/water-supply-rwanda/</guid><media:content url="https://qfield.org/success-stories/water-supply-rwanda/rwanda-rural-water-1.png" medium="image"/><description>To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp; maintenance of waterworks.</description><content:encoded><![CDATA[<h3 id="goal">Goal</h3>
 <p>To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp; maintenance of waterworks.</p>
 <h3 id="project-preparation">Project preparation</h3>
 <p>Before starting our data collection, we conducted the following things:
@@ -232,7 +232,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 <li><a href="https://talks.osgeo.org/foss4g-europe-2025/talk/TZRN9K/" target="_blank" rel="noopener">FOSS4G Europe 202 talk by NLS</a>
 </li>
 </ul>
-]]></content:encoded><category domain="categories">government-municipalities</category><category domain="categories">water-land-management</category></item><item><title>Geological Mapping with QField: A Success Story by Terrane Geoscience</title><link>https://qfield.org/success-stories/geological-mapping/</link><pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate><guid>https://qfield.org/success-stories/geological-mapping/</guid><description>To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is completed using paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.</description><content:encoded><![CDATA[<h3 id="goal">Goal</h3>
+]]></content:encoded><category domain="categories">government-municipalities</category><category domain="categories">water-land-management</category></item><item><title>Geological Mapping with QField: A Success Story by Terrane Geoscience</title><link>https://qfield.org/success-stories/geological-mapping/</link><pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate><guid>https://qfield.org/success-stories/geological-mapping/</guid><media:content url="https://qfield.org/success-stories/geological-mapping/geologic_field.webp" medium="image"/><description>To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is completed using paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.</description><content:encoded><![CDATA[<h3 id="goal">Goal</h3>
 <p>To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is completed using paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.</p>
 <h3 id="project-preparation">Project preparation</h3>
 <p>Prior to starting in QField, a geologic mapping geopackage was designed to collect vector data including point station, structure, photo, and sample layers as well as line and polygon layers for contacts, faults, alteration, and geology. Attribute fields are customized for ease of data entry and data quality assurance using value maps, defaults (value or expression), and constraints within the Attributes Form. For example, the structural layer includes:</p>
@@ -277,7 +277,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
          loading="lazy"></figure>
 
 <p><em>Figure 4: Map result</em></p>
-]]></content:encoded><category domain="categories">water-land-management</category></item><item><title>River State Survey using QField</title><link>https://qfield.org/success-stories/river-state-survey/</link><pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate><guid>https://qfield.org/success-stories/river-state-survey/</guid><description>To facilitate the technician's field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap.</description><content:encoded><![CDATA[<h3 id="goal">Goal</h3>
+]]></content:encoded><category domain="categories">water-land-management</category></item><item><title>River State Survey using QField</title><link>https://qfield.org/success-stories/river-state-survey/</link><pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate><guid>https://qfield.org/success-stories/river-state-survey/</guid><media:content url="https://qfield.org/success-stories/river-state-survey/river-state-survey1.png" medium="image"/><description>To facilitate the technician's field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap.</description><content:encoded><![CDATA[<h3 id="goal">Goal</h3>
 <p>In order to assess the structural and morphological state of their water courses, the community of Milvignes needed to survey all the rivers crossing their territory.</p>
 <h3 id="project">Project</h3>
 <p>To facilitate the technician&rsquo;s field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap.</p>
