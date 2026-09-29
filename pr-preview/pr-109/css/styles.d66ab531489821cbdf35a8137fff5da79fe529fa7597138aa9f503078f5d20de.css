@@ -287,9 +287,6 @@ html {
   --nav-pill-hover-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.6);
   --nav-pill-active-shadow: 0 0.7rem 1.7rem rgba(0, 0, 0, 0.65); }
 
-:root[data-bs-theme='dark'] .success-stories-filters .btn {
-  color: #e8e8e8; }
-
 /* =========================================================================
    Partner Directory Cards
    ========================================================================= */
@@ -515,7 +512,7 @@ html {
   .success-stories-filters .btn {
     border-radius: 15px;
     border: 1px solid var(--border-light);
-    color: var(--nav-pill-color, #212121);
+    color: var(--bs-body-color, #212121);
     background-color: var(--ss-filter-bg);
     font-weight: 600;
     padding: 0.35rem 0.85rem;
