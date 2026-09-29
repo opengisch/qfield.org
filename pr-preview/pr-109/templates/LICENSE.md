@@ -1,0 +1,11 @@
+
+## License
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-1f6feb.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+QField templates Â© 2025 by QFieldCloud GmbH are licensed under  
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+### What this means
+
+âœ… You can use, share, and adapt these templates â€” even commercially.  
+ðŸ“Œ Just give proper credit to QFieldCloud GmbH.
