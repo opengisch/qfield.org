@@ -729,7 +729,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169669-533372086"
+     data-gallery-id="gallery-1791255797-110892345"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -757,7 +757,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1791169669-533372086 .carousel-item .gallery-img {
+#gallery-1791255797-110892345 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -765,11 +765,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1791169669-533372086 .carousel-item {
+#gallery-1791255797-110892345 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169669-533372086 .carousel-item .figure {
+#gallery-1791255797-110892345 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -778,11 +778,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1791169669-533372086 .carousel-item .figure .gallery-img {
+#gallery-1791255797-110892345 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169669-533372086 .carousel-item .figure .figure-caption {
+#gallery-1791255797-110892345 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -791,13 +791,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169669-533372086 .carousel-item .gallery-img {
+  #gallery-1791255797-110892345 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169669-533372086 .carousel-item .gallery-img {
+  #gallery-1791255797-110892345 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -1990,7 +1990,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169638-368217515"
+     data-gallery-id="gallery-1791255765-936368296"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2018,7 +2018,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 <style>
  
-#gallery-1791169638-368217515 .carousel-item .gallery-img {
+#gallery-1791255765-936368296 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2026,11 +2026,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   display: block !important;
 }
 
-#gallery-1791169638-368217515 .carousel-item {
+#gallery-1791255765-936368296 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169638-368217515 .carousel-item .figure {
+#gallery-1791255765-936368296 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2039,11 +2039,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   text-align: center;
 }
 
-#gallery-1791169638-368217515 .carousel-item .figure .gallery-img {
+#gallery-1791255765-936368296 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169638-368217515 .carousel-item .figure .figure-caption {
+#gallery-1791255765-936368296 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2052,13 +2052,13 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169638-368217515 .carousel-item .gallery-img {
+  #gallery-1791255765-936368296 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169638-368217515 .carousel-item .gallery-img {
+  #gallery-1791255765-936368296 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2109,7 +2109,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169640-806053317"
+     data-gallery-id="gallery-1791255767-592427377"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2137,7 +2137,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 <style>
  
-#gallery-1791169640-806053317 .carousel-item .gallery-img {
+#gallery-1791255767-592427377 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2145,11 +2145,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1791169640-806053317 .carousel-item {
+#gallery-1791255767-592427377 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169640-806053317 .carousel-item .figure {
+#gallery-1791255767-592427377 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2158,11 +2158,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1791169640-806053317 .carousel-item .figure .gallery-img {
+#gallery-1791255767-592427377 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169640-806053317 .carousel-item .figure .figure-caption {
+#gallery-1791255767-592427377 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2171,13 +2171,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169640-806053317 .carousel-item .gallery-img {
+  #gallery-1791255767-592427377 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169640-806053317 .carousel-item .gallery-img {
+  #gallery-1791255767-592427377 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2196,7 +2196,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169642-982955543"
+     data-gallery-id="gallery-1791255769-809808336"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2224,7 +2224,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1791169642-982955543 .carousel-item .gallery-img {
+#gallery-1791255769-809808336 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2232,11 +2232,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1791169642-982955543 .carousel-item {
+#gallery-1791255769-809808336 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169642-982955543 .carousel-item .figure {
+#gallery-1791255769-809808336 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2245,11 +2245,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1791169642-982955543 .carousel-item .figure .gallery-img {
+#gallery-1791255769-809808336 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169642-982955543 .carousel-item .figure .figure-caption {
+#gallery-1791255769-809808336 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2258,13 +2258,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169642-982955543 .carousel-item .gallery-img {
+  #gallery-1791255769-809808336 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169642-982955543 .carousel-item .gallery-img {
+  #gallery-1791255769-809808336 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2285,7 +2285,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169646-863542491"
+     data-gallery-id="gallery-1791255772-743659715"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2313,7 +2313,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1791169646-863542491 .carousel-item .gallery-img {
+#gallery-1791255772-743659715 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2321,11 +2321,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1791169646-863542491 .carousel-item {
+#gallery-1791255772-743659715 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169646-863542491 .carousel-item .figure {
+#gallery-1791255772-743659715 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2334,11 +2334,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1791169646-863542491 .carousel-item .figure .gallery-img {
+#gallery-1791255772-743659715 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169646-863542491 .carousel-item .figure .figure-caption {
+#gallery-1791255772-743659715 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2347,13 +2347,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169646-863542491 .carousel-item .gallery-img {
+  #gallery-1791255772-743659715 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169646-863542491 .carousel-item .gallery-img {
+  #gallery-1791255772-743659715 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3351,7 +3351,7 @@ loading="lazy"&gt;&lt;/figure&gt;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169651-450834024"
+     data-gallery-id="gallery-1791255778-1873995"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3397,7 +3397,7 @@ loading="lazy"&gt;&lt;/figure&gt;
 
 <style>
  
-#gallery-1791169651-450834024 .carousel-item .gallery-img {
+#gallery-1791255778-1873995 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3405,11 +3405,11 @@ loading="lazy"&gt;&lt;/figure&gt;
   display: block !important;
 }
 
-#gallery-1791169651-450834024 .carousel-item {
+#gallery-1791255778-1873995 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169651-450834024 .carousel-item .figure {
+#gallery-1791255778-1873995 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3418,11 +3418,11 @@ loading="lazy"&gt;&lt;/figure&gt;
   text-align: center;
 }
 
-#gallery-1791169651-450834024 .carousel-item .figure .gallery-img {
+#gallery-1791255778-1873995 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169651-450834024 .carousel-item .figure .figure-caption {
+#gallery-1791255778-1873995 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3431,13 +3431,13 @@ loading="lazy"&gt;&lt;/figure&gt;
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169651-450834024 .carousel-item .gallery-img {
+  #gallery-1791255778-1873995 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169651-450834024 .carousel-item .gallery-img {
+  #gallery-1791255778-1873995 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3776,7 +3776,7 @@ Cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169633-279144122"
+     data-gallery-id="gallery-1791255760-18207393"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3805,7 +3805,7 @@ Cheers</p>
 
 <style>
  
-#gallery-1791169633-279144122 .carousel-item .gallery-img {
+#gallery-1791255760-18207393 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3813,11 +3813,11 @@ Cheers</p>
   display: block !important;
 }
 
-#gallery-1791169633-279144122 .carousel-item {
+#gallery-1791255760-18207393 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169633-279144122 .carousel-item .figure {
+#gallery-1791255760-18207393 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3826,11 +3826,11 @@ Cheers</p>
   text-align: center;
 }
 
-#gallery-1791169633-279144122 .carousel-item .figure .gallery-img {
+#gallery-1791255760-18207393 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169633-279144122 .carousel-item .figure .figure-caption {
+#gallery-1791255760-18207393 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3839,13 +3839,13 @@ Cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169633-279144122 .carousel-item .gallery-img {
+  #gallery-1791255760-18207393 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169633-279144122 .carousel-item .gallery-img {
+  #gallery-1791255760-18207393 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3911,7 +3911,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169636-380024154"
+     data-gallery-id="gallery-1791255762-582823700"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3946,7 +3946,7 @@ cheers</p>
 
 <style>
  
-#gallery-1791169636-380024154 .carousel-item .gallery-img {
+#gallery-1791255762-582823700 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3954,11 +3954,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1791169636-380024154 .carousel-item {
+#gallery-1791255762-582823700 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169636-380024154 .carousel-item .figure {
+#gallery-1791255762-582823700 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3967,11 +3967,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1791169636-380024154 .carousel-item .figure .gallery-img {
+#gallery-1791255762-582823700 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169636-380024154 .carousel-item .figure .figure-caption {
+#gallery-1791255762-582823700 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3980,13 +3980,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169636-380024154 .carousel-item .gallery-img {
+  #gallery-1791255762-582823700 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169636-380024154 .carousel-item .gallery-img {
+  #gallery-1791255762-582823700 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4007,7 +4007,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169640-104051437"
+     data-gallery-id="gallery-1791255766-266316445"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4045,7 +4045,7 @@ cheers</p>
 
 <style>
  
-#gallery-1791169640-104051437 .carousel-item .gallery-img {
+#gallery-1791255766-266316445 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4053,11 +4053,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1791169640-104051437 .carousel-item {
+#gallery-1791255766-266316445 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169640-104051437 .carousel-item .figure {
+#gallery-1791255766-266316445 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4066,11 +4066,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1791169640-104051437 .carousel-item .figure .gallery-img {
+#gallery-1791255766-266316445 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169640-104051437 .carousel-item .figure .figure-caption {
+#gallery-1791255766-266316445 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4079,13 +4079,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169640-104051437 .carousel-item .gallery-img {
+  #gallery-1791255766-266316445 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169640-104051437 .carousel-item .gallery-img {
+  #gallery-1791255766-266316445 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4327,7 +4327,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169664-515492063"
+     data-gallery-id="gallery-1791255792-132462903"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4349,7 +4349,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 <style>
  
-#gallery-1791169664-515492063 .carousel-item .gallery-img {
+#gallery-1791255792-132462903 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4357,11 +4357,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   display: block !important;
 }
 
-#gallery-1791169664-515492063 .carousel-item {
+#gallery-1791255792-132462903 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169664-515492063 .carousel-item .figure {
+#gallery-1791255792-132462903 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4370,11 +4370,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   text-align: center;
 }
 
-#gallery-1791169664-515492063 .carousel-item .figure .gallery-img {
+#gallery-1791255792-132462903 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169664-515492063 .carousel-item .figure .figure-caption {
+#gallery-1791255792-132462903 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4383,13 +4383,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169664-515492063 .carousel-item .gallery-img {
+  #gallery-1791255792-132462903 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169664-515492063 .carousel-item .gallery-img {
+  #gallery-1791255792-132462903 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4551,7 +4551,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169656-405772243"
+     data-gallery-id="gallery-1791255783-640960937"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4580,7 +4580,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 <style>
  
-#gallery-1791169656-405772243 .carousel-item .gallery-img {
+#gallery-1791255783-640960937 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4588,11 +4588,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   display: block !important;
 }
 
-#gallery-1791169656-405772243 .carousel-item {
+#gallery-1791255783-640960937 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169656-405772243 .carousel-item .figure {
+#gallery-1791255783-640960937 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4601,11 +4601,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   text-align: center;
 }
 
-#gallery-1791169656-405772243 .carousel-item .figure .gallery-img {
+#gallery-1791255783-640960937 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169656-405772243 .carousel-item .figure .figure-caption {
+#gallery-1791255783-640960937 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4614,13 +4614,13 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169656-405772243 .carousel-item .gallery-img {
+  #gallery-1791255783-640960937 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169656-405772243 .carousel-item .gallery-img {
+  #gallery-1791255783-640960937 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4736,7 +4736,7 @@ and &lt;a href="https://twitter.com/QFieldForQGIS" target="_blank" rel="noopener
 worth 550€&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="gallery-wrapper"
-data-gallery-id="gallery-1791169664-211071475"
+data-gallery-id="gallery-1791255791-877573538"
 data-autoplay="false"
 data-interval="5000"
 data-controls="true"
@@ -4763,17 +4763,17 @@ loading="lazy"&gt;
 &lt;figcaption class="figure-caption text-center"&gt;Assets management&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/div&gt;
 &lt;style&gt;
-#gallery-1791169664-211071475 .carousel-item .gallery-img {
+#gallery-1791255791-877573538 .carousel-item .gallery-img {
 height: 400px !important;
 width: 100% !important;
 object-fit: cover !important;
 object-position: center center !important;
 display: block !important;
 }
-#gallery-1791169664-211071475 .carousel-item {
+#gallery-1791255791-877573538 .carousel-item {
 height: auto;
 }
-#gallery-1791169664-211071475 .carousel-item .figure {
+#gallery-1791255791-877573538 .carousel-item .figure {
 margin: 0;
 width: 100%;
 display: flex;
@@ -4781,10 +4781,10 @@ justify-content: center;
 position: relative;
 text-align: center;
 }
-#gallery-1791169664-211071475 .carousel-item .figure .gallery-img {
+#gallery-1791255791-877573538 .carousel-item .figure .gallery-img {
 width: 100% !important;
 }
-#gallery-1791169664-211071475 .carousel-item .figure .figure-caption {
+#gallery-1791255791-877573538 .carousel-item .figure .figure-caption {
 position: absolute;
 bottom: 1rem;
 left: 50%;
@@ -4792,12 +4792,12 @@ transform: translateX(-50%);
 margin: 0;
 }
 @media (max-width: 768px) {
-#gallery-1791169664-211071475 .carousel-item .gallery-img {
+#gallery-1791255791-877573538 .carousel-item .gallery-img {
 height: 300px !important;
 }
 }
 @media (max-width: 576px) {
-#gallery-1791169664-211071475 .carousel-item .gallery-img {
+#gallery-1791255791-877573538 .carousel-item .gallery-img {
 height: 250px !important;
 }
 }
@@ -4827,7 +4827,7 @@ height: 250px !important;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169664-211071475"
+     data-gallery-id="gallery-1791255791-877573538"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4862,7 +4862,7 @@ height: 250px !important;
 
 <style>
  
-#gallery-1791169664-211071475 .carousel-item .gallery-img {
+#gallery-1791255791-877573538 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4870,11 +4870,11 @@ height: 250px !important;
   display: block !important;
 }
 
-#gallery-1791169664-211071475 .carousel-item {
+#gallery-1791255791-877573538 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169664-211071475 .carousel-item .figure {
+#gallery-1791255791-877573538 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4883,11 +4883,11 @@ height: 250px !important;
   text-align: center;
 }
 
-#gallery-1791169664-211071475 .carousel-item .figure .gallery-img {
+#gallery-1791255791-877573538 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169664-211071475 .carousel-item .figure .figure-caption {
+#gallery-1791255791-877573538 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4896,13 +4896,13 @@ height: 250px !important;
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169664-211071475 .carousel-item .gallery-img {
+  #gallery-1791255791-877573538 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169664-211071475 .carousel-item .gallery-img {
+  #gallery-1791255791-877573538 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5036,7 +5036,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169652-800567744"
+     data-gallery-id="gallery-1791255779-621728484"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5065,7 +5065,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1791169652-800567744 .carousel-item .gallery-img {
+#gallery-1791255779-621728484 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5073,11 +5073,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1791169652-800567744 .carousel-item {
+#gallery-1791255779-621728484 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169652-800567744 .carousel-item .figure {
+#gallery-1791255779-621728484 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5086,11 +5086,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1791169652-800567744 .carousel-item .figure .gallery-img {
+#gallery-1791255779-621728484 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169652-800567744 .carousel-item .figure .figure-caption {
+#gallery-1791255779-621728484 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5099,13 +5099,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169652-800567744 .carousel-item .gallery-img {
+  #gallery-1791255779-621728484 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169652-800567744 .carousel-item .gallery-img {
+  #gallery-1791255779-621728484 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5124,7 +5124,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169652-801136860"
+     data-gallery-id="gallery-1791255779-622759906"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5215,7 +5215,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1791169652-801136860 .carousel-item .gallery-img {
+#gallery-1791255779-622759906 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5223,11 +5223,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1791169652-801136860 .carousel-item {
+#gallery-1791255779-622759906 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169652-801136860 .carousel-item .figure {
+#gallery-1791255779-622759906 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5236,11 +5236,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1791169652-801136860 .carousel-item .figure .gallery-img {
+#gallery-1791255779-622759906 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169652-801136860 .carousel-item .figure .figure-caption {
+#gallery-1791255779-622759906 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5249,13 +5249,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169652-801136860 .carousel-item .gallery-img {
+  #gallery-1791255779-622759906 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169652-801136860 .carousel-item .gallery-img {
+  #gallery-1791255779-622759906 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5718,24 +5718,24 @@ QField is an Open Source project led by OPENGIS.ch LLC, more <a href="/android-g
 Also if you need a specific feature, <a href="/contact/">contact us</a>
  to sponsor its development.</p>
 ]]></content:encoded><category domain="categories">android-qgis</category><category domain="categories">featured</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>A star is born, QGIS mobile is now QField</title><link>https://qfield.org/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</link><pubDate>Wed, 28 Jan 2015 08:02:57 +0000</pubDate><guid>https://qfield.org/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</guid><description>&lt;div class="gallery-wrapper"
-data-gallery-id="gallery-1791169656-314747053"
+data-gallery-id="gallery-1791255782-646896072"
 data-autoplay="false"
 data-interval="5000"
 data-controls="true"
 data-indicators="true"&gt;
 &lt;/div&gt;
 &lt;style&gt;
-#gallery-1791169656-314747053 .carousel-item .gallery-img {
+#gallery-1791255782-646896072 .carousel-item .gallery-img {
 height: 400px !important;
 width: 100% !important;
 object-fit: cover !important;
 object-position: center center !important;
 display: block !important;
 }
-#gallery-1791169656-314747053 .carousel-item {
+#gallery-1791255782-646896072 .carousel-item {
 height: auto;
 }
-#gallery-1791169656-314747053 .carousel-item .figure {
+#gallery-1791255782-646896072 .carousel-item .figure {
 margin: 0;
 width: 100%;
 display: flex;
@@ -5743,10 +5743,10 @@ justify-content: center;
 position: relative;
 text-align: center;
 }
-#gallery-1791169656-314747053 .carousel-item .figure .gallery-img {
+#gallery-1791255782-646896072 .carousel-item .figure .gallery-img {
 width: 100% !important;
 }
-#gallery-1791169656-314747053 .carousel-item .figure .figure-caption {
+#gallery-1791255782-646896072 .carousel-item .figure .figure-caption {
 position: absolute;
 bottom: 1rem;
 left: 50%;
@@ -5754,12 +5754,12 @@ transform: translateX(-50%);
 margin: 0;
 }
 @media (max-width: 768px) {
-#gallery-1791169656-314747053 .carousel-item .gallery-img {
+#gallery-1791255782-646896072 .carousel-item .gallery-img {
 height: 300px !important;
 }
 }
 @media (max-width: 576px) {
-#gallery-1791169656-314747053 .carousel-item .gallery-img {
+#gallery-1791255782-646896072 .carousel-item .gallery-img {
 height: 250px !important;
 }
 }
@@ -5771,7 +5771,7 @@ height: 250px !important;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1791169656-314747053"
+     data-gallery-id="gallery-1791255782-646896072"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5781,7 +5781,7 @@ height: 250px !important;
 
 <style>
  
-#gallery-1791169656-314747053 .carousel-item .gallery-img {
+#gallery-1791255782-646896072 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5789,11 +5789,11 @@ height: 250px !important;
   display: block !important;
 }
 
-#gallery-1791169656-314747053 .carousel-item {
+#gallery-1791255782-646896072 .carousel-item {
   height: auto;
 }
 
-#gallery-1791169656-314747053 .carousel-item .figure {
+#gallery-1791255782-646896072 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5802,11 +5802,11 @@ height: 250px !important;
   text-align: center;
 }
 
-#gallery-1791169656-314747053 .carousel-item .figure .gallery-img {
+#gallery-1791255782-646896072 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1791169656-314747053 .carousel-item .figure .figure-caption {
+#gallery-1791255782-646896072 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5815,13 +5815,13 @@ height: 250px !important;
 }
 
 @media (max-width: 768px) {
-  #gallery-1791169656-314747053 .carousel-item .gallery-img {
+  #gallery-1791255782-646896072 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1791169656-314747053 .carousel-item .gallery-img {
+  #gallery-1791255782-646896072 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
