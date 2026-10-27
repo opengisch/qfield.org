@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Infrastructure-Engineering on QField - Efficient field work built for QGIS</title>
+    <link>https://qfield.org/pr-preview/pr-111/categories/infrastructure-engineering/</link>
+    <description>Recent content in Infrastructure-Engineering on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    
+    
+    
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/pr-preview/pr-111/categories/infrastructure-engineering/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teaching Drones to Spot Invasive Plants: CSEM Labels Ground Truth with QField</title>
+      <link>https://qfield.org/pr-preview/pr-111/success-stories/csem-neophytes/</link>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-111/success-stories/csem-neophytes/</guid>
+      
+      <description>In the NEOPHYS project, CSEM and its Swiss partners, including SBB, trained machine learning models to detect invasive neophytes in 3 mm drone imagery. QField and QFieldCloud let the botanists labelling the data draw centimetre-accurate polygons in the field, straight onto the orthomosaic, with every label in a single GeoPackage.</description>
+      <content:encoded><![CDATA[<p><strong>Across Switzerland, a research team is teaching machine learning models to find invasive plants in drone imagery. To give those models reliable ground truth, the botanists labelling the data took QField and <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+ into the field and drew every plant directly onto the map.</strong></p>
+<h3 id="the-challenge">The Challenge</h3>
+<p>Neophytes are plants that arrived from other parts of the world and spread at the expense of native species. Many came to Switzerland from abroad, and they are now spreading within the country too. Railways are one of the ways they travel: trains carry seeds with them as they run across the network.</p>
+<p>For SBB, Switzerland&rsquo;s largest railway operator, that is a legal problem as well as an ecological one. SBB has to make sure no neophytes grow on its land, and that includes the strips beside the tracks and the unused plots that slowly overgrow. Checking all of that land on foot does not scale.</p>
+<p>The NEOPHYS project set out to find a better way. Bringing together CSEM, the Swiss technology innovation centre, with SBB, two universities and several other Swiss partners, the project tested whether invasive plants could be detected automatically from drone flights.</p>
+<p>&ldquo;We have this project, NEOPHYS, together with many Swiss partners,&rdquo; explains Silvio Mueller, a research and development engineer at CSEM who works on computer vision and robotics. &ldquo;We are trying to detect neophytes from drone flights. A drone flies over the plants, we take images, and then we want to see where there are neophytes.&rdquo;</p>
+<p>The project focused on six species. A drone provider flew the sites and delivered orthorectified mosaics in very high resolution RGB, with a ground sampling distance of around <strong>three millimetres per pixel</strong>. That level of detail makes small plants visible, but it also produces enormous images that are hard to handle.</p>
+<h3 id="why-ground-truth-is-hard">Why Ground Truth Is Hard</h3>
+<p>A detection model is only as good as its training data, and the training data here had to be drawn by hand. Two labellers, a biology professor and his assistant, outlined each plant as a polygon on the imagery. Some of the plants were so small that they were barely visible from the air, so the labellers could not do this reliably from a desk. They had to walk the sites with a tablet, compare the image with what was growing at their feet, and paint the plant exactly where it stood, often to centimetre accuracy.</p>
+<p>Coming from a robotics background, the team first tried a conventional image labelling tool. It was not built for geospatial imagery of this size, so the mosaics had to be cut into tiles, and that made fieldwork painful.</p>
+<p>&ldquo;The labellers had to look for the right tile,&rdquo; Silvio says. &ldquo;That&rsquo;s a big pain when you&rsquo;re in the field and you&rsquo;re like, &lsquo;Oh, where am I? Am I in this tile? Am I in the other tile?&rsquo;&rdquo;</p>
+<p>Once the labelling was done, Silvio then had to reassemble all of the individual masks into something the model could use.</p>
+<h3 id="the-solution">The Solution</h3>
+<p>The team moved the labelling into QGIS and QField. Instead of a stack of tiles, the labellers now had the full orthomosaic on their tablets as a single map. Standing in front of a plant, they could find it on the image and draw a polygon around it, without hunting for the right tile.</p>
+<p>Each polygon came with a form for the details the researchers needed, such as the plant&rsquo;s growth stage and whether it was flowering. The field edits synced back to the office through QFieldCloud.</p>
+<p>&ldquo;With QField I had one GeoPackage that had all my labels in it,&rdquo; Silvio says. &ldquo;So it was pretty simple.&rdquo;</p>
+<p>The attributes turned out to be as valuable as the outlines. The team flew the same sites <strong>six times a year</strong>, and recording the phenological stage of every plant let them work out when each species is easiest to detect. That answers a practical question for any future monitoring programme: when should the drone fly?</p>
+<h3 id="the-results">The Results</h3>
+<ul>
+<li><strong>Five of the six target species</strong> were detected well by the trained models. Species with large leaves and distinctive structures needed fewer labels, while small plants that resemble their neighbours needed many more.</li>
+<li>The models still work reasonably well at <strong>sites they were not trained on</strong>, with only a modest drop in accuracy.</li>
+<li>Growth stage and flowering attributes, captured in the field, helped the team identify the <strong>best time of year to fly</strong> for each species.</li>
+<li>All labels ended up in <strong>one GeoPackage</strong>, instead of hundreds of tiled masks that had to be stitched back together.</li>
+</ul>
+<h3 id="what-comes-next">What Comes Next</h3>
+<p>NEOPHYS was funded for two and a half years by Innosuisse, the Swiss innovation agency, whose goal is to bring new technology into Swiss industry. With the research phase complete, the project partners are now in discussion with commercial partners, from construction firms to railway service companies, who could take the dataset and the technology and turn them into a service for Swiss railway operators.</p>
+<p>The main limitation today is the cost of collecting very high resolution imagery. As drone flights become cheaper, an approach like this could let infrastructure owners monitor invasive plants across far larger areas than field crews could ever walk, built on ground truth that the field crews themselves collected.</p>
+]]></content:encoded>
+      <category domain="categories">ecology-environment</category>
+      <category domain="categories">infrastructure-engineering</category>
+    </item>
+    
+    <item>
+      <title>Real-Time Radiation Detection with QField: Cleaning Up America&#39;s Nuclear Legacy</title>
+      <link>https://qfield.org/pr-preview/pr-111/success-stories/radiation-detection/</link>
+      <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
+      
+      <guid>https://qfield.org/pr-preview/pr-111/success-stories/radiation-detection/</guid>
+      
+      
+      <media:content url="https://qfield.org/pr-preview/pr-111/success-stories/radiation-detection/radiation.png" medium="image" />
+      <description>In sites across the United States, from public parks in New York to former uranium processing facilities in New Jersey, a dedicated team of environmental specialists is using QField to detect and remediate radioactive contamination left over from America&#39;s atomic weapons program.</description>
+      <content:encoded><![CDATA[<p>In sites across the United States, from public parks in New York to former uranium processing facilities in New Jersey, a dedicated team of environmental specialists is using QField to detect and remediate radioactive contamination left over from America&rsquo;s atomic weapons program.</p>
+<h3 id="the-mission-fusrap-site-remediation">The Mission: FUSRAP Site Remediation</h3>
+<p>Working under the Formerly Utilized Sites Remedial Action Program (FUSRAP), geological specialists lead cleanup efforts for low-level radioactive waste sites across the country.</p>
+<p><em>&ldquo;We&rsquo;re cleaning up radiation, in simple terms,&rdquo; explains the project geologist. &ldquo;Back in the 60s and early 40s, we didn&rsquo;t really know what this material could do. We&rsquo;re dealing with radium, uranium, thorium—materials that were processed for the atomic bomb program.&rdquo;</em></p>
+<p>The cleanup process requires precise detection and mapping of contaminated areas, followed by careful excavation and disposal.</p>
+<h3 id="the-challenge-real-time-data-collection-in-hazardous-environments">The Challenge: Real-Time Data Collection in Hazardous Environments</h3>
+<p>The team works in challenging conditions, dressed in full personal protective equipment including respirators while operating sensitive radiation detection equipment. Before implementing QField, their workflow created significant delays that hampered cleanup operations.</p>
+<p><em>&ldquo;We used to have a three day processing time where we would have breadcrumb trails of data, but we wouldn&rsquo;t be able to actually see what those breadcrumbs represented in terms of gamma data,&rdquo;</em> recalls the specialist. <em>&ldquo;We&rsquo;d have to bring our data back, scan, come out of the zone, bring it back to my desk, and go through this long processing system through three different software packages.&rdquo;</em></p>
+<p>This delay meant field crews would scan an area, then wait days for analysis before knowing where to dig or whether an area was clean. The old system created bottlenecks that frustrated operations teams eager to begin excavation and backfilling.</p>
+<h3 id="qfield-integration-connecting-sensors-to-real-time-mapping">QField Integration: Connecting Sensors to Real-Time Mapping</h3>
+<p>The breakthrough came through integrating radiation detection instruments directly with QField. Working with the QField development team, the specialist created a system that captures gamma radiation readings every second while simultaneously recording precise GPS coordinates.</p>
+<p>This sensor integration capability was initially developed specifically for QField to meet the growing demand for real-time sensor data collection in field applications. However, following open-source best practices, OPENGIS.ch contributed this functionality upstream to the broader QGIS project, making sensor integration available to the entire QGIS ecosystem.</p>
+<p><em>&ldquo;We basically just measure the offset from our detector bottom to the antenna to get our elevations,&rdquo; explains the specialist. &ldquo;The detector spits out data every second, and QField captures both the radiation reading and the location simultaneously.&rdquo;</em></p>
+<p>The team uses multiple radiation detection methods:
+- Portable detectors connected via Bluetooth or USB to field tablets
+- Advanced spectrometers ($90,000 units) that can identify specific radioactive isotopes
+- Mobile scanning systems mounted on small carts for efficient area coverage</p>
+<p>Using QField&rsquo;s sensor integration capabilities, radiation data flows directly into the mapping interface with custom delimiters to parse the incoming data stream properly.</p>
+<h3 id="transforming-field-operations">Transforming Field Operations</h3>
+<p>The impact on field operations has been dramatic. What previously took three days of processing time now happens in real-time, allowing crews to make immediate decisions about sampling and excavation.</p>
+<p><em>&ldquo;This process used to take, I would say on average, three days. Working four days a week left us maybe able to do one backfill per week. Now we can do two backfills a week. We can do a scan and collect samples within an hour—we never thought we could ever do that.”</em></p>
+<h3 id="precision-and-coverage-verification">Precision and Coverage Verification</h3>
+<p>QField&rsquo;s mapping capabilities also solve critical quality control issues. The team can now see their coverage in real-time, identifying gaps that might have been missed during scanning.</p>
+<p><em>&ldquo;You can see your sensor being established in real-time. We used to always lose connection to our sensor and then I&rsquo;d have to go figure out which COM port it&rsquo;s on. Now I can see our sensor readings coming in, and I can also spot if I miss an area and fill it in before we finish.&rdquo;</em></p>
+<p>With horizontal accuracy running at four millimeters using base station corrections, the team meets the stringent precision requirements for radioactive waste cleanup.</p>
+<h3 id="data-integration-and-workflow">Data Integration and Workflow</h3>
+<p>Field teams use ruggedized tablets running QField to collect data throughout their scanning operations.
+The system integrates multiple data types:
+- <strong>Gamma scan data:</strong> Real-time radiation readings with GPS coordinates
+- <strong>Sample locations:</strong> Precise positioning for soil samples sent to on-site laboratories
+- <strong>Excavation boundaries:</strong> Mapping areas cleared for backfilling
+- <strong>Infrastructure:</strong> Locations of monitoring equipment, access routes, and safety hazards</p>
+<p>Results are processed through the on-site laboratory within 24 hours, allowing rapid decisions about whether areas can be backfilled with clean soil or require additional excavation.</p>
+<h3 id="looking-forward">Looking Forward</h3>
+<p>The success of QField integration has transformed how the team approaches radioactive waste cleanup. They can now respond immediately to detection data, coordinate multiple field crews efficiently, and provide real-time updates to regulatory agencies overseeing the cleanup efforts.</p>
+<p><em>&ldquo;It&rsquo;s really been upping our game here,&rdquo; concludes the specialist. &ldquo;The ability to visualize this data in real-time, combined with the precision GPS and immediate feedback, has completely changed how we operate in the field.&rdquo;</em></p>
+]]></content:encoded>
+      <category domain="categories">government-municipalities</category>
+      <category domain="categories">infrastructure-engineering</category>
+    </item>
+    
+  </channel>
+</rss>
