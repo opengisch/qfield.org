@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Forestry on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/forestry/</link><description>Recent content in Forestry on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://qfield.org/categories/forestry/feed.xml" rel="self" type="application/rss+xml"/><item><title>Community-led mapping for land rights and forest protection in Sarawak with QField</title><link>https://qfield.org/success-stories/sarawak/</link><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate><guid>https://qfield.org/success-stories/sarawak/</guid><media:content url="https://qfield.org/success-stories/sarawak/sarawak-7.jpg" medium="image"/><description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href="https://bmf.ch/en" target="_blank" rel="noopener"&gt;The Bruno Manser Fonds&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Forestry on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/forestry/</link><description>Recent content in Forestry on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Tue, 28 Apr 2026 00:05:00 +0200</lastBuildDate><atom:link href="https://qfield.org/categories/forestry/feed.xml" rel="self" type="application/rss+xml"/><item><title>Independent Eyes on the East Slopes: How CPAWS Southern Alberta Maps Critical Trout Habitat with QField</title><link>https://qfield.org/success-stories/cpaws-southern-alberta/</link><pubDate>Tue, 28 Apr 2026 00:05:00 +0200</pubDate><guid>https://qfield.org/success-stories/cpaws-southern-alberta/</guid><description>A small chapter of Canada's oldest conservation organisation uses QField to verify critical habitat for three threatened native trout species and hold logging operations accountable on the east slopes of the Rocky Mountains.</description><content:encoded><![CDATA[<h3 id="the-challenge">The Challenge</h3>
+<p>Three native trout species swim through the streams of Alberta&rsquo;s east slopes: the westslope cutthroat, the bull trout, and the Athabasca rainbow. All three are listed as either endangered or threatened. Their habitat is the transition country where the Rocky Mountains break into foothills, a beautiful corridor threaded with small tributaries. Many of those tributaries only run during spring snowmelt. Most sit under heavy tree cover.</p>
+<p>That same country is where Alberta&rsquo;s resource extraction industries operate, especially logging. Resource roads cut close to streams. Crossings throw sediment downstream. Riparian buffers get ignored. And the regulatory framework that&rsquo;s meant to protect critical habitat depends on knowing which streams actually qualify as critical habitat in the first place.</p>
+<p>There&rsquo;s a gap there. Critical habitat for these species is legally defined by stream attributes like flow, but those attributes have to be measured on the ground. Satellite imagery picks up the larger watercourses, but it misses the smaller tributaries the trout depend on, and it can&rsquo;t see the attributes that matter. Monitoring of forestry operations also tends to be proponent-driven, which means there&rsquo;s rarely an independent check on whether what&rsquo;s planned on paper is what actually happens in the forest.</p>
+<p>That&rsquo;s the gap CPAWS Southern Alberta works in. CPAWS, the Canadian Parks and Wilderness Society, is the country&rsquo;s oldest national conservation organisation, with chapters across every province and territory. Joshua Killeen runs conservation science and programs for the Southern Alberta chapter. A biologist by training, he has built the chapter&rsquo;s field data programme around the trout: where the habitat actually is, which streams meet the legal threshold, and where logging operations are causing harm.</p>
+<blockquote>
+<p>&ldquo;Everything&rsquo;s very proponent-driven when it comes to monitoring. There&rsquo;s often no independent ability to audit what&rsquo;s actually going on the ground, and as a result, things get missed. That&rsquo;s where we&rsquo;re filling a gap.&rdquo;</p>
+<p>Joshua Killeen, Conservation Science and Programs Manager, CPAWS Southern Alberta</p>
+</blockquote>
+<h3 id="the-solution">The Solution</h3>
+<p>Joshua sets up the QField projects himself, watershed by watershed. Each watershed gets its own project with its own supporting layers: known trout habitat, current logging plans from the forestry companies, and whatever historical data already exists for that drainage. Field teams pick the watershed they are working in and load the project. Out on the east slopes, where there&rsquo;s no signal for days at a time, everything runs offline. Data syncs back to the office through <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
+ once people are out of the bush.</p>
+<p>The data itself is points and tracks. Points sit at stream crossings and observation locations, each one carrying a structured form for the attributes that define critical habitat. Tracks get recorded for streams that aren&rsquo;t mapped or are mapped incorrectly, which happens often enough on the smaller tributaries that it&rsquo;s a standard part of the workflow. Photos are GPS-tagged and matched to records by location, a workaround Joshua landed on after running into the friction of managing large numbers of attached photos through the app directly.</p>
+<p>The team is small. Five or six people in the field across a summer, a mix of staff, contractors and volunteers. Volunteers always go out paired with someone who knows the work. Last summer a field technician trained volunteers on the ground throughout the season, and they were productive within their first few outings. The structured forms do a lot of the heavy lifting there. Constrained dropdowns and toggle buttons mean a volunteer collecting data is collecting it in the same shape as a senior biologist, which keeps back-office cleanup manageable.</p>
+<p>What this replaces is a mix anyone in conservation will recognise. Some people had been using Avenza. Others, often consultants brought in for specific surveys, were on Esri&rsquo;s Field Maps. Some teams were taking voice notes on their phones. Some were on pen and paper. The data came back in whatever shape each person preferred, which made integration painful. Esri&rsquo;s licensing was prohibitive for the chapter&rsquo;s budget. QField, sitting on top of QGIS and QFieldCloud, gave Joshua a way to standardise the workflow without asking anyone for a licence fee.</p>
+<h3 id="the-result">The Result</h3>
+<p>The data CPAWS Southern Alberta collects feeds two streams of work that wouldn&rsquo;t otherwise happen.</p>
+<p>The first is filling in the legal map. Where the regulatory framework defines critical habitat by stream attributes, CPAWS field teams go out and measure those attributes, confirming which tributaries qualify and which don&rsquo;t. Without that work, streams that legally should be protected stay invisible to the regulators. The second is on-the-ground verification of forestry operations. Where logging plans require riparian buffers and careful stream crossings, CPAWS verifies whether those protections are actually in place after the operations are done.</p>
+<p>Both feed into advocacy. CPAWS uses the field data to build maps that go directly to forestry companies and to provincial and federal regulators. Photographs sit alongside the assessment, anchored to the spot where they were taken. Joshua is clear that this format matters. A shapefile sent to a big forestry company tends to disappear into a GIS department in a different city, and it rarely reaches the person who actually needs to see it. A web map with photos at specific coordinates keeps the conversation focused on what is actually happening at the crossing.</p>
+<ul>
+<li>Mapping previously undocumented critical habitat for three threatened native trout species</li>
+<li>Independent verification of forestry compliance at stream crossings and riparian buffers</li>
+<li>Standardised data capture across staff, contractors and volunteers, consistent across watersheds</li>
+<li>Annual updates as logging plans evolve, with field teams checking whether the changes have been delivered on the ground</li>
+<li>All on a tooling stack the chapter can actually afford to run</li>
+</ul>
+<blockquote>
+<p>&ldquo;Having these tools that are free or close to free is a big deal for organisations like ours. It&rsquo;s really difficult to find the money for this kind of work, and even harder to convince donors to fund backend data tools. Being able to work on the QGIS and QField platform is pretty critical for us.&rdquo;</p>
+<p>Joshua Killeen, Conservation Science and Programs Manager, CPAWS Southern Alberta</p>
+</blockquote>
+<p>For a small chapter operating in some of Canada&rsquo;s most ecologically sensitive country, the equation is straightforward. Resource extraction proceeds whether or not anyone is watching. CPAWS Southern Alberta makes sure someone is.</p>
+]]></content:encoded><category domain="categories">ecology-environment</category><category domain="categories">forestry</category><category domain="categories">water-land-management</category></item><item><title>Community-led mapping for land rights and forest protection in Sarawak with QField</title><link>https://qfield.org/success-stories/sarawak/</link><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate><guid>https://qfield.org/success-stories/sarawak/</guid><media:content url="https://qfield.org/success-stories/sarawak/sarawak-7.jpg" medium="image"/><description>&lt;p&gt;In parts of Sarawak (Malaysia), indigenous communities are &lt;strong&gt;actively resisting deforestation and fighting for land rights&lt;/strong&gt;. For one &lt;a href="https://bmf.ch/en" target="_blank" rel="noopener"&gt;The Bruno Manser Fonds&lt;/a&gt;
 working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.&lt;/p&gt;
 &lt;p&gt;The goal is simple to describe, but powerful in practice: &lt;strong&gt;create maps that show where people live and what matters to them&lt;/strong&gt;. Rivers and mountains, hunting grounds, important forest resources, and the borders people recognize as their lands. The maps are built with the community, in their language where possible, and based on their understanding of the landscape.&lt;/p&gt;</description><content:encoded><![CDATA[<p>In parts of Sarawak (Malaysia), indigenous communities are <strong>actively resisting deforestation and fighting for land rights</strong>. For one <a href="https://bmf.ch/en" target="_blank" rel="noopener">The Bruno Manser Fonds</a>
  working with villages in the Baramarea, community mapping has become a practical way to support that work while also protecting and passing on local knowledge.</p>
@@ -59,7 +90,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793140254-769688434"
+     data-gallery-id="gallery-1793156563-254912181"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -87,7 +118,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1793140254-769688434 .carousel-item .gallery-img {
+#gallery-1793156563-254912181 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -95,11 +126,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1793140254-769688434 .carousel-item {
+#gallery-1793156563-254912181 .carousel-item {
   height: auto;
 }
 
-#gallery-1793140254-769688434 .carousel-item .figure {
+#gallery-1793156563-254912181 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -108,11 +139,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1793140254-769688434 .carousel-item .figure .gallery-img {
+#gallery-1793156563-254912181 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793140254-769688434 .carousel-item .figure .figure-caption {
+#gallery-1793156563-254912181 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -121,13 +152,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1793140254-769688434 .carousel-item .gallery-img {
+  #gallery-1793156563-254912181 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793140254-769688434 .carousel-item .gallery-img {
+  #gallery-1793156563-254912181 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
