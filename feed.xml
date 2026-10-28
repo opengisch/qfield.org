@@ -371,8 +371,8 @@
 <p>Gathering it means sending teams into the field for months at a time. From April through October, researchers fan out across Norway&rsquo;s varied terrain, counting pollinators, mapping vegetation, sampling soil. When they returned to the institute, they brought paper notebooks, audio recordings, and maps covered in hand-drawn polygon boundaries. Then the real work began: manually transcribing everything into digital form.</p>
 <p>For vegetation mapping, one of NIBIO&rsquo;s most spatially complex surveys, the old workflow was particularly laborious. Fieldworkers used stereoscopes to interpret aerial photographs in three dimensions, then traced grazing-land boundaries directly onto paper prints with marker pens. Every season&rsquo;s mapping had to be digitised back at the office, a process that introduced errors and delayed analysis by weeks.</p>
 <h3 id="the-solution">The Solution</h3>
-<p>Anna, Chief Engineer in NIBIO&rsquo;s Geomatics department, had been building toward a different way of working for years.</p>
-<p>NIBIO adopted QGIS as early as 2008, one of the first government research institutes in Norway to move away from proprietary desktop GIS. By 2010, the team had migrated their spatial databases to PostgreSQL and PostGIS entirely. When QField appeared, Anna began experimenting. Starting around 2019, she introduced the app for point surveys on eight-inch tablets: simple forms with constrained dropdowns that ensured only valid data entered the database. Transfers happened via USB cable, just one or two tablets, no cloud infrastructure needed yet.</p>
+<p>Anne, Chief Engineer in NIBIO&rsquo;s Geomatics department, had been building toward a different way of working for years.</p>
+<p>NIBIO adopted QGIS as early as 2008, one of the first government research institutes in Norway to move away from proprietary desktop GIS. By 2010, the team had migrated their spatial databases to PostgreSQL and PostGIS entirely. When QField appeared, Anne began experimenting. Starting around 2019, she introduced the app for point surveys on eight-inch tablets: simple forms with constrained dropdowns that ensured only valid data entered the database. Transfers happened via USB cable, just one or two tablets, no cloud infrastructure needed yet.</p>
 <p>The scale was modest, but the principle was sound. It also reflected a firm position on data governance: NIBIO manages national-level data that Norway treats as a strategic resource. After trialling <a href="https://qfield.cloud" target="_blank" rel="noopener">QFieldCloud</a>
 &rsquo;s hosted infrastructure in 2023, NIBIO moved in 2024 to self-hosting QFieldCloud on their own servers. The data stays in Norway.</p>
 <p>Over the following years, different programmes across NIBIO gradually took up QField as confidence and capability grew together:</p>
@@ -381,11 +381,11 @@
 <li><strong>Pollinator surveys.</strong> Point observations of bumblebees, bees, and wildflowers, with photo documentation and one-to-many relationships between survey sites and individual observations.</li>
 <li><strong>Vegetation mapping.</strong> In 2025, NIBIO made the full transition for their grazing-land surveys: fieldworkers now digitise polygon boundaries directly in QField, working against aerial imagery with topology rules applied in real time. The stereoscopes and paper maps are gone.</li>
 </ul>
-<p>For each new programme, Anna refined the forms. Toggle buttons replaced dropdown lists for faster input in the field. Colour-coded symbology gave researchers an immediate read on progress: a feature not yet started shows as one colour, in progress as another, complete as a third. Zooming out, a fieldworker can see at a glance exactly which sites still need attention. Strict mandatory fields are balanced carefully against field realities, because sometimes you need to set the tablet down, dig into the soil, and come back.</p>
+<p>For each new programme, Anne refined the forms. Toggle buttons replaced dropdown lists for faster input in the field. Colour-coded symbology gave researchers an immediate read on progress: a feature not yet started shows as one colour, in progress as another, complete as a third. Zooming out, a fieldworker can see at a glance exactly which sites still need attention. Strict mandatory fields are balanced carefully against field realities, because sometimes you need to set the tablet down, dig into the soil, and come back.</p>
 <p>When a particularly complex technical issue arose during rollout, NIBIO found the support team willing to go well beyond a standard fix.</p>
 <blockquote>
 <p>&ldquo;I called him Sherlock Holmes, because he really dug into the code and found the solution.&rdquo;</p>
-<p>Anna, Chief Engineer, NIBIO Geomatics Department</p>
+<p>Anne, Chief Engineer, NIBIO Geomatics Department</p>
 </blockquote>
 <h3 id="the-result">The Result</h3>
 <p>Across every programme that has made the transition, the same pattern emerges: data arrives cleaner, analysis starts sooner, and the post-season transcription bottleneck is gone.</p>
@@ -396,10 +396,10 @@
 <li>Self-hosted QFieldCloud keeps national data within Norwegian borders, meeting NIBIO&rsquo;s data governance requirements</li>
 </ul>
 <p>A new soil monitoring programme is now being deployed on QField too, with eighty sites distributed across Norway. Each site requires complex nested forms capturing soil type, quality, biodiversity indicators, and ecological parameters. They will be revisited on a rotating annual cycle for years to come, making data consistency and form integrity critical from the very first entry.</p>
-<p>What began as a cautious experiment on a handful of tablets has become critical infrastructure for national-scale environmental monitoring. And once colleagues see what QField can do, Anna says, the demands only grow.</p>
+<p>What began as a cautious experiment on a handful of tablets has become critical infrastructure for national-scale environmental monitoring. And once colleagues see what QField can do, Anne says, the demands only grow.</p>
 <blockquote>
 <p>&ldquo;We started small. And then if you give them your little finger, they want your whole hand.&rdquo;</p>
-<p>Anna, Chief Engineer, NIBIO Geomatics Department</p>
+<p>Anne, Chief Engineer, NIBIO Geomatics Department</p>
 </blockquote>
 ]]></content:encoded><category domain="categories">government-municipalities</category><category domain="categories">ecology-environment</category><category domain="categories">water-land-management</category></item><item><title>QField 4.1 "Barents Sea": Dive into the third dimension and coordinate geometry operations!</title><link>https://qfield.org/blog/2026/03/23/qfield-4.1-barents-sea-dive-into-the-third-dimension-and-coordinate-geometry-operations/</link><pubDate>Mon, 23 Mar 2026 00:05:00 +0000</pubDate><guid>https://qfield.org/blog/2026/03/23/qfield-4.1-barents-sea-dive-into-the-third-dimension-and-coordinate-geometry-operations/</guid><media:content url="https://qfield.org/blog/2026/03/23/qfield-4.1-barents-sea-dive-into-the-third-dimension-and-coordinate-geometry-operations/splash41.webp" medium="image"/><description>QField's first release of the year comes packed with new features and improvements. 3D terrain view, COGO tools for land surveyors, and background tracking on iOS are the highlights.</description><content:encoded><![CDATA[<p>QField’s first release of the year comes packed with new features as well as a bundle of improvements and polishing. Let’s jump right into it.</p>
 <h2 id="main-highlights">Main highlights</h2>
@@ -795,7 +795,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170847-660274821"
+     data-gallery-id="gallery-1793178617-657293980"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -823,7 +823,7 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 
 <style>
  
-#gallery-1793170847-660274821 .carousel-item .gallery-img {
+#gallery-1793178617-657293980 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -831,11 +831,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   display: block !important;
 }
 
-#gallery-1793170847-660274821 .carousel-item {
+#gallery-1793178617-657293980 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170847-660274821 .carousel-item .figure {
+#gallery-1793178617-657293980 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -844,11 +844,11 @@ At first, the idea might sound like giving people a basemap. But it was more tha
   text-align: center;
 }
 
-#gallery-1793170847-660274821 .carousel-item .figure .gallery-img {
+#gallery-1793178617-657293980 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170847-660274821 .carousel-item .figure .figure-caption {
+#gallery-1793178617-657293980 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -857,13 +857,13 @@ At first, the idea might sound like giving people a basemap. But it was more tha
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170847-660274821 .carousel-item .gallery-img {
+  #gallery-1793178617-657293980 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170847-660274821 .carousel-item .gallery-img {
+  #gallery-1793178617-657293980 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2056,7 +2056,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170821-998257883"
+     data-gallery-id="gallery-1793178600-250538065"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2084,7 +2084,7 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 
 <style>
  
-#gallery-1793170821-998257883 .carousel-item .gallery-img {
+#gallery-1793178600-250538065 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2092,11 +2092,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   display: block !important;
 }
 
-#gallery-1793170821-998257883 .carousel-item {
+#gallery-1793178600-250538065 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170821-998257883 .carousel-item .figure {
+#gallery-1793178600-250538065 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2105,11 +2105,11 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
   text-align: center;
 }
 
-#gallery-1793170821-998257883 .carousel-item .figure .gallery-img {
+#gallery-1793178600-250538065 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170821-998257883 .carousel-item .figure .figure-caption {
+#gallery-1793178600-250538065 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2118,13 +2118,13 @@ User Conference 2025 in Norrköping! The event was extremely well organised — 
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170821-998257883 .carousel-item .gallery-img {
+  #gallery-1793178600-250538065 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170821-998257883 .carousel-item .gallery-img {
+  #gallery-1793178600-250538065 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2175,7 +2175,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170823-561502510"
+     data-gallery-id="gallery-1793178601-234756114"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2203,7 +2203,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 <style>
  
-#gallery-1793170823-561502510 .carousel-item .gallery-img {
+#gallery-1793178601-234756114 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2211,11 +2211,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   display: block !important;
 }
 
-#gallery-1793170823-561502510 .carousel-item {
+#gallery-1793178601-234756114 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170823-561502510 .carousel-item .figure {
+#gallery-1793178601-234756114 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2224,11 +2224,11 @@ I spoke about where we’re headed next, what new features are coming, and how w
   text-align: center;
 }
 
-#gallery-1793170823-561502510 .carousel-item .figure .gallery-img {
+#gallery-1793178601-234756114 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170823-561502510 .carousel-item .figure .figure-caption {
+#gallery-1793178601-234756114 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2237,13 +2237,13 @@ I spoke about where we’re headed next, what new features are coming, and how w
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170823-561502510 .carousel-item .gallery-img {
+  #gallery-1793178601-234756114 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170823-561502510 .carousel-item .gallery-img {
+  #gallery-1793178601-234756114 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2262,7 +2262,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170826-641462843"
+     data-gallery-id="gallery-1793178603-299810049"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2290,7 +2290,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1793170826-641462843 .carousel-item .gallery-img {
+#gallery-1793178603-299810049 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2298,11 +2298,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1793170826-641462843 .carousel-item {
+#gallery-1793178603-299810049 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170826-641462843 .carousel-item .figure {
+#gallery-1793178603-299810049 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2311,11 +2311,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1793170826-641462843 .carousel-item .figure .gallery-img {
+#gallery-1793178603-299810049 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170826-641462843 .carousel-item .figure .figure-caption {
+#gallery-1793178603-299810049 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2324,13 +2324,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170826-641462843 .carousel-item .gallery-img {
+  #gallery-1793178603-299810049 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170826-641462843 .carousel-item .gallery-img {
+  #gallery-1793178603-299810049 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2351,7 +2351,7 @@ Definitely not our last one. 💚</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170829-759175249"
+     data-gallery-id="gallery-1793178605-210036848"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -2379,7 +2379,7 @@ Definitely not our last one. 💚</p>
 
 <style>
  
-#gallery-1793170829-759175249 .carousel-item .gallery-img {
+#gallery-1793178605-210036848 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -2387,11 +2387,11 @@ Definitely not our last one. 💚</p>
   display: block !important;
 }
 
-#gallery-1793170829-759175249 .carousel-item {
+#gallery-1793178605-210036848 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170829-759175249 .carousel-item .figure {
+#gallery-1793178605-210036848 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -2400,11 +2400,11 @@ Definitely not our last one. 💚</p>
   text-align: center;
 }
 
-#gallery-1793170829-759175249 .carousel-item .figure .gallery-img {
+#gallery-1793178605-210036848 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170829-759175249 .carousel-item .figure .figure-caption {
+#gallery-1793178605-210036848 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -2413,13 +2413,13 @@ Definitely not our last one. 💚</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170829-759175249 .carousel-item .gallery-img {
+  #gallery-1793178605-210036848 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170829-759175249 .carousel-item .gallery-img {
+  #gallery-1793178605-210036848 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -2515,7 +2515,7 @@ As the name suggests, the plugin converts XLSForm survey files into ready-to-use
 </p>
 
 <hr>
-<h3 id="from-hahahugoshortcode13s2hbhb-to-the-world">From <span class="text-qfield">Switzerland</span>
+<h3 id="from-hahahugoshortcode14s2hbhb-to-the-world">From <span class="text-qfield">Switzerland</span>
  to the world!🇨🇭</h3>
 <p>Born in the Swiss Alps, raised by open-source, and now <strong>roaming the globe</strong>, QField has gone international! What started in Switzerland is now in the hands of field mappers, researchers, and GIS pros on six continents. Thank you for taking QField <strong>worldwide</strong>! 🌍</p>
 <figure class="figure text-center mb-4"><img src="/blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_e805a69b4ac1240a.png" srcset="/blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_e805a69b4ac1240a.png 1x, /blog/2025/05/29/1-million-downloads-qfields-big-milestone/qf-switzerland-5_hu_7e422a22a2394b1c.png 2x"
@@ -2523,7 +2523,7 @@ As the name suggests, the plugin converts XLSForm survey files into ready-to-use
          class="figure-img img-fluid gallery-img" width="1200" height="675"
          loading="lazy"></figure>
 
-<h4 id="mapping-the-hahahugoshortcode13s4hbhb-one-field-at-a-time"><strong>Mapping the <span class="text-qfield">world</span>
+<h4 id="mapping-the-hahahugoshortcode14s4hbhb-one-field-at-a-time"><strong>Mapping the <span class="text-qfield">world</span>
  one field at a time.</strong></h4>
 <hr>
 <h3 id="the-numbers-tell-a-story-">The numbers tell a <em>story</em> 📖</h3>
@@ -3417,7 +3417,7 @@ loading="lazy"&gt;&lt;/figure&gt;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170831-264125802"
+     data-gallery-id="gallery-1793178606-664919332"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3463,7 +3463,7 @@ loading="lazy"&gt;&lt;/figure&gt;
 
 <style>
  
-#gallery-1793170831-264125802 .carousel-item .gallery-img {
+#gallery-1793178606-664919332 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3471,11 +3471,11 @@ loading="lazy"&gt;&lt;/figure&gt;
   display: block !important;
 }
 
-#gallery-1793170831-264125802 .carousel-item {
+#gallery-1793178606-664919332 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170831-264125802 .carousel-item .figure {
+#gallery-1793178606-664919332 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3484,11 +3484,11 @@ loading="lazy"&gt;&lt;/figure&gt;
   text-align: center;
 }
 
-#gallery-1793170831-264125802 .carousel-item .figure .gallery-img {
+#gallery-1793178606-664919332 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170831-264125802 .carousel-item .figure .figure-caption {
+#gallery-1793178606-664919332 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3497,13 +3497,13 @@ loading="lazy"&gt;&lt;/figure&gt;
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170831-264125802 .carousel-item .gallery-img {
+  #gallery-1793178606-664919332 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170831-264125802 .carousel-item .gallery-img {
+  #gallery-1793178606-664919332 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3842,7 +3842,7 @@ Cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170817-395226176"
+     data-gallery-id="gallery-1793178597-35986127"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -3871,7 +3871,7 @@ Cheers</p>
 
 <style>
  
-#gallery-1793170817-395226176 .carousel-item .gallery-img {
+#gallery-1793178597-35986127 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -3879,11 +3879,11 @@ Cheers</p>
   display: block !important;
 }
 
-#gallery-1793170817-395226176 .carousel-item {
+#gallery-1793178597-35986127 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170817-395226176 .carousel-item .figure {
+#gallery-1793178597-35986127 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -3892,11 +3892,11 @@ Cheers</p>
   text-align: center;
 }
 
-#gallery-1793170817-395226176 .carousel-item .figure .gallery-img {
+#gallery-1793178597-35986127 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170817-395226176 .carousel-item .figure .figure-caption {
+#gallery-1793178597-35986127 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -3905,13 +3905,13 @@ Cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170817-395226176 .carousel-item .gallery-img {
+  #gallery-1793178597-35986127 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170817-395226176 .carousel-item .gallery-img {
+  #gallery-1793178597-35986127 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -3977,7 +3977,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170819-134586665"
+     data-gallery-id="gallery-1793178598-403139768"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4012,7 +4012,7 @@ cheers</p>
 
 <style>
  
-#gallery-1793170819-134586665 .carousel-item .gallery-img {
+#gallery-1793178598-403139768 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4020,11 +4020,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1793170819-134586665 .carousel-item {
+#gallery-1793178598-403139768 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170819-134586665 .carousel-item .figure {
+#gallery-1793178598-403139768 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4033,11 +4033,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1793170819-134586665 .carousel-item .figure .gallery-img {
+#gallery-1793178598-403139768 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170819-134586665 .carousel-item .figure .figure-caption {
+#gallery-1793178598-403139768 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4046,13 +4046,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170819-134586665 .carousel-item .gallery-img {
+  #gallery-1793178598-403139768 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170819-134586665 .carousel-item .gallery-img {
+  #gallery-1793178598-403139768 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4073,7 +4073,7 @@ cheers</p>
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170822-321498458"
+     data-gallery-id="gallery-1793178600-623402270"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4111,7 +4111,7 @@ cheers</p>
 
 <style>
  
-#gallery-1793170822-321498458 .carousel-item .gallery-img {
+#gallery-1793178600-623402270 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4119,11 +4119,11 @@ cheers</p>
   display: block !important;
 }
 
-#gallery-1793170822-321498458 .carousel-item {
+#gallery-1793178600-623402270 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170822-321498458 .carousel-item .figure {
+#gallery-1793178600-623402270 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4132,11 +4132,11 @@ cheers</p>
   text-align: center;
 }
 
-#gallery-1793170822-321498458 .carousel-item .figure .gallery-img {
+#gallery-1793178600-623402270 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170822-321498458 .carousel-item .figure .figure-caption {
+#gallery-1793178600-623402270 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4145,13 +4145,13 @@ cheers</p>
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170822-321498458 .carousel-item .gallery-img {
+  #gallery-1793178600-623402270 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170822-321498458 .carousel-item .gallery-img {
+  #gallery-1793178600-623402270 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4393,7 +4393,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170842-472941807"
+     data-gallery-id="gallery-1793178614-572126189"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4415,7 +4415,7 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 
 <style>
  
-#gallery-1793170842-472941807 .carousel-item .gallery-img {
+#gallery-1793178614-572126189 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4423,11 +4423,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   display: block !important;
 }
 
-#gallery-1793170842-472941807 .carousel-item {
+#gallery-1793178614-572126189 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170842-472941807 .carousel-item .figure {
+#gallery-1793178614-572126189 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4436,11 +4436,11 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
   text-align: center;
 }
 
-#gallery-1793170842-472941807 .carousel-item .figure .gallery-img {
+#gallery-1793178614-572126189 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170842-472941807 .carousel-item .figure .figure-caption {
+#gallery-1793178614-572126189 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4449,13 +4449,13 @@ Do you need help setting up complex forms? Don&rsquo;t hesitate to <a href="/qgi
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170842-472941807 .carousel-item .gallery-img {
+  #gallery-1793178614-572126189 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170842-472941807 .carousel-item .gallery-img {
+  #gallery-1793178614-572126189 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4617,7 +4617,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170836-718352889"
+     data-gallery-id="gallery-1793178610-358918450"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4646,7 +4646,7 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 
 <style>
  
-#gallery-1793170836-718352889 .carousel-item .gallery-img {
+#gallery-1793178610-358918450 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4654,11 +4654,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   display: block !important;
 }
 
-#gallery-1793170836-718352889 .carousel-item {
+#gallery-1793178610-358918450 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170836-718352889 .carousel-item .figure {
+#gallery-1793178610-358918450 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4667,11 +4667,11 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
   text-align: center;
 }
 
-#gallery-1793170836-718352889 .carousel-item .figure .gallery-img {
+#gallery-1793178610-358918450 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170836-718352889 .carousel-item .figure .figure-caption {
+#gallery-1793178610-358918450 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4680,13 +4680,13 @@ and quietly releasing &lt;strong&gt;QField 1.3 - Ben Nevis&lt;/strong&gt; we cou
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170836-718352889 .carousel-item .gallery-img {
+  #gallery-1793178610-358918450 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170836-718352889 .carousel-item .gallery-img {
+  #gallery-1793178610-358918450 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -4802,7 +4802,7 @@ and &lt;a href="https://twitter.com/QFieldForQGIS" target="_blank" rel="noopener
 worth 550€&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="gallery-wrapper"
-data-gallery-id="gallery-1793170843-705423542"
+data-gallery-id="gallery-1793178614-833153798"
 data-autoplay="false"
 data-interval="5000"
 data-controls="true"
@@ -4829,17 +4829,17 @@ loading="lazy"&gt;
 &lt;figcaption class="figure-caption text-center"&gt;Assets management&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/div&gt;
 &lt;style&gt;
-#gallery-1793170843-705423542 .carousel-item .gallery-img {
+#gallery-1793178614-833153798 .carousel-item .gallery-img {
 height: 400px !important;
 width: 100% !important;
 object-fit: cover !important;
 object-position: center center !important;
 display: block !important;
 }
-#gallery-1793170843-705423542 .carousel-item {
+#gallery-1793178614-833153798 .carousel-item {
 height: auto;
 }
-#gallery-1793170843-705423542 .carousel-item .figure {
+#gallery-1793178614-833153798 .carousel-item .figure {
 margin: 0;
 width: 100%;
 display: flex;
@@ -4847,10 +4847,10 @@ justify-content: center;
 position: relative;
 text-align: center;
 }
-#gallery-1793170843-705423542 .carousel-item .figure .gallery-img {
+#gallery-1793178614-833153798 .carousel-item .figure .gallery-img {
 width: 100% !important;
 }
-#gallery-1793170843-705423542 .carousel-item .figure .figure-caption {
+#gallery-1793178614-833153798 .carousel-item .figure .figure-caption {
 position: absolute;
 bottom: 1rem;
 left: 50%;
@@ -4858,12 +4858,12 @@ transform: translateX(-50%);
 margin: 0;
 }
 @media (max-width: 768px) {
-#gallery-1793170843-705423542 .carousel-item .gallery-img {
+#gallery-1793178614-833153798 .carousel-item .gallery-img {
 height: 300px !important;
 }
 }
 @media (max-width: 576px) {
-#gallery-1793170843-705423542 .carousel-item .gallery-img {
+#gallery-1793178614-833153798 .carousel-item .gallery-img {
 height: 250px !important;
 }
 }
@@ -4893,7 +4893,7 @@ height: 250px !important;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170843-705423542"
+     data-gallery-id="gallery-1793178614-833153798"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -4928,7 +4928,7 @@ height: 250px !important;
 
 <style>
  
-#gallery-1793170843-705423542 .carousel-item .gallery-img {
+#gallery-1793178614-833153798 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -4936,11 +4936,11 @@ height: 250px !important;
   display: block !important;
 }
 
-#gallery-1793170843-705423542 .carousel-item {
+#gallery-1793178614-833153798 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170843-705423542 .carousel-item .figure {
+#gallery-1793178614-833153798 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -4949,11 +4949,11 @@ height: 250px !important;
   text-align: center;
 }
 
-#gallery-1793170843-705423542 .carousel-item .figure .gallery-img {
+#gallery-1793178614-833153798 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170843-705423542 .carousel-item .figure .figure-caption {
+#gallery-1793178614-833153798 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -4962,13 +4962,13 @@ height: 250px !important;
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170843-705423542 .carousel-item .gallery-img {
+  #gallery-1793178614-833153798 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170843-705423542 .carousel-item .gallery-img {
+  #gallery-1793178614-833153798 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5102,7 +5102,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170833-474637412"
+     data-gallery-id="gallery-1793178608-265331332"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5131,7 +5131,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1793170833-474637412 .carousel-item .gallery-img {
+#gallery-1793178608-265331332 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5139,11 +5139,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1793170833-474637412 .carousel-item {
+#gallery-1793178608-265331332 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170833-474637412 .carousel-item .figure {
+#gallery-1793178608-265331332 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5152,11 +5152,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1793170833-474637412 .carousel-item .figure .gallery-img {
+#gallery-1793178608-265331332 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170833-474637412 .carousel-item .figure .figure-caption {
+#gallery-1793178608-265331332 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5165,13 +5165,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170833-474637412 .carousel-item .gallery-img {
+  #gallery-1793178608-265331332 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170833-474637412 .carousel-item .gallery-img {
+  #gallery-1793178608-265331332 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5190,7 +5190,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170833-475067101"
+     data-gallery-id="gallery-1793178608-265802969"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5281,7 +5281,7 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 
 <style>
  
-#gallery-1793170833-475067101 .carousel-item .gallery-img {
+#gallery-1793178608-265802969 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5289,11 +5289,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   display: block !important;
 }
 
-#gallery-1793170833-475067101 .carousel-item {
+#gallery-1793178608-265802969 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170833-475067101 .carousel-item .figure {
+#gallery-1793178608-265802969 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5302,11 +5302,11 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
   text-align: center;
 }
 
-#gallery-1793170833-475067101 .carousel-item .figure .gallery-img {
+#gallery-1793178608-265802969 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170833-475067101 .carousel-item .figure .figure-caption {
+#gallery-1793178608-265802969 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5315,13 +5315,13 @@ Marco Bernasocchi then welcomed everyone and introduced our company. We had thre
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170833-475067101 .carousel-item .gallery-img {
+  #gallery-1793178608-265802969 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170833-475067101 .carousel-item .gallery-img {
+  #gallery-1793178608-265802969 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
@@ -5784,24 +5784,24 @@ QField is an Open Source project led by OPENGIS.ch LLC, more <a href="/android-g
 Also if you need a specific feature, <a href="/contact/">contact us</a>
  to sponsor its development.</p>
 ]]></content:encoded><category domain="categories">android-qgis</category><category domain="categories">featured</category><category domain="categories">gis</category><category domain="categories">qfield</category><category domain="categories">qgis</category><category domain="tags">qgis.org</category></item><item><title>A star is born, QGIS mobile is now QField</title><link>https://qfield.org/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</link><pubDate>Wed, 28 Jan 2015 08:02:57 +0000</pubDate><guid>https://qfield.org/blog/2015/01/28/a-star-is-born-qgis-mobile-is-now-qfield/</guid><description>&lt;div class="gallery-wrapper"
-data-gallery-id="gallery-1793170835-917382046"
+data-gallery-id="gallery-1793178610-325668827"
 data-autoplay="false"
 data-interval="5000"
 data-controls="true"
 data-indicators="true"&gt;
 &lt;/div&gt;
 &lt;style&gt;
-#gallery-1793170835-917382046 .carousel-item .gallery-img {
+#gallery-1793178610-325668827 .carousel-item .gallery-img {
 height: 400px !important;
 width: 100% !important;
 object-fit: cover !important;
 object-position: center center !important;
 display: block !important;
 }
-#gallery-1793170835-917382046 .carousel-item {
+#gallery-1793178610-325668827 .carousel-item {
 height: auto;
 }
-#gallery-1793170835-917382046 .carousel-item .figure {
+#gallery-1793178610-325668827 .carousel-item .figure {
 margin: 0;
 width: 100%;
 display: flex;
@@ -5809,10 +5809,10 @@ justify-content: center;
 position: relative;
 text-align: center;
 }
-#gallery-1793170835-917382046 .carousel-item .figure .gallery-img {
+#gallery-1793178610-325668827 .carousel-item .figure .gallery-img {
 width: 100% !important;
 }
-#gallery-1793170835-917382046 .carousel-item .figure .figure-caption {
+#gallery-1793178610-325668827 .carousel-item .figure .figure-caption {
 position: absolute;
 bottom: 1rem;
 left: 50%;
@@ -5820,12 +5820,12 @@ transform: translateX(-50%);
 margin: 0;
 }
 @media (max-width: 768px) {
-#gallery-1793170835-917382046 .carousel-item .gallery-img {
+#gallery-1793178610-325668827 .carousel-item .gallery-img {
 height: 300px !important;
 }
 }
 @media (max-width: 576px) {
-#gallery-1793170835-917382046 .carousel-item .gallery-img {
+#gallery-1793178610-325668827 .carousel-item .gallery-img {
 height: 250px !important;
 }
 }
@@ -5837,7 +5837,7 @@ height: 250px !important;
 
 
 <div class="gallery-wrapper" 
-     data-gallery-id="gallery-1793170835-917382046"
+     data-gallery-id="gallery-1793178610-325668827"
      data-autoplay="false"
      data-interval="5000"
      data-controls="true"
@@ -5847,7 +5847,7 @@ height: 250px !important;
 
 <style>
  
-#gallery-1793170835-917382046 .carousel-item .gallery-img {
+#gallery-1793178610-325668827 .carousel-item .gallery-img {
   height: 400px !important;
   width: 100% !important;
   object-fit: cover !important;
@@ -5855,11 +5855,11 @@ height: 250px !important;
   display: block !important;
 }
 
-#gallery-1793170835-917382046 .carousel-item {
+#gallery-1793178610-325668827 .carousel-item {
   height: auto;
 }
 
-#gallery-1793170835-917382046 .carousel-item .figure {
+#gallery-1793178610-325668827 .carousel-item .figure {
   margin: 0;
   width: 100%;
   display: flex;
@@ -5868,11 +5868,11 @@ height: 250px !important;
   text-align: center;
 }
 
-#gallery-1793170835-917382046 .carousel-item .figure .gallery-img {
+#gallery-1793178610-325668827 .carousel-item .figure .gallery-img {
   width: 100% !important;
 }
 
-#gallery-1793170835-917382046 .carousel-item .figure .figure-caption {
+#gallery-1793178610-325668827 .carousel-item .figure .figure-caption {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -5881,13 +5881,13 @@ height: 250px !important;
 }
 
 @media (max-width: 768px) {
-  #gallery-1793170835-917382046 .carousel-item .gallery-img {
+  #gallery-1793178610-325668827 .carousel-item .gallery-img {
     height: 300px !important;
   }
 }
 
 @media (max-width: 576px) {
-  #gallery-1793170835-917382046 .carousel-item .gallery-img {
+  #gallery-1793178610-325668827 .carousel-item .gallery-img {
     height: 250px !important;
   }
 }
