@@ -31,7 +31,7 @@ Over the following years, different programmes across NIBIO gradually took up QF
 
 - **3Q biodiversity monitoring.** NIBIO's long-running programme tracking plants, birds, and insects across around 1,000 Norwegian agricultural landscape sites. Researchers replaced paper forms and audio recordings with structured digital capture, with photos and observation data syncing directly to the server from the field.
 - **Pollinator surveys.** Point observations of bumblebees, bees, and wildflowers, with photo documentation and one-to-many relationships between survey sites and individual observations.
-- **Vegetation mapping.** In 2025, NIBIO made the full transition for their grazing-land surveys: fieldworkers now digitise polygon boundaries directly in QField, working against aerial imagery with topology rules applied in real time. The stereoscopes and paper maps are gone.
+- **Vegetation mapping.** In 2026, NIBIO made the full transition for their grazing-land surveys: fieldworkers now digitise polygon boundaries directly in QField, working against aerial imagery with topology rules applied in real time. The stereoscopes and paper maps are gone.
 
 For each new programme, Anne refined the forms. Toggle buttons replaced dropdown lists for faster input in the field. Colour-coded symbology gave researchers an immediate read on progress: a feature not yet started shows as one colour, in progress as another, complete as a third. Zooming out, a fieldworker can see at a glance exactly which sites still need attention. Strict mandatory fields are balanced carefully against field realities, because sometimes you need to set the tablet down, dig into the soil, and come back.
 
