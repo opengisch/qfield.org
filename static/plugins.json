@@ -1,4 +1,15 @@
 [
+    {
+    "uuid": "agrogrid-english",
+    "name": "AgroGrid",
+    "description": "Split field polygons into grid zones for soil sampling. Move and rotate the grid before saving the split to the original layer.",
+    "icon": "https://raw.githubusercontent.com/erse486/agrogrid/main/plugin/icon.svg",
+    "version": "0.1.5",
+    "download": "https://raw.githubusercontent.com/erse486/agrogrid/main/AgroGrid%20English/agrogrid-english-0.1.5.zip",
+    "minimum_version": "WPISZ_WERSJE_QFIELD",
+    "homepage": "https://github.com/erse486/agrogrid",
+    "author": "erse486"
+  },
   {
     "uuid": "qfield-osrm-routing",
     "name": "OSRM Routing",
