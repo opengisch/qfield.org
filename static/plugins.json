@@ -6,7 +6,7 @@
     "icon": "https://raw.githubusercontent.com/erse486/agrogrid/main/plugin/icon.svg",
     "version": "0.1.5",
     "download": "https://raw.githubusercontent.com/erse486/agrogrid/main/AgroGrid%20English/agrogrid-english-0.1.5.zip",
-    "minimum_version": "WPISZ_WERSJE_QFIELD",
+    "minimum_version": "4.3.8",
     "homepage": "https://github.com/erse486/agrogrid",
     "author": "erse486"
   },
