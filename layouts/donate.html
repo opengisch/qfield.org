@@ -64,11 +64,11 @@
                   <div class="donation-options">
                     {{ range $amountIndex, $amount := $interval.amounts }}
                     <a 
-                      href="{{ $data.base_url }}&tid={{ $interval.param }}" 
+                      href="{{ $data.base_url }}&donation[preselect_amount]={{ $amount }}&donation[preselect_interval]={{ $interval.param }}" 
                       class="donation-btn{{ if and (eq $index 0) (eq $amount $interval.default_amount) }} selected{{ end }}" 
                       data-amount="{{ $amount }}"
                       data-interval="{{ $interval.param }}">
-                      CHF {{ $amount }}.00
+                      {{ printf "EUR %.2f" (float $amount) }}
                     </a>
                     {{ end }}
                   </div>
