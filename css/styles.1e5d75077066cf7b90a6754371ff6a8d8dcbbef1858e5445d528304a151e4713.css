@@ -934,6 +934,7 @@ html {
   --hw-tint: rgba(128, 204, 40, 0.12);
   --hw-section-bg: rgba(128, 204, 40, 0.06);
   --hw-glass-bg: transparent;
+  --hw-photo-tile-bg: rgba(255, 255, 255, 0.3);
   --hw-glass-shadow: none;
   --hw-logo-bg: var(--hw-visual-bg); }
   .hw-page .hw-hero {
@@ -958,7 +959,7 @@ html {
     aspect-ratio: 1;
     border-radius: 1.5rem;
     overflow: hidden;
-    background: var(--hw-card-bg);
+    background: var(--hw-card-bg) !important;
     border: 2px solid var(--qfield-color);
     box-shadow: var(--hw-card-shadow);
     transition: transform 0.3s ease; }
@@ -990,7 +991,7 @@ html {
     aspect-ratio: 4 / 3;
     padding: 4rem;
     border-radius: 2rem;
-    background: var(--hw-glass-bg);
+    background: var(--hw-glass-bg) !important;
     box-shadow: var(--hw-glass-shadow);
     border: 2px solid var(--qfield-color);
     transform: rotate(-2deg);
@@ -1001,12 +1002,20 @@ html {
       width: 100%;
       height: 100%;
       object-fit: contain; }
+  .hw-page .hw-feature-tile--photo {
+    aspect-ratio: auto;
+    padding: 0;
+    overflow: hidden;
+    background: var(--hw-photo-tile-bg) !important; }
+    .hw-page .hw-feature-tile--photo img {
+      display: block;
+      height: auto; }
   .hw-page .hw-collage-tile--logo {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1.75rem;
-    background: var(--hw-glass-bg);
+    background: var(--hw-glass-bg) !important;
     box-shadow: var(--hw-glass-shadow); }
     .hw-page .hw-collage-tile--logo img {
       width: 100%;
@@ -1207,6 +1216,7 @@ html {
   --hw-tint: rgba(128, 204, 40, 0.18);
   --hw-section-bg: rgba(128, 204, 40, 0.08);
   --hw-glass-bg: rgba(255, 255, 255, 0.85);
+  --hw-photo-tile-bg: rgba(255, 255, 255, 0.85);
   --hw-glass-shadow: var(--hw-card-shadow);
   --hw-logo-bg: #fff; }
   :root[data-bs-theme='dark'] .hw-page .hw-hero {
