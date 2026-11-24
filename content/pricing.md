@@ -4,21 +4,14 @@ type: "page"
 layout: "pricing"
 date: 2026-07-08T12:00:00+02:00
 draft: false
+hero:
+  title: "QField is free."
+  highlight: "Here's how it stays that way."
+  lead: 'QField is free and open source, and it stays that way because of what surrounds it. Teams pay for the <a class="green-link text-decoration-none fw-normal" href="https://qfield.cloud" target="_blank" rel="noopener">hosted cloud</a> and for expert help because it saves them time. Anyone can also sponsor a feature or fund development directly. All of it goes back into the app.'
+  cta:
+    text: "Download QField"
+    url: "/get/"
 ---
-
-<section class="py-5 text-center" aria-labelledby="hero-heading">
-<div class="row justify-content-center">
-<div class="col-lg-8">
-
-<h1 id="hero-heading" class="display-4 mb-4">QField is free. <br> Here's how it stays that way.</h1>
-
-<p class="lead">QField is free and open source, and it stays that way because of what surrounds it. Teams pay for the <a class="green-link text-decoration-none fw-normal" href="https://qfield.cloud" target="_blank" rel="noopener">hosted cloud</a> and for expert help because it saves them time. Anyone can also sponsor a feature or fund development directly. All of it goes back into the app.</p>
-
-{{< button href="/get/" text="Download QField" target="_self" size="btn" >}}
-
-</div>
-</div>
-</section>
 
 <div class="pricing-section">
 
