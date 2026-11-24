@@ -1582,3 +1582,8 @@ html {
     background-image: none;
   }
 }
+
+// Success stories hero reuses the hardware collage; story photos crop from the centre
+.success-stories .hw-collage-tile img {
+  object-position: center;
+}

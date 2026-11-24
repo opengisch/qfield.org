@@ -8,18 +8,106 @@
 {{ $otherPages := sort (where .Pages "Params.featured" "ne" true) "Date" | collections.Reverse }}
 {{ $displayPages := $featuredPages | append $otherPages }}
 
+{{- /* Resolve each story's card image once; used by the hero collage and the grid. */ -}}
+{{ $cards := slice }}
+{{ $placeholderImagePath := "images/ss-placeholder.webp" }}
+{{ range $displayPages }}
+  {{ $isFeatured := .Params.featured }}
+  {{ $imagePath := default "" .Params.image }}
+  {{ if .Params.images }}
+    {{ $firstImage := index .Params.images 0 }}
+    {{ $imagePath = $firstImage }}
+  {{ end }}
+  {{ $isExternal := or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") }}
+  {{ $resolvedImage := "" }}
+  {{ if $isExternal }}
+    {{ $resolvedImage = $imagePath }}
+  {{ else }}
+    {{ if ne $imagePath "" }}
+      {{ $bundleImage := .Resources.GetMatch $imagePath }}
+      {{ if not $bundleImage }}
+        {{ $bundleImage = .Resources.GetMatch (printf "**/%s" (path.Base $imagePath)) }}
+      {{ end }}
+      {{ with $bundleImage }}
+        {{ $resolvedImage = .RelPermalink }}
+      {{ end }}
+    {{ end }}
+
+    {{ if and (eq $resolvedImage "") (ne $imagePath "") }}
+      {{ $staticCandidate := $imagePath }}
+      {{ $hasLeadingSlash := hasPrefix $staticCandidate "/" }}
+      {{ if and (not $hasLeadingSlash) (not (hasPrefix $staticCandidate "images/")) }}
+        {{ $staticCandidate = printf "images/ss/%s" $staticCandidate }}
+      {{ end }}
+      {{ $staticImagePath := printf "static/%s" (replaceRE "^/" "" $staticCandidate) }}
+      {{ if fileExists $staticImagePath }}
+        {{ $resolvedImage = $staticCandidate | relURL }}
+      {{ end }}
+    {{ end }}
+
+    {{ if eq $resolvedImage "" }}
+      {{ $pageImages := .Resources.ByType "image" }}
+      {{ if gt (len $pageImages) 0 }}
+        {{ $firstImage := index $pageImages 0 }}
+        {{ $resolvedImage = $firstImage.RelPermalink }}
+      {{ end }}
+    {{ end }}
+
+    {{ if eq $resolvedImage "" }}
+      {{ $resolvedImage = $placeholderImagePath | relURL }}
+    {{ end }}
+  {{ end }}
+  {{ $cards = $cards | append (dict "page" . "image" $resolvedImage "featured" $isFeatured "placeholder" (eq $resolvedImage ($placeholderImagePath | relURL))) }}
+{{ end }}
+
+{{- /* Hero collage: the stories listed in `heroStories` (folder names), otherwise
+       the first four stories with their own photo. */ -}}
+{{ $heroCards := first 4 (where $cards "placeholder" false) }}
+{{ with .Params.heroStories }}
+  {{ $heroCards = slice }}
+  {{ range $name := . }}
+    {{ range $cards }}
+      {{ if eq .page.File.ContentBaseName $name }}{{ $heroCards = $heroCards | append . }}{{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{- /* Hero title with its last word in QField green, e.g. "Success <Stories.>" */ -}}
+{{ $words := split $heroTitle " " }}
+{{ $lastWord := index $words (sub (len $words) 1) }}
+{{ $leadWords := delimit (first (sub (len $words) 1) $words) " " }}
+
 <div class="success-stories">
-  <section class="py-5 bg-light text-center">
-    <div class="container">
-      <h1 class="display-5 mb-4">{{ $heroTitle | safeHTML }}</h1>
-      {{ with $heroLead }}
-      <p class="lead mb-3">{{ . | safeHTML }}</p>
-      {{ end }}
-      {{ with $heroCta }}
-      <p class="mb-0">{{ . | safeHTML }}</p>
-      {{ end }}
-    </div>
-  </section>
+  <div class="hw-page">
+    <section class="hw-hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <h1 id="hero-heading" class="hw-hero-title mb-4">
+              {{ $leadWords | safeHTML }}<br><span>{{ $lastWord | safeHTML }}.</span>
+            </h1>
+            {{ with $heroLead }}
+            <p class="lead mb-4">{{ . | safeHTML }}</p>
+            {{ end }}
+            {{ with $heroCta }}
+            <p class="mb-0">{{ . | safeHTML }}</p>
+            {{ end }}
+          </div>
+          {{ with $heroCards }}
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="hw-collage">
+              {{ range . }}
+              <a class="hw-collage-tile" href="{{ .page.RelPermalink }}" aria-label="{{ .page.Title | plainify }}">
+                <img src="{{ .image }}" alt="" loading="eager">
+              </a>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  </div>
 
   <section class="py-5">
     <div class="container">
@@ -34,63 +122,21 @@
       </div>
 
       <div class="ss-card-grid">
-      {{ $placeholderImagePath := "images/ss-placeholder.webp" }}
-      {{ range $displayPages }}
-        {{ $isFeatured := .Params.featured }}
-        {{ $imagePath := default "" .Params.image }}
-        {{ if .Params.images }}
-          {{ $firstImage := index .Params.images 0 }}
-          {{ $imagePath = $firstImage }}
+      {{ range $cards }}
+        {{ $isFeatured := .featured }}
+        {{ $resolvedImage := .image }}
+        {{ with .page }}
+          <div class="ss-card-wrapper success-story-card" data-categories="{{ delimit .Params.categories " " }}">
+            <a href="{{ .RelPermalink }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ $resolvedImage }}');">
+              <div class="ss-card-content">
+                {{ if $isFeatured }}
+                <span class="badge rounded-pill border border-light border-opacity-50 bg-dark bg-opacity-25 text-white fw-normal small px-2 py-1 position-absolute top-0 start-0 m-2">Featured</span>
+                {{ end }}
+                <h2 class="ss-card-title">{{ .Title | safeHTML }}</h2>
+              </div>
+            </a>
+          </div>
         {{ end }}
-        {{ $isExternal := or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") }}
-        {{ $resolvedImage := "" }}
-        {{ if $isExternal }}
-          {{ $resolvedImage = $imagePath }}
-        {{ else }}
-          {{ if ne $imagePath "" }}
-            {{ $bundleImage := .Resources.GetMatch $imagePath }}
-            {{ if not $bundleImage }}
-              {{ $bundleImage = .Resources.GetMatch (printf "**/%s" (path.Base $imagePath)) }}
-            {{ end }}
-            {{ with $bundleImage }}
-              {{ $resolvedImage = .RelPermalink }}
-            {{ end }}
-          {{ end }}
-
-          {{ if and (eq $resolvedImage "") (ne $imagePath "") }}
-            {{ $staticCandidate := $imagePath }}
-            {{ $hasLeadingSlash := hasPrefix $staticCandidate "/" }}
-            {{ if and (not $hasLeadingSlash) (not (hasPrefix $staticCandidate "images/")) }}
-              {{ $staticCandidate = printf "images/ss/%s" $staticCandidate }}
-            {{ end }}
-            {{ $staticImagePath := printf "static/%s" (replaceRE "^/" "" $staticCandidate) }}
-            {{ if fileExists $staticImagePath }}
-              {{ $resolvedImage = $staticCandidate | relURL }}
-            {{ end }}
-          {{ end }}
-
-          {{ if eq $resolvedImage "" }}
-            {{ $pageImages := .Resources.ByType "image" }}
-            {{ if gt (len $pageImages) 0 }}
-              {{ $firstImage := index $pageImages 0 }}
-              {{ $resolvedImage = $firstImage.RelPermalink }}
-            {{ end }}
-          {{ end }}
-
-          {{ if eq $resolvedImage "" }}
-            {{ $resolvedImage = $placeholderImagePath | relURL }}
-          {{ end }}
-        {{ end }}
-        <div class="ss-card-wrapper success-story-card" data-categories="{{ delimit .Params.categories " " }}">
-          <a href="{{ .RelPermalink }}" class="ss-card text-white text-decoration-none" style="background-image: url('{{ $resolvedImage }}');">
-            <div class="ss-card-content">
-              {{ if $isFeatured }}
-              <span class="badge rounded-pill border border-light border-opacity-50 bg-dark bg-opacity-25 text-white fw-normal small px-2 py-1 position-absolute top-0 start-0 m-2">Featured</span>
-              {{ end }}
-              <h2 class="ss-card-title">{{ .Title | safeHTML }}</h2>
-            </div>
-          </a>
-        </div>
       {{ end }}
       </div>
     </div>
