@@ -265,7 +265,7 @@ menu:
         divider: true
     - name: "Newsletter"
       parent: "resources"
-      url: "https://qfield.org/landing/newsletter"
+      url: "/landing/newsletter/"
       weight: 110
     # - name: "Pricing"
     #   identifier: "pricing"
