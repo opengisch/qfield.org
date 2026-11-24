@@ -1240,11 +1240,6 @@ html {
     border-bottom: 1px solid var(--hw-card-border);
   }
 
-  .hw-hero-logo {
-    width: 140px;
-    height: auto;
-  }
-
   .hw-hero-title {
     font-size: clamp(2.5rem, 5vw, 3.75rem);
     font-weight: 600;
@@ -1306,6 +1301,32 @@ html {
       color: #fff;
       background: var(--qfield-color);
       border-color: var(--qfield-color);
+    }
+  }
+
+  // Single large logo tile (replaces the collage on /hardware-partners/).
+  // White in both themes, since the logo is dark artwork on transparent.
+  .hw-feature-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 4 / 3;
+    padding: 4rem;
+    border-radius: 2rem;
+    background: #fff;
+    border: 1px solid var(--hw-card-border);
+    box-shadow: var(--hw-card-shadow);
+    transform: rotate(-2deg);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: rotate(-2deg) translateY(-0.4rem) scale(1.02);
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
   }
 
