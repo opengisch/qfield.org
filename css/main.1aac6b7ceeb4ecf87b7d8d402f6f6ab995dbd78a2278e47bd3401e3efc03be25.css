@@ -1576,6 +1576,19 @@ p:has(> img) {
   padding: 3em 0;
 }
 
+#trusted-by {
+  background-color: #f2f2f2;
+  background-image: url('../images/bg/footer.jpg');
+  background-size: cover !important;
+  margin-top: 60px;
+}
+
+/* trusted-by is the last home block: let it touch the footer */
+.home .site-footer,
+.home .footer-subscribe-banner {
+  margin-top: 0;
+}
+
 #about {
   background-color: #f2f2f2;
   background-image: url('../images/bg/footer.jpg');
@@ -3867,7 +3880,8 @@ div.explanation {
 }
 
 [data-bs-theme='dark'] #about,
-[data-bs-theme='dark'] #customers {
+[data-bs-theme='dark'] #customers,
+[data-bs-theme='dark'] #trusted-by {
   background-color: #1f1f1f;
   background-image: none;
 }
