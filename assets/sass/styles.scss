@@ -1348,6 +1348,14 @@ html {
     }
   }
 
+  // Donation form in the /donation/ hero: tile look (green outline, rounded),
+  // but no tilt since it is a form
+  .hw-donation-card {
+    border: 2px solid var(--qfield-color);
+    border-radius: 2rem;
+    box-shadow: var(--hw-card-shadow);
+  }
+
   // Logo tiles in a collage: see-through white, like the single large logo tile
   .hw-collage-tile--logo {
     display: flex;
