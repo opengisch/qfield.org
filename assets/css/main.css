@@ -2379,7 +2379,7 @@ div.explanation {
 
 /* base logo styles */
 .client-logo {
-  max-height: 50px;
+  max-height: 91px;
   max-width: auto;
   object-fit: contain;
   margin: 0px 20px 50px 20px;
@@ -2388,27 +2388,27 @@ div.explanation {
 
 /* individual logo sizes */
 .client-logo.logo-kgr {
-  max-height: 45px !important;
+  max-height: 82px !important;
 }
 
 .client-logo.logo-db {
-  max-height: 40px !important;
+  max-height: 73px !important;
 }
 
 .client-logo.logo-nls {
-  max-height: 50px !important;
+  max-height: 91px !important;
 }
 
 .client-logo.logo-un {
-  max-height: 65px !important;
+  max-height: 118px !important;
 }
 
 .client-logo.logo-maff {
-  max-height: 67px !important;
+  max-height: 122px !important;
 }
 
 .client-logo.logo-zh {
-  max-height: 40px !important;
+  max-height: 73px !important;
 }
 
 .logo-link {
