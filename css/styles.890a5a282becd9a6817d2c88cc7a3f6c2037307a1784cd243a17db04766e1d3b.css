@@ -984,6 +984,16 @@ html {
       color: #fff;
       background: var(--qfield-color);
       border-color: var(--qfield-color); }
+  .hw-page .hw-collage--3 {
+    grid-template-columns: repeat(3, 1fr); }
+    .hw-page .hw-collage--3 .hw-collage-tile:nth-child(even) {
+      transform: none; }
+    .hw-page .hw-collage--3 .hw-collage-tile:nth-child(3n + 2) {
+      transform: translateY(2rem); }
+    .hw-page .hw-collage--3 .hw-collage-tile:hover {
+      transform: translateY(-0.4rem) scale(1.02); }
+    .hw-page .hw-collage--3 .hw-collage-tile:nth-child(3n + 2):hover {
+      transform: translateY(1.6rem) scale(1.02); }
   .hw-page .hw-why-icon {
     display: inline-flex;
     align-items: center;
@@ -1172,5 +1182,5 @@ html {
     background-color: #1f1f1f;
     background-image: none; }
 
-.success-stories .hw-collage-tile img {
+.hw-page--photos .hw-collage-tile img {
   object-position: center; }
