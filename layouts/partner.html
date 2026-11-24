@@ -1,12 +1,28 @@
 {{ define "main" }}
 
 <!-- Section #1: claim -->
-<section class="py-5 text-center" aria-labelledby="hero-heading">
+<div class="hw-page">
+  <section class="hw-hero" aria-labelledby="hero-heading">
     <div class="container">
-
-  <h1 id="hero-heading" class="display-4 mb-4">Collaborate with QField</h1>
-  </div>
-</section>
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h1 id="hero-heading" class="hw-hero-title mb-0">Collaborate with<br><span>QField.</span></h1>
+        </div>
+        {{ with hugo.Data.partner.programs }}
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="hw-collage hw-collage--3">
+            {{ range . }}
+            <a class="hw-collage-tile hw-collage-tile--logo" href="{{ partial "url.html" (dict "url" .cta.url) }}" aria-label="{{ .title }}">
+              <img src="{{ .icon.src | relURL }}" alt="{{ .icon.alt }}" loading="eager">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</div>
 
 <!-- Section #2: main points -->
 <section class="section-spacing text-center" id="highlights">

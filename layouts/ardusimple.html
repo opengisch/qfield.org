@@ -1,12 +1,38 @@
 {{ define "main" }}
+{{- $devices := where (hugo.Data.hardware.devices | default (slice)) "brand" "ArduSimple" -}}
+<div class="hw-page">
+  <section class="hw-hero" aria-labelledby="hero-heading">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h1 id="hero-heading" class="hw-hero-title mb-0">QField +<br><span>ArduSimple.</span></h1>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="hw-collage hw-collage--3">
+            <div class="hw-collage-tile hw-collage-tile--logo">
+              <img src="{{ "images/qfield_green_logo.svg" | relURL }}" alt="QField" loading="eager">
+            </div>
+            {{ with .Params.hero.image }}
+            <div class="hw-collage-tile hw-collage-tile--logo">
+              <img src="{{ . | relURL }}" alt="ArduSimple" loading="eager">
+            </div>
+            {{ end }}
+            {{ range $device := first 1 $devices }}
+            {{ with $device.image }}
+            <a class="hw-collage-tile" href="{{ partial "url.html" (dict "url" "/hardware/") }}#{{ $device.id }}">
+              {{ partial "partner/logo.html" (dict "src" .src "alt" .alt "class" "" "loading" "eager") }}
+            </a>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
 <article class="ardusimple py-5">
   <div class="container">
-
-    {{ with .Params.hero.image }}
-    <div class="ardusimple__logo text-center mb-5">
-      <img src="{{ . }}" alt="{{ $.Title }}" class="ardusimple__logo-img" />
-    </div>
-    {{ end }}
 
     <div class="row justify-content-center">
       <div class="col-lg-11">

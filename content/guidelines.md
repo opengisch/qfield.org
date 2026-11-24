@@ -1,13 +1,13 @@
 ---
 type: "page"
+layout: "guidelines"
 title: "Brand Guidelines"
+claim: "QField Trademark and Brand Guidelines"
 description: "Guidelines for using the QField Brand."
 date: 2026-03-20T00:00:00+00:00
 draft: false
 
 ---
-
-# QField Trademark and Brand Guidelines
 
 We're thrilled that you want to refer to the QField project and sincerely appreciate your help in spreading the word.
 

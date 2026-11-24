@@ -6,7 +6,7 @@ type: landing
 layout: ardusimple
 
 hero:
-  image: "/images/partners/ardusimple_logo.svg"
+  image: "/images/partners/ardusimple-logo.svg"
 ---
 
 QField works seamlessly with ArduSimple RTK GNSS receivers to deliver reliable, survey-grade positioning for professional field data collection. Capture precise points, lines, and boundaries directly in your QGIS projects and compare them with authoritative datasets such as cadastral maps.
