@@ -3,26 +3,39 @@
 {{ $content := hugo.Data.ambassador.content }}
 
 <!-- Section #1: Header -->
-<section class="section-spacing text-center">
-  <div>
-    {{ partial "asset-image.html" (dict 
-      "src" "images/logo_qfield_ambassador.png"
-      "alt" "QField Ambassador Program Logo"
-      "class" "ambassador-logo"
-      "style" "width: 10%; height: auto;"
-    ) }}
-  </div>
-  <h1>{{ $content.intro.title }}</h1>
-</section>
+{{- /* Hero title with its last word in QField green */ -}}
+{{- $words := split $content.intro.title " " -}}
+{{- $lastWord := index $words (sub (len $words) 1) -}}
+{{- $leadWords := delimit (first (sub (len $words) 1) $words) " " -}}
+<div class="hw-page">
+  <section class="hw-hero" aria-labelledby="hero-heading">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h1 id="hero-heading" class="hw-hero-title mb-4">{{ $leadWords }}<br><span>{{ $lastWord }}.</span></h1>
+          {{ with $content.intro.description }}
+          <p class="lead mb-0">{{ . }}</p>
+          {{ end }}
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="hw-feature-tile">
+            {{ partial "asset-image.html" (dict
+              "src" "images/logo_qfield_ambassador.png"
+              "alt" "QField Ambassador Program Logo"
+            ) }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 
 <!-- Section #2: Introduction -->
 <section class="section-spacing">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <p class="lead">{{ $content.intro.description }}</p>
-
-        <h3 class="mt-5">{{ $content.about.title }}</h3>
+        <h3>{{ $content.about.title }}</h3>
         <p>{{ $content.about.description }}</p>
 
         <!-- Responsibilities -->
