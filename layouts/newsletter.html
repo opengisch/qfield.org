@@ -1,23 +1,33 @@
 {{ define "main" }}
-<article class="newsletter py-0">
+{{- /* Hero title with its last word in QField green */ -}}
+{{- $words := split (.Params.hero.headline | default .Title) " " -}}
+{{- $lastWord := index $words (sub (len $words) 1) -}}
+{{- $leadWords := delimit (first (sub (len $words) 1) $words) " " -}}
+<div class="hw-page">
+  <section class="hw-hero" aria-labelledby="hero-heading">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h1 id="hero-heading" class="hw-hero-title mb-4">{{ $leadWords }}<br><span>{{ $lastWord }}.</span></h1>
+          {{- with .Params.hero.sub }}
+          <p class="lead mb-0">{{ . | safeHTML }}</p>
+          {{- end }}
+        </div>
+        {{- with .Params.hero.image }}
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="hw-feature-tile hw-feature-tile--photo">
+            <img src="{{ . | relURL }}" alt="Preview of a QField Newsletter issue" loading="eager">
+          </div>
+        </div>
+        {{- end }}
+      </div>
+    </div>
+  </section>
+</div>
 
-  {{ with .Params.hero.image }}
-  <div class="newsletter__banner text-center mb-4 {{ if $.Params.hero.background }}newsletter__banner--bg{{ end }}"
-    {{ if $.Params.hero.background }}
-    style="background-image: url('{{ $.Params.hero.background }}');"
-    {{ end }}>
-    <img src="{{ . }}" alt="{{ $.Title }}" class="img-fluid w-100" />
-  </div>
-  {{ end }}
+<article class="newsletter pt-5 pb-0">
 
   <div class="container">
-
-    <header class="newsletter__header text-center mx-auto mb-5">
-      <h1 class="display-9 mb-3">{{ .Params.hero.headline | default .Title | safeHTML }}</h1>
-      {{ with .Params.hero.sub }}
-      <p class="lead text-muted">{{ . | safeHTML }}</p>
-      {{ end }}
-    </header>
 
     {{ with .Params.features }}
     <div class="text-center mb-5">

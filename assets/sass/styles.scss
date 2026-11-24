@@ -1333,6 +1333,19 @@ html {
     }
   }
 
+  // Picture in the single large tile (e.g. newsletter preview): fills the tile
+  .hw-feature-tile--photo {
+    aspect-ratio: auto;
+    padding: 0;
+    overflow: hidden;
+    background: #fff;
+
+    img {
+      display: block;
+      height: auto;
+    }
+  }
+
   // Logo tiles in a collage: see-through white, like the single large logo tile
   .hw-collage-tile--logo {
     display: flex;

@@ -5,8 +5,9 @@ type: landing
 layout: newsletter
 
 hero:
+  headline: "QField Newsletter"
   sub: "QField is evolving fast. <br>Get the latest releases, field tips, and community stories delivered to your inbox."
-  image: "/images/qf_nl_banner.png"
+  image: "/images/qf_nl_preview.png"
 draft: false
 cta_text: "<strong>Sign up below</strong> and join thousands of surveyors, ecologists, engineers, and GIS professionals who use <strong><span class=\"accent\">QField</span></strong> every day."
 features:
