@@ -1010,6 +1010,10 @@ html {
     .hw-page .hw-feature-tile--photo img {
       display: block;
       height: auto; }
+  .hw-page .hw-donation-card {
+    border: 2px solid var(--qfield-color);
+    border-radius: 2rem;
+    box-shadow: var(--hw-card-shadow); }
   .hw-page .hw-collage-tile--logo {
     display: flex;
     align-items: center;
