@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ============================================================================
    Page-specific styles
    ========================================================================= */
@@ -1014,6 +1015,102 @@ html {
     border: 2px solid var(--qfield-color);
     border-radius: 2rem;
     box-shadow: var(--hw-card-shadow); }
+  .hw-page .solution-title {
+    font-size: clamp(2rem, 3.6vw, 2.9rem); }
+  .hw-page .solution-breadcrumb {
+    font-size: 0.9rem;
+    color: var(--bs-secondary-color); }
+    .hw-page .solution-breadcrumb a {
+      color: var(--qfield-color);
+      text-decoration: none; }
+      .hw-page .solution-breadcrumb a:hover {
+        text-decoration: underline; }
+    .hw-page .solution-breadcrumb span {
+      margin: 0 0.35rem; }
+  .hw-page .solution-tagline {
+    font-size: 1.25rem;
+    font-weight: 600; }
+  .hw-page .solution-list {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .hw-page .solution-list li {
+      display: flex;
+      gap: 0.6rem;
+      align-items: baseline;
+      margin-bottom: 0.6rem; }
+    .hw-page .solution-list i {
+      flex-shrink: 0; }
+  .hw-page .solution-list--pains i {
+    color: var(--bs-secondary-color); }
+  .hw-page .solution-list--proof i {
+    color: var(--qfield-color); }
+  .hw-page .solution-content {
+    max-width: 50rem; }
+    .hw-page .solution-content h2 {
+      margin-top: 2.5rem;
+      margin-bottom: 1rem; }
+  .hw-page .solution-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem; }
+  .hw-page .solution-tag {
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    background: var(--hw-tint);
+    font-size: 0.8rem; }
+  .hw-page .solution-faq {
+    max-width: 50rem; }
+  .hw-page .solution-faq__item {
+    background: var(--hw-card-bg);
+    border: 1px solid var(--hw-card-border);
+    border-radius: 1rem;
+    margin-bottom: 0.75rem;
+    padding: 1rem 1.25rem; }
+    .hw-page .solution-faq__item summary {
+      cursor: pointer;
+      font-weight: 600;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem; }
+      .hw-page .solution-faq__item summary::-webkit-details-marker {
+        display: none; }
+      .hw-page .solution-faq__item summary::after {
+        content: '+';
+        color: var(--qfield-color);
+        font-weight: 700; }
+    .hw-page .solution-faq__item[open] summary {
+      margin-bottom: 0.75rem; }
+      .hw-page .solution-faq__item[open] summary::after {
+        content: '−'; }
+    .hw-page .solution-faq__item[open] {
+      border-color: var(--qfield-color); }
+  .hw-page .solution-chip {
+    padding: 0.35rem 0.9rem;
+    border: 1px solid var(--qfield-color);
+    border-radius: 999px;
+    color: var(--qfield-color);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease; }
+    .hw-page .solution-chip:hover, .hw-page .solution-chip:focus {
+      background: var(--qfield-color);
+      color: #fff; }
+  .hw-page .solution-count {
+    font-size: 0.9rem;
+    font-weight: 600;
+    vertical-align: middle;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    background: var(--hw-tint);
+    color: var(--qfield-color); }
+  .hw-page .solution-card-link {
+    color: inherit;
+    text-decoration: none; }
+    .hw-page .solution-card-link:hover, .hw-page .solution-card-link:focus {
+      border-color: var(--qfield-color); }
   .hw-page .hw-collage-tile--logo {
     display: flex;
     align-items: center;
