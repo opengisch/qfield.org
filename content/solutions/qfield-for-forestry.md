@@ -9,7 +9,7 @@ hiddenFromHomePage: true
 hiddenFromSearch: false
 
 tags: []
-categories: []
+categories: ["Environment, Agriculture & Natural Resources"]
 
 sitemap:
   priority: 0.7

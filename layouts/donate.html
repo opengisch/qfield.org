@@ -81,6 +81,13 @@
                 <a href="#" id="donate-link" class="donation-submit">
                   {{ $data.cta.text }}
                 </a>
+                {{- with index $data.intervals 0 }}
+                <noscript>
+                  <p class="small mt-3 mb-0">
+                    <a href="{{ $data.base_url }}&donation[preselect_amount]={{ .default_amount }}&donation[preselect_interval]={{ .param }}">Donate without JavaScript</a>
+                  </p>
+                </noscript>
+                {{- end }}
               </div>
 
             </div>

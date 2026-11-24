@@ -1232,7 +1232,7 @@ html {
   --hw-glass-bg: transparent;
   --hw-photo-tile-bg: rgba(255, 255, 255, 0.3);
   --hw-glass-shadow: none;
-  --hw-logo-bg: var(--hw-visual-bg);
+  --hw-logo-bg: #fff;
 
   .hw-hero {
     position: relative;
@@ -1577,7 +1577,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--hw-visual-bg);
+    background: var(--hw-visual-bg) !important; // see .hw-collage-tile
     overflow: hidden;
 
     img {
@@ -1590,10 +1590,12 @@ html {
     }
   }
 
-  // Logo variant: light tinted panel; white in dark mode since the logos are dark artwork
+  // Logo variant: white panel (both themes), since the logos are dark artwork
   .hw-partner-visual--logo {
     padding: 3rem;
-    background: var(--hw-logo-bg);
+    background: var(--hw-logo-bg) !important; // see .hw-collage-tile
+    border: 2px solid var(--qfield-color);
+    border-radius: 1.75rem;
 
     img {
       width: auto;
@@ -1725,7 +1727,7 @@ html {
   .hw-card-img {
     aspect-ratio: 4 / 3;
     overflow: hidden;
-    background: var(--hw-visual-bg);
+    background: var(--hw-visual-bg) !important; // see .hw-collage-tile
 
     img {
       width: 100%;
@@ -1753,7 +1755,7 @@ html {
   .hw-list-thumb {
     width: 160px;
     max-width: 100%;
-    background: var(--hw-visual-bg);
+    background: var(--hw-visual-bg) !important; // see .hw-collage-tile
   }
 
   .hw-cta {

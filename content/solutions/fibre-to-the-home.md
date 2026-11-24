@@ -9,7 +9,7 @@ hiddenFromHomePage: true
 hiddenFromSearch: false
 
 tags: []
-categories: []
+categories: ["Infrastructure, Construction & Utilities"]
 
 sitemap:
   priority: 0.7
