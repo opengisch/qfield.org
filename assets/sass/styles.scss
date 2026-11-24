@@ -1219,15 +1219,16 @@ html {
 }
 
 /* =========================================================================
-   Hardware Partner program (/hardware-partners/)
+   Hardware pages (/hardware-partners/, /hardware/)
    ========================================================================= */
-.hw-partners {
+.hw-page {
   --hw-card-bg: #fff;
   --hw-card-border: rgba(0, 0, 0, 0.08);
   --hw-card-shadow: 0 1.25rem 3rem rgba(0, 0, 0, 0.08);
   --hw-visual-bg: linear-gradient(135deg, rgba(128, 204, 40, 0.18), rgba(128, 204, 40, 0.04));
   --hw-tint: rgba(128, 204, 40, 0.12);
   --hw-hero-bg: linear-gradient(110deg, #f4f4f4 0%, #fff 55%, #eef7e3 100%);
+  --hw-section-bg: rgba(128, 204, 40, 0.06);
 
   .hw-hero {
     position: relative;
@@ -1426,6 +1427,78 @@ html {
     }
   }
 
+  // Tier links on /hardware (reuse .hw-why-icon)
+  .hw-tier {
+    color: inherit;
+    padding: 1.5rem 1rem;
+    border-radius: 1.5rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+
+    &:hover,
+    &:focus {
+      background: var(--hw-section-bg);
+      transform: translateY(-3px);
+    }
+  }
+
+  .hw-section-intro {
+    max-width: 46rem;
+    margin-inline: auto;
+  }
+
+  .hw-tinted {
+    background: var(--hw-section-bg);
+  }
+
+  // Device cards and list items on /hardware
+  .hw-card {
+    background: var(--hw-card-bg);
+    border: 1px solid var(--hw-card-border);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: var(--hw-card-shadow);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 1.5rem 3.5rem rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  .hw-card-img {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: var(--hw-visual-bg);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: right center;
+      transition: transform 0.5s ease;
+    }
+  }
+
+  .hw-card:hover .hw-card-img img {
+    transform: scale(1.04);
+  }
+
+  .hw-card-body {
+    padding: 1.75rem;
+  }
+
+  .hw-card-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+
+  .hw-list-thumb {
+    width: 160px;
+    max-width: 100%;
+    background: var(--hw-visual-bg);
+  }
+
   .hw-cta {
     padding: 2rem 0 5rem;
   }
@@ -1479,13 +1552,14 @@ html {
   }
 }
 
-:root[data-bs-theme='dark'] .hw-partners {
+:root[data-bs-theme='dark'] .hw-page {
   --hw-card-bg: rgba(255, 255, 255, 0.04);
   --hw-card-border: rgba(255, 255, 255, 0.12);
   --hw-card-shadow: 0 1.25rem 3rem rgba(0, 0, 0, 0.5);
   --hw-visual-bg: linear-gradient(135deg, rgba(128, 204, 40, 0.22), rgba(128, 204, 40, 0.04));
   --hw-tint: rgba(128, 204, 40, 0.18);
   --hw-hero-bg: linear-gradient(110deg, #1b1f1a 0%, var(--bs-body-bg) 55%, #1f2a16 100%);
+  --hw-section-bg: rgba(128, 204, 40, 0.08);
 
   .hw-hero {
     background: var(--hw-hero-bg);

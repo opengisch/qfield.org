@@ -4,55 +4,125 @@
   {{- $certifiedDevices := where ($hardware.devices | default (slice)) "level" "certified" -}}
   {{- $nativeDevices := where ($hardware.devices | default (slice)) "level" "native" -}}
 
-  <section class="py-5 border-bottom bg-body-tertiary">
+  {{- /* Title with its last word in QField green, e.g. "QField ready <devices.>" */ -}}
+  {{- $words := split ($content.title | default .Title) " " -}}
+  {{- $lastWord := index $words (sub (len $words) 1) -}}
+  {{- $leadWords := delimit (first (sub (len $words) 1) $words) " " -}}
+
+  {{- /* Device images for the hero collage, certified first. */ -}}
+  {{- $heroImages := slice -}}
+  {{- range (append $nativeDevices $certifiedDevices) -}}
+    {{- with .image -}}{{- $heroImages = $heroImages | append . -}}{{- end -}}
+  {{- end -}}
+
+<div class="hw-page">
+
+  <!-- Hero -->
+  <section class="hw-hero" aria-labelledby="hero-heading">
     <div class="container">
-      <div class="row align-items-center g-4">
-        <div class="col-lg-8">
-          <h1 class="display-5 fw-semibold mb-3">{{ $content.title | default .Title }}</h1>
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h1 id="hero-heading" class="hw-hero-title mb-4">
+            {{ $leadWords }}<br><span>{{ $lastWord }}.</span>
+          </h1>
           {{ with $content.intro.description }}
-            <p class="lead mb-3">{{ . | markdownify }}</p>
+            <p class="lead mb-4">{{ . | markdownify }}</p>
           {{ end }}
-          {{ with $content.intro.details }}
-            <div class="text-muted">{{ . | markdownify }}</div>
-          {{ end }}
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#certified" class="btn btn-primary rounded-pill px-4">
+              <i class="bi bi-patch-check me-1" aria-hidden="true"></i> Certified devices
+            </a>
+            <a href="#native" class="btn hw-btn-outline rounded-pill px-4">
+              <i class="bi bi-crosshair me-1" aria-hidden="true"></i> Native RTK devices
+            </a>
+          </div>
           {{ partial "hardware/cta.html" $content.intro.cta }}
         </div>
+        {{ with first 4 $heroImages }}
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="hw-collage">
+              {{ range . }}
+                <div class="hw-collage-tile">
+                  {{ partial "partner/logo.html" (dict "src" .src "alt" .alt "class" "" "loading" "eager") }}
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
       </div>
     </div>
   </section>
 
+  <!-- The three tiers -->
+  {{ with $content.more }}
+    <section class="hw-why py-5">
+      <div class="container">
+        <div class="row g-4 text-center">
+          {{ range $tier := slice (dict "data" .certified "icon" "bi-patch-check") (dict "data" .native "icon" "bi-crosshair") (dict "data" .works_with "icon" "bi-check2-circle") }}
+            {{ with $tier.data }}
+              <div class="col-md-4">
+                <a class="hw-tier d-block text-decoration-none" href="{{ partial "url.html" (dict "url" .url) }}">
+                  <div class="hw-why-icon"><i class="bi {{ $tier.icon }}" aria-hidden="true"></i></div>
+                  <h2 class="h5">{{ .title }}</h2>
+                  <p class="text-body-secondary mb-0">{{ .description }}</p>
+                </a>
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  <!-- QField Certified -->
   <section id="certified" class="py-5" style="scroll-margin-top: 5rem;">
     <div class="container">
       {{ with $content.certified }}
-        <h2 class="h4 mb-2" style="color: var(--qfield-color);">{{ .title }}</h2>
+        <p class="hw-eyebrow text-center mb-2">Tested by the QField team</p>
+        <h2 class="text-center mb-3">{{ .title }}</h2>
         {{ with .description }}
-          <p class="text-muted">{{ . | markdownify }}</p>
+          <p class="hw-section-intro text-center text-body-secondary">{{ . | markdownify }}</p>
         {{ end }}
       {{ end }}
       {{ with $content.note }}
-        <p class="text-muted small mb-4">{{ . | markdownify }}</p>
+        <p class="text-center small text-body-secondary mb-5">
+          <i class="bi bi-heart-fill me-1" style="color: var(--qfield-color);" aria-hidden="true"></i>{{ . | markdownify }}
+        </p>
       {{ end }}
       {{ partial "hardware/device-cards.html" (dict "devices" $certifiedDevices "tier" "certified" "empty" "Certified devices will appear here as soon as they are published.") }}
     </div>
   </section>
 
   <!-- QField Native RTK devices, listed below the certified cards -->
-  <section id="native" class="py-5 border-top bg-body-tertiary" style="scroll-margin-top: 5rem;">
+  <section id="native" class="hw-tinted py-5" style="scroll-margin-top: 5rem;">
     <div class="container">
       {{ with $content.native }}
-        <h2 class="h4 mb-2" style="color: var(--qfield-color);">{{ .title | default "QField Native RTK devices" }}</h2>
+        <p class="hw-eyebrow text-center mb-2">No extra app needed</p>
+        <h2 class="text-center mb-3">{{ .title | default "QField Native RTK devices" }}</h2>
         {{ with .intro.description }}
-          <p class="text-muted">{{ . | markdownify }}</p>
+          <p class="hw-section-intro text-center text-body-secondary">{{ . | markdownify }}</p>
         {{ end }}
         {{ with .intro.details }}
-          <div class="text-muted small mb-4">{{ . | markdownify }}</div>
+          <div class="hw-section-intro text-center small text-body-secondary mb-5">{{ . | markdownify }}</div>
         {{ end }}
       {{ end }}
       {{ partial "hardware/device-list.html" (dict "devices" $nativeDevices "tier" "native" "empty" "QField Native RTK devices will be listed here soon.") }}
     </div>
   </section>
 
-  {{ with $content.more }}
-    {{ partial "hardware/other-types.html" (slice .works_with) }}
+  <!-- Cross-link to the Works with QField tier -->
+  {{ with $content.more.works_with }}
+    <section class="hw-cta">
+      <div class="container">
+        <div class="hw-cta-box text-center">
+          <i class="bi bi-check2-circle hw-cta-icon" aria-hidden="true"></i>
+          <h2 class="mb-3">Looking for another device?</h2>
+          <p class="lead mb-4">{{ .description }}</p>
+          <a href="{{ partial "url.html" (dict "url" .url) }}" class="btn btn-light rounded-pill px-5 py-2 fw-semibold">{{ .text }}</a>
+        </div>
+      </div>
+    </section>
   {{ end }}
+
+</div>
 {{ end }}
