@@ -1356,6 +1356,162 @@ html {
     box-shadow: var(--hw-card-shadow);
   }
 
+  // ----- Solutions (/solutions/ and its SEO pages) -----
+  // Long SEO titles: smaller than the other heroes
+  .solution-title {
+    font-size: clamp(2rem, 3.6vw, 2.9rem);
+  }
+
+  .solution-breadcrumb {
+    font-size: 0.9rem;
+    color: var(--bs-secondary-color);
+
+    a {
+      color: var(--qfield-color);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    span {
+      margin: 0 0.35rem;
+    }
+  }
+
+  .solution-tagline {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .solution-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: flex;
+      gap: 0.6rem;
+      align-items: baseline;
+      margin-bottom: 0.6rem;
+    }
+
+    i {
+      flex-shrink: 0;
+    }
+  }
+
+  .solution-list--pains i {
+    color: var(--bs-secondary-color);
+  }
+
+  .solution-list--proof i {
+    color: var(--qfield-color);
+  }
+
+  .solution-content {
+    max-width: 50rem;
+
+    h2 {
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .solution-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .solution-tag {
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    background: var(--hw-tint);
+    font-size: 0.8rem;
+  }
+
+  .solution-faq {
+    max-width: 50rem;
+  }
+
+  .solution-faq__item {
+    background: var(--hw-card-bg);
+    border: 1px solid var(--hw-card-border);
+    border-radius: 1rem;
+    margin-bottom: 0.75rem;
+    padding: 1rem 1.25rem;
+
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &::after {
+        content: '+';
+        color: var(--qfield-color);
+        font-weight: 700;
+      }
+    }
+
+    &[open] summary {
+      margin-bottom: 0.75rem;
+
+      &::after {
+        content: '−';
+      }
+    }
+
+    &[open] {
+      border-color: var(--qfield-color);
+    }
+  }
+
+  .solution-chip {
+    padding: 0.35rem 0.9rem;
+    border: 1px solid var(--qfield-color);
+    border-radius: 999px;
+    color: var(--qfield-color);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover,
+    &:focus {
+      background: var(--qfield-color);
+      color: #fff;
+    }
+  }
+
+  .solution-count {
+    font-size: 0.9rem;
+    font-weight: 600;
+    vertical-align: middle;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    background: var(--hw-tint);
+    color: var(--qfield-color);
+  }
+
+  .solution-card-link {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      border-color: var(--qfield-color);
+    }
+  }
+
   // Logo tiles in a collage: see-through white, like the single large logo tile
   .hw-collage-tile--logo {
     display: flex;

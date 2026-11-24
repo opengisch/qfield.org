@@ -12,52 +12,10 @@
 {{ $cards := slice }}
 {{ $placeholderImagePath := "images/ss-placeholder.webp" }}
 {{ range $displayPages }}
-  {{ $isFeatured := .Params.featured }}
-  {{ $imagePath := default "" .Params.image }}
-  {{ if .Params.images }}
-    {{ $firstImage := index .Params.images 0 }}
-    {{ $imagePath = $firstImage }}
-  {{ end }}
-  {{ $isExternal := or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") }}
-  {{ $resolvedImage := "" }}
-  {{ if $isExternal }}
-    {{ $resolvedImage = $imagePath }}
-  {{ else }}
-    {{ if ne $imagePath "" }}
-      {{ $bundleImage := .Resources.GetMatch $imagePath }}
-      {{ if not $bundleImage }}
-        {{ $bundleImage = .Resources.GetMatch (printf "**/%s" (path.Base $imagePath)) }}
-      {{ end }}
-      {{ with $bundleImage }}
-        {{ $resolvedImage = .RelPermalink }}
-      {{ end }}
-    {{ end }}
-
-    {{ if and (eq $resolvedImage "") (ne $imagePath "") }}
-      {{ $staticCandidate := $imagePath }}
-      {{ $hasLeadingSlash := hasPrefix $staticCandidate "/" }}
-      {{ if and (not $hasLeadingSlash) (not (hasPrefix $staticCandidate "images/")) }}
-        {{ $staticCandidate = printf "images/ss/%s" $staticCandidate }}
-      {{ end }}
-      {{ $staticImagePath := printf "static/%s" (replaceRE "^/" "" $staticCandidate) }}
-      {{ if fileExists $staticImagePath }}
-        {{ $resolvedImage = $staticCandidate | relURL }}
-      {{ end }}
-    {{ end }}
-
-    {{ if eq $resolvedImage "" }}
-      {{ $pageImages := .Resources.ByType "image" }}
-      {{ if gt (len $pageImages) 0 }}
-        {{ $firstImage := index $pageImages 0 }}
-        {{ $resolvedImage = $firstImage.RelPermalink }}
-      {{ end }}
-    {{ end }}
-
-    {{ if eq $resolvedImage "" }}
-      {{ $resolvedImage = $placeholderImagePath | relURL }}
-    {{ end }}
-  {{ end }}
-  {{ $cards = $cards | append (dict "page" . "image" $resolvedImage "featured" $isFeatured "placeholder" (eq $resolvedImage ($placeholderImagePath | relURL))) }}
+  {{ $resolvedImage := partial "success-stories/image-url.html" . }}
+  {{ $isPlaceholder := eq $resolvedImage "" }}
+  {{ if $isPlaceholder }}{{ $resolvedImage = $placeholderImagePath | relURL }}{{ end }}
+  {{ $cards = $cards | append (dict "page" . "image" $resolvedImage "featured" .Params.featured "placeholder" $isPlaceholder) }}
 {{ end }}
 
 {{- /* Hero collage: the stories listed in `heroStories` (folder names), otherwise

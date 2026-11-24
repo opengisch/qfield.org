@@ -1,0 +1,39 @@
+{{- /* Returns the URL of a success story's main image, or "" when it has none.
+       Looks at params.images[0], then params.image (page bundle, then static/images/ss/),
+       then the first image in the page bundle. */ -}}
+{{- $page := . -}}
+{{- $imagePath := default "" $page.Params.image -}}
+{{- if $page.Params.images -}}
+  {{- $imagePath = index $page.Params.images 0 -}}
+{{- end -}}
+{{- $resolvedImage := "" -}}
+{{- if or (hasPrefix $imagePath "http://") (hasPrefix $imagePath "https://") -}}
+  {{- $resolvedImage = $imagePath -}}
+{{- else -}}
+  {{- if ne $imagePath "" -}}
+    {{- $bundleImage := $page.Resources.GetMatch $imagePath -}}
+    {{- if not $bundleImage -}}
+      {{- $bundleImage = $page.Resources.GetMatch (printf "**/%s" (path.Base $imagePath)) -}}
+    {{- end -}}
+    {{- with $bundleImage -}}
+      {{- $resolvedImage = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if and (eq $resolvedImage "") (ne $imagePath "") -}}
+    {{- $staticCandidate := $imagePath -}}
+    {{- if and (not (hasPrefix $staticCandidate "/")) (not (hasPrefix $staticCandidate "images/")) -}}
+      {{- $staticCandidate = printf "images/ss/%s" $staticCandidate -}}
+    {{- end -}}
+    {{- if fileExists (printf "static/%s" (replaceRE "^/" "" $staticCandidate)) -}}
+      {{- $resolvedImage = $staticCandidate | relURL -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if eq $resolvedImage "" -}}
+    {{- with $page.Resources.ByType "image" -}}
+      {{- $resolvedImage = (index . 0).RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $resolvedImage -}}

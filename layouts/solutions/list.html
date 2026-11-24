@@ -1,88 +1,85 @@
 {{ define "main" }}
+{{- $pages := where site.RegularPages "Section" "solutions" -}}
 
-<!-- Solutions header -->
-<section class="section-spacing solutions-header">
-  <div class="container">
-    <div class="solutions-header-content mx-auto text-center">
-      <h1 class="solutions-header__title">{{ .Title }}</h1>
-      {{ with .Description }}
-      <p class="solutions-header__description">{{ . }}</p>
-      {{ end }}
-    </div>
-  </div>
-</section>
+{{- /* Unique categories, in order of first appearance */ -}}
+{{- $categories := slice -}}
+{{- range $pages -}}
+  {{- range .Params.categories -}}
+    {{- if not (in $categories .) }}{{ $categories = $categories | append . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
 
-<!-- Solutions grid -->
-<section class="section-spacing solutions-content">
-  <div class="container">
-    
-    {{ $pages := where .Site.RegularPages "Section" "solutions" }}
-    {{ $pages = where $pages "Params.draft" "!=" true }}
-    
-    {{ if gt (len $pages) 0 }}
-    
-    <!-- Get unique categories -->
-    {{ $categories := slice }}
-    {{ range $pages }}
-      {{ range .Params.categories }}
-        {{ if not (in $categories .) }}
-          {{ $categories = $categories | append . }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-    
-    {{ range $categories }}
-    {{ $category := . }}
-    {{ $categoryPages := where $pages "Params.categories" "intersect" (slice $category) }}
-    
-    <div class="solutions-category">
-      <h2 class="solutions-category__title">
-        {{ $category }}
-      </h2>
-      
-      <div class="row">
-        {{ range $categoryPages }}
-        <div class="col-md-4 solution-card-column">
-          <article class="solution-card">
-            <h3 class="solutions-card__title">
-              <a href="{{ .RelPermalink }}" class="solutions-card__title-link">
-                {{ .Title }}
+{{- /* Hero collage: four success stories with their own photo, featured first */ -}}
+{{- $heroTiles := slice -}}
+{{- with site.GetPage "/success-stories" -}}
+  {{- $stories := (where .Pages "Params.featured" true) | append (where .Pages "Params.featured" "ne" true) -}}
+  {{- range $story := $stories -}}
+    {{- if lt (len $heroTiles) 4 -}}
+      {{- with partial "success-stories/image-url.html" $story -}}
+        {{- $heroTiles = $heroTiles | append (dict "url" $story.RelPermalink "image" .) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="hw-page hw-page--photos solution">
+
+  <!-- Hero -->
+  <section class="hw-hero" aria-labelledby="hero-heading">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h1 id="hero-heading" class="hw-hero-title mb-4">QField<br><span>{{ .Title }}.</span></h1>
+          {{ with .Description }}<p class="lead mb-4">{{ . }}</p>{{ end }}
+          {{ with $categories }}
+          <nav aria-label="Solution categories" class="d-flex flex-wrap gap-2">
+            {{ range . }}
+              <a class="solution-chip" href="#{{ urlize . }}">{{ . }}</a>
+            {{ end }}
+          </nav>
+          {{ end }}
+        </div>
+        {{ with $heroTiles }}
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="hw-collage">
+            {{ range . }}
+              <a class="hw-collage-tile" href="{{ .url }}">
+                <img src="{{ .image }}" alt="" loading="eager">
               </a>
-            </h3>
-            
-            {{ with .Params.description }}
-            <p class="solution-card__summary">
-              {{ . }}
-            </p>
             {{ end }}
-            
-            {{ if .Params.tags }}
-            <div class="solutions-card__tags">
-              {{ range first 3 .Params.tags }}
-              <span class="solutions-card__tag">
-                {{ . }}
-              </span>
-              {{ end }}
-            </div>
-            {{ end }}
-            
-            <a href="{{ .RelPermalink }}" class="solution-card__link">
-              Learn more →
-            </a>
-          </article>
+          </div>
         </div>
         {{ end }}
       </div>
     </div>
-    {{ end }}
-    
-    {{ else }}
-    <div class="solutions-empty">
-      <p class="solutions-empty__message">No solutions available yet.</p>
-    </div>
-    {{ end }}
-    
-  </div>
-</section>
+  </section>
 
+  <!-- Solutions by category -->
+  {{ range $i, $category := $categories }}
+  {{- $categoryPages := where $pages "Params.categories" "intersect" (slice $category) -}}
+  <section id="{{ urlize $category }}" class="py-5{{ if modBool $i 2 | not }} hw-tinted{{ end }}" style="scroll-margin-top: 5rem;">
+    <div class="container">
+      <h2 class="mb-4">{{ $category }} <span class="solution-count">{{ len $categoryPages }}</span></h2>
+      <div class="row g-4">
+        {{ range $categoryPages }}
+        <div class="col-md-6 col-lg-4">
+          <a class="card hw-card solution-card-link h-100" href="{{ .RelPermalink }}">
+            <div class="card-body hw-card-body d-flex flex-column">
+              <h3 class="hw-card-title">{{ .Title }}</h3>
+              {{ with .Description }}<p class="text-body-secondary">{{ . }}</p>{{ end }}
+              <span class="hw-more mt-auto">Learn more <i class="bi bi-arrow-right" aria-hidden="true"></i></span>
+            </div>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ else }}
+  <section class="py-5">
+    <div class="container"><p class="text-center">No solutions available yet.</p></div>
+  </section>
+  {{ end }}
+
+</div>
 {{ end }}
