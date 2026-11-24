@@ -1230,6 +1230,7 @@ html {
   --hw-section-bg: rgba(128, 204, 40, 0.06);
   // Logo tiles: transparent in light mode; mostly opaque white in dark mode so dark logos stay legible
   --hw-glass-bg: transparent;
+  --hw-photo-tile-bg: rgba(255, 255, 255, 0.3);
   --hw-glass-shadow: none;
   --hw-logo-bg: var(--hw-visual-bg);
 
@@ -1264,7 +1265,8 @@ html {
     aspect-ratio: 1;
     border-radius: 1.5rem;
     overflow: hidden;
-    background: var(--hw-card-bg);
+    // !important: main.css strips backgrounds from every div:has(> img)
+    background: var(--hw-card-bg) !important;
     border: 2px solid var(--qfield-color);
     box-shadow: var(--hw-card-shadow);
     transition: transform 0.3s ease;
@@ -1316,7 +1318,7 @@ html {
     aspect-ratio: 4 / 3;
     padding: 4rem;
     border-radius: 2rem;
-    background: var(--hw-glass-bg);
+    background: var(--hw-glass-bg) !important; // see .hw-collage-tile
     box-shadow: var(--hw-glass-shadow);
     border: 2px solid var(--qfield-color);
     transform: rotate(-2deg);
@@ -1338,7 +1340,7 @@ html {
     aspect-ratio: auto;
     padding: 0;
     overflow: hidden;
-    background: #fff;
+    background: var(--hw-photo-tile-bg) !important; // see .hw-collage-tile
 
     img {
       display: block;
@@ -1352,7 +1354,7 @@ html {
     align-items: center;
     justify-content: center;
     padding: 1.75rem;
-    background: var(--hw-glass-bg);
+    background: var(--hw-glass-bg) !important; // see .hw-collage-tile
     box-shadow: var(--hw-glass-shadow);
 
     img {
@@ -1651,6 +1653,7 @@ html {
   --hw-tint: rgba(128, 204, 40, 0.18);
   --hw-section-bg: rgba(128, 204, 40, 0.08);
   --hw-glass-bg: rgba(255, 255, 255, 0.85);
+  --hw-photo-tile-bg: rgba(255, 255, 255, 0.85);
   --hw-glass-shadow: var(--hw-card-shadow);
   --hw-logo-bg: #fff;
 
