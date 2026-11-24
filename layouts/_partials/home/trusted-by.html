@@ -2,6 +2,7 @@
 {{- with $page.Params.trusted_by }}
   {{- $title := .title -}}
   {{- $logos := .logos | default (slice) -}}
+<div id="trusted-by">
   {{- if $title }}
 <section class="section-spacing text-center">
   <div class="container">
@@ -31,4 +32,5 @@
   </div>
 </section>
   {{- end }}
+</div>
 {{- end }}
