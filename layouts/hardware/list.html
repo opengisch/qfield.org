@@ -9,13 +9,7 @@
   {{- $lastWord := index $words (sub (len $words) 1) -}}
   {{- $leadWords := delimit (first (sub (len $words) 1) $words) " " -}}
 
-  {{- /* Device images for the hero collage, certified first. */ -}}
-  {{- $heroImages := slice -}}
-  {{- range (append $nativeDevices $certifiedDevices) -}}
-    {{- with .image -}}{{- $heroImages = $heroImages | append . -}}{{- end -}}
-  {{- end -}}
-
-<div class="hw-page">
+<div class="hw-page hw-page--photos">
 
   <!-- Hero -->
   <section class="hw-hero" aria-labelledby="hero-heading">
@@ -38,17 +32,28 @@
           </div>
           {{ partial "hardware/cta.html" $content.intro.cta }}
         </div>
-        {{ with first 4 $heroImages }}
-          <div class="col-lg-6 d-none d-lg-block">
-            <div class="hw-collage">
-              {{ range . }}
-                <div class="hw-collage-tile">
-                  {{ partial "partner/logo.html" (dict "src" .src "alt" .alt "class" "" "loading" "eager") }}
-                </div>
-              {{ end }}
+        <div class="col-lg-6 d-none d-lg-block">
+          {{- $fieldPhoto := "" -}}
+          {{- with site.GetPage "/success-stories/nibio-norway" -}}
+            {{- with .Resources.Get "nibio-field.jpg" -}}{{- $fieldPhoto = .RelPermalink -}}{{- end -}}
+          {{- end -}}
+          <div class="hw-collage">
+            <a class="hw-collage-tile hw-collage-tile--logo" href="#certified" aria-label="QField Certified">
+              <img src="{{ "images/logo_certified_qf.png" | relURL }}" alt="QField Certified" loading="eager">
+            </a>
+            {{ with $fieldPhoto }}
+            <div class="hw-collage-tile">
+              <img src="{{ . }}" alt="Field surveyor using a rugged tablet with QField in a forest" loading="eager">
             </div>
+            {{ end }}
+            <a class="hw-collage-tile hw-collage-tile--logo" href="#native" aria-label="QField Native RTK">
+              <img src="{{ "images/logo_native-rtk.png" | relURL }}" alt="QField Native RTK" loading="eager">
+            </a>
+            <a class="hw-collage-tile hw-collage-tile--logo" href="{{ partial "url.html" (dict "url" "/hardware/works-with/") }}" aria-label="Works with QField">
+              <img src="{{ "images/logo_work-with.png" | relURL }}" alt="Works with QField" loading="eager">
+            </a>
           </div>
-        {{ end }}
+        </div>
       </div>
     </div>
   </section>
