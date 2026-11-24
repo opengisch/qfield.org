@@ -1309,6 +1309,27 @@ html {
     }
   }
 
+  // Three-column collage (SDG page): offset the middle column instead of even tiles
+  .hw-collage--3 {
+    grid-template-columns: repeat(3, 1fr);
+
+    .hw-collage-tile:nth-child(even) {
+      transform: none;
+    }
+
+    .hw-collage-tile:nth-child(3n + 2) {
+      transform: translateY(2rem);
+    }
+
+    .hw-collage-tile:hover {
+      transform: translateY(-0.4rem) scale(1.02);
+    }
+
+    .hw-collage-tile:nth-child(3n + 2):hover {
+      transform: translateY(1.6rem) scale(1.02);
+    }
+  }
+
   .hw-why-icon {
     display: inline-flex;
     align-items: center;
@@ -1583,7 +1604,7 @@ html {
   }
 }
 
-// Success stories hero reuses the hardware collage; story photos crop from the centre
-.success-stories .hw-collage-tile img {
+// Photo collages (success stories, blog, SDGs) crop from the centre, not the right
+.hw-page--photos .hw-collage-tile img {
   object-position: center;
 }

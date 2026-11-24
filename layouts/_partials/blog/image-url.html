@@ -1,0 +1,31 @@
+{{- /* Returns the URL of a blog post's main image, or "" when it has none.
+       Looks at params.images[0], then cover.image, then image. */ -}}
+{{- $page := . -}}
+{{- $image := "" -}}
+{{- $imageURL := "" -}}
+{{- if $page.Params.images -}}
+  {{- $image = index $page.Params.images 0 -}}
+{{- else -}}
+  {{- with $page.Params.cover -}}
+    {{- with .image -}}{{- $image = . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if eq $image "" -}}
+  {{- with $page.Params.image -}}{{- $image = . -}}{{- end -}}
+{{- end -}}
+{{- if hasPrefix $image "/blog/wp-content/" -}}
+  {{- $image = replace $image "/blog/wp-content/" "/wp-content/" -}}
+{{- end -}}
+{{- if ne $image "" -}}
+  {{- $resource := $page.Resources.GetMatch $image -}}
+  {{- if $resource -}}
+    {{- $imageURL = $resource.RelPermalink -}}
+  {{- else if or (hasPrefix $image "http://") (hasPrefix $image "https://") -}}
+    {{- $imageURL = $image -}}
+  {{- else if hasPrefix $image "/" -}}
+    {{- $imageURL = $image | relURL -}}
+  {{- else -}}
+    {{- $imageURL = printf "%s%s" $page.RelPermalink $image -}}
+  {{- end -}}
+{{- end -}}
+{{- return $imageURL -}}

@@ -1,14 +1,41 @@
 {{ define "main" }}
 
+{{- /* Hero collage: the four latest posts that have an image. */ -}}
+{{ $heroPosts := slice }}
+{{ range $post := .Pages.ByDate.Reverse }}
+  {{ if lt (len $heroPosts) 4 }}
+    {{ with partial "blog/image-url.html" $post }}
+      {{ $heroPosts = $heroPosts | append (dict "url" $post.RelPermalink "image" .) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
 <!-- Section #1: title -->
-<section class="py-5 text-center bg-light mb-3">
-  <div class="container">
-    <h1 class="display-4 mb-4">QField Blog</h1>
-    <p class="lead mb-0">
-      Stay updated with the latest QField news, releases, tutorials, and insights from the field data collection community.
-    </p>
-  </div>
-</section>
+<div class="hw-page hw-page--photos mb-4">
+  <section class="hw-hero" aria-labelledby="hero-heading">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h1 id="hero-heading" class="hw-hero-title mb-4">QField<br><span>Blog.</span></h1>
+          <p class="lead mb-0">
+            Stay updated with the latest QField news, releases, tutorials, and insights from the field data collection community.
+          </p>
+        </div>
+        {{ with $heroPosts }}
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="hw-collage">
+            {{ range . }}
+            <a class="hw-collage-tile" href="{{ .url }}">
+              <img src="{{ .image }}" alt="" loading="eager">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</div>
 
 <!-- Blog posts grid -->
 <section class="py-1">
@@ -27,35 +54,10 @@
     <!-- Blog posts grid -->
     <div class="row g-4 blog-view blog-view--cards" id="blogViewGrid" data-blog-view-grid>
       {{ range $index, $page := $pages }}
-          {{ $image := "" }}
-          {{ $imageURL := "" }}
+          {{ $imageURL := partial "blog/image-url.html" $page }}
           {{ $alt := $page.Title }}
-          {{ if $page.Params.images }}
-            {{ $firstImage := index $page.Params.images 0 }}
-            {{ $image = $firstImage }}
-          {{ else }}
-            {{ with $page.Params.cover }}
-              {{ with .image }}{{ $image = . }}{{ end }}
-              {{ with .alt }}{{ $alt = . }}{{ end }}
-            {{ end }}
-          {{ end }}
-          {{ if eq $image "" }}
-            {{ with $page.Params.image }}{{ $image = . }}{{ end }}
-          {{ end }}
-          {{ if hasPrefix $image "/blog/wp-content/" }}
-            {{ $image = replace $image "/blog/wp-content/" "/wp-content/" }}
-          {{ end }}
-          {{ if ne $image "" }}
-            {{ $resource := $page.Resources.GetMatch $image }}
-            {{ if $resource }}
-              {{ $imageURL = $resource.RelPermalink }}
-            {{ else if or (hasPrefix $image "http://") (hasPrefix $image "https://") }}
-              {{ $imageURL = $image }}
-            {{ else if hasPrefix $image "/" }}
-              {{ $imageURL = $image | relURL }}
-            {{ else }}
-              {{ $imageURL = printf "%s%s" $page.RelPermalink $image }}
-            {{ end }}
+          {{ if not $page.Params.images }}
+            {{ with $page.Params.cover }}{{ with .alt }}{{ $alt = . }}{{ end }}{{ end }}
           {{ end }}
           <div class="col-md-6 col-lg-4 col-blog-card">
             <article class="card blog-card h-100 border-0 shadow-sm{{ if $imageURL }} blog-card--has-image{{ else }} blog-card--no-image{{ end }}">

@@ -1,8 +1,32 @@
 {{ define "main" }}
 
-<section class="section-spacing text-center">
-  <h1>{{ .Params.claim | default .Title }}</h1>
-</section>
+{{- /* Hero title with its last word in QField green */ -}}
+{{ $words := split (.Params.claim | default .Title) " " }}
+{{ $lastWord := index $words (sub (len $words) 1) }}
+{{ $leadWords := delimit (first (sub (len $words) 1) $words) " " }}
+
+<div class="hw-page hw-page--photos">
+  <section class="hw-hero" aria-labelledby="hero-heading">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h1 id="hero-heading" class="hw-hero-title mb-0">{{ $leadWords }} <span>{{ $lastWord }}.</span></h1>
+        </div>
+        {{ with hugo.Data.sdgs.items }}
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="hw-collage hw-collage--3">
+            {{ range . }}
+            <a class="hw-collage-tile" href="#sdg-{{ .id }}" aria-label="{{ .title }}">
+              <img src="{{ .img | relURL }}" alt="" loading="eager">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</div>
 
 <section id="sdgs" class="section-spacing text-justify">
   <div class="container mt-4" style="max-width:1140px">
