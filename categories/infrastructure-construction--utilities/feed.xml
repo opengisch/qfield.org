@@ -52,7 +52,26 @@
 </ul>
 <h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud</h2>
 <p>One workflow from office planning to field execution and back, without data loss.</p>
-]]></content:encoded><category domain="categories">Infrastructure, Construction &amp; Utilities</category><category domain="tags">mobile GIS</category><category domain="tags">field data collection</category><category domain="tags">QGIS fieldwork</category><category domain="tags">telecom</category><category domain="tags">FTTH</category><category domain="tags">network as-built</category></item><item><title>QField for Gas and Pipeline Networks</title><link>https://qfield.org/solutions/gas-and-pipeline-networks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/gas-and-pipeline-networks/</guid><description>Pipeline routing, as-built capture, and integrity inspections with offline mobile GIS.</description><content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+]]></content:encoded><category domain="categories">Infrastructure, Construction &amp; Utilities</category><category domain="tags">mobile GIS</category><category domain="tags">field data collection</category><category domain="tags">QGIS fieldwork</category><category domain="tags">telecom</category><category domain="tags">FTTH</category><category domain="tags">network as-built</category></item><item><title>QField for Fibre to the Home</title><link>https://qfield.org/solutions/fibre-to-the-home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/fibre-to-the-home/</guid><description>Plan, construct, and document FTTH networks with geospatial accuracy.</description><content:encoded><![CDATA[<h2 id="who-this-is-for">Who this is for</h2>
+<p>Network planners, construction crews, and QA teams delivering last-mile fibre. Keep planning, build, and as-built documentation aligned across office and field.</p>
+<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Plan and <strong>stake out</strong> trench routes, cabinets, splitters, and drops</li>
+<li>Collect <strong>as-built</strong> geometries with attributes and photo evidence</li>
+<li>Validate constraints (IDs, port counts, splice rules) with <strong>smart forms</strong></li>
+<li>Work <strong>offline</strong> on site; sync changes and comments when back online</li>
+<li>Export clean deliverables for GIS/asset systems</li>
+</ul>
+<h2 id="workflow">Workflow</h2>
+<ol>
+<li><strong>Plan in QGIS:</strong> layers for ducts, cables, chambers, OLT/ONT, rules and styles</li>
+<li><strong>Build with QField:</strong> capture as-built lines/points, attach photos and notes</li>
+<li><strong>QA &amp; Handover:</strong> review in QFieldCloud, resolve conflicts, export to PostGIS/GeoPackage</li>
+</ol>
+<h2 id="next-steps">Next steps</h2>
+<p><strong>→ See a FTTH sample project:</strong> <a href="https://docs.qfield.org/get-started/sample-projects/" target="_blank" rel="noopener">https://docs.qfield.org/get-started/sample-projects/</a>
+</p>
+]]></content:encoded><category domain="categories">Infrastructure, Construction &amp; Utilities</category></item><item><title>QField for Gas and Pipeline Networks</title><link>https://qfield.org/solutions/gas-and-pipeline-networks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/gas-and-pipeline-networks/</guid><description>Pipeline routing, as-built capture, and integrity inspections with offline mobile GIS.</description><content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
 <ul>
 <li>Route planning and wayleaves documentation</li>
 <li>As-built capture for new segments</li>

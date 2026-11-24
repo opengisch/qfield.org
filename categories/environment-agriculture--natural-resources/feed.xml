@@ -145,7 +145,26 @@
 </ul>
 <p>Looking for the broader picture? See <a href="/solutions/forestry-and-silviculture/">QField for forestry and silviculture →</a>
 .</p>
-]]></content:encoded><category domain="categories">Environment, Agriculture &amp; Natural Resources</category><category domain="tags">forest inventory</category><category domain="tags">plot sampling</category><category domain="tags">tree inventory</category><category domain="tags">DBH</category><category domain="tags">stand mapping</category><category domain="tags">mobile GIS</category><category domain="tags">QGIS fieldwork</category><category domain="tags">forest cruising</category><category domain="tags">offline forest inventory</category><category domain="tags">species coding</category><category domain="tags">forestry data collection</category></item><item><title>QField for Forestry and Silviculture</title><link>https://qfield.org/solutions/forestry-and-silviculture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/forestry-and-silviculture/</guid><description>Offline forest inventory, plot sampling, silviculture operations, and habitat mapping with QField, QGIS, and QFieldCloud.</description><content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+]]></content:encoded><category domain="categories">Environment, Agriculture &amp; Natural Resources</category><category domain="tags">forest inventory</category><category domain="tags">plot sampling</category><category domain="tags">tree inventory</category><category domain="tags">DBH</category><category domain="tags">stand mapping</category><category domain="tags">mobile GIS</category><category domain="tags">QGIS fieldwork</category><category domain="tags">forest cruising</category><category domain="tags">offline forest inventory</category><category domain="tags">species coding</category><category domain="tags">forestry data collection</category></item><item><title>QField for Forestry</title><link>https://qfield.org/solutions/qfield-for-forestry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/qfield-for-forestry/</guid><description>Offline tree inventory, QA in the field, and conflict-free sync.</description><content:encoded><![CDATA[<h2 id="who-this-is-for">Who this is for</h2>
+<p>Field crews, forest managers, and consultants who need reliable data capture in remote areas. QField pairs with QGIS so office and field use the same project, symbology, and rules.</p>
+<h2 id="what-you-can-do">What you can do</h2>
+<ul>
+<li>Capture trees, stands, plots, transects with <strong>guided forms</strong> and validation</li>
+<li>Work <strong>fully offline</strong> with maps, forms, and basemaps on the device</li>
+<li>Attach <strong>photos/sketches/notes</strong> to features for QA and evidence</li>
+<li>Use <strong>high-accuracy GNSS</strong> and see live accuracy readouts</li>
+<li><strong>Stake out</strong>, snap, and edit geometries confidently</li>
+<li>Sync safely with <strong>QFieldCloud</strong>; review, comment, and merge</li>
+</ul>
+<h2 id="workflow">Workflow</h2>
+<ol>
+<li><strong>Prepare in QGIS:</strong> data model, smart forms (constraints, defaults), symbology, offline basemaps</li>
+<li><strong>Survey in QField:</strong> fast forms, media capture, optional survey-grade GNSS</li>
+<li><strong>Review in QFieldCloud:</strong> conflict-safe merges, audit trail, exports to GeoPackage/PostGIS</li>
+</ol>
+<h2 id="next-steps">Next steps</h2>
+<p><strong>→ Start with a template:</strong> /download/forestry-template/</p>
+]]></content:encoded><category domain="categories">Environment, Agriculture &amp; Natural Resources</category></item><item><title>QField for Forestry and Silviculture</title><link>https://qfield.org/solutions/forestry-and-silviculture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/forestry-and-silviculture/</guid><description>Offline forest inventory, plot sampling, silviculture operations, and habitat mapping with QField, QGIS, and QFieldCloud.</description><content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
 <p>QField is used across the full span of forestry fieldwork:</p>
 <ul>
 <li><a href="/solutions/forest-inventory/">Forest inventory and plot sampling</a>

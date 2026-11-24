@@ -937,7 +937,7 @@ html {
   --hw-glass-bg: transparent;
   --hw-photo-tile-bg: rgba(255, 255, 255, 0.3);
   --hw-glass-shadow: none;
-  --hw-logo-bg: var(--hw-visual-bg); }
+  --hw-logo-bg: #fff; }
   .hw-page .hw-hero {
     position: relative;
     padding: 5rem 0;
@@ -1156,7 +1156,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--hw-visual-bg);
+    background: var(--hw-visual-bg) !important;
     overflow: hidden; }
     .hw-page .hw-partner-visual img {
       width: 100%;
@@ -1167,7 +1167,9 @@ html {
       transition: transform 0.5s ease; }
   .hw-page .hw-partner-visual--logo {
     padding: 3rem;
-    background: var(--hw-logo-bg); }
+    background: var(--hw-logo-bg) !important;
+    border: 2px solid var(--qfield-color);
+    border-radius: 1.75rem; }
     .hw-page .hw-partner-visual--logo img {
       width: auto;
       height: auto;
@@ -1254,7 +1256,7 @@ html {
   .hw-page .hw-card-img {
     aspect-ratio: 4 / 3;
     overflow: hidden;
-    background: var(--hw-visual-bg); }
+    background: var(--hw-visual-bg) !important; }
     .hw-page .hw-card-img img {
       width: 100%;
       height: 100%;
@@ -1272,7 +1274,7 @@ html {
   .hw-page .hw-list-thumb {
     width: 160px;
     max-width: 100%;
-    background: var(--hw-visual-bg); }
+    background: var(--hw-visual-bg) !important; }
   .hw-page .hw-cta {
     padding: 2rem 0 5rem; }
   .hw-page .hw-cta-box {

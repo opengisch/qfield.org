@@ -245,7 +245,7 @@
 <h2 id="next-steps">Next steps</h2>
 <p><strong>→ See a FTTH sample project:</strong> <a href="https://docs.qfield.org/get-started/sample-projects/" target="_blank" rel="noopener">https://docs.qfield.org/get-started/sample-projects/</a>
 </p>
-]]></content:encoded></item><item><title>QField for Fisheries and Marine Resource Management</title><link>https://qfield.org/solutions/fisheries-and-marine-resource-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/fisheries-and-marine-resource-management/</guid><description>Mobile GIS for fisheries surveys, coastal monitoring, and marine resource mapping.</description><content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
+]]></content:encoded><category domain="categories">Infrastructure, Construction &amp; Utilities</category></item><item><title>QField for Fisheries and Marine Resource Management</title><link>https://qfield.org/solutions/fisheries-and-marine-resource-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/fisheries-and-marine-resource-management/</guid><description>Mobile GIS for fisheries surveys, coastal monitoring, and marine resource mapping.</description><content:encoded><![CDATA[<h2 id="what-you-can-do">What you can do</h2>
 <ul>
 <li>Fisheries surveys and logbooks</li>
 <li>Coastal habitat and erosion monitoring</li>
@@ -347,7 +347,7 @@
 </ol>
 <h2 id="next-steps">Next steps</h2>
 <p><strong>→ Start with a template:</strong> /download/forestry-template/</p>
-]]></content:encoded></item><item><title>QField for Forestry and Silviculture</title><link>https://qfield.org/solutions/forestry-and-silviculture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/forestry-and-silviculture/</guid><description>Offline forest inventory, plot sampling, silviculture operations, and habitat mapping with QField, QGIS, and QFieldCloud.</description><content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
+]]></content:encoded><category domain="categories">Environment, Agriculture &amp; Natural Resources</category></item><item><title>QField for Forestry and Silviculture</title><link>https://qfield.org/solutions/forestry-and-silviculture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/forestry-and-silviculture/</guid><description>Offline forest inventory, plot sampling, silviculture operations, and habitat mapping with QField, QGIS, and QFieldCloud.</description><content:encoded><![CDATA[<h2 id="field-workflows">Field workflows</h2>
 <p>QField is used across the full span of forestry fieldwork:</p>
 <ul>
 <li><a href="/solutions/forest-inventory/">Forest inventory and plot sampling</a>
