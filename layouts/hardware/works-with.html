@@ -6,22 +6,33 @@
   {{- /* All tiers (certified first, then native, then works-with). */ -}}
   {{- $devices := append (where $all "level" "works-with") (append (where $all "level" "native") (where $all "level" "certified")) -}}
 
-  <section class="py-5 border-bottom bg-body-tertiary">
-    <div class="container">
-      <div class="row align-items-center g-4">
-        <div class="col-lg-8">
-          <h1 class="display-5 fw-semibold mb-3">{{ $worksWith.title | default .Title }}</h1>
-          {{ with $worksWith.intro.description }}
-            <p class="lead mb-3">{{ . | markdownify }}</p>
-          {{ end }}
-          {{ with $worksWith.intro.details }}
-            <div class="text-muted">{{ . | markdownify }}</div>
-          {{ end }}
-          {{ partial "hardware/cta.html" $content.intro.cta }}
+  {{- /* Hero title with its last word in QField green */ -}}
+  {{- $words := split ($worksWith.title | default .Title) " " -}}
+  {{- $lastWord := index $words (sub (len $words) 1) -}}
+  {{- $leadWords := delimit (first (sub (len $words) 1) $words) " " -}}
+  <div class="hw-page">
+    <section class="hw-hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <h1 id="hero-heading" class="hw-hero-title mb-4">{{ $leadWords }}<br><span>{{ $lastWord }}.</span></h1>
+            {{ with $worksWith.intro.description }}
+              <p class="lead mb-3">{{ . | markdownify }}</p>
+            {{ end }}
+            {{ with $worksWith.intro.details }}
+              <div class="text-body-secondary">{{ . | markdownify }}</div>
+            {{ end }}
+            {{ partial "hardware/cta.html" $content.intro.cta }}
+          </div>
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="hw-feature-tile">
+              <img src="{{ "images/logo_work-with.png" | relURL }}" alt="Works with QField" loading="eager">
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <section class="py-5">
     <div class="container">
