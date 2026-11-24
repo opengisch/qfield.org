@@ -33,19 +33,13 @@
           {{ partial "hardware/cta.html" $content.intro.cta }}
         </div>
         <div class="col-lg-6 d-none d-lg-block">
-          {{- $fieldPhoto := "" -}}
-          {{- with site.GetPage "/success-stories/nibio-norway" -}}
-            {{- with .Resources.Get "nibio-field.jpg" -}}{{- $fieldPhoto = .RelPermalink -}}{{- end -}}
-          {{- end -}}
           <div class="hw-collage">
             <a class="hw-collage-tile hw-collage-tile--logo" href="#certified" aria-label="QField Certified">
               <img src="{{ "images/logo_certified_qf.png" | relURL }}" alt="QField Certified" loading="eager">
             </a>
-            {{ with $fieldPhoto }}
-            <div class="hw-collage-tile">
-              <img src="{{ . }}" alt="Field surveyor using a rugged tablet with QField in a forest" loading="eager">
-            </div>
-            {{ end }}
+            <a class="hw-collage-tile" href="#happy-mini-q" aria-label="Happy Mini Q">
+              <img src="{{ "images/partners/happy-mini-q.jpg" | relURL }}" alt="Happy Mini Q GNSS receiver" loading="eager">
+            </a>
             <a class="hw-collage-tile hw-collage-tile--logo" href="#native" aria-label="QField Native RTK">
               <img src="{{ "images/logo_native-rtk.png" | relURL }}" alt="QField Native RTK" loading="eager">
             </a>
