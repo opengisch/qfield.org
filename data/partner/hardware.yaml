@@ -5,7 +5,7 @@
 - id: happy-survey
   name: Happy Survey
   logo:
-    src: "images/partners/happy-mini-q.jpg"
+    src: "images/partners/happy-survey-logo.png"
     alt: "Happy Survey"
   description: |
     Swiss maker of the HAPPY MiniQ and HAPPY Mönch GNSS receivers — compact, high-precision positioning devices with IMU, built to work seamlessly with QField.
@@ -15,7 +15,7 @@
 - id: samsung
   name: Samsung
   logo:
-    src: "https://images.samsung.com/is/image/samsung/p6pim/uk/feature/165074157/uk-feature-tablets-540309214?$FB_TYPE_K_JPG$"
+    src: "images/partners/samsung-logo.svg"
     alt: "Samsung"
   description: |
     Maker of the rugged Galaxy Tab Active and XCover series — MIL-STD-810H tablets and smartphones designed to keep QField running in the harshest field conditions.

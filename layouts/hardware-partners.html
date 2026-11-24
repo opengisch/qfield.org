@@ -11,6 +11,7 @@
   {{- end -}}
 {{- end -}}
 
+
 <div class="hw-page">
 
   <!-- Hero -->
@@ -95,7 +96,7 @@
         {{- $visual := $partner.logo -}}
         <article class="hw-partner row g-0 align-items-stretch mb-5{{ if modBool $i 2 | not }} flex-lg-row-reverse{{ end }}" id="{{ $partner.id }}">
           <div class="col-lg-5">
-            <div class="hw-partner-visual h-100">
+            <div class="hw-partner-visual hw-partner-visual--logo h-100">
               {{ with $visual }}
                 {{ partial "partner/logo.html" (dict "src" .src "alt" (.alt | default $partner.name) "class" "" ) }}
               {{ end }}
